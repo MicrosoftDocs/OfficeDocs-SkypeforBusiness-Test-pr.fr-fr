@@ -237,7 +237,7 @@ Bandwidth Utilization Analyzer inclut les deux applications (outils) suivantes 
 
   - **WanLinkLogCollector.exe**   Cet outil permet de saisir les informations utiles.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  Un rapport Microsoft Excel est généré automatiquement par WanLinkLogCollector.exe. Cette application permet à l’utilisateur d’appliquer des filtres au rapport, comme indiqué plus loin dans cet article.
+  - **BandwidthUtilizationAnalyzer.xlsm**  Un rapport Microsoft Excel est généré automatiquement par WanLinkLogCollector.exe. Cette application permet à l’utilisateur d’appliquer des filtres au rapport, comme indiqué plus loin dans cet article.
 
 ## Phases d’utilisation de Bandwidth Utilization Analyzer
 
@@ -289,9 +289,9 @@ La définition de la chronologie permet à l’utilisateur de l’outil de spéc
 
 Les répertoires de fichiers suivants peuvent être spécifiés par l’utilisateur, comme indiqué.
 
-  - **Emplacement des fichiers journaux du serveur ** Dossier de stockage des journaux de serveur de la stratégie de bande passante (généralement \<serveur de fichiers\>\\\<serveur frontal\>\\AppServerFiles\\PDP.
+  - **Emplacement des fichiers journaux du serveur** Dossier de stockage des journaux de serveur de la stratégie de bande passante (généralement \<serveur de fichiers\>\\\<serveur frontal\>\\AppServerFiles\\PDP.
 
-  - **Emplacement de stockage des fichiers temporaires ** Emplacement des fichiers temporaires dans lequel les fichiers intermédiaires sont stockés pendant la génération du rapport.
+  - **Emplacement de stockage des fichiers temporaires** Emplacement des fichiers temporaires dans lequel les fichiers intermédiaires sont stockés pendant la génération du rapport.
 
 ![Répertoires de fichiers dans Bandwidth Utilization Anal](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Répertoires de fichiers dans Bandwidth Utilization Anal")
 
