@@ -85,18 +85,8 @@ L’outil ABSConfig peut être démarré à l’aide du fichier absConfig.exe. I
 
 Dans l’outil Lync Server 2013 ABS Configuration, les attributs (lignes) peuvent être supprimés en désactivant la case à cocher Enable (Activer) correspondante. Cela revient à supprimer la ligne dans Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La case à cocher Enable (Activer) se trouve dans la première colonne à droite. Vous devrez peut-être faire défiler la page vers la droite pour afficher la colonne.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> La case à cocher Enable (Activer) se trouve dans la première colonne à droite. Vous devrez peut-être faire défiler la page vers la droite pour afficher la colonne.
 
 
 ## Sortie
@@ -165,18 +155,8 @@ L’onglet **Machine Info (Informations sur l’ordinateur)** donne des informat
 
 L’onglet **Topology Info (Informations sur la topologie)** affiche la liste des liaisons configurées dans les paramètres de configuration du réseau. Pour chaque liaison, la capacité de bande passante audio et vidéo est indiquée. La bande passante actuellement utilisée est également indiquée, en Kbps et en pourcentage de la capacité. L’outil utilise des couleurs pour mettre en valeur les liaisons dont l’utilisation atteint presque la capacité maximale afin que les administrateurs puissent les isoler rapidement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si l’outil Bandwidth Policy Service Monitor rencontre des défaillances lorsqu’il se connecte aux services de stratégie de la bande passante configurés, aucune information n’apparaît sous les onglets <strong>Machine Info (Informations sur l’ordinateur)</strong> et <strong>Topology Info (Informations sur la topologie)</strong>. Il est toutefois possible que l’outil se connecte avant de perdre la connexion au service. En pareil cas, les administrateurs peuvent voir des informations obsolètes. Les onglets incluent des informations d’horodatage (<strong>Last Updated (Dernière mise à jour)</strong>) qui permettent aux administrateurs de voir les date/heure de la dernière mise à jour des données pour un service de stratégie de bande passante particulier.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Si l’outil Bandwidth Policy Service Monitor rencontre des défaillances lorsqu’il se connecte aux services de stratégie de la bande passante configurés, aucune information n’apparaît sous les onglets <strong>Machine Info (Informations sur l’ordinateur)</strong> et <strong>Topology Info (Informations sur la topologie)</strong>. Il est toutefois possible que l’outil se connecte avant de perdre la connexion au service. En pareil cas, les administrateurs peuvent voir des informations obsolètes. Les onglets incluent des informations d’horodatage (<strong>Last Updated (Dernière mise à jour)</strong>) qui permettent aux administrateurs de voir les date/heure de la dernière mise à jour des données pour un service de stratégie de bande passante particulier.
 
 
 ## Sortie
@@ -247,18 +227,8 @@ L’utilisation de Bandwidth Utilization Analyzer implique deux phases :
 
   - personnalisation des rapports, effectuée à l’aide de BandwidthUtilizationAnalyzer.xlsm.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il est recommandé que BandwidthUtilizationAnalyzer.xlsm ne soit pas démarré manuellement par les utilisateurs finaux.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Il est recommandé que BandwidthUtilizationAnalyzer.xlsm ne soit pas démarré manuellement par les utilisateurs finaux.
 
 
 ## Démarrage de Bandwidth Utilization Analyzer
@@ -295,18 +265,8 @@ Les répertoires de fichiers suivants peuvent être spécifiés par l’utilisat
 
 ![Répertoires de fichiers dans Bandwidth Utilization Anal](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Répertoires de fichiers dans Bandwidth Utilization Anal")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vérifiez que l’utilisateur de l’outil dispose d’un accès suffisant aux journaux de serveur et au dossier du magasin des fichiers temporaires.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Vérifiez que l’utilisateur de l’outil dispose d’un accès suffisant aux journaux de serveur et au dossier du magasin des fichiers temporaires.
 
 
 ## Étape 3 - Collecte des journaux et démarrage de la visionneuse de rapports
@@ -577,18 +537,8 @@ L’outil en ligne de commande DBAnalyze permet aux administrateurs de rassemble
 
   - **Diagnostic mode (Mode Diagnostic)**   Crée un rapport incluant des informations sur les tables (nombre d’enregistrements, fragmentation, taille des données et taille d’index), la taille des fichiers de données et des fichiers journaux, l’heure de la dernière sauvegarde, la répartition des contacts entre les serveurs exécutant Microsoft Office Communications Server, le nombre moyen d’autorisations, les contacts, les conteneurs, les abonnements, les publications, les points de terminaison par utilisateur, les éventuels utilisateurs hébergés de façon incorrecte, les utilisateurs ne pouvant pas être acheminés, le nombre moyen de conférences organisées par utilisateur, les conférences planifiées, les conférences actives et la version des bases de données.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’exécution du mode Diagnostic peut affecter les performances des serveurs.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > L’exécution du mode Diagnostic peut affecter les performances des serveurs.
 
 
   - **User data mode (Mode Données des utilisateurs)**   Transmet des données relatives au contact, au conteneur, à l’abonnement, à la publication, à l’autorisation et au groupe de contacts pour un utilisateur spécifié ou pour des utilisateurs ayant cet utilisateur dans leurs listes de contacts et d’autorisations. Ce mode transmet également des données résumées sur les conférences organisées par un utilisateur ou auxquelles il est invité.
@@ -627,18 +577,8 @@ Pour installer Dbanalyze.exe, copiez-le dans un dossier local, puis exécutez l�
 
 ![Tableau d’autorisations pour Dbanalyze.exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Tableau d’autorisations pour Dbanalyze.exe.")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un compte d’administrateur local est nécessaire pour le mode <strong>/report:disk</strong>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Un compte d’administrateur local est nécessaire pour le mode <strong>/report:disk</strong>.
 
 
 ## Exemples
@@ -678,18 +618,8 @@ Cet outil augmente la charge processeur et d’E/S sur le serveur frontal sur le
 
 Installez les outils du Kit de ressources Lync Server 2013. L’outil est exécuté sur les ordinateurs liés au domaine sur lesquels Lync Server et Lync Server Management Shell sont installés. Il utilise une applet de commande du Management Shell pour identifier tous les serveurs frontaux du pool. Il doit ensuite être exécuté à partir d’un ordinateur du pool sur lequel la base de données **RtcLocal** est installée. Cette base de données est utilisée par l’outil pour récupérer l’emplacement du partage de fichiers WEBSERVICE du pool. Avant d’utiliser l’outil, la communication à distance Windows PowerShell doit d’abord être activée à l’aide de **Enable-PSRemoting** sur chaque serveur frontal, ainsi que sur l’ordinateur sur lequel l’outil est exécuté, sans quoi les commandes Windows PowerShell distantes de cet outil échoueront. La communication à distance Windows PowerShell peut être désactivée sur tous les serveurs frontaux du pool lorsque vous avez terminé d’utiliser l’outil. Enfin, le compte ou les informations d’identification invoquant l’outil doivent avoir des autorisations en lecture/écriture sur le partage de fichiers WEBSERVICE du pool sur lequel ils exécutent cet outil, sans quoi l’outil échouera en raison d’erreurs relatives aux autorisations d’E/S.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La communication à distance Windows PowerShell est activée par défaut sur Windows Server 2012, mais pas sur le système d’exploitation Windows Server 2008.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> La communication à distance Windows PowerShell est activée par défaut sur Windows Server 2012, mais pas sur le système d’exploitation Windows Server 2008.
 
 
 ## Exemples
@@ -1127,50 +1057,20 @@ La version actuelle de SEFAUtil n’est qu’un outil en ligne de commande, sans
 
   - activer/désactiver/modifier les paramètres d’appel d’équipe ;
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nouveauté de l’outil Lync Server 2013 SEFAUtil</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Nouveauté de l’outil Lync Server 2013 SEFAUtil
 
 
   - activer/désactiver/modifier les paramètres de sonnerie simultanée (destination incluse) ;
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nouveauté de l’outil Lync Server 2013 SEFAUtil</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Nouveauté de l’outil Lync Server 2013 SEFAUtil
 
 
   - activer/désactiver/modifier les paramètres de prise d’appel de groupe.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nouveauté de l’outil Lync Server 2013 SEFAUtil</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!WARNING]
+    > Nouveauté de l’outil Lync Server 2013 SEFAUtil
 
 
 Cet outil présente les limitations suivantes :
@@ -1207,36 +1107,16 @@ L’outil SEFAUtil peut seulement être exécuté sur un ordinateur faisant part
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>UCMA 3.0 doit être installé sur les ordinateurs qui seront utilisés pour exécuter l’outil SEFAUtil.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > UCMA 3.0 doit être installé sur les ordinateurs qui seront utilisés pour exécuter l’outil SEFAUtil.
 
 
 2.  Une application approuvée doit être définie dans la topologie pour l’outil SEFAUtil. Pour définir SEFAUtil en tant que nouvelle application approuvée, utilisez Lync Server Management Shell et exécutez l’applet de commande suivante :
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Un autre port peut être utilisé au besoin.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Un autre port peut être utilisé au besoin.
 
 
 3.  Les modifications apportées à la topologie doivent être activées. Pour ce faire, exécutez l’applet de commande suivante dans Lync Server Management Shell :
@@ -1261,18 +1141,8 @@ L’activation complète de la fonctionnalité de prise d’appel de groupe néc
 
 La commande suivante affiche le traitement des appels pour l’utilisateur : `SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com`.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cet exemple utilise le commutateur <strong>/server</strong> pour spécifier le serveur Lync Server auquel se connecter.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Cet exemple utilise le commutateur <strong>/server</strong> pour spécifier le serveur Lync Server auquel se connecter.
 
 
 **Sortie**
@@ -1359,18 +1229,8 @@ Cet exemple modifie la règle de sonnerie simultanée définie dans l’exemple 
 
 Cet exemple supprime le délégué.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une fois le dernier délégué supprimé, la sonnerie sur le poste de délégués est désactivée automatiquement.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Une fois le dernier délégué supprimé, la sonnerie sur le poste de délégués est désactivée automatiquement.
 
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
@@ -1403,18 +1263,8 @@ Cet exemple active la sonnerie simultanée et définit un numéro de destination
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour modifier le numéro de destination de la sonnerie simultanée d’un utilisateur pour lequel la sonnerie simultanée est déjà activée, conservez la commande avec le commutateur /enablesimulring, sans quoi le numéro de destination ne sera pas modifié.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Pour modifier le numéro de destination de la sonnerie simultanée d’un utilisateur pour lequel la sonnerie simultanée est déjà activée, conservez la commande avec le commutateur /enablesimulring, sans quoi le numéro de destination ne sera pas modifié.
 
 
 **Sortie**
@@ -1446,18 +1296,8 @@ Cet exemple ajoute un membre d’équipe au groupe d’appel d’équipe d’un 
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’ajout d’un membre au groupe d’appel d’équipe d’un utilisateur définit automatiquement les paramètres de sonnerie simultanée des utilisateurs sur la sonnerie simultanée de son groupe d’appel d’équipe.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> L’ajout d’un membre au groupe d’appel d’équipe d’un utilisateur définit automatiquement les paramètres de sonnerie simultanée des utilisateurs sur la sonnerie simultanée de son groupe d’appel d’équipe.
 
 
 **Sortie**
@@ -1473,18 +1313,8 @@ Cet exemple supprime un membre d’équipe du groupe d’appel d’équipe d’u
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si le membre supprimé est le seul du groupe d’appel d’équipe, la sonnerie simultanée du groupe d’appel d’équipe est automatiquement désactivée.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Si le membre supprimé est le seul du groupe d’appel d’équipe, la sonnerie simultanée du groupe d’appel d’équipe est automatiquement désactivée.
 
 
 **Sortie**
@@ -1514,18 +1344,8 @@ Cet exemple active l’appel d’équipe pour un utilisateur donné.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>S’il n’y a aucun membre dans le groupe d’appel d’équipe de l’utilisateur, l’appel d’équipe ne sera pas activé.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> S’il n’y a aucun membre dans le groupe d’appel d’équipe de l’utilisateur, l’appel d’équipe ne sera pas activé.
 
 
 **Sortie**
@@ -1563,18 +1383,8 @@ Cet exemple désactive la prise d’appel de groupe pour un utilisateur donné.
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsque vous désactivez la prise d’appel de groupe pour un utilisateur, le numéro de groupe affecté à cet utilisateur n’est pas conservé. Si vous souhaitez ultérieurement réactiver la prise d’appel de groupe pour cet utilisateur, vous devez réaffecter le numéro de groupe avec le commutateur /enablegrouppickup.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lorsque vous désactivez la prise d’appel de groupe pour un utilisateur, le numéro de groupe affecté à cet utilisateur n’est pas conservé. Si vous souhaitez ultérieurement réactiver la prise d’appel de groupe pour cet utilisateur, vous devez réaffecter le numéro de groupe avec le commutateur /enablegrouppickup.
 
 
     User Aor: sip:katarina@contoso.com
@@ -1674,18 +1484,8 @@ Lorsqu’il est exécuté, le script Unassigned Number Announcements Migration e
 
 1.  Déplacer tous les fichiers audio utilisés par les annonces de numéros non attribués de l’application d’annonce hébergée sur le pool ou serveur source vers le magasin de fichiers du pool ou serveur de destination.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les fichiers audio sont supprimés du pool source une fois qu’ils sont copiés sur le pool de destination.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Les fichiers audio sont supprimés du pool source une fois qu’ils sont copiés sur le pool de destination.
 
 
 2.  Déplacer les annonces de numéros non attribués configurées pour l’application d’annonce hébergée dans le pool ou serveur source vers le pool ou serveur de destination.
@@ -1754,18 +1554,8 @@ Cet outil permet aux administrateurs d’effectuer les opérations suivantes :
 
 4.  Déplacer les données de conférence web associées à un utilisateur lorsque celui-ci est déplacé d’un pool vers un autre.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945587.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les outils du Kit de ressources pour Lync Server 2010 prenaient en charge le déplacement des données de conférence web associées à un utilisateur lorsque celui-ci est déplacé d’un pool vers un autre. Cette fonctionnalité a été supprimée de cet outil et remplacée par le paramètre <strong>MoveConferenceData</strong>. Pour plus d’informations sur ce paramètre, voir l’applet de commande <a href="https://technet.microsoft.com/fr-fr/library/gg398528(v=ocs.15)">Move-CsUser</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Les outils du Kit de ressources pour Lync Server 2010 prenaient en charge le déplacement des données de conférence web associées à un utilisateur lorsque celui-ci est déplacé d’un pool vers un autre. Cette fonctionnalité a été supprimée de cet outil et remplacée par le paramètre <strong>MoveConferenceData</strong>. Pour plus d’informations sur ce paramètre, voir l’applet de commande <a href="https://technet.microsoft.com/fr-fr/library/gg398528(v=ocs.15)">Move-CsUser</a>.
 
 
 L’outil supprime les données de réunion uniquement pour les réunions inactives. Les réunions actives (ou réunions en sessions) ne peuvent pas être supprimées.
