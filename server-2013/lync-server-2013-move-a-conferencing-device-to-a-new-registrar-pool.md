@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2013-02-20_
 
-Déplacez un dispositif de conférence depuis un pool de serveurs d’inscriptions vers un autre à l’aide de l’applet de commande **Move-CsMeetingRoom**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
+Déplacez un dispositif de conférence depuis un pool de serveurs d’inscriptions vers un autre à l’aide de l’applet de commande **move-csmeetingroom**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
 
 <table>
 <thead>
@@ -36,7 +36,7 @@ Déplacez un dispositif de conférence depuis un pool de serveurs d’inscriptio
 
   - Pour déplacer un dispositif de conférence, vous devez spécifier l’identité de la salle à déplacer, puis définir le paramètre Target sur le nom de domaine complet (FQDN) du pool de serveurs d’inscriptions vers lequel le dispositif sera déplacé. Exemple :
     
-        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Move-CsMeetingRoom](move-csmeetingroom.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom).
 

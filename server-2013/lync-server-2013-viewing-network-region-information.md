@@ -63,7 +63,7 @@ Vous pouvez également afficher des informations sur une région réseau à l’
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkRegion](get-csnetworkregion.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Voir aussi
 

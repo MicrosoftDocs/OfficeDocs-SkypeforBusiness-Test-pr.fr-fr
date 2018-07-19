@@ -52,5 +52,5 @@ Les paramètres de configuration de mise à jour des périphériques peuvent êt
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-Pour plus d’informations sur la modification des paramètres de configuration des périphériques existants, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md). Pour plus d’informations sur la création de collections de paramètres de configuration, voir la rubrique d’aide relative à l’applet de commande [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md).
+Pour plus d’informations sur la modification des paramètres de configuration des périphériques existants, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration). Pour plus d’informations sur la création de collections de paramètres de configuration, voir la rubrique d’aide relative à l’applet de commande [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration).
 

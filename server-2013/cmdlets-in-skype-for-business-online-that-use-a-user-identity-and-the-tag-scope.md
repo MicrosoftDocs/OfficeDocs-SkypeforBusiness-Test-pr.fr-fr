@@ -51,22 +51,22 @@ Si vous voulez retourner les identités pour toutes vos stratégies utilisateur 
 
 Les applets de commande suivantes utilisent une identité utilisateur et l’étendue de balise :
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)
 
-  - [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsHostedVoicemailPolicy)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Voir aussi
 
 #### Concepts
 
 [Identités, étendues et clients](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Applets de commande de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

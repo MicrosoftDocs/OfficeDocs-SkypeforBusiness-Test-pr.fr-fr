@@ -61,5 +61,5 @@ Vous pouvez activer ou désactiver la gestion de la version du client à l’aid
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

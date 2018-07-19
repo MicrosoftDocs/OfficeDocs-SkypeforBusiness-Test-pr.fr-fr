@@ -143,7 +143,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
 
 2.  Définir et configurer les hôtes DNS (A ou AAAA pour IPv6) et les enregistrements SRV DNS requis
 
-3.  Définir et configurer des stratégies dans le Panneau de configuration Lync Server ou Lync Server Management Shell et à l’aide des applets de commande appropriées. Pour plus d’informations sur les applets de commande Lync Server Management Shell, reportez-vous à [Cmdlets de fédération et d’accès externe dans Lync Server 2013](lync-server-2013-federation-and-external-access-cmdlets.md)
+3.  Définir et configurer des stratégies dans le Panneau de configuration Lync Server ou Lync Server Management Shell et à l’aide des applets de commande appropriées. Pour plus d’informations sur les applets de commande Lync Server Management Shell, reportez-vous à [Cmdlets de fédération et d’accès externe dans Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
     
     <table>
     <thead>

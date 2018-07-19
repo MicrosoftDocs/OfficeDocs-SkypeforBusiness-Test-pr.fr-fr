@@ -96,7 +96,7 @@ Vous pouvez aussi créer des paramètres de configuration d’archivage à l’a
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 
-Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [New-CsArchivingConfiguration](new-csarchivingconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration).
 
 ## Voir aussi
 

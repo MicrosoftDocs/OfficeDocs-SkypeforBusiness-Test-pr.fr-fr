@@ -118,7 +118,7 @@ Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l�
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Set-CsClientPin](set-csclientpin.md).
+Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin).
 
 ## Voir aussi
 

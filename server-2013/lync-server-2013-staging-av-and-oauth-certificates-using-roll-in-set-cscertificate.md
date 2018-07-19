@@ -166,6 +166,6 @@ Quand la date d’effet est atteinte (7/21/2012 1:00:00 AM), tous les nouveaux j
 #### Autres ressources
 
 [Configuration des certificats de serveur Edge pour Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](set-cscertificate.md)  
-[Remove-CsCertificate](remove-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)
 

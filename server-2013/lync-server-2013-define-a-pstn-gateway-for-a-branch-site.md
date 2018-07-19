@@ -74,7 +74,7 @@ Exécutez cette procédure sur le site central, qui doit contenir au moins un po
 </thead>
 <tbody>
 <tr class="odd">
-<td>Utilisez l’applet de commande <strong>Set-CsPstnGateway</strong> pour modifier les propriétés d’une passerelle RTC. Pour plus d’informations, reportez-vous à <a href="set-cspstngateway.md">Set-CsPstnGateway</a> dans l’Aide de Lync Server Management Shell.</td>
+<td>Utilisez l’applet de commande <strong>Set-CsPstnGateway</strong> pour modifier les propriétés d’une passerelle RTC. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</a> dans l’Aide de Lync Server Management Shell.</td>
 </tr>
 </tbody>
 </table>

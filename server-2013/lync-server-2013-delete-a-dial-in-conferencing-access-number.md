@@ -51,5 +51,5 @@ Les numéros d’accès de conférence rendez-vous peuvent également être supp
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsDialInConferencingAccessNumber](remove-csdialinconferencingaccessnumber.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber).
 

@@ -63,5 +63,5 @@ Vous pouvez également supprimer des paramètres de configuration de jonction à
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
-Pour plus d’informations, voir [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md).
+Pour plus d’informations, voir [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
 

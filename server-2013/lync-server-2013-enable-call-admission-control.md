@@ -19,11 +19,11 @@ Une fois que vous avez configuré vos paramètres réseau pour le déploiement d
 
 Pour plus d’informations, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - [Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 
 ## Pour activer le contrôle d’admission des appels à l’aide de Management Shell
 

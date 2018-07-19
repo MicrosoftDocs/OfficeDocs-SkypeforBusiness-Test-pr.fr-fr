@@ -149,7 +149,7 @@ Le tableau ci-dessous identifie les clients pris en charge par le routage géod�
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pour désactiver le protocole VoIP pour les clients Lync Mobile 2013, affectez une stratégie de mobilité avec le paramètre Audio/Vidéo IP désélectionné pour tous les utilisateurs pour lesquels le routage géodépendant est activé. Pour plus d’informations sur la stratégie de mobilité, reportez-vous à <a href="new-csmobilitypolicy.md">New-CsMobilityPolicy</a>.</td>
+<td>Pour désactiver le protocole VoIP pour les clients Lync Mobile 2013, affectez une stratégie de mobilité avec le paramètre Audio/Vidéo IP désélectionné pour tous les utilisateurs pour lesquels le routage géodépendant est activé. Pour plus d’informations sur la stratégie de mobilité, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</a>.</td>
 </tr>
 </tbody>
 </table>

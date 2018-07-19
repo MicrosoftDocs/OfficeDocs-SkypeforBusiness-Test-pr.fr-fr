@@ -49,12 +49,12 @@ Vous pouvez spécifier un fichier de musique personnel à utiliser en guise d’
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Utilisez l’applet de commande <strong>Get-CsService</strong> pour identifier le service. Pour plus d’informations, voir <a href="get-csservice.md">Get-CsService</a>.</td>
+    <td>Utilisez l’applet de commande <strong>Get-CsService</strong> pour identifier le service. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</a>.</td>
     </tr>
     </tbody>
     </table>
     
-    L’exemple suivant montre comment obtenir le contenu d’un fichier (soothingmusic.wma) sous la forme d’un tableau d’octets et l’affecter à une variable. Le fichier audio est ensuite affecté au fichier d’attente musicale du parcage d’appel. Pour plus d’informations, voir [Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md).
+    L’exemple suivant montre comment obtenir le contenu d’un fichier (soothingmusic.wma) sous la forme d’un tableau d’octets et l’affecter à une variable. Le fichier audio est ensuite affecté au fichier d’attente musicale du parcage d’appel. Pour plus d’informations, voir [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -63,6 +63,6 @@ Vous pouvez spécifier un fichier de musique personnel à utiliser en guise d’
 
 #### Autres ressources
 
-[Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)  
-[Get-CsService](get-csservice.md)
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 

@@ -19,7 +19,7 @@ Procédez comme suit pour activer la messagerie vocale pour les utilisateurs Lyn
 
 Pour plus d’informations, reportez-vous à [Gestion des utilisateurs Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) dans la documentation de planification.
 
-Pour plus d’informations sur l’applet de commande [Set-CsUser](set-csuser.md), reportez-vous à la documentation Lync Server Management Shell.
+Pour plus d’informations sur l’applet de commande [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), reportez-vous à la documentation Lync Server Management Shell.
 
 <table>
 <thead>

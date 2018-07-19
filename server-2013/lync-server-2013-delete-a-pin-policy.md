@@ -67,5 +67,5 @@ Vous pouvez supprimer des stratégies de code confidentiel avec Windows PowerSh
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsPinPolicy](remove-cspinpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy).
 

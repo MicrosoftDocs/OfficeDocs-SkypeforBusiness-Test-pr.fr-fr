@@ -119,7 +119,7 @@ Vous pouvez attribuer les stratégies de mobilité par utilisateur en utilisant 
 
 ## Pour attribuer une stratégie de mobilité par utilisateur à plusieurs utilisateurs
 
-  - La commande suivante attribue la stratégie de mobilité par utilisateur RedmondMobilityPolicy à tous les utilisateurs auxquels la stratégie NorthAmericaMobilityPolicy est actuellement attribuée. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir [Get-CsUser](get-csuser.md).
+  - La commande suivante attribue la stratégie de mobilité par utilisateur RedmondMobilityPolicy à tous les utilisateurs auxquels la stratégie NorthAmericaMobilityPolicy est actuellement attribuée. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
@@ -129,7 +129,7 @@ Vous pouvez attribuer les stratégies de mobilité par utilisateur en utilisant 
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Pour plus d’informations, voir [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Voir aussi
 

@@ -40,7 +40,7 @@ Il existe des différences fondamentales entre les commandes en ligne de command
 </table>
 
 
-Une étendue d’ordinateur peut être définie lors de l’exécution d’une commande [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md) et [Update-CsClsLogging](update-csclslogging.md) avec le paramètre –Computers. Le paramètre –Computers accepte une liste de noms de domaine complets séparés par des virgules pour l’ordinateur cible.
+Une étendue d’ordinateur peut être définie lors de l’exécution d’une commande [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) et [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) avec le paramètre –Computers. Le paramètre –Computers accepte une liste de noms de domaine complets séparés par des virgules pour l’ordinateur cible.
 
 <table>
 <thead>
@@ -66,7 +66,7 @@ Les étendues globale et de site sont définies dans les applets de commande **N
 </thead>
 <tbody>
 <tr class="odd">
-<td>Les commandes indiquées peuvent contenir des paramètres et des concepts décrits dans d’autres sections. Les exemples de commandes sont conçus pour décrire l’utilisation du paramètre <strong>–Identity</strong> pour définir l’étendue, et les autres paramètres sont inclus pour être exhaustif et pour spécifier l’étendue. Pour plus d’informations sur les applets de commande <strong>Set-CsClsConfiguration</strong>, voir <a href="set-csclsconfiguration.md">Set-CsClsConfiguration</a> dans la documentation des opérations.</td>
+<td>Les commandes indiquées peuvent contenir des paramètres et des concepts décrits dans d’autres sections. Les exemples de commandes sont conçus pour décrire l’utilisation du paramètre <strong>–Identity</strong> pour définir l’étendue, et les autres paramètres sont inclus pour être exhaustif et pour spécifier l’étendue. Pour plus d’informations sur les applets de commande <strong>Set-CsClsConfiguration</strong>, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> dans la documentation des opérations.</td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +168,7 @@ Cette commande indique au CLSAgent de chaque ordinateur et pool du site Redmond 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>New-CsClsConfiguration fournit un accès à de nombreux paramètres de configuration supplémentaires. Pour plus d’informations sur les options de configuration, voir <a href="get-csclsconfiguration.md">Get-CsClsConfiguration</a> et <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Présentation des paramètres de configuration du service de journalisation centralisée</a>.</td>
+    <td>New-CsClsConfiguration fournit un accès à de nombreux paramètres de configuration supplémentaires. Pour plus d’informations sur les options de configuration, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a> et <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Présentation des paramètres de configuration du service de journalisation centralisée</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -216,8 +216,8 @@ Si vous choisissez de supprimer une configuration au niveau du site, le site uti
 #### Autres ressources
 
 [Gestion des paramètres de configuration du service de journalisation centralisée à l’aide de PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 

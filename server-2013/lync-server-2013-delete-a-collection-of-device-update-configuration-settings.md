@@ -36,5 +36,5 @@ Il est également possible de supprimer les paramètres de configuration de mise
     
         Get-CsDeviceUpdateConfiguration | Where-Object {$_.LogCleanUpInterval -gt "10.00:00:00" | Remove-CsDeviceUpdateConfiguration
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsDeviceUpdateConfiguration](remove-csdeviceupdateconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateConfiguration).
 

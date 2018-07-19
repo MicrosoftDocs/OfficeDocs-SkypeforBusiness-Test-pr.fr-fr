@@ -67,7 +67,7 @@ Vous pouvez définir les paramètres de conservation des enregistrements des dé
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 ## Voir aussi
 

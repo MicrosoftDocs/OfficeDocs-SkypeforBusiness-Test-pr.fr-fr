@@ -54,5 +54,5 @@ Les numéros d’accès de conférence rendez-vous peuvent aussi être affichés
         HostingProvider    :
         Regions            : {US}
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber).
 

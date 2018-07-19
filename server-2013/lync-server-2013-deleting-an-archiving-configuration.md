@@ -51,7 +51,7 @@ La suppression des paramètres de configuration d’archivage peut également s�
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsArchivingConfiguration](remove-csarchivingconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingConfiguration).
 
 ## Voir aussi
 

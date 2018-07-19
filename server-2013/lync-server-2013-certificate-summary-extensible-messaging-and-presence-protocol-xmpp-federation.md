@@ -62,6 +62,6 @@ Les exigences de certificat pour l’activation et l’établissement de communi
 #### Autres ressources
 
 [Configuration des certificats de serveur Edge pour Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](request-cscertificate.md)  
-[Set-CsCertificate](set-cscertificate.md)
+[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

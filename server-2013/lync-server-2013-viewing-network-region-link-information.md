@@ -61,7 +61,7 @@ Vous pouvez également afficher des liens de région réseau avec Lync Server Ma
         NetworkRegionID1    : Pacific Northwest
         NetworkRegionID2    : California
 
-Pour plus d’informations, voir [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+Pour plus d’informations, voir [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Voir aussi
 

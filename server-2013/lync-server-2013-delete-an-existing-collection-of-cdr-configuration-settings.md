@@ -21,7 +21,7 @@ Quand vous installez Microsoft Lync Server 2013, une unique collection globale 
 
 Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, le vidage est, par défaut, activé dans une collection de paramètres de configuration CDR. Si vous modifiez la collection globale afin que le vidage soit désactivé, et que vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que le vidage sera de nouveau activé.
 
-Vous pouvez supprimer les paramètres de configuration CDR à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Vous pouvez supprimer les paramètres de configuration CDR à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 
 ## Pour supprimer les paramètres de configuration CDR avec le Panneau de configuration Lync Server
 
@@ -55,5 +55,5 @@ Vous pouvez supprimer les paramètres de configuration d’enregistrement des d�
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 

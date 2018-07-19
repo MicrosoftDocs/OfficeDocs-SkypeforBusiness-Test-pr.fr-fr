@@ -25,7 +25,7 @@ Les scénarios définissent l’étendue (globale, site, pool ou ordinateur) et 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios en cours d’exécution, utilisez Windows PowerShell et <a href="get-csclsscenario.md">Get-CsClsScenario</a>. Avec Windows PowerShell et <a href="set-csclsscenario.md">Set-CsClsScenario</a>, vous pouvez modifier dynamiquement les scénarios en cours d’exécution. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues.</td>
+<td>Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios en cours d’exécution, utilisez Windows PowerShell et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Avec Windows PowerShell et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a>, vous pouvez modifier dynamiquement les scénarios en cours d’exécution. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues.</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Comme indiqué dans [Présentation du service de journalisation centralisée](ly
 
 1.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  Pour créer un scénario pour une session de journalisation, utilisez [New-CsClsProvider](new-csclsprovider.md) et définissez le nom du scénario (c’est-à-dire comment il va être identifié de manière unique). Choisissez un type de format de journalisation : vous avez le choix entre WPP (préprocesseur de suivi de logiciel Windows ; la valeur par défaut), EventLog (format de journal des événements Windows) et IISLog (fichier au format ASCII basé sur le format du fichier journal IIS). Ensuite, définissez Level (voir la définition sous Niveaux de journalisation dans cette rubrique) et Flags (voir la définition sous Indicateurs dans cette rubrique).
+2.  Pour créer un scénario pour une session de journalisation, utilisez [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider) et définissez le nom du scénario (c’est-à-dire comment il va être identifié de manière unique). Choisissez un type de format de journalisation : vous avez le choix entre WPP (préprocesseur de suivi de logiciel Windows ; la valeur par défaut), EventLog (format de journal des événements Windows) et IISLog (fichier au format ASCII basé sur le format du fichier journal IIS). Ensuite, définissez Level (voir la définition sous Niveaux de journalisation dans cette rubrique) et Flags (voir la définition sous Indicateurs dans cette rubrique).
     
     Dans cet exemple de scénario, nous utilisons LyssProvider comme exemple de variable de fournisseur.
     

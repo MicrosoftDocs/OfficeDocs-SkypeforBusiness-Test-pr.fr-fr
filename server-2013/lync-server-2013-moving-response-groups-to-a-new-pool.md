@@ -67,7 +67,7 @@ La procédure suivante permet de déplacer les groupes Response Groupe d’un po
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Les paramètres de niveau d’application comprennent la configuration de l’attente musicale par défaut, le fichier audio de l’attente musicale par défaut, la période de grâce de la reprise d’appel parqué des agents ainsi que la configuration du contexte de l’appel. Pour afficher ces paramètres de configuration, exécutez l’applet de commande <strong>Get-CsRgsConfiguration</strong>. Pour plus d’informations sur cette applet de commande, voir <a href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</a>.</td>
+    <td>Les paramètres de niveau d’application comprennent la configuration de l’attente musicale par défaut, le fichier audio de l’attente musicale par défaut, la période de grâce de la reprise d’appel parqué des agents ainsi que la configuration du contexte de l’appel. Pour afficher ces paramètres de configuration, exécutez l’applet de commande <strong>Get-CsRgsConfiguration</strong>. Pour plus d’informations sur cette applet de commande, voir <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>.</td>
     </tr>
     </tbody>
     </table>

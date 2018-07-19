@@ -91,7 +91,7 @@ Pour plus d’informations sur la désactivation de BranchCache, voir le Guide d
 
 ## Vérification du déploiement de Lync Web App
 
-Vous pouvez utiliser l’applet de commande Test-CsUcwaConference pour vérifier que deux utilisateurs de test peuvent participer à une conférence à l’aide de l’API UCWA (Unified Communications Web API). Pour plus d’informations sur cette applet de commande, voir [Test-CsUcwaConference](test-csucwaconference.md) dans la documentation Lync Server Management Shell.
+Vous pouvez utiliser l’applet de commande Test-CsUcwaConference pour vérifier que deux utilisateurs de test peuvent participer à une conférence à l’aide de l’API UCWA (Unified Communications Web API). Pour plus d’informations sur cette applet de commande, voir [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference) dans la documentation Lync Server Management Shell.
 
 ## Résolution des problèmes relatifs à l’installation du plug-in sur Windows Server 2008 R2
 

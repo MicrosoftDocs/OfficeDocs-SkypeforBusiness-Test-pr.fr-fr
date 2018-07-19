@@ -32,25 +32,25 @@ Les deux commandes sont identiques, car Windows PowerShell modifie la collectio
 
 Les applets de commande ne fonctionnent qu’au niveau de la portée globale :
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
 
-  - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
+  - [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
 
-  - [Get-CsTenantPublicProvider](get-cstenantpublicprovider.md)
+  - [Get-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantPublicProvider)
 
-  - [Remove-CsVoicePolicy](remove-csvoicepolicy.md)
+  - [Remove-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsVoicePolicy)
 
-  - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
+  - [Set-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingConfiguration)
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 
 Notez que l’applet de commande **Remove-CsVoicePolicy** constitue une sorte d’anomalie. Tout d’abord, cette applet de commande nécessite que vous incluiez le paramètre Identity :
 
@@ -92,5 +92,5 @@ Deuxièmement, l’applet de commande **Remove-CsVoicePolicy** ne supprime pas r
 #### Concepts
 
 [Identités, étendues et clients](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Applets de commande de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

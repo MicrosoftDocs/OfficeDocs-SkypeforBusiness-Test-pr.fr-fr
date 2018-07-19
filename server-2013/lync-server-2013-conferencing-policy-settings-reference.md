@@ -19,7 +19,7 @@ Les tableaux présentés ici répertorient tous les paramètres de stratégie de
 
 ## Paramètres de stratégie de l’organisateur
 
-Le tableau suivant répertorie tous les paramètres de stratégie de conférence que vous pouvez appliquer aux organisateurs de conférence. Pour obtenir la liste la plus à jour des paramètres de stratégie de conférence, voir la rubrique d'aide pour l'applet de commande [Set-CsClientPolicy](set-csclientpolicy.md).
+Le tableau suivant répertorie tous les paramètres de stratégie de conférence que vous pouvez appliquer aux organisateurs de conférence. Pour obtenir la liste la plus à jour des paramètres de stratégie de conférence, voir la rubrique d'aide pour l'applet de commande [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 ### Paramètres de stratégie de l’organisateur
 

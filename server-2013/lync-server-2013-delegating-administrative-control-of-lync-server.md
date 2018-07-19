@@ -49,7 +49,7 @@ Pour affecter un rôle RBAC à un utilisateur, vous devez ajouter ce dernier au 
 
 7.  Dans la boîte de dialogue **Propriétés** , cliquez sur **OK** .
 
-Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de commande [Get-CsAdminRoleAssignment](get-csadminroleassignment.md), en indiquant le nom SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez cette commande directement depuis Lync Server Management Shell :
+Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de commande [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment), en indiquant le nom SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez cette commande directement depuis Lync Server Management Shell :
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

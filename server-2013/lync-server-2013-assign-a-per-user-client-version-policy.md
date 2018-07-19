@@ -125,7 +125,7 @@ Vous pouvez affecter des stratégies de version du client par utilisateur en uti
 
 ## Pour affecter une stratégie de version du client par utilisateur à plusieurs utilisateurs
 
-  - Cette commande affecte la stratégie de version du client par utilisateur RedmondClientVersionPolicy à tous les utilisateurs actuellement affectés à la stratégie vocale RedmondVoicePolicy. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir la documentation pour la cmdlet [Get-CsUser](get-csuser.md).
+  - Cette commande affecte la stratégie de version du client par utilisateur RedmondClientVersionPolicy à tous les utilisateurs actuellement affectés à la stratégie vocale RedmondVoicePolicy. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir la documentation pour la cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -135,7 +135,7 @@ Vous pouvez affecter des stratégies de version du client par utilisateur en uti
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide sur la cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide sur la cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Voir aussi
 

@@ -31,7 +31,7 @@ Vous pouvez afficher des informations sur les appareils de conférence configur�
 </table>
 
 
-Si vous utilisez l’applet de commande **Get-CsMeetingRoom** sans aucun paramètre, elle renvoie des informations sur tous vos appareils de conférence. Les paramètres facultatifs offrent différentes manières de filtrer les informations. Pour plus d’informations, voir la section Paramètres de l’article [Get-CsMeetingRoom](get-csmeetingroom.md).
+Si vous utilisez l’applet de commande **Get-CsMeetingRoom** sans aucun paramètre, elle renvoie des informations sur tous vos appareils de conférence. Les paramètres facultatifs offrent différentes manières de filtrer les informations. Pour plus d’informations, voir la section Paramètres de l’article [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 
 
 ## Affichage d’informations sur tous vos appareils de conférence
@@ -66,5 +66,5 @@ Si vous utilisez l’applet de commande **Get-CsMeetingRoom** sans aucun paramè
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsMeetingRoom](get-csmeetingroom.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
 

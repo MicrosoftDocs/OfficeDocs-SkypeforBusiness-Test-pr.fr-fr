@@ -106,7 +106,7 @@ Lors du premier démarrage d’un nouveau pool de serveurs frontaux, il est prim
 </table>
 
 
-Chaque fois que le pool est démarré ultérieurement, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). S’il n’est pas possible de démarrer ce nombre de serveurs (mais que suffisamment de serveurs peuvent être démarrés pour éviter une perte de quorum au niveau du pool), vous pouvez utiliser l’applet de commande **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** pour permettre au pool de récupérer de cette perte de quorum au niveau du groupe de routage afin d’avancer. Pour plus d’informations sur la manière d’utiliser cette applet de commande, voir [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md).
+Chaque fois que le pool est démarré ultérieurement, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). S’il n’est pas possible de démarrer ce nombre de serveurs (mais que suffisamment de serveurs peuvent être démarrés pour éviter une perte de quorum au niveau du pool), vous pouvez utiliser l’applet de commande **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** pour permettre au pool de récupérer de cette perte de quorum au niveau du groupe de routage afin d’avancer. Pour plus d’informations sur la manière d’utiliser cette applet de commande, voir [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
 <table>
 <thead>
@@ -201,7 +201,7 @@ Quand vous avez besoin d’appliquer des mises à niveau ou des correctifs aux s
 
   - Ne passez pas au domaine de mise à niveau suivant si l’un des serveurs inclus dans le dernier domaine de mise à niveau avec correctifs est bloqué ou n’a pas redémarré. Cela s’applique également si l’un des serveurs inclus dans une mise à niveau ne parvient pas à redémarrer. Exécutez **Get-CsPoolFabricState** pour vérifier que tous les groupes de routage ont un primaire et au moins un secondaire. Cela permet de confirmer si tous les utilisateurs disposent du service.
 
-  - Si certains utilisateurs disposent du service et pas d’autres, exécutez **Get-CsPoolFabricState** avec l’option –Verbose pour rechercher les groupes de routage dans lesquels il manque des réplicas. Ne redémarrez pas tout le pool à titre de première étape de résolution du problème. Pour plus d’informations sur cette applet de commande, voir [Get-CsPoolFabricState](get-cspoolfabricstate.md).
+  - Si certains utilisateurs disposent du service et pas d’autres, exécutez **Get-CsPoolFabricState** avec l’option –Verbose pour rechercher les groupes de routage dans lesquels il manque des réplicas. Ne redémarrez pas tout le pool à titre de première étape de résolution du problème. Pour plus d’informations sur cette applet de commande, voir [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState).
 
   - Vérifiez que toutes les instances des fenêtres Observateur d’événements ou Analyseur de performances sont fermées pour les installations/désinstallations de Windows Fabric.
 

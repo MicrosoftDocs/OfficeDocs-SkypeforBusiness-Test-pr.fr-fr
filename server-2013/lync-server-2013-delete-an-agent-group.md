@@ -53,6 +53,6 @@ Les procédures suivantes permettent de supprimer un groupe d’agents.
 
 #### Autres ressources
 
-[Remove-CsRgsAgentGroup](remove-csrgsagentgroup.md)  
-[Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+[Remove-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)
 

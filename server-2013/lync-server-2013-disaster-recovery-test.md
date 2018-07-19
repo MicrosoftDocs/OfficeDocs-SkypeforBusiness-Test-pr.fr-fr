@@ -93,11 +93,11 @@ Pour faciliter le basculement, cet enregistrement CNAME doit être mis à jour d
 #### Concepts
 
 [Planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Applets de commande pour la sauvegarde et la haute disponibilité](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[Applets de commande pour la sauvegarde et la haute disponibilité](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### Autres ressources
 
-[Import-CsConfiguration](import-csconfiguration.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
 [Sauvegarde et restauration de Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
 [Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 

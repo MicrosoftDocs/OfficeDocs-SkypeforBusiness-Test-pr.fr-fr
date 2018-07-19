@@ -33,13 +33,13 @@ Les *régions réseau* sont les concentrateurs réseau ou dorsales principales u
 
 Pour plus d’informations sur l’utilisation des régions réseau, reportez-vous à la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsNetworkRegion](new-csnetworkregion.md)
+  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](get-csnetworkregion.md)
+  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](set-csnetworkregion.md)
+  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
 
-  - [Remove-CsNetworkRegion](remove-csnetworkregion.md)
+  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
 
 ## Créer une région réseau
 

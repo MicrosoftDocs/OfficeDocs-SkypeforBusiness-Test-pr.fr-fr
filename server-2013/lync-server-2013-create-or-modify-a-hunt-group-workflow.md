@@ -89,7 +89,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     </thead>
     <tbody>
     <tr class="odd">
-    <td>La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération du groupe Response Group à l’aide du Panneau de configuration Lync Server ou de l’applet de commande <strong>Set-CsExternalAccessPolicy</strong> pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gestion de la stratégie d’accès externe dans Lync Server 2013</a>. Pour plus d’informations sur le paramètre de fédération, reportez-vous à <a href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</a>.</td>
+    <td>La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération du groupe Response Group à l’aide du Panneau de configuration Lync Server ou de l’applet de commande <strong>Set-CsExternalAccessPolicy</strong> pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gestion de la stratégie d’accès externe dans Lync Server 2013</a>. Pour plus d’informations sur le paramètre de fédération, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -431,7 +431,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>.</td>
+    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -441,7 +441,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    Pour plus d’informations sur la création de la file d’attente, reportez-vous à [New-CsRgsQueue](new-csrgsqueue.md).
+    Pour plus d’informations sur la création de la file d’attente, reportez-vous à [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue).
 
 5.  Définissez l’action par défaut à entreprendre quand un flux de travail est ouvert durant les heures ouvrées, et enregistrez-la dans une variable. Dans la ligne de commande, exécutez la commande suivante :
     
@@ -466,7 +466,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
 
 6.  Si vous voulez définir des heures ouvrées et des congés, vous devez les créer avant de créer et modifier le flux de travail. Pour plus d’informations, reportez-vous à [(Facultatif) Définition des heures ouvrées des groupes Response Group dans Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md) et [(Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md).
 
-7.  Pour avoir des invites pour les appels reçus en dehors des heures ouvrées ou pendant des congés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite, et **New-CsRgsCallAction** pour définir l’action à entreprendre après l’invite. Pour plus d’informations, reportez-vous à [New-CsRgsPrompt](new-csrgsprompt.md) et [New-CsRgsCallAction](new-csrgscallaction.md).
+7.  Pour avoir des invites pour les appels reçus en dehors des heures ouvrées ou pendant des congés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite, et **New-CsRgsCallAction** pour définir l’action à entreprendre après l’invite. Pour plus d’informations, reportez-vous à [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt) et [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction).
 
 8.  Récupérez le nom de service pour le service Response Group Lync Server et affectez-le à une variable. Dans la ligne de commande, exécutez la commande suivante :
     
@@ -501,7 +501,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour plus d’informations sur les paramètres facultatifs supplémentaires, reportez-vous à <a href="new-csrgsworkflow.md">New-CsRgsWorkflow</a> ou <a href="set-csrgsworkflow.md">Set-CsRgsWorkflow</a>.</td>
+    <td>Pour plus d’informations sur les paramètres facultatifs supplémentaires, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</a> ou <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -519,8 +519,8 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un flux de tr
 
 #### Autres ressources
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

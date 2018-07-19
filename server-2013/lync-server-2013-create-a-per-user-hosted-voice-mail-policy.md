@@ -19,11 +19,11 @@ Une stratégie *par utilisateur* ne peut avoir d’incidence que sur des utilisa
 
 Pour plus d’informations sur la gestion des stratégies de messagerie vocale hébergée par utilisateur, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 ## Pour créer une stratégie de messagerie vocale hébergée par utilisateur
 

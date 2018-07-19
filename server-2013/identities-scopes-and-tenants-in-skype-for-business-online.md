@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2015-06-22_
 
-De nombreuses applets de commande Windows PowerShell utilisées pour gérer Skype Entreprise Online demandent une grande précision de votre part à propos des éléments que vous voulez gérer. Par exemple, lorsque vous exécutez l’applet de commande [Set-CsUserAcp](set-csuseracp.md), vous devez indiquer quel utilisateur vous voulez gérer. C’est logique. Tant que vous ne lui indiquez pas exactement le compte d’utilisateur à gérer, l’applet de commande **Set-CsUserAcp** ne peut pas savoir quelles informations de conférence audio d’utilisateur doivent être modifiées. C’est pour cela que vous devez indiquer le paramètre Identity, suivi de l’identité du compte d’utilisateur à modifier à chaque exécution de l’applet de commande **Set-CsUserAcp** :
+De nombreuses applets de commande Windows PowerShell utilisées pour gérer Skype Entreprise Online demandent une grande précision de votre part à propos des éléments que vous voulez gérer. Par exemple, lorsque vous exécutez l’applet de commande [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp), vous devez indiquer quel utilisateur vous voulez gérer. C’est logique. Tant que vous ne lui indiquez pas exactement le compte d’utilisateur à gérer, l’applet de commande **Set-CsUserAcp** ne peut pas savoir quelles informations de conférence audio d’utilisateur doivent être modifiées. C’est pour cela que vous devez indiquer le paramètre Identity, suivi de l’identité du compte d’utilisateur à modifier à chaque exécution de l’applet de commande **Set-CsUserAcp** :
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
@@ -67,7 +67,7 @@ Vous pouvez également avoir deux utilisateurs : Ken Myer et Pilar Ackerman. La
 
 Comme vous pouvez le voir, Ken Myer est autorisé à communiquer avec des fournisseurs de messagerie instantanée publics. Cela est dû au fait que les paramètres de la stratégie utilisateur qui lui est attribuée remplacent ceux de la stratégie globale. Pilar Ackerman, en revanche, ne peut pas communiquer avec des fournisseurs de messagerie instantanée publics, car elle est gérée par la stratégie globale et celle-ci empêche ce type de communication.
 
-Les stratégies par utilisateur doivent être créées pour vous par le support technique Office 365. Une fois les stratégies créées, vous pouvez les attribuer aux utilisateurs en utilisant l’applet de commande **Grant-Cs** appropriée (par exemple, [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)). Les stratégies utilisateur sont faciles à identifier, car l’identité de stratégie commence toujours par le préfixe **tag**. Par exemple :
+Les stratégies par utilisateur doivent être créées pour vous par le support technique Office 365. Une fois les stratégies créées, vous pouvez les attribuer aux utilisateurs en utilisant l’applet de commande **Grant-Cs** appropriée (par exemple, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). Les stratégies utilisateur sont faciles à identifier, car l’identité de stratégie commence toujours par le préfixe **tag**. Par exemple :
 
     Identity : tag:AllowPublicIMCommunication
 

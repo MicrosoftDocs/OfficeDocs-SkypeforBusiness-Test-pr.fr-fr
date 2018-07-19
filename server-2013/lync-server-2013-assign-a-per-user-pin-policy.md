@@ -125,7 +125,7 @@ Vous pouvez affecter des stratégies de code confidentiel par utilisateur en uti
 
 ## Pour affecter une stratégie de code confidentiel par utilisateur à plusieurs utilisateurs
 
-  - La commande suivante affecte la stratégie de code confidentiel par utilisateur RedmondUsersPinPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-CsUser](get-csuser.md).
+  - La commande suivante affecte la stratégie de code confidentiel par utilisateur RedmondUsersPinPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -135,7 +135,7 @@ Vous pouvez affecter des stratégies de code confidentiel par utilisateur en uti
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Pour plus d’informations, voir [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Voir aussi
 

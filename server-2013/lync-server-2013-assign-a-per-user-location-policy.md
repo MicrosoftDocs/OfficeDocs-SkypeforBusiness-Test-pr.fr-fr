@@ -127,7 +127,7 @@ Vous pouvez affecter des stratégies d’emplacement utilisateur à l’aide de 
 
 ## Pour affecter une stratégie d’emplacement utilisateur à plusieurs utilisateurs
 
-  - Cette commande affecte la stratégie d’emplacement utilisateur AccountingDepartmentLocationPolicy à tous les utilisateurs qui travaillent au service comptabilité. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](get-csuser.md).
+  - Cette commande affecte la stratégie d’emplacement utilisateur AccountingDepartmentLocationPolicy à tous les utilisateurs qui travaillent au service comptabilité. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -137,5 +137,5 @@ Vous pouvez affecter des stratégies d’emplacement utilisateur à l’aide de 
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

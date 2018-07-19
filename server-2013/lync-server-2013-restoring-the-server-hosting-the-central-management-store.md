@@ -202,7 +202,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsDatabase</strong> pour créer chaque base de données et l’applet de commande <strong>Install-CsMirrorDatabase</strong> pour configurer la mise en miroir. Pour plus d’informations, voir <a href="install-csdatabase.md">Install-CsDatabase</a> et <a href="install-csmirrordatabase.md">Install-CsMirrorDatabase</a>.</td>
+    <td>Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsDatabase</strong> pour créer chaque base de données et l’applet de commande <strong>Install-CsMirrorDatabase</strong> pour configurer la mise en miroir. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>.</td>
     </tr>
     </tbody>
     </table>

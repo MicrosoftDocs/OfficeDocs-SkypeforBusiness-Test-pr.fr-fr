@@ -43,7 +43,7 @@ Vous pouvez aussi afficher les paramètres de configuration des notifications Pu
         EnableApplePushNotificationService     : False
         EnableMicrosoftPushNotificationService : False
 
-Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration).
 
 ## Voir aussi
 

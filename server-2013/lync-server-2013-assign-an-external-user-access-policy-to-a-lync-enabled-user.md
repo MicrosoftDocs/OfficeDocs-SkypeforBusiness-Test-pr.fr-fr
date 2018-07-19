@@ -71,7 +71,7 @@ Il est possible d’affecter des stratégies d’accès externe utilisateur à l
 
 ## Affecter une stratégie d’accès externe utilisateur à plusieurs utilisateurs
 
-  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur USAExternalAccessPolicy à tous les utilisateurs qui possèdent des comptes dans l’unité d’organisation (OU) UnitedStates dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, reportez-vous à la documentation de l’applet de commande [Get-CsUser](get-csuser.md).
+  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur USAExternalAccessPolicy à tous les utilisateurs qui possèdent des comptes dans l’unité d’organisation (OU) UnitedStates dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, reportez-vous à la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -81,5 +81,5 @@ Il est possible d’affecter des stratégies d’accès externe utilisateur à l
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

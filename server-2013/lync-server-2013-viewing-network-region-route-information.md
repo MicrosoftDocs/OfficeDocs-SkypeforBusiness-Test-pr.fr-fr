@@ -61,7 +61,7 @@ Les informations d’itinéraire de région réseau peuvent aussi être affiché
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 ## Voir aussi
 

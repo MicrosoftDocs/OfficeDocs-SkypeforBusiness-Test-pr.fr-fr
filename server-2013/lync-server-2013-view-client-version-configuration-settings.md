@@ -58,5 +58,5 @@ Vous pouvez afficher les paramètres de configuration de version du client à l�
         DefaultURL    :
         Enabled       : True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionConfiguration](get-csclientversionconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration).
 

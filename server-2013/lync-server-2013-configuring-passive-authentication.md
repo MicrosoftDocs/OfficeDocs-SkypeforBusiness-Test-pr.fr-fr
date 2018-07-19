@@ -43,7 +43,7 @@ Les étapes suivantes décrivent la création d’une configuration de service w
 
 3.  À partir de la ligne de commande Lync Server Management Shell, créez une configuration de service web pour chaque directeur, pool d’entreprise et serveur Standard Edition pour lequel l’authentification passive sera activée en exécutant la commande suivante :
     
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
     <table>
     <thead>

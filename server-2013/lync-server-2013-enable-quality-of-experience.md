@@ -65,7 +65,7 @@ Vous pouvez activer la qualité de l’expérience en utilisant Windows PowerSh
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
-Pour plus d’informations, voir [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+Pour plus d’informations, voir [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 ## Voir aussi
 

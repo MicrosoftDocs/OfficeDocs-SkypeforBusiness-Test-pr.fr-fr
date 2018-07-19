@@ -49,5 +49,5 @@ Vous pouvez supprimer les paramètres de configuration de version du client à l
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsClientVersionConfiguration](remove-csclientversionconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionConfiguration).
 

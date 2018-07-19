@@ -35,29 +35,29 @@ Dans Skype Entreprise Online, vous pouvez référencer l’identité d’un util
 
 Les applets de commande suivantes acceptent l’identité d’un utilisateur :
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
 
-  - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
+  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
 
-  - [Get-CsMeetingRoom](get-csmeetingroom.md)
+  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
 
-  - [Get-CsOnlineUser](get-csonlineuser.md)
+  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
 
-  - [Get-CsUserAcp](get-csuseracp.md)
+  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Remove-CsExUmContact](remove-csexumcontact.md)
+  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
 
-  - [Remove-CsUserAcp](remove-csuseracp.md)
+  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-  - [Set-CsMeetingRoom](set-csmeetingroom.md)
+  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
 Vous n’avez pas besoin de spécifier l’identité d’un utilisateur lorsque vous appelez une des applets de commande **Get-Cs**. Dans ce cas, les applets de commande retournent toutes les instances de l’élément spécifié. Par exemple, la commande suivante retourne des informations sur tous les utilisateurs activés pour Skype Entreprise Online :
 
@@ -72,5 +72,5 @@ Le paramètre Identity est requis uniquement si vous voulez retourner des inform
 #### Concepts
 
 [Identités, étendues et clients](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Applets de commande de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

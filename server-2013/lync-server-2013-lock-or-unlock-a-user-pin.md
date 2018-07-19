@@ -115,5 +115,5 @@ Vous pouvez aussi verrouiller et déverrouiller des codes confidentiels d’util
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-Pour plus d’informations, voir la rubrique d’aide relative aux applets de commande [Lock-CsClientPin](lock-csclientpin.md) et [Unlock-CsClientPin](unlock-csclientpin.md).
+Pour plus d’informations, voir la rubrique d’aide relative aux applets de commande [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) et [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin).
 

@@ -63,7 +63,7 @@ Vous pouvez afficher des informations sur les sites réseau à l’aide de l’a
         BWPolicyProfileID :
         LocationPolicy    :
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSite](get-csnetworksite.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
 
 ## Voir aussi
 

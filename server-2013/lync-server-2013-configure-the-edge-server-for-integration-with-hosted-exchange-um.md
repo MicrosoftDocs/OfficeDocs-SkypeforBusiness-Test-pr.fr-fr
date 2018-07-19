@@ -25,9 +25,9 @@ Pour fournir à vos utilisateurs Lync Server 2013 des fonctionnalités de messa
 
 Pour plus d’informations, reportez-vous à la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 <table>
 <thead>
@@ -112,5 +112,5 @@ Pour plus d’informations, reportez-vous à la documentation de Lync Server Man
 
 #### Autres ressources
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

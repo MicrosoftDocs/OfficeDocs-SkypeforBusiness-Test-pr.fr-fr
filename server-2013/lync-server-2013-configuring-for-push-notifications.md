@@ -147,6 +147,6 @@ Vous pouvez configurer votre topologie de sorte qu’elle prenne en charge les n
 
 #### Autres ressources
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
 

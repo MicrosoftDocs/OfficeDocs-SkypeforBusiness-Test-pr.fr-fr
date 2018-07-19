@@ -57,7 +57,7 @@ Le service de journalisation centralisée permet d’exécuter des commandes de 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécutera jusqu’à ce que l’arrêtiez de façon explicite avec l’applet de commande <strong>Stop-CsClsLogging</strong>. Pour plus d’informations, voir <a href="stop-csclslogging.md">Stop-CsClsLogging</a>. Pour tous les autres scénarios, la durée par défaut est de 4 heures.</td>
+    <td>Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécutera jusqu’à ce que l’arrêtiez de façon explicite avec l’applet de commande <strong>Stop-CsClsLogging</strong>. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>. Pour tous les autres scénarios, la durée par défaut est de 4 heures.</td>
     </tr>
     </tbody>
     </table>
@@ -92,7 +92,7 @@ Le service de journalisation centralisée permet d’exécuter des commandes de 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Deux scénarios peuvent s’exécuter sur un ordinateur donné à tout moment. Si l’étendue de la commande est globale, tous les ordinateurs dans votre déploiement exécuteront un scénario ou les deux. Pour lancer un troisième scénario, vous devez arrêter la journalisation sur l’ordinateur, le pool, le site ou l’étendue globale sur lequel vous souhaitez exécuter le nouveau scénario. Si vous avez lancé la commande pour une étendue globale, vous pouvez arrêter la journalisation pour un scénario ou les deux sur un ou plusieurs ordinateurs et pools. Pour plus d’informations sur la gestion des scénarios en cours d’exécution, consultez les rubriques <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilisation de la commande Stop pour le service de journalisation centralisée</a> et <a href="stop-csclslogging.md">Stop-CsClsLogging</a>.</td>
+    <td>Deux scénarios peuvent s’exécuter sur un ordinateur donné à tout moment. Si l’étendue de la commande est globale, tous les ordinateurs dans votre déploiement exécuteront un scénario ou les deux. Pour lancer un troisième scénario, vous devez arrêter la journalisation sur l’ordinateur, le pool, le site ou l’étendue globale sur lequel vous souhaitez exécuter le nouveau scénario. Si vous avez lancé la commande pour une étendue globale, vous pouvez arrêter la journalisation pour un scénario ou les deux sur un ou plusieurs ordinateurs et pools. Pour plus d’informations sur la gestion des scénarios en cours d’exécution, consultez les rubriques <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilisation de la commande Stop pour le service de journalisation centralisée</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.</td>
     </tr>
     </tbody>
     </table>

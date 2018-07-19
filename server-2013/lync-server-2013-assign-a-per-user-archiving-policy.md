@@ -125,7 +125,7 @@ Les stratégies d’archivage par utilisateur peuvent également être assignée
 
 ## Assignation d’une stratégie d’archivage par utilisateur à plusieurs utilisateurs
 
-  - Cette commande assigne la stratégie d’archivage par utilisateur RedmondArchivingPolicy à tous les utilisateurs qui ont un compte hébergé sur le pool de serveurs d’inscriptions atl-cs-001.litwareinc.com. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](get-csuser.md).
+  - Cette commande assigne la stratégie d’archivage par utilisateur RedmondArchivingPolicy à tous les utilisateurs qui ont un compte hébergé sur le pool de serveurs d’inscriptions atl-cs-001.litwareinc.com. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -135,7 +135,7 @@ Les stratégies d’archivage par utilisateur peuvent également être assignée
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Voir aussi
 

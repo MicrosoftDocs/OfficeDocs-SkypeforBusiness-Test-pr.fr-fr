@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2015-06-22_
 
-Pour retourner des informations sur tous les fournisseurs de services d’audioconférence avec lesquels votre organisation a mis en place des contrats, vous pouvez simplement appeler l’applet de commande [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) sans paramètre :
+Pour retourner des informations sur tous les fournisseurs de services d’audioconférence avec lesquels votre organisation a mis en place des contrats, vous pouvez simplement appeler l’applet de commande [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) sans paramètre :
 
     Get-CsAudioConferencingProvider
 
@@ -25,12 +25,12 @@ Si vous voulez limiter les données retournées à un seul fournisseur (dans cet
 
 Seule une applet de commande Skype Entreprise Online accepte un ID de fournisseur de services d’audioconférence :
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
 
 ## Voir aussi
 
 #### Concepts
 
 [Identités, étendues et clients](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Applets de commande de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

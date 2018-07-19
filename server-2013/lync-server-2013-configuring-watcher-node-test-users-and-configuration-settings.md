@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-07-29_
 
 Après avoir configuré l’ordinateur qui jouera le rôle de nœud observateur, vous devez :
 
-1.  créer les comptes tests devant être utilisés par ces nœuds observateurs. SI vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande [Set-CsTestUserCredential](set-cstestusercredential.md) pour activer ces comptes pour une utilisation sur le nœud observateur ;
+1.  créer les comptes tests devant être utilisés par ces nœuds observateurs. SI vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) pour activer ces comptes pour une utilisation sur le nœud observateur ;
 
 2.  mettre à jour les paramètres de configuration du nœud observateur.
 

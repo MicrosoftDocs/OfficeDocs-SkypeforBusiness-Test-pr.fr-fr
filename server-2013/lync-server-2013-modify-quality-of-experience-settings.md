@@ -65,7 +65,7 @@ Vous pouvez créer des paramètres de conservation des données QoE à l’aide 
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20 
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsQoEConfiguration](set-csqoeconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
 
 ## Voir aussi
 

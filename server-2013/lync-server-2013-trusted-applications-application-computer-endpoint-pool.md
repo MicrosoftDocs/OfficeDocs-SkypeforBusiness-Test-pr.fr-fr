@@ -23,7 +23,7 @@ Utilisez les procédures de cette section pour gérer les applications approuvé
 
 ## Sections connexes
 
-[Cmdlets des applications approuvées](lync-server-2013-trusted-applications-cmdlets.md)
+[Cmdlets des applications approuvées](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## Voir aussi
 

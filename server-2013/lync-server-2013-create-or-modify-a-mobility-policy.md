@@ -79,7 +79,7 @@ Vous pouvez également créer des stratégies de mobilité (sur une étendue de 
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
-Pour plus d’informations, recherchez les cmdlets [New-CsMobilityPolicy](new-csmobilitypolicy.md) et [Set-CsMobilityPolicy](set-csmobilitypolicy.md) dans la rubrique d’aide.
+Pour plus d’informations, recherchez les cmdlets [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) et [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy) dans la rubrique d’aide.
 
 ## Voir aussi
 

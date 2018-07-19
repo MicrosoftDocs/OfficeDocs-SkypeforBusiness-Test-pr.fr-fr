@@ -127,7 +127,7 @@ Il est également possible d’affecter des stratégies de conférence par utili
 
 ## Affecter à plusieurs utilisateurs une stratégie de conférence par utilisateur
 
-  - Cette commande affecte la stratégie de conférence par utilisateur HRConferencingPolicy à tous les utilisateurs qui travaillent pour le service des ressources humaines. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](get-csuser.md).
+  - Cette commande affecte la stratégie de conférence par utilisateur HRConferencingPolicy à tous les utilisateurs qui travaillent pour le service des ressources humaines. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -137,7 +137,7 @@ Il est également possible d’affecter des stratégies de conférence par utili
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Voir aussi
 

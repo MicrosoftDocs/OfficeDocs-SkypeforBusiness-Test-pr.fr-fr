@@ -108,7 +108,7 @@ Vous pouvez également créer des stratégies d’archivage à l’aide de Windo
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [New-CsArchivingPolicy](new-csarchivingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy).
 
 ## Voir aussi
 

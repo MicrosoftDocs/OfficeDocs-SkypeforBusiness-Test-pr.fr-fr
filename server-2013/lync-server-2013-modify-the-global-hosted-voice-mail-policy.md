@@ -15,17 +15,17 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2012-09-24_
 
-La stratégie de messagerie vocale hébergée *globale* est installée avec Lync Server 2013. Vous pouvez la modifier en fonction de vos besoins, mais pas la renommer ni la supprimer. Pour modifier la stratégie globale, utilisez la cmdlet Set-CsHostedVoicemailPolicy pour définir les paramètres sur des valeurs adaptées à votre déploiement.
+La stratégie de messagerie vocale hébergée *globale* est installée avec Lync Server 2013. Vous pouvez la modifier en fonction de vos besoins, mais pas la renommer ni la supprimer. Pour modifier la stratégie globale, utilisez la cmdlet set-cshostedvoicemailpolicy pour définir les paramètres sur des valeurs adaptées à votre déploiement.
 
-Pour plus d’informations sur la cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md), voir la documentation de Lync Server Management Shell.
+Pour plus d’informations sur la cmdlet [set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), voir la documentation de Lync Server Management Shell.
 
 ## Pour modifier la stratégie de messagerie vocale hébergée globale
 
 1.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez la cmdlet Set-CsHostedVoicemailPolicy pour définir les paramètres de stratégie globale pour votre environnement. Par exemple, exécutez :
+2.  Exécutez la cmdlet set-cshostedvoicemailpolicy pour définir les paramètres de stratégie globale pour votre environnement. Par exemple, exécutez :
     
-        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     Cette commande ne spécifiant pas le paramètre Identity de la stratégie, l’interface de ligne de commande Windows PowerShell définit les valeurs suivantes sur la stratégie de messagerie vocale hébergée globale :
     
@@ -48,5 +48,5 @@ Pour plus d’informations sur la cmdlet [Set-CsHostedVoicemailPolicy](set-cshos
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        Set-CsHostedVoicemailPolicy -Organization $a.Organization
+        set-cshostedvoicemailpolicy -Organization $a.Organization
 

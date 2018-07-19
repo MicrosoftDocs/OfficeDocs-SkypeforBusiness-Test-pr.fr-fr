@@ -68,5 +68,5 @@ Les paramètres de configuration de jonction SIP peuvent aussi être affichés �
         ForwardPAI                                : False
         EnableFastFailoverTimer                   : True
 
-Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsTrunkConfiguration](get-cstrunkconfiguration.md) (contenu éventuellement en anglais).
+Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) (contenu éventuellement en anglais).
 

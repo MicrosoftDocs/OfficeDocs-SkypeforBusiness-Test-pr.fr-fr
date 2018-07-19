@@ -60,6 +60,6 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 #### Autres ressources
 
-[New-CsRgsHoliday](new-csrgsholiday.md)  
-[New-CsRgsHolidaySet](new-csrgsholidayset.md)
+[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)
 

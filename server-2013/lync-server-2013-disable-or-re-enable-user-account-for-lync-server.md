@@ -51,7 +51,7 @@ Les comptes d’utilisateurs peuvent également être temporairement désactivé
     
         Set-CsUser -Identity "Ken Myer" -Enabled $True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsUser](set-csuser.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser).
 
 ## Voir aussi
 

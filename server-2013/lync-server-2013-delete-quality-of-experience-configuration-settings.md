@@ -21,7 +21,7 @@ Lorsque vous installez Microsoft Lync Server 2013, une collection unique et glo
 
 Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, la purge est activée par défaut dans une collection de paramètres de configuration QoE. Supposons que vous modifiez la collection globale pour que la purge soit désactivée. Si vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que la purge sera de nouveau activée.
 
-Vous pouvez supprimer les paramètres de configuration QoE en utilisant Panneau de configuration Lync Server ou la cmdlet [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md).
+Vous pouvez supprimer les paramètres de configuration QoE en utilisant Panneau de configuration Lync Server ou la cmdlet [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration).
 
 ## Pour supprimer les paramètres de configuration QoE en utilisant Panneau de configuration Lync Server
 
@@ -57,5 +57,5 @@ Vous pouvez également supprimer les paramètres de configuration QoE en utilisa
     
         Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
 
-Pour plus d’informations, voir [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md).
+Pour plus d’informations, voir [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration).
 

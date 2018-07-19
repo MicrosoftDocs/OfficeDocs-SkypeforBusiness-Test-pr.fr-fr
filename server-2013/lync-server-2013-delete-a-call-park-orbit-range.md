@@ -53,7 +53,7 @@ Utilisez l’une des procédures suivantes pour supprimer une plage d’orbites 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour plus d’informations sur d’autres options, voir <a href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</a>.</td>
+    <td>Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -67,6 +67,6 @@ Utilisez l’une des procédures suivantes pour supprimer une plage d’orbites 
 
 #### Autres ressources
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 
