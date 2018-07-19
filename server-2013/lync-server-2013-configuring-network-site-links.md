@@ -59,7 +59,7 @@ Pour plus d’informations sur les descriptions des paramètres, voir [Remove-Cs
 
 #### Concepts
 
-[Cmdlets du contrôle d’admission des appels](lync-server-2013-call-admission-control-cmdlets.md)  
+[Cmdlets du contrôle d’admission des appels](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### Autres ressources
 

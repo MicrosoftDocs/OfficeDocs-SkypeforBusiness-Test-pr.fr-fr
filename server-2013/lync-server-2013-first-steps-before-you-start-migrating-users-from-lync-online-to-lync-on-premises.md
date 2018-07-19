@@ -35,7 +35,7 @@ Avant de commencer à déplacer les utilisateurs Lync Online vers votre environn
     
     Pour plus d’informations sur l’établissement d’une session PowerShell distante avec Skype Entreprise Online, voir [Connexion à Lync Online à l’aide de Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
-    Pour plus d’informations sur l’utilisation du module Skype Entreprise Online PowerShell, voir [Utilisation de Windows PowerShell pour gérer Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md).
+    Pour plus d’informations sur l’utilisation du module Skype Entreprise Online PowerShell, voir [Utilisation de Windows PowerShell pour gérer Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
   - Votre Lync Online doit être configuré pour un espace d’adressage SIP partagé. Pour cela, commencez une session Powershell à distance avec Lync Online, puis exécutez l’applet de commande suivante :
     

@@ -146,7 +146,7 @@ Il est inutile d’installer des nœuds observateur afin d’utiliser System Cen
 </thead>
 <tbody>
 <tr class="odd">
-<td>Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, et ce sans avoir besoin d’utiliser ou d’installer Operations Manager. Pour plus d’informations sur les applets de commande Test-Cs, voir <a href="lync-server-2013-cmdlets-index.md">Index des applets de commande Lync Server 2013</a>.</td>
+<td>Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, et ce sans avoir besoin d’utiliser ou d’installer Operations Manager. Pour plus d’informations sur les applets de commande Test-Cs, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Index des applets de commande Lync Server 2013</a>.</td>
 </tr>
 </tbody>
 </table>
