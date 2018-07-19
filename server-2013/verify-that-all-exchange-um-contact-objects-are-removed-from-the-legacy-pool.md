@@ -25,5 +25,5 @@ Utilisez l’outil **OCSUmUtil** ou l’applet de commande **Get-CsExumContact**
 
   - autorisations de domaine pour la création d’objets contact dans le conteneur d’unités d’organisation spécifié.
 
-Pour plus d’informations sur l’utilisation de l’applet de commande **Get-CsExumContact**, reportez-vous à [Get-CsExUmContact](get-csexumcontact.md) dans la documentation Lync Server Management Shell.
+Pour plus d’informations sur l’utilisation de l’applet de commande **Get-CsExumContact**, reportez-vous à [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact) dans la documentation Lync Server Management Shell.
 

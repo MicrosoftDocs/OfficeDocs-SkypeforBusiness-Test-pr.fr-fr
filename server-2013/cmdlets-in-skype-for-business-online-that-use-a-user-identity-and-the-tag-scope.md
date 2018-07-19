@@ -51,7 +51,7 @@ Si vous voulez retourner les identités pour toutes vos stratégies utilisateur 
 
 Les applets de commande suivantes utilisent une identité utilisateur et l’étendue de balise :
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
   - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
 
@@ -61,7 +61,7 @@ Les applets de commande suivantes utilisent une identité utilisateur et l’ét
 
   - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Voir aussi
 

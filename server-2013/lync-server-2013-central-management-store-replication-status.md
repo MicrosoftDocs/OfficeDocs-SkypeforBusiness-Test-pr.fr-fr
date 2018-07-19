@@ -31,5 +31,5 @@ Pour renvoyer une liste de tous les rôles de contrôle d’accès basé sur les
 
 #### Autres ressources
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

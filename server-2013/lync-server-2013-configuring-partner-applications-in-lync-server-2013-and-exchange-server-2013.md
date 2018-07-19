@@ -43,7 +43,7 @@ Après avoir configuré Lync Server 2013 comme application partenaire d’Excha
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-Dans Lync Server, la configuration des applications partenaires s’effectue à l’aide de l’applet de commande [New-CsPartnerApplication](new-cspartnerapplication.md). En plus de spécifier l’URI de métadonnées, vous devez aussi définir le niveau de confiance de l’application sur Total, ce qui permettra à Exchange de se représenter lui-même et tout utilisateur autorisé dans le domaine. Par exemple :
+Dans Lync Server, la configuration des applications partenaires s’effectue à l’aide de l’applet de commande [New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication). En plus de spécifier l’URI de métadonnées, vous devez aussi définir le niveau de confiance de l’application sur Total, ce qui permettra à Exchange de se représenter lui-même et tout utilisateur autorisé dans le domaine. Par exemple :
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

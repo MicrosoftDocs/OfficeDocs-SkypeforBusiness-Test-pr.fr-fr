@@ -30,7 +30,7 @@ Après avoir créé votre stratégie pour les téléphones de partie commune (po
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
-Pour plus d’informations, voir les rubriques d’aide relatives à [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Pour plus d’informations, voir les rubriques d’aide relatives à [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## Voir aussi
 

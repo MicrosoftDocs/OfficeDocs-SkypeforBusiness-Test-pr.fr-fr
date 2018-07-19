@@ -33,7 +33,7 @@ La plupart des tâches de gestion qui s’appliquent aux utilisateurs et aux com
 
   - [Invoke-CsUcsRollback](invoke-csucsrollback.md)
 
-  - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
   -   
     [Disable-CsUser](disable-csuser.md)
@@ -42,7 +42,7 @@ La plupart des tâches de gestion qui s’appliquent aux utilisateurs et aux com
     [Enable-CsUser](enable-csuser.md)
 
   -   
-    [Get-CsUser](get-csuser.md)
+    [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
   -   
     [Move-CsUser](move-csuser.md)
@@ -57,7 +57,7 @@ La plupart des tâches de gestion qui s’appliquent aux utilisateurs et aux com
     [Remove-CsUserAcp](remove-csuseracp.md)
 
   -   
-    [Set-CsUserAcp](set-csuseracp.md)
+    [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
   -   
     [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)

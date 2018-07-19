@@ -106,7 +106,7 @@ L’archivage peut être activé et désactivé (à la fois pour les sessions de
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsArchivingPolicy](set-csarchivingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy).
 
 ## Voir aussi
 

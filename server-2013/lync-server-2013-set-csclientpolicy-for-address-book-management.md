@@ -31,5 +31,5 @@ Pour une description détaillée de la commande complète, reportez-vous aux res
 
 #### Autres ressources
 
-[Set-CsClientPolicy](set-csclientpolicy.md)
+[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy)
 

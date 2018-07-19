@@ -278,7 +278,7 @@ Vous pouvez utiliser certains bits d’indicateur pour définir un filtre à uti
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pour plus d'informations sur le filtrage du carnet d'adresses, voir <a href="lync-server-2013-address-book-server-cmdlets.md">Cmdlets pour le serveur de carnet d’adresses</a> et <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</a></td>
+<td>Pour plus d'informations sur le filtrage du carnet d'adresses, voir <a href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets pour le serveur de carnet d’adresses</a> et <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</a></td>
 </tr>
 </tbody>
 </table>

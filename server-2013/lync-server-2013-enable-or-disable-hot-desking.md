@@ -52,5 +52,5 @@ On utilise le paramètre EnableHotdesking de l’applet de commande **New-CSClie
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
-Pour plus d’informations, voir les applets de commande New-CsNetworkSubnet et [Set-CsClientPolicy](set-csclientpolicy.md) dans la documentation [New-CsClientPolicy](new-csclientpolicy.md).
+Pour plus d’informations, voir les applets de commande New-CsNetworkSubnet et [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) dans la documentation [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy).
 

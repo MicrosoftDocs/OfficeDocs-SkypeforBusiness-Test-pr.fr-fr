@@ -61,7 +61,7 @@ Il est également possible de gérer les paramètres de sécurité à l’aide d
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -MinPhonePinLength 7
 
-Pour plus d’informations, voir [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md).
+Pour plus d’informations, voir [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 ## Voir aussi
 

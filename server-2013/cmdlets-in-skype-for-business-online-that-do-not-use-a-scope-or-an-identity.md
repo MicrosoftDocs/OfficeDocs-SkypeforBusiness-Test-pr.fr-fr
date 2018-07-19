@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-06-22_
 
 Les applets de commande utilisées pour modifier les listes de domaines autorisés et bloqués (listes déterminant les organisations externes avec lesquelles vos utilisateurs peuvent communiquer) n’utilisent ni étendue, ni identité. En réalité, l’applet de commande **New-CsEdgeAllowAllKnownDomains** n’inclut aucun paramètre. Les applets de commande suivantes n’utilisent ni étendue, ni identité :
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
   - [New-CsEdgeAllowList](new-csedgeallowlist.md)
 

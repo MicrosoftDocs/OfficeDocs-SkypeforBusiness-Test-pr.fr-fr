@@ -124,7 +124,7 @@ Où $LyssProvider est la variable qui contient le scénario défini créé avec 
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-À l’issue de l’exécution de la commande, des indicateurs et un niveau mis à jour pour le fournisseur sont affectés au scénario site:Redmond/RedmondLyssInfo. Vous pouvez examiner le nouveau scénario en utilisant Get-CsClsScenario. Pour plus d’informations, voir [Get-CsClsScenario](get-csclsscenario.md).
+À l’issue de l’exécution de la commande, des indicateurs et un niveau mis à jour pour le fournisseur sont affectés au scénario site:Redmond/RedmondLyssInfo. Vous pouvez examiner le nouveau scénario en utilisant Get-CsClsScenario. Pour plus d’informations, voir [Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario).
 
 <table>
 <thead>
@@ -184,7 +184,7 @@ Lorsque vous supprimez un scénario à l’aide de l’applet de commande **Remo
 
 #### Autres ressources
 
-[Get-CsClsScenario](get-csclsscenario.md)  
+[Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario)  
 [New-CsClsScenario](new-csclsscenario.md)  
 [Remove-CsClsScenario](remove-csclsscenario.md)  
 [Set-CsClsScenario](set-csclsscenario.md)  

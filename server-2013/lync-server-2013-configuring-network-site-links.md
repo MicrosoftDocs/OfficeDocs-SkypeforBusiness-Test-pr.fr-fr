@@ -29,7 +29,7 @@ Dans une configuration de contrôle d’admission des appels, vous pouvez créer
     
     Cet exemple créé un lien de site réseau nommé Reno\_Portland qui définit des restrictions de la bande passante entre les sites réseau Reno et Portland. Les sites réseau et le profil de stratégie de bande passante doivent être existants avant d’exécuter cette commande.
 
-Pour plus d’informations sur les descriptions des paramètres, voir [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) dans la documentation de Lync Server Management Shell. Pour récupérer une liste des profils de stratégie de bande passante pouvant être appliqués au lien de site réseau, appelez l’applet de commande **Get-CsNetworkBandwidthPolicyProfile**. Pour plus d’informations, voir [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) dans la documentation de Lync Server Management Shell.
+Pour plus d’informations sur les descriptions des paramètres, voir [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md) dans la documentation de Lync Server Management Shell. Pour récupérer une liste des profils de stratégie de bande passante pouvant être appliqués au lien de site réseau, appelez l’applet de commande **Get-CsNetworkBandwidthPolicyProfile**. Pour plus d’informations, voir [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) dans la documentation de Lync Server Management Shell.
 
 ## Pour modifier un lien de site réseau
 
@@ -67,5 +67,5 @@ Pour plus d’informations sur les descriptions des paramètres, voir [Remove-Cs
 [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
 [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
 [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

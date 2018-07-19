@@ -92,7 +92,7 @@ Localisez votre statut de présence personnalisé en spécifiant un ou plusieurs
 
 5.  Utilisez l’applet de commande **Grant-CSClientPolicy** pour assigner cette nouvelle stratégie aux utilisateurs.
 
-Pour plus d’informations, voir [New-CsClientPolicy](new-csclientpolicy.md) et [Grant-CsClientPolicy](grant-csclientpolicy.md) dans la documentation Lync Server Management Shell.
+Pour plus d’informations, voir [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) et [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) dans la documentation Lync Server Management Shell.
 
 <table>
 <colgroup>

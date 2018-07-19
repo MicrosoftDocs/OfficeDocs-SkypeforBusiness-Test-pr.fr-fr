@@ -69,7 +69,7 @@ Si vous ne savez pas exactement de quelles applets de commande vous avez besoin,
 <td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Applets de commande pour le serveur de conversation permanente</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Cmdlets de fédération et d’accès externe dans Lync Server 2013</a></p></td>
+<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/skype/">Cmdlets de fédération et d’accès externe dans Lync Server 2013</a></p></td>
 <td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Applets de commande pour la journalisation centralisée</a></p></td>
 </tr>
 <tr class="even">

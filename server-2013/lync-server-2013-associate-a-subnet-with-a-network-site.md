@@ -61,7 +61,7 @@ Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique
 
 Pour plus d’informations sur l’utilisation des sous-réseaux, reportez-vous à la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
 
   - [Get-CsNetworkSubnet](get-csnetworksubnet.md)
 

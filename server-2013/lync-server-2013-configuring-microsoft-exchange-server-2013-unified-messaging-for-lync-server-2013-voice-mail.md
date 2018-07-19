@@ -61,7 +61,7 @@ Et vous pouvez activer un utilisateur pour la messagerie unifiée en utilisant u
 
 Dans la commande précédente, le paramètre Extensions représente le numéro de poste de l’utilisateur. Dans cet exemple, le numéro de poste de l’utilisateur est le 100.
 
-Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Pour vérifier que l’utilisateur peut se connecter à la messagerie unifiée d’Exchange, exécutez l’applet de commande [Test-CsExUMConnectivity](test-csexumconnectivity.md) dans Lync Server Management Shell:
+Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Pour vérifier que l’utilisateur peut se connecter à la messagerie unifiée d’Exchange, exécutez l’applet de commande [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) dans Lync Server Management Shell:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

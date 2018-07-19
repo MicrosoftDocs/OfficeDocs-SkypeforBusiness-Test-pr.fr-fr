@@ -61,7 +61,7 @@ Les règles de mise à jour des périphériques peuvent également être approuv
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Approve-CsDeviceUpdateRule](approve-csdeviceupdaterule.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Approve-CsDeviceUpdateRule).
 
 ## Voir aussi
 

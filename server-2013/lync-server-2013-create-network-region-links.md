@@ -19,7 +19,7 @@ Au sein d’un réseau, les régions sont liées par une connectivité au résea
 
 Pour plus d’informations sur l’utilisation des liens de région réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
   - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
 

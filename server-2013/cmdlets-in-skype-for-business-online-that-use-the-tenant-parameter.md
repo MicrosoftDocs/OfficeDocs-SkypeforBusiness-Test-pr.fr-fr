@@ -19,7 +19,7 @@ Lorsque vous modifiez vos paramètres de fournisseur public, vous devez toujours
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Heureusement, vous n’avez pas besoin de taper l’ID de client (par exemple, bf19b7db-6960-41e5-a139-2aa373474354) chaque fois que vous exécutez une de ces applets de commande. Vous pouvez simplement récupérer l’ID de client en exécutant l’applet de commande [Get-CsTenant](get-cstenant.md), en stockant celui-ci dans une variable, puis en utilisant cette variable lorsque vous appelez une des autres applets de commande. Par exemple :
+Heureusement, vous n’avez pas besoin de taper l’ID de client (par exemple, bf19b7db-6960-41e5-a139-2aa373474354) chaque fois que vous exécutez une de ces applets de commande. Vous pouvez simplement récupérer l’ID de client en exécutant l’applet de commande [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), en stockant celui-ci dans une variable, puis en utilisant cette variable lorsque vous appelez une des autres applets de commande. Par exemple :
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
@@ -34,7 +34,7 @@ Vous n’avez pas besoin de spécifier l’ID de client lorsque vous appelez l�
 
 Les applets de commande suivantes acceptent une identité de client. Dans ces cas, le paramètre est facultatif et n’a pas besoin d’être entré lorsque l‘applet de commande est appelée. Windows PowerShell entre en effet l’identité du client automatiquement sur la base du client Skype Entreprise Online auquel vous êtes connecté actuellement :
 
-  - [Get-CsTenant](get-cstenant.md)
+  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
 
   - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
 

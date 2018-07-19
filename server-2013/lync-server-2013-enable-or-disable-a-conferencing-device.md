@@ -44,5 +44,5 @@ Vous pouvez activer et désactiver un périphérique de conférence à l’aide 
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
-Pour plus d’informations, voir les applets de commande New-CsNetworkSubnet et [Disable-CsMeetingRoom](disable-csmeetingroom.md) dans la documentation [Enable-CsMeetingRoom](enable-csmeetingroom.md).
+Pour plus d’informations, voir les applets de commande New-CsNetworkSubnet et [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom) dans la documentation [Enable-CsMeetingRoom](enable-csmeetingroom.md).
 

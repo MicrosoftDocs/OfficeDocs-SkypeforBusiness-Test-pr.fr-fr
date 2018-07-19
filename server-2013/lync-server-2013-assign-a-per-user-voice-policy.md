@@ -73,7 +73,7 @@ Les stratégies de voix par utilisateur peuvent également être assignées à l
 
 ## Assignation d’une stratégie de voix par utilisateur à plusieurs utilisateurs
 
-  - Cette commande assigne la stratégie de voix par utilisateur FinanceVoicePolicy à tous les utilisateurs qui ont des comptes dans l’unité d’organisation Finance dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](get-csuser.md).
+  - Cette commande assigne la stratégie de voix par utilisateur FinanceVoicePolicy à tous les utilisateurs qui ont des comptes dans l’unité d’organisation Finance dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -83,7 +83,7 @@ Les stratégies de voix par utilisateur peuvent également être assignées à l
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## Voir aussi
 

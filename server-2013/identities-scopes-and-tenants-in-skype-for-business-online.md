@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2015-06-22_
 
-De nombreuses applets de commande Windows PowerShell utilisées pour gérer Skype Entreprise Online demandent une grande précision de votre part à propos des éléments que vous voulez gérer. Par exemple, lorsque vous exécutez l’applet de commande [Set-CsUserAcp](set-csuseracp.md), vous devez indiquer quel utilisateur vous voulez gérer. C’est logique. Tant que vous ne lui indiquez pas exactement le compte d’utilisateur à gérer, l’applet de commande **Set-CsUserAcp** ne peut pas savoir quelles informations de conférence audio d’utilisateur doivent être modifiées. C’est pour cela que vous devez indiquer le paramètre Identity, suivi de l’identité du compte d’utilisateur à modifier à chaque exécution de l’applet de commande **Set-CsUserAcp** :
+De nombreuses applets de commande Windows PowerShell utilisées pour gérer Skype Entreprise Online demandent une grande précision de votre part à propos des éléments que vous voulez gérer. Par exemple, lorsque vous exécutez l’applet de commande [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp), vous devez indiquer quel utilisateur vous voulez gérer. C’est logique. Tant que vous ne lui indiquez pas exactement le compte d’utilisateur à gérer, l’applet de commande **Set-CsUserAcp** ne peut pas savoir quelles informations de conférence audio d’utilisateur doivent être modifiées. C’est pour cela que vous devez indiquer le paramètre Identity, suivi de l’identité du compte d’utilisateur à modifier à chaque exécution de l’applet de commande **Set-CsUserAcp** :
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 

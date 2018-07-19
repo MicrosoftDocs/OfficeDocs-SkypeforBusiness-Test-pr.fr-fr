@@ -35,11 +35,11 @@ Dans Skype Entreprise Online, vous pouvez référencer l’identité d’un util
 
 Les applets de commande suivantes acceptent l’identité d’un utilisateur :
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
 
   - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
 
   - [Get-CsMeetingRoom](get-csmeetingroom.md)
 
@@ -57,7 +57,7 @@ Les applets de commande suivantes acceptent l’identité d’un utilisateur :
 
   - [Set-CsMeetingRoom](set-csmeetingroom.md)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
 Vous n’avez pas besoin de spécifier l’identité d’un utilisateur lorsque vous appelez une des applets de commande **Get-Cs**. Dans ce cas, les applets de commande retournent toutes les instances de l’élément spécifié. Par exemple, la commande suivante retourne des informations sur tous les utilisateurs activés pour Skype Entreprise Online :
 

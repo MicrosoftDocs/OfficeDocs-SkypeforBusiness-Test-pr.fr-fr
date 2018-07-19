@@ -133,7 +133,7 @@ Lorsque vous configurez des stratégies visant à prendre en charge les partenai
 #### Autres ressources
 
 [Gestion des partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
 [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
 [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  

@@ -48,7 +48,7 @@ Pour retourner toutes les stratégies à l’exception des stratégies globales 
 
 Les applets de commande suivantes sont appliquées à l’étendue globale et à l’étendue utilisateur (balise) :
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
   - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
 

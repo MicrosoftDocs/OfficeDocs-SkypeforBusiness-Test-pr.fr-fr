@@ -171,7 +171,7 @@ Voici les questions auxquelles vous devez répondre :
     </tbody>
     </table>
     
-    Pour obtenir une description des paramètres de stratégie configurables et pour plus d’informations sur la façon de gérer les stratégies, reportez-vous à [New-CsMobilityPolicy](new-csmobilitypolicy.md), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) et [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
+    Pour obtenir une description des paramètres de stratégie configurables et pour plus d’informations sur la façon de gérer les stratégies, reportez-vous à [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) et [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md).
 
   - **Souhaitez-vous que les utilisateurs qui ne sont pas activés pour Voix Entreprise puissent utiliser la fonctionnalité Cliquez pour participer afin de rejoindre des conférences ?**
     

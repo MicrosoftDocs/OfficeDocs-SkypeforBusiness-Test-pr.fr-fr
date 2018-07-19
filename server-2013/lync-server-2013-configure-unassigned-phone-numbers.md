@@ -27,7 +27,7 @@ La manière dont vous configurez la table des numéros non attribués dépend de
 </thead>
 <tbody>
 <tr class="odd">
-<td>Avant de configurer la table des numéros non attribués, vous devez avoir défini une ou plusieurs annonces ou configuré un standard automatique de la messagerie unifiée Exchange. Pour plus d’informations sur la création d’annonces, voir <a href="lync-server-2013-create-an-announcement.md">Création d’une annonce dans Lync Server 2013</a>. Pour vérifier si vous avez configuré les paramètres de la messagerie unifiée Exchange, exécutez l’applet de commande <strong>Get-CsExUmContact</strong>. Pour plus d’informations, voir <a href="get-csexumcontact.md">Get-CsExUmContact</a>.</td>
+<td>Avant de configurer la table des numéros non attribués, vous devez avoir défini une ou plusieurs annonces ou configuré un standard automatique de la messagerie unifiée Exchange. Pour plus d’informations sur la création d’annonces, voir <a href="lync-server-2013-create-an-announcement.md">Création d’une annonce dans Lync Server 2013</a>. Pour vérifier si vous avez configuré les paramètres de la messagerie unifiée Exchange, exécutez l’applet de commande <strong>Get-CsExUmContact</strong>. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</a>.</td>
 </tr>
 </tbody>
 </table>

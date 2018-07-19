@@ -53,7 +53,7 @@ Après avoir créé la stratégie, vous devez l’affecter à tout utilisateur a
 
 Après avoir affecté la stratégie, Lync Server commence à migrer les contacts de l’utilisateur vers le magasin de contacts unifié. À l’issue de la migration, les contacts de l’utilisateur sont stockés dans Exchange et non dans Lync Server. Si l’utilisateur est connecté à Lync 2013 au moment où la migration se termine, une zone de message s’affiche pour lui demander de se déconnecter de Lync et de se reconnecter afin de finaliser le processus. Les utilisateurs auxquels cette stratégie par utilisateur n'a pas été affectée ne verront pas leurs contacts migrer vers le magasin de contacts unifié. Et ce, car ces utilisateurs sont gérés par la stratégie globale, et l'utilisation du magasin de contacts unifié a été désactivée dans la stratégie globale.
 
-Vous pouvez vérifier que les contacts d’un utilisateur ont bien été migrés vers le magasin de contacts unifié en exécutant l’applet de commande [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) à partir de Lync Server Management Shell :
+Vous pouvez vérifier que les contacts d’un utilisateur ont bien été migrés vers le magasin de contacts unifié en exécutant l’applet de commande [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) à partir de Lync Server Management Shell :
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 

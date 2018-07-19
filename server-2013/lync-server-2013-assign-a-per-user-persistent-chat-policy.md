@@ -119,7 +119,7 @@ Les stratégies de conversation persistante par utilisateur peuvent également �
 
 ## Attribution d’une stratégie de conversation persistante par utilisateur à plusieurs utilisateurs
 
-  - Cette commande attribue la stratégie de conversation persistante par utilisateur RedmondUsersPersistentChatPolicy à tous les utilisateurs du service Informatique. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation relative à la cmdlet [Get-CsUser](get-csuser.md) (contenu éventuellement en anglais).
+  - Cette commande attribue la stratégie de conversation persistante par utilisateur RedmondUsersPersistentChatPolicy à tous les utilisateurs du service Informatique. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation relative à la cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) (contenu éventuellement en anglais).
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 

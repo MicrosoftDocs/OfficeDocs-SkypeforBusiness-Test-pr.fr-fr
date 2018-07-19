@@ -25,7 +25,7 @@ Pour activer l’intégration de la messagerie instantanée et d’Exchange 201
     
         Get-CsSite
     
-    Celle-ci renvoie la valeur siteID correspondant à la valeur siteName dans laquelle vous créez le pool. Pour plus d’informations, reportez-vous à [Get-CsSite](get-cssite.md) dans la documentation de Lync Server 2013 Management Shell.
+    Celle-ci renvoie la valeur siteID correspondant à la valeur siteName dans laquelle vous créez le pool. Pour plus d’informations, reportez-vous à [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) dans la documentation de Lync Server 2013 Management Shell.
 
 3.  Exécutez l’applet de commande suivante :
     

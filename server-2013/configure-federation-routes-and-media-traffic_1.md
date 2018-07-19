@@ -248,7 +248,7 @@ Pour pouvoir publier, activer ou désactiver une topologie lorsque vous ajoutez 
     
         Set-CsAccessEdgeConfiguration
     
-    Pour plus d’informations sur ces applets de commande, reportez-vous aux rubriques suivantes : [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md) et [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md) (contenu éventuellement en anglais).
+    Pour plus d’informations sur ces applets de commande, reportez-vous aux rubriques suivantes : [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) et [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration) (contenu éventuellement en anglais).
 
 4.  Attendez que la réplication soit terminée avant de mettre les serveurs Edge Lync Server 2013 en ligne et de tester la fédération et l’accès externe.
 

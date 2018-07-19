@@ -25,7 +25,7 @@ Les scénarios définissent l’étendue (globale, site, pool ou ordinateur) et 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios en cours d’exécution, utilisez Windows PowerShell et <a href="get-csclsscenario.md">Get-CsClsScenario</a>. Avec Windows PowerShell et <a href="set-csclsscenario.md">Set-CsClsScenario</a>, vous pouvez modifier dynamiquement les scénarios en cours d’exécution. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues.</td>
+<td>Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios en cours d’exécution, utilisez Windows PowerShell et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Avec Windows PowerShell et <a href="set-csclsscenario.md">Set-CsClsScenario</a>, vous pouvez modifier dynamiquement les scénarios en cours d’exécution. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues.</td>
 </tr>
 </tbody>
 </table>
