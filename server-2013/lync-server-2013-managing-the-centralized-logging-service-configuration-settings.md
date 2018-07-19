@@ -55,5 +55,5 @@ Les rubriques de cette section définissent les options de configuration et les 
 #### Concepts
 
 [Présentation du service de journalisation centralisée](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Applets de commande pour la journalisation centralisée](lync-server-2013-centralized-logging-cmdlets.md)
+[Applets de commande pour la journalisation centralisée](https://docs.microsoft.com/en-us/powershell/module/skype/)
 
