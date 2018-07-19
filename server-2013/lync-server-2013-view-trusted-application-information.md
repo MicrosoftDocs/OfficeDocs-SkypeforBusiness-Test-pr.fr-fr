@@ -45,5 +45,5 @@ Vous pouvez afficher des informations sur les applications approuvées avec Lync
         ExUmEnabled            : False
         Enabled                : True
 
-Pour plus d’informations, voir [Get-CsTrustedApplication](get-cstrustedapplication.md).
+Pour plus d’informations, voir [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
 

@@ -27,7 +27,7 @@ Pour plus d’informations, reportez-vous à la documentation de Lync Server Man
 
   - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 <table>
 <thead>
@@ -112,5 +112,5 @@ Pour plus d’informations, reportez-vous à la documentation de Lync Server Man
 
 #### Autres ressources
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

@@ -57,8 +57,8 @@ Une stratégie unique, appelée Globale, existe par défaut. Il n’est pas poss
 
 #### Autres ressources
 
-[New-CsLocationPolicy](new-cslocationpolicy.md)  
-[Set-CsLocationPolicy](set-cslocationpolicy.md)  
+[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
+[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
 [Remove-CsLocationPolicy](remove-cslocationpolicy.md)  
 [Get-CsLocationPolicy](get-cslocationpolicy.md)
 

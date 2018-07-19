@@ -39,7 +39,7 @@ La procédure suivante vous permet de supprimer une plage de numéros de prise d
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour plus d’informations sur d’autres options, voir <a href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</a>.</td>
+    <td>Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -53,6 +53,6 @@ La procédure suivante vous permet de supprimer une plage de numéros de prise d
 
 #### Autres ressources
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

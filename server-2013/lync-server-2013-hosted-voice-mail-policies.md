@@ -85,7 +85,7 @@ Une stratégie de messagerie vocale définit deux attributs que l’application 
 </thead>
 <tbody>
 <tr class="odd">
-<td>L’administrateur client de votre service de messagerie unifiée Exchange hébergé fournit les valeurs nécessaires pour vos paramètres d’attribut de destination et d’organisation. Pour configurer votre stratégie, vous devez exécuter l’applet de commande New-CsHostedVoicemailPolicy ou utiliser Set-CsHostedVoicemailPolicy pour modifier une stratégie existante (la stratégie globale, par exemple).</td>
+<td>L’administrateur client de votre service de messagerie unifiée Exchange hébergé fournit les valeurs nécessaires pour vos paramètres d’attribut de destination et d’organisation. Pour configurer votre stratégie, vous devez exécuter l’applet de commande New-CsHostedVoicemailPolicy ou utiliser set-cshostedvoicemailpolicy pour modifier une stratégie existante (la stratégie globale, par exemple).</td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ Pour plus d’informations sur la gestion des stratégies de messagerie vocale h
 
   - New-CsHostedVoicemailPolicy
 
-  - Set-CsHostedVoicemailPolicy
+  - set-cshostedvoicemailpolicy
 
   - Get-CsHostedVoicemailPolicy
 

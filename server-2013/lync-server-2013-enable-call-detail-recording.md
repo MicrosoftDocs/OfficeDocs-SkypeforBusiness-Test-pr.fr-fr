@@ -79,7 +79,7 @@ Vous pouvez aussi activer l’enregistrement des détails des appels à l’aide
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 ## Voir aussi
 

@@ -104,7 +104,7 @@ Vous pouvez afficher les informations relatives au code confidentiel de l’util
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer).
 
 ## Voir aussi
 

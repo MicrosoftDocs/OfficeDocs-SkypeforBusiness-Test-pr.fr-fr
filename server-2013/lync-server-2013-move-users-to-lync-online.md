@@ -57,7 +57,7 @@ Vous pouvez déterminer l’URL du service de migration hébergée en affichant 
 
 ## Déplacement d’utilisateurs vers Lync Online
 
-Vous pouvez déplacer plusieurs utilisateurs à l’aide de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) avec le paramètre –Filter pour sélectionner les utilisateurs pour lesquels une propriété spécifique est affectée au compte, comme RegistrarPool. Vous pouvez ensuite insérer les utilisateurs renvoyés dans l’applet de commande [Move-CsUser](move-csuser.md), comme indiqué dans l’exemple suivant.
+Vous pouvez déplacer plusieurs utilisateurs à l’aide de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) avec le paramètre –Filter pour sélectionner les utilisateurs pour lesquels une propriété spécifique est affectée au compte, comme RegistrarPool. Vous pouvez ensuite insérer les utilisateurs renvoyés dans l’applet de commande [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser), comme indiqué dans l’exemple suivant.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

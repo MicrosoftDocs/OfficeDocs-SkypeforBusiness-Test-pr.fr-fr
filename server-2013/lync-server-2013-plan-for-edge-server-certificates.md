@@ -45,7 +45,7 @@ Créez un certificat public unique, vérifiez que vous disposez d’une clé pri
 </thead>
 <tbody>
 <tr class="odd">
-<td>Introduits dans Lync Server 2013, les certificats d’authentification audio/vidéo temporaires précédant l’expiration du certificat actuel requièrent une planification supplémentaire. Au lieu d’un certificat utilisé à des fins diverses pour l’interface externe du serveur Edge, vous aurez besoin de deux certificats : l’un sera affecté au service Edge d’accès et au service Edge de conférence web, tandis que l’autre sera affecté au service Edge A/V. Pour obtenir des informations supplémentaires, reportez-vous à <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate</a></td>
+<td>Introduits dans Lync Server 2013, les certificats d’authentification audio/vidéo temporaires précédant l’expiration du certificat actuel requièrent une planification supplémentaire. Au lieu d’un certificat utilisé à des fins diverses pour l’interface externe du serveur Edge, vous aurez besoin de deux certificats : l’un sera affecté au service Edge d’accès et au service Edge de conférence web, tandis que l’autre sera affecté au service Edge A/V. Pour obtenir des informations supplémentaires, reportez-vous à <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate</a></td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ Créez un certificat interne unique doté d’une clé privée exportable, copie
 
 #### Tâches
 
-[Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### Concepts
 

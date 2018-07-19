@@ -108,5 +108,5 @@ Les paramètres de configuration de réunion peuvent également être créés (a
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-Pour plus d’informations, voir la rubrique d’aide associée à l’applet de commande [New-CsMeetingConfiguration](new-csmeetingconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide associée à l’applet de commande [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration).
 

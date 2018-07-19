@@ -59,7 +59,7 @@ Le verrouillage du téléphone peut être appliqué à l’aide de l’applet de
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUCPhoneConfiguration).
 
 ## Voir aussi
 

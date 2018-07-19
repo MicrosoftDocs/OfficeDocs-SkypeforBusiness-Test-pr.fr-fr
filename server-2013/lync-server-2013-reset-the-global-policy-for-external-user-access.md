@@ -39,5 +39,5 @@ Il est possible de réinitialiser la stratégie d’accès externe globale à l�
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

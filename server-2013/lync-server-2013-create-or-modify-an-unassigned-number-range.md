@@ -166,7 +166,7 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 #### Autres ressources
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
 [Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

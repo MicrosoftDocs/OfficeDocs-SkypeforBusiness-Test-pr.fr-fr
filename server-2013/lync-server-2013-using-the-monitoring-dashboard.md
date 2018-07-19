@@ -23,7 +23,7 @@ Le Tableau de bord de suivi fournit aux administrateurs un rapide aperçu de l�
 
   - Les totaux du mois, et les totaux de la tendance des six mois précédents (pour l’utilisation du système uniquement).
 
-Notez que vous pouvez utiliser l'applet de commande [Get-CsReportingConfiguration](get-csreportingconfiguration.md) pour retourner l'URL utilisée pour accéder aux rapports de surveillance de Lync Server 2013 :
+Notez que vous pouvez utiliser l'applet de commande [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) pour retourner l'URL utilisée pour accéder aux rapports de surveillance de Lync Server 2013 :
 
     Get-CsReportingConfiguration
 

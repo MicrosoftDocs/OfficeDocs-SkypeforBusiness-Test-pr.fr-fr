@@ -79,7 +79,7 @@ Les plans de numérotation par utilisateur peuvent également être assignés à
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsDialPlan](grant-csdialplan.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan).
 
 ## Voir aussi
 

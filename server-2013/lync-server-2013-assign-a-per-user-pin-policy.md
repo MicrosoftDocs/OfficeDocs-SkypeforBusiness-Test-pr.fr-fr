@@ -135,7 +135,7 @@ Vous pouvez affecter des stratégies de code confidentiel par utilisateur en uti
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir [Grant-CsPinPolicy](grant-cspinpolicy.md).
+Pour plus d’informations, voir [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy).
 
 ## Voir aussi
 

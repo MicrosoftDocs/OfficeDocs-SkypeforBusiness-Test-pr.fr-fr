@@ -59,5 +59,5 @@ Vous pouvez nettoyer les journaux de mise à jour des périphériques à l’aid
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog).
 

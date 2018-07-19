@@ -87,7 +87,7 @@ Lorsque vous effectuez la récupération en créant un nouveau pool avec un nom 
 </table>
 
 
-Vous ne pouvez définir qu’un seul ensemble de paramètres de configuration Response Group de niveau application par pool. Ces paramètres incluent la configuration de la mise en attente musicale par défaut, le fichier audio de mise en attente musicale par défaut, la période de grâce de reprise d’appel parqué de l’agent et la configuration du contexte de l’appel. Pour afficher ces paramètres de configuration, exécutez l’applet de commande **Get-CsRgsConfiguration**. Pour plus d’informations sur l’applet de commande **Get-CsRgsConfiguration**, reportez-vous à [Get-CsRgsConfiguration](get-csrgsconfiguration.md).
+Vous ne pouvez définir qu’un seul ensemble de paramètres de configuration Response Group de niveau application par pool. Ces paramètres incluent la configuration de la mise en attente musicale par défaut, le fichier audio de mise en attente musicale par défaut, la période de grâce de reprise d’appel parqué de l’agent et la configuration du contexte de l’appel. Pour afficher ces paramètres de configuration, exécutez l’applet de commande **Get-CsRgsConfiguration**. Pour plus d’informations sur l’applet de commande **Get-CsRgsConfiguration**, reportez-vous à [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration).
 
 Vous pouvez transférer ces paramètres de niveau application d’un pool à un autre à l’aide de l’applet de commande **Import-CsRgsConfiguration** avec le paramètre –ReplaceExistingSettings, mais cette opération remplace les paramètres du pool de destination.
 

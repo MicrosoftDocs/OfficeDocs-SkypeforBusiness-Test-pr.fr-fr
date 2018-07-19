@@ -135,7 +135,7 @@ Les stratégies d’archivage par utilisateur peuvent également être assignée
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
 
 ## Voir aussi
 

@@ -44,7 +44,7 @@ L’importation des règles de mise à jour s’effectue uniquement à l’aide 
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Import-CsDeviceUpdate](import-csdeviceupdate.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate).
 
 ## Voir aussi
 

@@ -54,6 +54,6 @@ Pour ces raisons, dans un scénario de migration, avant de pouvoir activer le mo
 #### Autres ressources
 
 [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)  
-[New-CsPrivacyConfiguration](new-csprivacyconfiguration.md)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPrivacyConfiguration)  
 [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 

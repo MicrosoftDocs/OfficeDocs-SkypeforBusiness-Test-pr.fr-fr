@@ -69,7 +69,7 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 3.  Pour chaque plage horaire unique que vous souhaitez définir, exécutez :
     
-        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Pour créer la collection d’heures d’ouverture qui utilise les plages que vous avez définies, exécutez :
     
@@ -91,6 +91,6 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 #### Autres ressources
 
-[New-CsRgsTimeRange](new-csrgstimerange.md)  
-[New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

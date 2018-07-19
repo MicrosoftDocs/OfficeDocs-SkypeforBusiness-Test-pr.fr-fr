@@ -27,7 +27,7 @@ Durant la récupération d’urgence, les utilisateurs redirigés vers le pool d
 
 Les plages de numéros de la prise d’appel de groupe dans la table des numéros d’appel parqué doivent être redirigées vers le pool de sauvegarde une fois terminé le processus de basculement vers le pool de sauvegarde. Les plages de numéros doivent être redirigées vers le pool principal une fois terminé le processus de restauration automatique sur le pool principal. Pour rediriger les plages de la prise d’appel de groupe, utilisez l’applet de commande **Set-CsCallParkOrbit**.
 
-Si vous déployez un nouveau pool doté d’un autre nom de domaine complet (FQDN) pour remplacer le pool principal, vous devez réaffecter l’intégralité des plages de numéros de la prise d’appel de groupe associées au pool principal vers le FQDN du nouveau pool. Pour réaffecter les plages de numéros au nouveau pool, vous pouvez utiliser l’applet de commande **Set-CsCallParkOrbit**. Pour plus d’informations sur l’applet de commande **Set-CsCallParkOrbit**, voir [Set-CsCallParkOrbit](set-cscallparkorbit.md).
+Si vous déployez un nouveau pool doté d’un autre nom de domaine complet (FQDN) pour remplacer le pool principal, vous devez réaffecter l’intégralité des plages de numéros de la prise d’appel de groupe associées au pool principal vers le FQDN du nouveau pool. Pour réaffecter les plages de numéros au nouveau pool, vous pouvez utiliser l’applet de commande **Set-CsCallParkOrbit**. Pour plus d’informations sur l’applet de commande **Set-CsCallParkOrbit**, voir [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
 
 ## Expérience de la prise d’appel de groupe en cas de défaillance d’un pool
 

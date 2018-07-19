@@ -53,5 +53,5 @@ Vous pouvez également supprimer les paramètres de configuration du serveur d�
     
         Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
 
-Pour plus d’informations, voir [Remove-CsProxyConfiguration](remove-csproxyconfiguration.md).
+Pour plus d’informations, voir [Remove-CsProxyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsProxyConfiguration).
 

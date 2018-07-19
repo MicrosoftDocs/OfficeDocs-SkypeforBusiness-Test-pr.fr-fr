@@ -56,7 +56,7 @@ Vous pouvez également afficher les informations d’utilisation RTC à l’aide
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
-Pour plus d’informations, reportez-vous à la section [Get-CsPstnUsage](get-cspstnusage.md).
+Pour plus d’informations, reportez-vous à la section [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 ## Voir aussi
 

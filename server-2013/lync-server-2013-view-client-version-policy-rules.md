@@ -56,5 +56,5 @@ Vous pouvez afficher les règles de stratégie de version du client à l’aide 
         Enabled           : True
         CompareOp         : LEQ
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule).
 

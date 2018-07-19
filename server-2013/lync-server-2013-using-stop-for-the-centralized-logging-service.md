@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2012-11-01_
 
-Vous pouvez arrêter une session de journalisation en cours avec l’applet de commande Stop-CsClsLogging. En général, vous rencontrerez peu de situations vous obligeant à arrêter une session de journalisation. Par exemple, vous pouvez faire des recherches dans les journaux et modifier des configurations sans devoir arrêter d’abord la journalisation. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario d’authentification. Pour plus d’informations, voir [Stop-CsClsLogging](stop-csclslogging.md).
+Vous pouvez arrêter une session de journalisation en cours avec l’applet de commande Stop-CsClsLogging. En général, vous rencontrerez peu de situations vous obligeant à arrêter une session de journalisation. Par exemple, vous pouvez faire des recherches dans les journaux et modifier des configurations sans devoir arrêter d’abord la journalisation. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario d’authentification. Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging).
 
 <table>
 <thead>
@@ -50,7 +50,7 @@ Par exemple :
     
     ![Console Windows PowerShell après appel de Show-CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Console Windows PowerShell après appel de Show-CsCl")
     
-    Le résultat de Show-CsClsLogging est un résumé des scénarios en cours d’exécution et de leur étendue d’application. Pour plus d’informations, voir [Show-CsClsLogging](show-csclslogging.md).
+    Le résultat de Show-CsClsLogging est un résumé des scénarios en cours d’exécution et de leur étendue d’application. Pour plus d’informations, voir [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging).
 
 3.  Pour arrêter une session de journalisation en cours avec un scénario spécifique, tapez :
     
@@ -70,7 +70,7 @@ Par exemple :
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Les journaux créés au cours de cette session de journalisation avec le scénario UserReplicator ne sont pas supprimés. Vous pouvez continuer à effectuer des recherches avec la journalisation au lieu d’utiliser la commande Search-CsClsLogging. Pour plus d’informations, voir <a href="search-csclslogging.md">Search-CsClsLogging</a>.</td>
+    <td>Les journaux créés au cours de cette session de journalisation avec le scénario UserReplicator ne sont pas supprimés. Vous pouvez continuer à effectuer des recherches avec la journalisation au lieu d’utiliser la commande Search-CsClsLogging. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging">Search-CsClsLogging</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -90,7 +90,7 @@ Faisant pendant à l’applet de commande Start-CsClsLogging, l’applet de comm
 
 #### Autres ressources
 
-[Show-CsClsLogging](show-csclslogging.md)  
-[Start-CsClsLogging](start-csclslogging.md)  
-[Stop-CsClsLogging](stop-csclslogging.md)
+[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)  
+[Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging)  
+[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)
 

@@ -147,7 +147,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>.</td>
+    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -165,7 +165,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="new-csrgscallaction.md">New-CsRgsCallAction</a>.</td>
+    <td>Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -190,7 +190,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>.</td>
+    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -208,7 +208,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="new-csrgscallaction.md">New-CsRgsCallAction</a>.</td>
+    <td>Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -233,7 +233,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour plus d’informations sur la création du groupe d’agents, reportez-vous à <a href="new-csrgsagentgroup.md">New-CsRgsAgentGroup</a></td>
+    <td>Pour plus d’informations sur la création du groupe d’agents, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a></td>
     </tr>
     </tbody>
     </table>
@@ -255,11 +255,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 #### Autres ressources
 
-[New-CsRgsQueue](new-csrgsqueue.md)  
+[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)  
 [Set-CsRgsQueue](set-csrgsqueue.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
-[Get-CsRgsQueue](get-csrgsqueue.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
-[Remove-CsRgsQueue](remove-csrgsqueue.md)
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsQueue)
 

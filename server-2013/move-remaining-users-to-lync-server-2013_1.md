@@ -83,5 +83,5 @@ Lorsque vous déplacez un utilisateur vers un pool Lync Server 2013, les donné
 
 3.  Les stratégies de conférence qui autorisent les participants anonymes ont l’option **Autoriser les participants à inviter des utilisateurs anonymes** activée dans le Panneau de configuration Lync Server 2013 et l’option **AllowAnonymousParticipantsInMeetings** définie sur **True** dans la sortie de l’applet de commande **Get-CsConferencingPolicy** dans Lync Server Management Shell.
 
-4.  Pour plus d’informations sur la configuration de la stratégie de conférence à l’aide de Lync Server Management Shell, reportez-vous à [Set-CsConferencingPolicy](set-csconferencingpolicy.md) dans la documentation de Lync Server Management Shell.
+4.  Pour plus d’informations sur la configuration de la stratégie de conférence à l’aide de Lync Server Management Shell, reportez-vous à [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) dans la documentation de Lync Server Management Shell.
 

@@ -135,7 +135,7 @@ Vous pouvez affecter des stratégies de version du client par utilisateur en uti
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide sur la cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide sur la cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Voir aussi
 

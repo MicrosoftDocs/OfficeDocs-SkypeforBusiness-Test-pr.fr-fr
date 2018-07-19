@@ -46,5 +46,5 @@ Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
-Pour plus d’informations, recherchez les rubriques d’aide relatives aux applets de commande [Enable-CsMeetingRoom](enable-csmeetingroom.md) et [Set-CsMeetingRoom](set-csmeetingroom.md).
+Pour plus d’informations, recherchez les rubriques d’aide relatives aux applets de commande [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) et [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom).
 

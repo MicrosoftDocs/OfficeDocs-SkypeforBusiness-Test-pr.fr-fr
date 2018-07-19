@@ -101,7 +101,7 @@ Les règles de mise à jour des périphériques peuvent également être réinit
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule).
 
 ## Voir aussi
 

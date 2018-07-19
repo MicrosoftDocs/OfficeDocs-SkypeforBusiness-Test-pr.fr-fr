@@ -29,7 +29,7 @@ Utilisez la commande Lync ServerWindows PowerShell New-CsNetworkRegion ou le P
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-Pour plus d’informations, voir [New-CsNetworkRegion](new-csnetworkregion.md).
+Pour plus d’informations, voir [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion).
 
 Pour cet exemple, la commande Windows PowerShell suivante illustre la région réseau region 1 (India) définie dans ce scénario.
 
@@ -42,7 +42,7 @@ Utilisez la commande Lync ServerWindows PowerShell New-CsNetworkSite ou le Pan
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-Pour plus d’informations, voir [New-CsNetworkSite](new-csnetworksite.md).
+Pour plus d’informations, voir [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite).
 
 Pour cet exemple, le tableau suivant et la commande Lync ServerWindows PowerShell illustrent les sites réseau définis dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
 

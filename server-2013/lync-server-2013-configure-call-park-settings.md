@@ -105,6 +105,6 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 #### Autres ressources
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
-[Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
+[Set-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCpsConfiguration)  
 [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
 

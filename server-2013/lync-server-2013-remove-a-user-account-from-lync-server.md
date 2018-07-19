@@ -59,7 +59,7 @@ Vous pouvez aussi supprimer des comptes d’utilisateur à l’aide de l’apple
     
     Une fois cette commande exécutée, il n’y a aucun moyen de réactiver le compte et ses anciens paramètres. En revanche, vous pouvez utiliser l’applet de commande Enable-CsUser pour créer un tout nouveau compte pour Ken Myer.
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Disable-CsUser](disable-csuser.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser).
 
 ## Voir aussi
 

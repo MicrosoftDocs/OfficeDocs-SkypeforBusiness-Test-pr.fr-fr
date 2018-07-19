@@ -65,7 +65,7 @@ Vous pouvez également supprimer des stratégies d’archivage à l’aide de Wi
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsArchivingPolicy](remove-csarchivingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy).
 
 ## Voir aussi
 

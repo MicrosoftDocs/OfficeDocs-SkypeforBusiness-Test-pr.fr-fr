@@ -73,5 +73,5 @@ La fédération avec un client Microsoft Lync Online 2010 nécessite les étape
     
       - **IsLocal** indique si le serveur proxy utilisé par le fournisseur d’hébergement est inclus dans votre topologie Lync Server.
     
-    Pour en savoir plus sur l’utilisation de cette applet de commande, voir [New-CsHostingProvider](new-cshostingprovider.md) dans la documentation des opérations.
+    Pour en savoir plus sur l’utilisation de cette applet de commande, voir [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider) dans la documentation des opérations.
 

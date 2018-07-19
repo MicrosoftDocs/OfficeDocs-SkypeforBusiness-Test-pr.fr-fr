@@ -49,7 +49,7 @@ Vous pouvez également afficher les stratégies de code confidentiel à l’aide
         PINLifetime          : 0
         MaximumLogonAttempts :
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsPinPolicy](get-cspinpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPinPolicy).
 
 ## Voir aussi
 

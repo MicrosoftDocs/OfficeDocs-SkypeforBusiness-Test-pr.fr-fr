@@ -124,5 +124,5 @@ La restauration du pool à son état normal exécute la commande Windows PowerS
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Set-CsPersistentChatState](set-cspersistentchatstate.md).
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Set-CsPersistentChatState](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatState).
 

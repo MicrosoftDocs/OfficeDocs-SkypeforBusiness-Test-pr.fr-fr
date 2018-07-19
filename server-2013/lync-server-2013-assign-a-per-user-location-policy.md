@@ -137,5 +137,5 @@ Vous pouvez affecter des stratégies d’emplacement utilisateur à l’aide de 
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsLocationPolicy](grant-cslocationpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy).
 

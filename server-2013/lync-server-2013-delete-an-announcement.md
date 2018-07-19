@@ -43,7 +43,7 @@ Procédez de la façon suivante pour supprimer une annonce utilisée pour passer
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Pour plus d’informations sur d’autres options, voir <a href="get-csannouncement.md">Get-CsAnnouncement</a> et <a href="remove-csannouncement.md">Remove-CsAnnouncement</a>.</td>
+    <td>Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</a>.</td>
     </tr>
     </tbody>
     </table>
@@ -57,6 +57,6 @@ Procédez de la façon suivante pour supprimer une annonce utilisée pour passer
 
 #### Autres ressources
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

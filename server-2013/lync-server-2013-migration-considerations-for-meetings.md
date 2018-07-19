@@ -72,7 +72,7 @@ Cependant, les informations suivantes du compte de l'utilisateur ne sont pas tra
 
   - Le contenu de la réunion, par exemple les présentations PowerPoint, le contenu du tableau blanc et les données des sondages
 
-Pour déplacer le contenu qui a été partagé au cours des réunions, utilisez le paramètre MoveMeetingContent de l'applet de commande Move-CsUser. Pour plus d'informations sur l'utilisation de cette applet de commande, consultez [Move-CsUser](move-csuser.md) dans la documentation des applets de commande de Lync Server 2013.
+Pour déplacer le contenu qui a été partagé au cours des réunions, utilisez le paramètre MoveMeetingContent de l'applet de commande Move-CsUser. Pour plus d'informations sur l'utilisation de cette applet de commande, consultez [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) dans la documentation des applets de commande de Lync Server 2013.
 
 ## Migration des réunions à partir de Office Communications Server 2007 R2
 

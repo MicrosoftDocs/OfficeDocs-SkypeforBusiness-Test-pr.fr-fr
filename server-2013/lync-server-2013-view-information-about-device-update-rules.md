@@ -83,5 +83,5 @@ Vous pouvez également afficher des informations détaillées sur toutes vos rè
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsDeviceUpdateRule](get-csdeviceupdaterule.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateRule).
 

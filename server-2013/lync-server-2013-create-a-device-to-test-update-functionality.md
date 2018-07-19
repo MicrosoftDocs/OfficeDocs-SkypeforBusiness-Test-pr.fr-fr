@@ -67,5 +67,5 @@ Lors de la création de périphériques de test à l’aide de cette applet de c
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 
-Pour plus d’informations, voir la rubrique d’aide associée à l’applet de commande [New-CsTestDevice](new-cstestdevice.md).
+Pour plus d’informations, voir la rubrique d’aide associée à l’applet de commande [New-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTestDevice).
 

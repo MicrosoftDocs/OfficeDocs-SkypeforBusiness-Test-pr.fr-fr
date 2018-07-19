@@ -137,7 +137,7 @@ Il est également possible d’affecter des stratégies de conférence par utili
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
 
 ## Voir aussi
 

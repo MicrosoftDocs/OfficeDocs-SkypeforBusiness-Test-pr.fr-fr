@@ -19,9 +19,9 @@ Les applets de commande utilisées pour modifier les listes de domaines autoris�
 
   - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 Notez que vous devez inclure le paramètre Domaine avec les applets de commande **New-CsEdgeAllowList** et **New-CsEdgeDomainPattern**. Par exemple :
 

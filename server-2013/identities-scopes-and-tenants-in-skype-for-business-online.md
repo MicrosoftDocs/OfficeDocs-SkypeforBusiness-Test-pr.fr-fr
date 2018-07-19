@@ -67,7 +67,7 @@ Vous pouvez également avoir deux utilisateurs : Ken Myer et Pilar Ackerman. La
 
 Comme vous pouvez le voir, Ken Myer est autorisé à communiquer avec des fournisseurs de messagerie instantanée publics. Cela est dû au fait que les paramètres de la stratégie utilisateur qui lui est attribuée remplacent ceux de la stratégie globale. Pilar Ackerman, en revanche, ne peut pas communiquer avec des fournisseurs de messagerie instantanée publics, car elle est gérée par la stratégie globale et celle-ci empêche ce type de communication.
 
-Les stratégies par utilisateur doivent être créées pour vous par le support technique Office 365. Une fois les stratégies créées, vous pouvez les attribuer aux utilisateurs en utilisant l’applet de commande **Grant-Cs** appropriée (par exemple, [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)). Les stratégies utilisateur sont faciles à identifier, car l’identité de stratégie commence toujours par le préfixe **tag**. Par exemple :
+Les stratégies par utilisateur doivent être créées pour vous par le support technique Office 365. Une fois les stratégies créées, vous pouvez les attribuer aux utilisateurs en utilisant l’applet de commande **Grant-Cs** appropriée (par exemple, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). Les stratégies utilisateur sont faciles à identifier, car l’identité de stratégie commence toujours par le préfixe **tag**. Par exemple :
 
     Identity : tag:AllowPublicIMCommunication
 

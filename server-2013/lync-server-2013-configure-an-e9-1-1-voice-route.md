@@ -25,7 +25,7 @@ Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des commun
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pour inclure les informations d’emplacement dans une E9-1-1 INVITE, vous devez configurer la jonction SIP qui établit la connexion avec le fournisseur de services E9-1-1 pour acheminer les appels d’urgence par l’intermédiaire de la passerelle. Pour ce faire, affectez à l’indicateur EnablePIDFLOSupport de l’applet de commande <strong>Set-CsTrunkConfiguration</strong> la valeur True. La valeur par défaut de EnablePIDFLOSupport est False. Par exemple : <code>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
+<td>Pour inclure les informations d’emplacement dans une E9-1-1 INVITE, vous devez configurer la jonction SIP qui établit la connexion avec le fournisseur de services E9-1-1 pour acheminer les appels d’urgence par l’intermédiaire de la passerelle. Pour ce faire, affectez à l’indicateur EnablePIDFLOSupport de l’applet de commande <strong>set-cstrunkconfiguration</strong> la valeur True. La valeur par défaut de EnablePIDFLOSupport est False. Par exemple : <code>set-cstrunkconfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
 Il n’est pas nécessaire d’activer la réception des emplacements pour les passerelles PSTN (réseau téléphonique commuté) et les passerelles ELIN (Emergency Location Identification Number).</td>
 </tr>
 </tbody>

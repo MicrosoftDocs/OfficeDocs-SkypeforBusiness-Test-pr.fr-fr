@@ -42,7 +42,7 @@ La transaction synthétique de la messagerie unifiée Exchange vérifie que les 
 
 ## Transactions synthétiques de conversation permanente
 
-Pour utiliser la transaction synthétique de conversation permanente, les administrateurs doivent d’abord créer un canal et donner aux utilisateurs test l’autorisation de l’utiliser. L’applet de commande [Test-CsPersistentChatMessage](test-cspersistentchatmessage.md) peut être utilisée pour configurer correctement ces utilisateurs test :
+Pour utiliser la transaction synthétique de conversation permanente, les administrateurs doivent d’abord créer un canal et donner aux utilisateurs test l’autorisation de l’utiliser. L’applet de commande [Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) peut être utilisée pour configurer correctement ces utilisateurs test :
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -61,7 +61,7 @@ La salle de conversation créée par Test-CsPersistentChatMessage ne peut être 
 
 ## Transactions synthétiques pour les appels d’égal à égal PSTN
 
-La transaction synthétique [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md) vérifie la capacité de passer et de recevoir des appels via le réseau téléphonique commuté (PSTN).
+La transaction synthétique [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) vérifie la capacité de passer et de recevoir des appels via le réseau téléphonique commuté (PSTN).
 
 Pour exécuter cette transaction synthétique, les administrateurs doivent configurer les éléments suivants :
 

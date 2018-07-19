@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2013-02-23_
 
-Il n’est pas possible de faire des recherches dans les données archivées dans les bases de données d’archivage ou bien ces données ne sont pas dans un format lisible. Cependant, vous pouvez utiliser l’applet de commande Export-CsArchivingData pour les extraire et les enregistrer en tant que fichier EML (Outlook Electronic Mail). Pour plus d’informations sur l’exportation des données archivées, voir [Export-CsArchivingData](export-csarchivingdata.md) dans la documentation des opérations.
+Il n’est pas possible de faire des recherches dans les données archivées dans les bases de données d’archivage ou bien ces données ne sont pas dans un format lisible. Cependant, vous pouvez utiliser l’applet de commande Export-CsArchivingData pour les extraire et les enregistrer en tant que fichier EML (Outlook Electronic Mail). Pour plus d’informations sur l’exportation des données archivées, voir [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) dans la documentation des opérations.
 
 Si vous activez l’intégration Microsoft Exchange, les données sont archivées dans des magasins Exchange 2013. Il est possible de faire des recherches dans les données archivées dans Exchange 2013 et ces données sont détectables. Pour plus d’informations sur la prise en charge des communications intégrées pour Exchange 2013 et Lync Server 2013, voir [Prise en charge de l’intégration d’Exchange Server et de SharePoint dans Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) dans la documentation de prise en charge. Pour plus d’informations sur l’accès aux données qui sont archivées dans Exchange, consultez la documentation d’Exchange 2013.
 
@@ -35,7 +35,7 @@ L’applet de commande Export-CSArchivingData permet d’exporter les données d
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@litwareinc.com"
 
-Pour plus d’information, voir d’aide relative à l’applet de commande [Export-CsArchivingData](export-csarchivingdata.md).
+Pour plus d’information, voir d’aide relative à l’applet de commande [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData).
 
 ## Voir aussi
 
@@ -45,6 +45,6 @@ Pour plus d’information, voir d’aide relative à l’applet de commande [Exp
 
 #### Autres ressources
 
-[Export-CsArchivingData](export-csarchivingdata.md)  
+[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)  
 [Gestion de l’archivage Lync Server 2013](lync-server-2013-managing-archiving.md)
 

@@ -72,7 +72,7 @@ L’activation et la désactivation du vidage automatique des données d’archi
 
 ## Activation du vidage exclusif des données d’archivage exportées
 
-  - Pour limiter le vidage aux enregistrements d’archivage qui ont été exportés dans un fichier de données (à l’aide de l’applet de commande [Export-CsArchivingData](export-csarchivingdata.md)) vous devez aussi définir la propriété PurgeExportedArchivesOnly sur True ($True). Par exemple :
+  - Pour limiter le vidage aux enregistrements d’archivage qui ont été exportés dans un fichier de données (à l’aide de l’applet de commande [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)) vous devez aussi définir la propriété PurgeExportedArchivesOnly sur True ($True). Par exemple :
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -84,7 +84,7 @@ L’activation et la désactivation du vidage automatique des données d’archi
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Pour plus d’informations, notamment des options supplémentaires pour le vidage des données d’archivage, voir la rubrique d’aide de l’applet de commande [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Pour plus d’informations, notamment des options supplémentaires pour le vidage des données d’archivage, voir la rubrique d’aide de l’applet de commande [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Voir aussi
 

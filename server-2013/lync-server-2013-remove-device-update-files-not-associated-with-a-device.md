@@ -39,5 +39,5 @@ Les fichiers de mise à jour de périphérique qui ne sont plus associés à un 
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Clear-CsDeviceUpdateFile](clear-csdeviceupdatefile.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateFile).
 

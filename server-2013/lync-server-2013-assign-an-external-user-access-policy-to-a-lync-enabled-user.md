@@ -81,5 +81,5 @@ Il est possible d’affecter des stratégies d’accès externe utilisateur à l
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

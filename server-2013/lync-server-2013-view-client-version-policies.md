@@ -59,5 +59,5 @@ Vous pouvez afficher les stratégies de version du client à l’aide de l’app
                       UserAgentFullName=;Enabled=True;CompareOp=LEQ...}
         Description :
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionPolicy](get-csclientversionpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicy).
 

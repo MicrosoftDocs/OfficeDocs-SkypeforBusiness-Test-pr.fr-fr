@@ -61,7 +61,7 @@ Vous pouvez également afficher les informations relatives au sous-réseau à l�
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSubnet](get-csnetworksubnet.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
 
 ## Voir aussi
 

@@ -129,7 +129,7 @@ Vous pouvez attribuer les stratégies de mobilité par utilisateur en utilisant 
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md).
+Pour plus d’informations, voir [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
 
 ## Voir aussi
 

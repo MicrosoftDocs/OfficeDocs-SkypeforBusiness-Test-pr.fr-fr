@@ -115,5 +115,5 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
 #### Autres ressources
 
 [Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
-[Set-CsCertificate](set-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

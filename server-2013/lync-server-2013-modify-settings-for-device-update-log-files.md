@@ -124,5 +124,5 @@ Les exemples suivants montrent comment modifier des paramètres à l’aide de *
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration).
 

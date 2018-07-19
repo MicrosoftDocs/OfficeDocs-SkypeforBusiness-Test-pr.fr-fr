@@ -36,5 +36,5 @@ Pour plus d’informations, voir les rubriques d’aide relatives à [Grant-CsVo
 
 #### Autres ressources
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
 

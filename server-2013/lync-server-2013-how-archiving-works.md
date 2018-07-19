@@ -157,9 +157,9 @@ Pour plus d’informations sur l’implémentation des configurations d’archiv
 
 Avec Lync Server 2013 Management Shell, vous pouvez utiliser des applets de commande pour implémenter des options qui ne sont pas disponibles dans le Panneau de configuration Lync Server 2013. Ces options sont les suivantes :
 
-  - **Archiver les messages dupliqués**. Pour plus d’informations, voir [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) et [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) dans la documentation des opérations.
+  - **Archiver les messages dupliqués**. Pour plus d’informations, voir [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) et [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) dans la documentation des opérations.
 
-  - **Exporter les données archivées**. Pour plus d’informations, voir [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Exporter les données archivées**. Pour plus d’informations, voir [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 ## Comment accéder aux données archivées ?
 

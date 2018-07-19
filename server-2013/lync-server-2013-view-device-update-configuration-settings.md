@@ -50,5 +50,5 @@ Vous pouvez afficher les paramètres de configuration du service de mise à jour
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-Pour plus d’informations sur cette applet de commande, reportez-vous à la rubrique d’aide sous [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md).
+Pour plus d’informations sur cette applet de commande, reportez-vous à la rubrique d’aide sous [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 

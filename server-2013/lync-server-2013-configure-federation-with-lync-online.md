@@ -55,5 +55,5 @@ Pour plus d’informations sur l’utilisation du module Skype Entreprise Online
 
 #### Autres ressources
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

@@ -129,7 +129,7 @@ Les stratégies de conversation persistante par utilisateur peuvent également �
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide pour l’applet de commande [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md) (contenu éventuellement en anglais).
+Pour plus d’informations, voir la rubrique d’aide pour l’applet de commande [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy) (contenu éventuellement en anglais).
 
 ## Voir aussi
 

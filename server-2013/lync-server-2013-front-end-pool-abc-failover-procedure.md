@@ -33,7 +33,7 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    Après cela, nous vous recommandons de déplacer le serveur de gestion centralisée du pool B vers un autre pool associé existant afin d’augmenter la résistance. Pour plus d’informations, reportez-vous à [Move-CsManagementServer](move-csmanagementserver.md).
+    Après cela, nous vous recommandons de déplacer le serveur de gestion centralisée du pool B vers un autre pool associé existant afin d’augmenter la résistance. Pour plus d’informations, reportez-vous à [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer).
 
 3.  Si le Pool A contient un serveur de gestion centralisée, importez la configuration LIS du pool A vers la base de données LIS du pool B (Lis.mdf). Cette opération fonctionnera uniquement si vous avez procédé à une sauvegarde régulière des données LIS. Pour importer la configuration LIS, exécutez les applets de commande suivantes :
     

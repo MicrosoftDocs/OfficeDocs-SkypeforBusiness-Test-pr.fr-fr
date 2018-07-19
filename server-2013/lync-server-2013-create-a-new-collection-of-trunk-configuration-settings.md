@@ -60,7 +60,7 @@ Quand vous créez des paramètres de configuration de jonctions SIP à l’aide 
 <tr class="even">
 <td><p>Niveau de prise en charge du chiffrement</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle PSTN, le système IP-PBX ou le contrôleur SBC du côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. La définition de la configuration multimédia s’effectue à l’aide des applets de commande <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> et <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
+<td><p>Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle PSTN, le système IP-PBX ou le contrôleur SBC du côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. La définition de la configuration multimédia s’effectue à l’aide des applets de commande <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
 <p>Les valeurs autorisées sont les suivantes :</p>
 <ul>
 <li><p>Requis : le chiffrement SRTP doit être utilisé.</p></li>
@@ -153,7 +153,7 @@ Quand vous créez des paramètres de configuration de jonctions SIP à l’aide 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Les applets de commande CsTrunkConfiguration de Lync Server prennent en charge d’autres propriétés qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande <a href="new-cstrunkconfiguration.md">New-CsTrunkConfiguration</a>.</td>
+<td>Les applets de commande CsTrunkConfiguration de Lync Server prennent en charge d’autres propriétés qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a>.</td>
 </tr>
 </tbody>
 </table>
