@@ -420,6 +420,7 @@ L’outil CPS vie à fournir un accès par ligne de commande à la base de donn�
 
 Aucune configuration n’est requise si cet outil est exécuté sur l’ordinateur qui exécute le serveur de parcage d’appel. S’il est exécuté sur un ordinateur distant, la base de données SQL Server utilisée par Lync Server 2013 doit être configurée pour autoriser l’accès à distance. Call Parkometer doit être configuré avec une chaîne de connexion de la base de données SQL Server pour se connecter à la base de données SQL Server du pool. Cette chaîne de connexion à la base de données SQL Server est définie dans le fichier de configuration (**parkometer.exe.config**). Elle doit être placée dans le répertoire dans lequel se trouve parkometer.exe. Le fichier XML suivant est un exemple de fichier parkometer.exe.config. Les paramètres de nom d’utilisateur (par exemple, mon\_domaine\\Administrateur), de mot de passe (par exemple, mon\_mot\_de\_passe) et de nom d’hôte (par exemple, mon\_serveur) doivent être configurés.
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -430,6 +431,7 @@ Aucune configuration n’est requise si cet outil est exécuté sur l’ordinate
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## Exemples
 
