@@ -63,13 +63,13 @@ La connectivité Lync-Skype permet aux utilisateurs Skype et Lync de s’ajouter
 
 Pour plus d’informations sur la prise en charge des contacts, reportez-vous à [Ajouter un contact dans Lync](http://office.microsoft.com/fr-fr/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx) et [Ajouter un contact externe dans Lync](http://office.microsoft.com/fr-fr/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)
 
-Lorsque le compte Microsoft d’un utilisateur Skype utilise un nom de domaine personnalisé tel que **bob@contoso.com**, un utilisateur Lync peut ajouter ce compte Microsoft à Lync de deux façons :
+Lorsque le compte Microsoft d’un utilisateur Skype utilise un nom de domaine personnalisé tel que <strong>bob@contoso.com</strong>, un utilisateur Lync peut ajouter ce compte Microsoft à Lync de deux façons :
 
 1.  en utilisant l’icône **Ajouter un contact**, ou
 
 2.  en utilisant le champ **Rechercher une personne ou une salle, ou composer un numéro**.
 
-Dans chaque instance, l’utilisateur Lync doit entrer l’adresse de messagerie de l’utilisateur Skype au format suivant : **utilisateur(nom de domaine)@msn.com**.
+Dans chaque instance, l’utilisateur Lync doit entrer l’adresse de messagerie de l’utilisateur Skype au format suivant : <strong>utilisateur(nom de domaine)@msn.com</strong>.
 
 <table>
 <thead>
@@ -93,7 +93,7 @@ Dans chaque instance, l’utilisateur Lync doit entrer l’adresse de messagerie
     
     ![Client Lync montrant comment ajouter un contact Skype](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Client Lync montrant comment ajouter un contact Skype")
 
-3.  Dans le champ **Adresse de messagerie instantanée**, entrez le compte Microsoft de l’utilisateur Skype au format **utilisateur(nom de domaine)@msn.com**. Par exemple, pour l’utilisateur bob@contoso.com, l’entrée serait **bob(contoso.com)@msn.com**, comme indiqué ci-dessous.
+3.  Dans le champ **Adresse de messagerie instantanée**, entrez le compte Microsoft de l’utilisateur Skype au format <strong>utilisateur(nom de domaine)@msn.com</strong>. Par exemple, pour l’utilisateur bob@contoso.com, l’entrée serait <strong>bob(contoso.com)@msn.com</strong>, comme indiqué ci-dessous.
     
     ![Paramètres nouveaux contacts de client Lync](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Paramètres nouveaux contacts de client Lync")
 
@@ -101,7 +101,7 @@ Dans chaque instance, l’utilisateur Lync doit entrer l’adresse de messagerie
 
 5.  Dans la liste déroulante **Définir le niveau de confidentialité**, sélectionnez le paramètre de contact approprié, puis cliquez sur **OK**.
 
-6.  Un utilisateur Lync peut également utiliser le champ **Rechercher une personne ou une salle, ou composer un numéro** dans Lync, et ajouter une adresse semblable à la suivante : **utilisateur(nom de domaine)@msn.com**. Pour le compte Microsoft bob@contoso.com, l’entrée serait **bob(contoso.com)@msn.com**, comme indiqué ci-dessous.
+6.  Un utilisateur Lync peut également utiliser le champ **Rechercher une personne ou une salle, ou composer un numéro** dans Lync, et ajouter une adresse semblable à la suivante : <strong>utilisateur(nom de domaine)@msn.com</strong>. Pour le compte Microsoft bob@contoso.com, l’entrée serait <strong>bob(contoso.com)@msn.com</strong>, comme indiqué ci-dessous.
     
     ![Recherche d’un contact dans un client Lync](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Recherche d’un contact dans un client Lync")
 
