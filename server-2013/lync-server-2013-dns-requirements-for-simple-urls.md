@@ -150,13 +150,16 @@ Si plusieurs de vos sites contiennent des pools de serveurs frontaux et si votre
 
 Pour configurer cette option, créez deux adresses GeoDNS. Chacune d’elles comprend deux enregistrements DNS A ou CNAME qui aboutissent à deux pools couplés à des fins de récupération d’urgence. Une adresse GeoDNS est utilisée pour l’accès interne et aboutit au nom de domaine complet web interne ou à l’adresse IP d’équilibrage de charge des deux pools. L’autre adresse GeoDNS est utilisée pour l’accès externe et aboutit au nom de domaine complet web externe ou à l’adresse IP d’équilibrage de charge des deux pools. L’exemple ci-dessous s’applique à l’URL simple Meet et utilise les noms de domaine complets des pools.
 
-    Meet-int.geolb.contoso.com
-         Pool1InternalWebFQDN.contoso.com
-         Pool2InternalWebFQDN.contoso.com
-
-    Meet-ext.geolb.contoso.com
-         Pool1ExternalWebFQDN.contoso.com
-         Pool2ExternalWebFQDN.contoso.com
+```
+Meet-int.geolb.contoso.com
+    Pool1InternalWebFQDN.contoso.com
+    Pool2InternalWebFQDN.contoso.com
+```
+```
+Meet-ext.geolb.contoso.com
+    Pool1ExternalWebFQDN.contoso.com
+    Pool2ExternalWebFQDN.contoso.com
+```    
 
 Créez ensuite des enregistrements CNAME qui font aboutir l’URL simple Meet (telles que meet.contoso.com) aux deux adresses GeoDNS.
 

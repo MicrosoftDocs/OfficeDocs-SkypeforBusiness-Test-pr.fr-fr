@@ -89,55 +89,81 @@ Le document de réponse de découverte automatique peut être soit au format JSO
 
 La définition de **AccessLocation=”External”** indique que la demande provient d’un utilisateur externe.
 
-    <SipServerInternalAccess fqdn="pool01.contoso.com" port="5061"/>
-
-    <SipServerExternalAccess fqdn="sip.contoso.com" port="5061"/>
+```
+<SipServerInternalAccess fqdn="pool01.contoso.com" port="5061"/>
+```
+```
+<SipServerExternalAccess fqdn="sip.contoso.com" port="5061"/>
+```
 
 SipServerInternalAccess et SipServerExternalAccess ne sont pas utilisées actuellement. Ces entrées sont réservées à un usage ultérieur.
 
-    <SipClientInternalAccess fqdn=" pool01.contoso.com" port="443"/>
-
-    <SipClientExternalAccess fqdn="sip.contoso.com " port="443"/>
+```
+<SipClientInternalAccess fqdn=" pool01.contoso.com" port="443"/>
+```
+```
+<SipClientExternalAccess fqdn="sip.contoso.com " port="443"/>
+```
 
 SipClientInternalAccess et SipClientExternalAccess décrivent le nom de domaine complet et le port qu’utilisera un client interne ou externe pour accéder au serveur SIP défini. Le client de bureau Lync et l’application Lync du Windows Store utilisent ces entrées en fonction de leur emplacement (interne ou externe) pour trouver le directeur ou le serveur frontal.
 
-    <Link token="Internal/Autodiscover" href="https://webinternal.contoso.net/Autodiscover/AutodiscoverService.svc/root"/>
-
-    <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
+```
+<Link token="Internal/Autodiscover" href="https://webinternal.contoso.net/Autodiscover/AutodiscoverService.svc/root"/>
+```
+```
+<Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
+```
 
 Les références `Autodiscover` contiennent les points d’entrée du service de découverte automatique. L’attribut de jeton contient le nom du service et href est une URL qui définit pour le client où se trouve le service. Les clients d’un réseau externe utilisent `External/Autodiscover`. Le service de découverte automatique est installé dans le cadre du processus de déploiement. `Internal/Autodiscover` n’est pas utilisé actuellement et est réservé pour un usage ultérieur.
 
-    <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
-
-    <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
+```
+<Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
+```
+```
+<Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
+```
 
 Les références `AuthBroker` contiennent les points d’entrée du service Broker d’authentification interne et externe, dans notre exemple sip.svc. L’attribut de jeton contient le nom du service et href est une URL qui définit pour le client où se trouve le service. Les clients du réseau interne utilisent `Internal/AuthBroker`. Les clients d’un réseau externe utilisent `External/AuthBroker`. Le service AuthBroker est installé dans le cadre du processus de déploiement de vos services web Lync Server 2013 internes.
 
-    <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
-
-    <Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
+```
+<Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
+```
+```
+<Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
+```
 
 Le jeton `WebScheduler` fait référence aux URL pour l’accès des clients à la planification basée sur le web pour les conférences Lync Server. Actuellement, seul `External/WebScheduler` est utilisé. Le service WebScheduler est installé dans le cadre du processus de déploiement de vos services web Lync Server 2013 internes.
 
-    <Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
-
-    <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
+```
+<Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
+```
+```
+<Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
+```
 
 `Internal/Mcx` et `External/Mcx` sont les emplacements des services de mobilité, introduits dans la Mise à jour cumulative pour Lync Server 2010 de novembre 2011. Ces références continueront à être utilisées par Lync 2010 Mobile sur tous les périphériques pris en charge. Le service Mcx est installé dans le cadre du processus de déploiement de vos services web Lync Server 2013 internes.
 
-    <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
-
-    <Link token="External/Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
-
-    <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
+```
+<Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
+```
+```
+<Link token="External/Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
+```
+```
+<Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
+```
 
 **Internal/Ucwa**, **External/Ucwa** et **Ucwa** permettent aux clients d’accéder à l’interface de programmation d’applications web de communications unifiées (API UCWA, ou simplement UCWA). Les répertoires virtuels `Internal/Ucwa` et `External/Ucwa` sont des points d’accès inutilisés actuellement car réservés pour une amélioration ultérieure de la fonctionnalité. Le répertoire virtuel `Ucwa` est utilisé pour Microsoft Lync Mobile (introduit dans Lync Server 2013) sur tous les périphériques pris en charge. Le service UCWA est installé dans le cadre du processus de déploiement de vos services web Lync Server 2013 internes.
 
-    <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
-
-    <Link token="External/XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
-
-    <Link token="XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
+```
+<Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
+```
+```
+<Link token="External/XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
+```
+```
+<Link token="XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
+```
 
 `Internal/XFrame`, **External/XFrame** et **XFrame** fournissent l’accès pour les applications de serveur basées sur UCWA. XFrame est installé dans le cadre du processus de déploiement de vos services web Lync Server 2013 internes.
 

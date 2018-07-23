@@ -51,15 +51,21 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
 
 10. Forcez la synchronisation des données d’utilisateur et de conférence entre les deux pools, à l’aide des applets de commande suivantes :
     
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-    
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-    
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
+
     La synchronisation des données peut durer un certain temps. Vous pouvez utiliser les applets de commande suivantes pour vérifier l’état. Assurez-vous que l’état de synchronisation dans les deux sens est stable.
     
-        Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-    
-        Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 <table>
 <thead>

@@ -41,15 +41,20 @@ Si vous devez supprimer l’authentification Kerberos d’un site ou supprimer u
 
 3.  Depuis la ligne de commande, exécutez les deux commandes suivantes :
     
-        Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-    
-        Enable-CsTopology
-    
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     Exemple :
     
-        Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
-    
-        Enable-CsTopology
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     
     <table>
     <thead>

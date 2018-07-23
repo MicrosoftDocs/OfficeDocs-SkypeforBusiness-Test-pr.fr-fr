@@ -23,9 +23,12 @@ Si l’héritage des autorisations ou les autorisations des utilisateurs authent
 
 Si votre organisation utilise des unités d’organisation à la place des trois conteneurs intégrés (Utilisateurs, Ordinateurs et Contrôleurs de domaine), le groupe Utilisateurs authentifiés doit disposer d’un accès en lecture aux unités d’organisation. L’accès en lecture aux conteneurs est obligatoire pour la préparation du domaine. Si tel n’est pas le cas, exécutez l’applet de commande **Grant-CsOuPermission** comme illustré dans les exemples de code suivants afin d’accorder des autorisations de lecture pour chaque unité d’organisation.
 
-    Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
-
-    Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+```
+Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
+```
+```
+Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+```
 
 Pour plus d’informations sur l’applet de commande **Grant-CsOuPermission**, reportez-vous à la documentation Lync Server Management Shell.
 

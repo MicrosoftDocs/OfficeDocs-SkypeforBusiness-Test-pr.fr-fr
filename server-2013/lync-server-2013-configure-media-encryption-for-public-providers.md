@@ -39,9 +39,12 @@ Si vous mettez en œuvre la fédération audio/vidéo (A/V) avec Windows Live Me
 
 2.  Dans la ligne de commande, tapez les commandes suivantes :
     
-        Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    
-        Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
+    Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+    ```
+    ```
+    Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+    ```
     
     <table>
     <thead>

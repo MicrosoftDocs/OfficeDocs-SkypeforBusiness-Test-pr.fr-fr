@@ -95,9 +95,7 @@ Après avoir défini votre topologie, procédez comme suit pour définir un pool
 
 3.  Dans la page **Définissez les ordinateurs inclus dans ce pool**, entrez le FQDN d’un ordinateur pour le premier serveur frontal dans le pool, puis cliquez sur **Ajouter**. Répétez cette étape pour les autres ordinateurs (jusqu’à douze) à ajouter au pool, puis sur **Suivant**.
 
-4.  
-    
-    Dans la page **Sélectionner les fonctionnalités**, activez les cases à cocher correspondant aux fonctionnalités souhaitées pour ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case **Conférence** pour autoriser la messagerie instantanée à plusieurs, mais n’activez pas les cases à cocher **Conférence rendez-vous (RTC)**, **Voix Entreprise** ou **Contrôle d’admission d’appel**, car elles représentent les fonctionnalités de voix, de vidéo et de conférence collaborative.
+4. Dans la page **Sélectionner les fonctionnalités**, activez les cases à cocher correspondant aux fonctionnalités souhaitées pour ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case **Conférence** pour autoriser la messagerie instantanée à plusieurs, mais n’activez pas les cases à cocher **Conférence rendez-vous (RTC)**, **Voix Entreprise** ou **Contrôle d’admission d’appel**, car elles représentent les fonctionnalités de voix, de vidéo et de conférence collaborative.
     
       - **Conférence** Cette sélection permet d’accéder à un ensemble complet de fonctionnalités, dont :
         

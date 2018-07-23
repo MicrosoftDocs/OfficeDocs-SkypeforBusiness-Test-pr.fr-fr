@@ -101,9 +101,12 @@ Les étapes finales pour le transfert de votre passerelle XMPP consistent à con
 
 17. Après la réception, l’importation et l’affectation du certificat public, vous devez redémarrer les services du serveur Edge. Pour cela, tapez dans la console de gestion Lync Server.
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurer une nouvelle passerelle XMPP Lync Server 2013
 

@@ -193,13 +193,18 @@ L’option **Afficher une image à partir d’un site web** est disponible dans 
 
 Vous pouvez définir la stratégie de client de manière à activer le paramètre **Afficher une image à partir d’un site web** en exécutant la stratégie [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) dans Lync Server Management Shell. Les exemples d’applets de commande ci-dessous montrent comment définir globalement la stratégie pour tous les utilisateurs inclus dans votre déploiement :
 
-    $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-
-    $po=Get-CsClientPolicy -Identity Global
-
-    $po.PolicyEntry.Add($pe)
-
-    Set-CsClientPolicy -Instance $po
+  ```
+  $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
+  ```
+  ```
+  $po=Get-CsClientPolicy -Identity Global
+  ```
+  ```
+  $po.PolicyEntry.Add($pe)
+  ``` 
+  ```
+  Set-CsClientPolicy -Instance $po
+  ```
 
 Lorsqu’une image est transférée dans la boîte aux lettres de l’utilisateur, Exchange crée automatiquement une version basse résolution de l’image, qui peut être utilisée dans des applications clientes. La photo de l’utilisateur est elle aussi mise à jour dans les services de domaine Active Directory.
 

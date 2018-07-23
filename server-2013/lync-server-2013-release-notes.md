@@ -90,9 +90,12 @@ Lorsque la configuration des adresses IP est modifiée pour un déploiement de L
 
 Pour contourner ce problème, redémarrez les services Lync Server après avoir modifié la configuration des adresses IP pour le déploiement. Pour cela, exécutez les applets de commande suivantes dans Lync Server Management Shell :
 
-    Stop-CsWindowsService -graceful
-
-    Start-CsWindowsService
+```
+Stop-CsWindowsService -graceful
+```
+```
+Start-CsWindowsService
+```
 
 ## L’applet de commande de transaction synthétique de conférence rendez-vous n’est plus disponible dans le Pack de gestion de Lync Server 2013(3212342)
 
@@ -346,9 +349,12 @@ Pour contourner ce problème, mettez à jour le Registre système avant d’inst
 
 1.  Démarrez Windows PowerShell et exécutez les applets de commande suivantes :
     
-        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
-        $a="HKU:\.Default\Control Panel\International"
+    ```
+    New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+    ```
+    ```
+    $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Pour afficher la valeur actuelle, exécutez l’applet de commande suivante :
     

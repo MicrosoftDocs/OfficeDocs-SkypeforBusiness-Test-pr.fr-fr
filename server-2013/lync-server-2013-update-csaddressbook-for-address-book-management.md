@@ -37,9 +37,12 @@ L’applet de commande Update-CsAddressBook remplace la commande **abserver.exe 
 
 Par exemple :
 
-    Update-CsAddressBook
-
-    Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+```
+Update-CsAddressBook
+```
+```
+Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+```
 
 Pour une description détaillée de la commande complète, reportez-vous aux ressources suivantes dans la référence principale des RTCCmdlets Windows PowerShell pour Lync Server.
 

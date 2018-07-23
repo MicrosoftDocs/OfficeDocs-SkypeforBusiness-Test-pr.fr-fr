@@ -97,9 +97,12 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 22. Après la réception, l’importation et l’affectation du certificat public, vous devez redémarrer les services du serveur Edge. Pour cela, tapez dans la console de gestion Lync Server.
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 23. Pour configurer DNS pour la fédération XMPP, vous devez ajouter l’enregistrement SRV suivant au système DNS externe :\_xmpp-server.\_tcp.\<nom de domaine\> L’enregistrement SRV aboutira au nom de domaine complet du service Edge, avec une valeur de port de 5 269. Par ailleurs, vous devez configurer un enregistrement d’hôte « A » (par exemple, xmpp.contoso.com) qui pointe vers l’adresse IP du serveur Edge d’accès.
     
@@ -119,23 +122,33 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 24. Configurez une nouvelle stratégie d’accès externe pour activer tous les utilisateurs en ouvrant Lync Server Management Shell sur le serveur frontal et en tapant :
     
-        New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
-        New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
-        Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
-    
+    ```
+    New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
+    ```
+    ```
+    New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
+    ```
+    ```
+    Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
+    ```
+
     Activez l’accès XMPP pour les utilisateurs externes en tapant :
     
-        Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-    
-        Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+    ```
+    Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
+    ```
+    ```
+    Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+    ```
 
 25. Sur le serveur Edge où le proxy XMPP est déployé, ouvrez une invite de commandes ou une interface de ligne de commande Windows PowerShell™, puis tapez ce qui suit :
     
-        Netstat -ano | findstr 5269
-    
-        Netstat -ano | findstr 23456
+    ```
+    Netstat -ano | findstr 5269
+    ```
+    ```
+    Netstat -ano | findstr 23456
+    ```
     
     La commande **netstat –ano** est une commande de statistiques réseau. Les paramètres **–ano** exigent que netstat affiche tous les ports d’écoute et connexions, que l’adresse et les ports s’affichent sous forme numérique, et que l’ID du processus propriétaire soit associé à chaque connexion. Le caractère **|** définit un canal vers la commande suivante, **findstr**, ou recherche la chaîne. Les valeurs 5269 et 23456 transmises à findstr sous forme de paramètre lui indiquent de rechercher les chaînes 5269 et 23456 dans les résultats de netstat. Si XMPP est bien configuré, le résultat des commandes doit aboutir à des connexions établies et d’écoute, à la fois sur les interfaces externes (port 5269) et internes (port 23456) du serveur Edge.
     

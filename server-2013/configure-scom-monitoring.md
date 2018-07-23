@@ -37,9 +37,12 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
 
 2.  Dans la ligne de commande, tapez ce qui suit :
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    ```
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
     
     <table>
     <thead>

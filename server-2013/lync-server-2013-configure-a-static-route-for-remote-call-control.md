@@ -85,9 +85,12 @@ Le contrôle d’appel distant exige que chaque pool Lync Server soit configuré
 
 4.  Pour conserver un itinéraire statique nouvellement créé dans le magasin central de gestion, effectuez l’une des opérations suivantes, selon le cas :
     
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+    ```
+    ```
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
 
 ## Voir aussi
 
