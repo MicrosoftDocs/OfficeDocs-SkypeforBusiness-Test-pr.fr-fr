@@ -27,19 +27,8 @@ Le déploiement de Voix Entreprise requiert de vous les opérations suivantes :
 
 4.  ouvrir la conception de topologie dans le Générateur de topologie, comme décrit dans la rubrique [Définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) de la documentation de déploiement.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’installation du Générateur de topologie fait partie du processus de déploiement pour le pool interne. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-install-lync-server-administrative-tools.md">Installation des outils d’administration Lync Server 2013</a> dans la documentation de déploiement.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > L’installation du Générateur de topologie fait partie du processus de déploiement pour le pool interne. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-install-lync-server-administrative-tools.md">Installation des outils d’administration Lync Server 2013</a> dans la documentation de déploiement.
 
 De plus, vous devez au préalable avoir déployé Lync Server Entreprise Edition au niveau du site central et des sites de succursale correspondant à la topologie de référence que vous choisissez de déployer. Pour déployer des composants Voix Entreprise, vous devez d’abord définir, publier et installer des fichiers pour au moins un pool interne, et vous devez utiliser le Générateur de topologie pour définir et publier un pool interne.
 
@@ -47,19 +36,8 @@ Pour consulter des topologies de référence avec des exemples de déploiement p
 
 Pour consulter une topologie de référence qui illustre et explique un exemple de déploiement du contrôle d’admission des appels, y compris les régions réseau, les sites réseau et les sous-réseaux, reportez-vous à [Exemple : collecte des données de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) dans la documentation de planification.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour déployer Voix Entreprise au niveau d’un site central, poursuivez la lecture des rubriques de cette section. Pour déployer Voix Entreprise au niveau d’un site de succursale, passez à la rubrique <a href="lync-server-2013-deploying-branch-sites.md">Déploiement de sites de succursale dans Lync Server 2013</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Pour déployer Voix Entreprise au niveau d’un site central, poursuivez la lecture des rubriques de cette section. Pour déployer Voix Entreprise au niveau d’un site de succursale, passez à la rubrique <a href="lync-server-2013-deploying-branch-sites.md">Déploiement de sites de succursale dans Lync Server 2013</a> dans la documentation de déploiement.
 
 Cette section comprend des procédures pour les déploiements dans lesquels un serveur de médiation est colocalisé sur chaque serveur frontal ou serveur Standard Edition, comme recommandé, ainsi que pour les déploiements avec un pool de serveurs de médiation autonome.
 

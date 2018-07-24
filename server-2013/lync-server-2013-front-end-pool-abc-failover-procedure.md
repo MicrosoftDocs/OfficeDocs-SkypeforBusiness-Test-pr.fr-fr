@@ -42,19 +42,8 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
 
 4.  Importez les flux de travail de service Response Group Lync Server du pool A vers le pool B.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>À l’heure actuelle, l’applet de commande <strong>Import-CsRgsConfiguration</strong> exige que les noms de files d’attente et de flux de travail sur le pool A soient distincts de ceux du pool B. Si ce n’est pas le cas, une erreur se produit lors de l’exécution de l’applet de commande <strong>Import-CsRgsConfiguration</strong> et les files d’attente et flux de travail devront être renommés dans le pool B avant de poursuivre l’exécution de l’applet de commande <strong>Import-CsRgsConfiguration</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > À l’heure actuelle, l’applet de commande <strong>Import-CsRgsConfiguration</strong> exige que les noms de files d’attente et de flux de travail sur le pool A soient distincts de ceux du pool B. Si ce n’est pas le cas, une erreur se produit lors de l’exécution de l’applet de commande <strong>Import-CsRgsConfiguration</strong> et les files d’attente et flux de travail devront être renommés dans le pool B avant de poursuivre l’exécution de l’applet de commande <strong>Import-CsRgsConfiguration</strong>.    
     Deux options sont disponibles pour l’importation de la configuration Response Group du pool A vers le pool B. L’option choisie variera selon que vous souhaitez remplacer les paramètres de niveau application du pool B par ceux du pool A.
     
       - Si vous souhaitez remplacer les paramètres du pool B, exécutez l’applet de commande **Import-CsRgsConfiguration** avec l’option **ReplaceExistingSettings**  :
@@ -65,19 +54,8 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sachez que si vous ne souhaitez pas remplacer les paramètres de niveau application du pool de sauvegarde (pool B) par les paramètres du pool principal (pool A), les paramètres de niveau application du pool A seront perdus en cas de perte du pool A, car l’application Response Group ne peut stocker qu’un jeu de paramètres de niveau application par pool. Lors du déploiement du pool C pour remplacer le pool A, les paramètres de niveau application doivent être reconfigurés, dont le fichier audio de mise en attente musicale.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!warning]  
+    > Sachez que si vous ne souhaitez pas remplacer les paramètres de niveau application du pool de sauvegarde (pool B) par les paramètres du pool principal (pool A), les paramètres de niveau application du pool A seront perdus en cas de perte du pool A, car l’application Response Group ne peut stocker qu’un jeu de paramètres de niveau application par pool. Lors du déploiement du pool C pour remplacer le pool A, les paramètres de niveau application doivent être reconfigurés, dont le fichier audio de mise en attente musicale.
 
 5.  Vérifiez que l’importation de la configuration Response Group a réussi en exécutant les applets de commande suivantes pour afficher les groupes Response Group importés. Notez que le pool A est toujours propriétaire des groupes Response Group importés.
     
@@ -95,19 +73,8 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cette étape n’est pas nécessaire pour les plages de numéros non attribués qui utilisent « Messagerie unifiée Exchange » comme service d’annonce sélectionné.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Cette étape n’est pas nécessaire pour les plages de numéros non attribués qui utilisent « Messagerie unifiée Exchange » comme service d’annonce sélectionné.
 
 7.  Procédez au basculement du pool A vers le Pool B en mode de récupération d’urgence en exécutant l’applet de commande suivante :
     
@@ -180,19 +147,8 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sachez que si vous ne souhaitez pas remplacer les paramètres de niveau application du pool C par les paramètres du pool de sauvegarde (pool B), les paramètres de niveau application du pool B seront perdus car l’application Response Group ne peut stocker qu’un jeu de paramètres de niveau application par pool.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!warning]  
+    > Sachez que si vous ne souhaitez pas remplacer les paramètres de niveau application du pool C par les paramètres du pool de sauvegarde (pool B), les paramètres de niveau application du pool B seront perdus car l’application Response Group ne peut stocker qu’un jeu de paramètres de niveau application par pool.
 
 18. Vérifiez que l’importation de la configuration Response Group a réussi en exécutant les applets de commande suivantes pour afficher les groupes Response Group qui ont été importés dans le pool C.
     
@@ -216,19 +172,8 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
     
       - (Facultatif) Supprimez du pool B les annonces qui ont été recrées dans le pool C si elles ne sont plus utilisées dans le pool B. Pour supprimer des annonces, utilisez l’applet de commande **Remove-CsAnnouncement**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Cette étape n’est pas nécessaire pour les plages de numéros non attribués qui utilisent « Messagerie unifiée Exchange » comme service d’annonce.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!note]  
+        > Cette étape n’est pas nécessaire pour les plages de numéros non attribués qui utilisent « Messagerie unifiée Exchange » comme service d’annonce.
 
 21. Nettoyez les données utilisateur du pool A dans le pool B en exécutant l’applet de commande suivante :
     
@@ -299,19 +244,8 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
             Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - 
             }
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Les utilisateurs hébergés sur des SBA associés au pool A subiront une panne du service jusqu’à ce qu’ils soient déplacés vers le pool C.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!note]  
+        > Les utilisateurs hébergés sur des SBA associés au pool A subiront une panne du service jusqu’à ce qu’ils soient déplacés vers le pool C.
 
 28. Dans le générateur de topologie, pour chaque SBA X précédemment associé au pool A, procédez comme suit :
     

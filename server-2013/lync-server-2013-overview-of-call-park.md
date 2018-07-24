@@ -33,19 +33,8 @@ Quand vous déployez le parcage d’appel, vous devez réserver des plages de nu
 
 Vous configurez également d’autres paramètres de parcage d’appel, tels que l’endroit où sont redirigés les appels s’ils arrivent à expiration et si la personne en ligne entend de la musique lorsque son appel est parqué. Vous pouvez aussi spécifier le fichier de musique à lire lorsque l’appel est en attente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les fichiers de mise en attente musicale personnalisés pour le parcage d’appel ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et sont perdus en cas d’endommagement ou d’effacement des fichiers téléchargés vers le pool. Veillez à toujours conserver une copie de sauvegarde distincte des fichiers de mise en attente musicale personnalisés que vous avez téléchargés pour le parcage d’appel.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les fichiers de mise en attente musicale personnalisés pour le parcage d’appel ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et sont perdus en cas d’endommagement ou d’effacement des fichiers téléchargés vers le pool. Veillez à toujours conserver une copie de sauvegarde distincte des fichiers de mise en attente musicale personnalisés que vous avez téléchargés pour le parcage d’appel.
 
 L’application de parcage d’appel est un composant de Voix Entreprise. Cette application est installée et déployée automatiquement quand vous déployez Voix Entreprise. Cependant, avant de pouvoir utiliser le parcage d’appel, l’administrateur de Voix Entreprise doit le configurer et l’activer pour les utilisateurs via une stratégie vocale.
 

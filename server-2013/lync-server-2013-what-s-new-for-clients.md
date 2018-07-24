@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Microsoft Lync 2013 possède une interface utilisateur remaniée et de nouvelles fonctionnalités importantes. Le client est désormais fourni avec le programme d’installation d’Office, offrant aux administrateurs une approche plus rationalisée pour déployer Office et personnaliser des clients dans votre organisation.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour obtenir une vue illustrée des mises à jour de l’interface utilisateur Lync 2013, reportez-vous à « Nouveautés de Lync 2013 » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour obtenir une vue illustrée des mises à jour de l’interface utilisateur Lync 2013, reportez-vous à « Nouveautés de Lync 2013 » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</a>.
 
 ## Intégration au programme d’installation d’Office
 
@@ -43,19 +32,8 @@ Dans les versions précédentes de Lync et d’Office Communicator, vous pouviez
 
   - Utiliser les options de ligne de commande du programme d’installation
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le programme d’installation de Lync 2013 ne désinstalle pas les versions précédentes de Lync ou d’Office Communicator. Le client Lync 2013 est installé côte à côte avec d’autres clients Lync ou Office Communicator.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le programme d’installation de Lync 2013 ne désinstalle pas les versions précédentes de Lync ou d’Office Communicator. Le client Lync 2013 est installé côte à côte avec d’autres clients Lync ou Office Communicator.
 
 Pour plus d’informations, reportez-vous à la section [Déploiement des clients Lync dans Lync Server 2013](lync-server-2013-deploying-lync-clients.md).
 

@@ -33,19 +33,8 @@ Les paramètres de configuration comprennent le nom de la collection, l’étend
     
       - Pour modifier l’un des paramètres d’une collection existante, cliquez sur la collection, cliquez sur le menu **Modifier**, cliquez sur **Afficher les détails**, puis apportez vos modifications.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour revenir à l’utilisation des paramètres par défaut de la collection globale, cliquez sur la collection globale, cliquez sur le menu <strong>Modifier</strong>, cliquez sur <strong>Supprimer</strong>, puis sur <strong>OK</strong>. Cela ne supprime pas la collection globale, mais rétablit simplement les paramètres à leurs valeurs par défaut.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!tip]  
+        > Pour revenir à l’utilisation des paramètres par défaut de la collection globale, cliquez sur la collection globale, cliquez sur le menu <strong>Modifier</strong>, cliquez sur <strong>Supprimer</strong>, puis sur <strong>OK</strong>. Cela ne supprime pas la collection globale, mais rétablit simplement les paramètres à leurs valeurs par défaut.
 
 5.  Cliquez sur **Valider**.
 

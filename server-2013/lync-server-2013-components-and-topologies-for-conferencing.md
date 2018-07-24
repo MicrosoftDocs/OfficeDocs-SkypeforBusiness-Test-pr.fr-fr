@@ -41,19 +41,8 @@ Outre les conditions requises pour la conférence web et A/V, la conférence ren
     
       - Contrôleur de frontière de session (SBC) (pour un fournisseur de services de téléphonie Internet sur lequel vous vous connectez en configurant une jonction SIP)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous déployez également Voix Entreprise, le serveur de médiation et les passerelles RTC font partie du déploiement de Voix Entreprise. Si vous ne déployez pas Voix Entreprise, vous devez déployer au moins un serveur de médiation et une passerelle RTC, un système IP-PBX ou un contrôleur de frontière de session pour la conférence rendez-vous.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si vous déployez également Voix Entreprise, le serveur de médiation et les passerelles RTC font partie du déploiement de Voix Entreprise. Si vous ne déployez pas Voix Entreprise, vous devez déployer au moins un serveur de médiation et une passerelle RTC, un système IP-PBX ou un contrôleur de frontière de session pour la conférence rendez-vous.
 
   - **Magasin de fichiers**   Le magasin de fichiers est utilisé pour le nom enregistré des fichiers audio. Le magasin de fichiers est un composant standard dans chaque déploiement Enterprise Edition ou Standard Edition.
 
@@ -79,19 +68,8 @@ Vous pouvez déployer des conférences rendez-vous dans les topologies et les co
 
 Vous pouvez déployer le service d’application, l’application Intendant Conférence et l’application d’annonce de conférence dans un site central, mais pas dans un site de succursale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous déployez la conférence rendez-vous, vous devez la déployer dans chaque pool sur lequel vous déployez la conférence Lync Server 2013. Il n’est pas nécessaire d’attribuer des numéros d’accès à chaque pool, mais vous devez déployer la fonctionnalité de conférence rendez-vous dans chaque pool. Cette condition préalable prend en charge la fonctionnalité d’enregistrement du nom lorsqu’un utilisateur appelle un numéro d’accès depuis un pool pour joindre une conférence Lync Server 2013 dans un autre pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous déployez la conférence rendez-vous, vous devez la déployer dans chaque pool sur lequel vous déployez la conférence Lync Server 2013. Il n’est pas nécessaire d’attribuer des numéros d’accès à chaque pool, mais vous devez déployer la fonctionnalité de conférence rendez-vous dans chaque pool. Cette condition préalable prend en charge la fonctionnalité d’enregistrement du nom lorsqu’un utilisateur appelle un numéro d’accès depuis un pool pour joindre une conférence Lync Server 2013 dans un autre pool.
 
 ## Topologies prises en charge pour Lync Server 2013 et Office Web Apps
 
@@ -111,16 +89,5 @@ Lync Server 2013 offre les méthodes de configuration d’Office Web Apps Serve
 
 Indépendamment de la topologie sélectionnée, les ports de pare-feu corrects doivent absolument être ouverts. Vous devez vous assurer que les noms DNS, adresses IP et ports ne sont pas bloqués par des pare-feu sur Office Web Apps Server, le programme d’équilibrage de la charge ou Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une autre option permettant de fournir un accès externe à Office Web Apps Server consiste à déployer le serveur dans le réseau de périmètre. Si vous sélectionnez cette option, n’oubliez pas que pour installer Office Web Apps Server, l’ordinateur serveur doit être membre de votre domaine Active Directory. À moins que votre stratégie de réseau n’autorise les ordinateurs du réseau de périmètre à être des membres du domaine Active Directory, il est recommandé de ne pas installer Office Web Apps Server dans le réseau de périmètre. Installez plutôt Office Web Apps Server dans le réseau interne et fournissez un accès utilisateur externe via votre serveur de proxy inverse.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Une autre option permettant de fournir un accès externe à Office Web Apps Server consiste à déployer le serveur dans le réseau de périmètre. Si vous sélectionnez cette option, n’oubliez pas que pour installer Office Web Apps Server, l’ordinateur serveur doit être membre de votre domaine Active Directory. À moins que votre stratégie de réseau n’autorise les ordinateurs du réseau de périmètre à être des membres du domaine Active Directory, il est recommandé de ne pas installer Office Web Apps Server dans le réseau de périmètre. Installez plutôt Office Web Apps Server dans le réseau interne et fournissez un accès utilisateur externe via votre serveur de proxy inverse.

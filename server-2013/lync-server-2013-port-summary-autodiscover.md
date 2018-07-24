@@ -23,19 +23,8 @@ La décision d’utiliser des listes d’autres noms du sujet sur les proxys inv
 
   - **Publication sur le port 443** La liste des autres noms du sujet sur les certificats utilisés par la règle de publication des services web externes doit contenir une entrée `lyncdiscover.<sipdomain>` pour chaque domaine SIP situé au sein de votre organisation.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour les nouvelles installations ou les mises à niveau à partir de Lync Server 2010 où vous avez déployé la mobilité, vous avez soit utilisé le port 80 pour la découverte automatique du service de mobilité, soit réémis des certificats avec le nom du sujet et les autres noms du sujet corrects en place. Examinez les certificats sur votre directeur et votre serveur frontal pour vérifier le chemin d’accès choisi.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Pour les nouvelles installations ou les mises à niveau à partir de Lync Server 2010 où vous avez déployé la mobilité, vous avez soit utilisé le port 80 pour la découverte automatique du service de mobilité, soit réémis des certificats avec le nom du sujet et les autres noms du sujet corrects en place. Examinez les certificats sur votre directeur et votre serveur frontal pour vérifier le chemin d’accès choisi.
 
 ### Informations sur le pare-feu pour le serveur proxy inverse : interface externe
 

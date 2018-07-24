@@ -19,45 +19,19 @@ Lync Web App est un client web IIS (Internet Information Services) qui s’ins
 
 Les fonctionnalités vocales, vidéo et de partage de Lync Web App requièrent un contrôle Microsoft ActiveX. Vous pouvez soit installer le contrôle ActiveX à l’avance, soit permettre aux utilisateurs de l’installer lorsqu’ils y sont invités, ce qui est le cas la première fois qu’ils utilisent Lync Web App ou la première fois qu’ils accèdent à une fonctionnalité nécessitant le contrôle ActiveX.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans les déploiements de serveur Edge Lync Server 2013, un proxy inverse HTTPS dans le réseau de périmètre est requis pour l’accès client Lync Web App. Vous devez également publier des URL simples. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configuration des serveurs proxy inverses pour Lync Server 2013</a> et <a href="lync-server-2013-planning-for-simple-urls.md">Planification des URL simples dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Dans les déploiements de serveur Edge Lync Server 2013, un proxy inverse HTTPS dans le réseau de périmètre est requis pour l’accès client Lync Web App. Vous devez également publier des URL simples. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configuration des serveurs proxy inverses pour Lync Server 2013</a> et <a href="lync-server-2013-planning-for-simple-urls.md">Planification des URL simples dans Lync Server 2013</a>.
 
 ## Activation de l’authentification multifacteur pour Lync Web App
 
 La version Lync Server 2013 de Lync Web App prend en charge l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des codes confidentiels, pour authentifier les utilisateurs qui participent depuis des réseaux externes lorsqu’ils se connectent à des réunions Lync. Vous pouvez activer l’authentification multifacteur en déployant un serveur de fédération AD FS (Active Directory Federation Services) et en activant l’authentification passive dans Lync Server 2013. Une fois les services AD FS configurés, une page web d’authentification multifacteur AD FS contenant le nom d’utilisateur et le mot de passe de stimulation, ainsi que toutes les méthodes d’authentification supplémentaires que vous avez configurées s’affiche aux utilisateurs externes qui tentent de rejoindre des réunions Lync.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous trouverez ci-dessous des considérations importantes si vous envisagez de configurer les services AD FS pour l’authentification multifacteur :
-<ul>
-<li><p>L’authentification ADFS multifacteur fonctionne si le participant à la réunion et l’organisateur appartiennent à la même organisation ou à une organisation fédérée AD FS. Elle ne fonctionne pas pour les utilisateurs fédérés Lync, car l’infrastructure web du serveur Lync ne la prend pas en charge pour le moment.</p></li>
-<li><p>Si vous utilisez des programmes d’équilibrage de la charge matérielle, activez la persistance des cookies sur les programmes d’équilibrage de la charge afin que toutes les demandes émanant du client Lync Web App soient gérées par le même serveur frontal.</p></li>
-<li><p>Lorsque vous établissez une approbation de la partie de confiance entre Lync Server et les serveurs AD FS, attribuez une durée de vie de jeton suffisamment longue pour couvrir la durée maximale de vos réunions Lync. Une durée de vie de jeton de 240 minutes est généralement suffisante.</p></li>
-<li><p>Cette configuration ne s’applique pas aux clients mobiles Lync.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Vous trouverez ci-dessous des considérations importantes si vous envisagez de configurer les services AD FS pour l’authentification multifacteur :<ul>
+> <li><p>L’authentification ADFS multifacteur fonctionne si le participant à la réunion et l’organisateur appartiennent à la même organisation ou à une organisation fédérée AD FS. Elle ne fonctionne pas pour les utilisateurs fédérés Lync, car l’infrastructure web du serveur Lync ne la prend pas en charge pour le moment.</p></li>
+> <li><p>Si vous utilisez des programmes d’équilibrage de la charge matérielle, activez la persistance des cookies sur les programmes d’équilibrage de la charge afin que toutes les demandes émanant du client Lync Web App soient gérées par le même serveur frontal.</p></li>
+> <li><p>Lorsque vous établissez une approbation de la partie de confiance entre Lync Server et les serveurs AD FS, attribuez une durée de vie de jeton suffisamment longue pour couvrir la durée maximale de vos réunions Lync. Une durée de vie de jeton de 240 minutes est généralement suffisante.</p></li>
+> <li><p>Cette configuration ne s’applique pas aux clients mobiles Lync.</p></li></ul>
 
 
 **Pour configurer l’authentification multifacteur**
@@ -112,19 +86,8 @@ Si l’installation du plug-in échoue sur un ordinateur exécutant Windows Ser
 
 4.  Désactivez la case à cocher **Ne pas enregistrer les pages chiffrées sur le disque**, puis cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>S’il est sélectionné, ce paramètre provoque une erreur lors de la tentative de téléchargement d’une pièce jointe à partir de Lync Web App.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > S’il est sélectionné, ce paramètre provoque une erreur lors de la tentative de téléchargement d’une pièce jointe à partir de Lync Web App.
 
 5.  Rejoignez la réunion. Le plug-in doit se télécharger sans erreurs.
 

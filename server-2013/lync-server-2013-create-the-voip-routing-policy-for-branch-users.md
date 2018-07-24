@@ -27,19 +27,8 @@ Nous vous recommandons de créer une stratégie de Voix sur IP (VoIP) distincte 
 
 4.  Configurez un itinéraire d’appels de sauvegarde sur la passerelle du Survivable Branch Appliance ou du serveur Survivable Branch Server pointant vers le pool de serveurs d’inscriptions de sauvegarde (colocalisé avec le serveur de médiation) sur le site central. (Reportez-vous à la documentation du fabricant du Survivable Branch Appliance ou du serveur Survivable Branch Server.)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cet itinéraire de sauvegarde pour les appels garantit que l’utilisateur sur le site de succursale recevra les appels entrants qui lui sont destinés lorsque le Survivable Branch Appliance ou le serveur Survivable Branch Server n’est pas disponible (par exemple, s’il est arrêté pour maintenance). Si le serveur d’inscriptions et le serveur de médiation sur le Survivable Branch Appliance ou le serveur Survivable Branch Server ne sont pas disponibles et si l’utilisateur est inscrit sur le pool de serveurs d’inscriptions de sauvegarde du site central, les appels entrants seront quand même transmis à l’utilisateur.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Cet itinéraire de sauvegarde pour les appels garantit que l’utilisateur sur le site de succursale recevra les appels entrants qui lui sont destinés lorsque le Survivable Branch Appliance ou le serveur Survivable Branch Server n’est pas disponible (par exemple, s’il est arrêté pour maintenance). Si le serveur d’inscriptions et le serveur de médiation sur le Survivable Branch Appliance ou le serveur Survivable Branch Server ne sont pas disponibles et si l’utilisateur est inscrit sur le pool de serveurs d’inscriptions de sauvegarde du site central, les appels entrants seront quand même transmis à l’utilisateur.
 
 **Étape suivante**  : [Configuration des paramètres de réacheminement de la messagerie vocale dans Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 

@@ -75,19 +75,8 @@ Nous recommandons de créer une nouvelle stratégie de conférence spécifique a
 
   - Définissez l’option **EnableMultiviewJoin** sur **False**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La prise en charge de grandes réunions de 1 000 utilisateurs dans Lync Server 2013 requiert que le paramètre <strong>AllowLargeMeetings</strong> de la stratégie de conférence pour le planificateur de réunion ait la valeur true. Quand ce paramètre a la valeur true, l’expérience Lync sera optimisée pour les grandes réunions quand les utilisateurs rejoignent la réunion. Dans une grande réunion, Lync n’affiche pas la liste des participants (initiale ou mise à jour), car cela peut représenter un goulot d’étranglement pour le client et Lync Server 2013. À la place, Lync affiche les informations relatives à l’utilisateur et la liste des présentateurs de la réunion. Lync affichera cependant le nombre total de participants disponibles dans les grandes réunions.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La prise en charge de grandes réunions de 1 000 utilisateurs dans Lync Server 2013 requiert que le paramètre <strong>AllowLargeMeetings</strong> de la stratégie de conférence pour le planificateur de réunion ait la valeur true. Quand ce paramètre a la valeur true, l’expérience Lync sera optimisée pour les grandes réunions quand les utilisateurs rejoignent la réunion. Dans une grande réunion, Lync n’affiche pas la liste des participants (initiale ou mise à jour), car cela peut représenter un goulot d’étranglement pour le client et Lync Server 2013. À la place, Lync affiche les informations relatives à l’utilisateur et la liste des présentateurs de la réunion. Lync affichera cependant le nombre total de participants disponibles dans les grandes réunions.
 
 À l’exception du paramètre **Taille maximale de la réunion**, tous les autres paramètres de stratégie de conférence spécifiés ici sont requis afin de désactiver les fonctionnalités de conférence qui ne sont pas nécessaires pour les grandes réunions.
 

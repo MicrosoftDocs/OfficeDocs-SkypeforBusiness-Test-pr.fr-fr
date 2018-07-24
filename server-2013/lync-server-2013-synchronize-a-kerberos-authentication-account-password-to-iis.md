@@ -33,29 +33,7 @@ Dans un site, les serveurs frontaux, les serveurs Standard Edition et les direct
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom de l’ordinateur source et celui de l’ordinateur de destination doivent être un nom de domaine complet du serveur. Vous ne pouvez pas utiliser le nom de domaine complet du pool sauf si le nom du pool est le même que celui de l’ordinateur que vous utilisez comme ordinateur source ou ordinateur de destination.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Le nom de l’ordinateur source et celui de l’ordinateur de destination doivent être un nom de domaine complet du serveur. Vous ne pouvez pas utiliser le nom de domaine complet du pool sauf si le nom du pool est le même que celui de l’ordinateur que vous utilisez comme ordinateur source ou ordinateur de destination.    
+    > [!important]  
+    > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.

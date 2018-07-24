@@ -27,16 +27,5 @@ Après avoir fait migrer des utilisateurs vers Lync Server 2013, procédez comm
 
 5.  (Facultatif) Si votre organisation a besoin du mode de confidentialité de la présence avancée Lync Server 2013, une fois la migration terminée, définissez une règle de stratégie de version du client pour empêcher les versions précédentes du client de se connecter. Ensuite, activez le mode de confidentialité de la présence avancée.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>N’activez pas le mode de confidentialité de la présence avancée Lync 2013 tant que tous les utilisateurs d’un pool serveur donné n’ont pas installé les versions du client les plus récentes.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > N’activez pas le mode de confidentialité de la présence avancée Lync 2013 tant que tous les utilisateurs d’un pool serveur donné n’ont pas installé les versions du client les plus récentes.

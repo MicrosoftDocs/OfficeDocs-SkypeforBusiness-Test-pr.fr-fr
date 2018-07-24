@@ -65,19 +65,8 @@ Vous pouvez créer des paramètres de configuration d’enregistrement des déta
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les applets de commande New-CsCdrConfiguration et Set-CsCdrConfiguration comprennent des options supplémentaires non disponibles dans le Panneau de configuration Lync Server. Pour plus d’informations, voir les rubriques d’aide <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les applets de commande New-CsCdrConfiguration et Set-CsCdrConfiguration comprennent des options supplémentaires non disponibles dans le Panneau de configuration Lync Server. Pour plus d’informations, voir les rubriques d’aide <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>.
 
 ## Pour créer des paramètres de configuration d’enregistrements des détails des appels à l’aide du Panneau de configuration Lync Server
 

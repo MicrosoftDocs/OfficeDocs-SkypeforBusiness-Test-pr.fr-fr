@@ -35,19 +35,8 @@ Depuis le serveur frontal de votre déploiement Lync Server 2013, ouvrez le Pan
 
 ![Boîte de dialogue de sélection d’URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Boîte de dialogue de sélection d’URL")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sur Lync Server 2013, vous devez mettre à niveau Silverlight vers Silverlight 5 avant d’utiliser le Panneau de configuration Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Sur Lync Server 2013, vous devez mettre à niveau Silverlight vers Silverlight 5 avant d’utiliser le Panneau de configuration Lync Server.
 
 Cette topologie inclut à présent les rôles serveur Lync Server 2010 et Lync Server 2013.
 

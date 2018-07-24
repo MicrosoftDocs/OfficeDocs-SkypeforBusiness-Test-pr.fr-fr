@@ -25,19 +25,8 @@ Vous renseignez la base de données du service Informations d’emplacement avec
 
   - Si l’emplacement est approximatif (car déterminé par un point d’accès sans fil), vous pouvez ajouter le mot Near (par exemple, « À proximité du 1er étage 1234 »).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les emplacements ajoutés à la base de données centrale des emplacements ne sont accessibles au client qu’une fois publiés à l’aide d’une commande Lync Server Management Shell et répliqués vers les magasins locaux du pool. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-the-location-database.md">Publier la base de données d’emplacements</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les emplacements ajoutés à la base de données centrale des emplacements ne sont accessibles au client qu’une fois publiés à l’aide d’une commande Lync Server Management Shell et répliqués vers les magasins locaux du pool. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-the-location-database.md">Publier la base de données d’emplacements</a> dans la documentation de déploiement.
 
 Les sections suivantes abordent les points à prendre en considération lorsque vous remplissez et mettez à jour la base de données des emplacements.
 

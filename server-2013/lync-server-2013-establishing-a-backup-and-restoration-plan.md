@@ -39,19 +39,8 @@ Lors du développement du plan, il convient de prendre en compte les aspects sui
 
 Modifiez les procédures de sauvegarde et de restauration fournies dans ce document, en ajoutant ou supprimant des procédures en fonction des serveurs et composants de votre déploiement. Vous pouvez également ajouter des détails spécifiques, tels que la planification de sauvegarde, aux procédures appropriées afin de vous assurer de n’oublier aucune information.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il est recommandé de créer des scripts pour le plus grand nombre d’étapes possibles, afin de garantir la qualité et la reproductibilité des procédures.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Il est recommandé de créer des scripts pour le plus grand nombre d’étapes possibles, afin de garantir la qualité et la reproductibilité des procédures.
 
 Dans votre plan, identifiez la personne responsable de la vérification du plan, celle responsable des tests et de la validation de tout nouvel outil ou procédure, ainsi que celle devant approuver les modifications apportées au plan et procédures associées.
 

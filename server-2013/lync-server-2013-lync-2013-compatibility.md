@@ -190,19 +190,8 @@ Le tableau suivant décrit la prise en charge de différentes versions d’Excha
 <td><p>Exchange Server 2013</p></td>
 <td><p>Identique à la prise en charge d’Exchange Server 2010, avec en plus le Magasin de contact unifié, les images haute résolution et l’intégration de l’archivage.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations, voir <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Intégration de Microsoft Lync Server 2013 à Microsoft Exchange Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour plus d’informations, voir <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Intégration de Microsoft Lync Server 2013 à Microsoft Exchange Server 2013</a>.
 </div></td>
 </tr>
 <tr class="even">
@@ -211,12 +200,7 @@ Le tableau suivant décrit la prise en charge de différentes versions d’Excha
 </tr>
 <tr class="odd">
 <td><p>Exchange Server 2007 avec Service Pack 1 (SP1) (requis) ou le Service Pack le plus récent (recommandé)</p></td>
-<td><p>Les fonctionnalités suivantes sont disponibles uniquement par l’intermédiaire d’EWS :</p>
-<ul>
-<li><p>Lire ou supprimer des éléments du dossier Historique des conversations</p></li>
-<li><p>Lire ou supprimer des messages vocaux</p></li>
-<li><p>Afficher les informations de disponibilité étendues, le sujet et le lieu de la réunion</p></li>
-</ul>
+<td><p>Les fonctionnalités suivantes sont disponibles uniquement par l’intermédiaire d’EWS :</p><ul><li><p>Lire ou supprimer des éléments du dossier Historique des conversations</p></li><li><p>Lire ou supprimer des messages vocaux</p></li><li><p>Afficher les informations de disponibilité étendues, le sujet et le lieu de la réunion</p></li></ul>
 <p>Les dossiers publics sont facultatifs dans Exchange Server 2007 avec Service Pack 1 (SP1) (requis) ou le Service Pack le plus récent ou la dernière version (recommandé).</p></td>
 </tr>
 <tr class="even">
@@ -281,25 +265,11 @@ Par ailleurs, la fonctionnalité d’intégration XMPP de Lync Server 2013 perm
 
 \*A/V est pris en charge par la dernière version de Windows Live Messenger. Si vous mettez en œuvre la fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez également modifier le niveau de chiffrement du serveur. Par défaut, le niveau de chiffrement est Requis. Vous devez modifier ce paramètre en choisissant Pris en charge à l’aide de Lync Server Management Shell.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, voir <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
-<li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
-<li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/périphérique supplémentaire au-delà de la licence d’accès client (CAL) standard Lync.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> <ul>
+> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, voir <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
+> <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
+> <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/périphérique supplémentaire au-delà de la licence d’accès client (CAL) standard Lync.</p></li></ul>
 
 
 ## Voir aussi

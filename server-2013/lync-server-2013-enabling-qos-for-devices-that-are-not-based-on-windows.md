@@ -40,19 +40,8 @@ La commande précédente active la QoS au niveau global, mais notez que les para
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Est-il nécessaire d’activer la QoS au niveau du site ? Cela dépend. Les paramètres affectés au site sont prioritaires sur ceux affectés à l’étendue globale. Supposons que vous avez activé la QoS au niveau global, mais qu’elle est désactivée au niveau du site (le site de Redmond). Dans ce cas, la qualité de service sera désactivée pour le site de Redmond, car le site est prioritaire. Pour activer la qualité de service sur le site de Redmond, vous devez modifier les paramètres de configuration multimédia appliqués à ce site.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Est-il nécessaire d’activer la QoS au niveau du site ? Cela dépend. Les paramètres affectés au site sont prioritaires sur ceux affectés à l’étendue globale. Supposons que vous avez activé la QoS au niveau global, mais qu’elle est désactivée au niveau du site (le site de Redmond). Dans ce cas, la qualité de service sera désactivée pour le site de Redmond, car le site est prioritaire. Pour activer la qualité de service sur le site de Redmond, vous devez modifier les paramètres de configuration multimédia appliqués à ce site.
 
 Si vous voulez activer simultanément la QoS pour tous vos paramètres de configuration multimédia (indépendamment de l’étendue), exécutez cette commande dans Lync Server Management Shell :
 

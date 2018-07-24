@@ -31,19 +31,8 @@ Renforcez la sécurité des périphériques qui exécutent Lync Phone Edition v
 
 6.  Dans **Modifier la configuration du périphérique**, sous **Verrouillage du téléphone**, activez ou désactivez la case à cocher **Appliquer le verrouillage de l’appareil** (activée par défaut) et spécifiez la longueur minimale du code confidentiel (6 caractères par défaut) ainsi que le délai d’expiration (10 minutes par défaut). Nous recommandons d’utiliser ces valeurs par défaut ou d’augmenter la longueur du code confidentiel et/ou de diminuer le délai d’expiration.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations, voir <a href="lync-server-2013-enforce-phone-locking.md">Application du verrouillage de téléphone</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour plus d’informations, voir <a href="lync-server-2013-enforce-phone-locking.md">Application du verrouillage de téléphone</a>.
 
 ## Configurer les paramètres de sécurité des téléphones Lync Phone Edition à l’aide des applets de commandes Lync Server Management Shell
 

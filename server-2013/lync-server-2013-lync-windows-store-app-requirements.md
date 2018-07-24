@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Les organisations dotées d’un déploiement local de Lync Server doivent satisfaire les exigences suivantes pour prendre en charge application Lync du Windows Store :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour Lync Server 2010, exécuter la mise à jour cumulative pour Lync Server 2010 de février 2012 (disponible à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) ou une version supérieure sur tous les serveurs. Pour permettre aux utilisateurs de participer à des réunions, exécuter la mise à jour cumulative pour Lync Server 2010 d’octobre 2012 (disponible à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) sur les serveurs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour Lync Server 2010, exécuter la mise à jour cumulative pour Lync Server 2010 de février 2012 (disponible à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) ou une version supérieure sur tous les serveurs. Pour permettre aux utilisateurs de participer à des réunions, exécuter la mise à jour cumulative pour Lync Server 2010 d’octobre 2012 (disponible à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) sur les serveurs.
 
   - Activer les services de découverte automatique, Lync Web App et de ticket web sur le serveur.
 

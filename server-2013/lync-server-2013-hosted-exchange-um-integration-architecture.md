@@ -29,19 +29,8 @@ Les modes suivants sont pris en charge :
 
   - **Déploiement mixte** : votre déploiement de Lync Server 2013 comporte des boîtes aux lettres d’utilisateur hébergées sur des serveurs Exchange locaux dans votre entreprise et des boîtes aux lettres hébergées dans un centre de données de service Exchange hébergé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le déploiement mixte peut tenir lieu de solution de transition au cours de l’évaluation et de la migration progressive des utilisateurs vers un service de messagerie unifiée Exchange hébergé, ou de solution permanente, si vous décidez de conserver sur site les services de messagerie unifiée Exchange de certains utilisateurs après en avoir transféré d’autres.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Le déploiement mixte peut tenir lieu de solution de transition au cours de l’évaluation et de la migration progressive des utilisateurs vers un service de messagerie unifiée Exchange hébergé, ou de solution permanente, si vous décidez de conserver sur site les services de messagerie unifiée Exchange de certains utilisateurs après en avoir transféré d’autres.
 
 ## Espace d’adressage SIP partagé
 
@@ -49,19 +38,8 @@ Pour intégrer Lync Server 2013 à un déploiement de messagerie unifiée Excha
 
 Pour intégrer Lync Server 2013 à un service de messagerie unifiée Exchange hébergé, vous devez configurer un *espace d’adressage SIP partagé* . Dans cette configuration, le même espace d’adressage de domaine SIP est disponible pour Lync Server 2013 et le fournisseur du service de messagerie unifiée Exchange hébergé.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’utilisation de l’espace d’adressage SIP partagé est similaire à l’approche utilisée dans un déploiement Lync Server 2013 intersite, dans lequel des utilisateurs sont hébergés dans le déploiement sur site tandis que d’autres sont hébergés dans un déploiement hébergé (tel qu’un déploiement de Lync Online). Le domaine SIP est fractionné entre les deux déploiements. Lorsque vous intégrez Lync Server 2013 à un service de messagerie unifiée Exchange hébergé, veillez à inclure le fournisseur du service de messagerie unifiée Exchange hébergé dans l’espace d’adressage SIP partagé.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’utilisation de l’espace d’adressage SIP partagé est similaire à l’approche utilisée dans un déploiement Lync Server 2013 intersite, dans lequel des utilisateurs sont hébergés dans le déploiement sur site tandis que d’autres sont hébergés dans un déploiement hébergé (tel qu’un déploiement de Lync Online). Le domaine SIP est fractionné entre les deux déploiements. Lorsque vous intégrez Lync Server 2013 à un service de messagerie unifiée Exchange hébergé, veillez à inclure le fournisseur du service de messagerie unifiée Exchange hébergé dans l’espace d’adressage SIP partagé.
 
 Pour configurer l’espace d’adressage SIP partagé en vue de l’intégration de Lync Server à un service de messagerie unifiée Exchange hébergé, vous devez configurer le serveur Edge comme suit :
 

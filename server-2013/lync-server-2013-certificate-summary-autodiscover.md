@@ -23,35 +23,13 @@ La décision quant à l’utilisation de listes d’autres noms de sujet sur les
 
   - **Publication sur le port 443** La liste des autres noms de sujet sur les certificats utilisés par la règle de publication des services web externes doit contenir une entrée *lyncdiscover.\<sipdomain\>* pour chaque domaine SIP situé au sein de votre organisation.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nous vous recommandons vivement d’utiliser HTTPS sur HTTP. HTTPS utilise des certificats pour chiffrer le trafic. HTTP n’offre pas de chiffrement et toutes les données envoyées sont du texte brut.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Nous vous recommandons vivement d’utiliser HTTPS sur HTTP. HTTPS utilise des certificats pour chiffrer le trafic. HTTP n’offre pas de chiffrement et toutes les données envoyées sont du texte brut.
 
 La réémission de certificats à l’aide d’une autorité de certification interne constitue généralement un processus simple. Toutefois, pour les certificats publics utilisés dans la règle de publication des services web, l’ajout de plusieurs entrées d’autres noms de sujet peut s’avérer onéreux. Pour remédier à ce problème, nous recommandons la connexion de découverte automatique initiale via le port 80, laquelle est ensuite redirigée vers le port 8080 sur le directeur ou le serveur frontal.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si votre infrastructure Lync Server 2013 utilise des certificats internes émis par une autorité de certification interne et que vous prévoyez de prendre en charge la connexion sans fil d’appareils mobiles, la chaîne de certificats racine de l’autorité de certification interne doit être installée sur les appareils mobiles ou vous devez passer à un certificat public sur votre infrastructure Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si votre infrastructure Lync Server 2013 utilise des certificats internes émis par une autorité de certification interne et que vous prévoyez de prendre en charge la connexion sans fil d’appareils mobiles, la chaîne de certificats racine de l’autorité de certification interne doit être installée sur les appareils mobiles ou vous devez passer à un certificat public sur votre infrastructure Lync Server 2013.
 
 Cette rubrique décrit les autres noms de sujet ajoutés requis pour le directeur, le serveur frontal et le proxy inverse. Seuls les autres noms de sujet ajoutés sont référencés. Pour obtenir de l’aide sur les autres entrées des certificats, reportez-vous aux sections de planification. Pour plus d’informations, voir [Scénarios pour le directeur dans Lync Server 2013](lync-server-2013-scenarios-for-the-director.md), [Scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) et [Scénarios de proxy inverse dans Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).
 
@@ -83,19 +61,8 @@ Les tableaux suivants définissent les entrées des autres noms de sujet de déc
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous assignez au certificat par défaut le certificat récemment mis à jour avec la nouvelle entrée SAN. Vous pouvez également utiliser SAN=*.<em>&lt;domainesip&gt;</em>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous assignez au certificat par défaut le certificat récemment mis à jour avec la nouvelle entrée SAN. Vous pouvez également utiliser SAN=*.<em>&lt;domainesip&gt;</em>.
 
 ### Exigences relatives au certificat du pool frontal
 
@@ -123,19 +90,8 @@ Les tableaux suivants définissent les entrées des autres noms de sujet de déc
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous assignez au certificat par défaut le certificat récemment mis à jour avec la nouvelle entrée SAN. Vous pouvez également utiliser SAN=*.<em>&lt;domainesip&gt;</em></td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous assignez au certificat par défaut le certificat récemment mis à jour avec la nouvelle entrée SAN. Vous pouvez également utiliser SAN=*.<em>&lt;domainesip&gt;</em>
 
 ### Exigences relatives au certificat de proxy inverse (autorité de certification publique)
 
@@ -159,16 +115,5 @@ Les tableaux suivants définissent les entrées des autres noms de sujet de déc
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous assignez le certificat mis à jour avec la nouvelle entrée SAN à l’écouteur SSL sur le proxy inverse.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous assignez le certificat mis à jour avec la nouvelle entrée SAN à l’écouteur SSL sur le proxy inverse.

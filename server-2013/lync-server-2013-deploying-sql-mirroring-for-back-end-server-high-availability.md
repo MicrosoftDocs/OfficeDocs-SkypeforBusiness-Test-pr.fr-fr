@@ -41,56 +41,19 @@ Avec la mise en miroir SQL, le mode de récupération de la base de données a t
 
 Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en miroir lorsque vous créez les pools ou après les avoir déjà créés.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>À l’aide du Générateur de topologie et d’applets de commande, la configuration et la suppression de la mise en miroir SQL sont prises en charge uniquement lorsque le principal, le miroir et le témoin (si besoin) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, reportez-vous à votre documentation SQL Server.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> À l’aide du Générateur de topologie et d’applets de commande, la configuration et la suppression de la mise en miroir SQL sont prises en charge uniquement lorsque le principal, le miroir et le témoin (si besoin) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, reportez-vous à votre documentation SQL Server.
+
+> [!important]  
+> Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.<br />
+Pour toute modification apportée à la mise en miroir (telle que la modification de l’emplacement d’un miroir), vous devez utiliser le Générateur de topologie pour effectuer ces trois étapes :<ol>
+> <li><p>Supprimez la mise en miroir de l’ancien serveur miroir.</p></li>
+> <li><p>Ajoutez la mise en miroir au nouveau serveur miroir.</p></li>
+> <li><p>Publiez la topologie.</p></li></ol>
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.<br />
-Pour toute modification apportée à la mise en miroir (telle que la modification de l’emplacement d’un miroir), vous devez utiliser le Générateur de topologie pour effectuer ces trois étapes :
-<ol>
-<li><p>Supprimez la mise en miroir de l’ancien serveur miroir.</p></li>
-<li><p>Ajoutez la mise en miroir au nouveau serveur miroir.</p></li>
-<li><p>Publiez la topologie.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server s’exécute dans le contexte de Network Service, vous pouvez ajouter &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ des deux serveurs SQL Server (principal et miroir) aux autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server s’exécute dans le contexte de Network Service, vous pouvez ajouter &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ des deux serveurs SQL Server (principal et miroir) aux autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur.
 
 ## Pour configurer la mise en miroir SQL pendant la création d’un pool dans le Générateur de topologie
 

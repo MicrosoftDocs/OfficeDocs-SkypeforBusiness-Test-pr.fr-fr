@@ -27,19 +27,8 @@ Vous pouvez afficher les liens entre deux régions réseau dans le cadre du serv
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez afficher.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher des informations que sur un lien de région à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous ne pouvez afficher des informations que sur un lien de région à la fois.
 
 5.  Dans le menu **Edition**, sélectionnez **Afficher les détails**.
 

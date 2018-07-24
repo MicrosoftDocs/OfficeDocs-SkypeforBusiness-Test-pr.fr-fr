@@ -27,19 +27,8 @@ _**Dernière rubrique modifiée :** 2012-10-02_
 
 5.  Dans **Spécifier le type Edge**, entrez le type de configuration du serveur Edge, puis cliquez sur **Suivant**. Cet exemple utilise l’option **Serveur Edge unique**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Un déploiement <strong>Edge étendu</strong> n’est pas une configuration prise en charge. Un serveur <strong>Edge étendu</strong> doit d’abord être converti en <strong>serveur Edge unique</strong> ou <strong>Edge consolidé à charge équilibrée</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Un déploiement <strong>Edge étendu</strong> n’est pas une configuration prise en charge. Un serveur <strong>Edge étendu</strong> doit d’abord être converti en <strong>serveur Edge unique</strong> ou <strong>Edge consolidé à charge équilibrée</strong>.
 
 6.  Dans **Spécifier les paramètres Edge internes**, entrez les informations qui conviennent pour le nom de domaine complet interne et les ports du pool Edge si nécessaire, puis cliquez sur **Suivant**.
     
@@ -47,19 +36,8 @@ _**Dernière rubrique modifiée :** 2012-10-02_
 
 7.  Dans **Spécifier la configuration Edge externe**, entrez les informations relatives au nom de domaine complet (FQDN) pour votre serveur Edge.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Avant de cliquer sur <strong>Suivant</strong>, effectuez l’étape suivante de cette procédure. Il est très important que vous ne manquiez pas cette étape 11.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Avant de cliquer sur <strong>Suivant</strong>, effectuez l’étape suivante de cette procédure. Il est très important que vous ne manquiez pas cette étape 11.
 
 8.  Cochez la case **Ce serveur Edge d’accès est utilisé pour la fédération et la solution PIC** si vous planifiez d’utiliser le serveur Edge Office Communications Server 2007 R2 hérité pour la fédération. Si vous avez plusieurs serveurs Edge déployés, un seul d’entre eux est alors activé pour la fédération. Si vous ne cochez pas cette case et que vous décidez d’activer plus tard une fédération, vous devez réexécuter l’Assistant Fusion du générateur de topologie et republier votre topologie.
     
@@ -87,16 +65,5 @@ _**Dernière rubrique modifiée :** 2012-10-02_
 
 17. Quand l’**Assistant Publication** est terminé, cliquez sur **Terminer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il est important que vous lisiez la rubrique suivante, <a href="import-policies-and-settings.md">Importation des stratégies et des paramètres</a>, car cela permet de s’assurer de l’importation des paramètres de stratégie hérités dans Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Il est important que vous lisiez la rubrique suivante, <a href="import-policies-and-settings.md">Importation des stratégies et des paramètres</a>, car cela permet de s’assurer de l’importation des paramètres de stratégie hérités dans Lync Server 2013.

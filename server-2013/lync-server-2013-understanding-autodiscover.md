@@ -23,33 +23,11 @@ Dans Lync Server 2013, la découverte automatique est étendue afin de communiq
 
 Le meilleur moyen de comprendre le document de réponse de découverte automatique, y compris la façon dont les services web indiquent les fonctionnalités accessibles aux clients par le biais de ce document, consiste à disséquer et définir chaque ligne d’une réponse par défaut dans le document de réponse de découverte automatique envoyé par le service web Lync.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans les détails qui suivent, l’utilisateur a déjà été authentifié auprès du serveur central en répondant à une demande d’authentification.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Dans les détails qui suivent, l’utilisateur a déjà été authentifié auprès du serveur central en répondant à une demande d’authentification.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le service web de découverte automatique de Lync est défini dans les <strong>Protocoles Microsoft Office</strong> dans la section <strong>Spécifications ouvertes</strong> de la bibliothèque <strong>Microsoft Developer Network</strong> (MSDN). Pour plus d’informations, voir le document de spécification complet intitulé « Lync Autodiscover Web Service Protocol » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>. Pour plus d’informations sur l’authentification, voir « Protocole du service web d’authentification OC » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le service web de découverte automatique de Lync est défini dans les <strong>Protocoles Microsoft Office</strong> dans la section <strong>Spécifications ouvertes</strong> de la bibliothèque <strong>Microsoft Developer Network</strong> (MSDN). Pour plus d’informations, voir le document de spécification complet intitulé « Lync Autodiscover Web Service Protocol » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>. Pour plus d’informations sur l’authentification, voir « Protocole du service web d’authentification OC » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>.
 
 ## La réponse de découverte automatique du service web du serveur Lync
 

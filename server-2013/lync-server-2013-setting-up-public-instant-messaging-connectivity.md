@@ -37,16 +37,5 @@ Si votre organisation souhaite prendre en charge la connectivité PIC avec AOL, 
     
     Le nom de certificat par défaut du modèle utilisé pour Lync Server est Serveur web. Spécifiez uniquement \<template name\> (nom du modèle) si vous devez utiliser un modèle différent du modèle par défaut.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre organisation souhaite prendre en charge la connectivité PIC avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat afin de demander le certificat à affecter au serveur Edge externe pour le service Edge d’accès. Cela est dû au fait que le modèle Serveur web de l’autorité de certification utilisé par l’Assistant Certificat pour demander un certificat ne prend pas en charge la configuration EKU (utilisation avancée de la clé) sur le client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’EKU sur le client.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Si votre organisation souhaite prendre en charge la connectivité PIC avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat afin de demander le certificat à affecter au serveur Edge externe pour le service Edge d’accès. Cela est dû au fait que le modèle Serveur web de l’autorité de certification utilisé par l’Assistant Certificat pour demander un certificat ne prend pas en charge la configuration EKU (utilisation avancée de la clé) sur le client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’EKU sur le client.

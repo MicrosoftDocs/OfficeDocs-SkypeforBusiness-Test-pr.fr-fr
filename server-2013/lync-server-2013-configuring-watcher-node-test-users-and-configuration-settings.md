@@ -166,20 +166,9 @@ Cette commande retourne des informations semblables aux suivantes, en fonction d
     PersistentChatMessage
     DataConference
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour afficher les transactions synthétiques par ordre alphabétique, exécutez plutôt la commande suivante :<br />
-Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Pour afficher les transactions synthétiques par ordre alphabétique, exécutez plutôt la commande suivante :<br />
+Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object
 
 Pour vérifier qu’un nœud observateur a été créé, tapez la commande suivante à partir de Lync Server Management Shell :
 

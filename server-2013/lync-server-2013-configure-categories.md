@@ -25,19 +25,8 @@ Les catégories des salles de conversation peuvent contenir des salles de conver
 
 2.  Dans le menu **Démarrer**, sélectionnez le Panneau de configuration Lync Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration. Pour plus d’informations sur les différentes méthodes permettant de démarrer le Panneau de configuration Lync Server, reportez-vous à [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez également utiliser des applets de commande Windows PowerShell. Pour plus d’informations, reportez-vous à <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell</a> dans la documentation de déploiement.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Vous pouvez également utiliser des applets de commande Windows PowerShell. Pour plus d’informations, reportez-vous à <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell</a> dans la documentation de déploiement.
 
 3.  Dans la barre de navigation de gauche, cliquez sur **conversation permanente**, puis sur **Catégorie**.
     
@@ -57,19 +46,8 @@ Les catégories des salles de conversation peuvent contenir des salles de conver
     
     4.  Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si la case à cocher est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Ce paramètre est appliqué sur le serveur, car les applications personnalisées ou les clients antérieurs de Group Chat qui utilisent Office Communications Server 2007 R2, un serveur Group Chat ou Lync Server 2010, conversation de groupe peuvent publier des fichiers dans une salle. Comme le client Lync 2013 n’a aucune fonctionnalité de téléchargement, si vous disposez précisément d’un déploiement de Lync 2013 ou d’un client Lync 2013, vous ne pouvez pas publier de fichiers dans une salle de conversation d’un serveur de conversations permanentes.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!important]  
+        > Ce paramètre est appliqué sur le serveur, car les applications personnalisées ou les clients antérieurs de Group Chat qui utilisent Office Communications Server 2007 R2, un serveur Group Chat ou Lync Server 2010, conversation de groupe peuvent publier des fichiers dans une salle. Comme le client Lync 2013 n’a aucune fonctionnalité de téléchargement, si vous disposez précisément d’un déploiement de Lync 2013 ou d’un client Lync 2013, vous ne pouvez pas publier de fichiers dans une salle de conversation d’un serveur de conversations permanentes.    
     5.  Pour contrôler l’historique des conversations, activez ou désactivez la case à cocher **Activer l’historique des conversations**. Si la case à cocher est activée, les conversations des salles deviennent permanentes ; sinon, les messages des conversations ne sont pas conservés. Si la conformité est activée, les conversations des salles sont enregistrées à des fins de conformité mais les utilisateurs ne peuvent pas accéder aux anciens messages. Cette option peut être utilisée pour les salles destinées aux collaborations en temps réel, ad hoc, qui n’ont pas besoin d’un historique des conversations permanent.
 
 7.  Dans **Modifier la catégorie**, procédez comme suit :

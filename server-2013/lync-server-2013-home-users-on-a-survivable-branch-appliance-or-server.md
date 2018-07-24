@@ -29,19 +29,8 @@ Le processus d’hébergement des utilisateurs sur Survivable Branch Appliance 
 
 2.  Dans Lync Server Management Shell, exécutez l’applet de commande **Move-CsUser** pour héberger des utilisateurs.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également utiliser le Panneau de configuration Lync Server pour vérifier les conditions préalables et héberger les utilisateurs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous pouvez également utiliser le Panneau de configuration Lync Server pour vérifier les conditions préalables et héberger les utilisateurs.
 
 ## Voir aussi
 

@@ -23,20 +23,9 @@ Dans le Panneau de configuration Lync Server 2013, vous utilisez des configurati
 
 Vous commencez par définir les configurations de l’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations à l’issue du déploiement. Pour plus d’informations sur la manière de mettre en œuvre les configurations de l’archivage, notamment sur les options que vous pouvez spécifier et la hiérarchie des configurations de l’archivage, voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, dans la documentation de déploiement ou dans la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour utiliser l’archivage, vous devez configurer des stratégies d’archivage afin de spécifier si l’archivage doit être activé pour les communications internes, pour les communications externes, ou pour les deux pour les utilisateurs hébergés sur Lync Server 2013. Par défaut, l’archivage n’est pas activé pour les communications internes ou externes. Avant d’activer l’archivage dans des stratégies, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, éventuellement, pour des sites et pools spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuration et affectation des stratégies d’archivage</a> dans la documentation de déploiement.<br />
-Si, après avoir déployé l’archivage, vous décidez d’utiliser l’intégration de Microsoft Exchange pour stocker des données et fichiers d’archivage sur des serveurs Exchange 2013 et que tous vos utilisateurs sont hébergés sur vos serveurs Exchange 2013, il est préférable de supprimer la configuration de la base de données SQL Server de votre topologie. Vous devez pour cela utiliser le Générateur de topologie. Pour plus d’informations, voir <a href="lync-server-2013-changing-archiving-database-options.md">Modification des options de la base de données d’archivage dans Lync Server 2013</a> dans la documentation des opérations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour utiliser l’archivage, vous devez configurer des stratégies d’archivage afin de spécifier si l’archivage doit être activé pour les communications internes, pour les communications externes, ou pour les deux pour les utilisateurs hébergés sur Lync Server 2013. Par défaut, l’archivage n’est pas activé pour les communications internes ou externes. Avant d’activer l’archivage dans des stratégies, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, éventuellement, pour des sites et pools spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuration et affectation des stratégies d’archivage</a> dans la documentation de déploiement.<br />
+Si, après avoir déployé l’archivage, vous décidez d’utiliser l’intégration de Microsoft Exchange pour stocker des données et fichiers d’archivage sur des serveurs Exchange 2013 et que tous vos utilisateurs sont hébergés sur vos serveurs Exchange 2013, il est préférable de supprimer la configuration de la base de données SQL Server de votre topologie. Vous devez pour cela utiliser le Générateur de topologie. Pour plus d’informations, voir <a href="lync-server-2013-changing-archiving-database-options.md">Modification des options de la base de données d’archivage dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Pour activer ou désactiver l’archivage des sessions de messagerie instantanée ou de conférence
 

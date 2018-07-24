@@ -33,19 +33,8 @@ La plupart des déploiements de Microsoft Lync Server 2013 qui implémentent le
 
 6.  Dans le champ **Masque**, entrez une valeur numérique comprise entre 1 et 32.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cette valeur est le masque de bits à appliquer au sous-réseau en cours de création.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Cette valeur est le masque de bits à appliquer au sous-réseau en cours de création.
 
 7.  Dans le champ **ID de site réseau**, sélectionnez le site auquel ce sous-réseau appartient.
 

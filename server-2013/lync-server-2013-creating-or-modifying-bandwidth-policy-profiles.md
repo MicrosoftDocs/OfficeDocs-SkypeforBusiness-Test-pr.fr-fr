@@ -41,19 +41,8 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 11. Cliquez sur **Valider**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La création d’un nouveau profil de stratégie de bande passante n’applique pas automatiquement les restrictions de bande passante. Vous devez d’abord associer le profil de stratégie à un site. Pour plus d’informations sur la procédure pour associer un profil de stratégie à un site, voir <a href="lync-server-2013-creating-or-modifying-network-sites.md">Création ou modification des sites réseau</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > La création d’un nouveau profil de stratégie de bande passante n’applique pas automatiquement les restrictions de bande passante. Vous devez d’abord associer le profil de stratégie à un site. Pour plus d’informations sur la procédure pour associer un profil de stratégie à un site, voir <a href="lync-server-2013-creating-or-modifying-network-sites.md">Création ou modification des sites réseau</a>.
 
 ## Pour modifier un profil de stratégie de bande passante
 
@@ -71,19 +60,8 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 7.  Cliquez sur **Valider**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lorsque vous modifiez le profil de stratégie de bande passante, celui-ci met immédiatement à jour les restrictions de bande passante de tous les sites réseau qui lui sont associés.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Lorsque vous modifiez le profil de stratégie de bande passante, celui-ci met immédiatement à jour les restrictions de bande passante de tous les sites réseau qui lui sont associés.
 
 ## Voir aussi
 

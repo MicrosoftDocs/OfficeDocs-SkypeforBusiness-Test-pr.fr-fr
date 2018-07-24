@@ -19,19 +19,8 @@ Pour créer une catégorie serveur de conversations permanentes
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PersistentChatPoolFqdn n’est nécessaire que si plusieurs pool de serveurs de conversations permanentes existent.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> PersistentChatPoolFqdn n’est nécessaire que si plusieurs pool de serveurs de conversations permanentes existent.
 
 Pour modifier la catégorie serveur de conversations permanentes existante
 

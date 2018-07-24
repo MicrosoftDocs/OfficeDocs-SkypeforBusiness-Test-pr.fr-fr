@@ -57,22 +57,11 @@ Une fois qu’un numéro principal est choisi, il doit être :
 
   - copié dans l’attribut Active Directory **msRTCSIP-line**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Coexistence avec le contrôle d’appel distant</strong><br />
+    > [!note]  
+    > <strong>Coexistence avec le contrôle d’appel distant</strong><br />
     Le contrôle d’appel distant est la capacité à utiliser Lync Server pour surveiller et contrôler un téléphone de bureau PBX. Le contrôle est acheminé par le biais du serveur, qui joue le rôle de passerelle vers le système PBX. Même si vous ne pouez pas configurer un utilisateur à la fois pour le contrôle d’appel distant et Voix Entreprise, le paramètre URI de ligne spécifie un numéro de téléphone principal de l’utilisateur dans un cas comme dans l’autre.<br />
     Si vous disposez d’une infrastructure PBX existante et que vous voulez que certains utilisateurs sélectionnés continuent à l’utiliser, vous pouvez introduire Voix Entreprise de manière incrémentielle dans votre organisation. Pour plus d’informations sur ce scénario de déploiement, reportez-vous à <a href="lync-server-2013-direct-sip-deployment-options.md">Options de déploiement SIP direct dans Lync Server 2013</a> dans la documentation de planification.<br />
-    Dans les versions précédentes, vous pouviez activer à la fois le contrôle d’appel distant et Voix Entreprise pour un utilisateur, mais uniquement si vous configuriez aussi l’utilisateur pour le branchement double, une fonction dans laquelle un appel entrant sonne simultanément sur le téléphone PBX d’un utilisateur et Communicator. Dans Lync Server 2010, le branchement double n’est pas pris en charge.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    Dans les versions précédentes, vous pouviez activer à la fois le contrôle d’appel distant et Voix Entreprise pour un utilisateur, mais uniquement si vous configuriez aussi l’utilisateur pour le branchement double, une fonction dans laquelle un appel entrant sonne simultanément sur le téléphone PBX d’un utilisateur et Communicator. Dans Lync Server 2010, le branchement double n’est pas pris en charge.
 
 Il existe trois façons de renseigner l’attribut **msRTCSIP-line** :
 
@@ -96,19 +85,8 @@ Le format attendu du numéro spécifié dans cet attribut est :
 
   - Tel:5550100 (pour les postes uniques à l’échelle de l’entreprise)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La normalisation effectuée par le Service de carnet d’adresses ne remplace, ni n’élimine le besoin de normaliser le numéro de téléphone principal de chaque utilisateur dans les services de domaine Active Directory, car le Service de carnet d’adresses n’a pas accès à ces services et ne peut, par conséquent, pas copier les numéros principaux dans l’attribut <strong>msRTCSIP-line</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > La normalisation effectuée par le Service de carnet d’adresses ne remplace, ni n’élimine le besoin de normaliser le numéro de téléphone principal de chaque utilisateur dans les services de domaine Active Directory, car le Service de carnet d’adresses n’a pas accès à ces services et ne peut, par conséquent, pas copier les numéros principaux dans l’attribut <strong>msRTCSIP-line</strong>.
 
 ## Étape 2 : activer les utilisateurs pour Voix Entreprise
 

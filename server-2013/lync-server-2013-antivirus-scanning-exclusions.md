@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-11-02_
 
 Afin de vous assurer que le scanner antivirus n'interfère pas avec le fonctionnement de Lync Server 2013, vous devez exclure les processus et répertoires spécifiques de chaque serveur ou rôle serveur Lync Server 2013 sur lesquels vous exécutez le scanner antivirus. Les processus et répertoires suivants doivent être exclus :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les emplacements de dossiers et de fichiers répertoriés ci-dessous sont les emplacements par défaut pour Lync Server 2013. Pour les emplacements pour lesquels vous n'avez pas utilisé celui défini par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut indiqués dans cette rubrique.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les emplacements de dossiers et de fichiers répertoriés ci-dessous sont les emplacements par défaut pour Lync Server 2013. Pour les emplacements pour lesquels vous n'avez pas utilisé celui défini par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut indiqués dans cette rubrique.
 
   - Processus Lync Server 2013 :
     

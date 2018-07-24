@@ -23,19 +23,8 @@ Pour activer les procédures de récupération d’urgence, vous devez avoir dé
 
 Si vous disposez de plusieurs sites, chacun étant doté d’un pool de serveurs Edge, les services d’accès à distance continueront à fonctionner sans qu’aucune intervention de l’administrateur ne soit nécessaire si un pool Edge entier ne fonctionne pas. Lors de la création de pools Edge dans différents sites, vous ne pouvez pas utiliser le même nom de domaine complet. Chaque pool Edge doit avoir des noms de domaine complets et uniques (internes et externes). Les pools Edge n’utilisent pas les règles de publication proxy inverse pour converser avec les serveurs frontaux. Le basculement automatique se produit lorsque le client réinterroge les enregistrements de service DNS d’accès distant, et les utilisateurs distants sont routés vers les serveurs Edge d’un autre site. Le client essaie chaque nom de domaine complet Edge selon la priorité des enregistrements SRV de DNS.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour que le basculement fonctionne correctement, veillez à ce que le pare-feu permette aux serveurs frontaux de chaque pool de communiquer avec tous les serveurs Edge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour que le basculement fonctionne correctement, veillez à ce que le pare-feu permette aux serveurs frontaux de chaque pool de communiquer avec tous les serveurs Edge.
 
 ## Fédération
 

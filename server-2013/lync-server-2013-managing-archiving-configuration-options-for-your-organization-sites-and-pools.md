@@ -23,20 +23,9 @@ Dans le Panneau de configuration Lync Server 2013, vous utilisez les configurati
 
 Vous définissez les configurations d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations une fois le déploiement terminé. Dans le Panneau de configuration Lync Server 2013, accédez à la page **Configuration de l’archivage** dans le groupe **Archivage et surveillance** pour gérer les configurations aux niveaux global, du site et de l’utilisateur. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour utiliser l’archivage, vous devez configurer des stratégies d’archivage afin de spécifier si l’archivage doit être activé pour les communications internes, les communications externes ou les deux, pour tous les utilisateurs hébergés sur Lync Server 2013. Par défaut, l’archivage n’est pas activé pour les communications internes ou externes. Si vous utilisez l’intégration de Microsoft Exchange, vous devez activer et configurer Exchange 2013 pour à prendre en charge l’archivage pour tous les utilisateurs hébergés sur Exchange 2013 dont les boîtes aux lettres ont été placées en archive permanente.<br />
-Avant d’activer l’archivage, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, éventuellement, pour des sites et pools spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuration et affectation des stratégies d’archivage</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour utiliser l’archivage, vous devez configurer des stratégies d’archivage afin de spécifier si l’archivage doit être activé pour les communications internes, les communications externes ou les deux, pour tous les utilisateurs hébergés sur Lync Server 2013. Par défaut, l’archivage n’est pas activé pour les communications internes ou externes. Si vous utilisez l’intégration de Microsoft Exchange, vous devez activer et configurer Exchange 2013 pour à prendre en charge l’archivage pour tous les utilisateurs hébergés sur Exchange 2013 dont les boîtes aux lettres ont été placées en archive permanente.<br />
+Avant d’activer l’archivage, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, éventuellement, pour des sites et pools spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuration et affectation des stratégies d’archivage</a> dans la documentation de déploiement.
 
 **Pour afficher les informations de configuration de l’archivage à l’aide des applets de commande Lync Server Management Shell**
 

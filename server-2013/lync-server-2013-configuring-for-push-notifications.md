@@ -17,21 +17,10 @@ _**Dernière rubrique modifiée :** 2013-02-12_
 
 Des notifications push, sous forme de badges, icônes ou alertes, peuvent être envoyées à un appareil mobile même lorsque l’application mobile est inactive. Ces notifications signalent à un utilisateur qu’un événement s’est produit, par exemple, une invitation de messagerie instantanée nouvelle ou manquée ou un message vocal. Le service de mobilité de Lync Server 2013 envoie les notifications au service de notification Lync Server basé dans le nuage, qui envoie ensuite les notifications au service de notification Push d’Apple (APNS) (pour un appareil Apple exécutant le client Lync 2010 Mobile) ou au système de notification de transmission de Microsoft (MPNS) (pour un appareil Windows Phone exécutant le client Lync 2010 Mobile ou Lync 2013 Mobile).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous utilisez Windows Phone avec le client Lync 2010 Mobile ou Lync 2013 Mobile, les notifications push revêtent une haute importance.<br />
+> [!important]  
+> Si vous utilisez Windows Phone avec le client Lync 2010 Mobile ou Lync 2013 Mobile, les notifications push revêtent une haute importance.<br />
 Si vous utilisez Lync 2010 Mobile sur des appareils Apple, les notifications push revêtent une haute importance.<br />
-Si vous utilisez Lync 2013 Mobile sur des appareils Apple, les notifications push ne sont plus nécessaires.</td>
-</tr>
-</tbody>
-</table>
-
+Si vous utilisez Lync 2013 Mobile sur des appareils Apple, les notifications push ne sont plus nécessaires.
 
 Vous pouvez configurer votre topologie de sorte qu’elle prenne en charge les notifications push en procédant comme suit :
 
@@ -39,19 +28,8 @@ Vous pouvez configurer votre topologie de sorte qu’elle prenne en charge les n
 
   - Si votre environnement comporte un serveur EdgeOffice Communications Server 2007 R2, vous devez configurer la fédération SIP directe avec push.lync.com.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Push.lync.com est un domaine Microsoft Office 365 pour le service de notifications push.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Push.lync.com est un domaine Microsoft Office 365 pour le service de notifications push.
 
   - Pour activer les notifications push, vous devez exécuter l’applet de commande **Set-CsPushNotificationConfiguration**. Par défaut, les notifications push sont désactivées.
 
@@ -71,19 +49,8 @@ Vous pouvez configurer votre topologie de sorte qu’elle prenne en charge les n
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez pas avoir plus d’une relation de fédération avec un même fournisseur d’hébergement. Autrement dit, si vous avez déjà configuré un fournisseur d’hébergement ayant une relation de fédération avec sipfed.online.lync.com, vous ne devez pas ajouter d’autre fournisseur d’hébergement, même si l’identité du fournisseur d’hébergement est différente de LyncOnline.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous ne pouvez pas avoir plus d’une relation de fédération avec un même fournisseur d’hébergement. Autrement dit, si vous avez déjà configuré un fournisseur d’hébergement ayant une relation de fédération avec sipfed.online.lync.com, vous ne devez pas ajouter d’autre fournisseur d’hébergement, même si l’identité du fournisseur d’hébergement est différente de LyncOnline.
 
 4.  Configurez la fédération de fournisseurs d’hébergement entre votre organisation et le service de notifications push de Lync Online. Dans la ligne de commande, tapez :
     

@@ -39,19 +39,8 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
 
   - Limite de session vidéo : 700 Kbits/s
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La valeur minimum de limite de session audio est 40 Kbits/s La valeur minimum de limite de session vidéo est 100 Kbits/s</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La valeur minimum de limite de session audio est 40 Kbits/s La valeur minimum de limite de session vidéo est 100 Kbits/s
 
 ## Pour créer des profils de stratégie de bande passante à l’aide de Management Shell
 

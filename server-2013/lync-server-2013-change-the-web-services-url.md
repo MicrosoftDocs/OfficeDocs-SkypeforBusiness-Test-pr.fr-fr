@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-11-16_
 
 Lorsque vous configurez vos pools frontaux et vos serveurs Standard Edition, vous avez la possibilité de configurer un nom de domaine complet (FQDN) de batterie de serveurs web externes et des ports associés. Si vous n’avez pas configuré cette URL lorsque vous avez exécuté l’Assistant Déploiement de Lync Server, vous devez définir manuellement ces paramètres. Un administrateur n’a généralement pas besoin de modifier ces paramètres, puisqu’il s’agit des valeurs recommandées et des ports par défaut.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La capture d'écran suivante ayant été effectuée lors de la configuration d'un serveur Standard Edition, l'option Remplacer le nom de domaine complet est désactivée. Cette option est activée lors de la configuration d'un serveur Enterprise Edition dans un pool frontal.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La capture d'écran suivante ayant été effectuée lors de la configuration d'un serveur Standard Edition, l'option Remplacer le nom de domaine complet est désactivée. Cette option est activée lors de la configuration d'un serveur Enterprise Edition dans un pool frontal.
 
 ![Modifier les paramètres de pool des services Web](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Modifier les paramètres de pool des services Web")
 
@@ -43,19 +32,8 @@ Lorsque vous configurez vos pools frontaux et vos serveurs Standard Edition, vou
 
 4.  Ajoutez ou modifiez le **Nom de domaine complet (FQDN) des services web externes**, puis cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous installez plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser ce nom <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal. Si vous déployez aussi des directeurs, le nom de domaine complet des services web externes défini pour un directeur ou un pool de directeurs doit être différent de tout autre directeur ou pool de directeurs et de tout pool de serveurs frontaux ou serveur frontal existant.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!warning]  
+    > Si vous installez plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser ce nom <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal. Si vous déployez aussi des directeurs, le nom de domaine complet des services web externes défini pour un directeur ou un pool de directeurs doit être différent de tout autre directeur ou pool de directeurs et de tout pool de serveurs frontaux ou serveur frontal existant.
 
 5.  Vérifiez que les ports d’écoute et les ports publiés sont correctement configurés pour votre environnement.
 
@@ -71,19 +49,8 @@ Vous devez respecter quelques conditions préalables lorsque vous configurez les
 
   - Vous pouvez remplacer les services web internes d’un pool de serveurs frontaux, d’un directeur ou d’un pool de directeurs, puis définir votre propre nom de domaine complet.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!warning]  
+    > Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.
 
   - Les ports publiés doivent être configurés sur le proxy inverse ou le programme d’équilibrage de la charge matérielle en tant que ports d’écoute.
 

@@ -23,19 +23,8 @@ Vous pouvez utiliser le serveur d’inscriptions pour configurer les méthodes d
 
   - **Authentification par certificat**   Il s’agit de la nouvelle méthode d’authentification lorsque le serveur doit obtenir des certificats de clients Lync Phone Edition, de téléphones de partie commune et de Lync 2013. Sur des clients Lync Phone Edition, une fois qu’un utilisateur s’est connecté et authentifié au moyen de son code confidentiel, Lync Server 2013 fournit l’URI SIP au téléphone ainsi qu’un certificat Lync Server signé ou un certificat utilisateur qui identifie Jean (Ex : SN=jean@contoso.com) au téléphone. Ce certificat est utilisé pour l’authentification avec le serveur d’inscriptions et les services web.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous vous recommandons d’activer Kerberos et NTLM lorsqu’un serveur prend à la fois en charge l’authentification des clients distants et d’entreprise. Le serveur Edge et les serveurs internes communiquent pour veiller à ce qu’une authentification NTLM seulement soit proposée aux clients distants. Si seul Kerberos est activé sur ces serveurs, ils ne peuvent pas authentifier les utilisateurs distants. Si des utilisateurs d’entreprise s’authentifient également envers le serveur, Kerberos est utilisé.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Nous vous recommandons d’activer Kerberos et NTLM lorsqu’un serveur prend à la fois en charge l’authentification des clients distants et d’entreprise. Le serveur Edge et les serveurs internes communiquent pour veiller à ce qu’une authentification NTLM seulement soit proposée aux clients distants. Si seul Kerberos est activé sur ces serveurs, ils ne peuvent pas authentifier les utilisateurs distants. Si des utilisateurs d’entreprise s’authentifient également envers le serveur, Kerberos est utilisé.
 
 Procédez comme suit pour créer un nouveau serveur d’inscriptions.
 

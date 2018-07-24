@@ -25,19 +25,8 @@ Quand un client Lync obtient son emplacement à partir du service d’informatio
 
 Les passerelles ELIN prennent en charge les appels d’urgence effectués au sein du réseau de votre organisation. Elles ne prennent pas en charge les appels d’urgence effectués hors de votre réseau.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur l’utilisation d’une connexion de jonction SIP pour les appels d’urgence, reportez-vous à <a href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Routage des appels E9-1-1 avec une jonction SIP dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour plus d’informations sur l’utilisation d’une connexion de jonction SIP pour les appels d’urgence, reportez-vous à <a href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Routage des appels E9-1-1 avec une jonction SIP dans Lync Server 2013</a>.
 
 Le diagramme suivant montre comment un appel d’urgence est acheminé de Lync Server vers le centre PSAP quand vous utilisez une passerelle ELIN.
 

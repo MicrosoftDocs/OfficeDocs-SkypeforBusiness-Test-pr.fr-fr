@@ -27,19 +27,8 @@ Pour plus d’informations sur l’inscription des utilisateurs en leur nom via 
 
 3.  Accédez à la page d’**inscription de l’autorité de certification via le web** (par exemple, https://MyCA.contoso.com/certsrv).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous utilisez Internet Explorer 10, vous devrez peut être afficher ce site web en mode de compatibilité.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si vous utilisez Internet Explorer 10, vous devrez peut être afficher ce site web en mode de compatibilité.
 
 4.  Dans la page **Bienvenue**, sélectionnez **Demander un certificat**.
 
@@ -77,40 +66,14 @@ Pour plus d’informations sur l’inscription des utilisateurs en leur nom via 
 
 10. Lorsque vous y êtes invité, entrez le code confidentiel utilisé pour créer la carte à puce virtuelle.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La valeur par défaut du code confidentiel de la carte à puce virtuelle est « 12345678 ».</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > La valeur par défaut du code confidentiel de la carte à puce virtuelle est « 12345678 ».
 
 11. Une fois le certificat émis, cliquez sur **Installer ce certificat** pour terminer le processus d’inscription.
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre demande de certificat échoue avec l’erreur « Ce navigateur web ne prend pas en charge la génération des demandes de certificat », vous pouvez résoudre le problème de trois façons :
-    <ol>
-    <li><p>Activez l’affichage de compatibilité dans Internet Explorer.</p></li>
-    <li><p>Activez l’option Activer les paramètres Intranet dans Internet Explorer.</p></li>
-    <li><p>Sélectionnez le paramètre Rétablir toutes les zones au niveau par défaut sous l’onglet Sécurité du menu Options Internet Explorer.</p></li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!note]  
+    > Si votre demande de certificat échoue avec l’erreur « Ce navigateur web ne prend pas en charge la génération des demandes de certificat », vous pouvez résoudre le problème de trois façons :    <ol>    
+> <li><p>Activez l’affichage de compatibilité dans Internet Explorer.</p></li>    
+> <li><p>Activez l’option Activer les paramètres Intranet dans Internet Explorer.</p></li>    
+> <li><p>Sélectionnez le paramètre Rétablir toutes les zones au niveau par défaut sous l’onglet Sécurité du menu Options Internet Explorer.</p></li>    </ol>
 

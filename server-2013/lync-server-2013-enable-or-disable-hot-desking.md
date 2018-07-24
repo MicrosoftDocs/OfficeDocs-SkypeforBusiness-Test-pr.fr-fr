@@ -32,19 +32,8 @@ On utilise le paramètre EnableHotdesking de l’applet de commande **New-CSClie
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une fois cette stratégie créée, vous devez l’assigner aux téléphones de partie communes appropriés. Pour plus d’informations, voir <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assigner des stratégies à un téléphone de partie commune</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Une fois cette stratégie créée, vous devez l’assigner aux téléphones de partie communes appropriés. Pour plus d’informations, voir <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assigner des stratégies à un téléphone de partie commune</a>.
 
 ## Désactivation du partage de téléphone
 

@@ -41,19 +41,8 @@ L’*étendue de stratégie de voix* détermine le niveau hiérarchique auquel l
 
   - Une **stratégie de voix d’utilisateur** peut être affectée à des utilisateurs individuels, à des groupes ou à des objets contact. Il s’agit de la stratégie de plus bas niveau. Les stratégies de voix d’utilisateur peuvent être déployées afin d’activer des fonctionnalités pour certains utilisateurs ou groupes au niveau d’un site, mais pas pour les autres du même site. Par exemple, il peut être utile de désactiver la numérotation longue distance pour certains employés. Dans le cadre de l’affectation d’une stratégie de voix, un objet contact est traité comme un utilisateur individuel.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il est recommandé de déployer une stratégie de voix d’utilisateur pour les utilisateurs Voix Entreprise d’un site de succursale inscrits auprès du déploiement du site central ou pour les utilisateurs inscrits sur un Survivable Branch Appliance.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Il est recommandé de déployer une stratégie de voix d’utilisateur pour les utilisateurs Voix Entreprise d’un site de succursale inscrits auprès du déploiement du site central ou pour les utilisateurs inscrits sur un Survivable Branch Appliance.
 
   - Une **stratégie de voix de site** s’applique à un site entier, à l’exception des utilisateurs, groupes ou objets contact affectés à une stratégie de voix d’utilisateur. Pour définir une stratégie de voix de site, vous devez spécifier le site auquel la stratégie s’applique. Si aucune stratégie de voix d’utilisateur n’est affectée, la stratégie de voix de site est utilisée.
 
@@ -89,16 +78,5 @@ Vous pouvez activer ou désactiver les fonctionnalités d’appel suivantes pour
 
 Chaque stratégie de voix doit disposer d’un ou de plusieurs enregistrements d’utilisation RTC associés. Les utilisations RTC peuvent être associées à la stratégie de voix pour des besoins de la sonnerie simultanée et du transfert d’appel uniquement. Pour plus d’informations sur la planification des enregistrements d’utilisation RTC, reportez-vous à [Enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-pstn-usage-records.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’ordre des utilisations RTC est important parce que, lors de la mise en correspondance des utilisateurs et des itinéraires, la fonctionnalité de routage sortant compare les utilisations RTC du haut vers le bas. Si la première utilisation correspond à l’itinéraire d’appel, cet itinéraire est utilisé. Sinon, la fonctionnalité de routage sortant examine l’utilisation RTC suivante dans la liste et continue jusqu’à trouver une correspondance. Ainsi, les utilisations RTC suivantes assurent une alternative si la première de la liste est indisponible.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’ordre des utilisations RTC est important parce que, lors de la mise en correspondance des utilisateurs et des itinéraires, la fonctionnalité de routage sortant compare les utilisations RTC du haut vers le bas. Si la première utilisation correspond à l’itinéraire d’appel, cet itinéraire est utilisé. Sinon, la fonctionnalité de routage sortant examine l’utilisation RTC suivante dans la liste et continue jusqu’à trouver une correspondance. Ainsi, les utilisations RTC suivantes assurent une alternative si la première de la liste est indisponible.

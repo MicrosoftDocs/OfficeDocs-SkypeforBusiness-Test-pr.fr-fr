@@ -95,18 +95,7 @@ Pour exécuter cette applet de commande, vous devez bénéficier de droits d’u
     
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous exécutez la préparation de domaine sur le domaine racine de la forêt dans un environnement Active Directory verrouillé, sachez que Lync Server nécessite un accès aux conteneurs Schéma et Configuration dans Active Directory.<br />
+    > [!note]  
+    > Si vous exécutez la préparation de domaine sur le domaine racine de la forêt dans un environnement Active Directory verrouillé, sachez que Lync Server nécessite un accès aux conteneurs Schéma et Configuration dans Active Directory.<br />
     Si l’autorisation d’utilisateur authentifié par défaut est supprimée du conteneur Schéma ou Configuration dans les services de domaine Active Directory, seuls les membres du groupe Administrateurs du schéma (pour le conteneur Schéma) ou du groupe Administrateurs d’entreprise (pour le conteneur Configuration) sont autorisés à accéder au conteneur. Du fait que Setup.exe, les applets de commande Lync Server Management Shell et le Panneau de configuration Lync Server nécessitent un accès à ces conteneurs, la configuration et l’installation des outils d’administration échouent si l’utilisateur qui exécute l’installation n’a pas de droits d’utilisateur équivalents à ceux des membres des groupes Administrateurs du schéma et Administrateurs d’entreprise.<br />
-    Pour remédier à cette situation, vous devez octroyer au groupe RTCUniversalGlobalWriteGroup un accès en lecture et en écriture aux conteneurs Schéma et Configuration.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    Pour remédier à cette situation, vous devez octroyer au groupe RTCUniversalGlobalWriteGroup un accès en lecture et en écriture aux conteneurs Schéma et Configuration.

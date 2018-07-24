@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Les scénarios définissent l’étendue (globale, site, pool ou ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisée. À l’aide de scénarios, vous activez ou désactivez le suivi des fournisseurs (par exemple, S4, SIPStack, messagerie instantanée et présence). En configurant un scénario, vous pouvez regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique. Si vous constatez qu’un scénario doit être modifié pour répondre à vos besoins en termes de dépannage et de journalisation, Lync Server 2013 Debug Tools fournit un module Windows PowerShell nommé *ClsController.psm1* qui contient une fonction intitulée *Edit-CsClsScenario*. Grâce à ce module, vous pouvez modifier les propriétés du scénario nommé. Des exemples d’utilisation de ce module sont fournis dans cette rubrique. Vous pouvez télécharger Lync Server 2013 Debug Tools à l'adresse suivante : [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios en cours d’exécution, utilisez Windows PowerShell et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Avec Windows PowerShell et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a>, vous pouvez modifier dynamiquement les scénarios en cours d’exécution. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Pour une étendue donnée (globale, site, pool ou ordinateur), deux scénarios au maximum peuvent être exécutés en même temps. Pour déterminer les scénarios en cours d’exécution, utilisez Windows PowerShell et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Avec Windows PowerShell et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a>, vous pouvez modifier dynamiquement les scénarios en cours d’exécution. Cette opération peut s’avérer utile lors d’une session de journalisation pour ajuster ou affiner les données que vous collectez et les fournisseurs d’où ces données sont issues.
 
 Pour exécuter les fonctions du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre soit du groupe de sécurité de contrôle d’accès en fonction du rôle (RBAC) CsAdministrator ou CsServerAdministrator, soit d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner une liste de tous les rôles RBAC auxquels cette applet de commande a été affectée, y compris tout rôle RBAC personnalisé que vous avez créé vous-même, exécutez la commande suivante à partir du Lync Server Management Shell ou de l’invite Windows PowerShell :
 
@@ -49,19 +38,8 @@ Comme indiqué dans [Présentation du service de journalisation centralisée](ly
     
     Vous pouvez éventuellement utiliser les paramètres –Name et –Parent. Le paramètre Name permet d’identifier le scénario de manière unique. Si vous utilisez Name, vous devez également utiliser Parent pour ajouter le scénario à global ou site.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous utilisez les paramètres Name et Parent, vous ne pouvez pas utiliser le paramètre <strong>–Identity</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Si vous utilisez les paramètres Name et Parent, vous ne pouvez pas utiliser le paramètre <strong>–Identity</strong>.
 
 ## Pour créer un scénario avec l’applet de commande New-CsClsScenario
 
@@ -91,19 +69,8 @@ Comme indiqué dans [Présentation du service de journalisation centralisée](ly
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Au même titre que dans Windows PowerShell, la convention pour la création d’une table de hachage de valeurs à l’aide de <code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> est connue sous le terme de <em>projection</em>. Pour plus d’informations sur la projection dans Windows PowerShell, voir <a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x40C</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Au même titre que dans Windows PowerShell, la convention pour la création d’une table de hachage de valeurs à l’aide de <code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> est connue sous le terme de <em>projection</em>. Pour plus d’informations sur la projection dans Windows PowerShell, voir <a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x40C</a>.
 
 ## Pour modifier un scénario existant avec l’applet de commande Set-CsClsScenario
 
@@ -147,55 +114,22 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
 
 1.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le module ClsController.psm1 est fourni sous forme d’un téléchargement web distinct. Le module fait partie des outils de débogage Lync Server 2013. Par défaut, les outils de débogage sont installés dans le répertoire C:\Program Files\Lync Server 2013\Debugging Tools.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Le module ClsController.psm1 est fourni sous forme d’un téléchargement web distinct. Le module fait partie des outils de débogage Lync Server 2013. Par défaut, les outils de débogage sont installés dans le répertoire C:\Program Files\Lync Server 2013\Debugging Tools.
 
 2.  Dans Windows PowerShell, tapez :
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Au terme du chargement du module, vous revenez à l’invite de commandes Windows PowerShell. Pour vérifier que le module est chargé et que Edit-CsClsScenario est disponible, tapez <code>Get-Help Edit-CsClsScenario</code>. Le résumé de base de la syntaxe pour EditCsClsScenario doit apparaître.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Au terme du chargement du module, vous revenez à l’invite de commandes Windows PowerShell. Pour vérifier que le module est chargé et que Edit-CsClsScenario est disponible, tapez <code>Get-Help Edit-CsClsScenario</code>. Le résumé de base de la syntaxe pour EditCsClsScenario doit apparaître.
 
 3.  Pour décharger les modules, tapez :
     
         Remove-Module ClsController
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Au terme du déchargement du module, vous revenez à l’invite de commandes Windows PowerShell. Pour vérifier que le module est déchargé, tapez <code>Get-Help Edit-CsClsScenario</code>. Windows PowerShell tente ensuite de localiser l’aide de l’applet de commande et échoue.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Au terme du déchargement du module, vous revenez à l’invite de commandes Windows PowerShell. Pour vérifier que le module est déchargé, tapez <code>Get-Help Edit-CsClsScenario</code>. Windows PowerShell tente ensuite de localiser l’aide de l’applet de commande et échoue.
 
 ## Pour supprimer un fournisseur existant d’un scénario avec le module Edit-ClsController
 

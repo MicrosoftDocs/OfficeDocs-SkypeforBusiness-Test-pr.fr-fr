@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-10-17_
 
 Lync Server 2013 prend en charge les services E9-1-1 (Enhanced 9-1-1) aux États-Unis dans le cadre d’un déploiement de Voix Entreprise. E9-1-1 est une fonctionnalité de réponse aux appels d’urgence qui associe un appel au 911 à un emplacement de réponse d’urgence (ERL, Emergency Response Location) qui est constitué d’une adresse (c’est-à-dire, une rue) et d’informations d’emplacement spécifiques, tels qu’un numéro d’étage, pour les appels provenant d’immeubles de bureaux et d’habitation. À l’aide de l’emplacement de réponse d’urgence fourni, un centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) peut immédiatement transférer les appels de détresse aux services d’urgence appropriés sans risquer de leur fournir de mauvaises informations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server comporte trois fonctionnalités Voix Entreprise avancées : contrôle d’admission des appels, services d’urgence (E9-1-1) et déviation du trafic multimédia. Pour une vue d’ensemble des informations de planification communes à ces trois fonctionnalités, reportez-vous à <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync Server comporte trois fonctionnalités Voix Entreprise avancées : contrôle d’admission des appels, services d’urgence (E9-1-1) et déviation du trafic multimédia. Pour une vue d’ensemble des informations de planification communes à ces trois fonctionnalités, reportez-vous à <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013</a>.
 
 ## Dans cette section
 

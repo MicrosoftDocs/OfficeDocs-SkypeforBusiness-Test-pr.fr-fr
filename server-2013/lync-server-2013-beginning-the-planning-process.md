@@ -31,19 +31,8 @@ Vous pouvez exécuter plusieurs fois l’outil de planification en répondant di
 
 Une fois satisfait, vous pouvez utiliser l’outil de planification pour créer un diagramme de votre déploiement planifié. Vous pouvez utiliser ce diagramme lors de la création du déploiement dans le Générateur de topologie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’outil de planification fourni avec cette version de Lync Server 2013 est une version préliminaire. Notez que les chiffres de planification de la capacité de l’outil de planification sont préliminaires, et ne sont pas pris en charge par la version finale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’outil de planification fourni avec cette version de Lync Server 2013 est une version préliminaire. Notez que les chiffres de planification de la capacité de l’outil de planification sont préliminaires, et ne sont pas pris en charge par la version finale.
 
 ## Générateur de topologie Lync Server
 

@@ -17,20 +17,9 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Vous pouvez arrêter une session de journalisation en cours avec l’applet de commande Stop-CsClsLogging. En général, vous rencontrerez peu de situations vous obligeant à arrêter une session de journalisation. Par exemple, vous pouvez faire des recherches dans les journaux et modifier des configurations sans devoir arrêter d’abord la journalisation. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario d’authentification. Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsque vous souhaitez déterminer les scénarios que vous pouvez exécuter sur un déploiement, un pool ou un ordinateur donné, gardez à l’esprit que vous ne pouvez exécuter que deux scénarios <strong>par ordinateur</strong>. Si vous procédez à la journalisation de l’activité d’un pool, vous devez traiter ce pool globalement. Dans la plupart des cas, il n’est pas judicieux d’exécuter différents scénarios sur chaque ordinateur dans un pool. Il n’est pas non plus logique d’examiner le problème pour lequel vous recherchez des données et vous demander alors quel scénario convient le mieux pour un ordinateur donné dans le déploiement entier. Par exemple, si vous envisagez d’utiliser le scénario UserReplicator, exécuter UserReplicator sur un serveur Edge ou un pool de serveurs Edge ne sert pas à grand chose.<br />
-Une fois que vous avez compris l’origine du problème et avez déterminé son impact, vous devez choisir soigneusement les scénarios à exécuter sur quels ordinateurs et pools. Bien qu’il soit judicieux d’exécuter le scénario AlwaysOn pour une application large, car il recueille des informations sur une grande variété de fournisseurs, certains scénarios ne sont utiles que sur certains ordinateurs ou pools. De plus, lorsque vous lancez une session de journalisation vous devez choisir au préalable le scénario offrant les meilleurs résultats. Si vous utilisez un scénario inapproprié, ou si vous utilisez un scénario qui est approprié pour la tâche mais pas adapté au niveau d’application envisagé (global, site, pool ou ordinateur), vous risquez d’obtenir des données inutiles, comme si vous n’aviez pas exécuté de scénario du tout.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lorsque vous souhaitez déterminer les scénarios que vous pouvez exécuter sur un déploiement, un pool ou un ordinateur donné, gardez à l’esprit que vous ne pouvez exécuter que deux scénarios <strong>par ordinateur</strong>. Si vous procédez à la journalisation de l’activité d’un pool, vous devez traiter ce pool globalement. Dans la plupart des cas, il n’est pas judicieux d’exécuter différents scénarios sur chaque ordinateur dans un pool. Il n’est pas non plus logique d’examiner le problème pour lequel vous recherchez des données et vous demander alors quel scénario convient le mieux pour un ordinateur donné dans le déploiement entier. Par exemple, si vous envisagez d’utiliser le scénario UserReplicator, exécuter UserReplicator sur un serveur Edge ou un pool de serveurs Edge ne sert pas à grand chose.<br />
+Une fois que vous avez compris l’origine du problème et avez déterminé son impact, vous devez choisir soigneusement les scénarios à exécuter sur quels ordinateurs et pools. Bien qu’il soit judicieux d’exécuter le scénario AlwaysOn pour une application large, car il recueille des informations sur une grande variété de fournisseurs, certains scénarios ne sont utiles que sur certains ordinateurs ou pools. De plus, lorsque vous lancez une session de journalisation vous devez choisir au préalable le scénario offrant les meilleurs résultats. Si vous utilisez un scénario inapproprié, ou si vous utilisez un scénario qui est approprié pour la tâche mais pas adapté au niveau d’application envisagé (global, site, pool ou ordinateur), vous risquez d’obtenir des données inutiles, comme si vous n’aviez pas exécuté de scénario du tout.
 
 Pour contrôler les fonctions du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre de l’un des groupes de sécurité RBAC (Contrôle d’accès basé sur un rôle), CsAdministrator et CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour obtenir une liste de tous les rôles RBAC auxquels cette applet de commande a été affectée (notamment des rôles RBAC personnalisés que vous avez créés), exécutez la commande suivante à partir de l’invite de Lync Server Management Shell ou de Windows PowerShell :
 
@@ -62,19 +51,8 @@ Par exemple :
     
     Cette commande arrête la journalisation avec le scénario UserReplicatior sur pool01.contoso.net.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les journaux créés au cours de cette session de journalisation avec le scénario UserReplicator ne sont pas supprimés. Vous pouvez continuer à effectuer des recherches avec la journalisation au lieu d’utiliser la commande Search-CsClsLogging. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging">Search-CsClsLogging</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Les journaux créés au cours de cette session de journalisation avec le scénario UserReplicator ne sont pas supprimés. Vous pouvez continuer à effectuer des recherches avec la journalisation au lieu d’utiliser la commande Search-CsClsLogging. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging">Search-CsClsLogging</a>.
 
 Faisant pendant à l’applet de commande Start-CsClsLogging, l’applet de commande Stop-CsClsLogging arrête la session de journalisation, définie par des scénarios, et conserve les journaux créés par celle-ci. Vous pouvez exécuter deux scénarios sur un ordinateur donné à tout moment. La méthode d’arrêt d’un scénario pour recueillir des informations à l’aide d’un autre scénario est une tâche courante que vous pouvez effectuer au cours du dépannage de la plupart des charges de travail.
 

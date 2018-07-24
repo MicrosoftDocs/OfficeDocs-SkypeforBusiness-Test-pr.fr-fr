@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Lync Server prend en charge tous les téléphones répertoriés dans le tableau suivant. Notez que les téléphones pris en charge ne peuvent pas tous exécuter Lync Phone Edition (certains peuvent exécuter uniquement des versions antérieures). Utilisez ce tableau pour savoir quels téléphones peuvent exécuter Lync Phone Edition et où obtenir des informations détaillées sur tous les téléphones pris en charge.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Trois types de téléphones sont pris en charge : les téléphones de bureau (appareils IP ou USB à combiné conçus pour une utilisation par des employés travaillant à leur bureau), les appareils de conférence (téléphones IP ou USB mains libres conçus pour une utilisation dans les salles de réunion) et les téléphones de partie commune (téléphones IP conçus pour une utilisation dans des zones partagées telles que des halls d’entrée, cuisines, ateliers de fabrication et espaces de travail partagés et pouvant être personnalisés de façon à fournir différents jeux de fonctionnalités Lync Phone Edition.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Trois types de téléphones sont pris en charge : les téléphones de bureau (appareils IP ou USB à combiné conçus pour une utilisation par des employés travaillant à leur bureau), les appareils de conférence (téléphones IP ou USB mains libres conçus pour une utilisation dans les salles de réunion) et les téléphones de partie commune (téléphones IP conçus pour une utilisation dans des zones partagées telles que des halls d’entrée, cuisines, ateliers de fabrication et espaces de travail partagés et pouvant être personnalisés de façon à fournir différents jeux de fonctionnalités Lync Phone Edition.
 
 Pour obtenir des tableaux de comparaison détaillée de tous les appareils optimisés pour fonctionner avec Lync, voir « Phones and Devices Qualified for Microsoft Lync  à l’adresse [http://go.microsoft.com/fwlink/?linkid=208938\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=208938%26clcid=0x40c). Les tableaux de comparaison de téléphones disponibles sur ce site web incluent des informations sur la tarification et des caractéristiques techniques.
 
@@ -102,16 +91,5 @@ Pour obtenir des tableaux de comparaison détaillée de tous les appareils optim
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La prise en charge des périphériques analogiques est également fournie. Pour plus d’informations, voir <a href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x40c">Planification du déploiement des périphériques analogiques</a> dans la Lync Server 2010Bibliothèque TechNet. (Lync Phone Edition fonctionne de la même manière dans Lync Server 2013 et Lync Server 2010).</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La prise en charge des périphériques analogiques est également fournie. Pour plus d’informations, voir <a href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x40c">Planification du déploiement des périphériques analogiques</a> dans la Lync Server 2010Bibliothèque TechNet. (Lync Phone Edition fonctionne de la même manière dans Lync Server 2013 et Lync Server 2010).

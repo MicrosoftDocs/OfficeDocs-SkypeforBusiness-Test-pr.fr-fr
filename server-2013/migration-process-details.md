@@ -25,19 +25,8 @@ Veillez à satisfaire les conditions préalables suivantes avant de migrer Lync 
 
 2.  Installez le pool de serveurs de conversations permanentesLync Server 2013. Il sera vide (pas de catégorie, de salle et de complément). Avant de migrer vos catégories, salles ou compléments hérités, vous pouvez créer des salles, des catégories ou des compléments dans votre déploiement de serveur de conversations permanentesLync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Notez que ces éléments nouvellement créés peuvent entrer en conflit avec les éléments hérités que vous migrez. Évitez tout conflit de nom, sans quoi ils seront remplacés à la migration des données héritées.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Notez que ces éléments nouvellement créés peuvent entrer en conflit avec les éléments hérités que vous migrez. Évitez tout conflit de nom, sans quoi ils seront remplacés à la migration des données héritées.
 
 ## Préparation des données sources pour la migration
 
@@ -45,35 +34,13 @@ Pour préparer correctement vos données sources pour la migration, procédez co
 
 1.  Sauvegardez les bases de données source pour Lync Server 2010, conversation de groupe ou Office Communications Server 2007 R2 Group Chat. Pour plus d’informations sur la sauvegarde de SQL Server, reportez-vous à « Vue d’ensemble de la sauvegarde (SQL Server) » à l’adresse <http://go.microsoft.com/fwlink/p/?linkid=254851>.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les services de domaine Active Directory doivent être identiques. Condition pour la migration, vous ne pouvez pas effectuer de migration vers un pool dans un déploiement différent (en particulier, dans une forêt Active Directory différente).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Les services de domaine Active Directory doivent être identiques. Condition pour la migration, vous ne pouvez pas effectuer de migration vers un pool dans un déploiement différent (en particulier, dans une forêt Active Directory différente).
 
 2.  Inspectez la configuration de vos salles de conversation et catégories Lync Server 2010, conversation de groupe ou Office Communications Server 2007 R2  Group Chat. Toutes les modifications des catégories, salles ou compléments dans votre déploiement hérité existant seront apportées par l’outil d’administration Group Chat.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Toutes les modifications des catégories, salles ou compléments dans votre déploiement de serveur de conversations permanentesLync Server 2013 sont apportées par le Panneau de configuration Lync Server ou les applets de commande Windows PowerShell.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!tip]  
+    > Toutes les modifications des catégories, salles ou compléments dans votre déploiement de serveur de conversations permanentesLync Server 2013 sont apportées par le Panneau de configuration Lync Server ou les applets de commande Windows PowerShell.    
     Pour préparer votre système hérité pour la migration, procédez comme suit.
     
     1.  Le serveur de conversations permanentes prend en charge un seul niveau de catégories, et non un ensemble hiérarchique de catégories. Après la migration, les sous-catégories sont précédées du nom complet de la catégorie parent. Vous pouvez simplifier votre structure de catégories existante afin que la structure qui en résulte satisfasse vos conditions.
@@ -112,19 +79,8 @@ Pour migrer votre serveur Group Chat hérité, procédez comme suit.
 
 7.  Vous devez copier (XCOPY) tous les fichiers chargés (dossier entier) vers le nouveau magasin de fichiers Lync Server 2013, conversation permanente.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le client Lync 2013 ne prend pas en charge le téléchargement ou l’affichage de fichiers dans les salles de conversation. Vous pouvez toujours utiliser le client hérité pour publier et afficher les fichiers dans la salle.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Le client Lync 2013 ne prend pas en charge le téléchargement ou l’affichage de fichiers dans les salles de conversation. Vous pouvez toujours utiliser le client hérité pour publier et afficher les fichiers dans la salle.
 
 8.  Liez l’URI de serveur de recherche Lync Server 2010, conversation de groupe ou Office Communications Server 2007 R2  Group Chat à l’objet contact Lync Server 2013, serveur de conversations permanentes. Les étapes suivantes sont requises si vos clients Conversation de groupe Lync 2010 ou Office Communicator 2007 R2  Group Chat doivent se connecter au client Lync 2013, conversation permanente le plus récent après la migration sans modification de configuration côté client :
     
@@ -146,16 +102,5 @@ Pour migrer votre serveur Group Chat hérité, procédez comme suit.
 
 13. Vous pouvez maintenant commencer à activer les fonctionnalités de serveur de conversations permanentes via les nouveaux clients. Pour plus d’informations sur l’activation du serveur de conversations permanentes, reportez-vous à [Déploiement d’un serveur de conversation permanente dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 prend en charge plusieurs pools de serveurs de conversations permanentes. La migration d’un pool Conversation de groupe Lync 2010 ou Office Communications Server 2007 R2  Group Chat vers un seul pool de serveurs de conversations permanentesLync Server 2013 est toutefois prise en charge. Vous pouvez ajouter de nouveaux pools de serveurs de conversations permanentes dans votre déploiement pour satisfaire les besoins réglementaires (par exemple, conserver les données au sein d’une région donnée).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Lync Server 2013 prend en charge plusieurs pools de serveurs de conversations permanentes. La migration d’un pool Conversation de groupe Lync 2010 ou Office Communications Server 2007 R2  Group Chat vers un seul pool de serveurs de conversations permanentesLync Server 2013 est toutefois prise en charge. Vous pouvez ajouter de nouveaux pools de serveurs de conversations permanentes dans votre déploiement pour satisfaire les besoins réglementaires (par exemple, conserver les données au sein d’une région donnée).

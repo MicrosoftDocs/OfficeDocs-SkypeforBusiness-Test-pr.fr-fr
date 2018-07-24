@@ -43,16 +43,5 @@ Best Practices Analyzer compare les données qu’il rassemble et un ensemble de
 
 Après la comparaison des données recueillies et des règles prédéfinies, l’outil indique les problèmes trouvés. Pour chaque problème repris, Best Practices Analyzer fournit des informations sur ce qui est trouvé dans l’environnement Lync Server 2013 analysé et la configuration recommandée. Il propose également des liens vers des informations plus détaillées sur les différents problèmes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Best Practices Analyzer de Lync Server 2013 collecte les informations de configuration uniquement à partir des composants Lync Server 2013. Vous pouvez utiliser les versions précédentes de l’outil pour analyser des environnements antérieurs. Pour plus d’informations, voir <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Configuration requise pour l’exécution de Best Practices Analyzer</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Best Practices Analyzer de Lync Server 2013 collecte les informations de configuration uniquement à partir des composants Lync Server 2013. Vous pouvez utiliser les versions précédentes de l’outil pour analyser des environnements antérieurs. Pour plus d’informations, voir <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Configuration requise pour l’exécution de Best Practices Analyzer</a>.

@@ -251,19 +251,8 @@ Enfin, activez globalement le routage géodépendant sur votre configuration du 
 
 Pour plus d’informations, voir [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si le routage géodépendant doit être activé via une configuration globale, l’ensemble de règles devant être appliqué ne le sera que pour les sites, utilisateurs et jonctions pour lesquels il a été configuré, comme spécifié dans cette documentation.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si le routage géodépendant doit être activé via une configuration globale, l’ensemble de règles devant être appliqué ne le sera que pour les sites, utilisateurs et jonctions pour lesquels il a été configuré, comme spécifié dans cette documentation.
 
 
 ## Voir aussi

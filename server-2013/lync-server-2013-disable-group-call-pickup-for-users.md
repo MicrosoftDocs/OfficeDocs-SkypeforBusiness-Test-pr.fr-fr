@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-01-30_
 
 Appliquez la procédure suivante pour désactiver la fonctionnalité de prise d’appel de groupe pour un utilisateur.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsque vous désactiver la prise d’appel de groupe pour un utilisateur, le numéro de groupe de prise d’appel qui a été assigné à cet utilisateur n’est pas conservé. Si vous souhaitez ultérieurement réactiver la prise d’appel de groupe pour cet utilisateur, vous devez réassigner le numéro de groupe de prise d’appel avec le paramètre /enablegrouppickup.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lorsque vous désactiver la prise d’appel de groupe pour un utilisateur, le numéro de groupe de prise d’appel qui a été assigné à cet utilisateur n’est pas conservé. Si vous souhaitez ultérieurement réactiver la prise d’appel de groupe pour cet utilisateur, vous devez réassigner le numéro de groupe de prise d’appel avec le paramètre /enablegrouppickup.
 
 ## Pour désactiver la prise d’appel de groupe pour un utilisateur
 

@@ -19,19 +19,8 @@ Cela documente le schéma de la base de données de conversation permanente dans
 
 La base de données de conversation permanente fait référence à la base de données correspondant aux rôles serveur principaux Lync Server 2013**PersistentChatStore** (correspond à la base de données mgc) et **PersistentChatComplianceStore** (correspond à la base de données mgccomp). Le but de la publication de ce schéma est de vous permettre de créer des requêtes et d’obtenir des informations sur la création de rapports pertinents en matière de conversation instantanée, de salles actives, de contributeurs les plus productifs, etc.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous nous réservons le droit de faire évoluer ce schéma. Microsoft ne donne aucune garantie en matière de conservation de la rétrocompatibilité avec le schéma publié.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Nous nous réservons le droit de faire évoluer ce schéma. Microsoft ne donne aucune garantie en matière de conservation de la rétrocompatibilité avec le schéma publié.
 
 Respectez les meilleures pratiques suivantes :
 

@@ -19,19 +19,8 @@ Avant d’’effectuer la procédure suivante, veillez à vous connecter au serv
 
 Pour pouvoir réaliser une opération avec le Assistant Déploiement de Lync Server, le magasin de configurations local doit exister sur un serveur. Il s’agit d’une copie en lecture seule du magasin central de gestion, qui est créé après l’installation locale de SQL Server Express. Le magasin central de gestion proprement dit est ajouté à la base de données SQL Server existante installée sur la base de données compatible serveur Standard Edition ou SQL Server Express.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous n’avez pas exécuté auparavant le programme d’installation Lync Server 2013 sur ce serveur, vous serez invité à indiquer l’unité et le chemin d’installation de Lync Server 2013. Vous pourrez effectuer cette installation sur une unité autre que l’unité système, si votre organisation l’exige, ou si vous rencontrez des problèmes d’espace. Vous pouvez simplement paramétrer le chemin de l’emplacement d’installation des fichiers Lync Server dans la boîte de dialogue Installation sur une autre unité disponible. Si vous stockez les fichiers d’installation à cet endroit, y compris OCSCore.msi, les autres fichiers Lync Server 2013 y seront également déployés.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Si vous n’avez pas exécuté auparavant le programme d’installation Lync Server 2013 sur ce serveur, vous serez invité à indiquer l’unité et le chemin d’installation de Lync Server 2013. Vous pourrez effectuer cette installation sur une unité autre que l’unité système, si votre organisation l’exige, ou si vous rencontrez des problèmes d’espace. Vous pouvez simplement paramétrer le chemin de l’emplacement d’installation des fichiers Lync Server dans la boîte de dialogue Installation sur une autre unité disponible. Si vous stockez les fichiers d’installation à cet endroit, y compris OCSCore.msi, les autres fichiers Lync Server 2013 y seront également déployés.
 
 ## Pour installer le magasin de configurations local
 

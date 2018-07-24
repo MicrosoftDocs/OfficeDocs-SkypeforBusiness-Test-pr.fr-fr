@@ -19,19 +19,8 @@ Lync Server 2013Voix Entreprise exige que toutes les chaînes de numérotation 
 
 En effectuant une conversion de l’itinéraire sortant sur le serveur, vous pouvez réduire les exigences de configuration sur chaque homologue de jonction afin de convertir les numéros de téléphone dans un format de numérotation local. Lorsque vous planifiez la quantité et le type de passerelles à associer avec un cluster de serveur de médiation spécifique, il peut s’avérer utile de regrouper les homologues de jonction avec les exigences de numérotation locale similaires. En effet, cela peut réduire le nombre de règles de conversion requises et le temps nécessaire pour les rédiger.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’association d’une ou plusieurs règles de conversion avec une configuration de jonction Voix Entreprise doit être utilisée comme alternative à la configuration des règles de conversion sur un homologue de jonction. N’associez pas de règles de conversion avec une configuration de jonction Voix Entreprise si vous avez configuré les règles de conversion sur l’homologue de jonction, car les deux règles risqueraient de provoquer un conflit.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> L’association d’une ou plusieurs règles de conversion avec une configuration de jonction Voix Entreprise doit être utilisée comme alternative à la configuration des règles de conversion sur un homologue de jonction. N’associez pas de règles de conversion avec une configuration de jonction Voix Entreprise si vous avez configuré les règles de conversion sur l’homologue de jonction, car les deux règles risqueraient de provoquer un conflit.
 
 ## Exemples de règles de conversion
 

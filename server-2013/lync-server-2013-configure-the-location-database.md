@@ -25,19 +25,8 @@ Pour configurer la base de données d’emplacements, vous devrez effectuer les 
 
 3.  Publier la base de données mise à jour.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également définir une base de données d’emplacements source secondaire pouvant être utilisée à la place de la base de données d’emplacements. Pour plus d’informations, voir <a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configurer un service Informations d’emplacement secondaire</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous pouvez également définir une base de données d’emplacements source secondaire pouvant être utilisée à la place de la base de données d’emplacements. Pour plus d’informations, voir <a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configurer un service Informations d’emplacement secondaire</a>.
 
 ## Dans cette section
 

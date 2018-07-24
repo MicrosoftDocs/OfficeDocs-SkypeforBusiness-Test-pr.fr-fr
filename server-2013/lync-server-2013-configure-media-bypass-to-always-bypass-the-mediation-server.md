@@ -15,20 +15,9 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2013-02-25_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette rubrique suppose que vous avez déjà configuré le contournement de média pour des connexions de jonction vers un homologue (une passerelle PSTN, un PBX IP ou un contrôleur SBC chez un fournisseur de services de téléphonie Internet) pour un site ou un service spécifique pour lequel vous souhaitez que le contournement de média contourne toujours le serveur de médiation.<br />
-Vous ne pouvez pas configurer le contournement de média pour qu’il contourne toujours le serveur de médiation alors que le contrôle d’admission des appels est activé. Ces paramètres étant incompatibles, ils s’excluent mutuellement dans l’interface utilisateur du Panneau de configuration Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Cette rubrique suppose que vous avez déjà configuré le contournement de média pour des connexions de jonction vers un homologue (une passerelle PSTN, un PBX IP ou un contrôleur SBC chez un fournisseur de services de téléphonie Internet) pour un site ou un service spécifique pour lequel vous souhaitez que le contournement de média contourne toujours le serveur de médiation.<br />
+Vous ne pouvez pas configurer le contournement de média pour qu’il contourne toujours le serveur de médiation alors que le contrôle d’admission des appels est activé. Ces paramètres étant incompatibles, ils s’excluent mutuellement dans l’interface utilisateur du Panneau de configuration Lync Server.
 
 Outre l’activation du contournement de média pour des connexions de jonction individuelles associées à un homologue vers le serveur de médiation, vous devez également configurer les paramètres globaux du contournement de média. Si vous suivez la procédure indiquée dans cette rubrique pour configurer les paramètres globaux du contournement de média, vous êtes supposé disposer d’une bonne connectivité entre les points de terminaison Lync et tout homologue pour lequel vous avez configuré le contournement de média sur la connexion de jonction.
 

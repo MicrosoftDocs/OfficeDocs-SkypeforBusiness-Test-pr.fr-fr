@@ -49,19 +49,8 @@ La configuration de l’application d’annonce nécessite l’un des rôles d�
 
   - **CsViewOnlyAdministrator**   Ce rôle d’administrateur permet de visualiser le déploiement pour surveiller son état.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur les droits utilisateur d’administration, reportez-vous à <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour plus d’informations sur les droits utilisateur d’administration, reportez-vous à <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Voir aussi
 

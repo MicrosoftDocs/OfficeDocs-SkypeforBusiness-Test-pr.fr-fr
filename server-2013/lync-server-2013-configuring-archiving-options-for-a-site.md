@@ -19,33 +19,11 @@ Vous pouvez spécifier l’application d’options d’archivage à des sites sp
 
 Pour plus d’informations sur les configurations d’archivage, notamment la hiérarchie des configurations (globale, de site et de pool), voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il est préférable de spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Il est préférable de spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour activer l’archivage, vous devez spécifier les stratégies d’archivage qui contrôlent l’archivage des communications internes et externes au niveau global et, si nécessaire, au niveau utilisateur et au niveau du site. Si vous configurez des stratégies de niveau utilisateur, vous devez également assigner les stratégies utilisateur à des utilisateurs spécifiques. Pour plus d’informations sur la création et la configuration de stratégies d’archivage, voir <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestion de l'archivage des communications internes et externes dans Lync Server 2013</a> dans la documentation des opérations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Pour activer l’archivage, vous devez spécifier les stratégies d’archivage qui contrôlent l’archivage des communications internes et externes au niveau global et, si nécessaire, au niveau utilisateur et au niveau du site. Si vous configurez des stratégies de niveau utilisateur, vous devez également assigner les stratégies utilisateur à des utilisateurs spécifiques. Pour plus d’informations sur la création et la configuration de stratégies d’archivage, voir <a href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Gestion de l'archivage des communications internes et externes dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Pour configurer les options d’archivage au niveau du site
 

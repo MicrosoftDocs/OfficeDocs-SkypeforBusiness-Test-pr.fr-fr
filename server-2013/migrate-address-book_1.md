@@ -19,19 +19,8 @@ _**Dernière rubrique modifiée :** 2012-10-02_
 
 1.  Recherchez le fichier Company\_Phone\_Number\_Normalization\_Rules.txt à la racine du dossier partagé de carnet d’adresses et copiez-le à la racine du dossier partagé de carnet d’adresses de votre pool pilote Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les exemples de règles de normalisation de carnet d’adresses ont été installés dans votre répertoire de fichiers de composants web ABS. Le chemin d’accès est <strong>$lettre_lecteur_installation:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</strong>. Ce fichier peut être copié et renommé en <strong>Company_Phone_Number_Normalization_Rules.txt</strong> dans le répertoire racine du dossier partagé du carnet d’adresses. Par exemple, pour le carnet d’adresses partagé dans <strong>$serveurX</strong>, le chemin d’accès sera similaire à ceci : <strong>\\$serveurX \LyncFileShare\2-WebServices-1\ABFiles</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Les exemples de règles de normalisation de carnet d’adresses ont été installés dans votre répertoire de fichiers de composants web ABS. Le chemin d’accès est <strong>$lettre_lecteur_installation:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</strong>. Ce fichier peut être copié et renommé en <strong>Company_Phone_Number_Normalization_Rules.txt</strong> dans le répertoire racine du dossier partagé du carnet d’adresses. Par exemple, pour le carnet d’adresses partagé dans <strong>$serveurX</strong>, le chemin d’accès sera similaire à ceci : <strong>\\$serveurX \LyncFileShare\2-WebServices-1\ABFiles</strong>.
 
 2.  Ouvrez le fichier Company\_Phone\_Number\_Normalization\_Rules.txt dans un éditeur de texte, tel que le Bloc-notes.
 

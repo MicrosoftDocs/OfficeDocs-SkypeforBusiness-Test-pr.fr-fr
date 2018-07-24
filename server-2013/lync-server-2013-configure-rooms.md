@@ -31,16 +31,5 @@ Le serveur de conversations permanentes permet aux utilisateurs de collaborer en
 
 Quand un message est supprimé, vous ne pouvez pas annuler cette action. Cependant, les messages supprimés peuvent être restaurés si une sauvegarde a été faite. Si un serveur de conformité de conversation permanente est activé, les anciens messages sont persistants dans la base de données de conformité.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette utilisation des données de salle de conversation s’applique à Lync Server 2013, API du serveur de conversations permanentes, sauf dans les cas où le rôle administrateur est impliqué. L’API de serveur de conversations permanentes ne peut pas être utilisée pour des opérations d’administrateur. Vous devez effectuer ces opérations dans Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Cette utilisation des données de salle de conversation s’applique à Lync Server 2013, API du serveur de conversations permanentes, sauf dans les cas où le rôle administrateur est impliqué. L’API de serveur de conversations permanentes ne peut pas être utilisée pour des opérations d’administrateur. Vous devez effectuer ces opérations dans Lync Server Management Shell.

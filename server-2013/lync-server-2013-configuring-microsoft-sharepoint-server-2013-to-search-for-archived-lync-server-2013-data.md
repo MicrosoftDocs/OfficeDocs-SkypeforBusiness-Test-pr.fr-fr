@@ -44,19 +44,8 @@ Une fois les services web d’Exchange installés, vous devez ensuite configurer
     $service.AllowOAuthOverHttp = $False
     $service.Update()
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Utilisez l’URI de votre service de découverte automatique. N’utilisez pas l’URI d’exemple https://autodiscover.litwareinc.com/autodiscover/metadata/json/1.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Utilisez l’URI de votre service de découverte automatique. N’utilisez pas l’URI d’exemple https://autodiscover.litwareinc.com/autodiscover/metadata/json/1.
 
 Après avoir créé l’émetteur de jetons et configuré le service d’émission de jetons, exécutez ces commandes en prenant soin d’utiliser l’URL de votre site SharePoint à la place de l’URL d’exemple http://atl-sharepoint-001:
 
@@ -84,19 +73,8 @@ Une fois l’authentification de serveur à serveur établie entre Exchange et S
     $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
     New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>« eDiscovery » est l’abréviation de « découverte électronique » et désigne généralement la recherche, dans des archives électroniques, d’éléments susceptibles d’être « raisonnablement conçus pour conduire à une preuve admissible » devant une cour de justice.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> « eDiscovery » est l’abréviation de « découverte électronique » et désigne généralement la recherche, dans des archives électroniques, d’éléments susceptibles d’être « raisonnablement conçus pour conduire à une preuve admissible » devant une cour de justice.
 
 Une fois le nouveau site prêt, vous devez configurer Exchange 2013 pour qu’il se comporte comme origine des résultats pour SharePoint. Vous pouvez pour cela suivre la procédure ci-dessous dans la page Administration centrale de SharePoint 2013 :
 
