@@ -27,18 +27,8 @@ Le proxy inverse a des exigences minimales en matière de pare-feu et de port/pr
     
     ![Proxy inverse et services web externes](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "Proxy inverse et services web externes")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ne confondez pas le trafic du port 4443 sur TCP du proxy inverse au déploiement interne avec le trafic du port 4443 sur TCP en provenance du serveur Standard Edition ou du pool de serveurs frontaux qui gère le rôle du magasin central de gestion.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!CAUTION]  
+    > Ne confondez pas le trafic du port 4443 sur TCP du proxy inverse au déploiement interne avec le trafic du port 4443 sur TCP en provenance du serveur Standard Edition ou du pool de serveurs frontaux qui gère le rôle du magasin central de gestion.
 
 
 ## Détails sur les ports et protocoles

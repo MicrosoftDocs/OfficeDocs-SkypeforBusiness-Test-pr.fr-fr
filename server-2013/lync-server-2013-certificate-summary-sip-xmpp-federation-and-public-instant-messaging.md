@@ -47,74 +47,30 @@ Pour confirmer que vous disposez des certificats requis pour votre déploiement 
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour prendre en charge l’espace de noms XMPP contoso.com</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]  
+> Pour prendre en charge l’espace de noms XMPP contoso.com
+
 <p>sip.fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour prendre en charge l’espace de noms SIP fabrikam.com</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<p>fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour prendre en charge l’espace de noms XMPP fabrikam.com</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Pour prendre en charge l’espace de noms SIP fabrikam.com
 
-</div></td>
+
+> [!NOTE]  
+> Pour prendre en charge l’espace de noms XMPP fabrikam.com
+
+</td>
 <td><p>Le certificat doit provenir d’une autorité de certification publique et comporter l’utilisation améliorée de la clé du serveur et l’utilisation améliorée de la clé du client si la connectivité PIC (Public IM Connectivity) avec AOL doit être déployée. Le certificat est attribué aux interfaces de serveur Edge externes pour :</p>
 <ul>
 <li><p>service Edge d’accès</p></li>
 <li><p>service Edge de conférence web</p></li>
 <li><p>service Edge A/V</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Techniquement, un certificat n’est pas affecté à un serveur Edge A/V. Les communications et l’authentification sont sécurisées via le service MRAS (Media Relay Authentication Service), lequel utilise le certificat affecté à l’interface interne du serveur serveur Edge.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!NOTE]  
+> Techniquement, un certificat n’est pas affecté à un serveur Edge A/V. Les communications et l’authentification sont sécurisées via le service MRAS (Media Relay Authentication Service), lequel utilise le certificat affecté à l’interface interne du serveur serveur Edge.
+
 <p>Notez que les autres noms de sujet sont automatiquement ajoutés au certificat en fonction de vos définitions dans le Générateur de topologie. Vous ajoutez les entrées d’autres noms de sujet dont vous avez besoin pour les domaines SIP supplémentaires, ainsi que d’autres entrées que vous devez prendre en charge. Le nom de sujet est répliqué dans l’autre nom de sujet et doit être présent pour un fonctionnement correct.</p></td>
 </tr>
 </tbody>

@@ -315,21 +315,11 @@ Certains attributs ont une valeur masque de bits. Pour ces attributs, chaque par
 <td><p>msRTCSIP-EnableBestEffortNotify (obsolète)</p></td>
 <td><p>Cet attribut détermine si un serveur génère une demande BENOTIFY (Best Effort NOTIFY), plutôt qu’une demande NOTIFY, en réponse à la demande SUBSCRIBE envoyée par un client. BENOTIFY est une extension d’amélioration des performances du protocole de transfert de notification de l’inscription dans laquelle le serveur génère des demandes BENOTIFY, plutôt que des demandes NOTIFY normales. Les performances sont améliorées dans la mesure où une demande BENOTIFY ne nécessite pas de réponse 200 OK d’un client, contrairement à la demande NOTIFY.</p>
 <p>La valeur correcte est <strong>TRUE</strong> ou <strong>FALSE</strong>.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Live Communications Server 2003 ne prend pas en charge les demandes BENOTIFY. Pour interagir avec les applications de serveur écrites à l’aide des API du serveur Live Communications Server 2003 exécutant Live Communications Server 2005 et les serveurs tiers, vous pouvez désactiver les demandes BENOTIFY en définissant la valeur sur <strong>FALSE</strong>. Actuellement, cette fonction ne fait pas partie du processus de standardisation SIP IETF (Internet Engineering Task Force).</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Live Communications Server 2003 ne prend pas en charge les demandes BENOTIFY. Pour interagir avec les applications de serveur écrites à l’aide des API du serveur Live Communications Server 2003 exécutant Live Communications Server 2005 et les serveurs tiers, vous pouvez désactiver les demandes BENOTIFY en définissant la valeur sur <strong>FALSE</strong>. Actuellement, cette fonction ne fait pas partie du processus de standardisation SIP IETF (Internet Engineering Task Force).
+
+</td>
 <td><p>Nouveauté de Live Communications Server 2005.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
 </tr>

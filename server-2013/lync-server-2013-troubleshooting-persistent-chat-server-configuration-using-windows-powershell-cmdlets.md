@@ -19,16 +19,6 @@ Les solutions de contournement suivantes permettent de résoudre les problèmes 
 
   - Si vous obtenez un message d’erreur du type « principal non mis en service », le principal que vous avez essayé d’ajouter n’est pas disponible.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Solution de contournement : aucune. Ce message d’erreur signifie que le principal n’est pas disponible.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Solution de contournement : aucune. Ce message d’erreur signifie que le principal n’est pas disponible.
 

@@ -37,18 +37,8 @@ Voici un exemple de configuration pour le déploiement du proxy XMPP qui défini
 
 7.  Sur le serveur Edge, dans l’Assistant Déploiement de Lync Server, en regard de **Étape 3 : Demander, installer ou affecter des certificats** , cliquez sur **Réexécuter** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.
 
 
 8.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Créer une demande de certificat** .
@@ -79,18 +69,8 @@ Voici un exemple de configuration pour le déploiement du proxy XMPP qui défini
 
 18. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.
 
 
 19. Dans la page **Résumé de la demande** , vérifiez les informations de certificat à utiliser pour générer la demande.
