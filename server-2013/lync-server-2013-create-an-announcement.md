@@ -23,19 +23,8 @@ Pour créer une annonce, vous devez effectuer les tâches suivantes :
 
 3.  Exécutez l’applet de commande **New-CsAnnouncement** pour créer et nommer l’annonce. Effectuez cette étape pour créer des annonces avec une invite audio, une invite TTS ou sans invite.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez créer une annonce sans invite (par exemple, si vous voulez transférer des appels vers une destination spécifiques sans lire d’invite).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Vous pouvez créer une annonce sans invite (par exemple, si vous voulez transférer des appels vers une destination spécifiques sans lire d’invite).
 
 4.  Affecter la nouvelle annonce à une plage de numéros dans la table des numéros non attribués.
 

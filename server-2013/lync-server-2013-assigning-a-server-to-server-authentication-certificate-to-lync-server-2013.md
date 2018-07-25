@@ -45,18 +45,8 @@ Le 1er juillet 2012, le nouveau certificat est alors configuré comme certific
 
 Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez aussi faire appel à la console MMC Certificats pour exporter un certificat d’un serveur frontal puis l’importer sur tous vos autres serveurs frontaux. Assurez-vous dans ce cas d’exporter la clé privée en plus du certificat même.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans ce cas, vous devez effectuer la procédure sur chaque serveur frontal. Pendant l’exportation et l’importation des certificats de cette manière, Lync Server 2013 ne réplique pas le certificat sur chaque serveur frontal.</td>
-</tr>
-</tbody>
-</table>
+> [!Caution]  
+> Dans ce cas, vous devez effectuer la procédure sur chaque serveur frontal. Pendant l’exportation et l’importation des certificats de cette manière, Lync Server 2013 ne réplique pas le certificat sur chaque serveur frontal.
 
 
 Quand le certificat est importé sur tous vos serveurs frontaux, il peut ensuite être affecté à l’aide de l’Assistant Déploiement de Lync Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez les étapes suivantes sur un ordinateur où l’Assistant est installé :

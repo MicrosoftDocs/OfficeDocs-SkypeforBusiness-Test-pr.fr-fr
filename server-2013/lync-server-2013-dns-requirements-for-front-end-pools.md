@@ -41,21 +41,10 @@ Le tableau suivant spécifie les composants DNS requis pour le déploiement de 
 <p>Par exemple, si vous utilisez à la fois l’équilibrage de la charge DNS et l’équilibrage de la charge matérielle, vous aurez un enregistrement A pour chaque serveur frontal dans un pool pour l’équilibrage de la charge DNS et un enregistrement A pour les services web internes pointant vers l’adresse IP virtuelle du programme d’équilibrage de la charge matérielle :</p>
 <ul>
 <li><p>Équilibrage de la charge DNS :   Pool01.contoso.net   adresse IP du pool   10.10.10.5</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Chaque serveur frontal aura également un enregistrement A distinct :</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!WARNING]  
+> Chaque serveur frontal aura également un enregistrement A distinct :
+
 <ol>
 <li><p>FE01.contoso.net    10.10.10.1</p></li>
 <li><p>FE02.contoso.net    10.10.10.2</p></li>
@@ -86,21 +75,11 @@ Le tableau suivant spécifie les composants DNS requis pour le déploiement de 
 <tr class="even">
 <td><p>Détection du service web de mise à jour des périphériques par les périphériques de communications unifiées</p></td>
 <td><p>Un enregistrement A interne avec le nom ucupdates-r2.&lt;domaine SIP&gt; associé à l’adresse IP du pool frontal qui héberge le service web de mise à jour des périphériques. Dans le cas où un périphérique de communications unifiées est activé, mais qu’un utilisateur ne s’y est jamais connecté, l’enregistrement A permet au périphérique de détecter le pool frontal hébergeant le service de mise à jour des périphériques et d’obtenir des mises à jour. Les périphériques peuvent autrement se procurer ces informations via une mise en service intrabande la première fois qu’un utilisateur se connecte.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si le service web de mise à jour des périphériques est déjà déployé dans Lync Server 2010, vous avez déjà créé un enregistrement A interne nommé ucupdates.<em>&lt;domaine SIP&gt;</em>. Pour Microsoft Office Communications Server 2007 R2, vous devez créer un enregistrement DNS A supplémentaire nommé ucupdates-r2.<em>&lt;domaine SIP&gt;</em>.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!IMPORTANT]  
+> Si le service web de mise à jour des périphériques est déjà déployé dans Lync Server 2010, vous avez déjà créé un enregistrement A interne nommé ucupdates.<em>&lt;domaine SIP&gt;</em>. Pour Microsoft Office Communications Server 2007 R2, vous devez créer un enregistrement DNS A supplémentaire nommé ucupdates-r2.<em>&lt;domaine SIP&gt;</em>.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Proxy inverse de prise en charge du trafic HTTP</p></td>

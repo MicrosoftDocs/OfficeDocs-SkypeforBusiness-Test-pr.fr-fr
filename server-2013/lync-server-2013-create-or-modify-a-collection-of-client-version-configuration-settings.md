@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration globale de version du client est installée avec Lync Server et permet d’activer ou de désactiver le contrôle de version du client pour le déploiement complet du serveur. Vous pouvez également configurer les paramètres de configuration de version du client pour des sites spécifiques. Vous pouvez créer ou modifier des paramètres de configuration de version du client à partir du Panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.
 
 ## Pour créer ou modifier des paramètres de configuration de version du client à l’aide du Panneau de configuration Lync Server
 

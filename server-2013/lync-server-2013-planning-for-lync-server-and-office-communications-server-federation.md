@@ -48,48 +48,15 @@ L’activation de la fédération entre Microsoft Lync Server 2013, Lync Server
       -   
         Pour la configuration manuelle de la fédération, vous devez disposer du nom de domaine complet du serveur Edge du partenaire et du nom de domaine, ou du nom de domaine en ligne (entré dans le Panneau de configuration Lync Server, **Fédération et accès externe**, **Domaines fédérés SIP**). Créez une **nouvelle** stratégie ou **modifiez** une stratégie existante pour autoriser ou bloquer les domaines par nom de domaine complet.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>La configuration manuelle du serveur Edge d’un partenaire de fédération peut échouer si le partenaire modifie l’adresse IP de son serveur Edge.</td>
-        </tr>
-        </tbody>
-        </table>
-        
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour les <strong>nouveaux domaines fédérés SIP</strong>, vous devez fournir le <strong>nom de domaine (ou nom de domaine complet)</strong> pour Microsoft Lync Online, Microsoft Office 365. Pour Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server, vous devez également fournir un <strong>service Edge d’accès (nom de domaine complet)</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!warning]  
+        > La configuration manuelle du serveur Edge d’un partenaire de fédération peut échouer si le partenaire modifie l’adresse IP de son serveur Edge.        
+        > [!note]  
+        > Pour les <strong>nouveaux domaines fédérés SIP</strong>, vous devez fournir le <strong>nom de domaine (ou nom de domaine complet)</strong> pour Microsoft Lync Online, Microsoft Office 365. Pour Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server, vous devez également fournir un <strong>service Edge d’accès (nom de domaine complet)</strong>.    
       -   
         Pour la fédération des partenaires découverts via laquelle les partenaires peuvent découvrir votre serveur Edge, vous pouvez créer un enregistrement SRV dans votre DNS externe (\_sipfederationtls.\_tcp.contoso.com) qui pointe vers le port 5061 et l’enregistrement hôte (A) de votre serveur Edge.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous prenez en charge les clients Microsoft Lync Mobile sur Windows Phone, iPhone, iPad ou d’autres appareils d’Apple et utilisez le service de notifications Push ou le service de notifications Push, vous devez planifier les enregistrements SRV _sipfederationtls._tcp. <em>&lt;domaine SIP&gt;</em> pour chaque domaine SIP pour lequel vous avez des clients Lync Mobile. Android et Nokia Symbian Lync Mobile n’utilisent pas les notifications push et ne sont pas soumis à cette condition.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!important]  
+        > Si vous prenez en charge les clients Microsoft Lync Mobile sur Windows Phone, iPhone, iPad ou d’autres appareils d’Apple et utilisez le service de notifications Push ou le service de notifications Push, vous devez planifier les enregistrements SRV _sipfederationtls._tcp. <em>&lt;domaine SIP&gt;</em> pour chaque domaine SIP pour lequel vous avez des clients Lync Mobile. Android et Nokia Symbian Lync Mobile n’utilisent pas les notifications push et ne sont pas soumis à cette condition.
 
   - configuration des stratégies d’accès des utilisateurs externes pour la prise en charge des domaines fédérés.
 
@@ -99,19 +66,8 @@ Les informations suivantes vous aideront à définir les conditions relatives au
 
 La planification des conditions relatives au certificat, au pare-feu, au port/protocole et au DNS constitue généralement un processus simple si vous avez planifié ou déployé vos serveurs EdgeMicrosoft Lync Server 2013. Comme la fédération est une fonctionnalité supplémentaire qui utilise le serveur Edge existant, les conditions de planification sont généralement satisfaites par la planification et le déploiement du serveur Edge. Vous devez utiliser les tableaux suivants pour déterminer si vos conditions sont satisfaites et apporter des modifications au port/protocole et au DNS le cas échéant.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous disposez d’un pool de serveurs Edge et utilisez la fédération avec des partenaires Lync Server 2013 ou Lync Server 2010, vous pouvez utiliser l’équilibrage de la charge DNS ou des programmes d’équilibrage de la charge matérielle sur les côtés internes et externes des serveurs Edge. Si vous utilisez la fédération avec Office Communications Server 2007 ou Office Communications Server 2007 R2, l’équilibrage de la charge matérielle prendra en charge le basculement dans le cas d’un serveur Edge. Office Communications Server 2007 et Office Communications Server 2007 R2 ne sont pas compatibles avec l’équilibrage de la charge DNS. Les serveurs Edge du partenaire établiront la communication avec le premier serveur Edge dans votre pool qui répond. Si ce serveur Edge échoue, la communication ne bascule pas automatiquement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Si vous disposez d’un pool de serveurs Edge et utilisez la fédération avec des partenaires Lync Server 2013 ou Lync Server 2010, vous pouvez utiliser l’équilibrage de la charge DNS ou des programmes d’équilibrage de la charge matérielle sur les côtés internes et externes des serveurs Edge. Si vous utilisez la fédération avec Office Communications Server 2007 ou Office Communications Server 2007 R2, l’équilibrage de la charge matérielle prendra en charge le basculement dans le cas d’un serveur Edge. Office Communications Server 2007 et Office Communications Server 2007 R2 ne sont pas compatibles avec l’équilibrage de la charge DNS. Les serveurs Edge du partenaire établiront la communication avec le premier serveur Edge dans votre pool qui répond. Si ce serveur Edge échoue, la communication ne bascule pas automatiquement.
 
 Les conditions relatives au certificat sont généralement satisfaites via la planification des certificats pour votre serveur Edge choisi ou votre plan de serveur Edge mis en pool.
 

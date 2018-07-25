@@ -21,19 +21,8 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des files d’attente de groupes Response Group et les affecter aux flux de travail que vous gérez.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des files d’attente de groupes Response Group et les affecter aux flux de travail que vous gérez.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
@@ -57,19 +46,8 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour modifier l’ordre de recherche des agents, cliquez sur un groupe dans la liste des groupes d’agents, puis sur la flèche vers le haut ou vers le bas.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Lorsque le serveur recherche un agent disponible pour la file d’attente, il suit l’ordre des groupes. Autrement dit, la recherche s’effectue d’abord dans le premier groupe de la liste, puis dans le deuxième, et ainsi de suite.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!note]  
+        > Lorsque le serveur recherche un agent disponible pour la file d’attente, il suit l’ordre des groupes. Autrement dit, la recherche s’effectue d’abord dans le premier groupe de la liste, puis dans le deuxième, et ainsi de suite.
 
 8.  Pour spécifier une durée maximale pendant laquelle un appelant peut être mis en attente avant qu’un agent prenne l’appel, activez la case à cocher **Activer le délai d’expiration de la file d’attente**, puis procédez comme suit :
     
@@ -115,19 +93,8 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente.
 
 2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
@@ -139,37 +106,15 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
         "All agents are currently busy. Please call back later."
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.
 
 4.  Définissez l’action à exécuter lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
     Exemple :
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
@@ -182,37 +127,15 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <strong>Import-CsRgsAudioFile</strong>. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>.
 
 6.  Définissez l’action à exécuter lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Pour plus d’informations sur les actions possibles et leur syntaxe, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>.    
     Exemple :
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
@@ -225,19 +148,8 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur la création du groupe d’agents, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour plus d’informations sur la création du groupe d’agents, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a>
 
 9.  Créez la file d’attente. À partir de la ligne de commande, exécutez la commande suivante :
     

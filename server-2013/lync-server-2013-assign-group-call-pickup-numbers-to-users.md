@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-01-30_
 
 Après avoir ajouté des numéros de groupes de Prise d’appel de groupe à la table d’orbites de parcage d’appels, vous pouvez assigner ces groupes aux utilisateurs. Utilisez l’outil d’activation des fonctionnalités d’extension secondaire (SEFAUtil) du kit de ressources pour assigner des groupes de prise d’appel à des utilisateurs.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans un déploiement hybride, n’assignez pas de groupe de Prise d’appel de groupe aux utilisateurs hébergés en ligne. Ceux-ci ne peuvent pas participer à la prise d’appel de groupe. Autrement dit, leurs appels ne peuvent pas être pris par d’autres utilisateurs et ils ne peuvent pas répondre aux appels destinés à d’autres utilisateurs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Dans un déploiement hybride, n’assignez pas de groupe de Prise d’appel de groupe aux utilisateurs hébergés en ligne. Ceux-ci ne peuvent pas participer à la prise d’appel de groupe. Autrement dit, leurs appels ne peuvent pas être pris par d’autres utilisateurs et ils ne peuvent pas répondre aux appels destinés à d’autres utilisateurs.
 
 ## Pour assigner un groupe de Prise d’appels de groupe à un utilisateur
 

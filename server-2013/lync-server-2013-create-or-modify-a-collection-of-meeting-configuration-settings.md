@@ -49,19 +49,8 @@ Les paramètres de la page Configuration de la réunion permettent de définir d
     
       - Pour personnaliser le logo qui apparaît dans l’invitation à la réunion, dans **URL du logo**, entrez l’emplacement du logo.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Le logo doit être une image GIF ou JPG d’une taille de 188 par 30 pixels.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Le logo doit être une image GIF ou JPG d’une taille de 188 par 30 pixels.    
       - Pour personnaliser le texte d’aide qui apparaît dans l’invitation à la réunion, dans **URL de l’aide**, entrez l’emplacement du texte d’aide.
     
       - Pour personnaliser les informations légales qui apparaissent dans l’invitation à la réunion, dans **URL des informations légales**, entrez l’emplacement des informations légales.

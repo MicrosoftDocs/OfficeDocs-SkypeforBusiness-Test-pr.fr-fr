@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-05-25_
 
 Utilisez la procédure suivante pour configurer le certificat sur vos répertoires virtuels des services Internet (IIS) ou pour vérifier que le certificat est correctement configuré. Effectuez la procédure suivante sur chaque serveur exécutant les services Internet (IIS) dans votre pool Lync Server interne et les serveurs directeur ou de pool de directeurs facultatifs.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La procédure suivante vise à faire une demande de certificat combiné polyvalent pour Lync Server, le site web interne et le site web externe dans les services Internet (IIS). Lync Server 2010 a inauguré un jeu d’applets de commande Windows PowerShellLync Server Management Shell à des fins expresses de gestion de la demande, de l’importation et de l’affectation de certificats. La procédure part du principe qu’une autorité de certification capable de traiter la demande a été déployée en interne. Si vous utilisez des certificats publics pour vos besoins Lync Server ou si votre autorité de certification impose une demande hors connexion, examinez la syntaxe détaillée dans cette rubrique pour plus d’informations sur le paramètre –Output . <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La procédure suivante vise à faire une demande de certificat combiné polyvalent pour Lync Server, le site web interne et le site web externe dans les services Internet (IIS). Lync Server 2010 a inauguré un jeu d’applets de commande Windows PowerShellLync Server Management Shell à des fins expresses de gestion de la demande, de l’importation et de l’affectation de certificats. La procédure part du principe qu’une autorité de certification capable de traiter la demande a été déployée en interne. Si vous utilisez des certificats publics pour vos besoins Lync Server ou si votre autorité de certification impose une demande hors connexion, examinez la syntaxe détaillée dans cette rubrique pour plus d’informations sur le paramètre –Output . <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</a>
 
 ## Pour configurer l’authentification et les certificats au niveau des répertoires virtuels des services Internet (IIS)
 
@@ -39,19 +28,8 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
 
 3.  Dans le **Gestionnaire des services Internet (IIS)** , sélectionnez **NomServeur** . Dans **Affichage des fonctionnalités** , sélectionnez **Certificats de serveur** , cliquez avec le bouton droit, puis sélectionnez **Ouvrir la fonctionnalité** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si des certificats sont affectés au serveur, ils figurent parmi les certificats de serveur de l’affichage des fonctionnalités. Si un certificat répond aux conditions requises pour le site web externe dans les services Internet (IIS), vous pouvez réutiliser ce certificat. Pour afficher un certificat, cliquez avec le bouton droit sur le certificat et sélectionnez <strong>Afficher…</strong></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Si des certificats sont affectés au serveur, ils figurent parmi les certificats de serveur de l’affichage des fonctionnalités. Si un certificat répond aux conditions requises pour le site web externe dans les services Internet (IIS), vous pouvez réutiliser ce certificat. Pour afficher un certificat, cliquez avec le bouton droit sur le certificat et sélectionnez <strong>Afficher…</strong>
 
 4.  Sur le serveur frontal ou le directeur pour lequel vous demandez le certificat, cliquez sur **Démarrer** , sélectionnez **Tous les programmes** , **Microsoft Lync Server 2013**, puis cliquez sur **Lync Server Management Shell**.
 
@@ -71,19 +49,8 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Par défaut, Request-CsCertificate renseigne le nom du sujet avec le nom du serveur ou du pool et remplit l’autre nom du sujet avec des entrées constituées du nom de domaine complet du serveur, du nom de domaine complet du pool, des noms de domaine complets d’URL simples et des noms de domaine complets des services web interne et externe. Pour cela, l’applet de commande se réfère aux documents de topologie de votre déploiement. S’il manque une valeur et que vous avez spécifié le paramètre –Verbose, elle vous signale que les valeurs calculées et réelles des autres noms sont différentes, mais elle ne vous indique pas la valeur manquante. Elle vous fournit la valeur calculée complète à laquelle l’applet de commande se réfère. Utilisez la chaîne desautres noms calculés figurant dans le résultat pour faire une nouvelle demande de certificat qui comportera toutes les valeurs.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!tip]  
+    > Par défaut, Request-CsCertificate renseigne le nom du sujet avec le nom du serveur ou du pool et remplit l’autre nom du sujet avec des entrées constituées du nom de domaine complet du serveur, du nom de domaine complet du pool, des noms de domaine complets d’URL simples et des noms de domaine complets des services web interne et externe. Pour cela, l’applet de commande se réfère aux documents de topologie de votre déploiement. S’il manque une valeur et que vous avez spécifié le paramètre –Verbose, elle vous signale que les valeurs calculées et réelles des autres noms sont différentes, mais elle ne vous indique pas la valeur manquante. Elle vous fournit la valeur calculée complète à laquelle l’applet de commande se réfère. Utilisez la chaîne desautres noms calculés figurant dans le résultat pour faire une nouvelle demande de certificat qui comportera toutes les valeurs.    
     ![Sortie de la demande cert à l’aide de Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Sortie de la demande cert à l’aide de Request-CsCertifica")
 
 7.  Dans Lync Server Management Shell, tapez ce qui suit :

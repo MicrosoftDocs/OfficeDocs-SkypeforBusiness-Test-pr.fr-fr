@@ -23,49 +23,16 @@ Dans les environnements qui ne sont pas organisés en bureau ouvert ou dans lesq
 
 La prise d’appel de groupe repose sur l’application de parcage d’appel. Quand vous déployez la prise d’appel de groupe, vous configurez la table des numéros d’appel parqué avec des plages distinctes de numéros d’extension définies en tant que numéros de groupe de prise d’appel. À l’image des numéros d’appel parqué, les numéros de groupe de prise d’appel doivent être des extensions virtuelles auxquelles n’est affecté aucun utilisateur ou téléphone. Chaque pool de serveurs frontaux où vous déployez la prise d’appel de groupe peut posséder une ou plusieurs plages de numéros de groupe de prise d’appel. Les plages de numéros de groupe doivent être uniques dans l’ensemble du déploiement Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les plages de numéros définies en tant que numéros de prise d’appel de groupe dans la table des numéros d’appel parqué ne peuvent pas être gérées ou affichées à l’aide du Panneau de configuration Lync Server. La seule façon d’afficher toutes les plages de numéros de la table des numéros d’appel parqué consiste à utiliser Lync Server Management Shell. De même, vous ne pouvez ajouter, modifier ou supprimer des numéros de prise d’appel de groupe qu’à l’aide de Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les plages de numéros définies en tant que numéros de prise d’appel de groupe dans la table des numéros d’appel parqué ne peuvent pas être gérées ou affichées à l’aide du Panneau de configuration Lync Server. La seule façon d’afficher toutes les plages de numéros de la table des numéros d’appel parqué consiste à utiliser Lync Server Management Shell. De même, vous ne pouvez ajouter, modifier ou supprimer des numéros de prise d’appel de groupe qu’à l’aide de Lync Server Management Shell.
 
 Après avoir configuré les numéros de groupe de prise d’appel, vous affectez les utilisateurs à un groupe de prise d’appel. Les appels destinés à un utilisateur membre d’un groupe de prise d’appel peuvent être pris par les autres utilisateurs. Lorsqu’un appel parvient à un utilisateur affecté à un groupe de prise d’appel, tout autre utilisateur qui remarque l’appel peut y répondre en composant manuellement le numéro du groupe de prise d’appel. Il n’est pas nécessaire que l’utilisateur qui prend l’appel soit membre du groupe. Lorsqu’un appel est pris par un autre utilisateur, une notification est envoyée au numéro initialement appelé.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un utilisateur ne peut être membre que d’un seul groupe de prise d’appel.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Un utilisateur ne peut être membre que d’un seul groupe de prise d’appel.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tout utilisateur dans le déploiement Lync Server peut répondre à un appel destiné à un membre du groupe de prise d’appel, mais il doit connaître le numéro de groupe de prise d’appel exact à composer.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Tout utilisateur dans le déploiement Lync Server peut répondre à un appel destiné à un membre du groupe de prise d’appel, mais il doit connaître le numéro de groupe de prise d’appel exact à composer.
 
 Si un utilisateur compose un numéro de groupe de prise d’appel pour répondre à un appel alors que plusieurs téléphones du groupe sonnent, il répond à l’appel qui a sonné en premier.
 
@@ -77,35 +44,13 @@ La prise d’appel de groupe ne permet pas de répondre aux types d’appel suiv
 
   - Appels en provenance d’un contact auquel a été affecté le niveau de confidentialité Famille et amis
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Tout utilisateur membre d’un groupe de prise d’appel peut empêcher certains appels d’être récupérés par le biais de la prise d’appel de groupe en marquant le contact en tant que contact personnel dans le client Lync. Pour marquer un contact en tant que contact personnel, définissez le niveau de confidentialité du contact sur Famille et amis. Aucun appel entrant en provenance d’un contact dont le niveau de confidentialité est défini sur Famille et amis ne peut être récupéré à l’aide de la prise d’appel de groupe.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Tout utilisateur membre d’un groupe de prise d’appel peut empêcher certains appels d’être récupérés par le biais de la prise d’appel de groupe en marquant le contact en tant que contact personnel dans le client Lync. Pour marquer un contact en tant que contact personnel, définissez le niveau de confidentialité du contact sur Famille et amis. Aucun appel entrant en provenance d’un contact dont le niveau de confidentialité est défini sur Famille et amis ne peut être récupéré à l’aide de la prise d’appel de groupe.
 
   - Partie vidéo d’un appel audio/vidéo
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si un utilisateur répond à un appel audio/vidéo, il reçoit uniquement la partie audio. La personne qui passe l’appel ou celle qui y répond peut doter l’appel de la fonctionnalité vidéo.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si un utilisateur répond à un appel audio/vidéo, il reçoit uniquement la partie audio. La personne qui passe l’appel ou celle qui y répond peut doter l’appel de la fonctionnalité vidéo.
 
   - Appels à sonnerie simultanée routés vers les membres d’appel de l’équipe
 

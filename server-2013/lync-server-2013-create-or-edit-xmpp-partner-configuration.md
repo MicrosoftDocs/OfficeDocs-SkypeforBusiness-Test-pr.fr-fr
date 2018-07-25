@@ -66,19 +66,8 @@ Microsoft Lync Server 2013 intègre un proxy XMPP (Extensible Messaging and Pre
     
       - **Négociation SASL**. Définit les règles de négociation SASL. Un service XMPP peut nécessiter SASL, peut rendre SASL facultatif ou vous pouvez décider de ne pas prendre en charge SASL. Si vous sélectionnez Facultatif, le service XMPP est responsable de la décision sur la négociation obligatoire.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>SASL requiert TLS. Pour utiliser SASL, TLS doit être requis ou facultatif. Toute configuration qui définit SASL comme étant requis ou facultatif doit disposer d’une prise en charge TSL. Quand vous cliquez sur <strong>Valider</strong> pour enregistrer vos modifications, si vous n’avez pas défini TLS sur requis ou facultatif, un message vous avertira que SASL doit avoir une prise en charge TLS et que vos modifications ne seront pas enregistrées. Pour résoudre l’erreur, définissez TLS sur <strong>Requis</strong> ou <strong>Facultatif</strong>. Si l’utilisation de SASL est facultative et que la prise en charge de la négociation TLS est impossible, vous devez définir la négociation SASL sur <strong>Non pris en charge</strong>. Confirmez avec le service XMPP les conditions requises en matière de flux de négociation pour TLS et SASL ou le service sera interrompu.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!warning]  
+        > SASL requiert TLS. Pour utiliser SASL, TLS doit être requis ou facultatif. Toute configuration qui définit SASL comme étant requis ou facultatif doit disposer d’une prise en charge TSL. Quand vous cliquez sur <strong>Valider</strong> pour enregistrer vos modifications, si vous n’avez pas défini TLS sur requis ou facultatif, un message vous avertira que SASL doit avoir une prise en charge TLS et que vos modifications ne seront pas enregistrées. Pour résoudre l’erreur, définissez TLS sur <strong>Requis</strong> ou <strong>Facultatif</strong>. Si l’utilisation de SASL est facultative et que la prise en charge de la négociation TLS est impossible, vous devez définir la négociation SASL sur <strong>Non pris en charge</strong>. Confirmez avec le service XMPP les conditions requises en matière de flux de négociation pour TLS et SASL ou le service sera interrompu.        
           -   
             **Obligatoire**. Le service XMPP nécessite la négociation SASL.
         

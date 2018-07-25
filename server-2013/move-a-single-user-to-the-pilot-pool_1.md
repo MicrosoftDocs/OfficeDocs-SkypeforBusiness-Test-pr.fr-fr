@@ -65,16 +65,5 @@ Vous pouvez déplacer un utilisateur de votre pool Office Communications Server�
     
     ![Sortie de l’applet de commande Get-CsUser avec filtre Identité](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Sortie de l’applet de commande Get-CsUser avec filtre Identité")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur l’applet de commande <strong>Get-CsUser</strong> , exécutez  : <strong>Get-Help Get-CsUser –Detailed</strong></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour plus d’informations sur l’applet de commande <strong>Get-CsUser</strong> , exécutez  : <strong>Get-Help Get-CsUser –Detailed</strong>

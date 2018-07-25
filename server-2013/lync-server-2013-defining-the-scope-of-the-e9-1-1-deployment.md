@@ -35,19 +35,8 @@ Avant de configurer Microsoft Lync Server 2013 pour E9-1-1, vous devez planifie
   - **Allez-vous activer E9-1-1 pour les utilisateurs travaillant en dehors du réseau ?**  
     L’acquisition d’emplacement automatique n’est disponible que pour les clients se trouvant sur le réseau de l’organisation, votre société doit donc décider si elle prendra en charge les appels E9-1-1 effectués à partir de clients Lync en dehors du site. Par exemple, allez-vous autoriser les utilisateurs à passer des appels d’urgence quand ils travaillent de chez eux ou chez un client ? Si un client se trouve en dehors du réseau d’entreprise, il peut être configuré de sorte à inviter l’utilisateur à indiquer son emplacement. Cependant, les emplacements fournis par l’utilisateur ne peuvent pas être prévalidés par rapport au guide MSAG (Master Street Address Guide), le répartiteur du fournisseur de services d’urgence devra donc confirmer verbalement avec l’appelant la validité de son emplacement avant d’acheminer l’appel vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les clients Lync des utilisateurs qui se connectent au réseau de votre organisation à l’aide d’un VPN peuvent récupérer des informations d’adresses IP internes, mais comme elles ne peuvent pas être utilisées pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux VPN soient exclus du service d’informations sur l’emplacement.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Les clients Lync des utilisateurs qui se connectent au réseau de votre organisation à l’aide d’un VPN peuvent récupérer des informations d’adresses IP internes, mais comme elles ne peuvent pas être utilisées pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux VPN soient exclus du service d’informations sur l’emplacement.
 
 <!-- end list -->
 

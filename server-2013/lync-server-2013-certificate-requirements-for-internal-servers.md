@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2017-02-17_
 
 Les serveurs internes qui exécutent Lync Server et qui requièrent des certificats sont les suivants : le serveur Standard Edition, le serveur frontal Enterprise Edition, le serveur de médiation et le directeur. Le tableau ci-dessous indique les certificats requis pour ces serveurs. Vous pouvez utiliser l’Assistant Certificat de Lync Server pour demander ces certificats.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les certificats avec caractères génériques sont pris en charge pour les autres noms d’objets associés à des URL simples sur le pool de serveurs frontaux, le serveur frontal ou le directeur. Pour plus d’informations sur la prise en charge des certificats avec caractères génériques, reportez-vous à <a href="lync-server-2013-wildcard-certificate-support.md">Prise en charge des certificats comportant des caractères génériques dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Les certificats avec caractères génériques sont pris en charge pour les autres noms d’objets associés à des URL simples sur le pool de serveurs frontaux, le serveur frontal ou le directeur. Pour plus d’informations sur la prise en charge des certificats avec caractères génériques, reportez-vous à <a href="lync-server-2013-wildcard-certificate-support.md">Prise en charge des certificats comportant des caractères génériques dans Lync Server 2013</a>.
 
 Même si une autorité de certification d’entreprise interne est recommandée pour les serveurs internes, vous pouvez également utiliser une autorité de certification publique. Pour obtenir la liste des autorités de certification publiques fournissant des certificats conformes aux exigences des communications unifiées et ayant conclu un partenariat avec Microsoft afin de garantir la compatibilité de leurs certificats avec l’Assistant Certificat de Lync Server, consultez l’article 929395 de la Base de connaissances Microsoft « Partenaires de certificat de communications unifiées pour Exchange Server et Communications Server », à l’adresse [http://go.microsoft.com/fwlink/?linkid=202834\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=202834%26clcid=0x40c).
 
@@ -41,33 +30,11 @@ Les tableaux suivants indiquent les certificats requis par rôle serveur pour le
 
 Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification des serveurs est automatiquement configurée lorsque vous utilisez l’Assistant Certificat pour demander des certificats.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le nom convivial de chaque certificat doit être unique dans le magasin de l’ordinateur.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Le nom convivial de chaque certificat doit être unique dans le magasin de l’ordinateur.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous avez configuré sipinternal.contoso.com ou sipexternal.contoso.com dans votre DNS, vous devrez les ajouter dans Autre nom du sujet du certificat.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous avez configuré sipinternal.contoso.com ou sipexternal.contoso.com dans votre DNS, vous devrez les ajouter dans Autre nom du sujet du certificat.
 
 ### Certificats pour les serveurs Standard Edition Server
 
@@ -104,15 +71,8 @@ Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification
 <tr class="even">
 <td><p>Web interne</p></td>
 <td><p>Nom de domaine complet du serveur</p></td>
-<td><p>Pour chaque élément suivant :</p>
-<ul>
-<li><p>Nom de domaine complet web interne (qui est le même que celui du serveur)</p></li>
-<li><p>URL simples Meet</p></li>
-<li><p>URL simple Dial-in</p></li>
-<li><p>URL simple Admin</p>
-<p></p></li>
-<li><p>Ou, une entrée de caractère générique pour les URL simples</p></li>
-</ul>
+<td><p>Pour chaque élément suivant :</p><ul><li><p>Nom de domaine complet web interne (qui est le même que celui du serveur)</p></li><li><p>URL simples Meet</p></li><li><p>URL simple Dial-in</p></li><li><p>URL simple Admin</p>
+<p></p></li><li><p>Ou, une entrée de caractère générique pour les URL simples</p></li></ul>
 <p></p></td>
 <td><p>SN=se01.contoso.com ; SAN=se01.contoso.com ; SAN=meet.contoso.com ; SAN=meet.fabrikam.com ; SAN=dialin.contoso.com ; SAN=admin.contoso.com</p>
 <p>Utilisation d’un certificat de caractère générique :</p>
@@ -124,13 +84,7 @@ Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification
 <tr class="odd">
 <td><p>Web externe</p></td>
 <td><p>Nom de domaine complet du serveur</p></td>
-<td><p>Pour chaque élément suivant :</p>
-<ul>
-<li><p>Nom de domaine complet web externe</p></li>
-<li><p>URL simple Dial-in</p></li>
-<li><p>URL simples de réunion par domaine SIP</p></li>
-<li><p>Ou, une entrée de caractère générique pour les URL simples</p></li>
-</ul></td>
+<td><p>Pour chaque élément suivant :</p><ul><li><p>Nom de domaine complet web externe</p></li><li><p>URL simple Dial-in</p></li><li><p>URL simples de réunion par domaine SIP</p></li><li><p>Ou, une entrée de caractère générique pour les URL simples</p></li></ul></td>
 <td><p>SN=se01.contoso.com ; SAN=webcon01.contoso.com ; SAN=meet.contoso.com ; SAN=meet.fabrikam.com ; SAN=dialin.contoso.com</p>
 <p>Utilisation d’un certificat de caractère générique :</p>
 <p>SN=se01.contoso.com ; SAN=webcon01.contoso.com ; SAN=*.contoso.com</p></td>
@@ -175,16 +129,7 @@ Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification
 <tr class="even">
 <td><p>Web interne</p></td>
 <td><p>Nom de domaine complet du pool</p></td>
-<td><p>Pour chaque élément suivant :</p>
-<ul>
-<li><p>Nom de domaine complet web interne (qui n’est PAS le même que celui du serveur)</p></li>
-<li><p>Nom de domaine complet du serveur</p></li>
-<li><p>Nom de domaine complet du pool Lync</p></li>
-<li><p>URL simples Meet</p></li>
-<li><p>URL simple Dial-in</p></li>
-<li><p>URL simple Admin</p></li>
-<li><p>Ou, une entrée de caractère générique pour les URL simples</p></li>
-</ul>
+<td><p>Pour chaque élément suivant :</p><ul><li><p>Nom de domaine complet web interne (qui n’est PAS le même que celui du serveur)</p></li><li><p>Nom de domaine complet du serveur</p></li><li><p>Nom de domaine complet du pool Lync</p></li><li><p>URL simples Meet</p></li><li><p>URL simple Dial-in</p></li><li><p>URL simple Admin</p></li><li><p>Ou, une entrée de caractère générique pour les URL simples</p></li></ul>
 <p></p></td>
 <td><p>SN=ee01.contoso.com ; SAN=ee01.contoso.com ; SAN=meet.contoso.com ; SAN=meet.fabrikam.com ; SAN=dialin.contoso.com ; SAN=admin.contoso.com</p>
 <p>Utilisation d’un certificat de caractère générique :</p>
@@ -195,13 +140,7 @@ Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification
 <tr class="odd">
 <td><p>Web externe</p></td>
 <td><p>Nom de domaine complet du pool</p></td>
-<td><p>Pour chaque élément suivant :</p>
-<ul>
-<li><p>Nom de domaine complet web externe</p></li>
-<li><p>URL simple Dial-in</p></li>
-<li><p>URL simple Admin</p></li>
-<li><p>Ou, une entrée de caractère générique pour les URL simples</p></li>
-</ul></td>
+<td><p>Pour chaque élément suivant :</p><ul><li><p>Nom de domaine complet web externe</p></li><li><p>URL simple Dial-in</p></li><li><p>URL simple Admin</p></li><li><p>Ou, une entrée de caractère générique pour les URL simples</p></li></ul></td>
 <td><p>SN=ee01.contoso.com ; SAN=webcon01.contoso.com ; SAN=meet.contoso.com ; SAN=meet.fabrikam.com ; SAN=dialin.contoso.com</p>
 <p>Utilisation d’un certificat de caractère générique :</p>
 <p>SN=ee01.contoso.com ; SAN=webcon01.contoso.com ; SAN=*.contoso.com</p></td>
@@ -241,14 +180,7 @@ Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification
 <tr class="even">
 <td><p>Web interne</p></td>
 <td><p>Nom de domaine complet du serveur</p></td>
-<td><p>Pour chaque élément suivant :</p>
-<ul>
-<li><p>Nom de domaine complet web interne (qui est le même que celui du serveur)</p></li>
-<li><p>URL simples Meet</p></li>
-<li><p>URL simple Dial-in</p></li>
-<li><p>URL simple Admin</p></li>
-<li><p>Ou, une entrée de caractère générique pour les URL simples</p></li>
-</ul>
+<td><p>Pour chaque élément suivant :</p><ul><li><p>Nom de domaine complet web interne (qui est le même que celui du serveur)</p></li><li><p>URL simples Meet</p></li><li><p>URL simple Dial-in</p></li><li><p>URL simple Admin</p></li><li><p>Ou, une entrée de caractère générique pour les URL simples</p></li></ul>
 <p></p></td>
 <td><p>SN=dir01.contoso.com ; SAN=dir01.contoso.com ; SAN=meet.contoso.com ; SAN=meet.fabrikam.com ; SAN=dialin.contoso.com ; SAN=admin.contoso.com</p>
 <p>SN=dir01.contoso.com ; SAN=dir01.contoso.com ; SAN=*.contoso.com</p></td>
@@ -256,13 +188,7 @@ Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification
 <tr class="odd">
 <td><p>Web externe</p></td>
 <td><p>Nom de domaine complet du serveur</p></td>
-<td><p>Pour chaque élément suivant :</p>
-<ul>
-<li><p>Nom de domaine complet web externe</p></li>
-<li><p>URL simple Dial-in</p></li>
-<li><p>URL simple Admin</p></li>
-<li><p>Ou, une entrée de caractère générique pour les URL simples</p></li>
-</ul></td>
+<td><p>Pour chaque élément suivant :</p><ul><li><p>Nom de domaine complet web externe</p></li><li><p>URL simple Dial-in</p></li><li><p>URL simple Admin</p></li><li><p>Ou, une entrée de caractère générique pour les URL simples</p></li></ul></td>
 <td><p>Le nom de domaine complet du pool directeur doit être différent du pool de serveurs frontaux ou du serveur frontal.</p>
 <p>SN=dir01.contoso.com ; SAN=directorwebcon01.contoso.com ; SAN=meet.contoso.com ; SAN=meet.fabrikam.com ; SAN=dialin.contoso.com</p>
 <p>SN=dir01.contoso.com ; SAN=directorwebcon01.contoso.com ; SAN=*.contoso.com</p></td>

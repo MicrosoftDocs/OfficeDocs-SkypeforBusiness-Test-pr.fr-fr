@@ -60,29 +60,12 @@ Si vous déployez un serveur Enterprise, un nombre minimal de serveurs frontaux 
 </table>
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour Lync Server 2013, lorsque vous ajoutez ou supprimez un serveur frontal du pool, vous devez redémarrer les services. La suppression et l’ajout de serveurs doivent être effectuées séparément. Par exemple, si vous allez ajouter deux serveurs frontaux et en supprimer deux autres, procédez comme suit :
-<ol>
-<li><p>Supprimez les deux serveurs frontaux.</p></li>
-<li><p>Publiez et réactivez la topologie.</p></li>
-<li><p>Redémarrez les services.</p></li>
-<li><p>Ajoutez les deux serveurs frontaux.</p></li>
-<li><p>Publiez et réactivez la topologie.</p></li>
-<li><p>Redémarrez les services.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Pour Lync Server 2013, lorsque vous ajoutez ou supprimez un serveur frontal du pool, vous devez redémarrer les services. La suppression et l’ajout de serveurs doivent être effectuées séparément. Par exemple, si vous allez ajouter deux serveurs frontaux et en supprimer deux autres, procédez comme suit :<ol><li><p>Supprimez les deux serveurs frontaux.</p></li><li><p>Publiez et réactivez la topologie.</p></li>
+> <li><p>Redémarrez les services.</p></li>
+> <li><p>Ajoutez les deux serveurs frontaux.</p></li>
+> <li><p>Publiez et réactivez la topologie.</p></li>
+> <li><p>Redémarrez les services.</p></li></ol>
 
 
 Après avoir défini votre topologie, procédez comme suit pour définir un pool de serveurs frontaux pour votre site. Pour plus d’informations sur la définition de la topologie, reportez-vous à [Définition et configuration d’une topologie dans le générateur de topologie pour Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md).
@@ -95,9 +78,7 @@ Après avoir défini votre topologie, procédez comme suit pour définir un pool
 
 3.  Dans la page **Définissez les ordinateurs inclus dans ce pool**, entrez le FQDN d’un ordinateur pour le premier serveur frontal dans le pool, puis cliquez sur **Ajouter**. Répétez cette étape pour les autres ordinateurs (jusqu’à douze) à ajouter au pool, puis sur **Suivant**.
 
-4.  
-    
-    Dans la page **Sélectionner les fonctionnalités**, activez les cases à cocher correspondant aux fonctionnalités souhaitées pour ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case **Conférence** pour autoriser la messagerie instantanée à plusieurs, mais n’activez pas les cases à cocher **Conférence rendez-vous (RTC)**, **Voix Entreprise** ou **Contrôle d’admission d’appel**, car elles représentent les fonctionnalités de voix, de vidéo et de conférence collaborative.
+4. Dans la page **Sélectionner les fonctionnalités**, activez les cases à cocher correspondant aux fonctionnalités souhaitées pour ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case **Conférence** pour autoriser la messagerie instantanée à plusieurs, mais n’activez pas les cases à cocher **Conférence rendez-vous (RTC)**, **Voix Entreprise** ou **Contrôle d’admission d’appel**, car elles représentent les fonctionnalités de voix, de vidéo et de conférence collaborative.
     
       - **Conférence** Cette sélection permet d’accéder à un ensemble complet de fonctionnalités, dont :
         
@@ -117,19 +98,8 @@ Après avoir défini votre topologie, procédez comme suit pour définir un pool
     
       - **Surveillance**   Le serveur de surveillance vous permet de collecter des données numériques qui décrivent la qualité des médias de votre réseau et vos points de terminaison, des informations d’utilisation liées aux appels VoIP, messages de messagerie instantanée, conversations A/V, réunions, partage d’application et transferts de fichiers, ainsi que des informations sur les erreurs des appels et des informations d’identification et de résolution des problèmes des appels qui ont échoué.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous souhaitez activer le contrôle d’admission des appels dans votre déploiement, il vous faut activer cette fonctionnalité dans un pool par site central. Le contrôle d’admission des appels est recommandé lorsque vous déployez les fonctionnalités vocales ou la conférence A/V.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Si vous souhaitez activer le contrôle d’admission des appels dans votre déploiement, il vous faut activer cette fonctionnalité dans un pool par site central. Le contrôle d’admission des appels est recommandé lorsque vous déployez les fonctionnalités vocales ou la conférence A/V.    
     Le tableau ci-dessous indique les fonctionnalités disponibles (en haut) et les fonctions proposées aux utilisateurs (à gauche). Sélectionnez les différents choix dans le tableau pour activer ces fonctionnalités dans votre organisation.
     
     
@@ -191,19 +161,8 @@ Après avoir défini votre topologie, procédez comme suit pour définir un pool
     
       - Si vous prévoyez de déployer le serveur de médiation en tant que serveur autonome, désactivez la case à cocher appropriée. Vous déploierez le serveur de médiation dans une étape de déploiement distincte une fois le serveur frontal entièrement déployé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nous vous recommandons de colocaliser le serveur de médiation si cela vous est possible. Pour plus d’informations sur la prise en charge des serveurs de médiation colocalisés ou autonomes, reportez-vous à <a href="lync-server-2013-components-and-topologies-for-mediation-server.md">Composants et topologies utilisés pour le serveur de médiation dans Lync Server 2013</a> dans la documentation de planification.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Nous vous recommandons de colocaliser le serveur de médiation si cela vous est possible. Pour plus d’informations sur la prise en charge des serveurs de médiation colocalisés ou autonomes, reportez-vous à <a href="lync-server-2013-components-and-topologies-for-mediation-server.md">Composants et topologies utilisés pour le serveur de médiation dans Lync Server 2013</a> dans la documentation de planification.
 
 6.  La page **Rôles serveur associés à ce pool frontal** vous permet de définir et d’associer des rôles serveur au pool de serveurs frontaux. Le rôle suivant est disponible :
     
@@ -239,78 +198,23 @@ Après avoir défini votre topologie, procédez comme suit pour définir un pool
     
       - Pour définir un nouveau partage de fichiers, sélectionnez **Définir un nouveau partage de fichiers** . Dans la zone **Nom de domaine complet du serveur de fichiers** , entrez le nom de domaine complet (FQDN) du serveur de fichiers existant où le partage de fichiers doit être placé, puis entrez un nom pour le partage de fichiers dans la zone **Partage de fichiers** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le partage de fichiers de Lync Server 2013 ne peut se trouver sur le serveur frontal. Notez que dans cet exemple, le partage de fichiers se situait sur le serveur principal SQL Server. Il ne s’agit peut-être pas d’un emplacement optimal pour les besoins de votre organisation ; un serveur de fichiers peut s’avérer être un meilleur choix. Vous pouvez définir le partage de fichiers sans qu’il soit nécessaire de le créer. Vous devrez créer le partage de fichiers à l’emplacement que vous définissez avant de publier la topologie.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Le partage de fichiers de Lync Server 2013 ne peut se trouver sur le serveur frontal. Notez que dans cet exemple, le partage de fichiers se situait sur le serveur principal SQL Server. Il ne s’agit peut-être pas d’un emplacement optimal pour les besoins de votre organisation ; un serveur de fichiers peut s’avérer être un meilleur choix. Vous pouvez définir le partage de fichiers sans qu’il soit nécessaire de le créer. Vous devrez créer le partage de fichiers à l’emplacement que vous définissez avant de publier la topologie.
 
 9.  Dans la page **Spécifier l’URL des services web** , effectuez l’une ou plusieurs des opérations suivantes :
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services web du pool est https://pool01.contoso.net, l’URL de base est pool01.contoso.net.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous disposez de plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!important]  
+    > L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services web du pool est https://pool01.contoso.net, l’URL de base est pool01.contoso.net.    
+    > [!warning]  
+    > Si vous disposez de plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal.    
     1.  Si vous configurez l’équilibrage de la charge DNS, activez la case à cocher **Remplacer le nom de domaine complet du pool des services web internes** , entrez l’URL de base interne (qui doit être différente du nom de domaine complet du pool, par exemple, \<votre URL de base\> interne) dans **URL de base interne** .
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être différent des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs. <strong>Utilisez uniquement des caractères standard</strong> (A–Z, a–z, 0–9 et tirets) lorsque vous définissez des URL ou des noms de domaine complets. N’utilisez ni caractère Unicode ni trait de soulignement. En général, les DNS externes et les autorités de certification publiques ne prennent pas en charge les caractères non standard dans les URL ou noms de domaine complets (c’est-à-dire lorsque l’URL ou le nom de domaine complet doit être affecté au nom d’objet ou autre nom d’objet du certificat).</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!warning]  
+        > Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être différent des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs. <strong>Utilisez uniquement des caractères standard</strong> (A–Z, a–z, 0–9 et tirets) lorsque vous définissez des URL ou des noms de domaine complets. N’utilisez ni caractère Unicode ni trait de soulignement. En général, les DNS externes et les autorités de certification publiques ne prennent pas en charge les caractères non standard dans les URL ou noms de domaine complets (c’est-à-dire lorsque l’URL ou le nom de domaine complet doit être affecté au nom d’objet ou autre nom d’objet du certificat).    
     2.  Entrez l’URL de base externe dans **URL de base externe** (facultatif). Entrez l’URL de base externe pour la différencier de votre nom de domaine interne. Par exemple, votre domaine interne est contoso.net, mais votre nom de domaine externe est contoso.com. Définissez alors l’URL à l’aide du nom de domaine contoso.com. Cela est également important dans le cas d’un proxy inverse. Le nom de domaine de l’URL de base externe est le même que le nom de domaine du nom de domaine complet du proxy inverse. Les fonctionnalités de messagerie instantanée et de présence ne nécessitent pas d’accès HTTP au pool de serveurs frontaux.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour utiliser l’équilibrage de charge DNS, vous devez créer les enregistrements DNS appropriés. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configure-dns-for-load-balancing.md">Configuration du DNS pour l’équilibrage de charge dans Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour utiliser l’équilibrage de charge DNS, vous devez créer les enregistrements DNS appropriés. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configure-dns-for-load-balancing.md">Configuration du DNS pour l’équilibrage de charge dans Lync Server 2013</a>.
 
 10. Si vous avez sélectionné **Conférence** dans la page **Sélectionner les fonctionnalités** , dans la page **Sélectionner un serveur Office Web Apps** , sélectionnez **Associer un pool avec un serveur Office Web Apps** , puis cliquez sur **Nouveau** (ou sélectionnez un serveur Office Web Apps Server existant dans la liste déroulante).
 
@@ -320,19 +224,8 @@ Après avoir défini votre topologie, procédez comme suit pour définir un pool
     
     Si le serveur Office Web Apps Server est déployé en dehors de votre pare-feu interne, alors sélectionnez l’option **Le serveur Office Web Apps est déployé sur un réseau \_externe (périmètre/Internet)** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuration de l’intégration à Office Web Apps Server et Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuration de l’intégration à Office Web Apps Server et Lync Server 2013</a>.
 
 12. Dans la page **Définir le magasin SQL Server d’archivage** , sélectionnez une instance existante ou SQL Server, ou définissez une nouvelle instance pour stocker les données associées aux données d’archivage.
 

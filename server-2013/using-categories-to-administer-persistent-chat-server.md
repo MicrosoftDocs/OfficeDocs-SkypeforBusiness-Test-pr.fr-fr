@@ -17,37 +17,15 @@ _**Dernière rubrique modifiée :** 2013-10-01_
 
 Votre déploiement de serveur de conversations permanentes peut héberger plusieurs salles de conversation permanente en même temps. Les salles de conversation peuvent être organisées en un ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une seule catégorie, et hérite certains paramètres de cette catégorie. Cette organisation crée une structure pratique pour identifier les conversations sur la base de leur objectif métier et facilite une administration déléguée et une gestion simplifiée.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Même si de nombreuses fonctionnalités de gestion des salles de conversation sont disponibles sur les ordinateurs exécutant la conversation permanente (client Lync) pour l’utilisateur, les administrateurs de conversation permanente (dans le rôle <strong>cspersistentchatadministrator</strong>) doivent utiliser le Panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour créer ou gérer les catégories.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Même si de nombreuses fonctionnalités de gestion des salles de conversation sont disponibles sur les ordinateurs exécutant la conversation permanente (client Lync) pour l’utilisateur, les administrateurs de conversation permanente (dans le rôle <strong>cspersistentchatadministrator</strong>) doivent utiliser le Panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour créer ou gérer les catégories.
 
 Les administrateurs de conversation permanente utilisent le Panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour créer et gérer les catégories, et pour concevoir l’accès aux salles de conversation pour les utilisateurs dans leur organisation.
 
 Les gestionnaires de salle de conversation permanente, qui peuvent gérer une ou plusieurs salles de conversation, peuvent utiliser le client Lync pour lancer une application web de gestion de salles pour créer et gérer les salles (ou les clients peuvent créer des solutions et flux de travail personnalisés à appeler). Les administrateurs de conversation permanente peuvent également utiliser le Panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour créer et gérer les salles.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une salle conversation permanente ne peut pas avoir le même nom qu’une catégorie conversation permanente.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Une salle conversation permanente ne peut pas avoir le même nom qu’une catégorie conversation permanente.
 
 Les responsables de salle de conversation peuvent apporter des modifications aux propriétés des salles de conversation, mais ne peuvent pas modifier la catégorie de la salle. Il n’est pas possible de les empêcher d’effectuer les actions suivantes :
 

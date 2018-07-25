@@ -19,35 +19,13 @@ La fédération avec un client Microsoft Lync Online 2010 nécessite les étape
 
   - Configuration de la prise en charge pour le domaine du client Lync Online 2010 (par exemple, contoso.onmicrosoft.com). Tel qu’il est spécifié dans la section [Conditions préalable à la fédération avec un client Lync Online](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) de cette documentation, vous devez au préalable avoir activé la fédération pour votre organisation. Cette dernière requiert la définition de la méthode à utiliser pour contrôler l’accès par les domaines fédérés. Si vous avez configuré votre organisation de manière à utiliser la découverte, l’ajout du domaine à la liste autorisée de votre organisation est facultatif. Si vous n’avez pas activé la découverte du domaine, vous devez ajouter le nom de domaine du client Lync Online à votre liste des domaines autorisés. Pour ce faire, vous pouvez soit utiliser le Panneau de configuration Lync Server, soit exécuter l’applet de commande **New-CSAllowedDomain**. Pour plus d’informations sur l’utilisation du Panneau de configuration Lync Server, y compris l’activation de la découverte de domaine, voir [Gestion des fournisseurs fédérés SIP pour l’organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) dans la documentation des opérations. Pour plus d’informations sur l’utilisation de l’applet de commande **New-CSAllowedDomain** pour ajouter un domaine, voir [New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain) dans la documentation des opérations.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Un client Lync Online peut avoir plusieurs domaines. Si vous souhaitez fédérer avec plusieurs domaines, vous devez configurer la prise en charge pour chaque domaine avec lequel vous souhaitez prendre en charge la fédération, et l’administrateur du client Lync Online doit activer la fédération pour chaque domaine à fédérer.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Un client Lync Online peut avoir plusieurs domaines. Si vous souhaitez fédérer avec plusieurs domaines, vous devez configurer la prise en charge pour chaque domaine avec lequel vous souhaitez prendre en charge la fédération, et l’administrateur du client Lync Online doit activer la fédération pour chaque domaine à fédérer.
 
   - Configuration de la prise en charge pour le fournisseur d’hébergement du domaine client Lync Online 2010 avec lequel vous souhaitez fédérer. Utilisez la procédure de cette section pour configurer la prise en charge pour le fournisseur.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cette étape est requise uniquement pour la fédération avec le domaine d’un client Lync Online, et non pas avec un domaine quelconque déployé sur site dans un emplacement de partenaire fédéré.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Cette étape est requise uniquement pour la fédération avec le domaine d’un client Lync Online, et non pas avec un domaine quelconque déployé sur site dans un emplacement de partenaire fédéré.
 
 ## Configuration de la prise en charge pour le fournisseur d’hébergement
 

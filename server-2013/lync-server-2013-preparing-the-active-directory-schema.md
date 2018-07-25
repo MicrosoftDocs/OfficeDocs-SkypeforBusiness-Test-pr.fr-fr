@@ -29,19 +29,8 @@ Tous les fichiers .ldf sont installés au cours de la préparation du schéma, m
 
 Les extensions de schéma Lync Server sont répliquées dans tous les domaines, ce qui a un impact sur le trafic réseau. Exécutez la préparation du schéma lorsque l’utilisation du réseau est basse.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous devez ajouter la prise en charge de Microsoft® Office Communicator Mobile 2007 R2 pour Java et Microsoft® Office Communicator Mobile pour les clients mobiles Nokia 1.0 à votre déploiement Lync Server 2013, il vous faut préparer le schéma Active Directory pour Microsoft Office Communications Server 2007 R2 lors de l’installation de Lync Server 2013. Pour obtenir la documentation et les logiciels nécessaires, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous devez ajouter la prise en charge de Microsoft® Office Communicator Mobile 2007 R2 pour Java et Microsoft® Office Communicator Mobile pour les clients mobiles Nokia 1.0 à votre déploiement Lync Server 2013, il vous faut préparer le schéma Active Directory pour Microsoft Office Communications Server 2007 R2 lors de l’installation de Lync Server 2013. Pour obtenir la documentation et les logiciels nécessaires, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</a>.
 
 ## Éditeur ADSI
 

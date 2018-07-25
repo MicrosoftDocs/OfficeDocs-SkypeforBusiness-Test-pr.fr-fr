@@ -37,20 +37,9 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
         
           - **Jonction de pool** : choisissez le nom de la jonction à laquelle s’applique cette configuration de jonction dans **Sélectionner un service**, puis cliquez sur **OK**. Cette jonction peut être la jonction racine ou toutes autres jonctions définies dans le Générateur de topologie. Notez que si une configuration de jonction a déjà été créée pour une jonction spécifique, la jonction ne s’affiche pas dans **Sélectionner un service**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Une fois que vous avez sélectionné l’étendue de la configuration de jonction, elle n’est plus modifiable.<br />
-    Le champ <strong>Nom</strong> est prérempli et comporte le nom du site ou service associé à la configuration de jonction. Ce nom n’est pas modifiable.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Une fois que vous avez sélectionné l’étendue de la configuration de jonction, elle n’est plus modifiable.<br />
+    Le champ <strong>Nom</strong> est prérempli et comporte le nom du site ou service associé à la configuration de jonction. Ce nom n’est pas modifiable.
 
 5.  Sélectionnez l’une des options de **Niveau de prise en charge du chiffrement**  :
     
@@ -78,19 +67,8 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
         
         2.  Dans le champ **Nom**, indiquez un nom descriptif unique pour l’enregistrement.
             
-            <table>
-            <thead>
-            <tr class="header">
-            <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr class="odd">
-            <td>Le nom de l’enregistrement d’utilisation RTC doit être unique au sein du déploiement Voix Entreprise. Une fois l’enregistrement enregistré, le champ <strong>Nom</strong> ne peut plus être modifié.</td>
-            </tr>
-            </tbody>
-            </table>
-        
+            > [!note]  
+            > Le nom de l’enregistrement d’utilisation RTC doit être unique au sein du déploiement Voix Entreprise. Une fois l’enregistrement enregistré, le champ <strong>Nom</strong> ne peut plus être modifié.        
         3.  Appliquez l’une des méthodes suivantes pour associer et configurer les itinéraires pour cet enregistrement d’utilisation RTC :
             
               - Pour sélectionner un ou plusieurs itinéraires dans la liste de tous les itinéraires disponibles de votre déploiement Voix Entreprise, cliquez sur **Sélectionner**. Sélectionnez les itinéraires que vous voulez associer à cet enregistrement d’utilisation RTC, puis cliquez sur **OK**.
@@ -119,35 +97,13 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
         
         3.  Cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il est important d’associer les enregistrements d’utilisation RTC en fonction de l’homologue serveur de médiation associé à la jonction configurée. Si l’homologue serveur de médiation est une passerelle RTC ou un contrôleur SBC, il est recommandé de ne pas associer la configuration de jonction à un enregistrement d’utilisation RTC acheminé vers une destination RTC ou d’autres systèmes en aval connectés via Lync Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Il est important d’associer les enregistrements d’utilisation RTC en fonction de l’homologue serveur de médiation associé à la jonction configurée. Si l’homologue serveur de médiation est une passerelle RTC ou un contrôleur SBC, il est recommandé de ne pas associer la configuration de jonction à un enregistrement d’utilisation RTC acheminé vers une destination RTC ou d’autres systèmes en aval connectés via Lync Server.
 
 10. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour changer la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation RTC, puis cliquez sur la flèche vers le haut ou vers le bas.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’ordre des enregistrements d’utilisation RTC dans la liste de la configuration de jonction a son importance. Lync Server parcourt la liste de haut en bas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > L’ordre des enregistrements d’utilisation RTC dans la liste de la configuration de jonction a son importance. Lync Server parcourt la liste de haut en bas.
 
 11. **Activer l’accrochage RTP** doit être sélectionné pour activer la déviation du trafic multimédia pour les clients se trouvant derrière une NAT ou un pare-feu et un contrôleur SBC prenant en charge l’accrochage.
 
@@ -169,19 +125,8 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
     
       - Pour supprimer une règle de conversion de la jonction, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Sécurité Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!security]  
+    > N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit.
 
 16. (Facultatif) Associez et configurez les **règles de conversion de numéro appelé** pour la jonction. Les règles de conversion s’appliquent au numéro appelé dans un appel sortant.
     
@@ -195,53 +140,20 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
     
       - Pour supprimer une règle de conversion de la jonction, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!Caution]  
+    > N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit.
 
 17. Vérifiez que les règles de conversion s’affichent dans l’ordre adéquat. Pour déplacer une règle dans la liste, sélectionnez-la, puis cliquez sur la flèche vers le haut ou vers le bas.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server lit la liste de règles de conversion de haut en bas et applique la première règle qui correspond au numéro composé. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si une règle de conversion s’applique à tout numéro à 11 chiffres et une autre à tout numéro à 11 chiffres commençant par +1425, assurez-vous que la règle s’appliquant à tout numéro à 11 chiffres s’affiche <em>après</em> la règle la plus restrictive.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Lync Server lit la liste de règles de conversion de haut en bas et applique la première règle qui correspond au numéro composé. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si une règle de conversion s’applique à tout numéro à 11 chiffres et une autre à tout numéro à 11 chiffres commençant par +1425, assurez-vous que la règle s’appliquant à tout numéro à 11 chiffres s’affiche <em>après</em> la règle la plus restrictive.
 
 18. Lorsque vous avez terminé de configurer la jonction, cliquez sur **OK**.
 
 19. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>À chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > À chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi
 

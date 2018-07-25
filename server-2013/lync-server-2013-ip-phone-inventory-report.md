@@ -23,19 +23,8 @@ Il convient également de noter que le rapport d’inventaire pourrait inclure d
 
 En outre, le Rapport d’inventaire de téléphonie IP ne fournit aucun total récapitulatif pour les différents types de téléphones. Par exemple, supposez que vous avez 105 téléphones Polycom CX600. Le rapport ne vous indiquera pas que vous avez 105 de ces téléphones ; au lieu de cela, vous verrez simplement 105 entrées distinctes pour le Polycom Cx600. Le seul moyen de savoir qu’il y a 105 entrées pour le Polycom Cx600 serait de compter chacune de ces entrées manuellement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pourriez également exporter les données et utiliser Microsoft Excel ou Windows PowerShell pour compter les entrées à votre place.</td>
-</tr>
-</tbody>
-</table>
-
+> [!warning]  
+> Vous pourriez également exporter les données et utiliser Microsoft Excel ou Windows PowerShell pour compter les entrées à votre place.
 
 ## Accès au Rapport d’inventaire de téléphonie IP
 
@@ -143,23 +132,11 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="odd">
 <td><p><strong>Dernière activité avant les jours</strong></p></td>
-<td><p>Sélectionnez l’une des valeurs suivantes :</p>
-<ul>
-<li><p>[Tous]</p></li>
-<li><p>10</p></li>
-<li><p>20</p></li>
-<li><p>30</p></li>
-</ul></td>
+<td><p>Sélectionnez l’une des valeurs suivantes :</p><ul><li><p>[Tous]</p></li><li><p>10</p></li><li><p>20</p></li><li><p>30</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Heure de la dernière fermeture de session avant les jours</strong></p></td>
-<td><p>Sélectionnez l’une des valeurs suivantes :</p>
-<ul>
-<li><p>[Tous]</p></li>
-<li><p>10</p></li>
-<li><p>20</p></li>
-<li><p>30</p></li>
-</ul></td>
+<td><p>Sélectionnez l’une des valeurs suivantes :</p><ul><li><p>[Tous]</p></li><li><p>10</p></li><li><p>20</p></li><li><p>30</p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Préfixe URI de l’utilisateur</strong></p></td>

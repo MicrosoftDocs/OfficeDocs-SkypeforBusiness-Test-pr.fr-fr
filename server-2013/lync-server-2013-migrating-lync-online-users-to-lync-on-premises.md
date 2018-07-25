@@ -15,20 +15,9 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ces étapes ne sont nécessaires que pour la migration de comptes d’utilisateur activés à l’origine pour Lync dans Lync Online, avant le déploiement de Lync sur site. Pour déplacer les utilisateurs activés initialement pour Lync local, puis déplacés vers Lync Online, voir <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administration des utilisateurs dans un déploiement Lync Server 2013 hybride</a>.<br />
-De plus, tous les utilisateurs en cours de déplacement doivent disposer de comptes dans l’instance Active Directory sur site.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Ces étapes ne sont nécessaires que pour la migration de comptes d’utilisateur activés à l’origine pour Lync dans Lync Online, avant le déploiement de Lync sur site. Pour déplacer les utilisateurs activés initialement pour Lync local, puis déplacés vers Lync Online, voir <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administration des utilisateurs dans un déploiement Lync Server 2013 hybride</a>.<br />
+De plus, tous les utilisateurs en cours de déplacement doivent disposer de comptes dans l’instance Active Directory sur site.
 
 ## Migration des comptes d’utilisateur activés initialement dans Lync Online vers Lync local
 
@@ -139,19 +128,8 @@ De plus, tous les utilisateurs en cours de déplacement doivent disposer de comp
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La taille maximale par défaut pour les fichiers journaux de transaction de la base de données rtcxds est de 16 Go. Cette taille peut être insuffisante si vous déplacez simultanément un grand nombre d’utilisateurs, notamment si la mise en miroir est activée. Pour résoudre ce problème, vous pouvez augmenter la taille du fichier ou sauvegarder régulièrement les fichiers journaux. Pour plus d’informations, voir <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > La taille maximale par défaut pour les fichiers journaux de transaction de la base de données rtcxds est de 16 Go. Cette taille peut être insuffisante si vous déplacez simultanément un grand nombre d’utilisateurs, notamment si la mise en miroir est activée. Pour résoudre ce problème, vous pouvez augmenter la taille du fichier ou sauvegarder régulièrement les fichiers journaux. Pour plus d’informations, voir <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.
 
 8.  Il s’agit d’une étape facultative. Pour une intégration à Exchange 2013 Online, vous devez faire appel à un autre fournisseur d’hébergement. Pour plus d’informations, voir [Configuration de l’intégration de Lync Server 2013 local avec Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
 

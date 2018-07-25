@@ -19,19 +19,8 @@ Vous pouvez utiliser les résultats d’une requête de recherche pour configure
 
 Vous pouvez rechercher des utilisateurs à partir du Panneau de configuration Lync Server ou du composant logiciel enfichable Utilisateurs et ordinateurs Active Directory. La procédure suivante explique comment effectuer une recherche d’utilisateurs à partir du Panneau de configuration Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans un environnement doté d’une topologie de forêt centrale, les résultats des recherches risquent d’être erronés si vous recherchez un utilisateur en fonction de son adresse de messagerie. À la place, vous pouvez effectuer une recherche d’utilisateurs en spécifiant un préfixe d’adresse SIP, par exemple, sip:name. Vous pouvez ajouter un filtre de recherche et sélectionner une adresse SIP qui contient une partie de l’adresse de messagerie ou utiliser l’applet de commande <strong>Get-CSUser</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Dans un environnement doté d’une topologie de forêt centrale, les résultats des recherches risquent d’être erronés si vous recherchez un utilisateur en fonction de son adresse de messagerie. À la place, vous pouvez effectuer une recherche d’utilisateurs en spécifiant un préfixe d’adresse SIP, par exemple, sip:name. Vous pouvez ajouter un filtre de recherche et sélectionner une adresse SIP qui contient une partie de l’adresse de messagerie ou utiliser l’applet de commande <strong>Get-CSUser</strong>.
 
 ## Pour rechercher un ou plusieurs utilisateurs
 

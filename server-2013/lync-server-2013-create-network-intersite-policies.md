@@ -27,19 +27,8 @@ Pour plus d’informations, voir la documentation de Lync Server Management Shel
 
   - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une stratégie intersite réseau est nécessaire <em>uniquement</em> s’il existe un lien d’accès direct entre deux sites réseau.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Une stratégie intersite réseau est nécessaire <em>uniquement</em> s’il existe un lien d’accès direct entre deux sites réseau.
 
 Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque. Ces deux sites nécessitent une stratégie intersite qui applique un profil de stratégie de bande passante approprié. L’exemple suivant applique le profil 20Mb\_Link.
 

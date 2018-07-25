@@ -41,20 +41,9 @@ Le rapport d’activité de l’utilisateur est accessible via la page d’accue
 
 Même si le rapport d’activité de l’utilisateur contient des informations utiles, il peut parfois être difficile de les rechercher. Par exemple, toute l’activité qu’effectue l’utilisateur au sein de votre organisation au cours d’une période donnée est incluse dans le rapport d’activité de l’utilisateur ; autrement dit, quelque part dans le rapport se cachent des informations qui renseignent sur l’identité des utilisateurs qui ont utilisé Microsoft Lync Server 2013 d’une manière ou d’une autre.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Techniquement, il est possible que certains détails de l’activité de l’utilisateur ne soient pas enregistrés : même si Lync Server s’efforce de consigner les informations sur tous les appels téléphoniques, les informations sur un appel passé peuvent ne pas être écrites dans la base de données. Lync Server a été conçu pour donner un aperçu extrêmement précis mais pas nécessairement exhaustif de la façon dont Lync Server 2013 est utilisé. (L’enregistrement de tous les appels n’étant pas garanti, la fonctionnalité de surveillance de Lync Server ne doit pas être utilisée comme système de facturation.)<br />
-De plus, un rapport de surveillance ne peut afficher que 1 000 enregistrements, tout au plus. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données.</td>
-</tr>
-</tbody>
-</table>
-
+> [!warning]  
+> Techniquement, il est possible que certains détails de l’activité de l’utilisateur ne soient pas enregistrés : même si Lync Server s’efforce de consigner les informations sur tous les appels téléphoniques, les informations sur un appel passé peuvent ne pas être écrites dans la base de données. Lync Server a été conçu pour donner un aperçu extrêmement précis mais pas nécessairement exhaustif de la façon dont Lync Server 2013 est utilisé. (L’enregistrement de tous les appels n’étant pas garanti, la fonctionnalité de surveillance de Lync Server ne doit pas être utilisée comme système de facturation.)<br />
+De plus, un rapport de surveillance ne peut afficher que 1 000 enregistrements, tout au plus. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données.
 
   - Quels sont les utilisateurs qui ont utilisé le système au cours de cette période ?
 
@@ -142,12 +131,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="odd">
 <td><p><strong>Type d’activité</strong></p></td>
-<td><p>Type d’activité. Sélectionnez l’une des options suivantes :</p>
-<ul>
-<li><p>[Tous]</p></li>
-<li><p>P2P</p></li>
-<li><p>Conférence</p></li>
-</ul></td>
+<td><p>Type d’activité. Sélectionnez l’une des options suivantes :</p><ul><li><p>[Tous]</p></li><li><p>P2P</p></li><li><p>Conférence</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modalité</strong></p></td>
@@ -156,13 +140,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="odd">
 <td><p><strong>Catégorie de session</strong></p></td>
-<td><p>Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes :</p>
-<ul>
-<li><p>[Tous]</p></li>
-<li><p>Opération réussie</p></li>
-<li><p>Échec attendu</p></li>
-<li><p>Échec inattendu</p></li>
-</ul>
+<td><p>Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes :</p><ul><li><p>[Tous]</p></li><li><p>Opération réussie</p></li><li><p>Échec attendu</p></li><li><p>Échec inattendu</p></li></ul>
 <p>Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
 </tr>
 <tr class="even">

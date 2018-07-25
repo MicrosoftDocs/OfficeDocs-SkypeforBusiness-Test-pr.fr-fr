@@ -57,45 +57,20 @@ Vous pouvez utiliser la boîte de dialogue **Créer des informations de cas de t
     
     2.  Notez que les champs restants de la boîte de dialogue **Enregistrer les informations de cas de test de routage des communications vocales** sont en lecture seule et préremplis à partir de la configuration *et* des résultats du test informel. Vérifiez qu’il s’agit effectivement de la configuration à enregistrer pour le cas de test.
         
-        <table>
-        <colgroup>
-        <col style="width: 100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Les valeurs des résultats du test servent à préremplir les champs de la boîte de dialogue <strong>Enregistrer les informations de cas de test de routage des communications vocales</strong> de la façon suivante :
-        <ul>
-        <li><p>Le champ <strong>Traduction attendue</strong> est prérempli avec la valeur du champ <strong>Numéro normalisé</strong>.</p></li>
-        <li><p>Le champ <strong>Itinéraire attendu</strong> est prérempli avec la valeur du champ <strong>Premier itinéraire</strong>.</p></li>
-        <li><p>Le champ <strong>Utilisation PSTN attendue</strong> est prérempli avec la valeur du champ <strong>Première utilisation PSTN</strong>.</p></li>
-        </ul>
-        Si le test ne renvoie aucun résultat pour ces valeurs, le champ correspondant apparaît vide dans la boîte de dialogue <strong>Enregistrer les informations de cas de test de routage des communications vocales</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!note]  
+		>  Les valeurs des résultats du test servent à préremplir les champs de la boîte de dialogue <strong>Enregistrer les informations de cas de test de routage des communications vocales</strong> de la façon suivante :
+        > <ul>
+        > <li><p>Le champ <strong>Traduction attendue</strong> est prérempli avec la valeur du champ <strong>Numéro normalisé</strong>.</p></li>
+        > <li><p>Le champ <strong>Itinéraire attendu</strong> est prérempli avec la valeur du champ <strong>Premier itinéraire</strong>.</p></li>
+        > <li><p>Le champ <strong>Utilisation PSTN attendue</strong> est prérempli avec la valeur du champ <strong>Première utilisation PSTN</strong>.</p></li></ul>
+        > Si le test ne renvoie aucun résultat pour ces valeurs, le champ correspondant apparaît vide dans la boîte de dialogue <strong>Enregistrer les informations de cas de test de routage des communications vocales</strong>.
     
     3.  Cliquez sur **Ok** pour enregistrer le cas de test, ou sur **Annuler** pour revenir à la boîte de dialogue **Afficher les informations de cas de test de routage des communications vocales** pour poursuivre le test avant de l’enregistrer.
 
 11. Cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>À chaque fois que vous créez un cas de test de routage des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier le cas de test. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> (contenu éventuellement en anglais) dans la documentation relative aux opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > À chaque fois que vous créez un cas de test de routage des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier le cas de test. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> (contenu éventuellement en anglais) dans la documentation relative aux opérations.
 
 ## Voir aussi
 

@@ -49,24 +49,13 @@ Par exemple, supposons qu’un client mobile exécutant Lync Mobile soit config
     
     Dans ce scénario, aucune modification de certificat n’est requise pour prendre en charge la mobilité.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le serveur web cible possède un certificat qui ne dispose pas d’une adresse correspondant à lyncdiscover.contoso.com en tant que valeur de la liste des autres noms de sujet :<br />
+    > [!note]  
+    > Si le serveur web cible possède un certificat qui ne dispose pas d’une adresse correspondant à lyncdiscover.contoso.com en tant que valeur de la liste des autres noms de sujet :<br />
     a. Le serveur web répond par un « Bonjour de serveur », sans certificat.<br />
     b. L’appareil mobile qui exécute Lync Mobile met immédiatement fin à la session.<br />
     Si le serveur web cible possède un certificat qui comprend lyncdiscover.contoso.com comme valeur de la liste des autres noms de sujet :<br />
     a. Le serveur web répond par un « Bonjour de serveur » et un certificat.<br />
-    b. L’appareil mobile qui exécute Lync Mobile valide le certificat et établit la liaison.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    b. L’appareil mobile qui exécute Lync Mobile valide le certificat et établit la liaison.
 
 Pour prendre en charge une connexion initiale au service de découverte automatique utilisant le port 80 sur votre serveur proxy inverse, vous pouvez créer une règle de publication http similaire à cet exemple pour une règle de publication web de proxy inverse Forefront Threat Management Gateway 2010 :
 

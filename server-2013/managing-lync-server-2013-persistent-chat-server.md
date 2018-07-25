@@ -19,19 +19,8 @@ Vous pouvez utiliser Lync Server 2013  serveur de conversations permanentes po
 
 Le contenu des salles de conversation permanente se compose principalement de messages texte courts, même s’il peut inclure des messages plus longs, appelés *récits* , ainsi que des liens hypertextes, des émoticônes et des documents téléchargés.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le chargement et le téléchargement de fichiers ne sont pas pris en charge par le client Lync 2013 ; cependant, ils sont pris en charge par le serveur de conversations permanentesLync Server 2013. Le client Group Chat hérité peut publier et afficher des fichiers, mais si un client Lync 2013 accède à cette salle de conversation il ne sera pas en mesure d’accéder aux fichiers.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le chargement et le téléchargement de fichiers ne sont pas pris en charge par le client Lync 2013 ; cependant, ils sont pris en charge par le serveur de conversations permanentesLync Server 2013. Le client Group Chat hérité peut publier et afficher des fichiers, mais si un client Lync 2013 accède à cette salle de conversation il ne sera pas en mesure d’accéder aux fichiers.
 
 L’accès à une salle de conversation est contrôlé par une liste de membres. L’historique d’une salle de conversation est accessible en totalité à tout membre souhaitant le consulter dans un ordre chronologique ou effectuer des recherches en texte intégral. Pour plus d’informations sur l’utilisation du client de conversation permanente, reportez-vous à [Planification du déploiement des clients dans Lync Server 2013](lync-server-2013-planning-for-clients.md) dans la documentation de planification, et [Déploiement des clients et appareils dans Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) dans la documentation de déploiement.
 

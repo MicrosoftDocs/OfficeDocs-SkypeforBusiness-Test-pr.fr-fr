@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-09-23_
 
 Le déploiement des composants Edge pour Microsoft Lync Server 2013 permet aux utilisateurs externes qui ne sont pas connectés au réseau interne de votre entreprise, notamment les utilisateurs distants anonymes et authentifiés, les partenaires fédérés (dont les partenaires XMPP), les clients mobile et les utilisateurs de services de messagerie instantanée publique, de communiquer avec d’autres utilisateurs de votre entreprise à l’aide de Lync Server. Les processus de déploiement et de configuration de Lync Server 2013 ne sont pas très différents de Lync Server 2010. Les outils d’installation et d’administration sont très similaires à ceux de Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’installation et la configuration du serveur EdgeMicrosoft Lync Server 2013 peuvent représenter un processus complexe nécessitant une planification et une coordination potentiellement importantes avec vos équipes internes, notamment – mais sans s’y limiter – pour la sécurité, la gestion de réseau, le pare-feu, le DNS (domain name system), le programme d’équilibrage de la charge, et l’infrastructure de clé publique (PKI). Il vous est fortement recommandé de consulter et d’utiliser le processus et la documentation de planification fournis avant de déployer vos composants d’accès externe. Cela vous aidera à limiter le nombre et la fréquence de changements non désirés et de problèmes au cours du processus de déploiement. Pour plus d’informations sur la planification de votre accès d’utilisateur externe, reportez-vous à <a href="lync-server-2013-planning-for-external-user-access.md">Planification de l’accès des utilisateurs externes dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> L’installation et la configuration du serveur EdgeMicrosoft Lync Server 2013 peuvent représenter un processus complexe nécessitant une planification et une coordination potentiellement importantes avec vos équipes internes, notamment – mais sans s’y limiter – pour la sécurité, la gestion de réseau, le pare-feu, le DNS (domain name system), le programme d’équilibrage de la charge, et l’infrastructure de clé publique (PKI). Il vous est fortement recommandé de consulter et d’utiliser le processus et la documentation de planification fournis avant de déployer vos composants d’accès externe. Cela vous aidera à limiter le nombre et la fréquence de changements non désirés et de problèmes au cours du processus de déploiement. Pour plus d’informations sur la planification de votre accès d’utilisateur externe, reportez-vous à <a href="lync-server-2013-planning-for-external-user-access.md">Planification de l’accès des utilisateurs externes dans Lync Server 2013</a>.
 
 ## Dans cette section
 

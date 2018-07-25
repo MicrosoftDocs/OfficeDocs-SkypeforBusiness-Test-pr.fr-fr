@@ -71,19 +71,8 @@ Le tableau suivant résume les exigences de protocole pour chaque type de trafic
 
 Le trafic multimédia est chiffré à l’aide de Secure RTP (SRTP), un profil RTP (Real-Time Transport Protocol) qui offre confidentialité, authentification et protection contre les attaques par relecture sur le trafic RTP. SRTP utilise une clé de session générée par le service d’authentification du serveur relais multimédia en réponse à une authentification réussie de la demande de serveur (pour le compte des participants multimédias). La clé de session est sécurisée par le nom d’utilisateur et le mot de passe négociés présentés au service d’authentification du serveur relais multimédia par les serveurs frontaux et envoyés aux participants sur le canal SIP sécurisé par TLS. Le déchiffrement de la clé de session sécurisée avec le nom d’utilisateur et le mot de passe utilisés par le service de relais multimédia, et fournis de manière sécurisée par le biais du certificat TLS des participants et du canal SIP sécurisé, permet aux participants de déchiffrer le flux SRTP. De plus, les données multimédias acheminées dans les deux directions entre le serveur de médiation et son tronçon suivant interne sont également chiffrées avec SRTP. Les données acheminées dans les deux directions entre le serveur de médiation et une passerelle multimédia ne sont pas chiffrées. Le serveur de médiation peut prendre en charge le chiffrement sur la passerelle multimédia, mais la passerelle doit prendre en charge MTLS et le stockage d’un certificat.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’audio/video (A/V) est pris en charge avec la nouvelle version de Windows Live Messenger. Si vous implémentez la fédération A/V avec Windows Live Messenger, vous devez également modifier le niveau de chiffrement de Lync Server. Par défaut, le niveau de chiffrement est Obligatoire. Vous devez définir ce paramètre sur Pris en charge en utilisant le Lync Server Management Shell. Pour plus d’informations, voir <a href="lync-server-2013-deploying-external-user-access.md">Déploiement de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’audio/video (A/V) est pris en charge avec la nouvelle version de Windows Live Messenger. Si vous implémentez la fédération A/V avec Windows Live Messenger, vous devez également modifier le niveau de chiffrement de Lync Server. Par défaut, le niveau de chiffrement est Obligatoire. Vous devez définir ce paramètre sur Pris en charge en utilisant le Lync Server Management Shell. Pour plus d’informations, voir <a href="lync-server-2013-deploying-external-user-access.md">Déploiement de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement.
 
 Le trafic multimédia audio et vidéo n’est pas chiffré entre Microsoft Lync 2013 et les clients Windows Live.
 

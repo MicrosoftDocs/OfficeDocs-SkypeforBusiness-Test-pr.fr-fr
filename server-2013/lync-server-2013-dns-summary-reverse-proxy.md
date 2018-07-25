@@ -62,21 +62,11 @@ Vous configurez deux cartes réseau dans votre serveur proxy inverse comme suit�
 <td><p>webdirext.contoso.com</p></td>
 <td><p>Écouteur affecté pour les ressources publiées à l’extérieur</p></td>
 <td><p>Services web externes pour les directeurs ou les pools de directeurs de votre déploiement. Vous pouvez définir autant de directeurs qu’il y a de directeurs distincts, parmi lesquels certains peuvent être associés à d’autres domaines SIP.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La définition des enregistrements DNS et la publication des directeurs n’est une décision imputable ni au pool de serveurs frontaux, ni au directeur. Vous devez définir et publier à la fois le directeur et les services web externes du pool de serveurs frontaux si vous utilisez des directeurs. Des types de trafic spécifiques (pour l’authentification et autres utilisations) seront envoyés d’abord au directeur, si cela est défini dans la topologie.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!IMPORTANT]  
+> La définition des enregistrements DNS et la publication des directeurs n’est une décision imputable ni au pool de serveurs frontaux, ni au directeur. Vous devez définir et publier à la fois le directeur et les services web externes du pool de serveurs frontaux si vous utilisez des directeurs. Des types de trafic spécifiques (pour l’authentification et autres utilisations) seront envoyés d’abord au directeur, si cela est défini dans la topologie.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>DNS externe/A</p></td>

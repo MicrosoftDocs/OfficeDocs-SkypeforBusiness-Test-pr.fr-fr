@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-01-02_
 
 Avant de définir et de configurer votre topologie, vous devez d’abord définir l’emplacement dans lequel installer le serveur de gestion centralisée.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cela ne prendra effet qu’après la publication d’une topologie dans le Générateur de topologie. Pour définir le serveur de gestion centralisée avant de créer et de publier la topologie, exécutez <strong>Set-CSConfigurationStoreLocation</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Cela ne prendra effet qu’après la publication d’une topologie dans le Générateur de topologie. Pour définir le serveur de gestion centralisée avant de créer et de publier la topologie, exécutez <strong>Set-CSConfigurationStoreLocation</strong>.
 
 ## Pour sélectionner le serveur de gestion centralisée
 

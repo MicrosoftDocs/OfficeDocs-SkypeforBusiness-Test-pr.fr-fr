@@ -25,19 +25,8 @@ La première étape de la procédure de vérification de la fusion consiste à a
 
 3.  Vérifiez que les noms de domaine complets des pools et serveurs que vous fusionnez sont affichés.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Aucune information n’est affichée dans <strong>BackCompatSite</strong> pour les rôles serveur colocalisés sur un serveur frontal ou un serveur Standard Edition. Seuls les rôles serveur nécessaires à l’interopérabilité entre Office Communications Server 2007 R2 et Lync Server 2013 sont affichés.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Aucune information n’est affichée dans <strong>BackCompatSite</strong> pour les rôles serveur colocalisés sur un serveur frontal ou un serveur Standard Edition. Seuls les rôles serveur nécessaires à l’interopérabilité entre Office Communications Server 2007 R2 et Lync Server 2013 sont affichés.
 
 ![Boîte de dialogue BackCompatSite du Générateur de topologie](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Boîte de dialogue BackCompatSite du Générateur de topologie")
 
@@ -55,19 +44,8 @@ Vous pouvez également utiliser le Panneau de configuration Lync Server 2013 pou
 
 Pour afficher plus d’informations sur un pool fusionné, utilisez l’applet de commande **Get-CsPool** . Outre les informations disponibles dans le générateur de topologie et le Panneau de configuration Lync Server 2013, cette applet de commande affiche les services qui s’exécutent sur le pool Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsque vous publiez la topologie après avoir exécuté l’Assistant Fusion dans le générateur de topologie, les annuaires des conférences sont fusionnés à Lync Server 2013. Les annuaires des conférences peuvent être vérifiés en exécutant l’applet de commande <strong>Get-CsConferenceDirectory</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lorsque vous publiez la topologie après avoir exécuté l’Assistant Fusion dans le générateur de topologie, les annuaires des conférences sont fusionnés à Lync Server 2013. Les annuaires des conférences peuvent être vérifiés en exécutant l’applet de commande <strong>Get-CsConferenceDirectory</strong>.
 
 ## Pour afficher les services sur un pool fusionné
 

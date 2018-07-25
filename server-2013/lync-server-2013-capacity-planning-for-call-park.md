@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Le tableau ci-dessous décrit le modèle utilisateur de parcage d’appel dont vous pouvez vous servir comme base pour les exigences de planification de capacité.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>N’oubliez pas que, pour la planification de la capacité de récupération d’urgence, chaque pool associé à un autre pool doit être en mesure de gérer les charges de travail des services de parcage d’appel dans les deux pools.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> N’oubliez pas que, pour la planification de la capacité de récupération d’urgence, chaque pool associé à un autre pool doit être en mesure de gérer les charges de travail des services de parcage d’appel dans les deux pools.
 
 ### Modèle utilisateur de parcage d’appel
 

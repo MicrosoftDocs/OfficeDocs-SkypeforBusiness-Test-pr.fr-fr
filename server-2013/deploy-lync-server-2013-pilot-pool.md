@@ -19,19 +19,8 @@ L’une des premières étapes requises pour la migration Lync Server 2013 cons
 
 Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un nouveau pool frontal. Vous devez déployer les mêmes fonctionnalités et charges de travail dans votre pool pilote Lync Server 2013 que dans votre pool Lync Server 2010. Si vous avez déployé un serveur d’archivage, un serveur de surveillance ou System Center Operations Manager pour l’archivage ou la surveillance de votre environnement Lync Server 2010 et que vous souhaitez continuer l’archivage ou la surveillance durant la migration, vous devez également déployer ces fonctionnalités dans votre environnement pilote. La version que vous avez déployée pour archiver et surveiller votre environnement Lync Server 2010 ne capture pas de données dans votre environnement Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La procédure qui suit traite des fonctionnalités et paramètres à considérer dans le cadre du processus de déploiement général de votre pool pilote. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour en connaître les étapes précises, reportez-vous au guide de déploiement intitulé <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La procédure qui suit traite des fonctionnalités et paramètres à considérer dans le cadre du processus de déploiement général de votre pool pilote. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour en connaître les étapes précises, reportez-vous au guide de déploiement intitulé <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a>.
 
 **Pour déployer un pool pilote Lync Server 2013**
 
@@ -45,19 +34,8 @@ Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un n
 
 4.  Entrez le nom de domaine complet du pool. Lorsque vous définissez votre pool pilote, vous pouvez choisir de déployer un pool de serveurs frontaux Enterprise Edition ou un serveur Standard Edition. Lync Server 2013 n’exige pas que les fonctionnalités de votre pool pilote correspondent à celles déployées dans votre pool hérité.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom de domaine complet du pool ou serveur que vous définissez pour le pool pilote doit être unique. Il ne peut pas correspondre au nom du pool Lync Server 2010 actuellement déployé ni à tout autre serveur actuellement déployé.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!warning]  
+    > Le nom de domaine complet du pool ou serveur que vous définissez pour le pool pilote doit être unique. Il ne peut pas correspondre au nom du pool Lync Server 2010 actuellement déployé ni à tout autre serveur actuellement déployé.    
     ![Page Définir le nom de domaine complet de l’Assistant du nouveau pool frontal](images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "Page Définir le nom de domaine complet de l’Assistant du nouveau pool frontal")
 
 5.  Dans la page **Sélectionner les fonctionnalités** , activez les cases à cocher correspondant aux fonctionnalités souhaitées pour ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case à cocher Conférence pour autoriser la messagerie instantanée à plusieurs, mais n’activez pas les cases à cocher Conférence rendez-vous (RTC), Voix Entreprise ou Contrôle d’admission des appels, car elles représentent les fonctionnalités de voix, de vidéo et de conférence collaborative. Pour plus d’informations sur la sélection des fonctionnalités, reportez-vous à [Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) dans la documentation de déploiement.

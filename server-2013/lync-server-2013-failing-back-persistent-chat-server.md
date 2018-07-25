@@ -29,25 +29,10 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
 
 1.  Effacer tous les serveurs de la liste des serveurs actifs du serveur de conversations permanentesà l’aide de l’applet de commande `Set-CsPersistentChatActiveServer` de Lync Server Management Shell. Les serveurs de conversations permanentes cessent ainsi de se connecter aux bases de données mgc et mgccomp au cours de la restauration.
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’agent SQL Server sur le serveur principal serveur de conversations permanentes secondaire doit être en cours d’exécution sous un compte privilégié. Plus précisément, le compte doit disposer des droits suivants :
-    <ul>
-    <li><p>Accès en lecture au partage réseau dans lequel les sauvegardes sont placées</p></li>
-    <li><p>Accès en écriture au répertoire local spécifique vers lequel les sauvegardes sont copiées</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!important]  
+    > L’agent SQL Server sur le serveur principal serveur de conversations permanentes secondaire doit être en cours d’exécution sous un compte privilégié. Plus précisément, le compte doit disposer des droits suivants :    <ul>    
+> <li><p>Accès en lecture au partage réseau dans lequel les sauvegardes sont placées</p></li>    
+> <li><p>Accès en écriture au répertoire local spécifique vers lequel les sauvegardes sont copiées</p></li>    </ul>
 
 
 2.  Désactivez la mise en miroir sur la base de données mgc de sauvegarde :
@@ -106,19 +91,8 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
 
 6.  Définissez les serveurs actifs du serveur de conversations permanentes. Dans Lync Server Management Shell, utilisez l’applet de commande **Set-CsPersistentChatActiveServer** pour définir la liste des serveurs actifs.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Tous les serveurs actifs doivent être situés au sein du même centre de données que celui de la nouvelle base de données primaire, ou dans un centre de données avec une connexion à latence faible/bande passante élevée à la base de données.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Tous les serveurs actifs doivent être situés au sein du même centre de données que celui de la nouvelle base de données primaire, ou dans un centre de données avec une connexion à latence faible/bande passante élevée à la base de données.
 
 La restauration du pool à son état normal exécute la commande Windows PowerShell suivante :
 

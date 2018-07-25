@@ -23,19 +23,8 @@ Le scénario par défaut est appelé **AlwaysOn**. Comme son nom l’indique, Al
 
 Le service de journalisation centralisée permet d’exécuter des commandes de deux manières. Un certain nombre de rubriques ont été consacrées à l’utilisation de Windows PowerShell via Lync Server Management Shell. De par sa capacité à utiliser un certain nombre de configurations et de commandes complexes, il est recommandé d’utiliser Windows PowerShell pour le service de journalisation centralisée. Étant donné que Windows PowerShell via Lync Server Management Shell couvre presque toutes les fonctions de Lync Server, seules les commandes Windows PowerShell sont présentées ici.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous décidez d’utiliser l’ensemble limité de commandes disponibles à partir de la ligne de commande, vous pouvez obtenir de l’aide avec CLSController.exe. Il vous suffit pour cela de taper <code>ClsController.exe</code>. Par défaut, <strong>ClsController.exe</strong> est installé dans le répertoire C:\Program Files\Microsoft Lync Server 2013\ClsAgent.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous décidez d’utiliser l’ensemble limité de commandes disponibles à partir de la ligne de commande, vous pouvez obtenir de l’aide avec CLSController.exe. Il vous suffit pour cela de taper <code>ClsController.exe</code>. Par défaut, <strong>ClsController.exe</strong> est installé dans le répertoire C:\Program Files\Microsoft Lync Server 2013\ClsAgent.
 
 ## Pour exécuter Start-CsClsLogging avec Windows PowerShell en utilisant des commandes de base
 
@@ -49,54 +38,21 @@ Le service de journalisation centralisée permet d’exécuter des commandes de 
     
         Start-CsClsLogging -Scenario AlwaysOn
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécutera jusqu’à ce que l’arrêtiez de façon explicite avec l’applet de commande <strong>Stop-CsClsLogging</strong>. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>. Pour tous les autres scénarios, la durée par défaut est de 4 heures.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécutera jusqu’à ce que l’arrêtiez de façon explicite avec l’applet de commande <strong>Stop-CsClsLogging</strong>. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>. Pour tous les autres scénarios, la durée par défaut est de 4 heures.
 
 3.  Appuyez sur Entrée pour exécuter la commande.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’exécution de la commande et la réception du statut des ordinateurs par celle-ci dans votre déploiement peut prendre quelques instants (de 30 à 60 secondes).</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > L’exécution de la commande et la réception du statut des ordinateurs par celle-ci dans votre déploiement peut prendre quelques instants (de 30 à 60 secondes).    
     ![Exécution de Start-CsClsLogging.](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Exécution de Start-CsClsLogging.")
 
 4.  Pour lancer un autre scénario, utilisez l’applet de commande **Start-CsClsLogging**, avec le nom de ce scénario à exécuter (par exemple, le scénario **Authentification**), comme suit :
     
         Start-CsClsLogging -Scenario Authentication
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Deux scénarios peuvent s’exécuter sur un ordinateur donné à tout moment. Si l’étendue de la commande est globale, tous les ordinateurs dans votre déploiement exécuteront un scénario ou les deux. Pour lancer un troisième scénario, vous devez arrêter la journalisation sur l’ordinateur, le pool, le site ou l’étendue globale sur lequel vous souhaitez exécuter le nouveau scénario. Si vous avez lancé la commande pour une étendue globale, vous pouvez arrêter la journalisation pour un scénario ou les deux sur un ou plusieurs ordinateurs et pools. Pour plus d’informations sur la gestion des scénarios en cours d’exécution, consultez les rubriques <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilisation de la commande Stop pour le service de journalisation centralisée</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Deux scénarios peuvent s’exécuter sur un ordinateur donné à tout moment. Si l’étendue de la commande est globale, tous les ordinateurs dans votre déploiement exécuteront un scénario ou les deux. Pour lancer un troisième scénario, vous devez arrêter la journalisation sur l’ordinateur, le pool, le site ou l’étendue globale sur lequel vous souhaitez exécuter le nouveau scénario. Si vous avez lancé la commande pour une étendue globale, vous pouvez arrêter la journalisation pour un scénario ou les deux sur un ou plusieurs ordinateurs et pools. Pour plus d’informations sur la gestion des scénarios en cours d’exécution, consultez les rubriques <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilisation de la commande Stop pour le service de journalisation centralisée</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>.
 
 ## Pour exécuter Start-CsClsLogging avec Windows PowerShell à l’aide de commandes avancées
 

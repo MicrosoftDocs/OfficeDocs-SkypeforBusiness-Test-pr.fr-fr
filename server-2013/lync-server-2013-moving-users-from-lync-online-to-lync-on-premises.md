@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2014-05-08_
 
 Votre organisation a-t-elle déployé Lync Online avant de déployer Lync Server local ? Et à présent, vous souhaitez déplacer des comptes d’utilisateurs activés à l’origine pour Lync dans Lync Online vers votre déploiement de Lync Server local ? Cette section vous explique comment faire.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette section est consacrée uniquement à la migration des utilisateurs activés à l’origine pour Lync dans Lync Online. Vous avez peut-être des comptes d’utilisateur que vous avez d’abord activés pour Lync local pour les migrer ensuite vers Lync Online ? Dans ce cas, et si vous cherchez à les redéplacer en local, la procédure est simple : <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administration des utilisateurs dans un déploiement Lync Server 2013 hybride</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Cette section est consacrée uniquement à la migration des utilisateurs activés à l’origine pour Lync dans Lync Online. Vous avez peut-être des comptes d’utilisateur que vous avez d’abord activés pour Lync local pour les migrer ensuite vers Lync Online ? Dans ce cas, et si vous cherchez à les redéplacer en local, la procédure est simple : <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administration des utilisateurs dans un déploiement Lync Server 2013 hybride</a>.
 
   - [Premières étapes avant de commencer la migration des utilisateurs de Lync Online vers Lync local](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
 

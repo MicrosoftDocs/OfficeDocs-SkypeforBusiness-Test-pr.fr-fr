@@ -19,26 +19,11 @@ Pour créer une nouvelle salle de serveur de conversations permanentes
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-PersistentChatPoolFqdn n’est pas requis si l’un des éléments suivants est vrai :
-<ul>
-<li><p>Il n’existe qu’un seul pool de serveurs de conversations permanentes.</p></li>
-<li><p>Vous fournissez un nom de domaine complet (FQDN) de pool à la catégorie.</p></li>
-<li><p>Vous fournissez un nom de domaine complet (FQDN) à l’ajout de la salle.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> -PersistentChatPoolFqdn n’est pas requis si l’un des éléments suivants est vrai :<ul>
+> <li><p>Il n’existe qu’un seul pool de serveurs de conversations permanentes.</p></li>
+> <li><p>Vous fournissez un nom de domaine complet (FQDN) de pool à la catégorie.</p></li>
+> <li><p>Vous fournissez un nom de domaine complet (FQDN) à l’ajout de la salle.</p></li></ul>
 
 
 Pour apporter des modifications à une salle de serveur de conversations permanentes existante

@@ -21,19 +21,8 @@ Le contrôle d’admission des appels (CAC) détermine si la bande passante rés
 
 Cette section décrit le contrôle d’admission des appels et explique comment le planifier.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server comporte trois fonctionnalités Voix Entreprise avancées : contrôle d’admission des appels, services d’urgence (système E9-1-1) et déviation du trafic multimédia. Pour une vue d’ensemble des informations de planification communes à ces trois fonctionnalités, reportez-vous à <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync Server comporte trois fonctionnalités Voix Entreprise avancées : contrôle d’admission des appels, services d’urgence (système E9-1-1) et déviation du trafic multimédia. Pour une vue d’ensemble des informations de planification communes à ces trois fonctionnalités, reportez-vous à <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013</a>.
 
 ## Dans cette section
 

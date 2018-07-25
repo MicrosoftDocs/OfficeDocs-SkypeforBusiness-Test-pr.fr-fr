@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-11-02_
 
 Vous devez configurer la passerelle SIP/CSTA en tant qu’application approuvée pour que Lync Server achemine les appels vers la passerelle au moyen d’un itinéraire statique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous effectuez une migration d’utilisateurs à partir d’une version précédente du déploiement Lync Server, vérifiez que vous avez supprimé toutes les entrées d’applications approuvées existantes (auparavant appelées entrées d’hôtes autorisés) que vous aviez créées pour la passerelle SIP/CSTA avant d’appliquer la procédure indiquée dans cette rubrique. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Si vous effectuez une migration d’utilisateurs à partir d’une version précédente du déploiement Lync Server, vérifiez que vous avez supprimé toutes les entrées d’applications approuvées existantes (auparavant appelées entrées d’hôtes autorisés) que vous aviez créées pour la passerelle SIP/CSTA avant d’appliquer la procédure indiquée dans cette rubrique. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</a>.
 
 ## Pour configurer une entrée d’application approuvée pour la passerelle SIP/CSTA
 

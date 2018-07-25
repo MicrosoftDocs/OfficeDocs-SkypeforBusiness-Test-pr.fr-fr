@@ -61,20 +61,9 @@ N’oubliez pas que le nom de domaine d’un client est généralement différen
 
 Une fois que le script s’est exécuté, vous devez configurer une relation d’approbation entre Lync Server 2013 et le serveur d’autorisation, puis une seconde relation d’approbation entre Exchange 2013 et le serveur d’autorisation. Vous pouvez uniquement le faire à l’aide d’applets de commande Microsoft Online Services.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous n’avez pas installé les applets de commande Microsoft Online Services, vous avez deux choses à faire avant de poursuivre. Tout d’abord, téléchargez et installez la version 64 bits de l’Assistant de connexion Microsoft Online Services. Une fois l’installation terminée, téléchargez et installez la version 64 bits du module Microsoft Online Services pour Windows PowerShell. Des informations détaillées sur l’installation et l’utilisation du module Microsoft Online Services sont disponibles sur le site web d’Office 365. Ces instructions vous indiquent également comment configurer l’authentification unique, la fédération et la synchronisation entre Office 365 et Active Directory.<br />
-Si vous n'avez pas installé ces applets de commande, votre script échouera car l'applet de commande Get-CsTenant ne sera pas disponible.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous n’avez pas installé les applets de commande Microsoft Online Services, vous avez deux choses à faire avant de poursuivre. Tout d’abord, téléchargez et installez la version 64 bits de l’Assistant de connexion Microsoft Online Services. Une fois l’installation terminée, téléchargez et installez la version 64 bits du module Microsoft Online Services pour Windows PowerShell. Des informations détaillées sur l’installation et l’utilisation du module Microsoft Online Services sont disponibles sur le site web d’Office 365. Ces instructions vous indiquent également comment configurer l’authentification unique, la fédération et la synchronisation entre Office 365 et Active Directory.<br />
+Si vous n'avez pas installé ces applets de commande, votre script échouera car l'applet de commande Get-CsTenant ne sera pas disponible.
 
 Après avoir configuré Office 365 et après avoir créé des principaux du service Office 365 pour Lync Server 2013 et Exchange 2013, vous devez alors enregistrer vos informations d’identification auprès de ces principaux du service. Pour ce faire, vous devez d’abord obtenir un certificat X.509 Base64 enregistré sous forme de fichier .CER. Ce certificat est ensuite appliqué aux principaux du service Office 365.
 

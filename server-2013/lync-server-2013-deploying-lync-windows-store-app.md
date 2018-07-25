@@ -21,27 +21,12 @@ Avant de mettre l’application Lync du Windows Store à la disposition des util
 
 Mises à jour cumulatives pour Lync Server 2013 : juin 2013 ajoute la prise en charge de l’authentification multifacteur pour les clients application Lync du Windows Store. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger l’utilisation d’autres méthodes d’authentification, telles que les cartes à puce ou les codes confidentiels, pour authentifier les utilisateurs externes lorsqu’ils se connectent aux réunions Lync. Pour activer l’authentification multifacteur, vous pouvez déployer le serveur de fédération Active Directory Federation Service (AD FS) et activer l’authentification passive dans Lync Server 2013. Une fois les services AD FS configurés, une page web d’authentification multifacteur AD FS contenant le nom d’utilisateur et le mot de passe de stimulation, ainsi que toutes les méthodes d’authentification supplémentaires que vous avez configurées s’affiche aux utilisateurs externes qui tentent de rejoindre des réunions Lync.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Voici quelques considérations importantes si vous prévoyez de configurer les services AD FS pour l’authentification multifacteur pour application Lync du Windows Store :
-<ul>
-<li><p>Lync Server 2013 avec Mises à jour cumulatives pour Lync Server 2013 : juin 2013 est requis au minimum. Les clients de bureau Lync 2013 ne nécessitent pas Mises à jour cumulatives pour Lync Server 2013 : juin 2013, aussi il peut sembler que l’authentification fonctionne car les clients Lync 2013 peuvent s’authentifier. Le processus d’authentification des clients application Lync du Windows Store échoue toutefois et aucun message d’erreur ou notification ne s’affiche.</p></li>
-<li><p>Le serveur doit être configuré pour que l’authentification passive soit le seul type d’authentification proposé.</p></li>
-<li><p>Si vous utilisez des programmes d’équilibrage de la charge, activez la persistance des cookies sur les programmes d’équilibrage de la charge afin que toutes les demandes du client application Lync du Windows Store soient traitées par le même serveur frontal.</p></li>
-<li><p>Lorsque vous établissez une relation d’approbation de la partie de confiance entre Lync Server et les serveurs AD FS, attribuez une durée de vie de jeton suffisamment longue pour couvrir la durée maximale de vos réunions Lync. Une durée de vie de jeton de 240 minutes est généralement suffisante.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Voici quelques considérations importantes si vous prévoyez de configurer les services AD FS pour l’authentification multifacteur pour application Lync du Windows Store :<ul>
+> <li><p>Lync Server 2013 avec Mises à jour cumulatives pour Lync Server 2013 : juin 2013 est requis au minimum. Les clients de bureau Lync 2013 ne nécessitent pas Mises à jour cumulatives pour Lync Server 2013 : juin 2013, aussi il peut sembler que l’authentification fonctionne car les clients Lync 2013 peuvent s’authentifier. Le processus d’authentification des clients application Lync du Windows Store échoue toutefois et aucun message d’erreur ou notification ne s’affiche.</p></li>
+> <li><p>Le serveur doit être configuré pour que l’authentification passive soit le seul type d’authentification proposé.</p></li>
+> <li><p>Si vous utilisez des programmes d’équilibrage de la charge, activez la persistance des cookies sur les programmes d’équilibrage de la charge afin que toutes les demandes du client application Lync du Windows Store soient traitées par le même serveur frontal.</p></li>
+> <li><p>Lorsque vous établissez une relation d’approbation de la partie de confiance entre Lync Server et les serveurs AD FS, attribuez une durée de vie de jeton suffisamment longue pour couvrir la durée maximale de vos réunions Lync. Une durée de vie de jeton de 240 minutes est généralement suffisante.</p></li></ul>
 
 
 **Pour configurer l’authentification multifacteur**
@@ -60,11 +45,15 @@ Mises à jour cumulatives pour Lync Server 2013 : juin 2013 ajoute la prise en 
 
 5.  Définissez les règles de partie de confiance suivantes :
     
-        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
-        Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-    
-        Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
+    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+    ```
+    ```
+    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+    ```
+    ```
+    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
 
 ## Problèmes connus pouvant empêcher la connexion
 

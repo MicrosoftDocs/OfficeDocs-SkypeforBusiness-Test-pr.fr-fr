@@ -19,19 +19,8 @@ Les utilisateurs distants sont des utilisateurs de votre entreprise qui disposen
 
 Pour prendre en charge l’accès des utilisateurs distants, vous devez l’activer (pour l’ensemble de votre entreprise). Si vous souhaitez plus tard empêcher temporairement ou définitivement l’accès des utilisateurs distants, vous pouvez le désactiver pour votre entreprise. Suivez la procédure dans cette section pour activer ou désactiver l’accès des utilisateurs distants pour votre entreprise.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’activation de la prise en charge de l’accès des utilisateurs distants spécifie seulement que vos serveurs exécutant le service Edge d’accès prennent en charge les communications avec les utilisateurs distants. Par contre, ces derniers ne peuvent pas participer à la messagerie instantanée ni aux conférences dans l’entreprise tant que vous n’avez pas également configuré au moins une stratégie de gestion de l’utilisation de l’accès des utilisateurs distants. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet. Pour plus d’informations sur la configuration des stratégies pour l’utilisation de l’accès des utilisateurs distants, reportez-vous à <a href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs distants dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’activation de la prise en charge de l’accès des utilisateurs distants spécifie seulement que vos serveurs exécutant le service Edge d’accès prennent en charge les communications avec les utilisateurs distants. Par contre, ces derniers ne peuvent pas participer à la messagerie instantanée ni aux conférences dans l’entreprise tant que vous n’avez pas également configuré au moins une stratégie de gestion de l’utilisation de l’accès des utilisateurs distants. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet. Pour plus d’informations sur la configuration des stratégies pour l’utilisation de l’accès des utilisateurs distants, reportez-vous à <a href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs distants dans Lync Server 2013</a>.
 
 ## Pour activer ou désactiver l’accès des utilisateurs distants pour votre entreprise
 

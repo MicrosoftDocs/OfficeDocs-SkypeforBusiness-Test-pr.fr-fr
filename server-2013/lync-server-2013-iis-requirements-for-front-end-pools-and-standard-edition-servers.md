@@ -37,35 +37,13 @@ De plus, le programme d’installation de la mise à jour cumulative de novembre
 
   - Sur les serveurs frontaux ou les serveurs Standard Edition et sur les Directeurs afin de permettre aux appareils mobiles de découvrir automatiquement les ressources de mobilité
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous déployez la mobilité, nous vous recommandons d’utiliser les services Internet (IIS) 7.5. Le programme d’installation du service de mobilité de Lync Server définit certains indicateurs ASP.NET afin d’améliorer les performances. Les services Internet (IIS) 7.5 sont installés par défaut sur Windows Server 2008 R2 et le programme d’installation du service de mobilité modifie automatiquement les paramètres ASP.NET. Si vous utilisez les services Internet (IIS) 7.0 sur Windows Server 2008, vous devez modifier manuellement ces paramètres.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous déployez la mobilité, nous vous recommandons d’utiliser les services Internet (IIS) 7.5. Le programme d’installation du service de mobilité de Lync Server définit certains indicateurs ASP.NET afin d’améliorer les performances. Les services Internet (IIS) 7.5 sont installés par défaut sur Windows Server 2008 R2 et le programme d’installation du service de mobilité modifie automatiquement les paramètres ASP.NET. Si vous utilisez les services Internet (IIS) 7.0 sur Windows Server 2008, vous devez modifier manuellement ces paramètres.
 
 Lync Server nécessite l’installation des modules des services Internet (IIS) suivants :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si votre organisation vous oblige à placer les services Internet (IIS) et tous les services web sur une unité autre que l’unité système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server fdans la boîte de dialogue Installation. Si vous installez les fichiers d’installation à cet emplacement, dont OCSCore.msi, les autres fichiers Lync Server seront également déployés sur cette unité. Pour plus d’informations sur le déplacement du composant INETPUB déployé par le Gestionnaire de serveur Windows lors de l’installation des services Internet (IIS), reportez-vous à <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Si votre organisation vous oblige à placer les services Internet (IIS) et tous les services web sur une unité autre que l’unité système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server fdans la boîte de dialogue Installation. Si vous installez les fichiers d’installation à cet emplacement, dont OCSCore.msi, les autres fichiers Lync Server seront également déployés sur cette unité. Pour plus d’informations sur le déplacement du composant INETPUB déployé par le Gestionnaire de serveur Windows lors de l’installation des services Internet (IIS), reportez-vous à <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
   - Contenu statique
 
@@ -181,30 +159,8 @@ Le tableau ci-dessous répertorie les URI des répertoires virtuels pour l’acc
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour les pools de serveurs frontaux dans une configuration consolidée, vous devez déployer les services Internet (IIS) pour pouvoir ajouter des serveurs au pool.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Pour les pools de serveurs frontaux dans une configuration consolidée, vous devez déployer les services Internet (IIS) pour pouvoir ajouter des serveurs au pool.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Sécurité Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez utiliser le composant logiciel enfichable d’administration des services Internet (IIS) pour attribuer le certificat utilisé par le serveur de composants web des services Internet (IIS).</td>
-</tr>
-</tbody>
-</table>
-
+> [!security]  
+> Vous devez utiliser le composant logiciel enfichable d’administration des services Internet (IIS) pour attribuer le certificat utilisé par le serveur de composants web des services Internet (IIS).

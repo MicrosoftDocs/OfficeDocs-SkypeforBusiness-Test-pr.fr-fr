@@ -37,25 +37,11 @@ Le tableau suivant compare les fonctionnalités des clients mobiles Lync 2013 et
 
 Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilisateurs Lync dans un déploiement local de Lync Server 2013. Ces mêmes fonctionnalités sont également disponibles pour les utilisateurs de Skype Entreprise Online et d’Microsoft Office 365, sauf mention contraire dans les notes de bas de page des tableaux.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Pour accéder à l’aide et aux ressources destinées aux utilisateurs finaux, voir « Microsoft Lync 2013 pour les clients mobiles » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
-<li><p>Pour comparer les fonctionnalités disponibles dans les autres clients mobiles Lync 2013, voir <a href="lync-server-2013-desktop-client-comparison-tables.md">Tableau de comparaison des clients pour Lync Server 2013</a>.</p></li>
-<li><p>Lync Server 2013 prend également en charge les applications mobiles Lync 2010. Pour plus d’informations, voir « Tableaux de comparaison des clients mobiles » dans la document Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> <ul>
+> <li><p>Pour accéder à l’aide et aux ressources destinées aux utilisateurs finaux, voir « Microsoft Lync 2013 pour les clients mobiles » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
+> <li><p>Pour comparer les fonctionnalités disponibles dans les autres clients mobiles Lync 2013, voir <a href="lync-server-2013-desktop-client-comparison-tables.md">Tableau de comparaison des clients pour Lync Server 2013</a>.</p></li>
+> <li><p>Lync Server 2013 prend également en charge les applications mobiles Lync 2010. Pour plus d’informations, voir « Tableaux de comparaison des clients mobiles » dans la document Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>.</p></li></ul>
 
 
 ## Connexion, notifications push et fonctions générales

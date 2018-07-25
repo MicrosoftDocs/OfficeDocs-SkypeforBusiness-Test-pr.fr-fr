@@ -31,19 +31,8 @@ Vous pouvez déployer un serveur de médiation dans un site central ou dans un s
 
 Vous pouvez déployer une passerelle PSTN dans un site central ou dans un site de succursale. Dans un site de succursale, la passerelle PSTN peut être autonome ou un composant du Survivable Branch Appliance.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La conférence rendez-vous ne fait pas appel au contournement de média, car le serveur de conférence A/V ne prend pas en charge cette fonction.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La conférence rendez-vous ne fait pas appel au contournement de média, car le serveur de conférence A/V ne prend pas en charge cette fonction.
 
 Pour plus d’informations sur la planification de votre configuration du serveur de médiation et des passerelles PSTN pour les conférences rendez-vous, voir [Composants et topologies utilisés pour le serveur de médiation dans Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) dans la documentation de planification.
 

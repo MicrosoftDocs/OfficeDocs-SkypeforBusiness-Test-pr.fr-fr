@@ -19,19 +19,8 @@ Pour permettre aux utilisateurs de participer à la partie audio des conférence
 
 Ils apparaissent dans les invitations à une réunion et dans la page web des paramètres de configuration des conférences rendez-vous.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous ne pouvez pas utiliser un nouveau numéro d’accès pour la conférence rendez-vous tant que la réplication Active Directory de ce numéro n’est pas terminée. La réplication peut durer plusieurs heures.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous ne pouvez pas utiliser un nouveau numéro d’accès pour la conférence rendez-vous tant que la réplication Active Directory de ce numéro n’est pas terminée. La réplication peut durer plusieurs heures.
 
 ## Dans cette section
 

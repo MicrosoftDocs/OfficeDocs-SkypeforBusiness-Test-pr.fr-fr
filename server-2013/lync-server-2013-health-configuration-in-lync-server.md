@@ -21,19 +21,8 @@ Nous ne pouvons pas objectivement garantir que vous ne serez jamais confronté �
 
 De façon similaire, les administrateurs peuvent utiliser System Center Operations Manager pour effectuer d’autres tâches, comme afficher des alertes en temps réel lorsque des événements particuliers se produisent ou exécuter des transactions synthétiques pour tester le système proactivement. Dans Lync Server, les transactions synthétiques permettent de vérifier que les utilisateurs ont la possibilité de réaliser des tâches courantes, telles que se connecter au système, envoyer et recevoir des messages instantanés, ou passer des appels vers un téléphone du réseau téléphonique commuté (RTC). En procédant périodiquement à ces tests, vous pourrez détecter en amont les problèmes que les utilisateurs sont susceptibles de rencontrer, par exemple, lorsqu’ils se connectent à Lync Server, et résoudre ces problèmes avant que votre équipe de support ne reçoive quantité d’appels d’utilisateurs se plaignant de ne pas réussir à se connecter. En exécutant ces transactions synthétiques à l’aide de System Center Operations Manager, les administrateurs peuvent assurer un contrôle régulier et permanent de leur déploiement de Lync Server, leur travail se limitant à traiter les éventuelles alertes émises.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour Lync Server 2013, le pack d’administration de System Center Operations Manager peut détecter des problèmes « externes » susceptibles d’avoir un impact sur le fonctionnement de Lync Server. Par exemple, les administrateurs peuvent être avertis si les services Internet (IIS) sont mis hors connexion, si les ressources système disponibles sur l’ordinateur Lync Server sont en deçà de la quantité spécifiée ou si un ordinateur Lync Server rencontre une défaillance matérielle.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour Lync Server 2013, le pack d’administration de System Center Operations Manager peut détecter des problèmes « externes » susceptibles d’avoir un impact sur le fonctionnement de Lync Server. Par exemple, les administrateurs peuvent être avertis si les services Internet (IIS) sont mis hors connexion, si les ressources système disponibles sur l’ordinateur Lync Server sont en deçà de la quantité spécifiée ou si un ordinateur Lync Server rencontre une défaillance matérielle.
 
 Dans Lync Server 2013, la configuration d’analyse est basée sur System Center Operations Manager et sur l’utilisation des packs d’administration de Lync Server. Ces packs d’administration offrent un ensemble de nouvelles fonctionnalités et d’améliorations, détaillées ci-dessous :
 

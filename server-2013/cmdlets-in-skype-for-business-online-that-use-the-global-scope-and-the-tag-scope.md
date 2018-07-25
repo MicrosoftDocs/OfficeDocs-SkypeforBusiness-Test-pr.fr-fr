@@ -27,20 +27,9 @@ Pour retourner une stratégie utilisateur avec l’identité « RedmondAccessPo
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsque vous référencez une stratégie utilisateur, le <strong>préfixe</strong> de balise est facultatif. Cette syntaxe, qui inclut le préfixe, est également valide :<br />
-Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Lorsque vous référencez une stratégie utilisateur, le <strong>préfixe</strong> de balise est facultatif. Cette syntaxe, qui inclut le préfixe, est également valide :<br />
+Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
 
 Pour retourner toutes les stratégies à l’exception des stratégies globales (soit toutes les stratégies utilisateur), utilisez la commande suivante :
 
@@ -62,19 +51,8 @@ Les applets de commande suivantes sont appliquées à l’étendue globale et à
 
   - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Malgré leur nom, les plans de numérotation sont des stratégies d’un point de vue fonctionnel. Le terme <em>plan de numérotation</em> est utilisé à la place de règle de numérotation par exemple, afin de conserver la terminologie utilisée dans les versions précédentes de Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Malgré leur nom, les plans de numérotation sont des stratégies d’un point de vue fonctionnel. Le terme <em>plan de numérotation</em> est utilisé à la place de règle de numérotation par exemple, afin de conserver la terminologie utilisée dans les versions précédentes de Lync Server.
 
 ## Voir aussi
 

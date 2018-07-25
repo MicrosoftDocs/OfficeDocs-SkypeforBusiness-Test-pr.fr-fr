@@ -17,63 +17,19 @@ _**Dernière rubrique modifiée :** 2012-09-26_
 
 Vous pouvez déplacer les utilisateurs vers le nouveau déploiement de Lync Server 2013 à l’aide du Panneau de configuration Lync Server ou de Lync Server Management Shell. Vous devez vous assurer que certaines conditions requises sont remplies pour garantir une transition réussie vers Lync Server 2013. Pour plus d’informations sur les conditions requises liées à l’exécution des procédures de cette rubrique, reportez-vous à [Configuration des clients pour la migration](configure-clients-for-migration_1.md). Pour connaître en détail la marche à suivre pour déplacer des utilisateurs, reportez-vous à [Phase 6 : Déplacement des utilisateurs vers le pool pilote](phase-6-move-users-to-the-pilot-pool.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous ne pouvez pas utiliser le composant logiciel enfichable Utilisateurs et ordinateurs Active Directory ni les outils d’administration de Microsoft Office Communications Server 2007 R2 pour déplacer des utilisateurs depuis votre environnement hérité vers Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Vous ne pouvez pas utiliser le composant logiciel enfichable Utilisateurs et ordinateurs Active Directory ni les outils d’administration de Microsoft Office Communications Server 2007 R2 pour déplacer des utilisateurs depuis votre environnement hérité vers Lync Server 2013.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’applet de commande <strong>Move-CsLegacyUser</strong> nécessite que les noms d’utilisateurs soient correctement formés, sans espaces de début ou de fin. Vous ne pouvez pas déplacer un compte d’utilisateur à l’aide de l’applet de commande <strong>Move-CsLegacyUser</strong> s’il contient des espaces de début ou de fin.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> L’applet de commande <strong>Move-CsLegacyUser</strong> nécessite que les noms d’utilisateurs soient correctement formés, sans espaces de début ou de fin. Vous ne pouvez pas déplacer un compte d’utilisateur à l’aide de l’applet de commande <strong>Move-CsLegacyUser</strong> s’il contient des espaces de début ou de fin.
 
 Lorsque vous déplacez un utilisateur vers un pool Lync Server 2013, les données de l’utilisateur sont déplacées vers la base de données principale associée au nouveau pool.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cela comprend des réunions actives créées par l’utilisateur hérité. Par exemple, si un utilisateur hérité a configuré une conférence <strong>ma réunion</strong> , cette conférence sera encore disponible dans le nouveau pool Lync Server 2013 après que l’utilisateur a été déplacé. Les détails permettant d’accéder à cette réunion seront toujours les mêmes <strong>URL de conférence et ID de conférence</strong> . La seule différence tient au fait que la conférence est désormais hébergée dans le pool Lync Server 2013 et pas dans le pool Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Cela comprend des réunions actives créées par l’utilisateur hérité. Par exemple, si un utilisateur hérité a configuré une conférence <strong>ma réunion</strong> , cette conférence sera encore disponible dans le nouveau pool Lync Server 2013 après que l’utilisateur a été déplacé. Les détails permettant d’accéder à cette réunion seront toujours les mêmes <strong>URL de conférence et ID de conférence</strong> . La seule différence tient au fait que la conférence est désormais hébergée dans le pool Lync Server 2013 et pas dans le pool Office Communications Server 2007 R2.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’hébergement d’utilisateurs sur Lync Server 2013 ne vous oblige pas à déployer des clients mis à niveau en même temps. Les nouvelles fonctionnalités sont disponibles pour les utilisateurs uniquement lorsqu’ils ont effectué la mise à niveau vers le nouveau logiciel client.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’hébergement d’utilisateurs sur Lync Server 2013 ne vous oblige pas à déployer des clients mis à niveau en même temps. Les nouvelles fonctionnalités sont disponibles pour les utilisateurs uniquement lorsqu’ils ont effectué la mise à niveau vers le nouveau logiciel client.
 
 ## Tâche post-migration
 

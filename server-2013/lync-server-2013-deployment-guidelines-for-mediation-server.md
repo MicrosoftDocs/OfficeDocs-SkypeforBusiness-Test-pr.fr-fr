@@ -41,19 +41,8 @@ Vous pouvez utiliser l’outil de planification Microsoft Lync Server 2013 pour 
 
 Les serveurs de médiation sur le site central peuvent être utilisés pour acheminer les appels sur les sites de succursale pour les passerelles RTC ou les IP-PBX. Si vous déployez des jonctions SIP, cependant, vous devez déployer un serveur de médiation sur le site où s’arrête chaque jonction. La disponibilité d’un serveur de médiation sur le site central qui achemine les appels sur un site de succursale pour un IP/PBX ou une passerelle RTC ne requiert pas l’utilisation de la déviation du trafic multimédia. Cependant, si vous pouvez l’activer, vous pourrez réduire la latence du chemin d’accès des médias et par conséquent, obtenir une qualité des médias améliorée du fait que le chemin d’accès des médias n’est plus nécessaire pour suivre le chemin de signalisation. La déviation du trafic multimédia réduira également la charge de traitement sur le pool.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé plusieurs passerelles RTC et systèmes SBC en collaboration avec des partenaires agréés et a réalisé plusieurs tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans « Infrastructure qualifiée pour Microsoft Lync » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé plusieurs passerelles RTC et systèmes SBC en collaboration avec des partenaires agréés et a réalisé plusieurs tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans « Infrastructure qualifiée pour Microsoft Lync » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</a>.
 
 Si la résistance de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, d’un serveur de médiation et d’une passerelle doit être déployé sur le site de succursale. (L’hypothèse avec la résistance de site de succursale est que la présence et la conférence ne sont pas résilientes sur le site.) Pour des instructions de planification de site de succursale pour la voix, reportez-vous à [Planification de la résistance vocale d’un site de succursale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
 
@@ -61,16 +50,5 @@ Pour les interactions avec un IP-PBX, si ce dernier ne prend pas correctement en
 
 Pour finir, si votre site central comporte un TDM PBX ou que votre IP-PBX ne supprime pas le besoin d’une passerelle RTC, vous devez alors déployer une passerelle sur l’itinéraire d’appel qui se connecte au serveur de médiation et au PBX.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (receive-side scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à « Améliorations RSS dans Windows Server 2008 » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</a>. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (receive-side scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à « Améliorations RSS dans Windows Server 2008 » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</a>. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.

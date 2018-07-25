@@ -56,21 +56,10 @@ Le tableau ci-dessous répertorie les étapes requises pour préparer votre envi
 <td><p></p></td>
 <td><p>Préparer la synchronisation Active Directory</p></td>
 <td><p>La synchronisation Active Directory permet de synchroniser de manière continue votre annuaire Active Directory local avec Office 365. Cela vous permet de créer des versions synchronisées de chaque groupe et compte d’utilisateur et autorise également la synchronisation de la liste d’adresses globale de votre environnement Microsoft Exchange Server local vers Microsoft Exchange Online.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez synchroniser les comptes AD pour tous les utilisateurs Lync dans votre organisation entre vos déploiements locaux et vos déploiements Lync Online, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
+> [!IMPORTANT]  
+> Vous devez synchroniser les comptes AD pour tous les utilisateurs Lync dans votre organisation entre vos déploiements locaux et vos déploiements Lync Online, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.
+
 <p>Pour préparer votre environnement en vue de la synchronisation Active Directory, suivez la procédure décrite dans <a href="http://go.microsoft.com/fwlink/p/?linkid=254988">Programme de synchronisation d’annuaire</a>, including setting up single sign-on.</p></td>
 </tr>
 <tr class="odd">

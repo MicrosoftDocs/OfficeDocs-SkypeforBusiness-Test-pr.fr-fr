@@ -37,19 +37,8 @@ Pour activer l’intégration de la messagerie instantanée et d’Exchange 201
     
     Dans Exchange OWA, assurez-vous que le nom de domaine complet du pool est également approuvé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre serveur d’accès au client n’est <em>pas</em> colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, ignorez les étapes restantes de cette procédure et effectuez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique. Si votre serveur d’accès au client est colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, effectuez les étapes de cette procédure et ignorez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Si votre serveur d’accès au client n’est <em>pas</em> colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, ignorez les étapes restantes de cette procédure et effectuez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique. Si votre serveur d’accès au client est colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, effectuez les étapes de cette procédure et ignorez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique.
 
 4.  Exécutez **Enable-CsTopology** .
 

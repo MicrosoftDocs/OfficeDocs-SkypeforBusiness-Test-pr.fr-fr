@@ -19,19 +19,8 @@ Microsoft Lync Server 2013 utilise des certificats pour authentifier mutuelleme
 
 Le certificat attribué aux interfaces externes du serveur Edge est requis de la part d’une autorité de certification publique. Les autorités de certification publiques ayant réussi à fournir des certificats aux fins de Communications unifiées sont répertoriées dans l’article suivant : [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395). Lors de la demande d’un certificat, vous pouvez utiliser la demande de certificat générée par l’Assistant Déploiement de Lync Server ou créée manuellement via les applets de commande Lync Server Management Shell ou un processus fourni par une autorité de certification publique. Pour plus d’informations sur les applets de commande Lync Server Management Shell pour la gestion des certificats, reportez-vous à [Cmdlets de certificat et d’authentification dans Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/) Le certificat est attribué aux interfaces service Edge d’accès et service Edge de conférence web, ainsi qu’au service d’authentification Audio/vidéo (à ne pas confondre avec le service Edge A/V, qui n’utilise pas de certificat pour crypter les flux audio et vidéo). L’interface serveur Edge interne peut utiliser un certificat provenant d’une autorité de certification interne (à votre entreprise) ou publique. Le certificat de l’interface interne utilise uniquement le nom de sujet et n’exige ni n’utilise aucune entrée d’autre nom de sujet.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le tableau ci-dessous montre une seconde entrée SIP (sip.fabrikam.com) dans la liste des autres noms de sujets pour référence. Pour chaque domaine SIP de votre entreprise, vous devez ajouter un nom de domaine complet correspondant répertorié dans la liste des autres noms de sujets du certificat.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le tableau ci-dessous montre une seconde entrée SIP (sip.fabrikam.com) dans la liste des autres noms de sujets pour référence. Pour chaque domaine SIP de votre entreprise, vous devez ajouter un nom de domaine complet correspondant répertorié dans la liste des autres noms de sujets du certificat.
 
 ## Certificats requis pour un serveur Edge consolidé unique avec des adresses IP privées utilisant NAT
 
@@ -58,12 +47,7 @@ Le certificat attribué aux interfaces externes du serveur Edge est requis de la
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>Le certificat doit émaner d’une autorité de certification publique et doit avoir les EKU (utilisation avancée de la clé) serveur et client si la solution PIC (Public IM Connectivity) avec AOL doit être déployée. Le certificat est attribué aux interfaces Edge externes pour :</p>
-<ul>
-<li><p>Serveur Edge d’accès</p></li>
-<li><p>Serveur Edge de conférence</p></li>
-<li><p>Edge A/V</p></li>
-</ul>
+<td><p>Le certificat doit émaner d’une autorité de certification publique et doit avoir les EKU (utilisation avancée de la clé) serveur et client si la solution PIC (Public IM Connectivity) avec AOL doit être déployée. Le certificat est attribué aux interfaces Edge externes pour :</p><ul><li><p>Serveur Edge d’accès</p></li><li><p>Serveur Edge de conférence</p></li><li><p>Edge A/V</p></li></ul>
 <p>Notez que les autres noms de sujet sont automatiquement ajoutés au certificat en fonction de vos définitions dans le générateur de topologie. Vous ajoutez les entrées d’autres noms de sujet dont vous avez besoin pour les domaines SIP supplémentaires, ainsi que d’autres entrées que vous devez prendre en charge. Le nom de sujet est répliqué dans l’autre nom de sujet et doit être présent pour un fonctionnement correct.</p></td>
 </tr>
 <tr class="even">
@@ -101,12 +85,7 @@ Le certificat attribué aux interfaces externes du serveur Edge est requis de la
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>Le certificat doit émaner d’une autorité de certification publique et doit avoir les EKU (utilisation avancée de la clé) serveur et client si la solution PIC (Public IM Connectivity) avec AOL doit être déployée. Le certificat est attribué aux interfaces Edge externes pour :</p>
-<ul>
-<li><p>Serveur Edge d’accès</p></li>
-<li><p>Serveur Edge de conférence</p></li>
-<li><p>Edge A/V</p></li>
-</ul>
+<td><p>Le certificat doit émaner d’une autorité de certification publique et doit avoir les EKU (utilisation avancée de la clé) serveur et client si la solution PIC (Public IM Connectivity) avec AOL doit être déployée. Le certificat est attribué aux interfaces Edge externes pour :</p><ul><li><p>Serveur Edge d’accès</p></li><li><p>Serveur Edge de conférence</p></li><li><p>Edge A/V</p></li></ul>
 <p>Notez que les autres noms de sujet sont automatiquement ajoutés au certificat en fonction de vos définitions dans le générateur de topologie. Vous ajoutez les entrées d’autres noms de sujet dont vous avez besoin pour les domaines SIP supplémentaires, ainsi que d’autres entrées que vous devez prendre en charge. Le nom de sujet est répliqué dans l’autre nom de sujet et doit être présent pour un fonctionnement correct.</p></td>
 </tr>
 </tbody>

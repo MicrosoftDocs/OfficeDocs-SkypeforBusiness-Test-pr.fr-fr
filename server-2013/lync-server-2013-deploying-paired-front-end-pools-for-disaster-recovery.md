@@ -51,26 +51,21 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
 
 10. Forcez la synchronisation des données d’utilisateur et de conférence entre les deux pools, à l’aide des applets de commande suivantes :
     
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-    
-        Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-    
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
+
     La synchronisation des données peut durer un certain temps. Vous pouvez utiliser les applets de commande suivantes pour vérifier l’état. Assurez-vous que l’état de synchronisation dans les deux sens est stable.
     
-        Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-    
-        Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’option <strong>Basculement et restauration automatique pour Voice</strong> et les intervalles de temps associés dans le Générateur de topologie ne s’appliquent qu’aux nouvelles fonctionnalités de résistance des communications vocales introduites dans Lync Server 2010. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’option <strong>Basculement et restauration automatique pour Voice</strong> et les intervalles de temps associés dans le Générateur de topologie ne s’appliquent qu’aux nouvelles fonctionnalités de résistance des communications vocales introduites dans Lync Server 2010. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.

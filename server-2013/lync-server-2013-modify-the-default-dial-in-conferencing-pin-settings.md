@@ -41,19 +41,8 @@ La stratégie d’authentification par code confidentiel globale définit les r�
 
 11. Pour autoriser les modèles courants de codes confidentiels, tels que les jeux de chiffres séquentiels et répétitifs, activez la case à cocher **Autoriser les modèles courants**. Si vous ne sélectionnez pas cette option, seuls les modèles complexes de chiffres sont autorisés. Par défaut, seuls les modèles complexes de chiffres sont autorisés.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nous vous recommandons de ne pas autoriser les modèles courants.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Nous vous recommandons de ne pas autoriser les modèles courants.
 
 12. Cliquez sur **Valider**.
 

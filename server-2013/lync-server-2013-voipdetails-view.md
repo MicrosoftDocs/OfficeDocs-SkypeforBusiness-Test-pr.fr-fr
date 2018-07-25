@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 La vue VoIPDetails stocke des informations sur les sessions égal à égal, où au moins un utilisateur est un utilisateur VoIP. Cette vue est une nouveauté de Microsoft Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La vue VoIPDetails contient toutes les colonnes de <a href="lync-server-2013-sessiondetails-view.md">Vue SessionDetails</a> en plus des colonnes répertoriées ci-dessous.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La vue VoIPDetails contient toutes les colonnes de <a href="lync-server-2013-sessiondetails-view.md">Vue SessionDetails</a> en plus des colonnes répertoriées ci-dessous.
 
 
 <table>

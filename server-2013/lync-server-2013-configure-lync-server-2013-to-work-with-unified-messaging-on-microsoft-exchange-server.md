@@ -31,40 +31,15 @@ Lorsque vous exécutez l’utilitaire d’intégration de la messagerie unifiée
 
   - Il vérifie que le nom de chaque plan de numérotation Voix Entreprise correspond au contexte téléphonique du plan de numérotation de messagerie unifiée correspondant. Cette correspondance est uniquement nécessaire si le plan de numérotation de messagerie unifiée fonctionne sur une version d’Exchange *antérieure* à Exchange 2010 Service Pack 1 (SP1).
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant d’exécuter l’utilitaire d’intégration de messagerie unifiée Exchange, vous devez effectuer ce qui suit :
-<ul>
-<li><p>Créez un ou plusieurs plans de numérotation de messagerie unifiée Exchange, comme il est indiqué dans la documentation du produit Exchange.</p>
-<p>Pour Microsoft Exchange Server 2010, reportez-vous à « Créer un plan de numérotation de messagerie unifiée » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</p>
-<p>Pour Microsoft Exchange Server 2007 Service Pack 1 (SP1), reportez-vous à « Procédure de création d’un plan de numérotation URI SIP de messagerie unifiée » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
-<li><p>Créez un ou plusieurs plans de numérotation Lync Server, comme il est indiqué dans <a href="lync-server-2013-create-a-dial-plan.md">Création d’un plan de numérotation dans Lync Server 2013</a>.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous utilisez une version d’Exchange antérieure à Microsoft Exchange Server 2010 SP1, vous devez entrer le nom de domaine complet du plan de numérotation SIP de messagerie unifiée Exchange correspondant dans le champ <strong>Nom simple</strong> du plan de numérotation Lync Server 2013. Si vous utilisez Microsoft Exchange Server 2010 SP1 ou le tout dernier service pack, il n’est pas nécessaire que ces noms de plan de numérotation correspondent.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Avant d’exécuter l’utilitaire d’intégration de messagerie unifiée Exchange, vous devez effectuer ce qui suit :<ul><li><p>Créez un ou plusieurs plans de numérotation de messagerie unifiée Exchange, comme il est indiqué dans la documentation du produit Exchange.
+> Pour Microsoft Exchange Server 2010, reportez-vous à « Créer un plan de numérotation de messagerie unifiée » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.
+> Pour Microsoft Exchange Server 2007 Service Pack 1 (SP1), reportez-vous à « Procédure de création d’un plan de numérotation URI SIP de messagerie unifiée » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li><li><p>Créez un ou plusieurs plans de numérotation Lync Server, comme il est indiqué dans <a href="lync-server-2013-create-a-dial-plan.md">Création d’un plan de numérotation dans Lync Server 2013</a>.
 
-</div></li>
-<li><p>Créez un standard automatique et assurez-vous que le numéro d’accès abonné et le numéro du standard automatique sont au format E.164.</p></li>
-</ul></td>
+
+> [!important]  
+> Si vous utilisez une version d’Exchange antérieure à Microsoft Exchange Server 2010 SP1, vous devez entrer le nom de domaine complet du plan de numérotation SIP de messagerie unifiée Exchange correspondant dans le champ <strong>Nom simple</strong> du plan de numérotation Lync Server 2013. Si vous utilisez Microsoft Exchange Server 2010 SP1 ou le tout dernier service pack, il n’est pas nécessaire que ces noms de plan de numérotation correspondent.
+</div></li><li><p>Créez un standard automatique et assurez-vous que le numéro d’accès abonné et le numéro du standard automatique sont au format E.164.</p></li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -82,67 +57,23 @@ Lorsque vous exécutez l’utilitaire d’intégration de la messagerie unifiée
 
 5.  Dans la zone **Contact** , acceptez l’unité d’organisation par défaut, ou cliquez sur **Parcourir** pour démarrer le **Sélecteur d’unités d’organisation** . Dans la zone **Sélecteur d’unités d’organisation** , sélectionnez une unité d’organisation et cliquez sur **OK** . Vous pouvez aussi cliquer sur **Créer une unité d’organisation** pour créer une unité d’organisation sous la racine, ou toute autre unité d’organisation dans le domaine (par exemple, « OU=RTC Special Accounts,DC=fourthcoffee,DC=com »), puis cliquez sur **OK** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom unique de l’unité d’organisation que vous avez sélectionnée ou créée est désormais affiché dans la zone <strong>Unité d’organisation</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Le nom unique de l’unité d’organisation que vous avez sélectionnée ou créée est désormais affiché dans la zone <strong>Unité d’organisation</strong> .
 
 6.  Dans la zone **Nom** , acceptez le nom de plan de numérotation par défaut, ou tapez un nouveau nom complet pour l’objet contact que vous créez.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Par exemple, si vous créez un objet contact d’accès abonné, vous pouvez tout simplement le nommer Accès Abonné.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Par exemple, si vous créez un objet contact d’accès abonné, vous pouvez tout simplement le nommer Accès Abonné.
 
 7.  Dans la zone **Adresse SIP** , acceptez l’adresse SIP par défaut ou tapez une nouvelle adresse SIP.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous tapez une nouvelle adresse SIP, elle doit commencer par <strong>SIP:</strong> (c’est-à-dire, « SIP: » le signe : compris).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si vous tapez une nouvelle adresse SIP, elle doit commencer par <strong>SIP:</strong> (c’est-à-dire, « SIP: » le signe : compris).
 
 8.  Dans la liste **Serveur ou pool** , sélectionnez le serveur Standard Edition ou le pool de serveurs frontaux sur lequel l’objet contact doit être activé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il est préférable de choisir le pool où les utilisateurs activés pour Voix Entreprise et la messagerie unifiée Exchange sont déployés.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Il est préférable de choisir le pool où les utilisateurs activés pour Voix Entreprise et la messagerie unifiée Exchange sont déployés.
 
 9.  Dans la liste **Numéro de téléphone** , sélectionnez **Entrez le numéro de téléphone** ou **Utilisez ce numéro pilote à partir d’Exchange UM** , puis entrez un numéro de téléphone.
 
@@ -150,19 +81,8 @@ Lorsque vous exécutez l’utilitaire d’intégration de la messagerie unifiée
 
 11. Répétez les étapes 1 à 10 pour les objets contact supplémentaires que vous souhaitez créer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous devez créer au moins un contact pour chaque standard automatique. Si vous souhaitez un accès externe, vous devez également créer un contact d’accès abonné et spécifier des numéros SDA (Sélection directe à l’arrivée).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous devez créer au moins un contact pour chaque standard automatique. Si vous souhaitez un accès externe, vous devez également créer un contact d’accès abonné et spécifier des numéros SDA (Sélection directe à l’arrivée).
 
 Pour vérifier que les objets contact ont bien été créés, ouvrez Utilisateurs et ordinateurs Active Directory et sélectionnez l’unité d’organisation dans laquelle les objets ont été créés. Les objets contact s’affichent dans le volet d’informations.
 

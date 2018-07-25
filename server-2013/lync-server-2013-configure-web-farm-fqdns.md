@@ -37,19 +37,8 @@ Lorsque vous définissez la configuration du serveur Standard Edition, du pool d
 
 6.  Cliquez avec le bouton droit sur **Lync Server 2013**, puis cliquez sur **Publier**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Une fois la publication terminée, un lien vous informant que des opérations supplémentaires doivent être effectuées peut s’afficher. Cliquez sur le lien pour ouvrir la liste des serveurs affectés par les modifications apportées dans le Générateur de topologie qui nécessiteront de ré-exécuter l’Assistant Déploiement de Lync Server sur chaque serveur répertorié pour mettre à jour la configuration pour les composants ajoutés, supprimés ou modifiés.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Une fois la publication terminée, un lien vous informant que des opérations supplémentaires doivent être effectuées peut s’afficher. Cliquez sur le lien pour ouvrir la liste des serveurs affectés par les modifications apportées dans le Générateur de topologie qui nécessiteront de ré-exécuter l’Assistant Déploiement de Lync Server sur chaque serveur répertorié pour mettre à jour la configuration pour les composants ajoutés, supprimés ou modifiés.
 
 7.  Répétez ces étapes pour le serveur Standard Edition, le pool de serveurs frontaux, le directeur ou le pool de directeurs dans l‘organisation.
 

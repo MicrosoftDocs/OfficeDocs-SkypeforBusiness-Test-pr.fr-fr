@@ -52,19 +52,8 @@ Vous devez utiliser des ordinateurs séparés et distincts exécutant Microsoft 
 
 Le Générateur de topologie affichera le message suivant pour vous indiquer le problème : « Le serveur SQL \[nom de domaine complet du serveur\] contient déjà une instance SQL hébergeant le rôle « Magasin d’utilisateurs ». »
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous envisagez de déployer des rôles serveur inédits pour votre déploiement Lync Server 2013, vous devez procéder en premier lieu à la mise à jour de votre déploiement existant comme décrit dans la documentation de migration et la documentation de déploiement, puis déployer les nouveaux rôles serveur comme décrit dans la documentation de planification et la documentation de déploiement. Si vous envisagez la migration d’une version précédente de Group Chat, effectuez-la en dernier, une fois que vous avez transféré tous les autres composants de Lync Server 2010 ou Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous envisagez de déployer des rôles serveur inédits pour votre déploiement Lync Server 2013, vous devez procéder en premier lieu à la mise à jour de votre déploiement existant comme décrit dans la documentation de migration et la documentation de déploiement, puis déployer les nouveaux rôles serveur comme décrit dans la documentation de planification et la documentation de déploiement. Si vous envisagez la migration d’une version précédente de Group Chat, effectuez-la en dernier, une fois que vous avez transféré tous les autres composants de Lync Server 2010 ou Office Communications Server 2007 R2.
 
 Pour plus d’informations sur la configuration requise pour la coexistence ainsi que sur la coexistence et la migration de Lync Server 2010 ou Office Communications Server 2007 R2 et des composants Lync Server 2013, reportez-vous à [Migration de Lync Server 2010 vers Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) et [Migration d’Office Communications Server 2007 R2 vers Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) dans la documentation de planification. Pour plus d’informations sur la prise en charge de versions mixtes pour les clients, reportez-vous à [Clients pris en charge provenant d’anciens déploiements dans Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md).
 

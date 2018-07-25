@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Pour fournir des services de messagerie vocale aux utilisateurs Lync Server 2013 dont les boîtes aux lettres sont situées sur un service Exchange hébergé, vous devez activer leur compte utilisateur pour la messagerie vocale hébergée.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour qu’un utilisateur Lync Server 2013 puisse accéder à la messagerie vocale hébergée, une stratégie de messagerie vocale hébergée correspondant au compte utilisateur doit être déployée. Cette stratégie peut être déployée au niveau global, du site ou de chaque utilisateur à condition qu’elle s’applique à l’utilisateur que vous souhaitez activer. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-hosted-voice-mail-policies.md">Stratégies de messagerie vocale hébergées dans Lync Server 2013</a> (contenu éventuellement en anglais).</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour qu’un utilisateur Lync Server 2013 puisse accéder à la messagerie vocale hébergée, une stratégie de messagerie vocale hébergée correspondant au compte utilisateur doit être déployée. Cette stratégie peut être déployée au niveau global, du site ou de chaque utilisateur à condition qu’elle s’applique à l’utilisateur que vous souhaitez activer. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-hosted-voice-mail-policies.md">Stratégies de messagerie vocale hébergées dans Lync Server 2013</a> (contenu éventuellement en anglais).
 
 ## L’attribut msExchUCVoiceMailSettings
 
@@ -79,20 +68,9 @@ Les paires clé/valeur de l’attribut et leurs auteurs sont indiqués dans le t
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si l’attribut comporte déjà des valeurs différentes des paires clé/valeur Lync Server 2013 (CSHostedVoiceMail=0 ou CSHostedVoiceMail=1), un message vous avertit que l’attribut peut être géré par une autre application. Par exemple, un avertissement s’affiche si la paire clé/valeur ExchangeHostedVoiceMail=0 ou ExchangeHostedVoiceMail=1 existe déjà. Dans ce cas, vous pouvez modifier la valeur en éditant Active Directory ou en exécutant l’applet de commande suivante pour appliquer une valeur nulle :<br />
-Set-CsUser –identité utilisateur –HostedVoicemail $null</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si l’attribut comporte déjà des valeurs différentes des paires clé/valeur Lync Server 2013 (CSHostedVoiceMail=0 ou CSHostedVoiceMail=1), un message vous avertit que l’attribut peut être géré par une autre application. Par exemple, un avertissement s’affiche si la paire clé/valeur ExchangeHostedVoiceMail=0 ou ExchangeHostedVoiceMail=1 existe déjà. Dans ce cas, vous pouvez modifier la valeur en éditant Active Directory ou en exécutant l’applet de commande suivante pour appliquer une valeur nulle :<br />
+Set-CsUser –identité utilisateur –HostedVoicemail $null
 
 ## Activation des utilisateurs pour la messagerie vocale hébergée
 

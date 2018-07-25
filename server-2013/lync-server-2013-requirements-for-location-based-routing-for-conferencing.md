@@ -19,19 +19,8 @@ Voici une liste des conditions requises pour l’installation et la configuratio
 
   - La mise à jour cumulative 2 de Lync Server 2013 doit être déployée sur tous les serveurs ou pools de votre topologie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si la mise à jour mise à jour cumulative 2 de Lync Server 2013 ou une mise à jour ultérieure n’est pas installée sur un pool ou un serveur Lync de votre topologie, l’application du routage géodépendant des réunions Lync ne peut pas être garanti.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si la mise à jour mise à jour cumulative 2 de Lync Server 2013 ou une mise à jour ultérieure n’est pas installée sur un pool ou un serveur Lync de votre topologie, l’application du routage géodépendant des réunions Lync ne peut pas être garanti.
 
   - Le routage géodépendant Lync Server 2013 est une condition préalable pour l’application de conférence avec routage géodépendant. Pour plus d’informations sur la configuration du routage géodépendant de Lync Server 2013, voir [Configuration du routage géodépendant](lync-server-2013-configuring-location-based-routing.md).
 

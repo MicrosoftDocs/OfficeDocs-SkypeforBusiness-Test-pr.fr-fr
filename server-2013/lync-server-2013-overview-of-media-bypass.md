@@ -39,19 +39,8 @@ Lorsqu’un utilisateur reçoit un appel depuis le réseau téléphonique commut
 
 Seuls les clients et les périphériques Lync 2010 ou version ultérieure prennent en charge les interactions de la déviation du trafic multimédia à l’aide d’un serveur de médiation.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En plus d’autoriser la déviation du trafic multimédia global, vous devez autoriser la déviation du trafic multimédia individuellement sur chaque jonction RTC. Si le contournement est autorisé globalement mais ne l’est pas pour une jonction RTC donnée, la déviation du trafic multimédia ne sera appelée pour aucun appel impliquant cette jonction RTC. En outre, lorsque la déviation du trafic multimédia est définie sur <strong>Utiliser les informations de site et de région</strong> , vous devez associer tous les sous-réseaux routables aux sites sur lesquels ils se situent. Si un site compte des sous-réseaux routables pour lesquels le contournement n’est pas souhaité, ces sous-réseaux devront être regroupés dans un nouveau site avant d’autoriser la déviation du trafic multimédia. Vous êtes ainsi assuré que les sous-réseaux non routables recevront un ID de contournement distinct.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> En plus d’autoriser la déviation du trafic multimédia global, vous devez autoriser la déviation du trafic multimédia individuellement sur chaque jonction RTC. Si le contournement est autorisé globalement mais ne l’est pas pour une jonction RTC donnée, la déviation du trafic multimédia ne sera appelée pour aucun appel impliquant cette jonction RTC. En outre, lorsque la déviation du trafic multimédia est définie sur <strong>Utiliser les informations de site et de région</strong> , vous devez associer tous les sous-réseaux routables aux sites sur lesquels ils se situent. Si un site compte des sous-réseaux routables pour lesquels le contournement n’est pas souhaité, ces sous-réseaux devront être regroupés dans un nouveau site avant d’autoriser la déviation du trafic multimédia. Vous êtes ainsi assuré que les sous-réseaux non routables recevront un ID de contournement distinct.
 
 ## Voir aussi
 

@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-21_
 
 Une fois l’installation de l’outil de planification Lync Server 2013 terminée, vous êtes prêt à démarrer l’outil de planification et à commencer la conception de l’infrastructure Lync Server 2013 proposée.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’outil de planification est un outil muni d’un assistant qui vous guide dans votre processus décisionnel de conception de vos sites et de votre topologie. Cette rubrique n’est conçue comme un guide exhaustif, mais pour vous aider à démarrer dans l’utilisation de l’outil de planification dans vos sessions de conception.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’outil de planification est un outil muni d’un assistant qui vous guide dans votre processus décisionnel de conception de vos sites et de votre topologie. Cette rubrique n’est conçue comme un guide exhaustif, mais pour vous aider à démarrer dans l’utilisation de l’outil de planification dans vos sessions de conception.
 
 ## Pour commencer à utiliser l’Outil de planification et à créer la conception initiale
 
@@ -47,37 +36,15 @@ Une fois l’installation de l’outil de planification Lync Server 2013 termin�
 
 4.  Répondez à chaque rubrique en sélectionnant les critères appropriés pour votre conception, puis cliquez sur **Suivant** pour passer à la page suivante de l’Assistant. Cliquez sur **Précédent** pour modifier les pages précédentes.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin d’informations supplémentaires, cliquez sur <strong>En savoir plus</strong> pour lire des informations détaillées dans la documentation de planification de Lync Server 2013 sur le site web Microsoft TechNet. Vous devez disposer d’une connexion à Internet pour accéder au site web Microsoft TechNet.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin d’informations supplémentaires, cliquez sur <strong>En savoir plus</strong> pour lire des informations détaillées dans la documentation de planification de Lync Server 2013 sur le site web Microsoft TechNet. Vous devez disposer d’une connexion à Internet pour accéder au site web Microsoft TechNet.
 
 5.  Sélectionnez les options appropriées pour votre conception. Une fois les critères initiaux définis, une page viendra confirmer que votre vue d’ensemble des fonctionnalités est complète.
 
 6.  Cliquez sur **Concevoir des sites** pour définir votre site central.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chaque topologie Lync Server 2013 aura au moins un site central. Votre conception peut comprendre un seul site central, un site central avec un certain nombre de sites de succursale, un certain nombre de sites centraux, ou un certain nombre de sites centraux avec des sites de succursale associés à chaque site central.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Chaque topologie Lync Server 2013 aura au moins un site central. Votre conception peut comprendre un seul site central, un site central avec un certain nombre de sites de succursale, un certain nombre de sites centraux, ou un certain nombre de sites centraux avec des sites de succursale associés à chaque site central.
 
 7.  Dans **Nom du site** , tapez le nom qui identifiera ce site central.
 
@@ -87,19 +54,8 @@ Une fois l’installation de l’outil de planification Lync Server 2013 termin�
 
 10. Modifiez les sélections pour Collaboration en ligne, Utilisateurs, Voix, Options de déploiement supplémentaires ou Applications serveur, selon les besoins.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ce n’est qu’à ce moment de la conception que vous pouvez activer ou désactiver les options de votre déploiement. Cependant, vous pourrez configurer d’autres options lors d’une phase ultérieure de l’outil de planification. Certaines options sont également indisponibles et ne peuvent pas être désactivées. En outre, vous pouvez être amené à désactiver une option pour en désactiver une autre. Par exemple, si vous désactivez l’option <strong>Voix Entreprise</strong> sous Voix, les options <strong>Response Group</strong> , <strong>Annonce</strong> et <strong>Parcage d’appel</strong> sous Applications serveur (toutes étant des fonctionnalités de Voix Entreprise) sont également désactivées.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Ce n’est qu’à ce moment de la conception que vous pouvez activer ou désactiver les options de votre déploiement. Cependant, vous pourrez configurer d’autres options lors d’une phase ultérieure de l’outil de planification. Certaines options sont également indisponibles et ne peuvent pas être désactivées. En outre, vous pouvez être amené à désactiver une option pour en désactiver une autre. Par exemple, si vous désactivez l’option <strong>Voix Entreprise</strong> sous Voix, les options <strong>Response Group</strong> , <strong>Annonce</strong> et <strong>Parcage d’appel</strong> sous Applications serveur (toutes étant des fonctionnalités de Voix Entreprise) sont également désactivées.
 
 11. Après avoir défini le nom du site et le nombre d’utilisateurs, cliquez sur **Suivant** .
 

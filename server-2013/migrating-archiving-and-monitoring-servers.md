@@ -25,19 +25,8 @@ Si vous voulez la fonctionnalité d’archivage et de surveillance au cours du p
 
   - Pendant la coexistence de votre déploiement hérité et de votre déploiement de Lync Server 2013, la version Lync Server 2010 du serveur d’archivage et du serveur de surveillance collecte des données pour les utilisateurs hébergés sur les pools Lync Server 2010. L’archivage et la surveillance dans Lync Server 2013 collectent les données pour les utilisateurs hébergés sur les pools Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Au cours de la phase de migration où vous continuez à utiliser votre serveur Edge hérité avec le nouveau pool pilote Lync Server 2013, la version Lync Server 2010 du serveur d’archivage continue de collecter des données pour les utilisateurs hébergés sur les pools Lync Server 2010 et l’archivage dans Lync Server 2013 collecte les données pour les utilisateurs hébergés sur les pools Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Au cours de la phase de migration où vous continuez à utiliser votre serveur Edge hérité avec le nouveau pool pilote Lync Server 2013, la version Lync Server 2010 du serveur d’archivage continue de collecter des données pour les utilisateurs hébergés sur les pools Lync Server 2010 et l’archivage dans Lync Server 2013 collecte les données pour les utilisateurs hébergés sur les pools Lync Server 2013.
 
   - Si vous utilisez une solution d’archivage et de surveillance tierce conjointement avec l’archivage et à la surveillance dans Lync Server 2013, demandez à votre fournisseur quand et comment intégrer la solution tierce à Lync Server 2013.
 

@@ -17,20 +17,9 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Si un utilisateur a été activé pour Lync Server 2013 et que vous avez créé une ou plusieurs stratégies utilisateur pour archiver les utilisateurs hébergés sur Lync Server 2013, vous pouvez implémenter la prise en charge de l’archivage pour des utilisateurs spécifiques en appliquant les stratégies appropriées à ces utilisateurs ou groupes d’utilisateurs. Par exemple, si vous créez une stratégie permettant de prendre en charge l’archivage des communications internes, vous pouvez l’appliquer à au moins un utilisateur ou groupe d’utilisateurs de façon à permettre la prise en charge des communications Lync Server 2013 de l’utilisateur.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies d’archive permanente d’Exchange déterminent si l’archivage est activé pour les utilisateurs qui sont hébergés sur Exchange 2013 et dont les boîtes aux lettres sont archivées de manière permanente. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server</a> dans la documentation du déploiement.<br />
-Vous devez définir toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, voir <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gestion des options de configuration de l’archivage dans Lync Server 2013 pour votre organisation, vos sites et vos pools</a> dans la documentation des opérations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies d’archive permanente d’Exchange déterminent si l’archivage est activé pour les utilisateurs qui sont hébergés sur Exchange 2013 et dont les boîtes aux lettres sont archivées de manière permanente. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server</a> dans la documentation du déploiement.<br />
+Vous devez définir toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, voir <a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Gestion des options de configuration de l’archivage dans Lync Server 2013 pour votre organisation, vos sites et vos pools</a> dans la documentation des opérations.
 
 Suivez la procédure décrite dans cette rubrique pour appliquer une stratégie utilisateur d’archivage précédemment créée à un ou plusieurs comptes d’utilisateur ou groupes d’utilisateurs.
 
@@ -46,19 +35,8 @@ Suivez la procédure décrite dans cette rubrique pour appliquer une stratégie 
 
 5.  Dans **Modifier l’utilisateur Lync Server**, sous **Stratégie d’archivage**, sélectionnez la stratégie utilisateur d’archivage à appliquer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
 
 6.  Cliquez sur **Valider**.
 

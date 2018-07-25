@@ -42,21 +42,11 @@ Une stratégie de présence est un ensemble de limites et de restrictions qui af
 <td><p>Nombre maximum d’abonnements aux catégories d’abonnés</p></td>
 <td><p>Limite le nombre d’abonnements aux catégories d’abonnés Par exemple, lorsque Communicator s’abonne à la présence d’un utilisateur, il obtient un abonnement aux catégories pour chaque carte de visite, données de calendrier, notes, services et catégories d’état.</p>
 <p>Un paramètre de 0 signifie que l’objet contact ou utilisateur ne peut pas être souscrit par d’autres.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ce paramètre peut avoir un impact significatif sur les performances s’il est défini sur une valeur élevée, et l’utilisateur moyen a un grand nombre d’utilisateurs qui s’abonnent à sa présence.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Ce paramètre peut avoir un impact significatif sur les performances s’il est défini sur une valeur élevée, et l’utilisateur moyen a un grand nombre d’utilisateurs qui s’abonnent à sa présence.
+
+</td>
 <td><p>Entier</p></td>
 <td><p>0-3000</p></td>
 </tr>

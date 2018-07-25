@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-24_
 
 Les fonctionnalités Voix Entreprise avancées décrites dans cette section partagent certaines exigences de configuration pour les régions réseau, sites réseau et sous-réseaux. Par exemple, les trois fonctionnalités avancées nécessitent que chaque sous-réseau de votre topologie soit associé à un *site réseau* spécifique, et que chaque site réseau soit associé à une *région réseau* .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant de commencer la configuration réseau du contrôle d’admission des appels, E9-1-1, ou de la déviation du trafic multimédia, veillez à consulter les autres informations sur les paramètres réseau dans la rubrique <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013</a> de la documentation de planification. Pour obtenir des informations sur la configuration réseau, notamment le contrôle d’admission des appels, reportez-vous également à <a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Définition de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Avant de commencer la configuration réseau du contrôle d’admission des appels, E9-1-1, ou de la déviation du trafic multimédia, veillez à consulter les autres informations sur les paramètres réseau dans la rubrique <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013</a> de la documentation de planification. Pour obtenir des informations sur la configuration réseau, notamment le contrôle d’admission des appels, reportez-vous également à <a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Définition de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013</a> dans la documentation de planification.
 
 Le contrôle d’admission des appels et E9-1-1 ont des exigences de configuration supplémentaires pour les sites réseau :
 

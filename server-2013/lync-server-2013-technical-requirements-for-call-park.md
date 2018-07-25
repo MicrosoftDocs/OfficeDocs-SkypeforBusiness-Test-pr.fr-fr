@@ -41,34 +41,12 @@ L’application de parcage d’appel utilise les ports suivants :
 
   - **Port 5075** : utilisé pour les demandes d’écoute SIP.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ce port est un paramètre par défaut que vous pouvez modifier à l’aide de l’applet de commande <strong>Set-CsApplicationServer</strong>. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation de Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Ce port est un paramètre par défaut que vous pouvez modifier à l’aide de l’applet de commande <strong>Set-CsApplicationServer</strong>. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation de Lync Server Management Shell.
 
 ## Conditions requises pour les fichiers audio
 
 L’application de parcage d’appel prend uniquement en charge les fichiers d’attente musicale au format Windows Media Audio (.wma). Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, reportez-vous à « Expression Encoder 4 » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé pour les fichiers d’attente musicale du parcage d’appel est Windows Media Audio 9,44 kHz, 16 bits, Mono, CBR, 32 Kbits/s.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le fichier converti est lu sur le téléphone à seulement 16 kHz, même s’il a été enregistré à 44 kHz.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le fichier converti est lu sur le téléphone à seulement 16 kHz, même s’il a été enregistré à 44 kHz.

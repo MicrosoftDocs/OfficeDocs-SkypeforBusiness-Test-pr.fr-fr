@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Outre la configuration requise pour le matériel et le système d’exploitation pour les plateformes serveur, Lync Server 2013 requiert l’installation de logiciels supplémentaires sur les serveurs déployés.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur la configuration de plateforme requise pour les serveurs sur lesquels Lync Server est exécuté, reportez-vous à <a href="lync-server-2013-server-hardware-platforms.md">Plateformes matérielles de serveur pour Lync Server 2013</a> et <a href="lync-server-2013-server-and-tools-operating-system-support.md">Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013</a>. Pour plus d’informations sur la configuration système requise pour les ordinateurs et périphériques clients, reportez-vous à <a href="lync-server-2013-planning-for-clients-and-devices.md">Planification des clients et périphériques dans Lync Server 2013</a> dans la documentation de planification. Pour plus d’informations sur la configuration logicielle requise pour les outils d’administration, reportez-vous à <a href="lync-server-2013-administrative-tools-software-requirements.md">Configuration logicielle requise pour les outils d’administration dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour plus d’informations sur la configuration de plateforme requise pour les serveurs sur lesquels Lync Server est exécuté, reportez-vous à <a href="lync-server-2013-server-hardware-platforms.md">Plateformes matérielles de serveur pour Lync Server 2013</a> et <a href="lync-server-2013-server-and-tools-operating-system-support.md">Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013</a>. Pour plus d’informations sur la configuration système requise pour les ordinateurs et périphériques clients, reportez-vous à <a href="lync-server-2013-planning-for-clients-and-devices.md">Planification des clients et périphériques dans Lync Server 2013</a> dans la documentation de planification. Pour plus d’informations sur la configuration logicielle requise pour les outils d’administration, reportez-vous à <a href="lync-server-2013-administrative-tools-software-requirements.md">Configuration logicielle requise pour les outils d’administration dans Lync Server 2013</a>.
 
 ## Logiciels supplémentaires requis pour tous les rôles serveur internes
 

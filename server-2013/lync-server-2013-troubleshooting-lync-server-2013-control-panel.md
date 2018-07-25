@@ -21,19 +21,8 @@ Cette rubrique fournit des informations et des procédures susceptibles de vous 
 
 Le Panneau de configuration Lync Server nécessite que le plug-in de navigateur Microsoft Silverlight, version 4.0.50524.0 ou ultérieure, soit installé. Si Silverlight n’est pas installé ou si une version antérieure est installée, suivez les instructions du message pour installer la version requise.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D’autres spécifications logicielles concernant le Panneau de configuration Lync Server dépendent du système d’exploitation sur lequel le Panneau de configuration Lync Server et tous les outils d’administration Lync Server 2013 peuvent être installés. Pour plus d’informations, voir <a href="lync-server-2013-server-and-tools-operating-system-support.md">Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013</a> dans la documentation de prise en charge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> D’autres spécifications logicielles concernant le Panneau de configuration Lync Server dépendent du système d’exploitation sur lequel le Panneau de configuration Lync Server et tous les outils d’administration Lync Server 2013 peuvent être installés. Pour plus d’informations, voir <a href="lync-server-2013-server-and-tools-operating-system-support.md">Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013</a> dans la documentation de prise en charge.
 
 Si votre navigateur Internet bloque l’installation de Silverlight pour des raisons de sécurité, ajoutez l’URL (Uniform Resource Locator) qui ouvre le Panneau de configuration Lync Server à la liste des sites approuvés. Dans les paramètres de sécurité d’Internet Explorer, vérifiez que **Exécuter les contrôles ActiveX et les plugins** est défini comme **Activé**. Pour plus d’informations, voir [http://go.microsoft.com/fwlink/?linkid=214060\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=214060%26clcid=0x40c). De plus, vérifiez que le navigateur est configuré pour utiliser SSL 3.0.
 
@@ -51,19 +40,8 @@ Si vous avez configuré une simple URL pour accéder au Panneau de configuration
 
 Pour obtenir des procédures pas à pas de configuration de l’URL d’accès administratif, voir [Modification ou configuration des URL simples dans Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) dans la documentation de déploiement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous avez plusieurs cartes réseau sur le serveur web, vous devez configurer manuellement le DNS pour chaque carte réseau pour que la résolution DNS fonctionne correctement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous avez plusieurs cartes réseau sur le serveur web, vous devez configurer manuellement le DNS pour chaque carte réseau pour que la résolution DNS fonctionne correctement.
 
 ## Exigences relatives aux services Internet (IIS)
 

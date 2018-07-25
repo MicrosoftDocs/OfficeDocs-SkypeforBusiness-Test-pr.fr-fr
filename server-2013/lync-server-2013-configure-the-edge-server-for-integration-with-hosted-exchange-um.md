@@ -29,19 +29,8 @@ Pour plus d’informations, reportez-vous à la documentation de Lync Server Man
 
   - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant d’effectuer ces étapes, vous devez créer un enregistrement SRV DNS pour le service Exchange d’hébergement. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Avant d’effectuer ces étapes, vous devez créer un enregistrement SRV DNS pour le service Exchange d’hébergement. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md">Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée</a>.
 
 ## Pour configurer le serveur de périphérique pour la fédération
 
@@ -79,19 +68,8 @@ Pour plus d’informations, reportez-vous à la documentation de Lync Server Man
     
       - **EnabledSharedAddressSpace** indique si le fournisseur d’hébergement sera utilisé dans un scénario d’espace d’adresse SIP partagé (domaine fractionné).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Avant de définir <code>EnableSharedAddressSpace</code> sur True, essayez de résoudre l’enregistrement SRV de fédération en interne. S’il est impossible de résoudre cet enregistrement en interne, vous devez créer les enregistrements, _sipfederationtls._tcp.&lt;domaine&gt; et _sip._tls.&lt;domaine&gt; sur le serveur de noms de domaine (DNS). Ces enregistrements doivent pointer vers l’adresse IP externe de l’interface d’accès du serveur Edge.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Avant de définir <code>EnableSharedAddressSpace</code> sur True, essayez de résoudre l’enregistrement SRV de fédération en interne. S’il est impossible de résoudre cet enregistrement en interne, vous devez créer les enregistrements, _sipfederationtls._tcp.&lt;domaine&gt; et _sip._tls.&lt;domaine&gt; sur le serveur de noms de domaine (DNS). Ces enregistrements doivent pointer vers l’adresse IP externe de l’interface d’accès du serveur Edge.    
       - **HostsOCSUsers** indique si le fournisseur d’hébergement est utilisé pour héberger les comptes Lync Server 2013. Si la valeur est **False** , le fournisseur héberge d’autres types de comptes, comme des comptes Microsoft Exchange.
     
       - **ProxyFQDN** spécifie le nom de domaine complet du serveur proxy utilisé par le fournisseur d’hébergement, dans cet exemple, **proxyserver.fabrikam.com** . Cette valeur ne peut pas être modifiée. Si le fournisseur d’hébergement change de serveur proxy, vous devrez supprimer puis recréer l’entrée pour ce fournisseur.
