@@ -9,7 +9,7 @@ mtps_version: v=OCS.15
 ms.translationtype: HT
 ---
 
-# Phase 7 : Phase 7 : Exécution des tâches post-migration [W14 vers W15]
+# Phase 7 : Exécution des tâches post-migration [W14 vers W15]
 
  
 
