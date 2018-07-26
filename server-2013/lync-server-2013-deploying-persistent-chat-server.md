@@ -31,19 +31,8 @@ Le serveur de conversations permanentes peut aussi être déployé avec le Lync 
 
 Pour plus d’informations sur les configurations de colocalisation prises en charge, reportez-vous à [Colocalisation de serveur prise en charge dans Lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous ne prenons pas en charge la haute disponibilité pour le serveur de conversations permanentesStandard Edition. Les performances et l’échelle seront limitées. De plus, nous ne prenons en charge que le nouveau serveur de conversations permanentesserveur Standard Edition. Nous ne prenons pas en charge la mise à niveau du Lync Server 2010, serveur Group Chat vers un Lync Server 2013serveur de conversations permanentesStandard Edition.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Nous ne prenons pas en charge la haute disponibilité pour le serveur de conversations permanentesStandard Edition. Les performances et l’échelle seront limitées. De plus, nous ne prenons en charge que le nouveau serveur de conversations permanentesserveur Standard Edition. Nous ne prenons pas en charge la mise à niveau du Lync Server 2010, serveur Group Chat vers un Lync Server 2013serveur de conversations permanentesStandard Edition.
 
 Si votre entreprise nécessite une prise en charge de conformité, vous pouvez installer le service de conformité serveur de conversations permanentes sur le serveur de conversations permanentesserveur frontal. Une base de données distincte est requise pour la conformité.
 
@@ -59,19 +48,8 @@ Un serveur de conversations permanentesserveur frontal unique peut prendre en ch
 
 serveur de conversations permanentes est également pris en charge sur un serveur virtuel. Le serveur virtuel peut prendre en charge jusqu’à 20 000 utilisateurs simultanés s’il respecte les spécifications du serveur physique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le serveur de conversations permanentes doit être installé sur un système de fichiers NTFS pour permettre d’appliquer la sécurité du système de fichiers. Le système de fichiers FAT32 n’est pas pris en charge par le serveur de conversations permanentes.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Le serveur de conversations permanentes doit être installé sur un système de fichiers NTFS pour permettre d’appliquer la sécurité du système de fichiers. Le système de fichiers FAT32 n’est pas pris en charge par le serveur de conversations permanentes.
 
 ## Dans cette section
 

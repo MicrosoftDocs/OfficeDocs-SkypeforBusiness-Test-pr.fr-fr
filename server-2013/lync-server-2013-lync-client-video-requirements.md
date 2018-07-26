@@ -38,114 +38,44 @@ Lync 2013 propose désormais l\\rquote accélération matérielle pour l\\rquote
 <tbody>
 <tr class="odd">
 <td><p>Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)</p></td>
-<td><ul>
-<li><p>La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode de décodage DXVA2_ModeH264_VLD_NoFGT.</p></li>
-<li><p>Le tout dernier pilote de carte graphique doit être installé.</p></li>
-</ul>
+<td><ul><li><p>La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode de décodage DXVA2_ModeH264_VLD_NoFGT.</p></li><li><p>Le tout dernier pilote de carte graphique doit être installé.</p></li></ul>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur les modes de décodage, voir <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour plus d’informations sur les modes de décodage, voir <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Encodage matériel accéléré H.264 : chipset requis</p></td>
-<td><p>Les solutions d’encodage vidéo matériel accéléré Intel prises en charge sont les suivantes :</p>
-<ul>
-<li><p>Chipsets Intel HD Graphics 2000, 2500, 3000, et 4000 de deuxième ou troisième générations (ou versions ultérieures) avec encodeurs vidéo matériel intégrés. L\rquote installation du pilote 15.28.9.2884 Intel HD Graphics ou version ultérieure contenant les éléments suivants est requise :</p>
-<ul>
-<li><p>Pilote d’affichage 9.17.10.2884 ou version ultérieure ;</p></li>
-<li><p>HMFT (Hardware Media Foundation Transform) 3.12.10.31 ou version ultérieure.</p></li>
-</ul></li>
-</ul>
-<p>Les solutions d’encodage vidéo matériel accéléré AMD suivantes sont prises en charge (nécessitent les mises à jour CU1 pour Lync Server 2013) :</p>
-<ul>
-<li><p>AMD Video Codec Engine, disponible dans plusieurs cartes graphiques discrètes et les unités de traitement accéléré intégrées des processeurs accélérés AMD série A. Le pilote 9.12.0.0 AMD Video Codec Engine ou une version ultérieure doit être installé.</p></li>
-</ul></td>
+<td><p>Les solutions d’encodage vidéo matériel accéléré Intel prises en charge sont les suivantes :</p><ul><li><p>Chipsets Intel HD Graphics 2000, 2500, 3000, et 4000 de deuxième ou troisième générations (ou versions ultérieures) avec encodeurs vidéo matériel intégrés. L\rquote installation du pilote 15.28.9.2884 Intel HD Graphics ou version ultérieure contenant les éléments suivants est requise :</p><ul><li><p>Pilote d’affichage 9.17.10.2884 ou version ultérieure ;</p></li><li><p>HMFT (Hardware Media Foundation Transform) 3.12.10.31 ou version ultérieure.</p></li></ul></li></ul>
+<p>Les solutions d’encodage vidéo matériel accéléré AMD suivantes sont prises en charge (nécessitent les mises à jour CU1 pour Lync Server 2013) :</p><ul><li><p>AMD Video Codec Engine, disponible dans plusieurs cartes graphiques discrètes et les unités de traitement accéléré intégrées des processeurs accélérés AMD série A. Le pilote 9.12.0.0 AMD Video Codec Engine ou une version ultérieure doit être installé.</p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Encodage matériel accéléré H.264 : caméra requise</p></td>
 <td><p>Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d\rquote UVC 1.5. Dans la mesure où Windows 7 ne prend pas en charge UVC 1.5, Lync 2013 considère les caméras UVC 1.5 comme des caméras génériques sans prise en charge de l\rquote encodage matériel.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync 2013 prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d\rquote UVC 1.5. Dans la mesure où Windows 7 ne prend pas en charge UVC 1.5, Lync 2013 considère les caméras UVC 1.5 comme des caméras génériques sans prise en charge de l\rquote encodage matériel.
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)</p></td>
-<td><ul>
-<li><p>La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode de décodage DXVA2_ModeH264_VLD_NoFGT.</p></li>
-<li><p>Le tout dernier pilote de carte graphique doit être installé.</p></li>
-</ul>
+<td><ul><li><p>La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode de décodage DXVA2_ModeH264_VLD_NoFGT.</p></li><li><p>Le tout dernier pilote de carte graphique doit être installé.</p></li></ul>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur les modes de décodage, voir <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour plus d’informations sur les modes de décodage, voir <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.
 </div></td>
 </tr>
 <tr class="odd">
 <td><p>Encodage matériel accéléré H.264 : chipset requis</p></td>
-<td><p>Les solutions d’encodage vidéo matériel accéléré Intel prises en charge sont les suivantes :</p>
-<ul>
-<li><p>Chipsets Intel HD Graphics 2000, 2500, 3000, et 4000 de deuxième ou troisième générations (ou versions ultérieures) avec encodeurs vidéo matériel intégrés. L\rquote installation du pilote 15.28.9.2884 Intel HD Graphics ou version ultérieure contenant les éléments suivants est requise :</p>
-<ul>
-<li><p>Pilote d’affichage 9.17.10.2884 ou version ultérieure ;</p></li>
-<li><p>HMFT (Hardware Media Foundation Transform) 3.12.10.31 ou version ultérieure.</p></li>
-</ul></li>
-</ul>
-<p>Les solutions d’encodage vidéo matériel accéléré AMD suivantes sont prises en charge (nécessitent les mises à jour CU1 pour Lync Server 2013) :</p>
-<ul>
-<li><p>AMD Video Codec Engine, disponible dans plusieurs cartes graphiques discrètes et les unités de traitement accéléré intégrées des processeurs accélérés AMD série A. Le pilote 9.12.0.0 AMD Video Codec Engine ou une version ultérieure doit être installé.</p></li>
-</ul></td>
+<td><p>Les solutions d’encodage vidéo matériel accéléré Intel prises en charge sont les suivantes :</p><ul><li><p>Chipsets Intel HD Graphics 2000, 2500, 3000, et 4000 de deuxième ou troisième générations (ou versions ultérieures) avec encodeurs vidéo matériel intégrés. L\rquote installation du pilote 15.28.9.2884 Intel HD Graphics ou version ultérieure contenant les éléments suivants est requise :</p><ul><li><p>Pilote d’affichage 9.17.10.2884 ou version ultérieure ;</p></li><li><p>HMFT (Hardware Media Foundation Transform) 3.12.10.31 ou version ultérieure.</p></li></ul></li></ul>
+<p>Les solutions d’encodage vidéo matériel accéléré AMD suivantes sont prises en charge (nécessitent les mises à jour CU1 pour Lync Server 2013) :</p><ul><li><p>AMD Video Codec Engine, disponible dans plusieurs cartes graphiques discrètes et les unités de traitement accéléré intégrées des processeurs accélérés AMD série A. Le pilote 9.12.0.0 AMD Video Codec Engine ou une version ultérieure doit être installé.</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p>Encodage matériel accéléré H.264 : caméra requise</p></td>
 <td><p>Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d\rquote UVC 1.5. Dans la mesure où Windows 7 ne prend pas en charge UVC 1.5, Lync 2013 considère les caméras UVC 1.5 comme des caméras génériques sans prise en charge de l\rquote encodage matériel.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync 2013 prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d\rquote UVC 1.5. Dans la mesure où Windows 7 ne prend pas en charge UVC 1.5, Lync 2013 considère les caméras UVC 1.5 comme des caméras génériques sans prise en charge de l\rquote encodage matériel.
 </div></td>
 </tr>
 </tbody>
@@ -332,19 +262,8 @@ Les trois tableaux suivants expliquent les capacités d\\rquote encodage et de d
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le score WinSAT sur Windows 7 est limité à un maximum de 7,9. C\rquote est pourquoi la capacité d\rquote encodage d\rquote un ordinateur sans encodeur matériel accéléré ne peut être obtenue que sur Windows 8 ou Windows 8.1, pour lequel le score WinSAT est de 9,9 au maximum.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le score WinSAT sur Windows 7 est limité à un maximum de 7,9. C\rquote est pourquoi la capacité d\rquote encodage d\rquote un ordinateur sans encodeur matériel accéléré ne peut être obtenue que sur Windows 8 ou Windows 8.1, pour lequel le score WinSAT est de 9,9 au maximum.
 
 ### Ordinateur avec DXVA et avec un encodeur matériel accéléré Intel HD Graphics
 

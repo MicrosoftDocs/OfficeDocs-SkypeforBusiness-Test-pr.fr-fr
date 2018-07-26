@@ -35,16 +35,5 @@ Une autre solution possible consiste à utiliser IPSec simplement pour sécurise
 
   - Service SMB (TCP/445) de chaque serveur frontal dans le pool B vers le magasin de fichiers utilisé par le pool A.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>IPsec n’est pas destiné à remplacer la sécurité au niveau de l’application, comme SSL/TLS. L’intérêt d’utiliser IPsec est qu’il peut assurer la sécurité du trafic réseau pour les applications existantes sans avoir à les modifier. Les entreprises qui veulent simplement sécuriser le transport entre les deux centres de données doivent s’adresser à leurs fournisseurs de matériel réseau respectifs pour savoir comment configurer des connexions de réseau étendu (WAN) sécurisées avec leur matériel.</td>
-</tr>
-</tbody>
-</table>
-
+> [!warning]  
+> IPsec n’est pas destiné à remplacer la sécurité au niveau de l’application, comme SSL/TLS. L’intérêt d’utiliser IPsec est qu’il peut assurer la sécurité du trafic réseau pour les applications existantes sans avoir à les modifier. Les entreprises qui veulent simplement sécuriser le transport entre les deux centres de données doivent s’adresser à leurs fournisseurs de matériel réseau respectifs pour savoir comment configurer des connexions de réseau étendu (WAN) sécurisées avec leur matériel.

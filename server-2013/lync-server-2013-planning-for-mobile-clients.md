@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Les clients mobiles Lync 2013 fournissent des fonctionnalités de présence améliorée, de messagerie instantanée, de réunions Lync et d’appels audio et vidéo par le biais d’Internet ou de la connexion cellulaire. Pour obtenir un tableau qui répertorie les fonctionnalités des clients mobiles et les compare au client de bureau, voir [Tableau de comparaison des clients mobiles pour Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, voir « Planification des clients mobiles » dans la bibliothèque TechNet Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, voir « Planification des clients mobiles » dans la bibliothèque TechNet Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>.
 
 ## Dans cette section
 

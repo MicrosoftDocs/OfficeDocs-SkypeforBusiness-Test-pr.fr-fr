@@ -94,21 +94,12 @@ Les paramètres des types de négociation dans la configuration d’un partenair
 <td><p>Obligatoire</p></td>
 <td><p>True</p></td>
 <td><p>SASL sur TLS</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le rappel ne fonctionne pas si SASL et TLS sont tous deux obligatoires.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> Le rappel ne fonctionne pas si SASL et TLS sont tous deux obligatoires.
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Obligatoire</p></td>
@@ -122,98 +113,54 @@ Les paramètres des types de négociation dans la configuration d’un partenair
 <td><p>Obligatoire</p></td>
 <td><p>True</p></td>
 <td><p>SASL sur TLS, Rappel TLS, Rappel TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Facultatif</p></td>
 <td><p>Obligatoire</p></td>
 <td><p>False</p></td>
 <td><p>SASL sur TLS</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+
+> [!WARNING]  
+> SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Non pris en charge</p></td>
 <td><p>Obligatoire</p></td>
 <td><p>True</p></td>
 <td><p>Rappel TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Non pris en charge</p></td>
 <td><p>Obligatoire</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Configuration incorrecte</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Puisque TLS est requis par SASL et qu’il n’est pas disponible, SASL/TLS ne peut pas aboutir. Le rappel TCP est défini sur false, et ne peut pas être utilisé.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Configuration incorrecte
 
-</div></td>
+</td>
+<td>
+
+> [!WARNING]  
+> Puisque TLS est requis par SASL et qu’il n’est pas disponible, SASL/TLS ne peut pas aboutir. Le rappel TCP est défini sur false, et ne peut pas être utilisé.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Obligatoire</p></td>
@@ -234,98 +181,53 @@ Les paramètres des types de négociation dans la configuration d’un partenair
 <td><p>Facultatif</p></td>
 <td><p>True</p></td>
 <td><p>SASL sur TLS, Rappel TLS, Rappel TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Facultatif</p></td>
 <td><p>Facultatif</p></td>
 <td><p>False</p></td>
 <td><p>SASL sur TLS</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Non pris en charge</p></td>
 <td><p>Facultatif</p></td>
 <td><p>True</p></td>
 <td><p>Rappel TCP</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Non pris en charge</p></td>
 <td><p>Facultatif</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Configuration incorrecte</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Configuration incorrecte
 
-</div></td>
+</td>
+<td>
+
+> [!WARNING]  
+> SASL nécessite TLS. Rendre TLS facultatif peut entraîner l’échec de négociations de session.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Obligatoire</p></td>
@@ -339,21 +241,12 @@ Les paramètres des types de négociation dans la configuration d’un partenair
 <td><p>Non pris en charge</p></td>
 <td><p>False</p></td>
 <td><p>Configuration incorrecte</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL ou le rappel doit être activé.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL ou le rappel doit être activé.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Facultatif</p></td>
@@ -367,21 +260,12 @@ Les paramètres des types de négociation dans la configuration d’un partenair
 <td><p>Non pris en charge</p></td>
 <td><p>False</p></td>
 <td><p>Configuration incorrecte</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL ou le rappel doit être activé.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL ou le rappel doit être activé.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Non pris en charge</p></td>
@@ -395,21 +279,12 @@ Les paramètres des types de négociation dans la configuration d’un partenair
 <td><p>Non pris en charge</p></td>
 <td><p>False</p></td>
 <td><p>Configuration incorrecte</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SASL ou le rappel doit être activé.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div></td>
+> [!WARNING]  
+> SASL ou le rappel doit être activé.
+
+</td>
 </tr>
 </tbody>
 </table>

@@ -23,25 +23,17 @@ Si l’héritage des autorisations ou les autorisations des utilisateurs authent
 
 Si votre organisation utilise des unités d’organisation à la place des trois conteneurs intégrés (Utilisateurs, Ordinateurs et Contrôleurs de domaine), le groupe Utilisateurs authentifiés doit disposer d’un accès en lecture aux unités d’organisation. L’accès en lecture aux conteneurs est obligatoire pour la préparation du domaine. Si tel n’est pas le cas, exécutez l’applet de commande **Grant-CsOuPermission** comme illustré dans les exemples de code suivants afin d’accorder des autorisations de lecture pour chaque unité d’organisation.
 
-    Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
-
-    Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+```
+Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
+```
+```
+Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+```
 
 Pour plus d’informations sur l’applet de commande **Grant-CsOuPermission**, reportez-vous à la documentation Lync Server Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur les entrées de contrôle d’accès créées sur le domaine racine et dans les conteneurs Utilisateurs, Ordinateurs et Contrôleurs de domaine, reportez-vous à <a href="lync-server-2013-changes-made-by-domain-preparation.md">Modifications effectuées par la préparation de domaine dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Pour plus d’informations sur les entrées de contrôle d’accès créées sur le domaine racine et dans les conteneurs Utilisateurs, Ordinateurs et Contrôleurs de domaine, reportez-vous à <a href="lync-server-2013-changes-made-by-domain-preparation.md">Modifications effectuées par la préparation de domaine dans Lync Server 2013</a>.
 
 ## Dans cette section
 

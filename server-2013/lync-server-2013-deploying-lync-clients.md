@@ -23,24 +23,10 @@ Lync 2013 introduit une approche différente du déploiement de clients. Contrai
 
 Les rubriques de cette section s’intéressent essentiellement au déploiement des clients par le biais du programme d’installation MSI d’Office 2013. La source de référence à privilégier est la documentation Kit de ressources Office 2013, qui explique en détail comment préparer l’infrastructure, personnaliser l’installation et déployer Office 2013. Toutefois, il vous sera utile de consulter également les rubriques de cette section, qui mettent en avant des aspects du déploiement spécifiques à Lync 2013.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Le complément de réunion en ligne pour Lync 2013, qui permet de gérer les réunions à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Lync 2013.</p></li>
-<li><p>Le programme d’installation Office 2013 ne désinstalle pas les versions précédentes de Lync ou d’Office Communicator. Le client Lync 2013 s’installe côte à côte avec les autres clients Lync ou Office Communicator.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> <ul>
+> <li><p>Le complément de réunion en ligne pour Lync 2013, qui permet de gérer les réunions à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Lync 2013.</p></li>
+> <li><p>Le programme d’installation Office 2013 ne désinstalle pas les versions précédentes de Lync ou d’Office Communicator. Le client Lync 2013 s’installe côte à côte avec les autres clients Lync ou Office Communicator.</p></li></ul>
 
 
 ## Dans cette section

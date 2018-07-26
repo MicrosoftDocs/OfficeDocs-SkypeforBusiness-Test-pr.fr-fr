@@ -31,16 +31,5 @@ Déployer un serveur Standard Edition dans un déploiement Enterprise Edition re
 
 6.  Configurez et installez un serveur Standard Edition.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous avez déployé un environnement avec seulement un serveur Standard Edition, vous avez dû commencer le processus de configuration à l’aide de l’Assistant Déploiement de Lync Server en utilisant le lien <strong>Préparer d’abord le serveur Standard Edition</strong> pour installer les fichiers de base de données initiaux sur le nouveau serveur Standard Edition. <strong>Ne suivez pas</strong> cette procédure pour installer un serveur Standard Edition dans un déploiement Lync Server 2013 existant.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!CAUTION]  
+    > Si vous avez déployé un environnement avec seulement un serveur Standard Edition, vous avez dû commencer le processus de configuration à l’aide de l’Assistant Déploiement de Lync Server en utilisant le lien <strong>Préparer d’abord le serveur Standard Edition</strong> pour installer les fichiers de base de données initiaux sur le nouveau serveur Standard Edition. <strong>Ne suivez pas</strong> cette procédure pour installer un serveur Standard Edition dans un déploiement Lync Server 2013 existant.

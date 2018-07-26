@@ -29,26 +29,12 @@ Contrairement aux téléphones à multiplexage temporel (TDM) et IP-PBX (Interne
 
 Lorsque vous utilisez une passerelle ELIN, vous ajoutez également des emplacements ERL à la base de données du service d’informations sur l’emplacement, mais vous devez aussi inclure un numéro d’identification de l’emplacement en cas d’urgence (numéro ELIN) pour chaque emplacement. Ce numéro devient le numéro d’appel d’urgence durant l’appel d’urgence. Vous devez alors vous assurer que votre opérateur RTC télécharge les numéros ELIN vers la base de données ALI (Automatic Location Identification.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les périphériques analogiques connectés à Lync ne peuvent pas recevoir d’informations d’emplacement du service d’informations sur l’emplacement ni transmettre l’emplacement au fournisseur de services E9-1-1. Si vous faites appel à un fournisseur de services E9-1-1 de jonction SIP et souhaitez permettre l’utilisation de la fonction E9-1-1 à partir de téléphones analogiques, vous avez deux options :
-<ul>
-<li><p><strong>Option PS-ALI classique</strong>   Si vous avez des passerelles RTC locales sur chaque site où des téléphones analogiques sont déployés et que chaque téléphone analogique dispose d’un SDA, vous pouvez configurer l’emplacement du périphérique analogique directement avec un fournisseur de services PS-ALI (Private Switch/Automatic Location Identification). Dans ce cas, vous configurez des stratégies de voix Lync spécialement définies et les affectez aux objets contact du périphérique analogique afin que les appels E9-1-1 de ces téléphones soient directement acheminés, via la passerelle locale, vers le fournisseur RTC qui dessert le site (au lieu d’acheminer les appels vers une jonction SIP de fournisseur de services E9-1-1). Lorsqu’un appel d’urgence est passé, une base de données d’un fournisseur PS-ALI associé à la jonction RTC mappe le numéro SDA de chaque téléphone analogique à un emplacement physique et fournit cet emplacement au centre PSAP. Ces enregistrements doivent être mis à jour avec le fournisseur de services PS-ALI chaque fois que les téléphones changent d’ERL.</p></li>
-<li><p><strong>Option de fournisseur de services E9-1-1</strong>   Vous pouvez inscrire le numéro SDA des téléphones analogiques et leurs ERL correspondants auprès du fournisseur de services E9-1-1, si celui-ci prend en charge cette option. Si le fournisseur reçoit un appel de Lync Server qui ne comprend pas les données PIDF-LO, il peut déterminer si une correspondance de base de données existe pour le numéro SDA de l’appelant. En utilisant l’URL extrait de la base de données, le fournisseur peut automatiquement acheminer l’appel d’urgence vers le centre PSAP approprié. Le centre reçoit le numéro SDA du périphérique analogique ainsi qu’une clé ESQK qui permet au répartiteur de rechercher l’appelant.</p></li>
-</ul>
-Si vous utilisez l’option de passerelle ELIN et souhaitez permettre l’utilisation de la fonction E9-1-1 à partir de téléphones analogiques, vous pouvez configurer l’emplacement du périphérique analogique directement avec le fournisseur de services PS-ALI, comme décrit dans la première option ci-dessus.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Les périphériques analogiques connectés à Lync ne peuvent pas recevoir d’informations d’emplacement du service d’informations sur l’emplacement ni transmettre l’emplacement au fournisseur de services E9-1-1. Si vous faites appel à un fournisseur de services E9-1-1 de jonction SIP et souhaitez permettre l’utilisation de la fonction E9-1-1 à partir de téléphones analogiques, vous avez deux options :
+> <ul>
+> <li><p><strong>Option PS-ALI classique</strong>   Si vous avez des passerelles RTC locales sur chaque site où des téléphones analogiques sont déployés et que chaque téléphone analogique dispose d’un SDA, vous pouvez configurer l’emplacement du périphérique analogique directement avec un fournisseur de services PS-ALI (Private Switch/Automatic Location Identification). Dans ce cas, vous configurez des stratégies de voix Lync spécialement définies et les affectez aux objets contact du périphérique analogique afin que les appels E9-1-1 de ces téléphones soient directement acheminés, via la passerelle locale, vers le fournisseur RTC qui dessert le site (au lieu d’acheminer les appels vers une jonction SIP de fournisseur de services E9-1-1). Lorsqu’un appel d’urgence est passé, une base de données d’un fournisseur PS-ALI associé à la jonction RTC mappe le numéro SDA de chaque téléphone analogique à un emplacement physique et fournit cet emplacement au centre PSAP. Ces enregistrements doivent être mis à jour avec le fournisseur de services PS-ALI chaque fois que les téléphones changent d’ERL.</p></li>
+> <li><p><strong>Option de fournisseur de services E9-1-1</strong>   Vous pouvez inscrire le numéro SDA des téléphones analogiques et leurs ERL correspondants auprès du fournisseur de services E9-1-1, si celui-ci prend en charge cette option. Si le fournisseur reçoit un appel de Lync Server qui ne comprend pas les données PIDF-LO, il peut déterminer si une correspondance de base de données existe pour le numéro SDA de l’appelant. En utilisant l’URL extrait de la base de données, le fournisseur peut automatiquement acheminer l’appel d’urgence vers le centre PSAP approprié. Le centre reçoit le numéro SDA du périphérique analogique ainsi qu’une clé ESQK qui permet au répartiteur de rechercher l’appelant.</p></li></ul>
+> Si vous utilisez l’option de passerelle ELIN et souhaitez permettre l’utilisation de la fonction E9-1-1 à partir de téléphones analogiques, vous pouvez configurer l’emplacement du périphérique analogique directement avec le fournisseur de services PS-ALI, comme décrit dans la première option ci-dessus.
 
 
 De la perspective de Lync Server, le processus E9-1-1 peut être séparé en deux étapes :

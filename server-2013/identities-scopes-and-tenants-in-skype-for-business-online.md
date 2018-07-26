@@ -71,19 +71,8 @@ Les stratégies par utilisateur doivent être créées pour vous par le support 
 
     Identity : tag:AllowPublicIMCommunication
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le préfixe <strong>tag</strong> date des tout premiers jours du développement de Lync Server 2010. À ce moment-là, les stratégies utilisateur étaient appelées <em>stratégies de balise</em> et étaient identifiées par le préfixe <strong>tag</strong>. Ces stratégies sont désormais appelées de manière plus exacte <em>stratégies utilisateur</em>, de même que l’étendue de balise est appelée <em>étendue utilisateur</em>. Toutefois, pour des raisons techniques, le préfixe <strong>tag</strong> n’a jamais changé.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le préfixe <strong>tag</strong> date des tout premiers jours du développement de Lync Server 2010. À ce moment-là, les stratégies utilisateur étaient appelées <em>stratégies de balise</em> et étaient identifiées par le préfixe <strong>tag</strong>. Ces stratégies sont désormais appelées de manière plus exacte <em>stratégies utilisateur</em>, de même que l’étendue de balise est appelée <em>étendue utilisateur</em>. Toutefois, pour des raisons techniques, le préfixe <strong>tag</strong> n’a jamais changé.
 
 Un autre terme clé employé lors de l’utilisation de Skype Entreprise Online et Windows PowerShell est *client*. Lors de la configuration d’un compte Skype Entreprise Online, votre nouveau déploiement reçoit un numéro d’identifiant client, qui constitue un GUID (globally unique identifier) semblable au suivant :
 

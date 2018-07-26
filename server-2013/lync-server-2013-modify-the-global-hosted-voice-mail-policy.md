@@ -33,19 +33,8 @@ Pour plus d’informations sur la cmdlet [set-cshostedvoicemailpolicy](https://d
     
       - **Organization** fournit la liste des clients Exchange (séparés par des virgules) qui hébergent les utilisateurs de Lync Server. Chaque client doit être spécifié avec son nom de domaine complet (FQDN) sur le service de messagerie unifiée Exchange hébergé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dans la cmdlet de l’exemple précédent, la valeur corp1.litwareinc.com remplace toute valeur pouvant être déjà présente dans le paramètre Organisation. Par exemple, si la stratégie contient déjà une liste séparée par des virgules des organisations, toute la liste sera remplacée. Si vous souhaitez ajouter une organisation à la liste plutôt que de remplacer toute la liste, exécutez une commande similaire à celle-ci.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!note]  
+    > Dans la cmdlet de l’exemple précédent, la valeur corp1.litwareinc.com remplace toute valeur pouvant être déjà présente dans le paramètre Organisation. Par exemple, si la stratégie contient déjà une liste séparée par des virgules des organisations, toute la liste sera remplacée. Si vous souhaitez ajouter une organisation à la liste plutôt que de remplacer toute la liste, exécutez une commande similaire à celle-ci.    
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
         set-cshostedvoicemailpolicy -Organization $a.Organization

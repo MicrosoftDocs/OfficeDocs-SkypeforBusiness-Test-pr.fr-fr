@@ -25,19 +25,8 @@ Vous pouvez utiliser des stratégies de version du client pour spécifier les ve
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Clients**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’onglet <strong>Stratégie de version du client</strong> est sélectionné par défaut.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > L’onglet <strong>Stratégie de version du client</strong> est sélectionné par défaut.
 
 4.  Dans la page **Stratégie de version du client**, effectuez l’une des opérations suivantes :
     

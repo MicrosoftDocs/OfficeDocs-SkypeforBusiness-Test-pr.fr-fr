@@ -17,51 +17,18 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Pour effectuer cette procédure, vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins ou disposer des autorisations déléguées correctes. Pour plus d’informations sur la délégation d’autorisations, reportez-vous à [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md). En fonction de votre entreprise et des besoins en matière de certificats, il se peut que vous deviez appartenir à d’autres groupes. Contactez le groupe chargé de gérer l’autorité de certification de votre infrastructure de clés publiques.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 prend en charge la suite SHA-2 (SHA-2 utilise les longueurs de hachage de 224, 256, 384 et 512 bits) d’algorithmes de hachage et de signature pour les connexions à partir de clients exécutant les systèmes d’exploitation Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Windows XP, en plus de Lync Phone Edition. Pour permettre la prise en charge de l’accès externe via la suite SHA-2, le certificat externe est émis par une autorité de certification publique pouvant également émettre un certificat avec le même hachage de longueur en bits.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Lync Server 2013 prend en charge la suite SHA-2 (SHA-2 utilise les longueurs de hachage de 224, 256, 384 et 512 bits) d’algorithmes de hachage et de signature pour les connexions à partir de clients exécutant les systèmes d’exploitation Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Windows XP, en plus de Lync Phone Edition. Pour permettre la prise en charge de l’accès externe via la suite SHA-2, le certificat externe est émis par une autorité de certification publique pouvant également émettre un certificat avec le même hachage de longueur en bits.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La sélection de l’algorithme de hachage et de signature dépend des clients et serveurs qui utiliseront le certificat, et des autres ordinateurs et appareils avec lesquels les clients et serveurs communiqueront, lesquels doivent également savoir comment utiliser les algorithmes définis dans le certificat. Pour plus d’informations sur les longueurs de hachage prises en charge dans le système d’exploitation et certaines applications clientes, reportez-vous à <a href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!Caution]  
+> La sélection de l’algorithme de hachage et de signature dépend des clients et serveurs qui utiliseront le certificat, et des autres ordinateurs et appareils avec lesquels les clients et serveurs communiqueront, lesquels doivent également savoir comment utiliser les algorithmes définis dans le certificat. Pour plus d’informations sur les longueurs de hachage prises en charge dans le système d’exploitation et certaines applications clientes, reportez-vous à <a href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</a>.
 
 Chaque serveur Standard Edition ou serveur frontal nécessite jusqu’à quatre certificats : le certificat de l’émetteur de jetons OAuth, un certificat par défaut, un certificat interne web et un certificat externe web. Cependant, il est possible de demander et d’attribuer un certificat par défaut unique contenant les entrées de noms d’objet appropriées ainsi que le certificat de l’émetteur de jetons OAuth. Pour plus d’informations sur les certificats requis, reportez-vous à [Exigences de certificat pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) (contenu éventuellement en anglais). Pour plus d’informations sur la demande, l’attribution et l’installation du certificat de l’émetteur de jetons OAuth, reportez-vous à [Gestion de l’authentification serveur à serveur (Oauth) et des applications partenaires dans Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) (contenu éventuellement en anglais).
 
 Utilisez la procédure suivante pour demander, attribuer et installer les certificats serveur Standard Edition ou serveur frontal. Répétez la procédure pour chaque serveur frontal.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La procédure suivante décrit la configuration des certificats à partir d’une infrastructure à clé publique (PKI) d’entreprise interne déployée par votre entreprise et avec un traitement hors ligne de la demande. Pour plus d’informations sur l’obtention de certificats à partir d’une autorité de certification publique, reportez-vous à <a href="lync-server-2013-certificate-requirements-for-internal-servers.md">Exigences de certificat pour les serveurs internes dans Lync Server 2013</a> (contenu éventuellement en anglais) dans la documentation de planification. Cette procédure décrit également comment demander, affecter et installer les certificats lors de la configuration du serveur frontal. Si vous avez demandé des certificats par avance comme décrit à la section <a href="lync-server-2013-request-certificates-in-advance-optional.md">Demande des certificats à l’avance (facultatif) pour Lync Server 2013</a> de la documentation de déploiement, ou si vous n’utilisez pas la PKI d’entreprise interne déployée dans votre entreprise pour obtenir des certificats, vous devez modifier cette procédure en conséquence.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La procédure suivante décrit la configuration des certificats à partir d’une infrastructure à clé publique (PKI) d’entreprise interne déployée par votre entreprise et avec un traitement hors ligne de la demande. Pour plus d’informations sur l’obtention de certificats à partir d’une autorité de certification publique, reportez-vous à <a href="lync-server-2013-certificate-requirements-for-internal-servers.md">Exigences de certificat pour les serveurs internes dans Lync Server 2013</a> (contenu éventuellement en anglais) dans la documentation de planification. Cette procédure décrit également comment demander, affecter et installer les certificats lors de la configuration du serveur frontal. Si vous avez demandé des certificats par avance comme décrit à la section <a href="lync-server-2013-request-certificates-in-advance-optional.md">Demande des certificats à l’avance (facultatif) pour Lync Server 2013</a> de la documentation de déploiement, ou si vous n’utilisez pas la PKI d’entreprise interne déployée dans votre entreprise pour obtenir des certificats, vous devez modifier cette procédure en conséquence.
 
 ## Pour configurer des certificats pour un serveur frontal
 
@@ -79,35 +46,13 @@ Utilisez la procédure suivante pour demander, attribuer et installer les certif
 
 7.  Dans la page **Spécifier un autre modèle de certificat** , pour utiliser le modèle de serveur web par défaut, cliquez sur **Suivant** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre entreprise a créé un modèle à employer en remplacement du modèle d’autorité de certification de serveur web, activez la case à cocher et entrez le nom du modèle de remplacement. Vous devez utiliser le nom du modèle défini par l’administrateur de l’autorité de certification.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si votre entreprise a créé un modèle à employer en remplacement du modèle d’autorité de certification de serveur web, activez la case à cocher et entrez le nom du modèle de remplacement. Vous devez utiliser le nom du modèle défini par l’administrateur de l’autorité de certification.
 
 8.  Dans la page **Nom et paramètres de sécurité** , spécifiez un **Nom convivial** devant vous permettre d’identifier le certificat et son utilisation. Si vous laissez ce champ vide, un nom est créé automatiquement. Définissez la **Longueur en bits** de la clé, ou acceptez la valeur par défaut de 2 048 bits. Sélectionnez l’option **Marquer la clé privée du certificat comme exportable** si vous estimez que le certificat et la clé privée doivent être déplacés ou copiés sur d’autres systèmes, puis cliquez sur **Suivant** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 présente des conditions minimales pour une clé privée exportable. L’un de ces emplacements concerne les serveurs Edge dans un pool, où le service d’authentification du serveur relais multimédia utilise des copies du certificat au lieu de plusieurs certificats individuels pour chaque instance du pool.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Lync Server 2013 présente des conditions minimales pour une clé privée exportable. L’un de ces emplacements concerne les serveurs Edge dans un pool, où le service d’authentification du serveur relais multimédia utilise des copies du certificat au lieu de plusieurs certificats individuels pour chaque instance du pool.
 
 9.  Dans la page **Informations relatives à l’entreprise** , entrez éventuellement des informations sur l’entreprise, puis cliquez sur **Suivant** .
 
@@ -129,19 +74,8 @@ Utilisez la procédure suivante pour demander, attribuer et installer les certif
 
 18. Dans la page **Magasin de certificats** , sélectionnez le certificat que vous avez demandé. Si vous souhaitez afficher le certificat, cliquez sur **Afficher les détails du certificat** , puis sur **Suivant** pour continuer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si la page <strong>État de la demande de certificat en ligne</strong> a signalé un problème de certificat, par exemple, que le certificat n’est pas valide, l’affichage du certificat réel peut vous aider à résoudre ce problème. Il existe deux problèmes spécifiques pouvant entraîner l’invalidité d’un certificat : il manque le certificat de l’autorité de certification racine de confiance indiqué ci-dessus et il manque une clé privée associée au certificat. Consultez la documentation de votre autorité de certification pour résoudre ces deux problèmes.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si la page <strong>État de la demande de certificat en ligne</strong> a signalé un problème de certificat, par exemple, que le certificat n’est pas valide, l’affichage du certificat réel peut vous aider à résoudre ce problème. Il existe deux problèmes spécifiques pouvant entraîner l’invalidité d’un certificat : il manque le certificat de l’autorité de certification racine de confiance indiqué ci-dessus et il manque une clé privée associée au certificat. Consultez la documentation de votre autorité de certification pour résoudre ces deux problèmes.
 
 19. Dans la page **Résumé de l’attribution du certificat** , passez en revue les informations présentées pour vérifier qu’il s’agit bien du certificat à attribuer, puis cliquez sur **Suivant** .
 

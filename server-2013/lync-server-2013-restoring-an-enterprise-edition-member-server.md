@@ -27,37 +27,15 @@ Si un serveur exécutant l’un des rôles serveur suivants est défaillant, app
 
   - Serveur Edge
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pourrez utiliser cette copie comme point de restauration au cas où un problème surviendrait lors de la restauration. Il peut être préférable de créer cette copie instantanée après avoir installé le système d’exploitation et SQL Server et après avoir restauré ou réinscrit les certificats.</td>
-</tr>
-</tbody>
-</table>
-
+> [!tip]  
+> Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pourrez utiliser cette copie comme point de restauration au cas où un problème surviendrait lors de la restauration. Il peut être préférable de créer cette copie instantanée après avoir installé le système d’exploitation et SQL Server et après avoir restauré ou réinscrit les certificats.
 
 ## Pour restaurer un serveur membre
 
 1.  Démarrez avec un nouveau serveur ayant le même nom de domaine complet que le serveur ayant subi une défaillance, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Suivez les procédures de déploiement de serveur de votre organisation pour effectuer cette étape.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Suivez les procédures de déploiement de serveur de votre organisation pour effectuer cette étape.
 
 2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, ouvrez une session sur le serveur que vous restaurez.
 

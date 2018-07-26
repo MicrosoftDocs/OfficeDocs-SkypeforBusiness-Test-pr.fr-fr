@@ -17,20 +17,9 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Cette rubrique décrit les tâches de déploiement que vous devez effectuer pour activer le contrôle d’appel distant à l’intention des utilisateurs dans votre environnement Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous transférez les utilisateurs activés pour le contrôle d’accès distant dans Microsoft Office Communicator 2007 R2, vous devez effectuer une tâche de déploiement supplémentaire avant de procéder aux tâches de déploiement du contrôle d’appel distant décrites dans cette rubrique. Au cours du processus de transfert vers Lync Server, les entrées d’applications approuvées (auparavant appelées <em>entrées d’hôtes autorisés</em> ) doivent être supprimées à l’aide des outils d’administration Office Communications Server 2007 R2 de façon appropriée.<br />
-Pour plus d’informations sur la suppression d’hôtes autorisés, reportez-vous à <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous transférez les utilisateurs activés pour le contrôle d’accès distant dans Microsoft Office Communicator 2007 R2, vous devez effectuer une tâche de déploiement supplémentaire avant de procéder aux tâches de déploiement du contrôle d’appel distant décrites dans cette rubrique. Au cours du processus de transfert vers Lync Server, les entrées d’applications approuvées (auparavant appelées <em>entrées d’hôtes autorisés</em> ) doivent être supprimées à l’aide des outils d’administration Office Communications Server 2007 R2 de façon appropriée.<br />
+Pour plus d’informations sur la suppression d’hôtes autorisés, reportez-vous à <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</a>.
 
 ## Étape 1 : Installer la passerelle SIP/CSTA et la configurer de sorte qu’elle communique avec le PBX
 

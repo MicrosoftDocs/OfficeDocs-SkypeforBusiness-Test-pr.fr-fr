@@ -53,19 +53,8 @@ La figure suivante illustre les protocoles de signalisation et de données multi
 
 ![Diagramme de protocoles de serveur de médiation](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagramme de protocoles de serveur de médiation")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous utilisez TCP ou RTP/RTCP (au lieu de SRTP ou SRTCP) sur le réseau entre la passerelle RTC et le serveur de médiation, nous vous conseillons de prendre les mesures nécessaires pour garantir la sécurité et la confidentialité des données sur le réseau.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous utilisez TCP ou RTP/RTCP (au lieu de SRTP ou SRTCP) sur le réseau entre la passerelle RTC et le serveur de médiation, nous vous conseillons de prendre les mesures nécessaires pour garantir la sécurité et la confidentialité des données sur le réseau.
 
 ## Dans cette section
 

@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-01-21_
 
 Les règles de stratégie de version du client définissent les actions qui doivent être entreprises lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques. Vous pouvez créer ou modifier des règles spécifiques pour une stratégie de version du client à partir du Panneau de configuration Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les règles sont répertoriées par ordre de priorité. Par exemple, si une règle autorise les clients exécutant la version 1.5 à se connecter et qu’une second règle bloque les clients exécutant une version antérieure à la version 2.0, la première règle est prioritaire : les clients exécutant la version 1.5 peuvent donc se connecter.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Les règles sont répertoriées par ordre de priorité. Par exemple, si une règle autorise les clients exécutant la version 1.5 à se connecter et qu’une second règle bloque les clients exécutant une version antérieure à la version 2.0, la première règle est prioritaire : les clients exécutant la version 1.5 peuvent donc se connecter.
 
 ## Pour créer ou modifier des règles de stratégie de version du client avec le Panneau de configuration Lync Server
 
@@ -41,19 +30,8 @@ Les règles de stratégie de version du client définissent les actions qui doiv
     
       - Cliquez sur l’un des types de clients définis dans la liste, puis sur **Afficher les détails**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez utiliser des caractères génériques pour spécifier le type du client.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous pouvez utiliser des caractères génériques pour spécifier le type du client.
 
 3.  Dans **Agent utilisateur**, sélectionnez un type de client.
 
@@ -67,19 +45,8 @@ Les règles de stratégie de version du client définissent les actions qui doiv
     
       - Dans **Mise à jour**, tapez le numéro qui correspond à la version mise à jour du client.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez utiliser des caractères génériques pour spécifier le numéro de version du client.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous pouvez utiliser des caractères génériques pour spécifier le numéro de version du client.
 
 5.  Pour sélectionner l’opération de comparaison à utiliser pour la version du client spécifiée ci-dessus, dans **Opération de comparaison**, cliquez sur l’une des options suivantes :
     
@@ -101,19 +68,8 @@ Les règles de stratégie de version du client définissent les actions qui doiv
     
       - Pour autoriser le client à se connecter et à recevoir des mises à jour de Windows Server Update Service ou Microsoft Update, cliquez sur **Autoriser et mettre à niveau**. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous sélectionnez cette action, la prochaine fois que des utilisateurs se connecteront à Lync 2013, une notification s’affichera pour signaler qu’une ou plusieurs mises à jour sont disponibles, même si aucun mise à jour n’a encore été publiée sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action uniquement après que des mises à jour ont été mises à disposition.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Si vous sélectionnez cette action, la prochaine fois que des utilisateurs se connecteront à Lync 2013, une notification s’affichera pour signaler qu’une ou plusieurs mises à jour sont disponibles, même si aucun mise à jour n’a encore été publiée sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action uniquement après que des mises à jour ont été mises à disposition.    
       - Pour autoriser le client à se connecter et afficher un message sur l’emplacement de téléchargement d’une autre version du client, cliquez sur **Autoriser avec une URL**. Vous indiquerez l’URL ultérieurement.
     
       - Pour empêcher le client de se connecter, cliquez sur **Bloquer**.

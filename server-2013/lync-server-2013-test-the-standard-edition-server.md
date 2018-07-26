@@ -23,19 +23,8 @@ La procédure suivante explique comment tester le déploiement d’un serveur St
 
 2.  Si l’objet utilisateur est actuellement connecté, fermez, puis rouvrez la session pour inscrire la nouvelle affectation de groupe.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le compte d’utilisateur ne peut pas être l’administrateur local du serveur exécutant Lync Server 2013 Standard Edition. Si vous n’ajoutez pas les utilisateurs et les groupes appropriés au groupe CSAdministrator, vous recevez une erreur lors de l’ouverture du Panneau de configuration Lync Server 2013, indiquant « Non autorisé : accès refusé en raison de l’échec de l’autorisation RBAC (contrôle d’accès basé sur un rôle) ».</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Le compte d’utilisateur ne peut pas être l’administrateur local du serveur exécutant Lync Server 2013 Standard Edition. Si vous n’ajoutez pas les utilisateurs et les groupes appropriés au groupe CSAdministrator, vous recevez une erreur lors de l’ouverture du Panneau de configuration Lync Server 2013, indiquant « Non autorisé : accès refusé en raison de l’échec de l’autorisation RBAC (contrôle d’accès basé sur un rôle) ».
 
 3.  Utilisez le compte administratif pour vous connecter à l’ordinateur sur lequel le Panneau de configuration Lync Server est installé.
 

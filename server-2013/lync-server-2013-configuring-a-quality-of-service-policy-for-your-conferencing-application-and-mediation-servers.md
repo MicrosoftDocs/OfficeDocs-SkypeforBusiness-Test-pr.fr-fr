@@ -43,19 +43,8 @@ Pour créer une stratégie de qualité de service pour gérer l’audio, connect
 
 10. Sous le titre **Spécifiez le numéro de port source** , sélectionnez **À partir de ce port ou plage source** . Dans la zone de texte correspondante, tapez la plage de ports réservée pour les transmissions audio. Par exemple, si vous réservez les ports 49152 à 57500 pour le trafic audio, tapez la plage de ports au format : **49152:57500** . Cliquez sur **Terminer** .
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La valeur DSCP 46 est arbitraire : même si DSCP 46 est souvent utilisé pour marquer les paquets audio, vous n’êtes pas obligé d’utiliser cette valeur pour les communications audio. Si vous avez déjà mis en œuvre QoS et utilisez un autre code DSCP pour l’audio (par exemple, DSCP 40), configurez votre stratégie de qualité de service pour qu’elle utilise ce code (c’est-à-dire, 40 pour l’audio). Si vous implémentez la qualité de service, alors il est recommandé d’utiliser DSCP 46 pour l’audio, car cette valeur est utilisée en général pour marquer les paquets audio.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> La valeur DSCP 46 est arbitraire : même si DSCP 46 est souvent utilisé pour marquer les paquets audio, vous n’êtes pas obligé d’utiliser cette valeur pour les communications audio. Si vous avez déjà mis en œuvre QoS et utilisez un autre code DSCP pour l’audio (par exemple, DSCP 40), configurez votre stratégie de qualité de service pour qu’elle utilise ce code (c’est-à-dire, 40 pour l’audio). Si vous implémentez la qualité de service, alors il est recommandé d’utiliser DSCP 46 pour l’audio, car cette valeur est utilisée en général pour marquer les paquets audio.
 
 Une fois la stratégie QoS créée pour le trafic audio, créez une seconde stratégie pour le trafic vidéo (et une troisième pour la gestion du trafic de partage d’applications, si vous le souhaitez). Pour créer une stratégie pour la vidéo, suivez la procédure indiquée pour l’audio, et remplacez les éléments suivants :
 

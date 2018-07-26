@@ -19,19 +19,8 @@ Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu�
 
 Si vous devez supprimer l’authentification Kerberos d’un site ou supprimer un site, vous devez supprimer l’affectation du compte d’authentification Kerberos du site à l’aide de l’applet de commande **Remove-CsKerberosAccountAssignment**. Utilisez la procédure suivante pour supprimer l’affectation du compte d’authentification Kerberos, ce qui a pour effet de supprimer l’affectation de tous les ordinateurs présents sur le site.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous supprimez définitivement le compte activé pour Kerberos, vous devriez utiliser le composant Utilisateurs et ordinateurs Active Directory pour le supprimer des services de domaine Active Directory après avoir supprimé l’affectation. Si vous envisagez d’utiliser l’objet ultérieurement, vous pouvez peut-être conserver l’objet Active Directory.</td>
-</tr>
-</tbody>
-</table>
-
+> [!warning]  
+> Si vous supprimez définitivement le compte activé pour Kerberos, vous devriez utiliser le composant Utilisateurs et ordinateurs Active Directory pour le supprimer des services de domaine Active Directory après avoir supprimé l’affectation. Si vous envisagez d’utiliser l’objet ultérieurement, vous pouvez peut-être conserver l’objet Active Directory.
 
 ## Pour supprimer l’authentification Kerberos d’un site
 
@@ -41,26 +30,20 @@ Si vous devez supprimer l’authentification Kerberos d’un site ou supprimer u
 
 3.  Depuis la ligne de commande, exécutez les deux commandes suivantes :
     
-        Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-    
-        Enable-CsTopology
-    
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     Exemple :
     
-        Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+    ```
+    Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     
-        Enable-CsTopology
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.

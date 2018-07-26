@@ -17,21 +17,10 @@ _**Dernière rubrique modifiée :** 2012-08-07_
 
 Après avoir modifié les paramètres de configuration dans les pages du groupe **Routage des communications vocales** , effectuez cette procédure pour consulter, publier ou annuler les modifications en attente.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vérifiez qu’un seul utilisateur à la fois modifie les paramètres de configuration du routage des communications vocales.<br />
+> [!important]  
+> Vérifiez qu’un seul utilisateur à la fois modifie les paramètres de configuration du routage des communications vocales.<br />
 Toutes les modifications en attente doivent être publiées en même temps en exécutant la commande <strong>Valider tout</strong> . Vous ne pouvez pas sélectionner les modifications en attente que vous voulez publier. Avant de publier les modifications en attente, exécutez la commande <strong>Vérifier les modifications non validées</strong> et annulez les modifications de configuration que vous ne voulez pas publier.<br />
-Si vous quittez les pages du groupe <strong>Routage des communications vocales</strong> avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Cependant, vous pouvez exporter la configuration en cours (dont les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-export-a-voice-route-configuration-file.md">Exportation d’un fichier de configuration d’itinéraire des communications vocales dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+Si vous quittez les pages du groupe <strong>Routage des communications vocales</strong> avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Cependant, vous pouvez exporter la configuration en cours (dont les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-export-a-voice-route-configuration-file.md">Exportation d’un fichier de configuration d’itinéraire des communications vocales dans Lync Server 2013</a>.
 
 ## Pour consulter, publier ou annuler les modifications de la configuration du routage des communications vocales
 

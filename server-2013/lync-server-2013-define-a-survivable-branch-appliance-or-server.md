@@ -25,35 +25,13 @@ Effectuez cette procédure sur le site central si vous n’avez pas défini le S
 
 3.  Cliquez avec le bouton droit sur **serveurs Survivable Branch Appliance**, puis sur **Nouveau Survivable Branch Appliance**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>serveurs Survivable Branch Appliance</strong> est l’endroit où vous définissez les serveurs Survivable Branch Server et les serveurs Survivable Branch Appliance.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > <strong>serveurs Survivable Branch Appliance</strong> est l’endroit où vous définissez les serveurs Survivable Branch Server et les serveurs Survivable Branch Appliance.
 
 4.  Dans la boîte de dialogue **Définir Survivable Branch Appliance**, cliquez sur **Nom de domaine complet (FQDN)** , tapez le nom de domaine complet du Survivable Branch Appliance ou du serveur Survivable Branch Server que vous déploierez sur ce site de succursale, puis cliquez sur **Suivant** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous définissez un Survivable Branch Appliance, le nom que vous entrez dans <strong>Nom de domaine complet (FQDN)</strong> doit être le même que le nom de domaine complet du Survivable Branch Appliance que vous avez affecté à l’attribut <strong>servicePrincipalName</strong> . Pour plus d’informations, reportez-vous à <a href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Ajout d’un Survivable Branch Appliance à Active Directory dans Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Si vous définissez un Survivable Branch Appliance, le nom que vous entrez dans <strong>Nom de domaine complet (FQDN)</strong> doit être le même que le nom de domaine complet du Survivable Branch Appliance que vous avez affecté à l’attribut <strong>servicePrincipalName</strong> . Pour plus d’informations, reportez-vous à <a href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Ajout d’un Survivable Branch Appliance à Active Directory dans Lync Server 2013</a>.
 
 5.  Cliquez sur **Pool frontal** , cliquez sur le serveur frontal (pool de services d’utilisateurs) du site central auquel ce Survivable Branch Appliance ou ce serveur Survivable Branch Server se connectera, puis cliquez sur **Suivant** .
 
@@ -61,37 +39,15 @@ Effectuez cette procédure sur le site central si vous n’avez pas défini le S
 
 7.  Cliquez sur **Adresse IP ou nom de domaine complet de la passerelle** , puis tapez le nom de domaine complet ou l’adresse IP de l’homologue de passerelle auquel le Survivable Branch Appliance ou le serveur Survivable Branch Server est associé pour acheminer les appels RTC entrants ou sortants.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous définissez un Survivable Branch Appliance, il s’agit de la passerelle à laquelle le serveur de médiation dans le Survivable Branch Appliance se connectera pour assurer la connectivité RTC.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Si vous définissez un Survivable Branch Appliance, il s’agit de la passerelle à laquelle le serveur de médiation dans le Survivable Branch Appliance se connectera pour assurer la connectivité RTC.
 
 8.  Cliquez sur **Port d’écoute pour la passerelle IP/RTC** , puis acceptez le port par défaut.
 
 9.  Dans **Protocole de transport SIP** , cliquez sur le protocole de transport que le Survivable Branch Appliance ou le serveur Survivable Branch Server utilisera, puis cliquez sur **Terminer** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser le protocole TLS (Transport Layer Security). Si vous définissez un Survivable Branch Appliance, reportez-vous à la documentation du fournisseur du Survivable Branch Appliance pour vérifier que votre Survivable Branch Appliance prend en charge le protocole TLS.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser le protocole TLS (Transport Layer Security). Si vous définissez un Survivable Branch Appliance, reportez-vous à la documentation du fournisseur du Survivable Branch Appliance pour vérifier que votre Survivable Branch Appliance prend en charge le protocole TLS.
 
 10. Dans l’arborescence de la console, cliquez avec le bouton droit sur le nouveau Survivable Branch Appliance ou serveur Survivable Branch Server, cliquez sur **Topologie** , puis sur **Publier** .
 

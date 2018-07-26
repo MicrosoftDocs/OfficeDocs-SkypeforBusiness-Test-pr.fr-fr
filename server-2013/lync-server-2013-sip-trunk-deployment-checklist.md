@@ -23,19 +23,8 @@ Récupérez les informations suivantes pour chaque passerelle du fournisseur de 
 
   - Nom de domaine complet (FQDN)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le fournisseur de services peut vous demander de vous connecter à plusieurs passerelles ITSP. Dans ce cas, vous devez configurer une connexion entre chaque passerelle ITSP et chaque serveur de médiation dans votre pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le fournisseur de services peut vous demander de vous connecter à plusieurs passerelles ITSP. Dans ce cas, vous devez configurer une connexion entre chaque passerelle ITSP et chaque serveur de médiation dans votre pool.
 
 Les informations que vous donnez à votre fournisseur de services dépendent du type de connexion de votre jonction SIP :
 
@@ -51,19 +40,8 @@ Pour déterminer si vous avez besoin d’un certificat pour la jonction SIP, vé
 
 2.  Si votre fournisseur ITSP prend en charge TLS, il doit vous fournir un certificat.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le protocole SIP fonctionne conjointement avec les protocoles RTP ou SRTP, qui gèrent les données vocales réelles dans les appels VoIP.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le protocole SIP fonctionne conjointement avec les protocoles RTP ou SRTP, qui gèrent les données vocales réelles dans les appels VoIP.
 
 ## Processus de déploiement
 

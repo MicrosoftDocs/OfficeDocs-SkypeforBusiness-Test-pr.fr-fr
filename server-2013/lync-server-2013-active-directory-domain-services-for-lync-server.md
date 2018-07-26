@@ -39,19 +39,8 @@ Pour plus d’informations, voir [Configuration requise pour l’infrastructure 
 
 ## Préparation de services de domaine Active Directory
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous vous conseillons de déployer les paramètres globaux sur le conteneur Configuration au lieu du conteneur Système. Ceci n’améliore pas la sécurité, mais peut entraîner des améliorations d’extensibilité pour certaines topologies services de domaine Active Directory. Si vous effectuez une migration à partir de Microsoft Office Communications Server 2007 et que vous avez utilisé le conteneur Système mais que vous prévoyez d’utiliser le conteneur Configuration, vous DEVEZ déplacer les paramètres dans le conteneur Système AVANT de mettre à niveau les préparations. Pour migrer les paramètres de votre conteneur Système vers le conteneur Configuration, voir l’outil de migration des paramètres globaux de Office Communications Server 2007 à l’adresse : <a href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Nous vous conseillons de déployer les paramètres globaux sur le conteneur Configuration au lieu du conteneur Système. Ceci n’améliore pas la sécurité, mais peut entraîner des améliorations d’extensibilité pour certaines topologies services de domaine Active Directory. Si vous effectuez une migration à partir de Microsoft Office Communications Server 2007 et que vous avez utilisé le conteneur Système mais que vous prévoyez d’utiliser le conteneur Configuration, vous DEVEZ déplacer les paramètres dans le conteneur Système AVANT de mettre à niveau les préparations. Pour migrer les paramètres de votre conteneur Système vers le conteneur Configuration, voir l’outil de migration des paramètres globaux de Office Communications Server 2007 à l’adresse : <a href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</a>.
 
 Lors du déploiement de Lync Server 2013, la première étape consiste à préparer services de domaine Active Directory. La préparation de services de domaine Active Directory pour Lync Server 2013 se compose des trois étapes suivantes :
 
@@ -75,19 +64,8 @@ Lors de la préparation de la forêt, Lync Server 2013 crée divers groupes uni
 
 Pour plus d’informations sur les groupes universels spécifiques associés lors de la préparation d’AD pour Lync Server, ainsi que sur les groupes de service et d’administration qui sont ajoutés aux groupes d’infrastructure, voir [Modifications effectuées par la préparation de la forêt dans Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) dans la documentation de déploiement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 prend en charge les groupes universels dans Windows Server 2012 pour les serveurs exécutant Lync Server 2013, ainsi que les systèmes d’exploitation Windows Server 2003 pour les contrôleurs de domaine. Les membres de groupes universels peuvent inclure d’autres groupes et comptes provenant de n’importe quel domaine de l’arbre ou de la forêt de domaines et peuvent se voir attribuer des autorisations dans n’importe quel domaine également. La prise en charge des groupes universels, combinée à la délégation d’administrateurs, simplifie la gestion d’un déploiement Lync Server. Par exemple, il n’est pas nécessaire d’ajouter un domaine à un autre domaine pour permettre à un administrateur de les gérer tous les deux.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync Server 2013 prend en charge les groupes universels dans Windows Server 2012 pour les serveurs exécutant Lync Server 2013, ainsi que les systèmes d’exploitation Windows Server 2003 pour les contrôleurs de domaine. Les membres de groupes universels peuvent inclure d’autres groupes et comptes provenant de n’importe quel domaine de l’arbre ou de la forêt de domaines et peuvent se voir attribuer des autorisations dans n’importe quel domaine également. La prise en charge des groupes universels, combinée à la délégation d’administrateurs, simplifie la gestion d’un déploiement Lync Server. Par exemple, il n’est pas nécessaire d’ajouter un domaine à un autre domaine pour permettre à un administrateur de les gérer tous les deux.
 
 ## Contrôle d’accès basé sur un rôle
 

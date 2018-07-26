@@ -19,19 +19,8 @@ Les utilisateurs anonymes sont des utilisateurs qui ne disposent pas d’un comp
 
 Si, ultérieurement, vous souhaitez interdire l’accès utilisateur anonyme de façon temporaire ou définitive, vous pouvez désactiver la participation anonyme pour votre organisation. Utilisez la procédure de cette section pour activer ou désactiver l’accès utilisateur anonyme pour votre organisation.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’activation de l’accès utilisateur anonyme pour votre organisation revient simplement à spécifier que vos serveurs exécutant le service Edge d’accès prennent en charge l’accès utilisateur anonyme. Les utilisateurs anonymes ne peuvent pas participer à une réunion dans votre organisation tant que vous n’avez pas également configuré au moins une stratégie de conférence avant de l’appliquer à un ou plusieurs utilisateurs ou groupes d’utilisateurs. Les seuls utilisateurs pouvant inviter des utilisateurs anonymes aux réunions sont les utilisateurs auxquels vous avez attribué une stratégie de conférence configurée pour prendre en charge les utilisateurs anonymes. Pour plus d’informations sur la configuration des stratégies pour la prise en charge de l’invitation des utilisateurs anonymes, reportez-vous à <a href="lync-server-2013-conferencing-policies.md">Stratégies de conférence dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’activation de l’accès utilisateur anonyme pour votre organisation revient simplement à spécifier que vos serveurs exécutant le service Edge d’accès prennent en charge l’accès utilisateur anonyme. Les utilisateurs anonymes ne peuvent pas participer à une réunion dans votre organisation tant que vous n’avez pas également configuré au moins une stratégie de conférence avant de l’appliquer à un ou plusieurs utilisateurs ou groupes d’utilisateurs. Les seuls utilisateurs pouvant inviter des utilisateurs anonymes aux réunions sont les utilisateurs auxquels vous avez attribué une stratégie de conférence configurée pour prendre en charge les utilisateurs anonymes. Pour plus d’informations sur la configuration des stratégies pour la prise en charge de l’invitation des utilisateurs anonymes, reportez-vous à <a href="lync-server-2013-conferencing-policies.md">Stratégies de conférence dans Lync Server 2013</a>.
 
 ## Pour activer ou désactiver l’accès utilisateur anonyme pour votre organisation
 

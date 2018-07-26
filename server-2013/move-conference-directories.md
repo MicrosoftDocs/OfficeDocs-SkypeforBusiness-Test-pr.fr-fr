@@ -39,19 +39,8 @@ Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour 
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous risquez de rencontrer une erreur, illustrée ci-dessous, due au fait que Lync Server Management Shell requiert un ensemble mis à jour d’autorisations provenant d’Active Directory. Pour résoudre cette erreur, fermez la fenêtre actuelle, ouvrez de nouveau Lync Server Management Shell et réexécutez la commande.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous risquez de rencontrer une erreur, illustrée ci-dessous, due au fait que Lync Server Management Shell requiert un ensemble mis à jour d’autorisations provenant d’Active Directory. Pour résoudre cette erreur, fermez la fenêtre actuelle, ouvrez de nouveau Lync Server Management Shell et réexécutez la commande.
 
 ![Sortie d’erreur Move-CsConferenceDirectory](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Sortie d’erreur Move-CsConferenceDirectory")
 

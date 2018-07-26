@@ -25,28 +25,14 @@ Les procédures de récupération d’urgence présentées dans le reste de la s
 
   - Si le magasin central de gestion est hébergé sur un autre pool, il est installé et exécuté sur les deux pools couplés, et un de ces pools héberge le Réplicateur principal actif tandis que l’autre héberge celui de secours.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans les procédures suivantes, le paramètre <em>PoolFQDN</em> se réfère au nom de domaine complet (FQDN) du pool affecté par la situation d’urgence et non pas le pool depuis lequel les utilisateurs affectés sont redirigés. Dans le cas d’un ensemble d’utilisateurs identique, le paramètre se réfère au même pool, dans les applets de commande de basculement et de récupération automatique (c’est-à-dire, le pool ayant hébergé les utilisateurs avant le basculement).<br />
+> [!important]  
+> Dans les procédures suivantes, le paramètre <em>PoolFQDN</em> se réfère au nom de domaine complet (FQDN) du pool affecté par la situation d’urgence et non pas le pool depuis lequel les utilisateurs affectés sont redirigés. Dans le cas d’un ensemble d’utilisateurs identique, le paramètre se réfère au même pool, dans les applets de commande de basculement et de récupération automatique (c’est-à-dire, le pool ayant hébergé les utilisateurs avant le basculement).<br />
 Par exemple, supposons que tous les utilisateurs hébergés sur un pool P1 ont été basculés sur le pool de sauvegarde, P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement traités par les services de P2 pour qu’ils soient traités par les services de P1, l’administrateur doit procéder comme ceci :
-<ol>
-<li><p>Il doit restaurer automatiquement tous les utilisateurs hébergés à l’origine sur P1 de P2 à P1 en utilisant l’applet de commande de restauration automatique. Dans ce cas, le <em>PoolFQDN</em> est le nom de domaine complet (FQDN) de P1.</p></li>
-<li><p>Il doit ensuite basculer tous les utilisateurs hébergés à l’origine sur P2 vers P1 en utilisant l’applet de commande de basculement. Dans ce cas, le <em>PoolFQDN</em> est le nom de domaine complet (FQDN) de P2.</p></li>
-<li><p>Si l’administrateur souhaite ultérieurement restaurer automatiquement les utilisateurs de P2 vers P2, le <em>PoolFQDN</em> est le nom de domaine complet FQDN de P2.</p></li>
-</ol>
-Remarquez que l’étape 1 ci-dessus doit être effectuée avant l’étape 2 pour préserver l’intégrité du pool. Si vous essayez l’étape 2 avant l’étape 1, l’applet de commande de l’étape 2 ne fonctionnera pas.</td>
-</tr>
-</tbody>
-</table>
+> <ol>
+> <li><p>Il doit restaurer automatiquement tous les utilisateurs hébergés à l’origine sur P1 de P2 à P1 en utilisant l’applet de commande de restauration automatique. Dans ce cas, le <em>PoolFQDN</em> est le nom de domaine complet (FQDN) de P1.</p></li>
+> <li><p>Il doit ensuite basculer tous les utilisateurs hébergés à l’origine sur P2 vers P1 en utilisant l’applet de commande de basculement. Dans ce cas, le <em>PoolFQDN</em> est le nom de domaine complet (FQDN) de P2.</p></li>
+> <li><p>Si l’administrateur souhaite ultérieurement restaurer automatiquement les utilisateurs de P2 vers P2, le <em>PoolFQDN</em> est le nom de domaine complet FQDN de P2.</p></li></ol>
+> Remarquez que l’étape 1 ci-dessus doit être effectuée avant l’étape 2 pour préserver l’intégrité du pool. Si vous essayez l’étape 2 avant l’étape 1, l’applet de commande de l’étape 2 ne fonctionnera pas.
 
 
 ## Dans cette section

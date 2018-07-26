@@ -51,19 +51,8 @@ Lync Server 2013 requiert l’installation d’autres logiciels sur des composa
 
   - Microsoft Visual C++ 2012 Redistributable
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft Visual C++ 2012 Redistributable s’installe automatiquement lorsque vous installez Lync Server 2013. Vous ne devez pas installer ni utiliser une autre version.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Microsoft Visual C++ 2012 Redistributable s’installe automatiquement lorsque vous installez Lync Server 2013. Vous ne devez pas installer ni utiliser une autre version.
 
   - Module de réécriture d’URL version 2.0 Redistribuable
 

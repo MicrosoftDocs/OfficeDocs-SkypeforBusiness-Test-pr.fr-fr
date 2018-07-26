@@ -19,33 +19,11 @@ Lync Server 2013 vous permet de spécifier la version des clients pris en charg
 
 Outre la création d’une stratégie globale, vous pouvez créer des stratégies de version du client pour un service ou un site particulier, ou des stratégies d’étendue d’utilisateur qui peuvent être attribuées à des utilisateurs individuels. La stratégie de version du client avec étendue d’utilisateur peut être attribuée à des utilisateurs individuels du groupe **Utilisateurs** dans le Panneau de configuration Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.</td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les filtres sont répertoriés par ordre de priorité. Par exemple, si un premier filtre autorise les clients exécutant la version 1.5 à se connecter et qu’un second filtre bloque les clients exécutant une version antérieure à la version 2.0, le premier filtre est prioritaire : les clients exécutant la version 1.5 peuvent donc se connecter.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Les filtres sont répertoriés par ordre de priorité. Par exemple, si un premier filtre autorise les clients exécutant la version 1.5 à se connecter et qu’un second filtre bloque les clients exécutant une version antérieure à la version 2.0, le premier filtre est prioritaire : les clients exécutant la version 1.5 peuvent donc se connecter.
 
 ## Pour modifier la stratégie de version du client par défaut
 
@@ -55,19 +33,8 @@ Outre la création d’une stratégie globale, vous pouvez créer des stratégie
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Clients**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’onglet <strong>Stratégie de version du client</strong> est sélectionné par défaut.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > L’onglet <strong>Stratégie de version du client</strong> est sélectionné par défaut.
 
 4.  Sur la page **Stratégie de version du client**, double-cliquez sur la stratégie **Global** dans la liste.
 
@@ -77,19 +44,8 @@ Outre la création d’une stratégie globale, vous pouvez créer des stratégie
     
       - Cliquez sur l’un des types de clients définis dans la liste, puis sur **Afficher les détails**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez utiliser des caractères génériques pour spécifier le type du client.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous pouvez utiliser des caractères génériques pour spécifier le type du client.
 
 6.  Dans **Agent utilisateur**, sélectionnez un type de client.
 
@@ -103,19 +59,8 @@ Outre la création d’une stratégie globale, vous pouvez créer des stratégie
     
       - Dans **Mise à jour**, tapez le numéro qui correspond à la version mise à jour du client.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez utiliser des caractères génériques pour spécifier le numéro de version du client.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous pouvez utiliser des caractères génériques pour spécifier le numéro de version du client.
 
 8.  Pour sélectionner l’opération de comparaison à utiliser pour la version du client spécifiée ci-dessus, dans **Opération de comparaison**, cliquez sur l’une des options suivantes :
     
@@ -137,19 +82,8 @@ Outre la création d’une stratégie globale, vous pouvez créer des stratégie
     
       - Pour autoriser le client à se connecter et à recevoir des mises à jour de Windows Server Update Service ou Microsoft Update, cliquez sur **Autoriser et mettre à niveau**. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous sélectionnez cette action, la prochaine fois que des utilisateurs se connecteront à Lync 2013, une notification s’affichera indiquant qu’une ou des mises à jour sont disponibles, même si aucun mise à jour n’a encore été publiée sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Si vous sélectionnez cette action, la prochaine fois que des utilisateurs se connecteront à Lync 2013, une notification s’affichera indiquant qu’une ou des mises à jour sont disponibles, même si aucun mise à jour n’a encore été publiée sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.    
       - Pour autoriser le client à se connecter et afficher un message sur l’emplacement de téléchargement d’une autre version du client, cliquez sur **Autoriser avec une URL**. Vous indiquerez l’URL ultérieurement.
     
       - Pour empêcher le client de se connecter, cliquez sur **Bloquer**.

@@ -95,35 +95,13 @@ Vous devez créer l’un des enregistrements DNS externes suivants :
 <p>Résout l’enregistrement d’hôte (A ou AAAA) pour le service Edge d’accès</p></td>
 <td><p>Pour prendre en charge le service de notifications Push et le service de notifications Push Apple, vous créez un enregistrement SRV pour chaque domaine SIP ayant des clients Microsoft Lync Mobile.</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette condition s’applique uniquement aux clients Microsoft Lync Mobile sur des appareils mobiles Apple ou Microsoft. Les appareils Android et Nokia Symbian n’utilisent pas de notification push.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Cette condition s’applique uniquement aux clients Microsoft Lync Mobile sur des appareils mobiles Apple ou Microsoft. Les appareils Android et Nokia Symbian n’utilisent pas de notification push.
 </div></td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le trafic Lyncdiscover, également appelé découverte automatique, traverse le proxy inverse. L’enregistrement SRV pointe sur un enregistrement résolu par le biais du service Edge d’accès.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Le trafic Lyncdiscover, également appelé découverte automatique, traverse le proxy inverse. L’enregistrement SRV pointe sur un enregistrement résolu par le biais du service Edge d’accès.

@@ -57,16 +57,5 @@ L’architecture suivante décrit comment utiliser SQL Server Management Studio 
     
     3.  Sous **Appartenance au rôle de base de données**, sélectionnez l’autorisation **ServerRole**, puis cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous n’avez pas besoin de redémarrer le service d’archivage ou de surveillance.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous n’avez pas besoin de redémarrer le service d’archivage ou de surveillance.

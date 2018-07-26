@@ -25,19 +25,9 @@ Deux éléments sont à prendre en compte quand vous affectez des stratégies à
 
 Cette commande échoue, car il n’y a pas besoin d’affecter la stratégie globale. Si vous voulez gérer un utilisateur à l’aide de la stratégie globale, veillez à ne pas affecter une stratégie utilisateur à cet utilisateur. Si aucune stratégie utilisateur n’a été affectée à un utilisateur, l’utilisateur est géré automatiquement à l’aide de la stratégie globale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Que se passe-t-il si une stratégie utilisateur a déjà été affectée à l’utilisateur et que vous voulez annuler l’affectation de cette stratégie pour que l’utilisateur soit géré par la stratégie globale ? Dans ce cas, vous devez commencer par utiliser la syntaxe suivante qui permet d’annuler l’affectation d’une stratégie utilisateur via l’octroi d’une stratégie null à cet utilisateur :<br />
-Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Que se passe-t-il si une stratégie utilisateur a déjà été affectée à l’utilisateur et que vous voulez annuler l’affectation de cette stratégie pour que l’utilisateur soit géré par la stratégie globale ? Dans ce cas, vous devez commencer par utiliser la syntaxe suivante qui permet d’annuler l’affectation d’une stratégie utilisateur via l’octroi d’une stratégie null à cet utilisateur :<br />
+Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null
 
 
 Rappelez-vous ensuite que ces stratégies utilisateur sont créées au niveau de l’étendue de balise. Vous pouvez toutefois omettre le **préfixe** de la balise lorsque vous spécifiez le nom d’une stratégie. Ces deux commandes sont identiques :

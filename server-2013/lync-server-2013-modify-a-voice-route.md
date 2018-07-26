@@ -49,86 +49,31 @@ Cette rubrique présente la procédure de modification d’un itinéraire des co
 
 9.  Pour associer une ou plusieurs jonctions RTC (réseau téléphonique commuté) à l’itinéraire des communications vocales, cliquez sur **Ajouter**, puis sélectionnez une jonction dans la liste.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre déploiement comprend des serveurs de médiation Microsoft Office Communications Server 2007 R2, ils seront également disponibles dans la liste.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si votre déploiement comprend des serveurs de médiation Microsoft Office Communications Server 2007 R2, ils seront également disponibles dans la liste.
 
 10. Pour associer une ou plusieurs utilisations PSTN à l’itinéraire des communications vocales, cliquez sur **Sélectionner** et choisissez un enregistrement dans la liste des enregistrements d’utilisation PSTN définis pour votre déploiement de Voix Entreprise.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir <a href="lync-server-2013-view-pstn-usage-records.md">Affichage des enregistrements d’utilisation RTC dans Lync Server 2013</a>.<br />
-    Pour créer ou modifier les enregistrements d’utilisation PSTN, voir <a href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Créer une stratégie et voix et configurer les enregistrements d’utilisation PSTN dans Lync Server 2013</a> ou <a href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir <a href="lync-server-2013-view-pstn-usage-records.md">Affichage des enregistrements d’utilisation RTC dans Lync Server 2013</a>.<br />
+    Pour créer ou modifier les enregistrements d’utilisation PSTN, voir <a href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Créer une stratégie et voix et configurer les enregistrements d’utilisation PSTN dans Lync Server 2013</a> ou <a href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013</a>.
 
 11. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour changer la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement, puis cliquez sur la flèche vers le haut ou vers le bas.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Contrairement à une stratégie de voix dans laquelle l’ordre d’apparition des enregistrements d’utilisation PSTN est important, l’ordre des enregistrements d’utilisation PSTN dans un itinéraire des communications vocales n’est pas significatif. Il est toutefois recommandé d’organiser la liste par fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Lync Server parcourt la liste du haut vers le bas.)</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Contrairement à une stratégie de voix dans laquelle l’ordre d’apparition des enregistrements d’utilisation PSTN est important, l’ordre des enregistrements d’utilisation PSTN dans un itinéraire des communications vocales n’est pas significatif. Il est toutefois recommandé d’organiser la liste par fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Lync Server parcourt la liste du haut vers le bas.)
 
 12. (Facultatif) Tapez une valeur dans le champ **Entrez un numéro traduit à tester** et cliquez sur **OK**. Les résultats du test sont affichés sous le champ.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez enregistrer un itinéraire de communications vocales qui ne réussit pas encore le test, puis le reconfigurer par la suite. Pour plus d’informations, voir <a href="lync-server-2013-test-voice-routing.md">Test du routage des communications vocales dans Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous pouvez enregistrer un itinéraire de communications vocales qui ne réussit pas encore le test, puis le reconfigurer par la suite. Pour plus d’informations, voir <a href="lync-server-2013-test-voice-routing.md">Test du routage des communications vocales dans Lync Server 2013</a>.
 
 13. Cliquez sur **OK**.
 
 14. Dans la page **Itinéraire**, cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chaque fois que vous créez ou modifiez un itinéraire des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Chaque fois que vous créez ou modifiez un itinéraire des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi
 

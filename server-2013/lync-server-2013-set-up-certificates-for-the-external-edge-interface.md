@@ -15,19 +15,8 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsque vous exécutez l’Assistant Certificat, assurez-vous d’être connecté à l’aide d’un compte membre d’un groupe auquel ont été affectées les autorisations appropriées pour le type de modèle de certificat que vous utiliserez. Par défaut, une demande de certificat Lync Server utilise le modèle de certificat Serveur web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat utilisant ce modèle, vérifiez que les autorisations Inscrire requises pour utiliser ce modèle ont été affectées au groupe.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Lorsque vous exécutez l’Assistant Certificat, assurez-vous d’être connecté à l’aide d’un compte membre d’un groupe auquel ont été affectées les autorisations appropriées pour le type de modèle de certificat que vous utiliserez. Par défaut, une demande de certificat Lync Server utilise le modèle de certificat Serveur web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat utilisant ce modèle, vérifiez que les autorisations Inscrire requises pour utiliser ce modèle ont été affectées au groupe.
 
 Chaque serveur Edge requiert un certificat public sur l’interface entre le réseau de périmètre et Internet, et l’autre nom de sujet du certificat doit contenir les noms externes du service Edge d’accès et les noms de domaine complets (FQDN) du service Edge de conférence web.
 
@@ -59,20 +48,9 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) des 
 
 1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de **Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre organisation souhaite prendre en charge la solution PIC avec AOL, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour demander le certificat. Vous devez effectuer les procédures décrites à la section « Pour créer une demande de certificat pour l’interface externe du serveur Edge afin de prendre en charge la solution PIC avec AOL » dans la suite de cette rubrique.<br />
-    Si plusieurs serveurs Edge se trouvent au même emplacement dans un pool, vous pouvez exécuter l’Assistant Certificat Lync Server 2013 sur n’importe lequel d’entre eux.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si votre organisation souhaite prendre en charge la solution PIC avec AOL, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour demander le certificat. Vous devez effectuer les procédures décrites à la section « Pour créer une demande de certificat pour l’interface externe du serveur Edge afin de prendre en charge la solution PIC avec AOL » dans la suite de cette rubrique.<br />
+    Si plusieurs serveurs Edge se trouvent au même emplacement dans un pool, vous pouvez exécuter l’Assistant Certificat Lync Server 2013 sur n’importe lequel d’entre eux.
 
 2.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Créer une demande de certificat** .
 
@@ -126,19 +104,8 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) des 
     
     Le nom de certificat par défaut du modèle fourni dans Lync Server 2013 est Serveur web. Spécifiez uniquement *\<template name\>* (nom du modèle) si vous devez utiliser un modèle différent du modèle par défaut.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre organisation souhaite prendre en charge la solution PIC avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat afin de demander le certificat à affecter au serveur Edge externe pour le service Edge d’accès. Cela est dû au fait que le modèle Serveur web Lync Server 2013 utilisé par l’Assistant Certificat pour demander un certificat ne prend pas en charge la configuration EKU (utilisation avancée de la clé) sur le client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’EKU sur le client.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si votre organisation souhaite prendre en charge la solution PIC avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat afin de demander le certificat à affecter au serveur Edge externe pour le service Edge d’accès. Cela est dû au fait que le modèle Serveur web Lync Server 2013 utilisé par l’Assistant Certificat pour demander un certificat ne prend pas en charge la configuration EKU (utilisation avancée de la clé) sur le client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’EKU sur le client.
 
 ## Pour envoyer une demande à une autorité de certification publique
 
@@ -190,37 +157,15 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) des 
 
 6.  Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats, double-cliquez sur **Personnel** , puis sur **Certificats** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si aucun certificat ne se trouve dans le magasin personnel de certificats de l’ordinateur local, aucune clé privée n’est associée au certificat importé. Vérifiez la demande et la procédure d’importation. Si le problème persiste, contactez votre administrateur ou fournisseur d’autorités de certification.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Si aucun certificat ne se trouve dans le magasin personnel de certificats de l’ordinateur local, aucune clé privée n’est associée au certificat importé. Vérifiez la demande et la procédure d’importation. Si le problème persiste, contactez votre administrateur ou fournisseur d’autorités de certification.
 
 7.  Dans **Magasin personnel de certificats pour l’ordinateur local** , cliquez avec le bouton droit sur le certificat que vous exportez, cliquez sur **Toutes les tâches** , puis sur **Exporter** .
 
 8.  Dans l’Assistant Exportation du certificat, cliquez sur **Suivant** , sélectionnez **Oui, exporter la clé privée** , puis cliquez sur **Suivant** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si la sélection <strong>Oui, exporter la clé privée</strong> n’est pas disponible, cela signifie que la clé privée associée au certificat n’était pas marquée pour l’exportation. Pour pouvoir poursuivre l’exportation, vous devrez faire une nouvelle demande de certificat en vous assurant que le certificat est marqué de façon à autoriser l’exportation de la clé privée. Contactez votre administrateur ou fournisseur d’autorités de certification.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si la sélection <strong>Oui, exporter la clé privée</strong> n’est pas disponible, cela signifie que la clé privée associée au certificat n’était pas marquée pour l’exportation. Pour pouvoir poursuivre l’exportation, vous devrez faire une nouvelle demande de certificat en vous assurant que le certificat est marqué de façon à autoriser l’exportation de la clé privée. Contactez votre administrateur ou fournisseur d’autorités de certification.
 
 9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **Échange d’informations personnelles – PKCS\#12 (.PFX)** , puis les éléments suivants :
     
@@ -228,19 +173,8 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) des 
     
       - Exporter toutes les propriétés étendues
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <strong>Supprimer la clé privée si l’exportation s’est terminée correctement</strong> . Si vous sélectionnez cette option, vous serez obligé d’importer le certificat et la clé privée sur ce serveur Edge.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!warning]  
+        > Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <strong>Supprimer la clé privée si l’exportation s’est terminée correctement</strong> . Si vous sélectionnez cette option, vous serez obligé d’importer le certificat et la clé privée sur ce serveur Edge.
 
 10. Cliquez sur **Suivant** .
 
@@ -266,19 +200,8 @@ Si vous décidez d’utiliser la console MMC (Microsoft Management Console) des 
 
 5.  Dans la page **Magasin de certificats** , sélectionnez le certificat public que vous avez demandé et importé pour l’interface externe du serveur Edge.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le certificat que vous avez demandé et importé ne se trouve pas dans la liste, l’une des méthodes d’identification et de résolution des problèmes consiste à vérifier que le nom du sujet et les autres noms du sujet du certificat respectent toutes les conditions requises pour le certificat et, si vous avez importé manuellement le certificat et la chaîne de certificats au lieu d’appliquer les procédures précédentes, contrôlez que le certificat se trouve dans le magasin de certificats correct (le magasin de certificats de l’ordinateur, et non le magasin de certificats de l’utilisateur ou du service).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si le certificat que vous avez demandé et importé ne se trouve pas dans la liste, l’une des méthodes d’identification et de résolution des problèmes consiste à vérifier que le nom du sujet et les autres noms du sujet du certificat respectent toutes les conditions requises pour le certificat et, si vous avez importé manuellement le certificat et la chaîne de certificats au lieu d’appliquer les procédures précédentes, contrôlez que le certificat se trouve dans le magasin de certificats correct (le magasin de certificats de l’ordinateur, et non le magasin de certificats de l’utilisateur ou du service).
 
 6.  Dans la page **Résumé de l’affectation du certificat** , vérifiez vos paramètres, puis cliquez sur **Suivant** pour affecter les certificats.
 

@@ -43,16 +43,5 @@ Pour plus d’informations sur l’attribution ou la désattribution de stratég
     
       - le nom complet des services de domaine Active Directory de l’utilisateur (par exemple, Ken Myer). Vous pouvez recourir à l’astérisque (caractère générique \*) si vous utilisez le nom complet comme identité utilisateur. Par exemple, l’identité « \* Smith » renvoie tous les utilisateurs dont le nom complet se termine par la valeur de chaîne « Smith ».
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom de compte SAM Active Directory de l’utilisateur ne peut pas être utilisé comme valeur d’identité, car il n’est pas forcément unique dans la forêt.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Le nom de compte SAM Active Directory de l’utilisateur ne peut pas être utilisé comme valeur d’identité, car il n’est pas forcément unique dans la forêt.

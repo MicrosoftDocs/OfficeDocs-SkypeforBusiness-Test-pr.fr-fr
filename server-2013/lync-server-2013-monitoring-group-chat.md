@@ -44,71 +44,32 @@ Assuming you are running latest cumulative update, use the following stress test
 <td><p>25,000 channels hosted by Group Chat Pool.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Channel Size:</p>
-<ul>
-<li><p>Small Channel Size: 30</p></li>
-<li><p>Medium Channel Size: 150</p></li>
-<li><p>Large Channel Size: 2500</p></li>
-</ul></td>
+<td><p>Channel Size:</p><ul><li><p>Small Channel Size: 30</p></li><li><p>Medium Channel Size: 150</p></li><li><p>Large Channel Size: 2500</p></li></ul></td>
 </tr>
 <tr class="even">
-<td><p>Channel Count:</p>
-<ul>
-<li><p>Number small channels: 24,000</p></li>
-<li><p>Number medium channels 800</p></li>
-<li><p>Number large channels 24</p></li>
-<li><p>Total Channels 24,824</p></li>
-</ul></td>
+<td><p>Channel Count:</p><ul><li><p>Number small channels: 24,000</p></li><li><p>Number medium channels 800</p></li><li><p>Number large channels 24</p></li><li><p>Total Channels 24,824</p></li></ul></td>
 </tr>
 <tr class="odd">
-<td><p>Invite channels:</p>
-<ul>
-<li><p>Half the channels were invite channels</p></li>
-</ul></td>
+<td><p>Invite channels:</p><ul><li><p>Half the channels were invite channels</p></li></ul></td>
 </tr>
 <tr class="even">
-<td><p>Number of channels a user joins:</p>
-<ul>
-<li><p>Small: 12</p></li>
-<li><p>Medium: 2</p></li>
-<li><p>Large: 1</p></li>
-</ul></td>
+<td><p>Number of channels a user joins:</p><ul><li><p>Small: 12</p></li><li><p>Medium: 2</p></li><li><p>Large: 1</p></li></ul></td>
 </tr>
 <tr class="odd">
-<td><p>Join rate:</p>
-<ul>
-<li><p>10 total/second, 3.33/second per server</p></li>
-</ul></td>
+<td><p>Join rate:</p><ul><li><p>10 total/second, 3.33/second per server</p></li></ul></td>
 </tr>
 <tr class="even">
-<td><p>Logout rate:</p>
-<ul>
-<li><p>10 total/second, 3.33/second per server</p></li>
-</ul></td>
+<td><p>Logout rate:</p><ul><li><p>10 total/second, 3.33/second per server</p></li></ul></td>
 </tr>
 <tr class="odd">
-<td><p>Chat rate:</p>
-<ul>
-<li><p>20 total/second, 6.66/second per server</p></li>
-</ul></td>
+<td><p>Chat rate:</p><ul><li><p>20 total/second, 6.66/second per server</p></li></ul></td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.
 
 ### Performance counter to be monitored
 

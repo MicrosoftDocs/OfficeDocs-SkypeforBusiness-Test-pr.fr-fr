@@ -23,19 +23,8 @@ La fédération XMPP définit un déploiement externe basé sur le protocole XMP
 
 Lorsque vous configurez des stratégies pour la prise en charge des partenaires fédérés du protocole XMPP, les stratégies s’appliquent aux utilisateurs des domaines XMPP fédérés, mais pas aux utilisateurs des fournisseurs de service de messagerie instantanée par protocole SIP (par exemple, Windows Live), ou les domaines fédérés SIP. Configurez un partenaire fédéré XMPP pour chaque domaine fédéré XMPP pour chaque domaine XMPP fédéré avec lequel vos utilisateurs pourront communiquer et ajouter des contacts. Une fois les stratégies en place, vous devez configurer les certificats de passerelle XMPP.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour commencer la migration de la passerelle XMPP, vous devez déployer la passerelle XMPP Lync Server 2013, puis configurer les stratégies d’accès pour activer les utilisateurs sur la passerelle XMPP Lync Server 2013. Tous les utilisateurs doivent être déplacés vers le déploiement Lync Server 2013 avant de procéder à ces étapes. Pour plus d’informations, reportez-vous à <a href="configure-xmpp-gateway-on-lync-server-2013_1.md">Configuration de la passerelle XMPP sur Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour commencer la migration de la passerelle XMPP, vous devez déployer la passerelle XMPP Lync Server 2013, puis configurer les stratégies d’accès pour activer les utilisateurs sur la passerelle XMPP Lync Server 2013. Tous les utilisateurs doivent être déplacés vers le déploiement Lync Server 2013 avant de procéder à ces étapes. Pour plus d’informations, reportez-vous à <a href="configure-xmpp-gateway-on-lync-server-2013_1.md">Configuration de la passerelle XMPP sur Lync Server 2013</a>.
 
 ## Configuration d’une stratégie d’accès externe pour activer les utilisateurs pour la passerelle XMPP Lync Server 2013
 

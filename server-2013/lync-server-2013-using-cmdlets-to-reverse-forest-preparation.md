@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-06-19_
 
 Utilisez l’applet de commande **Disable-CsAdForest** pour inverser la procédure de préparation d’une forêt.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous exécutez l’applet de commande <strong>Disable-CsAdForest</strong> dans un environnement où une version précédente de Lync Server est déployée, les paramètres globaux de la version précédente seront également supprimés.</td>
-</tr>
-</tbody>
-</table>
-
+> [!CAUTION]  
+> Si vous exécutez l’applet de commande <strong>Disable-CsAdForest</strong> dans un environnement où une version précédente de Lync Server est déployée, les paramètres globaux de la version précédente seront également supprimés.
 
 ## Pour utiliser des applets de commande afin d’inverser la préparation d’une forêt
 

@@ -25,38 +25,16 @@ Un déploiement Lync Server 2013 local doit suivre les spécifications suivante
     
       - Un pool de serveurs frontaux Enterprise Edition, qui se compose d’un ou de plusieurs serveurs frontaux (généralement au moins deux serveurs frontaux, pour l’extensibilité) et d’un serveur principal distinct. Un pool de serveurs frontaux peut contenir au maximum douze serveurs frontaux. L’équilibrage de charge est requis en présence de plusieurs serveurs frontaux. Nous conseillons l’équilibrage de la charge DNS pour le trafic SIP, mais l’équilibrage de la charge matérielle est également pris en charge. Si vous utilisez l’équilibrage de la charge DNS pour le trafic SIP, un équilibreur de la charge matérielle est tout de même nécessaire pour le trafic HTTP. Nous vous conseillons d’utiliser la mise en miroir de SQL Server pour la haute disponibilité des bases de données. La base de données principale requiert une instance distincte, mais vous pouvez colocaliser les bases de données d’archivage, de surveillance, de conversation permanente et de conformité de la conversation permanente avec elle. Lync Server 2013 prend en charge l’utilisation d’un cluster partagé pour le partage de fichiers dans votre déploiement. Pour plus d’informations sur la configuration requise en termes de stockage de base de données, reportez-vous à [Prise en charge du logiciel de base de données dans Lync Server 2013](lync-server-2013-database-software-support.md). Pour plus d’informations sur la configuration requise en termes de stockage de fichiers, reportez-vous à [Prise en charge du stockage des fichiers dans Lync Server 2013](lync-server-2013-file-storage-support.md).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous colocalisez des bases de données Lync Server, il est fortement recommandé d’évaluer tous les facteurs susceptibles d’avoir des répercussions sur la disponibilité et les performances. Pour vérifier les capacités de basculement, il est recommandé de tester tous les scénarios de basculement.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!important]  
+        > Si vous colocalisez des bases de données Lync Server, il est fortement recommandé d’évaluer tous les facteurs susceptibles d’avoir des répercussions sur la disponibilité et les performances. Pour vérifier les capacités de basculement, il est recommandé de tester tous les scénarios de basculement.    
       - Le serveur Standard Edition, qui comporte une base de données SQL Server Express colocalisée.
 
   - Votre déploiement peut également inclure un ou plusieurs sites de succursale associés à un site central.
 
 Cette section présente les sites et composants d’un déploiement de Lync Server 2013. Pour plus d’informations sur la planification des sites, de la topologie et des composants de Lync Server 2013, reportez-vous à [Tâches de topologie de base à connaître avant la planification pour Lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) et [Topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification. Pour plus d’informations sur l’intégration de composants des versions précédentes, reportez-vous à [Chemins de migration et scénarios de coexistence pris en charge dans Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les pools étendus ne sont pas pris en charge pour les rôles serveur Serveur frontal, Serveur Edge, Serveur de médiation et Directeur.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les pools étendus ne sont pas pris en charge pour les rôles serveur Serveur frontal, Serveur Edge, Serveur de médiation et Directeur.
 
 ## Topologies et composants de site central (localement)
 
@@ -82,19 +60,8 @@ Même si une topologie de site central doit obligatoirement inclure un pool de s
 
   - Un proxy inverse, qui n’est pas un composant Lync Server 2013. Il est nécessaire pour prendre en charge le partage du contenu web des utilisateurs fédérés ou le trafic de mobilité. Vous ne pouvez pas colocaliser un serveur proxy inverse avec un rôle serveur Lync Server 2013, mais vous pouvez implémenter la prise en charge du proxy inverse pour un déploiement Lync Server 2013 en configurant la prise en charge sur un serveur proxy inverse existant dans votre organisation, utilisé pour d’autres applications. Pour des informations sur les serveurs proxy inverse, reportez-vous à [Configuration des serveurs proxy inverses pour Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) dans la documentation de déploiement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans Lync Server 2013, la conférence A/V, la surveillance et l’archivage s’exécutent sur les serveurs frontaux et ne sont plus distincts des rôles serveur.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Dans Lync Server 2013, la conférence A/V, la surveillance et l’archivage s’exécutent sur les serveurs frontaux et ne sont plus distincts des rôles serveur.
 
 Tous les pools frontaux et les serveurs Standard Edition Server que vous déployez sur un site central partagent tout ou partie des éléments suivants sur le site central :
 
@@ -112,19 +79,8 @@ Tous les pools frontaux et les serveurs Standard Edition Server que vous déploy
 
   - Archivage
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez implémenter un serveur de messagerie unifiée Exchange au sein de votre déploiement Lync Server 2013 pour prendre en charge l’intégration de la messagerie unifiée Exchange 2013. Ce composant ne fait pas partie du site Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous pouvez implémenter un serveur de messagerie unifiée Exchange au sein de votre déploiement Lync Server 2013 pour prendre en charge l’intégration de la messagerie unifiée Exchange 2013. Ce composant ne fait pas partie du site Lync Server 2013.
 
 Plusieurs sites centraux peuvent partager tout ou partie des éléments suivants déployés sur le site central :
 
@@ -138,19 +94,8 @@ Plusieurs sites centraux peuvent partager tout ou partie des éléments suivants
 
   - Analyse
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez implémenter un serveur de messagerie unifiée Exchange au sein de votre déploiement Lync Server 2013 et le partager entre plusieurs sites centraux. Ce composant ne fait pas partie du site Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous pouvez implémenter un serveur de messagerie unifiée Exchange au sein de votre déploiement Lync Server 2013 et le partager entre plusieurs sites centraux. Ce composant ne fait pas partie du site Lync Server 2013.
 
 Pour plus d’informations sur les rôles serveur Lync Server 2013, reportez-vous à [Rôles serveur dans Lync Server 2013](lync-server-2013-server-roles.md) dans la documentation de planification.
 

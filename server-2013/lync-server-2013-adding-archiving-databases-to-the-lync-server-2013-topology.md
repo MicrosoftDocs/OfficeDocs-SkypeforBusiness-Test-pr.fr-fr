@@ -17,37 +17,15 @@ _**Dernière rubrique modifiée :** 2012-10-10_
 
 Vous devez incorporer l’archivage dans votre topologie avant de configurer votre déploiement pour qu’il prenne en charge l’archivage. Les informations de cette rubrique expliquent comment utiliser le Générateur de topologie pour ajouter l’archivage à votre topologie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous voulez utiliser l’intégration Microsoft Exchange pour stocker les données et les fichiers d’archivage sur les serveurs Exchange 2013 pour tous les utilisateurs de votre déploiement, ne fournissez aucune information pour <strong>Magasin SQL Server d’archivage</strong> ou <strong>Utiliser la mise en miroir du magasin SQL Server</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si vous voulez utiliser l’intégration Microsoft Exchange pour stocker les données et les fichiers d’archivage sur les serveurs Exchange 2013 pour tous les utilisateurs de votre déploiement, ne fournissez aucune information pour <strong>Magasin SQL Server d’archivage</strong> ou <strong>Utiliser la mise en miroir du magasin SQL Server</strong>.
 
 ## Pour ajouter la prise en charge de la base de données d’archivage à votre topologie
 
 1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel les outils d’administration Lync Server sont installés, ouvrez une session à l’aide d’un compte membre du groupe local Utilisateurs (ou disposant de droits d’utilisateur équivalents).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez définir une topologie à l’aide d’un compte membre du groupe local Utilisateurs, mais pour la publier, ce qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe <strong>Administrateurs de domaine</strong> et du groupe <strong>RTCUniversalServerAdmins</strong> et qui dispose d’autorisations de contrôle complètes (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers Lync Server 2013 (pour que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaires requises), ou un compte disposant de droits équivalents.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe local Utilisateurs, mais pour la publier, ce qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe <strong>Administrateurs de domaine</strong> et du groupe <strong>RTCUniversalServerAdmins</strong> et qui dispose d’autorisations de contrôle complètes (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers Lync Server 2013 (pour que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaires requises), ou un compte disposant de droits équivalents.
 
 2.  Démarrez le Générateur de topologie.
 

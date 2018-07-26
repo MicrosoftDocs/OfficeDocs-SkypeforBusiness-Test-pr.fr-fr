@@ -27,19 +27,8 @@ L’application Response Group prend en charge les clients suivants :
 
   - Lync Phone Edition
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>application Response Group n’est pas pris en charge sur les clients mobiles Lync.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> application Response Group n’est pas pris en charge sur les clients mobiles Lync.
 
 Pour plus d’informations sur les nouvelles fonctionnalités, reportez-vous à [Nouvelles fonctionnalités de l’application Response Group dans Lync Server 2013](lync-server-2013-new-response-group-application-features.md) dans la documentation de prise en main.
 

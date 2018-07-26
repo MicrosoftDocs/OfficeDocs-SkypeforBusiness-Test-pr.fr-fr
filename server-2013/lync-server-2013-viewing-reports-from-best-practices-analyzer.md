@@ -33,19 +33,8 @@ Utilisez la procédure suivante pour afficher les résultats d’analyse précé
 
 1.  Ouvrez une session sur un ordinateur sur lequel Best Practices Analyzer est installé à l’aide d’un compte membre du compte d’utilisateur local.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez afficher les résultats d’une analyse à l’aide d’un compte membre du groupe Administrateurs local, mais vous ne pouvez pas exécuter une analyse si vous ne possédez pas les droits d’utilisateur ou autorisations appropriés. Pour plus d’informations, voir <a href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Appartenances à des groupes et configuration requise des droits d’utilisateur pour Best Practices Analyzer</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Vous pouvez afficher les résultats d’une analyse à l’aide d’un compte membre du groupe Administrateurs local, mais vous ne pouvez pas exécuter une analyse si vous ne possédez pas les droits d’utilisateur ou autorisations appropriés. Pour plus d’informations, voir <a href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Appartenances à des groupes et configuration requise des droits d’utilisateur pour Best Practices Analyzer</a>.
 
 2.  Cliquez sur **Démarrer**, pointez sur **Tous les programmes**, cliquez sur **Microsoft Lync Server 2013**, puis sur **Best Practices Analyzer**.
 
@@ -55,34 +44,12 @@ Utilisez la procédure suivante pour afficher les résultats d’analyse précé
     
       - Pour afficher des rapports figurant dans la liste des résultats d’analyse stockés localement, cliquez sur le nom de l’analyse, puis sur **Afficher un rapport de cette analyse**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Best Practices Analyzer crée la liste des fichiers locaux d’après le dossier <em>&lt;systemDrive&gt;</em>\Documents and Settings\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Best Practices Analyzer crée la liste des fichiers locaux d’après le dossier <em>&lt;systemDrive&gt;</em>\Documents and Settings\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA.    
       - Pour afficher les rapports liés à des résultats d’analyse stockés à un autre emplacement, cliquez sur **Importer analyse**, localisez le fichier contenant les résultats d’analyse, puis cliquez sur **Ouvrir**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si la version de Best Practices Analyzer disponible sur cet ordinateur ne correspond pas à celle qui a été utilisée pour collecter les données dans le fichier importé, l’outil disponible sur votre ordinateur risque d’analyser de nouveau le fichier, après son importation.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!note]  
+        > Si la version de Best Practices Analyzer disponible sur cet ordinateur ne correspond pas à celle qui a été utilisée pour collecter les données dans le fichier importé, l’outil disponible sur votre ordinateur risque d’analyser de nouveau le fichier, après son importation.
 
 5.  Dans la page **Afficher le rapport Best Practices**, effectuez l’une des opérations suivantes :
     
@@ -92,16 +59,5 @@ Utilisez la procédure suivante pour afficher les résultats d’analyse précé
     
       - Pour afficher d’autres rapports, cliquez sur **Autres rapports**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur les rapports Best Practices Analyzer et les problèmes qu’ils identifient, voir <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Affichage et utilisation des rapports créés par Best Practices Analyzer</a> et <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyse et résolution des problèmes identifiés par Best Practices Analyzer</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Pour plus d’informations sur les rapports Best Practices Analyzer et les problèmes qu’ils identifient, voir <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Affichage et utilisation des rapports créés par Best Practices Analyzer</a> et <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyse et résolution des problèmes identifiés par Best Practices Analyzer</a>.

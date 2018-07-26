@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-09-23_
 
 Si vous envisagez de déployer un Survivable Branch Appliance, vous devez ajouter le Survivable Branch Appliance aux services de domaine Active Directory. Cette procédure doit être effectuée sur le site central
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>et uniquement dans le cas d’un déploiement d’un Survivable Branch Appliance. N’effectuez pas cette procédure si vous déployez un serveur Survivable Branch Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> et uniquement dans le cas d’un déploiement d’un Survivable Branch Appliance. N’effectuez pas cette procédure si vous déployez un serveur Survivable Branch Server.
 
 ## Pour ajouter un Survivable Branch Appliance aux services de domaine Active Directory
 
@@ -43,19 +32,8 @@ Si vous envisagez de déployer un Survivable Branch Appliance, vous devez ajout
 
 5.  Dans la boîte de dialogue **Sélectionner un utilisateur ou un groupe** , ajoutez le groupe RTCUniversalSBATechnicians, puis cliquez sur **OK** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Un membre du groupe RTCUniversalSBATechnicians sur le site de succursale ajoutera ce périphérique au domaine plus tard.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Un membre du groupe RTCUniversalSBATechnicians sur le site de succursale ajoutera ce périphérique au domaine plus tard.
 
 6.  Cliquez sur **OK** pour enregistrer l’objet ordinateur Survivable Branch Appliance.
 

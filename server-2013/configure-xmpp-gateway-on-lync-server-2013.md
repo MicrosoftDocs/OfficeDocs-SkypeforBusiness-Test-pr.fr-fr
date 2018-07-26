@@ -17,37 +17,15 @@ _**Dernière rubrique modifiée :** 2013-10-28_
 
 Les étapes finales pour le transfert de votre passerelle XMPP consistent à configurer les certificats pour le serveur Edge Lync Server 2013, à déployer la passerelle XMPP Lync Server 2013 et à mettre à jour les enregistrements DNS pour la passerelle. Ces étapes doivent être effectuées en parallèle pour réduire le temps d’arrêt de votre passerelle XMPP. Vous devez transférer tous les utilisateurs vers votre déploiement Microsoft Lync Server 2013 avant de suivre ces tâches.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La fédération XMPP n’est pas prise en charge pour les utilisateurs hébergés sur des Survivable Branch Appliances. Cela s’applique à la fois aux informations de présence et à l’échange de messages instantanés.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La fédération XMPP n’est pas prise en charge pour les utilisateurs hébergés sur des Survivable Branch Appliances. Cela s’applique à la fois aux informations de présence et à l’échange de messages instantanés.
 
 ## Configurer des certificats pour la passerelle XMPP sur le serveur Edge Lync Server 2013
 
 1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de **Étape 3 : Demander, installer ou affecter les certificats**, cliquez sur **Réexécuter**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.
 
 2.  Dans la page **Tâches se rapportant aux certificats disponibles**, cliquez sur **Créer une demande de certificat**.
 
@@ -77,19 +55,8 @@ Les étapes finales pour le transfert de votre passerelle XMPP consistent à con
 
 12. Dans la page **Configurer d’autres noms du sujet supplémentaires**, spécifiez les autres noms du sujet supplémentaires nécessaires.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.
 
 13. Dans la page **Résumé de la demande**, vérifiez les informations de certificat à utiliser pour générer la demande.
 
@@ -101,9 +68,12 @@ Les étapes finales pour le transfert de votre passerelle XMPP consistent à con
 
 17. Après la réception, l’importation et l’affectation du certificat public, vous devez redémarrer les services du serveur Edge. Pour cela, tapez dans la console de gestion Lync Server.
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurer une nouvelle passerelle XMPP Lync Server 2013
 

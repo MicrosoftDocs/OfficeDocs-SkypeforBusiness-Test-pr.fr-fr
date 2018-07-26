@@ -111,17 +111,6 @@ Ou bien, utilisez cette commande pour affecter ces mêmes plages de ports à tou
 
 Les utilisateurs individuels doivent se déconnecter de Lync, puis se reconnecter pour que ces modifications puissent prendre effet.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez aussi activer les plages de ports multimédias clients, puis les affecter à l’aide d’une seule commande. Par exemple :<br />
-<code>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</code></td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous pouvez aussi activer les plages de ports multimédias clients, puis les affecter à l’aide d’une seule commande. Par exemple :<br />
+<code>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</code>

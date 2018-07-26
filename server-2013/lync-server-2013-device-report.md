@@ -159,19 +159,8 @@ Pour ce qui est des noms de périphériques, le rapport de périphérique est ex
 
   - Microphone Aastra 6725ip (périphérique audio USB)-V0
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>N’oubliez pas que les noms de périphériques de capture peuvent différer si vous exécutez des versions localisées de Lync Server 2013. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> N’oubliez pas que les noms de périphériques de capture peuvent différer si vous exécutez des versions localisées de Lync Server 2013. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol.
 
 Il est possible que vous souhaitiez ce niveau de détail à plusieurs reprises ; cependant, la plupart du temps, vous serez probablement uniquement intéressé par le nombre d’appels utilisant n’importe quel microphone Aastra, indépendamment du numéro du modèle. Pour obtenir ce genre d’informations, exportez les données du Rapport de périphérique dans Microsoft Excel et enregistrez ces données sous la forme d’une chaîne de valeurs séparées par des virgules (par exemple, C:\\Data\\Rapport\_périphériques.csv). Vous pouvez ensuite utiliser un ensemble de commandes similaires à celles-ci pour importer le fichier .CSV dans Windows PowerShell et renvoyer le nombre d’appels effectués en utilisant un périphérique de capture Aastra :
 

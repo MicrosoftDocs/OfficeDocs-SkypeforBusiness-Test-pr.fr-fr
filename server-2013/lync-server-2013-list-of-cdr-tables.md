@@ -266,21 +266,11 @@ Le schéma de base de données de l’enregistrement des détails des appels com
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Table VoipDetails dans Lync Server 2013</a></p></td>
 <td><p>Pour chaque appel VoIP/RTC à deux utilisateurs, stocke des informations sur l’appel, telles que l’ID téléphonique du téléphone VoIP, la passerelle utilisée et le participant qui a été déconnecté. Fait référence à la <a href="lync-server-2013-sessiondetails-table.md">Table SessionDetails dans Lync Server 2013</a> pour le code de réponse et les heures de début et de fin de l’appel.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si l’un des participants à l’appel est un utilisateur VoIP ou si un serveur de médiation a été impliqué dans cet appel, un enregistrement sera créé dans cette table. Les informations concernant les appels VoIP/VoIP n’impliquant pas de téléphone RTC (réseau téléphonique commuté) sont capturées dans la <a href="lync-server-2013-sessiondetails-table.md">Table SessionDetails dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Si l’un des participants à l’appel est un utilisateur VoIP ou si un serveur de médiation a été impliqué dans cet appel, un enregistrement sera créé dans cette table. Les informations concernant les appels VoIP/VoIP n’impliquant pas de téléphone RTC (réseau téléphonique commuté) sont capturées dans la <a href="lync-server-2013-sessiondetails-table.md">Table SessionDetails dans Lync Server 2013</a>.
+
+</td>
 </tr>
 </tbody>
 </table>
@@ -304,21 +294,11 @@ Le schéma de base de données de l’enregistrement des détails des appels com
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Table Locations dans Lync Server 2013</a></p></td>
 <td><p>Pour chaque appel très urgents, tel que l’appel Enhanced 9-1-1 (E9-1-1), stocke les informations d’emplacement concernant l’appel. Fait référence à la <a href="lync-server-2013-sessiondetails-table.md">Table SessionDetails dans Lync Server 2013</a> pour le code de réponse et les heures de début et de fin de l’appel.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette table ne contient que le blob d’emplacement pour l’appel E9-1-1. Fait référence à la table SessionDetails pour d’autres informations détaillées concernant l’appel.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Cette table ne contient que le blob d’emplacement pour l’appel E9-1-1. Fait référence à la table SessionDetails pour d’autres informations détaillées concernant l’appel.
+
+</td>
 </tr>
 </tbody>
 </table>

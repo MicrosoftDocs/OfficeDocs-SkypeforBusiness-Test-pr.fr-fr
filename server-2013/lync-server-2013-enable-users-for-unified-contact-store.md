@@ -48,34 +48,12 @@ Quand vous déployez Lync Server 2013 et publiez la topologie, le magasin de co
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Vous pouvez également utiliser un alias utilisateur ou un URI SIP à la place du nom d’affichage de l’utilisateur.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!note]  
+        > Vous pouvez également utiliser un alias utilisateur ou un URI SIP à la place du nom d’affichage de l’utilisateur.        
         Exemple :
         
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Dans l’exemple précédant, la première commande crée une nouvelle stratégie par utilisateur appelée <em>Utilisateurs UCS activés</em> avec l’indicateur UcsAllowed défini à True. La seconde commande affecte la stratégie à l’utilisateur avec le nom complet Ken Myer, ce qui signifie que Ken Myer est désormais activé pour le magasin de contact unifié.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!note]  
+        > Dans l’exemple précédant, la première commande crée une nouvelle stratégie par utilisateur appelée <em>Utilisateurs UCS activés</em> avec l’indicateur UcsAllowed défini à True. La seconde commande affecte la stratégie à l’utilisateur avec le nom complet Ken Myer, ce qui signifie que Ken Myer est désormais activé pour le magasin de contact unifié.

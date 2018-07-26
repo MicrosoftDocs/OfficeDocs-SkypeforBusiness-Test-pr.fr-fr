@@ -45,21 +45,11 @@ Le tableau suivant décrit les étapes nécessaires pour déployer la conférenc
 <tr class="odd">
 <td><p><strong>Installer le matériel et les logiciels prérequis</strong></p></td>
 <td><p>La conférence s’exécute sur les serveurs frontaux d’un pool de serveurs frontaux et sur les serveurs Standard Edition. Elle n’exige aucune configuration matérielle ou logicielle supplémentaire en dehors de celles requises pour installer ces serveurs.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, voir <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuration de l’intégration à Office Web Apps Server et Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, voir <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuration de l’intégration à Office Web Apps Server et Lync Server 2013</a>.
+
+</td>
 <td><p>Utilisateur du domaine qui est membre du groupe Administrateurs local</p></td>
 <td><p><a href="lync-server-2013-supported-hardware.md">Matériel pris en charge pour Lync Server 2013</a> dans la documentation de prise en charge</p>
 <p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Prise en charge des infrastructures et des logiciels de serveur dans Lync Server 2013</a> dans la documentation de prise en charge</p>

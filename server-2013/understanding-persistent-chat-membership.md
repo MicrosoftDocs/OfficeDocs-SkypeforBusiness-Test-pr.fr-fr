@@ -25,19 +25,8 @@ Un administrateur de conversation permanente peut créer et gérer des catégori
 
 serveur de conversations permanentes repose sur Active Directory pour le pool d’utilisateurs de conversation permanente internes. Après avoir installé conversation permanente, vous pouvez ajouter les domaines et groupes d’utilisateurs à la catégorie de la salle. Vous pouvez ensuite ajouter ces utilisateurs et groupes à l’appartenance de vos catégories de salles.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez vérifier qu’aucun doublon de noms n’existe pour les utilisateurs souhaitant modifier leur(s) salle(s) conversation permanente. Si des doublons de noms existent, modifiez-les pour débloquer les utilisateurs afin qu’ils puissent apporter certaines modifications. Si un utilisateur présente des doublons de noms dans Active Directory et qu’il tente d’effectuer plusieurs modifications dans sa ou ses salles, un message d’erreur l’invitant à contacter l’administrateur pour résoudre ce problème s’affiche.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Vous devez vérifier qu’aucun doublon de noms n’existe pour les utilisateurs souhaitant modifier leur(s) salle(s) conversation permanente. Si des doublons de noms existent, modifiez-les pour débloquer les utilisateurs afin qu’ils puissent apporter certaines modifications. Si un utilisateur présente des doublons de noms dans Active Directory et qu’il tente d’effectuer plusieurs modifications dans sa ou ses salles, un message d’erreur l’invitant à contacter l’administrateur pour résoudre ce problème s’affiche.
 
 ## Fonctionnement de l’étendue des catégories
 
@@ -55,19 +44,8 @@ Une propriété **AllowedMembers** de catégorie doit inclure tous les utilisate
 
 Les catégories peuvent également être utilisées pour créer des séparations déontologiques. Les séparations déontologiques permettent d’éviter les conflits d’intérêts dans votre organisation. Par exemple, un administrateur peut créer des salles de conversation dans une catégorie uniquement pour les opérateurs en bourse, et d’autres salles dans une autre catégorie pour les analystes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les utilisateurs fédérés ne sont pas pris en charge sur un serveur de conversations permanentesLync Server 2013. Les conversations d’utilisateurs fédérés des anciennes versions du serveur de conversations permanentes seront migrées. Les utilisateurs fédérés sont ajoutés en tant que principaux désactivés.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les utilisateurs fédérés ne sont pas pris en charge sur un serveur de conversations permanentesLync Server 2013. Les conversations d’utilisateurs fédérés des anciennes versions du serveur de conversations permanentes seront migrées. Les utilisateurs fédérés sont ajoutés en tant que principaux désactivés.
 
 ## Limitation des membres aux groupes d’utilisateurs
 

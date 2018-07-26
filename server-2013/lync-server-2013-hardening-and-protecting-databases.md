@@ -33,51 +33,18 @@ Sur les serveurs Lync Server 2013, à l’exception du serveur Standard Edition
     
       - Lync Server 2013 utilise le protocole TCP/IP. Il prend en charge le protocole IP version 4 (IPv4), mais pas le protocole IP version 6 (IPv6).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Lync Server 2013 peut fonctionner dans un réseau avec la double pile IP activée.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!note]  
+        > Lync Server 2013 peut fonctionner dans un réseau avec la double pile IP activée.    
       - Lync Server 2013 prend en charge plusieurs adresses IP (cartes d’adresse réseau multi-hébergées). Vous pouvez spécifier que SQL Server écoute uniquement des adresses IP spécifiques (adresse individuelle ou par masque de sous-réseau) et n’utilise que des protocoles spécifiques.
     
       - Lync Server 2013 prend en charge les ports SQL Server statiques et dynamiques.
 
   - Exécutez SQL Server sur un port statique (différent de la valeur par défaut) et n’exécutez pas SQL Server Browser (afin qu’il ne puisse pas signaler le port d’écoute au client). Cela implique une configuration personnalisée sur chaque client SQL Server, dont les serveurs frontaux, le serveur d’archivage et les consoles d’administration (en exécutant le shell de gestion Lync Server, le panneau de configuration de Lync Server ou le Générateur de topologie), ainsi que tous les autres serveurs exécutant des bases de données Lync Server).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’accès aux bases de données doit être réservé aux administrateurs de base de données approuvés. Un administrateur de base de données malveillant peur insérer ou modifier des données dans des bases de données afin de se procurer des droits sur des serveurs Lync Server 2013 ou des informations sensibles à partir des services, même si l’administrateur de base de données ne lui a pas accordé un accès direct ou le contrôle des serveurs Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> L’accès aux bases de données doit être réservé aux administrateurs de base de données approuvés. Un administrateur de base de données malveillant peur insérer ou modifier des données dans des bases de données afin de se procurer des droits sur des serveurs Lync Server 2013 ou des informations sensibles à partir des services, même si l’administrateur de base de données ne lui a pas accordé un accès direct ou le contrôle des serveurs Lync Server 2013.
 
 Pour plus d’informations sur les configurations personnalisées et le renforcement des bases de données SQL Server, reportez-vous à l’article du blogue NextHop, « Using Lync Server 2010 with a Custom SQL Server Network Configuration » (Utilisation de Lync Server 2010 avec une configuration réseau SQL Server personnalisée) sous [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez renforcer les systèmes d’exploitation et les serveurs d’applications et utiliser une stratégie de groupe pour mettre en œuvre des verrous de sécurité dans votre déploiement Lync Server. Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Renforcement et protection des serveurs et des applications pour Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Vous pouvez renforcer les systèmes d’exploitation et les serveurs d’applications et utiliser une stratégie de groupe pour mettre en œuvre des verrous de sécurité dans votre déploiement Lync Server. Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Renforcement et protection des serveurs et des applications pour Lync Server 2013</a>.

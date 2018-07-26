@@ -23,19 +23,8 @@ Avant d’exécuter la préparation de la forêt, vérifiez manuellement que la 
 
 2.  Ouvrez l’éditeur ADSI en cliquant sur **Démarrer** , sur **Outils d’administration** , puis sur **Modification ADSI** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez également exécuter <strong>adsiedit.msc</strong> à partir de la ligne de commande.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Vous pouvez également exécuter <strong>adsiedit.msc</strong> à partir de la ligne de commande.
 
 3.  Dans l’arborescence de la console MMC (Microsoft Management Console), cliquez sur **Modification ADSI** si cette option n’a pas encore été sélectionnée.
 

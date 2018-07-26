@@ -9,7 +9,7 @@ mtps_version: v=OCS.15
 ms.translationtype: HT
 ---
 
-# Désactivation des serveurs et des pools 
+# Désactivation des serveurs et des pools [OCS 2007 R2 vers W15]
 
  
 

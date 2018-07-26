@@ -23,21 +23,10 @@ Dans les procédures suivantes, le serveur qui exécute Forefront Threat Manag
 
   - une interface réseau privée ou interne pour les serveurs internes exécutant Lync Server, qui hébergent les services web.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Comme pour les serveurs Edge, vous définissez la passerelle par défaut sur la carte réseau externe uniquement. La passerelle par défaut est l’adresse IP du routeur ou du pare-feu côté externe qui dirige le trafic vers Internet. Pour le trafic destiné à la carte réseau côté interne face à partir du proxy inverse, vous devez utiliser des itinéraires statiques permanents (notamment la commande route dans Windows Server) pour tous les sous-réseaux contenant des serveurs référencés par les règles de publication web. La définition d’un itinéraire permanent ne transforme pas l’ordinateur en routeur. Si le transfert IP n’est pas activé, l’ordinateur n’agit que pour diriger le trafic spécifique destiné à un autre réseau vers l’interface appropriée. Grosso modo, cela revient à définir deux passerelles : une passerelle par défaut pointant vers les réseaux externes et une autre passerelle pour le trafic destiné à l’interface interne et sur un routeur ou un autre réseau.<br />
+> [!important]  
+> Comme pour les serveurs Edge, vous définissez la passerelle par défaut sur la carte réseau externe uniquement. La passerelle par défaut est l’adresse IP du routeur ou du pare-feu côté externe qui dirige le trafic vers Internet. Pour le trafic destiné à la carte réseau côté interne face à partir du proxy inverse, vous devez utiliser des itinéraires statiques permanents (notamment la commande route dans Windows Server) pour tous les sous-réseaux contenant des serveurs référencés par les règles de publication web. La définition d’un itinéraire permanent ne transforme pas l’ordinateur en routeur. Si le transfert IP n’est pas activé, l’ordinateur n’agit que pour diriger le trafic spécifique destiné à un autre réseau vers l’interface appropriée. Grosso modo, cela revient à définir deux passerelles : une passerelle par défaut pointant vers les réseaux externes et une autre passerelle pour le trafic destiné à l’interface interne et sur un routeur ou un autre réseau.<br />
 Cependant, la création d’itinéraires permanents pour tous les sous-réseaux peut ne pas être nécessaire si les routeurs de votre réseau sont configurés de manière à résumer les itinéraires. Créez un itinéraire permanent au réseau où le routeur est défini et utilisez le routeur comme passerelle par défaut. Si vous n’êtes pas sûr du mode de configuration de votre réseau et que vous avez besoin d’aide concernant les itinéraires permanents à créer, contactez les ingénieurs réseau de votre entreprise.<br />
-Le proxy inverse doit être en mesure de résoudre les enregistrements d’hôte DNS (A) pour le directeur ou le serveur frontal interne et les noms de domaine complets du pool de tronçon suivant utilisés dans les règles de publication web. Comme pour les serveurs Edge, il est préférable que vous ne configuriez pas un proxy inverse pour l’utilisation d’un serveur DNS situé sur le réseau interne à des fins de sécurité. Cela signifie que vous devez utiliser soit des serveurs DNS dans le périmètre, soit des entrées de fichier HOSTS sur le proxy inverse qui résout chacun de ces noms de domaine complets en adresse IP interne des serveurs.</td>
-</tr>
-</tbody>
-</table>
-
+Le proxy inverse doit être en mesure de résoudre les enregistrements d’hôte DNS (A) pour le directeur ou le serveur frontal interne et les noms de domaine complets du pool de tronçon suivant utilisés dans les règles de publication web. Comme pour les serveurs Edge, il est préférable que vous ne configuriez pas un proxy inverse pour l’utilisation d’un serveur DNS situé sur le réseau interne à des fins de sécurité. Cela signifie que vous devez utiliser soit des serveurs DNS dans le périmètre, soit des entrées de fichier HOSTS sur le proxy inverse qui résout chacun de ces noms de domaine complets en adresse IP interne des serveurs.
 
 ## Pour configurer les cartes réseau sur l’ordinateur de proxy inverse
 
@@ -49,19 +38,8 @@ Le proxy inverse doit être en mesure de résoudre les enregistrements d’hôte
 
 4.  Dans la page **Propriétés du protocole Internet (TCP/IP)** , configurez les adresses IP comme il convient pour le sous-réseau auquel la carte réseau est associée.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le proxy inverse est déjà utilisé par d’autres applications recourant à HTTPS/TCP/443, comme pour la publication d’Outlook Web Access, soit vous devez ajouter une autre adresse IP afin de pouvoir publier les services web Lync Server 2013 sur HTTPS//TCP/443 sans interférer avec les règles existantes et les ports d’écoute web, soit vous devez remplacer le certificat existant par un autre certificat qui ajoute les noms de domaine complets externes à l’autre nom du sujet.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > Si le proxy inverse est déjà utilisé par d’autres applications recourant à HTTPS/TCP/443, comme pour la publication d’Outlook Web Access, soit vous devez ajouter une autre adresse IP afin de pouvoir publier les services web Lync Server 2013 sur HTTPS//TCP/443 sans interférer avec les règles existantes et les ports d’écoute web, soit vous devez remplacer le certificat existant par un autre certificat qui ajoute les noms de domaine complets externes à l’autre nom du sujet.
 
 5.  Cliquez sur **OK** , puis sur **OK** .
 

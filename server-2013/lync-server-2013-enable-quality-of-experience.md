@@ -19,19 +19,8 @@ La qualité de l’expérience (QoE) enregistre des données numériques qui ind
 
 Procédez comme suit pour activer la QoE dans toute l’entreprise ou dans chacun de ses sites.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour activer la qualité de l’expérience, vous devez commencer par configurer la surveillance et une base de données principale de surveillance. Pour plus d’informations, voir <a href="lync-server-2013-deploying-monitoring.md">Déploiement du serveur de surveillance dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour activer la qualité de l’expérience, vous devez commencer par configurer la surveillance et une base de données principale de surveillance. Pour plus d’informations, voir <a href="lync-server-2013-deploying-monitoring.md">Déploiement du serveur de surveillance dans Lync Server 2013</a>.
 
 ## Pour activer la qualité de l’expérience à l’aide du Panneau de configuration Lync Server
 

@@ -17,25 +17,10 @@ _**Dernière rubrique modifiée :** 2017-03-07_
 
 Dans un environnement VDI (Virtual Desktop Infrastructure), les ordinateurs virtuels et l’ordinateur local de l’utilisateur doivent remplirent les conditions indiquées dans cette section.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Consultez votre fournisseur de solution de virtualisation pour plus d’informations sur l’installation et le déploiement de l’environnement virtualisé. Pour plus d’informations sur le déploiement d’un environnement virtualisé basé sur Hyper-V et les services Bureau à distance, reportez-vous aux articles suivants de la bibliothèque Microsoft TechNet :
-<ul>
-<li><p>Hyper-V à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>
-<li><p>Services Bureau à distance dans Windows Server 2008 R2 à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247513</a></p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!note]  
+> Consultez votre fournisseur de solution de virtualisation pour plus d’informations sur l’installation et le déploiement de l’environnement virtualisé. Pour plus d’informations sur le déploiement d’un environnement virtualisé basé sur Hyper-V et les services Bureau à distance, reportez-vous aux articles suivants de la bibliothèque Microsoft TechNet :<ul>
+> <li><p>Hyper-V à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>
+> <li><p>Services Bureau à distance dans Windows Server 2008 R2 à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247513</a></p></li></ul>
 
 
 Les conditions suivantes s’appliquent aux ordinateurs virtuels exécutés sur l’ordinateur du centre de données :

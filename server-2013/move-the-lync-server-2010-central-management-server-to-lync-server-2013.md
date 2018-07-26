@@ -49,19 +49,8 @@ Utilisez les procédures indiquées dans cette section pour préparer les serveu
 
 4.  Dans la page **Exécution de commandes** , SQL Server Express est installé en tant que serveur de gestion centralisée. Les règles de pare-feu nécessaires sont créées. Lorsque l’installation de la base de données et des logiciels prérequis est terminée, cliquez sur **Terminer** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’installation initiale peut durer un certain temps sans que les mises à jour ne soient visibles sur l’écran récapitulatif des résultats de la commande. Cela est dû à l’installation de SQL Server Express. Pour surveiller l’installation de la base de données, utilisez le Gestionnaire des tâches.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > L’installation initiale peut durer un certain temps sans que les mises à jour ne soient visibles sur l’écran récapitulatif des résultats de la commande. Cela est dû à l’installation de SQL Server Express. Pour surveiller l’installation de la base de données, utilisez le Gestionnaire des tâches.
 
 5.  Pour créer le magasin central de gestion sur le serveur frontalLync Server 2013 Standard Edition, dans Lync Server Management Shell, tapez :
     
@@ -79,19 +68,8 @@ Utilisez les procédures indiquées dans cette section pour préparer les serveu
     
         Enable-CsTopology
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si <code>Enable-CsTopology</code> ne donne pas de résultat satisfaisant, corrigez le problème en empêchant la commande d’aboutir avant de poursuivre. Si <strong>Enable-CsTopology</strong> ne donne pas de résultat satisfaisant, le déplacement échouera et votre topologie ne contiendra pas de magasin central de gestion.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!warning]  
+    > Si <code>Enable-CsTopology</code> ne donne pas de résultat satisfaisant, corrigez le problème en empêchant la commande d’aboutir avant de poursuivre. Si <strong>Enable-CsTopology</strong> ne donne pas de résultat satisfaisant, le déplacement échouera et votre topologie ne contiendra pas de magasin central de gestion.
 
 4.  Sur le serveur frontal ou pool de serveurs frontauxLync Server 2013, dans Lync Server Management Shell, tapez :
     
@@ -115,19 +93,8 @@ Utilisez les procédures indiquées dans cette section pour préparer les serveu
     
         Get-CsManagementStoreReplicationStatus
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La réplication peut prendre un certain temps pour mettre à jour tous les réplicas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > La réplication peut prendre un certain temps pour mettre à jour tous les réplicas.
 
 ## Pour supprimer les fichiers du magasin central de gestionLync Server 2010 après un déplacement
 
@@ -135,19 +102,8 @@ Utilisez les procédures indiquées dans cette section pour préparer les serveu
 
 2.  Ouvrez Lync Server Management Shell.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ne procédez pas à la suppression des fichiers de base de données précédents avant que la réplication soit terminée et stable. Si vous supprimez les fichiers avant la fin de leur réplication, vous perturberez le processus de réplication et laisserez le serveur de gestion centralisée récemment déplacé dans un état inconnu. Utilisez l’applet de commande <strong>Get-CsManagementStoreReplicationStatus</strong> pour confirmer le statut de réplication.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!warning]  
+    > Ne procédez pas à la suppression des fichiers de base de données précédents avant que la réplication soit terminée et stable. Si vous supprimez les fichiers avant la fin de leur réplication, vous perturberez le processus de réplication et laisserez le serveur de gestion centralisée récemment déplacé dans un état inconnu. Utilisez l’applet de commande <strong>Get-CsManagementStoreReplicationStatus</strong> pour confirmer le statut de réplication.
 
 3.  Pour supprimer les fichiers de base de données du magasin central de gestion du serveur de gestion centraliséeLync Server 2010, tapez :
     

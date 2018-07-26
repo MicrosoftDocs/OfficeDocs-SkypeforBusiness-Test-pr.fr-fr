@@ -19,19 +19,8 @@ Dans Lync Server 2013, la prise en charge des scénarios de contrôle d’appel
 
 L’intégration entre un PBX et Lync Server 2013 permet aux utilisateurs activés pour le contrôle d’appel distant d’utiliser l’interface utilisateur de Lync 2013 pour contrôler les appels sur leurs téléphones PBX des différentes façons suivantes :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En définitive, les capacités de l’autocommutateur privé (PBX) qui héberge le téléphone PBX d’un utilisateur déterminent les fonctionnalités de contrôle d’appel distant mises à la disposition de cet utilisateur.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> En définitive, les capacités de l’autocommutateur privé (PBX) qui héberge le téléphone PBX d’un utilisateur déterminent les fonctionnalités de contrôle d’appel distant mises à la disposition de cet utilisateur.
 
   - Passer un appel sortant
 
@@ -39,19 +28,8 @@ L’intégration entre un PBX et Lync Server 2013 permet aux utilisateurs activ
 
   - Répondre à un appel entrant avec un message instantané
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>C’est-à-dire, lorsque le numéro de téléphone de l’appelant peut être associé à une adresse de messagerie instantanée figurant dans la liste d’adresses globale (GAL) de votre organisation ou dans la liste des contacts Lync de l’appelé, ou appartenant à l’organisation d’un partenaire fédéré.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > C’est-à-dire, lorsque le numéro de téléphone de l’appelant peut être associé à une adresse de messagerie instantanée figurant dans la liste d’adresses globale (GAL) de votre organisation ou dans la liste des contacts Lync de l’appelé, ou appartenant à l’organisation d’un partenaire fédéré.
 
   - Transférer un appel
 

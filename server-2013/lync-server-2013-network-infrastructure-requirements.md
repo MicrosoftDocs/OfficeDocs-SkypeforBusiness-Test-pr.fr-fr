@@ -29,19 +29,8 @@ Pour utiliser les fonctionnalités audio/vidéo (A/V) dans un déploiement Lync�
 
   - Si vous déployez un serveur Edge unique ou un pool de serveurs Edge utilisant l’équilibrage de la charge DNS, vous pouvez configurer le pare-feu externe en tant que NAT. Vous ne pouvez pas configurer le pare-feu interne en tant que NAT. Pour plus d’informations sur ces conditions requises, voir [Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) dans la documentation de planification.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous disposer d’un pool de serveurs Edge et que vous utilisez un équilibreur de la charge matérielle, vous devez utiliser des adresses IP publiques sur chacun des serveurs Edge et vous ne pouvez pas utiliser NAT pour les serveurs ou le pool au niveau de votre périphérique NAT (par exemple, le pare-feu ou tout autre périphérique d’infrastructure qui appliquerait NAT au trafic entrant ou sortant). Pour plus d’informations, voir <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé des ports - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013</a> dans la documentation de planification pour l’accès des utilisateurs externes.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!important]  
+    > Si vous disposer d’un pool de serveurs Edge et que vous utilisez un équilibreur de la charge matérielle, vous devez utiliser des adresses IP publiques sur chacun des serveurs Edge et vous ne pouvez pas utiliser NAT pour les serveurs ou le pool au niveau de votre périphérique NAT (par exemple, le pare-feu ou tout autre périphérique d’infrastructure qui appliquerait NAT au trafic entrant ou sortant). Pour plus d’informations, voir <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé des ports - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013</a> dans la documentation de planification pour l’accès des utilisateurs externes.
 
   - Si votre organisation utilise une infrastructure de qualité de service (QoS), le sous-système multimédia est compatible avec cette infrastructure.
 

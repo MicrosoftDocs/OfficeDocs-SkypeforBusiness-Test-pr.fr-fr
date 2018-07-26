@@ -144,19 +144,8 @@ Les fonctionnalités d’égal-à-égal sont prises en charge pour les utilisate
 
 Le tableau suivant compare les fonctionnalités disponibles dans des sessions d’égal-à-égal dans lesquelles le client est connecté à Lync Server 2013 ou à Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Web App et Participant Lync 2010 sont des clients de réunion uniquement et ne sont pas inclus dans ce tableau.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lync Web App et Participant Lync 2010 sont des clients de réunion uniquement et ne sont pas inclus dans ce tableau.
 
 
 <table style="width:100%;">
@@ -266,25 +255,11 @@ Le tableau suivant compare les fonctionnalités disponibles dans des sessions d�
 </table>
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut plus être achetée ni renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo!. Pour plus d’informations, voir <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
-<li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent ne sera pas renouvelé.</p></li>
-<li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de la messagerie instantanée.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> <ul>
+> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut plus être achetée ni renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo!. Pour plus d’informations, voir <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
+> <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent ne sera pas renouvelé.</p></li>
+> <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de la messagerie instantanée.</p></li></ul>
 
 
 1 Dans Office Communicator 2007 R2, seul le partage de Bureau est disponible ; le partage de programme ne l’est pas.
@@ -411,19 +386,8 @@ La prise en charge par le serveur des différents compléments de planification 
 
   - Le **complément de conférence pour Office Communicator 2007 R2** permet la planification des conférences Office Live Meeting et des conférences Office Communicator 2007 R2.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les conférences Live Meeting ne peuvent pas être planifiées sur Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les conférences Live Meeting ne peuvent pas être planifiées sur Lync Server 2013.
 
 
 <table>

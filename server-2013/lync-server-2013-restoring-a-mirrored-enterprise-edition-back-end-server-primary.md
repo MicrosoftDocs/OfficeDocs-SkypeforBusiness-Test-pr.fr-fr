@@ -35,19 +35,8 @@ Dans cette rubrique, le nom de domaine complet de l’exemple de base de donnée
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous avez configuré votre base de données de serveur principal afin d’utiliser une mise en miroir synchronisée avec un témoin, le basculement est automatique.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!warning]  
+    > Si vous avez configuré votre base de données de serveur principal afin d’utiliser une mise en miroir synchronisée avec un témoin, le basculement est automatique.
 
 4.  À l’issue du basculement, procédez comme suit :
     

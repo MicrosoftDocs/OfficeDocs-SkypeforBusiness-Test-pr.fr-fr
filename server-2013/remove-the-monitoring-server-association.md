@@ -27,19 +27,8 @@ Pour supprimer le serveur de surveillance, vous devez modifier ou effacer la dé
 
 4.  Si le serveur Survivable Branch Server est associé, développez **Sites de succursale**, le nom du site de succursale, puis **Survivable Branch Appliances**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Survivable Branch Appliances</strong> dans l’interface utilisateur s’applique à la fois au serveur Survivable Branch Server et au Survivable Branch Appliance.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!note]  
+    > <strong>Survivable Branch Appliances</strong> dans l’interface utilisateur s’applique à la fois au serveur Survivable Branch Server et au Survivable Branch Appliance.
 
 5.  Cliquez avec le bouton droit sur le pool, le serveur ou l’appareil associé au serveur de surveillance, puis cliquez sur **Modifier les propriétés**.
 

@@ -90,9 +90,12 @@ Lorsque la configuration des adresses IP est modifiée pour un déploiement de L
 
 Pour contourner ce problème, redémarrez les services Lync Server après avoir modifié la configuration des adresses IP pour le déploiement. Pour cela, exécutez les applets de commande suivantes dans Lync Server Management Shell :
 
-    Stop-CsWindowsService -graceful
-
-    Start-CsWindowsService
+```
+Stop-CsWindowsService -graceful
+```
+```
+Start-CsWindowsService
+```
 
 ## L’applet de commande de transaction synthétique de conférence rendez-vous n’est plus disponible dans le Pack de gestion de Lync Server 2013(3212342)
 
@@ -346,9 +349,12 @@ Pour contourner ce problème, mettez à jour le Registre système avant d’inst
 
 1.  Démarrez Windows PowerShell et exécutez les applets de commande suivantes :
     
-        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
-        $a="HKU:\.Default\Control Panel\International"
+    ```
+    New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+    ```
+    ```
+    $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  Pour afficher la valeur actuelle, exécutez l’applet de commande suivante :
     
@@ -514,19 +520,8 @@ Pour forcer une mise à jour vers la version la plus récente du plug-in de part
 
 ## Dans certains cas, il est possible qu’un client Lync exécuté sur un ordinateur configuré pour utiliser la double pile IPv4 et IPv6 ne prenne pas en charge les fonctionnalités qui utilisent le sous-réseau IP de l’ordinateur (appels d’urgence, déviation du trafic multimédia, contrôle d’admission des appels et routage géodépendant) (3335508)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 **Problème :**
 
@@ -582,19 +577,8 @@ Cette solution de contournement permet aux utilisateurs de Skype Entreprise Onli
 
 ## Un appelant peut entendre une seconde d’attente musicale pendant l’établissement d’un appel avec le destinataire (3334097)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 **Problème :**
 
@@ -678,19 +662,8 @@ Il n’existe aucune solution de contournement à ce problème. L’appel parqu�
 
 ## Limitations de l’outil de planification (3331056 et 3331059)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 **Problème :**
 
@@ -780,19 +753,8 @@ Le paramètre *DropExistingDatabasesOnMirror* permet de supprimer les bases de d
 
 3.  Publiez la topologie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Chaque fois que vous apportez une modification à une relation de mise en miroir de bases de données principales, vous devez redémarrer tous les serveurs frontaux du pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> Chaque fois que vous apportez une modification à une relation de mise en miroir de bases de données principales, vous devez redémarrer tous les serveurs frontaux du pool.
 
 ## Des erreurs de validation sont renvoyées dans le Générateur de topologie quand un administrateur tente de supprimer un déploiement avec un pool frontal associé à un magasin de témoins (3199266)
 
@@ -854,19 +816,8 @@ Pour contourner ce problème, actualisez la page du Panneau de configuration Lyn
 
 ## L’indexation dans le carnet d’adresses ne fonctionne pas comme prévu dans certaines langues (3336047)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 Si les propriétés d’un utilisateur incluent un champ indexé contenant uniquement des caractères ne pouvant pas être indexés, l’utilisateur ne s’affiche pas dans les recherches effectuées dans le carnet d’adresses.
 
@@ -916,19 +867,8 @@ Si vous souhaitez sélectionner une langue avec un paramètre régional neutre, 
 
 ## La prise en charge des paramètres régionaux Azéri et Ouzbek lors de l’utilisation de Lync Web Scheduler, Appel entrant, Lanceur de participation, Gestion des salles de conversation permanente et OCTab est limitée dans certains navigateurs web (3336748)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 **Problème :**
 

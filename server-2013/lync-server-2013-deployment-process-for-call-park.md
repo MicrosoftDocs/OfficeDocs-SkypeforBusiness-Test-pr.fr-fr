@@ -38,21 +38,11 @@ Cette section décrit la procédure de déploiement de l’application de parcag
 <tr class="odd">
 <td><p>Configurer les plages d’orbites de parcage d’appel dans la table des orbites</p></td>
 <td><p>Utilisez le Panneau de configuration Lync Server ou l’applet de commande <strong>New-CSCallParkOrbit</strong> pour créer les plages d’orbites dans la table des orbites de parcage d’appel et les associer au service d’application qui héberge l’application de parcage d’appel.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour une intégration transparente aux plans de numérotation existants, les plages d’orbites sont en général configurées en tant que bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing [DID]) comme numéros d’orbites dans la table des orbites de parcage d’appel.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Pour une intégration transparente aux plans de numérotation existants, les plages d’orbites sont en général configurées en tant que bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing [DID]) comme numéros d’orbites dans la table des orbites de parcage d’appel.
+
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
@@ -85,36 +75,14 @@ Cette section décrit la procédure de déploiement de l’application de parcag
 <tr class="even">
 <td><p>Configurer la stratégie de voix pour activer le parcage d’appel pour les utilisateurs</p></td>
 <td><p>Utilisez le Panneau de configuration Lync Server ou l’applet de commande <strong>Set-CSVoicePolicy</strong> avec l’option <strong>EnableCallPark</strong> pour activer le parcage d’appel pour les utilisateurs dans la stratégie de voix.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Par défaut, le parcage d’appel est désactivé pour tous les utilisateurs.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous disposez de plusieurs stratégies de voix, définissez la propriété EnableCallPark pour chaque stratégie de voix et pas seulement pour la stratégie par défaut.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Par défaut, le parcage d’appel est désactivé pour tous les utilisateurs.
 
-</div></td>
+> [!NOTE]  
+> Si vous disposez de plusieurs stratégies de voix, définissez la propriété EnableCallPark pour chaque stratégie de voix et pas seulement pour la stratégie par défaut.
+
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsUserAdministrator</p>

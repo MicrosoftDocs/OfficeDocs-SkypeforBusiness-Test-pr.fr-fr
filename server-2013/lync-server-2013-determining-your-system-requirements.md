@@ -17,33 +17,11 @@ _**Dernière rubrique modifiée :** 2014-01-02_
 
 Tous les serveurs qui exécutent Lync Server doivent respecter une configuration système minimale. La configuration système requise pour Lync Server inclut le matériel serveur, le système d’exploitation à installer sur chaque serveur et la configuration système requise associée, notamment les mises à jour Windows et d’autres logiciels qui doivent être installés sur les serveurs.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server n’est disponible qu’en édition 64 bits, ce qui nécessite du matériel 64 bits et une édition 64 bits de Windows Server. L’exception est l’outil de planification Microsoft Lync Server 2013, qui est disponible en édition 32 bits.</td>
-</tr>
-</tbody>
-</table>
+> [!important]  
+> Lync Server n’est disponible qu’en édition 64 bits, ce qui nécessite du matériel 64 bits et une édition 64 bits de Windows Server. L’exception est l’outil de planification Microsoft Lync Server 2013, qui est disponible en édition 32 bits.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur la prise en charge d’Active Directory, les topologies prises en charge, la colocalisation du serveur et d’autres problèmes de prise en charge, reportez-vous à <a href="lync-server-2013-supportability.md">Prise en charge pour Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Pour plus d’informations sur la prise en charge d’Active Directory, les topologies prises en charge, la colocalisation du serveur et d’autres problèmes de prise en charge, reportez-vous à <a href="lync-server-2013-supportability.md">Prise en charge pour Lync Server 2013</a>.
 
 ## Dans cette section
 

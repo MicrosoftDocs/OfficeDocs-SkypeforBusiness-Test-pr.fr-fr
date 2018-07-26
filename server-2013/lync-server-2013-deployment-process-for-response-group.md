@@ -66,21 +66,11 @@ Cette section décrit les phases et la procédure pour déployer l’application
 </ol></li>
 <li><p>De manière facultative, utilisez Lync Server Management Shell pour créer des heures ouvrées et des congés pour un groupe Response Group prédéfini.</p></li>
 <li><p>Utilisez l’outil de configuration Response Group ou Lync Server Management Shell pour créer des flux de travail (flux de groupes de recherche ou d’appels de réponse vocale interactive [IVR]), dont des heures ouvrées et des congés pour un groupe Response Group personnalisé.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez accéder à l’outil de configuration Response Group via le Panneau de configuration Lync Server.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Vous pouvez accéder à l’outil de configuration Response Group via le Panneau de configuration Lync Server.
+
+</li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>

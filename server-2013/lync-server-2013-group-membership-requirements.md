@@ -33,40 +33,20 @@ Le tableau suivant indique les groupes auxquels une personne doit appartenir pou
 <tr class="odd">
 <td><p><strong>Setup.exe</strong>  : fichier exécutable permettant de démarrer l’installation des outils d’administration Lync Server 2013.</p></td>
 <td><p>Membre du groupe Administrateurs local sur l’ordinateur sur lequel le fichier exécutable est exécuté. Membre du groupe Utilisateurs du domaine pour lire les informations des services de domaine Active Directory. Ce niveau d’autorisation est obligatoire puisque l’installation automatique des packages MSI requis sur l’ordinateur local exige des privilèges permettant d’accéder en lecture et en écriture aux ressources protégées des ordinateurs locaux, notamment les répertoires Program Files et les éléments de Registre protégés, telles que la ruche Local Machine (ordinateur local).</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également déléguer des autorisations de configuration aux utilisateurs ou groupes auxquels vous ne voulez pas accorder d’appartenance au groupe Administrateurs de domaine. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-granting-setup-permissions.md">Octroi d’autorisations de configuration dans Lync Server 2013</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!TIP]  
+> Vous pouvez également déléguer des autorisations de configuration aux utilisateurs ou groupes auxquels vous ne voulez pas accorder d’appartenance au groupe Administrateurs de domaine. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-granting-setup-permissions.md">Octroi d’autorisations de configuration dans Lync Server 2013</a> dans la documentation de déploiement.
+
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>Deploy.exe</strong>  : appelé par setup.exe, deploy.exe est chargé du déploiement des composants logiciels pour les rôles serveur.</p></td>
 <td><p>Membre du groupe Administrateurs local sur l’ordinateur sur lequel le fichier exécutable est exécuté. Membre du groupe Utilisateurs du domaine pour lire les informations des services de domaine Active Directory (AD DS). Ce niveau d’autorisation est obligatoire puisque l’installation automatique des packages MSI requis sur l’ordinateur local exige des privilèges permettant d’accéder en lecture et en écriture aux ressources protégées des ordinateurs locaux, notamment les répertoires Program Files et les éléments de Registre protégés, telles que la ruche Local Machine (ordinateur local). L’appartenance au groupe RtcUniversalReadOnlyAdmins est nécessaire pour lire le magasin central de gestion.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous exécutez système d’exploitation Windows Vista ou système d’exploitation Windows 7, le Contrôle de compte d’utilisateur vous invitera à procéder à l’installation. Si vous avez ouvert la session avec un compte d’utilisateur standard, vous devrez demander à une personne membre du groupe Administrateurs local de vous fournir les informations d’identification requises qui vous seront demandées pour installer le logiciel avec le compte approprié.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Si vous exécutez système d’exploitation Windows Vista ou système d’exploitation Windows 7, le Contrôle de compte d’utilisateur vous invitera à procéder à l’installation. Si vous avez ouvert la session avec un compte d’utilisateur standard, vous devrez demander à une personne membre du groupe Administrateurs local de vous fournir les informations d’identification requises qui vous seront demandées pour installer le logiciel avec le compte approprié.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bootstrapper.exe</strong>  : appelé par setup.exe, bootstrapper.exe est responsable du déploiement et de la configuration des rôles serveur.</p></td>

@@ -23,19 +23,8 @@ Vous pouvez fournir des services de communication aux utilisateurs de votre entr
 
 Si vous déployez Lync 2013 dans votre entreprise, vous pouvez vous fédérer avec les domaines d’un ou plusieurs clients Microsoft Lync Online 2010. Pour permettre la fédération entre les utilisateurs de votre déploiement sur site Lync 2013 et les utilisateurs d’un client Lync Online 2010, vous devez configurer la prise en charge du domaine et des utilisateurs du client Lync Online.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette documentation décrit uniquement les procédures de configuration visant à permettre à votre entreprise de prendre en charge la fédération avec un client Lync Online 2010. Elle ne décrit pas les procédures de configuration de la prise en charge de la fédération par le client Lync Online 2010. Pour plus d’informations sur les services en ligne Lync, voir Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x40C</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Cette documentation décrit uniquement les procédures de configuration visant à permettre à votre entreprise de prendre en charge la fédération avec un client Lync Online 2010. Elle ne décrit pas les procédures de configuration de la prise en charge de la fédération par le client Lync Online 2010. Pour plus d’informations sur les services en ligne Lync, voir Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x40C</a>.
 
 ## Dans cette section
 

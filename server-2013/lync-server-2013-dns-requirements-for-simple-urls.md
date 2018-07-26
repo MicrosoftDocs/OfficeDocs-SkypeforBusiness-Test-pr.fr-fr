@@ -23,19 +23,8 @@ Lync Server prend en charge les trois URL simples suivantes : Meet, Dial-In e
 
 Dans l’option 1, vous devez créer une URL de base pour chaque URL simple.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsqu’un utilisateur clique sur un lien d’URL simple de réunion, le serveur que l’enregistrement DNS A résout détermine le logiciel client à démarrer. Une fois que le logiciel client a démarré, il communique automatiquement avec le pool hébergeant la conférence. Ainsi, les utilisateurs sont acheminés vers le serveur approprié indépendamment du serveur ou pool sur lequel les enregistrements DNS A d’URL simple sont résolus.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Lorsqu’un utilisateur clique sur un lien d’URL simple de réunion, le serveur que l’enregistrement DNS A résout détermine le logiciel client à démarrer. Une fois que le logiciel client a démarré, il communique automatiquement avec le pool hébergeant la conférence. Ainsi, les utilisateurs sont acheminés vers le serveur approprié indépendamment du serveur ou pool sur lequel les enregistrements DNS A d’URL simple sont résolus.
 
 ### Option 1 de définition des URL simples
 
@@ -150,29 +139,21 @@ Si plusieurs de vos sites contiennent des pools de serveurs frontaux et si votre
 
 Pour configurer cette option, créez deux adresses GeoDNS. Chacune d’elles comprend deux enregistrements DNS A ou CNAME qui aboutissent à deux pools couplés à des fins de récupération d’urgence. Une adresse GeoDNS est utilisée pour l’accès interne et aboutit au nom de domaine complet web interne ou à l’adresse IP d’équilibrage de charge des deux pools. L’autre adresse GeoDNS est utilisée pour l’accès externe et aboutit au nom de domaine complet web externe ou à l’adresse IP d’équilibrage de charge des deux pools. L’exemple ci-dessous s’applique à l’URL simple Meet et utilise les noms de domaine complets des pools.
 
-    Meet-int.geolb.contoso.com
-         Pool1InternalWebFQDN.contoso.com
-         Pool2InternalWebFQDN.contoso.com
-
-    Meet-ext.geolb.contoso.com
-         Pool1ExternalWebFQDN.contoso.com
-         Pool2ExternalWebFQDN.contoso.com
+```
+Meet-int.geolb.contoso.com
+    Pool1InternalWebFQDN.contoso.com
+    Pool2InternalWebFQDN.contoso.com
+```
+```
+Meet-ext.geolb.contoso.com
+    Pool1ExternalWebFQDN.contoso.com
+    Pool2ExternalWebFQDN.contoso.com
+```    
 
 Créez ensuite des enregistrements CNAME qui font aboutir l’URL simple Meet (telles que meet.contoso.com) aux deux adresses GeoDNS.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si votre réseau utilise le <em>hairpinning</em> (routage de l’ensemble du trafic de l’URL simple via le lien externe, dont le trafic en provenance de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et faire aboutir votre adresse URL simple Meet uniquement à cette adresse externe.</td>
-</tr>
-</tbody>
-</table>
-
+> [!note]  
+> Si votre réseau utilise le <em>hairpinning</em> (routage de l’ensemble du trafic de l’URL simple via le lien externe, dont le trafic en provenance de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et faire aboutir votre adresse URL simple Meet uniquement à cette adresse externe.
 
 Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoDNS de façon à distribuer les demandes aux deux pools selon la méthode du tourniquet (round robin), ou bien vous connecter principalement à un pool (par exemple, le pool le plus proche géographiquement) et utiliser l’autre pool seulement en cas de problème de connectivité.
 

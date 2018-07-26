@@ -21,19 +21,8 @@ Lorsque vous configurez des stratégies pour prendre en charge des partenaires f
 
 1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de **Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous déployez le serveur Edge pour la première fois, l’option Exécuter s’affiche au lieu de Réexécuter.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Si vous déployez le serveur Edge pour la première fois, l’option Exécuter s’affiche au lieu de Réexécuter.
 
 2.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Créer une demande de certificat** .
 
@@ -63,19 +52,8 @@ Lorsque vous configurez des stratégies pour prendre en charge des partenaires f
 
 12. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!tip]  
+    > Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.
 
 13. Dans la page **Résumé de la demande** , vérifiez les informations de certificat à utiliser pour générer la demande.
 
@@ -87,9 +65,12 @@ Lorsque vous configurez des stratégies pour prendre en charge des partenaires f
 
 17. Après la réception, l’importation et l’affectation du certificat public, vous devez redémarrer les services du serveur Edge. Pour cela, tapez dans la console de gestion Lync Server.
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 ## Configurer une nouvelle passerelle XMPP Lync Server 2013
 

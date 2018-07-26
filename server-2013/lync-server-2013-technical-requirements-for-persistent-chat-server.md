@@ -55,19 +55,8 @@ Pour plus d’informations sur les logiciels supplémentaires requis pour le dé
 
 Le serveur de conversations permanentes utilise la base de données de conversation permanente pour stocker l’historique des conversations, la configuration et les données de provisionnement d’utilisateur. Il utilise éventuellement la base de données de conformité de conversation permanente pour stocker les données de conformité.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La base de données de conversation permanente (mgc) et la base de données de conformité (mgccomp) peuvent se trouver sur la même instance de SQL Server ou sur des serveurs SQL Server différents.</td>
-</tr>
-</tbody>
-</table>
-
+> [!important]  
+> La base de données de conversation permanente (mgc) et la base de données de conformité (mgccomp) peuvent se trouver sur la même instance de SQL Server ou sur des serveurs SQL Server différents.
 
 Pour préparer une plateforme de serveur de base de données, vérifiez que chaque ordinateur respecte la configuration matérielle requise, puis installez les logiciels prérequis.
 
