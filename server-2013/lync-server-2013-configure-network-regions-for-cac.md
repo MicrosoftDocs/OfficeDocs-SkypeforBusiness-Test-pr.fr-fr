@@ -15,14 +15,14 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2012-09-21_
 
-> [!important]  
+> [!IMPORTANT]  
 > Si vous avez déjà créé des régions de réseau pour E9-1-1 ou la déviation du trafic multimédia, vous pouvez modifier les régions de réseau existantes en ajoutant des paramètres spécifiques au contrôle d’admission des appels (CAC) à l’aide de la cmdlet <strong>Set-CsNetworkRegion</strong>. Pour consulter un exemple de modification d’une région de réseau, voir <a href="lync-server-2013-create-or-modify-a-network-region.md">Création ou modification d’une région réseau dans Lync Server 2013</a> (contenu éventuellement en anglais).
 
 Les *régions réseau* sont les concentrateurs réseau ou dorsales principales utilisés dans la configuration du contrôle d’admission des appels, du service E9-1-1 et de la déviation du trafic multimédia. Utilisez les procédures suivantes pour créer des régions de réseau alignées avec les régions de réseau de l’exemple de topologie de réseau pour le contrôle d’admission des appels. Pour afficher l’exemple de topologie du réseau, voir [Exemple : collecte des données de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) (contenu éventuellement en anglais) dans la documentation de planification.
 
 L’exemple de topologie de réseau pour le contrôle d’admission des appels comporte trois régions : Amérique du Nord, EMEA et APAC. Chaque région dispose d’un site central spécifié. Pour l’Amérique du Nord, le site central désigné est CHICAGO. La procédure suivante présente un exemple montrant comment utiliser la cmdlet **New-CsNetworkRegion** pour créer la région Amérique du Nord.
 
-> [!note]  
+> [!NOTE]  
 > Dans la procédure suivante, Lync Server Management Shell sert à créer une région de réseau. Pour plus d’informations sur l’utilisation du Panneau de configuration Lync Server pour créer une région de réseau, voir <a href="lync-server-2013-create-or-modify-a-network-region.md">Création ou modification d’une région réseau dans Lync Server 2013</a> (contenu éventuellement en anglais).
 
 ## Pour créer une région de réseau pour le contrôle d’admission des appels

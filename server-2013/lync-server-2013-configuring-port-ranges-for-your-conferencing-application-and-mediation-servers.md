@@ -27,7 +27,7 @@ Par défaut, les plages de ports audio et vidéo ne se chevauchent pas dans Micr
     
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
-> [!warning]  
+> [!WARNING]  
 > Comme vous pouvez le voir dans les commandes précédentes, chaque type de port (audio, vidéo et partage d’application) se voit affecter deux valeurs de propriétés distinctes : le port de début et le nombre de ports. Le port de début indique le premier port utilisé pour la modalité concernée. Par exemple, si le port de début audio est 50000, cela signifie que le premier port utilisé pour le trafic audio est le port 50000. Si le nombre de ports audio est égal à 2 (il s’agit ici d’une valeur non valide utilisée uniquement à titre d’illustration), cela signifie que seuls 2 ports sont alloués pour l’audio. Si le premier port est le port 50000 et s’il existe deux ports au total, cela signifie que le second port doit être le port 50001 (les plages de ports doivent être contigües). Ainsi, la plage de ports pour l’audio doit inclure les ports 50000 à 50001.<br />
 Notez également que le serveur d’applications et le serveur de médiation ne prennent en charge la qualité de service que pour l’audio. Vous n’avez pas besoin de modifier les ports vidéo ou de partage d’application sur vos serveurs d’applications ou vos serveurs de médiation.
 

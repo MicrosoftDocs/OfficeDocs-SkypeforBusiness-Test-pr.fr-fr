@@ -33,7 +33,7 @@ Indiquez aux utilisateurs de configurer les paramètres Lync sur leurs télépho
 
 3.  Appuyez sur le champ vide et entrez le nom de domaine complet (FQDN) ou l'URL pour les services Web Exchange.
     
-    > [!note]  
+    > [!NOTE]  
     > Vouis pouvez spécifier le nom de domaine complet (FQDN) ou l'URL complète de votre serveur des services Web Exchange. Si vous spécifiez le FQDN, le protocole (https://) et le chemin d'accès des services Web Exchange (/ews/exchange.asmx) sont ajoutés automatiquement. Si votre chemin d'accès des services Web Exchange est différent, vous pouvez spécifier l'URL complète.
 
 4.  Fermez l'écran.

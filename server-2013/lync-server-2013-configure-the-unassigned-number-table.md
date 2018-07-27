@@ -19,7 +19,7 @@ Dans Lync Server 2013, vous pouvez spécifier la réponse à des appels entrant
 
 La manière dont vous configurez la table des numéros non attribués dépend de la façon dont vous comptez l’utiliser. Vous pouvez configurer la table avec toutes les numéros de poste valides de votre entreprise, avec uniquement les numéros de poste non attribués ou avec une combinaison des deux types de numéros. La table des numéros non attribués peut comporter des numéros attribués et des numéros non attribués, mais elle appelée uniquement lorsqu’un appelant compose un numéro qui n’est pas attribué. Si vous intégrez tous les numéros de poste valides dans la table des numéros non attribués, vous pouvez spécifier la réponse si une personne quitte l’entreprise, sans avoir à reconfigurer la table. Si vous intégrez des numéros de poste non attribués à la table, vous pouvez modifier la réponse à certains numéros. Par exemple, si vous modifiez le numéro de poste de votre bureau de service client, vous pouvez inclure l’ancien numéro dans la table et l’attribuer à une annonce qui indique le nouveau numéro.
 
-> [!important]  
+> [!IMPORTANT]  
 > Avant de configurer la table des numéros non attribués, vous devez avoir défini des annonces ou configuré un standard automatique de la messagerie unifiée Exchange dans le système.
 
 > [!tip]  

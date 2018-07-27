@@ -37,7 +37,7 @@ Après avoir créé le compte Kerberos, vous devez l’affecter à un site. Il s
     
         Enable-CsTopology
     
-    > [!note]  
+    > [!NOTE]  
     > Vous devez spécifier le paramètre Compte d’utilisateur au format Domaine\Utilisateur. Le format Utilisateur@Domaine.extension n’est pas pris en charge pour la référence aux objets créés à des fins d’authentification Kerberos.    
-    > [!important]  
+    > [!IMPORTANT]  
     > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.

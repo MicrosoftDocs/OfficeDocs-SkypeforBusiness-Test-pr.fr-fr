@@ -19,7 +19,7 @@ Les composants requis pour la conférence rendez-vous sont déployés en même t
 
 Toutes les étapes présentées dans le tableau ci-dessous doivent être réalisées pour que les utilisateurs puissent accéder à une conférence audio/vidéo via le réseau téléphonique commuté.
 
-> [!note]  
+> [!NOTE]  
 > Si vous effectuez une migration à partir d’Office Communications Server 2007 R2, vous devez appliquer les mises à jour les plus récentes à votre environnement Office Communications Server 2007 R2 avant de déployer la conférence rendez-vous.
 
 ### Processus de déploiement de la conférence rendez-vous
@@ -44,7 +44,7 @@ Toutes les étapes présentées dans le tableau ci-dessous doivent être réalis
 <td><p><strong>Créer une topologie qui intègre la charge de travail de conférence, y compris un serveur de médiation et une passerelle RTC, et déployer pool de serveurs frontaux ou serveur Standard Edition</strong></p></td>
 <td><ol><li><p>Exécutez le Générateur de topologie pour configurer votre topologie. Lors de la configuration de la topologie, sélectionnez l’option de conférence rendez-vous.</p></li><li><p>Publiez la topologie et déployez le pool de serveurs frontaux ou serveur Standard Edition.</p></li><li><p>Si nécessaire, créez un serveur de médiation autonome et associez-le à une passerelle RTC.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Cette étape n’est nécessaire que si vous ne déployez pas Voix Entreprise et que vous ne colocalisez pas le serveur de médiation avec le serveur frontalEnterprise Edition ou le serveur Standard Edition. Si vous déployez Voix Entreprise, vous installez et configurez les serveurs de médiation et les passerelles RTC dans le cadre du déploiement de Voix Entreprise. Si vous colocalisez le serveur de médiation, vous installez et configurez le serveur de médiation dans le cadre du déploiement du pool de serveurs frontaux ou du serveur Standard Edition.
 </div></li></ol></td>
 <td><p>DomainAdmins</p>
@@ -94,7 +94,7 @@ Toutes les étapes présentées dans le tableau ci-dessous doivent être réalis
 <td><p><strong>Configurer les numéros d’accès entrant</strong></p></td>
 <td><p>Utilisez le Panneau de configuration Lync Server 2013 ou Lync Server Management Shell pour configurer des numéros d’accès entrant que les utilisateurs composent pour participer à une conférence et spécifiez les régions chargées d’associer le numéro d’accès aux plans de numérotation appropriés. Les trois premiers numéros d’accès pour la région spécifiée par le plan de numérotation de l’organisateur sont inclus dans l’invitation à la conférence. Tous les numéros d’accès sont disponibles dans la page Paramètres de conférence rendez-vous.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Après avoir créé les numéros d’accès entrant, vous pouvez utiliser l’applet de commande <strong>Set-CsDialInConferencingAccessNumber</strong> pour modifier le nom complet des objets Contact Active Directory afin que les utilisateurs puissent identifier plus aisément le numéro d’accès correct.
 </div></td>
 <td><p>RTCUniversalServerAdmins</p>

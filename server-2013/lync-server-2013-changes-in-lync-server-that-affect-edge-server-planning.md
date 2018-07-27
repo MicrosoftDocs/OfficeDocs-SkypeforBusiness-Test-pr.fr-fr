@@ -27,10 +27,10 @@ Pour assurer la prise en charge de l’adressage IPv6 dans Lync Server 2013, il
 
 En guise de nouveauté, serveur Edge propose un proxy XMPP entièrement intégré (déployé sur les serveurs Edge) et une passerelle XMPP (déployée sur vos serveurs frontaux). Vous pouvez déployer Fédération XMPP comme un composant facultatif. En ajoutant et en configurant le proxy XMPP et la passerelle XMPP, vous offrez à vos utilisateurs Microsoft Lync 2013 la possibilité d’ajouter des contacts de partenaires XMPP pour la messagerie instantanée et la présence.
 
-> [!note]  
+> [!NOTE]  
 > À l’heure actuelle, les services XMPP dans le serveur Edge assurent uniquement la messagerie instantanée et la présence entre les clients Lync Server et les contacts XMPP. En outre, XMPP est hébergé dans un seul site.
 
-> [!important]  
+> [!IMPORTANT]  
 > La fonctionnalité XMPP de Lync Server 2013 est testée et prise en charge par Microsoft pour la fédération de messagerie instantanée avec Google Talk. Pour d’autres systèmes XMPP, contactez le fournisseur tiers pour vérifier qu’il prend en charge la fédération avec Lync Server 2013 et pour obtenir d’autres recommandations de déploiement et de dépannage.
 
 ## Prend en charge des certificats pour l’authentification audio/vidéo propagée et l’authentification serveur à serveur
@@ -47,7 +47,7 @@ La possibilité de mettre en place un certificat d’authentification audio/vid�
 
 Dans les versions précédentes de Lync Server et de Office Communications Server, l’affinité basée sur les cookies était utilisée par les services web pour s’assurer que l’état de session du client et des services web était maintenu. Les services web Lync Server 2013 utilisent un mécanisme d’affinité intégré qui élimine la plupart des exigences relatives à l’affinité basée sur les cookies.
 
-> [!warning]  
+> [!WARNING]  
 > Le client Microsoft Lync 2010 Mobile doit toujours utiliser l’affinité basée sur les cookies et requiert la configuration de l’affinité basée sur les cookies jusqu’à ce que vous ayez migré tous les clients vers le client Microsoft Lync Mobile à venir (dont la date de sortie n’est pas encore déterminée).
 
 Pour plus d’informations sur l’affinité basée sur les cookies dans Lync Server 2013, reportez-vous à [Composants requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
@@ -60,7 +60,7 @@ La fonctionnalité de découverte automatique dans Lync Server 2013 permet aux 
 
 Introduits dans la mise à jour cumulative pour Lync Server 2010 de novembre 2011, les services de mobilité dans Lync Server 2013 permettent aux utilisateurs qui possèdent un téléphone mobile exécutant Lync Mobile ou une tablette ou appareil mobile Apple iOS, Android, Windows Phone ou Nokia pris en charge de s’adonner à des activités telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence. En outre, les appareils mobiles prennent en charge certaines fonctionnalités Voix Entreprise, telles que le clic pour participer à une conférence, l’appel via le bureau, le numéro unique, la messagerie vocale et la notification des appels manqués.
 
-> [!note]  
+> [!NOTE]  
 > Les services de mobilité utilisent le proxy inverse et les services publiés déployés sur vos serveurs frontaux. Il est inutile d’apporter des modifications aux serveurs Edge. Vous avez besoin au minimum d’un accès SIP/TCP/5061 sortant à partir du serveur exécutant le service Edge d’accès Lync Server.
 
 ## Le rôle de directeur est facultatif

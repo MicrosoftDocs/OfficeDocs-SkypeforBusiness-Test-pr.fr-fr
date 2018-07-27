@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-09-30_
 
 Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du clavier téléphonique pour exécuter des commandes de numérotation en fréquences vocales (DTMF). Les commandes DTMF permettent aux utilisateurs qui prennent part à une conférence de contrôler les paramètres de conférence (tels que l’activation et la désactivation de leur microphone ou le verrouillage et le déverrouillage de la conférence) à l’aide du clavier de leur téléphone. Vous pouvez faire appel à des applets de commande pour modifier les touches utilisées pour les commandes DTMF. Cette étape est facultative.
 
-> [!note]  
+> [!NOTE]  
 > Pour obtenir des informations sur ces applets de commande et les options DTMF possibles, reportez-vous à la documentation Lync Server Management Shell ou l’aide de la ligne de commande Lync Server Management Shell.
 
 ## Pour modifier le mappage de touches des commandes DTMF

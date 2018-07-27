@@ -27,7 +27,7 @@ Après avoir utilisé l’Assistant Déploiement pour installer chaque serveur E
 
 3.  Démarrez l’Assistant Déploiement.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous obtenez un message vous indiquant que vous devez installer Microsoft Visual C++ Redistributable, cliquez sur <strong>Oui</strong>. Dans la boîte de dialogue suivante, acceptez l’<strong>emplacement d’installation</strong> par défaut ou cliquez sur <strong>Parcourir</strong> pour sélectionner un autre emplacement, puis cliquez sur <strong>Installer</strong>. Dans la boîte de dialogue suivante, activez la case à cocher <strong>J’accepte les termes du contrat de licence</strong>, puis cliquez sur <strong>OK</strong>.
 
 4.  Dans l’Assistant Déploiement, cliquez sur **Installer ou mettre à jour le système Lync Server**.

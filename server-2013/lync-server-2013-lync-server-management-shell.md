@@ -31,7 +31,7 @@ Par exemple, pour accéder à l’aide depuis l’invite de commande de l’appl
 
   - Pour exécuter les applets de commande Lync Server, ouvrez Lync Server Management Shell.
     
-    > [!warning]  
+    > [!WARNING]  
     > Si vous ouvrez une fenêtre Windows PowerShell à la place de Lync Server Management Shell, par défaut, vous ne pourrez pas exécuter les applets de commande Lync Server. Pour exécuter les applets de commande Lync Server à partir de Windows PowerShell, tapez d’abord les éléments suivants à l’invite de commande Windows PowerShell :<br />
     Import-Module Lync
 

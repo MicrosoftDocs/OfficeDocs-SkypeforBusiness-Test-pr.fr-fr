@@ -22,7 +22,7 @@ Avant de déployer votre configuration de routage des communications vocales, no
 > [!tip]  
 > Vous pouvez faire appel aux commandes <strong>Exporter des cas de test</strong> et <strong>Importer des cas de test</strong> pour enregistrer des cas de test de routage des communications vocales et les importer sur un autre ordinateur afin de les utiliser.
 
-> [!Caution]  
+> [!CAUTION]  
 > Si vous supprimez une partie de la configuration du routage des communications vocales, comme un plan de numérotation, une stratégie de voix, un itinéraire de communications vocales ou l’utilisation téléphonique, vous devez examiner et mettre à jour vos cas de test de routage des communications vocales. Le Panneau de configuration Lync Server ne vous demandera pas de tester des cas qui ne sont plus valables suite aux modifications apportées aux configurations.
 
 ## Dans cette section

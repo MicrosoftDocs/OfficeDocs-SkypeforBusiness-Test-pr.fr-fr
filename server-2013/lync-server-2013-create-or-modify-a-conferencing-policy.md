@@ -31,7 +31,7 @@ Effectuez les étapes suivantes pour créer une stratégie de conférence au niv
     
       - Pour créer une stratégie au niveau site, cliquez sur **Stratégie de site**. Dans la zone de recherche **Sélectionner un site**, tapez entièrement ou partiellement le nom du site pour lequel vous voulez créer une stratégie. Dans la liste des sites, cliquez sur le site voulu, puis sur **OK**.
         
-        > [!note]  
+        > [!NOTE]  
         > Le nom du site devient le nom de la stratégie de conférence et ne peut pas être modifié.
 
 5.  Dans **Description**, tapez la description de la stratégie.

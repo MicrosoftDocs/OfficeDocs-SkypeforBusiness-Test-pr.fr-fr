@@ -73,21 +73,21 @@ Une fois que vous avez fusionné la topologie et exécuté l’applet de command
 
 3.  Pour vérifier les stratégies de conférence importées, dans le volet gauche, cliquez sur **Conférence** , sur **Stratégie de conférence** , puis contrôlez la présence de toutes les stratégies de conférence de votre environnement Office Communications Server 2007 R2 dans la liste.
     
-    > [!note]  
+    > [!NOTE]  
     > La stratégie <strong>Réunion</strong> issue de versions précédentes d’Office Communications Server est désormais appelée stratégie de conférence dans Lync Server 2013. En outre, le paramètre <strong>Participants anonymes</strong> des versions précédentes d’Office Communications Server est à présent un paramètre de stratégie de conférence Lync Server 2013.    
-    > [!note]  
+    > [!NOTE]  
     > Dans Office Communications Server 2007 R2, si la stratégie de conférence n’a pas la valeur <strong>Utiliser par utilisateur</strong> , seuls les paramètres de stratégie globale sont importés. Aucune autre stratégie de conférence n’est importée dans ce cas.    
-    > [!note]  
+    > [!NOTE]  
     > Si <strong>Participants anonymes</strong> a la valeur <strong>Appliquer par utilisateur</strong> dans votre stratégie de conférence Office Communications Server 2007 R2, deux stratégies de conférence sont créées lors de la migration : l’une avec <strong>AllowAnonymousParticipantsInMeetings</strong> ayant la valeur <strong>True</strong> et l’autre avec <strong>AllowAnonymousParticipantsInMeetings</strong> ayant la valeur <strong>False</strong> .
 
 4.  Pour vérifier les plans de numérotation importés, cliquez sur **Routage des communications vocales** , sur **Plan de numérotation** , puis contrôlez la présence de tous les plans de numérotation de votre environnement Office Communicator 2007 R2 dans la liste.
     
-    > [!note]  
+    > [!NOTE]  
     > Dans Lync Server 2013, les <strong>profils d’emplacement</strong> sont appelés <strong>plans de numérotation</strong> .
 
 5.  Pour vérifier les stratégies de voix importées, cliquez sur **Routage des communications vocales** , sur **Stratégie de voix** , puis contrôlez la présence de toutes les stratégies de voix de votre environnement Office Communicator 2007 R2 dans la liste.
     
-    > [!note]  
+    > [!NOTE]  
     > Dans votre environnement Office Communications Server 2007 R2, si la stratégie de voix n’a pas la valeur <strong>Utiliser par utilisateur</strong> , seuls les paramètres de stratégie globale sont importés. Aucune autre stratégie de voix n’est importée dans ce cas.
 
 6.  Pour vérifier les itinéraires des communications vocales importés, cliquez sur **Routage des communications vocales** , sur **Itinéraire** , puis contrôlez la présence de tous les itinéraires des communications vocales de votre environnement Office Communicator 2007 R2 dans la liste.

@@ -19,7 +19,7 @@ Vous pouvez utiliser la stratégie globale par défaut par elle-même pour activ
 
 Il est impossible de supprimer la stratégie globale. Si vous essayez de la supprimer, les valeurs par défaut de la configuration sont rétablies.
 
-> [!note]  
+> [!NOTE]  
 > Pour configurer et utiliser le serveur de conversations permanentes, vous devez d’abord utiliser le Générateur de topologie pour ajouter la prise en charge du serveur de conversations permanentes à la topologie, puis publier la topologie. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Ajout d’un serveur de conversation permanente à votre déploiement dans Lync Server 2013</a> dans la documentation de déploiement.<br />
 Pour configurer les paramètres de configuration du serveur de conversations permanentes, reportez-vous à <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configuration des options de serveur de conversation permanente au niveau global ou pour un pool de serveurs de conversation permanente dans Lync Server 2013</a> dans la documentation de déploiement.
 
@@ -29,7 +29,7 @@ Pour configurer les paramètres de configuration du serveur de conversations per
 
 2.  Dans le menu **Démarrer**, sélectionnez le Panneau de configuration Lync Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration. Pour plus d’informations sur les différentes méthodes permettant de démarrer le Panneau de configuration Lync Server, reportez-vous à [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md) dans la documentation des opérations.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Vous pouvez également utiliser des applets de commande Windows PowerShell. Pour plus d’informations, reportez-vous à <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell</a> dans la documentation de déploiement.
 
 3.  Dans Panneau de configuration Lync Server, cliquez sur **conversation permanente**, puis sur **Stratégie conversation permanente**.

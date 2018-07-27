@@ -23,7 +23,7 @@ L’application Response Group offre des fonctions de reconnaissance vocale et 
 
 Les flux de travail interactifs prennent en charge jusqu’à deux niveaux de questions, chaque question et, selon la réponse de l’appelant, le système de réponse vocale interactive pose à l’appelant une question avec quatre réponses possibles, et selon la réponse de l’appelant, l’achemine vers une file d’attente ou lui pose une deuxième question. Quatre réponses sont également possibles pour la deuxième question. Selon la réponse à la question de second niveau, l’appelant est acheminé vers la file d’attente appropriée.
 
-> [!note]  
+> [!NOTE]  
 > Lorsque vous concevez des flux d’appels à l’aide de Lync Server Management Shell, vous pouvez définir autant de niveaux de questions du système de réponse vocale interactive et de réponses que vous le souhaitez. Cependant, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels qui comprend plus de deux niveaux de questions avec plus de quatre réponses possibles à chaque fois, vous ne pourrez pas modifier le flux d’appels à l’aide du Panneau de configuration Lync Server 2013.
 
 Les questions du système de réponse vocale interactive ainsi que les réponses de l’appelant sont fournies à l’agent qui répond en acceptant l’appel.

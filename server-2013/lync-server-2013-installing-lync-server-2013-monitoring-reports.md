@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Les rapports de surveillance de Microsoft Lync Server 2013 vous fournissent une mine d’informations sur la qualité et la quantité des sessions de communication qui ont lieu au sein de votre organisation. Toutefois, les rapports de surveillance ne sont pas automatiquement installés lorsque vous installez Lync Server 2013 ; vous devez alors les installer séparément, et uniquement une fois que Lync Server a été installé sur l’ordinateur.
 
-> [!note]  
+> [!NOTE]  
 > Il est recommandé d’installer les rapports de surveillance sur le même ordinateur que celui sur lequel la base de données de surveillance est installée. Cela simplifie le processus d’attribution des autorisations d’accès aux rapports : l’installation des rapports de surveillance sur l’ordinateur qui héberge le magasin d’analyse signifie qu’il n’est pas nécessaire de configurer les autorisations qui permettent à une base de données sur un premier ordinateur d’interagir avec le service Reporting Services exécuté sur un autre ordinateur.
 
 Les rapports de surveillance de Lync Server incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, les sessions de messagerie instantanée d’égal à égal, les inscriptions d’utilisateurs, l’application Response Group, etc. Pour la version 2013, les rapports de surveillance de Lync Server incluent plusieurs améliorations :
@@ -30,7 +30,7 @@ Les rapports de surveillance de Lync Server incluent plus de 30 rapports conçu
 
 D’autres informations sur chaque rapport sont disponibles dans la documentation des rapports de surveillance.
 
-> [!note]  
+> [!NOTE]  
 > Il existe un autre nouveau rapport : un sous-rapport relatifs aux détails des appels QoE, inclus dans Lync Server 2013. Toutefois, ce rapport est principalement destiné à un usage interne et non à un accès direct.
 
 Il existe deux manières d’installer les rapports de surveillance de Lync Server : vous pouvez utiliser l’Assistant Déploiement de Lync Server ou un script Windows PowerShell inclus dans les fichiers d’installation de Lync Server 2013. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :

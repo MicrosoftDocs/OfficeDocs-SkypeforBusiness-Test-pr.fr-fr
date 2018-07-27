@@ -27,7 +27,7 @@ Un itinéraire de communications vocales Lync Server 2013 associe des numéros 
 
 4.  Double-cliquez sur un itinéraire de communications vocales pour afficher les autres propriétés de la liste des itinéraires de communications vocales ou sélectionnez l’itinéraire, puis cliquez sur **Modifier** . Cliquez ensuite sur **Afficher les détails** .
     
-    > [!note]  
+    > [!NOTE]  
     > Vous ne pouvez afficher les informations détaillées que d’un seul itinéraire à la fois.
 
 **Afficher les itinéraires de communications vocales via Windows PowerShell**
@@ -50,7 +50,7 @@ Un itinéraire de communications vocales Lync Server 2013 associe des numéros 
         SuppressCallerId  :
         AlternateCallerId :
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations, reportez-vous à <a href="lync-server-2013-voice-routes.md">Itinéraires des communications vocales dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Dans cette section

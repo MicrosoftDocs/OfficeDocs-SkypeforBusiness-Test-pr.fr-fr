@@ -23,5 +23,5 @@ Le service Edge d’accès, le service Edge de conférence web, le service Edge 
 
   - Proxy inverse
 
-> [!important]  
+> [!IMPORTANT]  
 > Le proxy inverse n’a pas besoin d’être dédié au traitement exclusif de Lync Server 2013. Par exemple, vous pouvez fournir des services pour publier les services web Lync Server et fournir en même temps un site web publié pour un autre site web qui n’a aucun impact on Lync Server. Si vous disposez déjà d’un serveur proxy inverse dans le réseau de périmètre pour la prise en charge d’autres services, vous pouvez l’utiliser pour Lync Server 2013.

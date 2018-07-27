@@ -29,7 +29,7 @@ Les fichiers de configuration comportent les propriétés suivantes :
 
   - Le paramètre CustomStateURL indique l’emplacement du fichier de configuration. Dans Lync 2013, le mode de sécurité élevée SIP étant activé par défaut, vous devrez stocker le fichier de configuration de présence personnalisé sur un serveur web sur lequel le protocole HTTPS est activé. Dans le cas contraire, les clients Lync 2013 ne pourront pas s’y connecter. Exemple d’adresse valide : `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
 
-> [!note]  
+> [!NOTE]  
 > Bien que cela ne soit pas recommandé dans un environnement de production, vous pouvez tester un fichier de configuration situé sur un partage de fichiers non-HTTPS en utilisant le paramètre de Registre EnableSIPHighSecurityMode pour désactiver le mode de sécurité élevée SIP sur le client. Vous pouvez ensuite utiliser le paramètre de Registre CustomStateURL pour spécifier un emplacement non-HTTPS pour le fichier de configuration. Notez que Lync 2013 honore les paramètres de Registre Lync 2010, mais que la ruche de Registre a été mise à jour. La création des paramètres du Registre s’effectuerait comme suit :
 > <ul>
 > <li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
@@ -78,7 +78,7 @@ Localisez votre statut de présence personnalisé en spécifiant un ou plusieurs
 
 Pour plus d’informations, voir [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) et [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) dans la documentation Lync Server Management Shell.
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > <li><p>Par défaut, Lync Server 2013 met à jour les stratégies et les paramètres du client toutes les trois heures.</p></li>
 > <li><p>Si vous souhaitez continuer à utiliser des paramètres de stratégie de groupe des versions précédentes, tels que CustomStateURL, Lync 2013 reconnaîtra les paramètres s’ils se trouvent dans la nouvelle ruche de Registre de stratégies (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Cependant, les stratégies du client basées sur serveur sont prioritaires.</p></li></ul>

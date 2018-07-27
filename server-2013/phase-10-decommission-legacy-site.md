@@ -17,10 +17,10 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Les rubriques suivantes donnent des conseils quant à la mise hors service de pools et à la désactivation et la suppression de serveurs et de pools d’un déploiement hérité de Office Communications Server 2007 R2. Certaines des procédures répertoriées dans cette section ne sont pas requises. Lisez les informations de chacune de ces rubriques pour déterminer la procédure de mise hors service à utiliser.
 
-> [!Caution]  
+> [!CAUTION]  
 > Si vous avez importé des annuaires des conférences pour la Conférence rendez-vous vers Lync Server 2013, il est important d’en transmettre la propriété à Lync Server 2013 avant de commencer à mettre hors service vos pools. Si vous mettez hors service un pool sans transmettre la propriété des annuaires des conférences au préalable, la fonctionnalité de conférence rendez-vous ne fonctionnera plus pour toutes les réunions migrées. Vous devez effectuer l’étape de transmission de propriété une fois pour chaque annuaire des conférences compris dans votre pool hérité.
 
-> [!important]  
+> [!IMPORTANT]  
 > Pour plus d’informations sur la migration et la mise à niveau des applications Microsoft Unified Communications Managed API (UCMA) avant la mise hors service de votre environnement hérité, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 ## Dans cette section

@@ -43,7 +43,7 @@ Suivez ces étapes pour modifier une stratégie de code confidentiel au niveau d
 
 11. Pour autoriser les modèles courants de codes confidentiels, tels que les jeux de chiffres séquentiels et répétitifs, activez la case à cocher **Autoriser les modèles courants**. Si vous ne sélectionnez pas cette option, seuls les modèles complexes de chiffres sont autorisés. Par défaut, seuls les modèles complexes de chiffres sont autorisés.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Nous vous recommandons de ne pas autoriser les modèles courants.
 
 12. Cliquez sur **Valider**.

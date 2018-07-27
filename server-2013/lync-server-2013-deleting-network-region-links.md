@@ -27,7 +27,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez supprimer.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez supprimer plusieurs liens de région à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs liens de région. Ou, pour sélectionner tous les liens de région, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, sélectionnez **Supprimer**.

@@ -49,7 +49,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
     
     Trois adresses IP privées sont affectées à cette carte réseau, par exemple 10.45.16.10 pour le serveur Edge d’accès, 10.45.16.20 pour le serveur Edge de conférence web et 10.45.16.30 pour le serveur Edge AV.
     
-    > [!note]  
+    > [!NOTE]  
     > Il est possible, mais déconseillé, d’utiliser une adresse IP unique pour les interfaces des trois services Edge. Même si les adresses IP sont enregistrées, les numéros de port doivent être différents pour chaque service. Le numéro de port par défaut est 443/TCP, ce qui permet de s’assurer que la plupart des pare-feu distants autoriseront le trafic. Le fait d’affecter aux ports les valeurs 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence web et 443/TCP pour le service Edge A/V, par exemple, peut générer des problèmes pour les utilisateurs distants se trouvant derrière un pare-feu qui n’autorise pas le trafic sur 5061/TCP et 444/TCP. Par ailleurs, l’utilisation de trois adresses IP distinctes facilite l’identification et la résolution des problèmes puisqu’il est possible d’appliquer un filtre selon l’adresse IP.    
     L’adresse IP publique des serveurs Edge d’accès avec la passerelle par défaut définie sur le routeur intégré (10.45.16.1) est l’adresse principale.
     
@@ -149,7 +149,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès SIP. Requise pour permettre la découverte DNS automatique de votre fédération par d’autres partenaires de fédération potentiels, elle est aussi connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Cet enregistrement SRV est requis pour la mobilité et le centre d’échanges de notifications push.
 </div></td>
 </tr>

@@ -29,7 +29,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 5.  Dans **Nouvel itinéraire de région**, tapez une valeur dans le champ **Nom**.
     
-    > [!note]  
+    > [!NOTE]  
     > Cette valeur doit être unique dans votre déploiement Microsoft Lync Server 2013.
 
 6.  Dans la liste déroulante **Région réseau n° 1**, sélectionnez l’une des deux régions à connecter par cet itinéraire.
@@ -38,7 +38,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 8.  Utilisez la zone de liste **Liens de région réseau** pour ajouter des liens de région à l’itinéraire. Cliquez sur le bouton **Ajouter** pour afficher la page **Lien de région**. Cliquez sur un lien de région pour l’ajouter à cet itinéraire, puis cliquez sur **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Continuez à cliquer sur le bouton <strong>Ajouter</strong> pour ajouter davantage de liens, ou sélectionnez un lien et cliquez sur <strong>Supprimer</strong> pour le supprimer.
 
 9.  Cliquez sur **Valider**.

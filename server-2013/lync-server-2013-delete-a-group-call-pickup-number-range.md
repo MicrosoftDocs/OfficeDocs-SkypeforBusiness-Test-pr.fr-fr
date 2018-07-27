@@ -31,7 +31,7 @@ La procédure suivante vous permet de supprimer une plage de numéros de prise d
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
-    > [!note]  
+    > [!NOTE]  
     > Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## Voir aussi

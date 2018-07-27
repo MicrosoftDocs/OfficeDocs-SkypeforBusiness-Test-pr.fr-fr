@@ -44,7 +44,7 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
     New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
     ```
     
-    > [!note]  
+    > [!NOTE]  
     > À chaque modification du Registre, une erreur liée à l’échec de la commande risque de se produire si la clé de Registre existe déjà. Dans ce cas, vous pouvez ignorer cette erreur sans risque.
 
 **Configurez votre serveur d’administration principal System Center Operations Manager pour remplacer le nœud observateur candidat de détection centrale.**

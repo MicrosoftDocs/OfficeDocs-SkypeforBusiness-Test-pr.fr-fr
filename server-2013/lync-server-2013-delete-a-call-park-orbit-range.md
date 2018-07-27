@@ -45,7 +45,7 @@ Utilisez l’une des procédures suivantes pour supprimer une plage d’orbites 
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
-    > [!note]  
+    > [!NOTE]  
     > Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## Voir aussi

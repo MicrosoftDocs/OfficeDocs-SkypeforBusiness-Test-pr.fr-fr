@@ -21,7 +21,7 @@ Pour prendre en charge E9-1-1, le Lync Server 2013 doit être en mesure de bien
 
 Pour plus d’informations sur la planification d’un déploiement de E9-1-1, reportez-vous à [Planification des services d’urgence (E9-1-1) dans Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
 
-> [!important]  
+> [!IMPORTANT]  
 > Lync Server 2013 prend uniquement en charge E9-1-1 aux États-Unis. Pour déployer E9-1-1, vous devez configurer une connexion SIP à un fournisseur de services E9-1-1 certifié, ou déployer une passerelle ELIN (Emergency Location Identification Number) vers un fournisseur de services E9-1-1 basé sur le réseau téléphonique commuté (RTC). Pour plus d’informations, reportez-vous à <a href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">Enhanced 9-1-1 (E9-1-1) et serveur de médiation dans Lync Server 2013</a>. Pour plus d’informations sur la configuration de connexions de jonction, reportez-vous à <a href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013</a>.
 
 ## Dans cette section

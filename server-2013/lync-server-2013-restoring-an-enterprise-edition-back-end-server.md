@@ -32,14 +32,14 @@ Si le magasin central de gestion échoue, voir [Restauration du serveur héberge
 
 1.  Démarrez avec un nouveau serveur qui est doté du même nom de domaine complet (FQDN) que l’ordinateur qui a échoué, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
     
-    > [!note]  
+    > [!NOTE]  
     > Suivez les procédures de déploiement de votre organisation pour effectuer cette étape.
 
 2.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins, ouvrez une session sur le serveur que vous êtes en train de restaurer.
 
 3.  Installez SQL Server 2012 ou SQL Server 2008 R2, en conservant les noms d’instance qui existaient avant l’échec.
     
-    > [!note]  
+    > [!NOTE]  
     > Selon votre déploiement, le serveur principal peut comprendre plusieurs bases de données colocalisées ou distinctes. Suivez la même procédure pour installer SQL Server que celle que vous avez utilisée pour déployer le serveur, y compris les autorisations et les connexions SQL Server.
 
 4.  Une fois que vous avez installé SQL Server, effectuez les actions suivantes :
@@ -54,7 +54,7 @@ Si le magasin central de gestion échoue, voir [Restauration du serveur héberge
     
     5.  Suivez l’Assistant **Publier la topologie**. Dans la page **Créer des bases de données**, sélectionnez les bases de données à recréer.
         
-        > [!note]  
+        > [!NOTE]  
         > Seules les bases de données autonomes sont affichées dans la page <strong>Créer des bases de données</strong>.    
     6.  Si vous restaurez un serveur principal en miroir, poursuivez le reste de l’Assistant jusqu’à l’apparition de l’invite **Créer des bases de données miroir**. Sélectionnez la base de données à installer, puis terminez le processus.
     

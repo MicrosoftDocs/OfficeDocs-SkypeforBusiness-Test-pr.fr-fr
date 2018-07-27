@@ -27,7 +27,7 @@ La manière de configurer l’archivage dépend de l’option de stockage choisi
 
 Si vous activez l’archivage sur un pool frontal ou un serveur Standard Edition, vous devez l’activer pour tous les pools frontaux et serveurs Standard Edition dans le déploiement. Cela afin de permettre aux utilisateurs dont les communications doivent être archivées d’être invités à une conversation de messagerie instantanée en groupe ou à des réunions hébergées sur un autre pool. Si l’archivage n’est pas activé sur le pool sur lequel la conversation ou la réunion est hébergée, la totalité de la session risque de ne pas être archivée. Le cas échéant, il est toujours possible d’archiver les messages instantanés échangés avec des utilisateurs pour lesquels l’archivage est activé, mais pas les fichiers de contenu des conférences, ni les événements de participation ou d’arrêt de participation aux conférences.
 
-> [!important]  
+> [!IMPORTANT]  
 > Si l’archivage est primordial dans votre organisation à des fins de conformité, veillez à le déployer, à configurer les stratégies et les autres options au niveau approprié, ainsi qu’à l’activer pour tous les utilisateurs concernés, avant d’activer Lync Server 2013 pour ces utilisateurs.
 
 ## Processus de déploiement de l’archivage
@@ -55,7 +55,7 @@ Le tableau ci-dessous décrit les étapes nécessaires pour déployer l’archiv
 <td><p><strong>Installer le matériel et les logiciels prérequis</strong></p></td>
 <td><ul><li><p>Pour utiliser l’intégration de Microsoft Exchange (avec Exchange 2013 pour le stockage d’archives d’une partie ou de la totalité des utilisateurs), vous avez besoin d’un déploiement Exchange 2013 existant.</p></li><li><p>Pour utiliser des bases de données d’archivage distinctes (à l’aide de bases de données SQL Server) pour le stockage d’archives d’une partie ou de la totalité des utilisateurs, vous avez besoin de SQL Server sur le serveur qui va stocker les données d’archivage.</p></li></ul>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > L’archivage s’exécute sur les serveurs frontaux d’un pool Enterprise et des serveurs Standard Edition. Aucune configuration matérielle ou logicielle supplémentaire n’est requise en dehors de celle nécessaire à l’installation de ces serveurs.
 </div></td>
 <td><p>Utilisateur du domaine membre du groupe Administrateurs local.</p></td>

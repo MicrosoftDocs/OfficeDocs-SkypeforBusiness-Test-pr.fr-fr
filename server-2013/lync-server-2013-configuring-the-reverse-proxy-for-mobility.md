@@ -19,14 +19,14 @@ Si vous souhaitez utiliser la découverte automatique pour des clients d’appar
 
 Si vous décidez d’utiliser HTTPS pour les demandes initiales du service de découverte automatique de Lync Server 2013 et de mettre à jour les listes d’autres noms de sujet sur les certificats de proxy inverse, vous devez affecter le certificat public mis à jour à l’écouteur SSL (Secure Sockets Layer) sur votre proxy inverse. Pour plus d’informations sur les entrées d’autres noms de sujet requises, reportez-vous à [Exigences techniques pour la mobilité dans Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Vous devez ensuite créer modifier l’écouteur existant pour les services web externes ou créer une règle de publication web pour l’URL du service de découverte automatique externe. Si vous n’avez pas encore de règle de publication web pour l’URL externe des services web Lync Server 2013 de votre pool de serveurs frontaux, vous devez également publier une règle pour cette URL.
 
-> [!note]  
+> [!NOTE]  
 > La règle de publication et l’écouteur du proxy inverse peuvent être utilisés par les services web externes et le service de découverte automatique, à condition que le certificat affecté à l’écouteur contienne le nom de sujet et les autres noms de sujet nécessaires aux deux. Pour plus d’informations sur la configuration par défaut de l’écouteur web et de la règle de publication, reportez-vous à <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configuration des serveurs proxy inverses pour Lync Server 2013</a>.
 
 Si vous décidez d’utiliser HTTP pour les demandes initiales du service de découverte automatique pour ne pas avoir à mettre à jour les autres noms de sujet pour le proxy inverse, vous devez créer ou modifier une règle de publication web pour le port 80.
 
 Les procédures de cette section indiquent comment créer ou modifier les règles de publication web dans Microsoft Forefront Threat Management Gateway 2010 pour la découverte automatique.
 
-> [!note]  
+> [!NOTE]  
 > Ces procédures supposent que vous avez installé la version Standard Edition de Forefront Threat Management Gateway (TMG) 2010. Si vous utilisez un autre proxy inverse, les procédures, bien qu’identiques, devront être adaptées en tenant compte de la documentation du produit tiers.
 
 ## Pour créer une règle de publication web pour l’URL de découverte automatique externe
@@ -89,7 +89,7 @@ Les procédures de cette section indiquent comment créer ou modifier les règle
 
 1.  Cliquez sur **Démarrer** , pointez sur **Programmes** , sur **Microsoft Forefront TMG** , puis cliquez sur **Forefront TMG Management** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Vous devrez répéter la modification pour chaque règle de publication et chaque écouteur que vous possédez. En règle générale, il existe une règle et un écouteur pour les pools de serveurs frontaux et une règle et un écouteur pour les directeurs ou les directeur facultatifs (si vous les avez déployés).
 
 2.  Dans le volet gauche, développez **NomServeur** , cliquez avec le bouton droit sur **Stratégie de pare-feu** , puis cliquez sur la règle applicable. Sous l’onglet **Tâches** , cliquez sur **Modifier la règle sélectionnée** .

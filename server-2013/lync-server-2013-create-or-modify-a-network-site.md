@@ -19,7 +19,7 @@ Les déploiements du contrôle d’admission des appels, du système E9-1-1 et d
 
 Les procédures suivantes vous permettent de créer ou de modifier des sites réseau. Par exemple, si vous avez créé des sites réseau pour une fonctionnalité vocale, vous n’avez pas besoin de créer d’autres sites réseau ; les autres fonctionnalités vocales utiliseront ces mêmes sites. Cependant, il est possible que vous soyez obligé de modifier la définition d’un site réseau existant pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé un site réseau pour E9-1-1, vous devez modifier le site réseau au cours du déploiement du contrôle d’admission des appels pour appliquer un profil de stratégie de bande passante.
 
-> [!note]  
+> [!NOTE]  
 > Vous pouvez trouver des exemples et des conditions spécifiques pour les sites réseau concernant chaque fonctionnalité vocale avancée dans la documentation de déploiement :<ul>
 > <li><p><a href="lync-server-2013-configure-network-sites-for-cac.md">Configurer les sites réseau pour le contrôle d’admission des appels dans Lync Server 2013</a></p></li></ul>
 
@@ -52,7 +52,7 @@ Créez une région réseau pouvant être utilisée par le contrôle d’admissio
     
     Dans cet exemple, vous avez créé un site réseau appelé « Chicago » qui se trouve dans la région « NorthAmerica » (Amérique du Nord).
     
-    > [!note]  
+    > [!NOTE]  
     > La région NorthAmerica doit toujours exister pour que cette commande s’exécute correctement.
 
 3.  Pour finir de créer des sites réseau pour votre topologie, répétez l’étape 2 avec les paramètres pour d’autres sites.
@@ -73,12 +73,12 @@ Créez une région réseau pouvant être utilisée par le contrôle d’admissio
 
 7.  Éventuellement, cliquez sur **Stratégie de bande passante** , puis sur une stratégie de bande passante dans la liste.
     
-    > [!note]  
+    > [!NOTE]  
     > La stratégie de bande passante est uniquement requise si vous déployez le contrôle d’admission des appels sur le site.
 
 8.  Éventuellement, cliquez sur **Stratégie d’emplacement** , puis sur une stratégie d’emplacement dans la liste.
     
-    > [!note]  
+    > [!NOTE]  
     > La stratégie d’emplacement est uniquement requise si vous déployez le système E9-1-1 sur le site.
 
 9.  Éventuellement, cliquez sur **Description** , puis tapez des informations supplémentaires pour décrire ce site réseau.
@@ -105,7 +105,7 @@ Modifiez une région réseau pouvant être utilisée par le contrôle d’admiss
     
     Dans cet exemple, le site appelé « Albuquerque » est déplacé dans la région « NorthAmerica ». Pour modifier la configuration du site réseau afin de déployer le contrôle d’admission des appels, le système E9-1-1 ou la déviation du trafic multimédia, modifiez les paramètres du site réseau en exécutant l’applet de commande Set-CsNetworkSite avec le paramètre BWPolicyProfileID ou LocationPolicy, respectivement.
     
-    > [!note]  
+    > [!NOTE]  
     > Même si le paramètre BypassID existe pour la déviation du trafic multimédia, nous vous recommandons vivement de ne pas remplacer les ID de contournement générés automatiquement. Vous n’avez pas besoin de spécifier des paramètres supplémentaires pour configurer un site réseau pour la déviation du trafic multimédia.
 
 3.  Pour finir de modifier des sites réseau pour votre topologie, répétez l’étape 2 avec les paramètres pour d’autres sites.

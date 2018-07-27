@@ -27,7 +27,7 @@ Pour assurer la meilleure expérience utilisateur possible, il est important de 
     
       - S’il s’agit d’une réunion interne, optez pour le type d’accès à la réunion **Toute personne de ma société**.
         
-        > [!note]  
+        > [!NOTE]  
         > Évitez de choisir le type d’accès à la réunion <strong>Personnes de ma société invitées</strong>. En effet, ce paramètre contraint les organisateurs à ajouter toutes les adresses de messagerie des utilisateurs à la liste d’invités et il vous empêche d’inviter un groupe de distribution.<br />
         Évitez de choisir le type d’accès à la réunion <strong>Seulement moi, l’organisateur de la réunion</strong>, car ce paramètre exige que chaque participant à la réunion, y compris les présentateurs, se trouve dans la salle d’attente à l’heure d’exécution de la réunion. La personne responsable de l’exécution de la grande réunion doit alors constamment surveiller la liste de la salle d’attente et admettre les nouveaux utilisateurs qui se trouvent dans la salle d’attente.
 
@@ -39,7 +39,7 @@ Pour assurer la meilleure expérience utilisateur possible, il est important de 
     
       - liste des présentateurs fournie par un demandeur de réunion.
     
-    > [!note]  
+    > [!NOTE]  
     > Si le type d’accès à la réunion défini est <strong>Personnes que je choisis</strong>, vous devez ajouter explicitement chaque participant à une grande réunion en tant qu’invité de la réunion.
 
   - Au lieu d’attribuer à l’option de présentateur l’une des valeurs de promotion automatique, gérez explicitement les présentateurs. Veillez à ajouter les utilisateurs suivants en tant que présentateurs :
@@ -48,7 +48,7 @@ Pour assurer la meilleure expérience utilisateur possible, il est important de 
     
       - liste des présentateurs fournie par les demandeurs de grande réunion.
     
-    > [!note]  
+    > [!NOTE]  
     > En gérant explicitement les présentateurs, vous pouvez contrôler le nombre de présentateurs et ainsi favoriser le bon déroulement d’une grande réunion, avec un nombre de présentateurs limité. Si la majorité des participants à la réunion ont un rôle de participant, cela limite les chances de voir des personnes prendre accidentellement le contrôle de la présentation, supprimer une présentation PowerPoint, désactiver ou activer le son pour les présentateurs et perturber le déroulement de la réunion.
 
   - Cochez le paramètre **Désactiver le son pour tous les participants** pour faire en sorte que seuls les présentateurs puissent diffuser du son au cours de la réunion.

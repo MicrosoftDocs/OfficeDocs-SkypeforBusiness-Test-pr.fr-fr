@@ -132,23 +132,23 @@ Pour cet exemple, les commandes Windows PowerShell suivantes illustrent la cré
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Une fois qu’une configuration est définie pour chaque jonction, vous pouvez utiliser la commande Lync ServerWindows PowerShell set-cstrunkconfiguration pour activer le routage géodépendant sur vos jonctions devant appliquer les restrictions de routage. Vous devez activer le routage géodépendant sur les jonctions qui acheminent les appels vers les passerelles PSTN et associer le site réseau sur lequel la passerelle est située.
+Une fois qu’une configuration est définie pour chaque jonction, vous pouvez utiliser la commande Lync ServerWindows PowerShell Set-CsTrunkConfiguration pour activer le routage géodépendant sur vos jonctions devant appliquer les restrictions de routage. Vous devez activer le routage géodépendant sur les jonctions qui acheminent les appels vers les passerelles PSTN et associer le site réseau sur lequel la passerelle est située.
 
-    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 Pour plus d’informations, voir [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
 
 Dans cet exemple, le routage géodépendant est activé pour chaque jonction associée à des passerelles PSTN à Delhi et Hyderabad :
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 Vous ne devez pas activer le routage géodépendant pour les jonctions n’acheminant pas d’appels vers le réseau téléphonique commuté. Vous devez tout de même associer la jonction au site réseau dans lequel se trouve le système, car les restrictions de routage géodépendant doivent être appliquées pour les appels PSTN atteignant des points de terminaison connectés via cette jonction. Pour cet exemple, le routage géodépendant n’est pas activé pour chaque jonction associée à des systèmes PBX à Delhi et Hyderabad :
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 Les points de terminaison connectés à des systèmes n’acheminant pas d’appels vers le réseau téléphonique commuté (PBX) auront des restrictions semblables à celles des points de terminaison Lync des utilisateurs pour lesquels le routage géodépendant est activé. Ces utilisateurs pourront passer et recevoir des appels via Lync quel que soit leur emplacement. Ils pourront également passer et recevoir des appels via d’autres systèmes n’acheminant pas d’appels vers le réseau téléphonique commuté (point de terminaison connecté à un autre PBX) quel que soit le site réseau auquel le système est associé. Les restrictions de routage géodépendant seront appliquées à tous les appels entrants, appels sortants, transferts d’appel et renvois d’appel impliquant des points de terminaison PSTN. Les appels ne doivent utiliser que les passerelles PSTN définies comme locales pour ces systèmes.
@@ -251,7 +251,7 @@ Enfin, activez globalement le routage géodépendant sur votre configuration du 
 
 Pour plus d’informations, voir [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
 
-> [!note]  
+> [!NOTE]  
 > Si le routage géodépendant doit être activé via une configuration globale, l’ensemble de règles devant être appliqué ne le sera que pour les sites, utilisateurs et jonctions pour lesquels il a été configuré, comme spécifié dans cette documentation.
 
 

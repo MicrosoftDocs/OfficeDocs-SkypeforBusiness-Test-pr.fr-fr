@@ -67,5 +67,5 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
     ```
 
-> [!note]  
+> [!NOTE]  
 > L’option <strong>Basculement et restauration automatique pour Voice</strong> et les intervalles de temps associés dans le Générateur de topologie ne s’appliquent qu’aux nouvelles fonctionnalités de résistance des communications vocales introduites dans Lync Server 2010. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.

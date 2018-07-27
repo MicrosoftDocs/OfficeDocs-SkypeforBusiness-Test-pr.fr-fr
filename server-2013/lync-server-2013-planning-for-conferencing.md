@@ -29,7 +29,7 @@ Lync Server 2013 prend en charge les conférences planifiées et les conférenc
 
 Lorsque vous déployez le serveur frontalLync Server 2013, vous avez également la possibilité de déployer les fonctionnalités de conférence web, conférence A/V et conférence rendez-vous. Les fonctionnalités de conférence par messagerie instantanée sont systématiquement et automatiquement déployées avec les fonctionnalités de messagerie instantanée sur les serveurs frontauxLync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Si votre déploiement comprend des réunions organisées à l’aide de clients Office Communicator 2007 R2 (y compris la console Live Meeting ou le complément de conférence pour Microsoft Office Outlook), ces réunions présenteront les limitations suivantes après une migration vers Lync Server 2013 :
 > <ul>
 > <li><p>Les utilisateurs de la réunion ne pourront pas utiliser les fonctionnalités de collaboration de données, y compris la collaboration de document, le partage d’application et le partage de bureau.</p></li>

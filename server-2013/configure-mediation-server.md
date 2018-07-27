@@ -19,7 +19,7 @@ Cette procédure détaille les étapes pour configurer le pool Lync Server 2013
 
 Pour réussir à publier, activer ou désactiver une topologie quand vous ajoutez ou supprimez un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les droits et autorisations d’administrateur appropriés pour ajouter des rôles serveur. Pour plus d’informations, reportez-vous à4 Déléguer des autorisations de configuration dans la documentation de déploiement consacrée aux serveurs Standard Edition ou Enterprise Edition. Pour toutes les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est nécessaire.
 
-> [!note]  
+> [!NOTE]  
 > Pour obtenir les dernières informations sur la détection des passerelles RTC, des systèmes et des services de jonction SIP qualifiés fonctionnant avec Lync Server 2013, reportez-vous à « Microsoft Unified Communications Open Interoperability Program » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</a>.
 
 ## Pour configurer le serveur de médiation à l’aide du générateur de topologie
@@ -52,5 +52,5 @@ Pour réussir à publier, activer ou désactiver une topologie quand vous ajoute
 
 11. Une fois que l’**Assistant Publication** a terminé, cliquez sur **Terminer** pour le fermer.
 
-> [!note]  
+> [!NOTE]  
 > Il est important d’accomplir la rubrique suivante, <a href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Modification des itinéraires de communications vocales pour l’utilisation du nouveau serveur de médiation Lync Server 2013</a> pour garantir que les itinéraires des communications vocales pointent vers le serveur de médiation approprié.

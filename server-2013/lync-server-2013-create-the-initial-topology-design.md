@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-21_
 
 Une fois l’installation de l’outil de planification Lync Server 2013 terminée, vous êtes prêt à démarrer l’outil de planification et à commencer la conception de l’infrastructure Lync Server 2013 proposée.
 
-> [!note]  
+> [!NOTE]  
 > L’outil de planification est un outil muni d’un assistant qui vous guide dans votre processus décisionnel de conception de vos sites et de votre topologie. Cette rubrique n’est conçue comme un guide exhaustif, mais pour vous aider à démarrer dans l’utilisation de l’outil de planification dans vos sessions de conception.
 
 ## Pour commencer à utiliser l’Outil de planification et à créer la conception initiale
@@ -43,7 +43,7 @@ Une fois l’installation de l’outil de planification Lync Server 2013 termin�
 
 6.  Cliquez sur **Concevoir des sites** pour définir votre site central.
     
-    > [!note]  
+    > [!NOTE]  
     > Chaque topologie Lync Server 2013 aura au moins un site central. Votre conception peut comprendre un seul site central, un site central avec un certain nombre de sites de succursale, un certain nombre de sites centraux, ou un certain nombre de sites centraux avec des sites de succursale associés à chaque site central.
 
 7.  Dans **Nom du site** , tapez le nom qui identifiera ce site central.
@@ -54,7 +54,7 @@ Une fois l’installation de l’outil de planification Lync Server 2013 termin�
 
 10. Modifiez les sélections pour Collaboration en ligne, Utilisateurs, Voix, Options de déploiement supplémentaires ou Applications serveur, selon les besoins.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Ce n’est qu’à ce moment de la conception que vous pouvez activer ou désactiver les options de votre déploiement. Cependant, vous pourrez configurer d’autres options lors d’une phase ultérieure de l’outil de planification. Certaines options sont également indisponibles et ne peuvent pas être désactivées. En outre, vous pouvez être amené à désactiver une option pour en désactiver une autre. Par exemple, si vous désactivez l’option <strong>Voix Entreprise</strong> sous Voix, les options <strong>Response Group</strong> , <strong>Annonce</strong> et <strong>Parcage d’appel</strong> sous Applications serveur (toutes étant des fonctionnalités de Voix Entreprise) sont également désactivées.
 
 11. Après avoir défini le nom du site et le nombre d’utilisateurs, cliquez sur **Suivant** .

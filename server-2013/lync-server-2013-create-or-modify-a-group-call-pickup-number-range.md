@@ -17,10 +17,10 @@ _**Dernière rubrique modifiée :** 2013-01-30_
 
 La procédure suivante vous permet de créer ou de modifier une plage de numéros de groupe de prise d’appel dans la table des numéros d’appel parqué.
 
-> [!note]  
+> [!NOTE]  
 > Vous devez utiliser Lync Server Management Shell pour créer, modifier, supprimer et afficher des plages de numéros de prise d’appel de groupe dans la table des numéros d’appel parqué. Les plages de numéros de prise d’appel de groupe ne sont pas disponibles dans le Panneau de configuration Lync Server.
 
-> [!important]  
+> [!IMPORTANT]  
 > Vous devez affecter le type GroupPickup à la plage de numéros de groupe de prise d’appel. Les utilisateurs ne sont activés pour la prise d’appel de groupe que si le numéro de groupe qui leur a été affecté est de type GroupPickup.
 
 Les plages de numéros de groupe de prise d’appel doivent respecter les règles suivantes :
@@ -55,7 +55,7 @@ Les plages de numéros de groupe de prise d’appel doivent respecter les règle
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
-    > [!important]  
+    > [!IMPORTANT]  
     > N’utilisez cette applet de commande pour modifier le type affecté aux plages de numéros que si vous avez initialement spécifié un type incorrect et que la plage de groupe n’est pas encore utilisée. Si vous modifiez la plage de numéros en remplaçant CallPark par GroupPickup ou vice versa et que la plage de numéros est déjà utilisée, le parcage d’appel ou la prise d’appel de groupe cesse de fonctionner pour cette plage de numéros. Par exemple, si vous modifiez une plage de numéros en remplaçant CallPark par GroupPick, l’application de parcage d’appel ne peut plus utiliser cette plage de numéros pour parquer les appels.
 
 ## Voir aussi

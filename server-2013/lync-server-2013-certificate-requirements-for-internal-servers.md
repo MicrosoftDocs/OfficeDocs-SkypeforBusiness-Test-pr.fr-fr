@@ -30,10 +30,10 @@ Les tableaux suivants indiquent les certificats requis par rôle serveur pour le
 
 Notez que l’utilisation améliorée de la clé (EKU) pour l’authentification des serveurs est automatiquement configurée lorsque vous utilisez l’Assistant Certificat pour demander des certificats.
 
-> [!note]  
+> [!NOTE]  
 > Le nom convivial de chaque certificat doit être unique dans le magasin de l’ordinateur.
 
-> [!note]  
+> [!NOTE]  
 > Si vous avez configuré sipinternal.contoso.com ou sipexternal.contoso.com dans votre DNS, vous devrez les ajouter dans Autre nom du sujet du certificat.
 
 ### Certificats pour les serveurs Standard Edition Server

@@ -29,7 +29,7 @@ La fonctionnalité d’interrogation favorise la collaboration en permettant aux
 
 Au cours d’une conférence, vous pouvez décider de partager l’intégralité de votre Bureau, une application individuelle ou des moniteurs individuels dans un environnement constitué de plusieurs moniteurs. Outre la possibilité de consulter le contenu, les autres participants de la conférence peuvent aussi demander à prendre le contrôle de votre écran et, moyennant votre autorisation, d’interagir avec le contenu (défilement, modification, etc).
 
-> [!note]  
+> [!NOTE]  
 > Les participants qui agissent en tant que spectateurs de la conférence peuvent aussi décider de prendre le contrôle et de partager du contenu au cours de la réunion.
 
 ## Partage de PowerPoint

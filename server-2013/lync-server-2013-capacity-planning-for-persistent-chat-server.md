@@ -31,14 +31,14 @@ Vous pouvez déployer le serveur de conversations permanentes dans une topologie
 
 Désormais, nous prenons également en charge le serveur de conversations permanentes sur le serveur Standard Edition pour les nouveaux déploiements de Lync Server 2013. Cependant, les performances et l’extensibilité sont affectées, et puisqu’il n’existe pas d’option de haute disponibilité pour ce nouveau déploiement, vous êtes priés de l’utiliser principalement à des fins de preuve de concept, d’évaluation, etc.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur ces deux topologies, reportez-vous à <a href="lync-server-2013-planning-for-persistent-chat-server.md">Planification du serveur de conversation permanente dans Lync Server 2013</a> dans cette documentation et <a href="lync-server-2013-deploying-persistent-chat-server.md">Déploiement d’un serveur de conversation permanente dans Lync Server 2013</a> dans la documentation de déploiement.
 
 ## Topologie à serveur unique
 
 La configuration minimale et le déploiement le plus simple pour le serveur de conversations permanentes est une topologie avec un serveur frontal de serveur de conversations permanentes unique. Ce déploiement requiert un serveur unique qui exécute le serveur de conversations permanentes (qui exécute éventuellement le service de conformité si la conformité est activée), un serveur qui héberge la base de données SQL Server et, si la conformité est obligatoire, la base de données SQL Server pour stocker les données de conformité.
 
-> [!important]  
+> [!IMPORTANT]  
 > Vous ne pouvez pas ajouter d’autres serveurs à un pool de serveurs de conversations permanentes que vous avez commencé en tant que déploiement à serveur unique dans le Générateur de topologie. Nous vous recommandons d’utiliser la topologie à plusieurs pools de serveurs, même si vous utilisez un seul serveur afin de pouvoir ajouter d’autres serveurs ultérieurement, si besoin.
 
 La figure suivante présente tous les composants obligatoires et facultatifs d’une topologie pour un seul serveur frontalserveur de conversations permanentes avec conformité.
@@ -337,7 +337,7 @@ Cet exemple indique les catégories des salles de conversation : petite (30 ut
 
 Pour chaque salle de conversation, le tableau de planification de capacité précédent spécifie le nombre d’entrées de contrôle d’accès associées à la salle de conversation, dont les entrées affectées directement à la salle de conversation. Vous pouvez contrôler l’accès aux salles de conversation individuelles à l’aide des listes de contrôle d’accès. Vous pouvez également contrôler l’accès au niveau de la catégorie. Dans une liste de contrôle d’accès, une entrée de contrôle d’accès individuelle peut être un groupe d’utilisateurs (par exemple, un groupe de sécurité, une liste de distribution ou un utilisateur unique). Vous pouvez définir des entrées de contrôle d’accès pour les gestionnaires, présentateurs et membres de salles de conversation.
 
-> [!important]  
+> [!IMPORTANT]  
 > En planifiant votre stratégie de gestion des salles de conversation, gardez à l’esprit que le nombre total d’entrées de contrôle d’accès autorisées est de 2 millions. Si le nombre d’entrées de contrôle d’accès calculé dépasse 2 millions, les performances du serveur pourraient se dégrader de manière significative. Pour éviter ce problème, quand cela s’avère possible, assurez-vous que vos entrées de contrôle d’accès sont des groupes d’utilisateurs au lieu d’utilisateurs individuels.
 
 ## Planification de capacité pour la gestion de l’accès à la salle de conversation par invitation
@@ -346,7 +346,7 @@ Vous pouvez utiliser la table de planification de la capacité suivante pour com
 
 Les exemples de données du tableau ci-après supposent que l’option **Invitations** est définie sur **Oui** dans la page **Paramètres de la salle de conversation** pour 50 % de toutes les salles de conversation.
 
-> [!important]  
+> [!IMPORTANT]  
 > Si la valeur calculée du nombre d’invitations générée par le serveur dépasse 1 million, les performances du serveur pourraient se dégrader de manière significative. Pour éviter ce problème, assurez-vous de réduire au minimum le nombre de salles de conversation configurées pour envoyer des invitations, ou limitez le nombre d’utilisateurs pouvant se joindre aux salles de conversation ayant été configurées pour envoyer des invitations.
 
 ### Exemple d’accès à la salle de conversation par invitation

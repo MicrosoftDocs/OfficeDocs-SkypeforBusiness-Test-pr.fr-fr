@@ -19,7 +19,7 @@ Les groupes Response Group sont une fonctionnalité de gestion des appels qui v
 
 Pour gérer les groupes Response Group, vous devez configurer des groupes d’agents, des files d’attente et des flux de travail, qui définissent ce qui arrive à un appel entre le moment où il est passé et le moment où un agent y répond.
 
-> [!note]  
+> [!NOTE]  
 > Si vous avez plus de 300 flux de travail dans un seul pool de votre déploiement Response Group, il est préférable d’utiliser les applets de commande Lync Server Management Shell pour créer des flux de travail. Si vous utilisez l’outil de configuration de groupes Response Group en vue de créer des flux de travail pour un pool qui en contient plus de 300, le chargement de la page web sera plus long.
 
 Les rubriques de cette section comportent des procédures détaillées que vous pouvez effectuer pour personnaliser et gérer l’application Response Group dans votre déploiement.

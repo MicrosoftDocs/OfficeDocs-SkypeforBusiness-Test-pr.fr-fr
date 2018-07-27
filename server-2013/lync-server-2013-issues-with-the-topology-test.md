@@ -19,7 +19,7 @@ Tout comme l’applet de commande **Test-CsTopology**, Best Practice Analyzer vo
 
 Outre la vérification de la validité de Lync Server dans son ensemble, **Test-CsTopology** vérifie également la validité d’un service spécifique. Pour plus d’informations sur l’utilisation de l’applet de commande pour tester des services spécifiques, voir [Test-CsTopology](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTopology) dans la documentation Lync Server Management Shell. Utilisez les informations suivantes pour vous aider à résoudre les problèmes de topologie.
 
-> [!note]  
+> [!NOTE]  
 > En fonction de la configuration de vos serveurs Edge et des paramètres de réseau de périmètre associés, notamment les paramètres du pare-feu et les autorisations, Best Practices Analyzer peut ne pas être en mesure d’accéder à et d’analyser vos serveurs Edge. Si vous analysez les serveurs Edge et que les rapports indiquent un problème d’accès aux serveurs Edge, décochez <strong>Serveurs Edge</strong> et exécutez de nouveau l’analyse afin que cette erreur ne figure plus dans les rapports.
 
 ## Résolution des problèmes de topologie

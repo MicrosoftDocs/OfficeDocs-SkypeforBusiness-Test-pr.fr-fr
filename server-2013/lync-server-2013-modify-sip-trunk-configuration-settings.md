@@ -140,8 +140,8 @@ Quand vous modifiez les paramètres de configuration de jonction SIP avec le Pan
 </table>
 
 
-> [!note]  
-> Les applets de commande CsTrunkConfiguration de Lync Server prennent en charge d’autres propriétés qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</a>.
+> [!NOTE]  
+> Les applets de commande CsTrunkConfiguration de Lync Server prennent en charge d’autres propriétés qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a>.
 
 ## Modification des paramètres de configuration de jonction SIP avec le Panneau de configuration Lync Server
 

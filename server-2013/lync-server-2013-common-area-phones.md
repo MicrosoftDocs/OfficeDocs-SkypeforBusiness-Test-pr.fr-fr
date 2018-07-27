@@ -21,7 +21,7 @@ Pour gérer des téléphones de partie commune, vous devez créer des objets de 
 
 Consultez les rubriques de cette section pour découvrir comment créer, modifier ou supprimer des objets de contacts pour les téléphones de partie commune et comment configurer et afficher les informations de configuration sur les téléphones de partie commun de votre déploiement.
 
-> [!note]  
+> [!NOTE]  
 > Il existe trois options de téléphones de partie commune : le téléphone de partie commune Aastra 6721ip, le téléphone IP HP 4110 et le téléphone de partie commune Polycom CX500 IP. Le téléphone de conférence IP Polycom CX3000 est une autre variété de téléphone de partie commune. Toutefois, il est destiné à un usage dans les salles de conférence. Pour plus d’informations sur les téléphones de partie commune, voir la section Téléphones de partie commune dans <a href="http://technet.microsoft.com/fr-fr/library/gg398958(v=ocs.14).aspx">Sélection de nouveaux périphériques</a>.
 
 ## Dans cette section

@@ -19,7 +19,7 @@ Vous pouvez étendre les fonctionnalités de System Center Operations Manager e
 
   - Le pack d’administration Composant et utilisateur (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) suit les problèmes Lync Server enregistrés dans les journaux des événements, enregistrés par les compteurs de performances, ou enregistrés dans les bases de données d’enregistrements des détails des appels (CDR) ou de qualité de l’expérience (QoE). Pour des problèmes critiques, System Center Operations Manager peut être configuré pour avertir immédiatement les administrateurs via e-mail, messagerie instantanée ou messages texte (SMS). SMS est la technologie utilisée pour envoyer des messages texte entre appareils mobiles.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour plus d’informations sur la configuration de notification Operations Manager, voir Configurer les notifications dans la bibliothèque TechNet à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x40C</a>.
 
   - Le pack d’administration Surveillance active (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) teste de façon proactive les composants Lync Server clés, par exemple l’ouverture de session, l’échange de messages instantanés ou les appels vers un téléphone situé sur un réseau téléphonique commuté (PSTN). Ces tests sont exécutés à l’aide des applets de commande de transaction synthétique Lync Server. Par exemple, vous pouvez utiliser l’applet de commande **Test-CsIM** pour simuler une conversation par message instantané entre deux utilisateurs test. Si cette conversation simulée échoue, une alerte est générée.
@@ -28,7 +28,7 @@ Vous devez importer les packs d’administration. Si vous ne le faites pas, vous
 
 Le pack d’administration Composant et utilisateur est utilisé uniquement pour surveiller Lync Server 2013. Si vous utilisez un scénario de coexistence, dans lequel Lync Server 2013 et Lync Server 2010 sont installés, utilisez le pack d’administration Lync Server 2010 pour vos ordinateurs Lync Server 2010.
 
-> [!note]  
+> [!NOTE]  
 > Les packs d’administration pour Lync Server 2010 comprennent le pack d’administration Surveillance Lync Server 2010 et le pack d’administration Surveillance des conversations de groupe Lync Server 2010.
 
 Vous pouvez utiliser l’un des outils suivants pour importer les packs d’administration :

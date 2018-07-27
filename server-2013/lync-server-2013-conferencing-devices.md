@@ -19,7 +19,7 @@ Les appareils de conférence permettent aux utilisateurs de salles de conférenc
 
 Utilisez les rubriques de cette section pour découvrir comment configurer et gérer vos appareils de conférence.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d'informations sur les périphériques de conférence pouvant être utilisés avec Lync Server 2013, consultez la page Web <a href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</a>.
 
 ## Dans cette section

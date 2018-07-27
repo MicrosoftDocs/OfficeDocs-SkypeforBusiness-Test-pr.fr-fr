@@ -58,7 +58,7 @@ Pour plus d’informations sur la création de stratégies de version du client 
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de version du client**, effectuez l’une des opérations suivantes :
     
-    > [!note]  
+    > [!NOTE]  
     > Comme vous pouvez configurer plusieurs stratégies à partir de la boîte de dialogue <strong>Attribuer des stratégies</strong>, l’option <strong>&lt;Conserver tel quel&gt;</strong> est sélectionnée par défaut pour chaque stratégie de la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.    
       - Autorisez Lync Server à choisir automatiquement la stratégie au niveau global ou, si elle a été définie, la stratégie au niveau du site ou du pool.
     

@@ -45,7 +45,7 @@ Ils ont la possibilité d’inclure le paramètre OutLoggerVariable suivi d’un
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-> [!note]  
+> [!NOTE]  
 > Ne faites pas précéder le nom de variable du caractère $. Utilisez un nom de variable comme RegistrationTest et non $RegistrationTest.
 
 La commande précédente permet d’obtenir du contenu de type :
@@ -68,5 +68,5 @@ Ces fichiers peuvent ensuite être affichés dans Internet Explorer, Visual Stud
 
 Les transactions synthétiques exécutées à partir du System Center Operations Manager génèrent automatiquement ces fichiers journaux en cas de panne. Toutefois, ces journaux ne sont pas générés si l’exécution échoue avant que Windows PowerShell n’ait pu charger et exécuter la transaction synthétique.
 
-> [!important]  
+> [!IMPORTANT]  
 > Par défaut, Lync Server 2013 enregistre des fichiers journaux dans un dossier non partagé. Pour les rendre facilement accessibles, vous devez partager ce dossier (par exemple, \\atl-watcher-001.litwareinc.com\WatcherNode.

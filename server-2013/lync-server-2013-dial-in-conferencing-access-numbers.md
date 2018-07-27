@@ -19,7 +19,7 @@ Pour permettre aux utilisateurs de participer à la partie audio des conférence
 
 Ils apparaissent dans les invitations à une réunion et dans la page web des paramètres de configuration des conférences rendez-vous.
 
-> [!note]  
+> [!NOTE]  
 > Vous ne pouvez pas utiliser un nouveau numéro d’accès pour la conférence rendez-vous tant que la réplication Active Directory de ce numéro n’est pas terminée. La réplication peut durer plusieurs heures.
 
 ## Dans cette section

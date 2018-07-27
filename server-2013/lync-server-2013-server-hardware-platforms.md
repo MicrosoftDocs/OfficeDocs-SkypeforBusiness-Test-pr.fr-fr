@@ -23,7 +23,7 @@ Le matériel spécifique utilisé pour le déploiement de Lync Server 2013 peut
 
 Pour obtenir les meilleures performances, nous vous recommandons d'exécuter Lync Server sur les serveurs avec un matériel qui satisfait la configuration requise indiquée dans le tableau suivant. Si vous utilisez un matériel moins puissant, vous pouvez rencontrer des problèmes de fonctionnement ou des performances médiocres. Notez que cette configuration matérielle requise est supérieure à celle des versions précédentes de Lync Server, car tous les serveurs frontaux exécutent SQL Server dans Lync Server 2013 pour l'essentiel.
 
-> [!note]  
+> [!NOTE]  
 > La collaboration NIC est prise en charge et doit être transparente sur Lync Server. Pour plus d'informations, reportez-vous à <a href="https://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming (Association de carte réseau et de Communications Server ou Lync Server)</a>..
 
 ### Matériel recommandé pour les serveurs frontaux, les serveurs principaux, les serveurs Standard Edition Server, les serveurs de conversation permanente, le magasin de conversation permanente et le magasin de conformité de conversation permanente (rôles Serveur principal pour le serveur de conversation permanente)
@@ -59,7 +59,7 @@ Pour obtenir les meilleures performances, nous vous recommandons d'exécuter Lyn
 <td><p>Réseau</p></td>
 <td><ul><li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l'association à une seule adresse MAC et une seule adresse IP).</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Les configurations doubles ou à plusieurs connexions ne sont pas prises en charge pour les serveurs serveurs frontaux, serveurs principaux, serveurs Standard Edition et serveurs de conversations permanentes.<br />
 Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilisées pour la surveillance et la gestion du matériel des serveurs ne constituent pas un serveur à plusieurs connexions et ne sont donc pas prises en charge.
 </div></li></ul></td>
@@ -102,7 +102,7 @@ Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilis�
 <td><p>Réseau</p></td>
 <td><ul><li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l'association à une seule adresse MAC et une seule adresse IP). 2 interfaces réseau sont requises sur serveurs Edge et sont prises en charge sur les serveurs serveurs de médiation autonomes.</p></li></ul>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Les configurations doubles ou à plusieurs connexions ne sont pas prises en charge pour les serveurs directeurs.<br />
 Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilisées pour la surveillance et la gestion du matériel des serveurs ne constituent pas un serveur à plusieurs connexions et ne sont donc pas prises en charge.
 </div>

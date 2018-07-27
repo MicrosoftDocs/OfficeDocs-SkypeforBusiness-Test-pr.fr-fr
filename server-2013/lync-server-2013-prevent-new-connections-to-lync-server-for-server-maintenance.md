@@ -35,7 +35,7 @@ Pour plus d’informations sur l’équilibrage de la charge DNS, voir [Équilib
 
 En plus d’empêcher les nouvelles connexions pour tous les services d’un serveur exécutant Lync Server, vous pouvez aussi empêcher les nouvelles connexions pour les services Lync Server individuels. Par exemple, cette méthode est utile quand vous devez appliquer une mise à jour Lync Server qui ne nécessite pas d’arrêter l’intégralité du serveur. Notez que lorsque vous interdisez les connexions pour un service, vous devez sélectionner un service groupé et affiché dans la liste des services Windows. Par exemple, le service frontal Lync Server et l’agent de collecte des données de surveillance sont des services Lync Server distincts, mais dans la liste des services Windows, ils sont regroupés et apparaissent en tant que service frontal Lync Server. Vous pouvez empêcher les nouvelles connexions pour le service frontal Lync Server, mais vous ne pouvez pas les empêcher séparément pour ces deux services Lync Server individuels sous-jacents.
 
-> [!important]  
+> [!IMPORTANT]  
 > Lorsque vous configurez un serveur pour empêcher les nouvelles connexions, puis le redémarrez, par défaut, le serveur accepte immédiatement les connexions. Si vous ne voulez pas que cela se produise, configurez le serveur pour qu’il ne soit suspendu et redémarré que manuellement avant de redémarrer le serveur.
 
 ## Pour empêcher les nouvelles connexions à Lync Server:
@@ -50,7 +50,7 @@ En plus d’empêcher les nouvelles connexions pour tous les services d’un ser
 
 5.  La méthode facultative et recommandée consiste à cliquer sur **Manuel**, en regard de **Type de démarrage**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Quand vous configurez un serveur de manière à empêcher de nouvelles connexions puis que vous le redémarrez, par défaut, le serveur accepte immédiatement les nouvelles connexions après son redémarrage. Pour éviter cela, configurez le serveur de manière à ce qu’il s’interrompe et reprenne uniquement manuellement, puis redémarrez-le.
 
 6.  Lorsque vous avez terminé, cliquez sur **OK**.

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-10-18_
 
 Effectuez les tâches de cette section sur le site central. Si vous déployez un serveur Survivable Branch Server, ignorez la première tâche.
 
-> [!important]  
+> [!IMPORTANT]  
 > Avant d’effectuer les tâches dans cette section, les conditions suivantes doivent être remplies :
 > <ul>
 > <li><p>Lync Server doit être installé sur le site central.</p></li>

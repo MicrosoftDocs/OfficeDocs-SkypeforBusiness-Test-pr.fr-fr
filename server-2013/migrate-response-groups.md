@@ -17,27 +17,27 @@ _**Dernière rubrique modifiée :** 2013-09-23_
 
 Une fois vos utilisateurs déplacés vers les pools Lync Server 2013, vous pouvez migrer vos groupes Response Group. La migration de groupes Response Group comprend la copie des groupes d’agents, des files d’attente, des flux de travail et des fichiers audio, ainsi que le déplacement des objets contact Response Group du déploiement hérité vers le pool Lync Server 2013. Une fois la migration de vos groupes Response Group existants effectuée, les appels destinés aux groupes Response Group sont gérés par l’application Response Group dans le pool Lync Server 2013. Les appels destinés aux groupes Response Group ne sont plus gérés par le pool hérité.
 
-> [!note]  
+> [!NOTE]  
 > Même s’il est possible de migrer les groupes Response Group avant de placer tous les utilisateurs dans le pool Lync Server 2013, nous vous conseillons de déplacer d’abord les utilisateurs. En particulier, les utilisateurs qui sont des agents de groupe Response Group. En effet, pour pouvoir utiliser pleinement les nouvelles fonctionnalités, ces derniers doivent être placés dans le pool Lync Server 2013.
 
 Avant de migrer les groupes Response Group, vous devez d’abord déployer un pool Lync Server 2013 qui comprenne l’application Response Group. L’application Response Group est installée et activée par défaut quand vous déployez Voix Entreprise. Pour vérifier que l’application Response Group est installée, exécutez l’applet de commande **Get-CsService –ApplicationServer**.
 
-> [!note]  
+> [!NOTE]  
 > Vous pouvez créer des groupes Response Group Lync Server 2013 dans le pool Lync Server 2013 avant de procéder à la migration de vos groupes Response Group hérités.
 
 Pour effectuer la migration de groupes Response Group d’un pool hérité vers Lync Server 2013, il suffit d’exécuter l’applet de commande **Move-CsRgsConfiguration**.
 
-> [!important]  
+> [!IMPORTANT]  
 > L’applet de commande de migration de Response Group déplace la configuration de Response Group pour le pool entier. Vous ne pouvez sélectionner aucun groupe, file d’attente ou flux de travail spécifique à migrer.
 
 Après avoir migré les groupes Response Group, utilisez les applets de commande du Panneau de configuration Lync Server ou de Lync Server Management Shell pour vérifier que tous les groupes d’agents, files d’attente et flux de travail ont été déplacés avec succès.
 
 Quand vous migrez des groupes Response Group, les groupes Response Group Lync Server 2010 ne sont pas supprimés. Quand vous gérez des groupes Response Group après la migration en utilisant le Panneau de configuration Lync Server ou Lync Server Management Shell, vous pouvez voir les groupes Response Group Lync Server 2010 et Lync Server 2013. N’appliquez de mises à jour qu’aux groupes Response Group Lync Server 2013. Les groupes Response Group Lync Server 2010 sont conservés uniquement à des fins de restauration.
 
-> [!Caution]  
+> [!CAUTION]  
 > Une fois la migration terminée et les groupes Response Group créés, le panneau de configuration Lync Server et Lync Server Management Shell affichent les versions Lync Server 2010 et Lync Server 2013 de chaque groupe Response Group. N’utilisez pas Panneau de configuration Lync Server ou Lync Server Management Shell pour supprimer les groupes Response Group Lync Server 2010. Si vous en supprimez un, le groupe Response Group correspondant créé lors de la migration ne fonctionnera plus. Les groupes Response Group Lync Server 2010 seront supprimés lorsque vous désactivez le pool Lync Server 2010.
 
-> [!important]  
+> [!IMPORTANT]  
 > Nous vous recommandons de ne pas supprimer les données de votre déploiement précédent tant que vous n’avez pas désaffecté le pool. En outre, nous vous recommandons fortement d’exporter les groupes Response Group immédiatement après la migration. Si un groupe Response Group Lync Server 2010 doit être supprimé, vous pouvez restaurer vos groupes Response Group à partir de la sauvegarde afin de refaire fonctionner les groupes Response Group Lync Server 2013.
 
 Lync Server 2013 introduit une nouvelle fonctionnalité Response Group appelée **Type de flux de travail**. Le **Type de flux de travail** peut être **Géré** ou **Non géré**. Tous les groupes Response Group sont migrés avec le **Type de flux de travail** défini à **Non géré** et avec une liste de gestionnaires vide.

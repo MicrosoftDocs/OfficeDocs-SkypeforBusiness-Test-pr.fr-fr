@@ -21,7 +21,7 @@ Cette section identifie les clients qu’il est possible d’utiliser pour le pa
 
 Les appels de n’importe quel téléphone IP, PBX (autocommutateur privé), RTC (réseau téléphonique commuté) ou mobile peuvent être parqués.
 
-> [!note]  
+> [!NOTE]  
 > Seuls les appels audio peuvent être parqués. Aucun parcage pour les messages instantanés et les conférences n’est possible.
 
 Les clients suivants peuvent avoir recours au parcage d’appel :
@@ -34,7 +34,7 @@ Les clients suivants peuvent avoir recours au parcage d’appel :
 
   - Lync Phone Edition
 
-> [!note]  
+> [!NOTE]  
 > Les téléphones mobiles ne peuvent pas utiliser la fonctionnalité de parcage d’appel pour parquer des appels.
 
 ## Clients pris en charge pour la récupération des appels

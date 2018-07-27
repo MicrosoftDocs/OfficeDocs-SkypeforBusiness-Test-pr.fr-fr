@@ -19,7 +19,7 @@ La rubrique suivante donne des conseils quant à la mise à jour des entrées DN
 
 Pour plus d’informations sur la suppression des serveurs et des rôles serveur Lync Server 2010 et pour obtenir des instructions pas à pas sur la mise hors service d’un déploiement Lync Server 2010, reportez-vous à « Désinstallation de Lync Server 2010 et suppression des rôles serveur », que vous pouvez télécharger à cette adresse : [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227).
 
-> [!important]  
+> [!IMPORTANT]  
 > Pour plus d’informations sur la migration et la mise à niveau des applications Microsoft Unified Communications Managed API (UCMA) avant la mise hors service de votre environnement hérité, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</a>
 
 ## Dans cette section

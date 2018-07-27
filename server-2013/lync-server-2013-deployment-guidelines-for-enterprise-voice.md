@@ -31,7 +31,7 @@ Pour que le déploiement de Voix Entreprise se déroule dans les meilleures cond
 
   - Un numéro de téléphone principal unique a été désigné, normalisé et copié dans l’attribut **msRTCSIP-line** pour chaque utilisateur devant être activé pour Voix Entreprise.
     
-    > [!note]  
+    > [!NOTE]  
     > Lync Server prend en charge les numéros E.164 ainsi que les numéros non DID (Direct Inward Dialing). Les numéros non DID peuvent être représentés au format <strong>&lt;E.164&gt;;ext=&lt;extension&gt;</strong> ou comme une chaîne de chiffres, mais le numéro de poste privé doit être unique dans l’entreprise. Par exemple, le numéro privé 1 001 peut être représenté comme suit : <strong>+1425550100;ext=1001</strong> ou <strong>1001</strong>. S’il est représenté comme <strong>1001</strong>, ce numéro privé doit être unique dans l’entreprise.
 
   - Les administrateurs déployant Voix Entreprise doivent être membres du groupe RTCUniversalServerAdmins.

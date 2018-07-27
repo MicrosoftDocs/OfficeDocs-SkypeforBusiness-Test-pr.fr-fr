@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2016-12-08_
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur les conditions matérielles requises, reportez-vous à <a href="lync-server-2013-server-hardware-platforms.md">Plateformes matérielles de serveur pour Lync Server 2013</a>.
 
 Les serveurs Standard Edition et Enterprise Edition partagent la même configuration logicielle requise.
@@ -24,7 +24,7 @@ Les serveurs qui exécutent Lync Server 2013, Enterprise Edition sont conçus p
 
 ## Installation du système d’exploitation
 
-> [!important]  
+> [!IMPORTANT]  
 > Lync Server 2013 est uniquement disponible en édition 64 bits, ce qui nécessite du matériel 64 bits et une édition 64 bits du système d’exploitation Windows Server. Il n’est pas possible d’utiliser une édition 32 bits de Lync Server 2013 avec cette version.
 
 Les serveurs Standard Edition et Enterprise Edition peuvent utiliser n’importe lequel des systèmes d’exploitation suivants :
@@ -37,7 +37,7 @@ Les serveurs Standard Edition et Enterprise Edition peuvent utiliser n’importe
 
 Installez le logiciel du système d’exploitation sur le serveur Standard Edition ou le serveur frontal Enterprise Edition. Appliquez toutes les dernières mises à jour pour que le système d’exploitation respecte les normes de votre organisation en matière de mise à jour. Pour plus d’informations sur les systèmes d’exploitation requis, reportez-vous à [Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation de prise en charge.
 
-> [!note]  
+> [!NOTE]  
 > Pour que Lync Server 2013 fonctionne sur Windows Server 2012 R2, vous devrez peut-être modifier la valeur d’une clé du registre Windows Server. Cette modification est parfois nécessaire pour garantir le bon fonctionnement des certificats et pour que les clients s’enregistrent auprès de serveurs Survivable Branch Appliance. Pour plus d’informations, reportez-vous à la rubrique <a href="http://support.microsoft.com/kb/2901554" class="uri">http://support.microsoft.com/kb/2901554</a>.
 
 ## Logiciels supplémentaires pour Lync Server 2013
@@ -54,7 +54,7 @@ En outre, interface de ligne de commande Windows PowerShell 3.0 et Microsoft .N
 
 Lync Server 2013 requiert que vous installiez Windows PowerShell 3.0 sur chaque ordinateur faisant partie de votre topologie Lync Server. Pour plus d’informations sur l’installation de Windows PowerShell 3.0, reportez-vous à [Installation de Windows PowerShell 3.0 pour Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-> [!note]  
+> [!NOTE]  
 > Sur Windows Server 2008 R2 avec SP1, il n’est pas possible d’installer interface de ligne de commande Windows PowerShell 3.0 avant d’installer Microsoft .NET Framework 4.5.
 
 ## Microsoft .NET Framework 4.5

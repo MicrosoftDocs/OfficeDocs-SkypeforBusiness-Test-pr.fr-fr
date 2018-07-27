@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Si vous ne voulez pas utiliser les paramètres de parcage d’appel par défaut, vous pouvez les personnaliser. Quand vous installez l’application de parcage d’appel, les paramètres globaux sont configurés par défaut. Vous pouvez modifier les paramètres globaux et définir également des paramètres spécifiques à un site. L’applet de commande **New-CsCpsConfiguration** permet de créer des paramètres spécifiques à un site. L’applet de commande **Set-CsCpsConfiguration** permet de modifier les paramètres existants.
 
-> [!note]  
+> [!NOTE]  
 > Nous vous recommandons de configurer au moins l’option <strong>OnTimeoutURI</strong> pour la destination de remplacement à utiliser lorsqu’un appel parqué échoue.
 
 Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration** permettent de configurer les paramètres suivants :

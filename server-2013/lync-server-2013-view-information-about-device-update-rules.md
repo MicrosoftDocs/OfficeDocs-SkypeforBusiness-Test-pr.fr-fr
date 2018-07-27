@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Vous pouvez afficher des détails sur les règles de mise à jour des périphériques qui ont été importées, notamment le type, le modèle et la marque des périphériques auxquels s’applique la mise à jour, la version et le type de mise à jour, ainsi que les paramètres régionaux et le pool de mise à jour. Ces informations sont disponibles pour toutes les règles de mise à jour des périphériques importées : celles qui sont en attente d’approbation, déployées (approuvées), rappelées (restaurées) et celles que vous avez décidé de ne pas utiliser (réinitialisées). Vous pouvez accéder à ces informations à partir du Panneau de configuration Lync Server ou du Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur la façon d’importer, approuver, réinitialiser, restaurer et supprimer des règles, voir les rubriques mentionnées dans l’article <a href="lync-server-2013-device-update-rules.md">Règles de mise à jour des périphériques dans Lync Server 2013</a>.
 
 ## Pour afficher les règles de mise à jour des périphériques à l’aide du Panneau de configuration Lync Server
@@ -32,7 +32,7 @@ Vous pouvez afficher des détails sur les règles de mise à jour des périphér
 
 Vous pouvez également afficher des informations détaillées sur toutes vos règles de mise à jour des périphériques à l’aide de Windows PowerShell et de l’applet de commande **Get-CsDeviceUpdateRule**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 ## Pour afficher toutes vos règles de mise à jour des périphériques

@@ -27,7 +27,7 @@ Pour afficher les informations d’un plan de numérotation existant, effectuez 
 
 4.  Dans la page **Plan de numérotation**, double-cliquez sur le nom du plan de numérotation.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous ne pouvez afficher les informations que d’un seul plan de numération à la fois.
 
 ## Affichage de plans de numérotation à l’aide des applets de commande Windows PowerShell

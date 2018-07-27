@@ -27,7 +27,7 @@ Chaque région au sein d’une configuration de contrôle d’admission des appe
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région à supprimer.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez supprimer plusieurs itinéraires de région à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs itinéraires de région. Ou, pour sélectionner tous les itinéraires de région, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.

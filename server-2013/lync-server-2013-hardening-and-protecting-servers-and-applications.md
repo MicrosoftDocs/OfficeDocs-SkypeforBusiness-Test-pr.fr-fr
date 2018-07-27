@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Vous devez renforcer et protéger votre système d’exploitation et vos applications en respectant les meilleures pratiques pour le composant en question. Cette section décrit comment renforcer les serveurs d’applications et utiliser une stratégie de groupe pour mettre en œuvre des verrous de sécurité.
 
-> [!note]  
+> [!NOTE]  
 > Vous pouvez également renforcer et protéger les bases de données utilisées pour votre déploiement Microsoft Lync Server 2013. Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-hardening-and-protecting-databases.md">Renforcement et protection des bases de données de Lync Server 2013</a>.
 
 ## Sécurisation des serveurs d’applications

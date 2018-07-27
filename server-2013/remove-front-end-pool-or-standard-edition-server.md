@@ -37,7 +37,7 @@ Cette rubrique vous guide tout au long du processus de suppression d’un pool d
 
 4.  Développez **Magasins SQL** , cliquez avec le bouton droit sur la base de données SQL Server associée au serveur frontal Standard Edition, puis cliquez sur **Supprimer** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Vous devez supprimer la définition des bases de données SQL Server colocalisées du serveur frontal Standard Edition.
 
 5.  Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server si besoin.

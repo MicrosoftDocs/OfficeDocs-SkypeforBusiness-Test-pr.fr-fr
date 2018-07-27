@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2012-09-12_
 
-> [!note]  
+> [!NOTE]  
 > Dans cette rubrique, nous partons du principe que vous avez déjà configuré les paramètres globaux de contournement de média, mais aussi la région et les sites de réseau pour le contournement de média.
 
 Chaque sous-réseau de votre réseau doit être associé à un site réseau spécifique. Ceci est dû au fait que les informations de sous-réseau permettent de déterminer le site réseau sur lequel se trouve un système d’extrémité. Lorsque les emplacements des deux parties sont connus dans une session, le contournement de média peut déterminer où le média doit être envoyé pour traitement.

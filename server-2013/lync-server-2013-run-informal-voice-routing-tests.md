@@ -57,7 +57,7 @@ Vous pouvez utiliser la boîte de dialogue **Créer des informations de cas de t
     
     2.  Notez que les champs restants de la boîte de dialogue **Enregistrer les informations de cas de test de routage des communications vocales** sont en lecture seule et préremplis à partir de la configuration *et* des résultats du test informel. Vérifiez qu’il s’agit effectivement de la configuration à enregistrer pour le cas de test.
         
-        > [!note]  
+        > [!NOTE]  
 		>  Les valeurs des résultats du test servent à préremplir les champs de la boîte de dialogue <strong>Enregistrer les informations de cas de test de routage des communications vocales</strong> de la façon suivante :
         > <ul>
         > <li><p>Le champ <strong>Traduction attendue</strong> est prérempli avec la valeur du champ <strong>Numéro normalisé</strong>.</p></li>
@@ -69,7 +69,7 @@ Vous pouvez utiliser la boîte de dialogue **Créer des informations de cas de t
 
 11. Cliquez sur **Valider**, puis sur **Valider tout**.
     
-    > [!note]  
+    > [!NOTE]  
     > À chaque fois que vous créez un cas de test de routage des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier le cas de test. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> (contenu éventuellement en anglais) dans la documentation relative aux opérations.
 
 ## Voir aussi

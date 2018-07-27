@@ -21,7 +21,7 @@ Des modifications importantes ont été apportées à l’infrastructure de surv
 
   - réduire la complexité de la configuration et de l’administration de Lync Server. En colocalisant automatiquement les services de surveillance sur chaque serveur frontal, vous n’avez plus besoin d’installer, de configurer ni de gérer le rôle Serveur de surveillance.
 
-> [!note]  
+> [!NOTE]  
 > Le rôle Serveur d’archivage a également été supprimé de Lync Server 2013. Tout comme les services de surveillance, les services d’archivage de Lync Server 2013 sont maintenant colocalisés sur chaque serveur frontal. Il est important de le noter, car la surveillance et l’archivage partagent souvent la même instance de base de données SQL Server.
 
 Comme vous pouvez vous y attendre, ces modifications ont un impact majeur sur la façon dont les services de surveillance sont installés et gérés. Par exemple, comme le rôle Serveur de surveillance n’existe plus, le nœud Serveur de surveillance a été supprimé du Générateur de topologie de Lync Server. Cela signifie que vous ne faites plus appel à l’Assistant Nouveau serveur de surveillance du Générateur de topologie pour ajouter un nouveau serveur de surveillance à votre topologie. (Cet Assistant n’existe plus.) Vous implémentez en revanche les services de surveillance au sein de votre topologie en effectuant les deux étapes suivantes :
@@ -32,12 +32,12 @@ Comme vous pouvez vous y attendre, ces modifications ont un impact majeur sur la
 
 Bien qu’il soit souvent plus simple d’activer la surveillance en même temps que vous créez un nouveau pool, il est également possible de créer un nouveau pool en désactivant la surveillance. Dans ce cas, vous pouvez ultérieurement utiliser le Générateur de topologie pour activer le service : le Générateur de topologie permet d’activer ou de désactiver la surveillance pour un pool ou d’associer un pool à un magasin d’analyse différent. N’oubliez pas que même si le rôle Serveur de surveillance n’existe plus, vous devez toujours créer un ou plusieurs magasins d’analyse : des bases de données principales utilisées pour stocker les données collectées par le service de surveillance. Ces bases de données principales peuvent être créées avec Microsoft SQL Server 2008 R2 ou Microsoft SQL Server 2012.
 
-> [!note]  
+> [!NOTE]  
 > Si la surveillance a été activée pour un pool, vous pouvez désactiver le processus de collecte des données de surveillance sans avoir à changer votre topologie : Lync Server Management Shell vous permet de désactiver (puis de réactiver) la collecte des données de l’enregistrement des détails des appels ou de la qualité de l’expérience. Pour plus d’informations, voir la section Configuration de l’enregistrement des détails des appels et de la qualité de l’expérience de ce document.
 
 Autre amélioration importante apportée à la surveillance dans Lync Server 2013 : les rapports de surveillance de Lync Server prennent désormais en charge IPv6. Les rapports qui utilisent le champ Adresse IP afficheront des adresses IPv4 ou IPv6 selon : 1) la requête SQL utilisée ; et, 2) que l’adresse IPv6 est stockée ou non dans la base de données de surveillance.
 
-> [!note]  
+> [!NOTE]  
 > Assurez-vous que le type de démarrage du service d’agent SQL Server est Automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient les bases de données de surveillance, de sorte que les tâches de maintenance de surveillance par défaut de SQL Server peuvent s’exécuter selon leur planification sous le contrôle du service d’agent SQL Server.
 
 Cette documentation vous explique comment installer et configurer la surveillance et les rapports de surveillance pour Lync Server 2013. La documentation donne des instructions détaillées qui vous aideront à effectuer les opérations suivantes :

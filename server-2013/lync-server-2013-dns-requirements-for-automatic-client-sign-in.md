@@ -23,7 +23,7 @@ Pour prendre en charge la connexion automatique des clients, vous devez :
 
   - créer un enregistrement DNS SRV interne devant prendre en charge la connexion automatique des clients pour ce serveur ou ce pool.
     
-    > [!note]  
+    > [!NOTE]  
     > Dans les exigences d’enregistrement suivantes, le domaine SIP fait référence à la partie hôte des URI SIP attribuée aux utilisateurs. Par exemple, si les URL SIP possèdent le format *@contoso.com, le domaine SIP est contoso.com. Le domaine SIP est souvent différent du domaine Active Directory interne. Une organisation peut également prendre en charge plusieurs domaines SIP.
 
 Pour autoriser la configuration automatique des clients, vous devez créer un enregistrement SRV DNS interne associant l’un des enregistrements suivants au nom de domaine complet du pool frontal ou du serveur Standard Edition qui distribue les demandes de connexion émises à partir des clients Lync :
@@ -64,7 +64,7 @@ Le tableau suivant contient quelques exemples d’enregistrements requis pour la
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Par défaut, les requêtes portant sur des enregistrements DNS exigent une correspondance exacte entre le domaine indiqué dans le nom de l’utilisateur et l’enregistrement SRV. Si vous préférez que les requêtes DNS clientes utilisent la correspondance de suffixe, vous pouvez configurer la stratégie de groupe DisableStrictDNSNaming. Pour plus d’informations, voir <a href="lync-server-2013-planning-for-clients-and-devices.md">Planification des clients et périphériques dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Exemples de certificats et d’enregistrements DNS requis pour la connexion automatique des clients

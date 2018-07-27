@@ -31,7 +31,7 @@ Vous pouvez configurer des stratégies d’emplacement depuis le groupe **Config
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous ne pouvez afficher des informations que sur une seule stratégie d’emplacement à la fois.
 
 Une stratégie unique, appelée Globale, existe par défaut. Il n’est pas possible de supprimer ou de renommer cette stratégie. Vous pouvez cependant la modifier. Cette stratégie s’applique à tous les utilisateurs et contacts, sauf si vous créez des stratégies de site ou par utilisateur. Les stratégies par utilisateur doivent être appliquées à des utilisateurs spécifiques.

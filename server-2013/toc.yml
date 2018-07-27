@@ -4188,8 +4188,8 @@
         - name: Cmdlets Windows PowerShell pour la gestion de carnet d’adresses
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: new-csaddressbookconfiguration pour la gestion du carnet d’adresses
-            href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
+          - name: New-CsAddressBookConfiguration pour la gestion du carnet d’adresses
+            href: lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
           - name: Set-CsAddressBookConfiguration pour la gestion des carnets d’adresses
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
           - name: Get-CsAddressBookConfiguration pour la gestion des carnets d’adresses
@@ -4208,8 +4208,8 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: Get-CsService pour la gestion des carnets d’adresses
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: new-cswebserviceconfiguration pour la gestion du carnet d’adresses
-            href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
+          - name: New-CsWebServiceConfiguration pour la gestion du carnet d’adresses
+            href: lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
           - name: Get-CsWebServiceConfiguration pour la gestion des carnets d’adresses
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
           - name: Set-CsWebServiceConfiguration pour la gestion des carnets d’adresses

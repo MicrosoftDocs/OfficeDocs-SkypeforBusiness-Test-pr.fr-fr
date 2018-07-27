@@ -29,7 +29,7 @@ Lync Server 2013 prend en charge les versions suivantes :
 
 Vous ne pouvez pas colocaliser la messagerie unifiée Exchange avec Lync Server 2013 ou une base de données Lync Server 2013. Vous pouvez installer la messagerie unifiée Exchange et Lync Server 2013 dans des forêts distinctes.
 
-> [!note]  
+> [!NOTE]  
 > Il est possible que la messagerie unifiée Exchange ne soit pas indispensable pour les déploiements de Voix Entreprise intégrant un système PBX, car ce dernier peut continuer à fournir à tous les utilisateurs des services de messagerie vocale et d’autres services connexes. Si vous supprimez finalement le système PBX (par exemple, lors du déploiement de l’acheminement SIP pour une connectivité RTC (réseau téléphonique commuté), vous devez reconfigurer la messagerie unifiée Exchange afin qu’elle mette la messagerie vocale à la disposition des utilisateurs ayant auparavant utilisé le système de messagerie vocale PBX.
 
 ## Dans cette section

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-09-21_
 
 Exécutez cette procédure sur le site central, qui doit contenir au moins un pool de serveurs frontaux ou un serveur Standard Edition.
 
-> [!important]  
+> [!IMPORTANT]  
 > Avant d’effectuer la procédure, les conditions suivantes doivent être remplies :<ul>
 > <li><p>Les logiciels de communicationLync Server 2013 doivent être installés sur le site central.</p></li>
 > <li><p>Le serveur de médiation doit être déployé sur le site central.</p></li></ul>
@@ -37,7 +37,7 @@ Exécutez cette procédure sur le site central, qui doit contenir au moins un po
 
 6.  Dans la liste **Protocole de transport SIP** , cliquez sur le protocole de transport utilisé par la passerelle, puis cliquez sur **OK** .
     
-    > [!note]  
+    > [!NOTE]  
     > Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser une passerelle RTC qui prend en charge le protocole TLS (Transport Layer Security).
 
 > [!tip]  

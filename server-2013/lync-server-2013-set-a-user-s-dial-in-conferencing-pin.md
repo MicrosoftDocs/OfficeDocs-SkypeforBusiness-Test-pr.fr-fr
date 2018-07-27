@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2014-06-10_
 
 Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur Lync Server 2013 ayant des informations d’identification de services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Si un utilisateur a oublié le code confidentiel de la conférence rendez-vous ou qu’il ne l’a pas défini via Lync Server, vous pouvez définir celui-ci à partir du Panneau de configuration Lync Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
 
-> [!note]  
+> [!NOTE]  
 > Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies en tant que stratégie. En plus de la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur particulier. Pour plus d’informations sur la configuration d’une stratégie de code confidentiel, reportez-vous à <a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Configurer les règles de code confidentiel des conférences rendez-vous dans Lync Server 2013</a>.
 
 ## Pour définir le code confidentiel d’un utilisateur
@@ -48,7 +48,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
         > Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si le code confidentiel est verrouillé, vous devez le déverrouiller avant de pouvoir le définir. Pour déverrouiller le code confidentiel, cliquez sur l’utilisateur, sur <strong>Action</strong>, puis sur <strong>Déverrouiller le code confidentiel</strong>.
 
 6.  Cliquez sur un utilisateur dans les résultats de recherche, puis cliquez sur **Action** et sur **Définir le code confidentiel**.

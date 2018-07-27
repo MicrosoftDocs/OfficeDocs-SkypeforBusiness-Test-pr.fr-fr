@@ -19,7 +19,7 @@ Lorsque vous publiez votre topologie après avoir ajouté une fonctionnalité d�
 
 Pour plus d’informations sur les configurations d’archivage, notamment sur la hiérarchie des configurations de niveau global, site ou pool, voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou la documentation des opérations.
 
-> [!note]  
+> [!NOTE]  
 > Vous devez spécifier toutes les options appropriées pour les configurations d’archivage avant d’activer la fonctionnalité d’archivage.
 
 ## Pour configurer les options d’archivage au niveau global

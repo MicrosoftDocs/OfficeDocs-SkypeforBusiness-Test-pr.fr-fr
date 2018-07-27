@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-07-11_
 
 La section suivante décrit la configuration de Lync Server 2013 avec les mises à jour cumulatives de juillet 2013 pour la prise en charge de l’authentification passive. Les utilisateurs de Lync pour lesquels l’authentification à deux facteurs est activée doivent utiliser un lecteur de cartes à puce physiques ou virtuelles et un code confidentiel correct pour se connecter à l’aide du client Lync 2013 avec les mises à jour cumulatives de juillet 2013.
 
-> [!note]  
+> [!NOTE]  
 > Il est fortement recommandé que les clients activent l’authentification passive pour les services Serveur d’inscriptions et web au niveau du service. L’activation au niveau global risquerait en effet de provoquer des échecs d’authentification à l’échelle de l’organisation pour les utilisateurs qui ne se connectent pas avec le client de bureau Lync 2013 avec les mises à jour cumulatives de juillet 2013.
 
 ## Configuration de service web
@@ -32,9 +32,9 @@ Les étapes suivantes décrivent la création d’une configuration de service w
 
 3.  À partir de la ligne de commande Lync Server Management Shell, créez une configuration de service web pour chaque directeur, pool d’entreprise et serveur Standard Edition pour lequel l’authentification passive sera activée en exécutant la commande suivante :
     
-        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
-    > [!warning]  
+    > [!WARNING]  
     > La valeur du nom de domaine complet WsFedPassiveMetadataUri correspond au nom du service de fédération de votre serveur AD FS 2.0. Pour consulter la valeur Nom du service de fédération dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur <strong>Service</strong> dans le volet de navigation, puis sélectionnez <strong>Modifier les propriétés du service de fédération</strong>.
 
 4.  Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été correctement définies en exécutant la commande suivante :

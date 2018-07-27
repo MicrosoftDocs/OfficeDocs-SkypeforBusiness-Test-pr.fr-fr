@@ -19,7 +19,7 @@ Si vous voulez intégrer la messagerie unifiée Exchange à Lync Server 2013, v
 
 ## Processus d’intégration de la messagerie unifiée
 
-> [!important]  
+> [!IMPORTANT]  
 > Il est important que vous vous mettiez en relation avec les administrateurs Exchange de votre organisation pour valider les tâches que chacun de vous sera amené à effectuer afin que l’intégration se déroule le mieux possible.
 
 
@@ -119,12 +119,12 @@ Si vous voulez intégrer la messagerie unifiée Exchange à Lync Server 2013, v
 <td><p>Configurez les plans de numérotation Lync Server 2013.</p></td>
 <td><p>Dans le cas d’une intégration à Exchange 2007 SP1 ou Service Pack le plus récent, ou à Exchange 2010, créez un plan de numérotation Voix Entreprise dont le nom correspond au nom de domaine complet (FQDN) du plan de numérotation de la messagerie unifiée Exchange.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Cette opération devra être effectuée pour chaque plan de numérotation de la messagerie unifiée.
 </div>
 <p>Dans le cas d’une intégration à Exchange 2010 SP1, assurez-vous que des plans de numérotation Voix Entreprise adaptés ont été définis au niveau global/du site ou du pool.</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Dans le cas d’une intégration à Exchange 2010 SP1, le nom du plan de numérotation Lync Server et celui du plan de numérotation SIP de la messagerie unifiée Exchange ne doivent pas obligatoirement correspondre.
 </div></td>
 <td><p>RTCUniversalServerAdmins</p></td>
@@ -136,11 +136,11 @@ Si vous voulez intégrer la messagerie unifiée Exchange à Lync Server 2013, v
 <p>Cet outil analyse l’annuaire Active Directory et recherche les paramètres de messagerie unifiée Exchange. Il permet à l’administrateur Lync Server 2013 d’afficher, de créer et de modifier les objets Contact.</p></td>
 <td><p>RTCUniversalServerAdmins <em>et</em> RTCUniversalUserAdmins</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Pour qu’ocsumutil.exe s’exécute correctement, l’utilisateur doit être membre de ces deux groupes.
 </div>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Pour créer des objets Contact, l’utilisateur qui exécute ocsumutil.exe doit disposer des autorisations d’accès appropriées à l’unité organisationnelle Active Directory dans laquelle les nouveaux objets de contact sont stockés. Cette autorisation peut être accordée en exécutant l’applet de commande <strong>Grant-CsOUPermission</strong>. Pour plus d’informations, reportez-vous à la documentation relative à Lync Server Management Shell.
 </div></td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Configuration de Lync Server 2013 pour qu’il fonctionne avec la messagerie unifiée sur Microsoft Exchange Server</a></p></td>

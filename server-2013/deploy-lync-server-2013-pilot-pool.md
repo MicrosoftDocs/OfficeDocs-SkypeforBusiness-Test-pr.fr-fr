@@ -19,7 +19,7 @@ L’une des premières étapes requises pour la migration Lync Server 2013 cons
 
 Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un nouveau pool frontal. Vous devez déployer les mêmes fonctionnalités et charges de travail dans votre pool pilote Lync Server 2013 que dans votre pool Lync Server 2010. Si vous avez déployé un serveur d’archivage, un serveur de surveillance ou System Center Operations Manager pour l’archivage ou la surveillance de votre environnement Lync Server 2010 et que vous souhaitez continuer l’archivage ou la surveillance durant la migration, vous devez également déployer ces fonctionnalités dans votre environnement pilote. La version que vous avez déployée pour archiver et surveiller votre environnement Lync Server 2010 ne capture pas de données dans votre environnement Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > La procédure qui suit traite des fonctionnalités et paramètres à considérer dans le cadre du processus de déploiement général de votre pool pilote. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour en connaître les étapes précises, reportez-vous au guide de déploiement intitulé <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a>.
 
 **Pour déployer un pool pilote Lync Server 2013**
@@ -34,7 +34,7 @@ Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un n
 
 4.  Entrez le nom de domaine complet du pool. Lorsque vous définissez votre pool pilote, vous pouvez choisir de déployer un pool de serveurs frontaux Enterprise Edition ou un serveur Standard Edition. Lync Server 2013 n’exige pas que les fonctionnalités de votre pool pilote correspondent à celles déployées dans votre pool hérité.
     
-    > [!warning]  
+    > [!WARNING]  
     > Le nom de domaine complet du pool ou serveur que vous définissez pour le pool pilote doit être unique. Il ne peut pas correspondre au nom du pool Lync Server 2010 actuellement déployé ni à tout autre serveur actuellement déployé.    
     ![Page Définir le nom de domaine complet de l’Assistant du nouveau pool frontal](images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "Page Définir le nom de domaine complet de l’Assistant du nouveau pool frontal")
 

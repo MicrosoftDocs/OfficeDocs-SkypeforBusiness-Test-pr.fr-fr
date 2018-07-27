@@ -21,7 +21,7 @@ La préparation du domaine qui a lieu lorsque vous installez Lync Server n’ajo
 
 Souvenez-vous que cette applet de commande n’accorde des autorisations qu’au groupe RTCUniversalServerAdmins. Vous ne pouvez pas l’utiliser pour accorder des autorisations à d’autres groupes de sécurité ou à des utilisateurs individuels.
 
-> [!note]  
+> [!NOTE]  
 > <strong>Enable-CsTopology</strong> est l’applet de commande principale pour permettre aux membres du groupe RTCUniversalServerAdmins de configurer et de déployer Lync Server 2013.
 
 ## Pour ajouter la possibilité d’exécuter Enable-CsTopology au groupe RTCUniversalServerAdmins
@@ -34,7 +34,7 @@ Souvenez-vous que cette applet de commande n’accorde des autorisations qu’au
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
-    > [!note]  
+    > [!NOTE]  
     > S’il ne s’agit pas d’une unité d’organisation de niveau supérieur, vous devez fournir le nom de domaine complet.    
     Dans l’exemple suivant, l’unité d’organisation est « Lync Servers », située dans le domaine contoso.com.
     

@@ -29,13 +29,13 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une plage d�
     
       - Pour créer une plage d’orbites, cliquez sur **Nouveau**. Dans **Nom**, tapez un nom permettant d’identifier cette plage de numéros.
         
-        > [!note]  
+        > [!NOTE]  
         > Une fois que vous avez validé la plage d’orbites dans la base de données, vous ne pouvez plus modifier ce nom.    
       - Pour modifier une plage d’orbites existante, tapez une partie ou l’ensemble du nom de la plage d’orbites dans le champ de recherche. Dans la liste des orbites, cliquez sur l’orbite voulue, cliquez sur **Modifier**, puis sur **Afficher les détails**.
 
 5.  Dans le premier champ **Plage de numéros**, tapez le premier numéro de la plage de postes pour cette orbite de parcage d’appel et, dans le deuxième champ **Plage de numéros**, tapez le dernier numéro de la plage.
     
-    > [!note]  
+    > [!NOTE]  
     > <ul>
 	> <li><p>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de celle-ci.</p></li>
 	> <li><p>La valeur du numéro de début de la plage doit avoir la même longueur que celle du numéro de fin.</p></li>    

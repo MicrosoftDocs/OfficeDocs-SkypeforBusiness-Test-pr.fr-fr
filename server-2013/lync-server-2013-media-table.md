@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Chaque enregistrement représente un type de média utilisé au cours d’une session P2P. Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés.
 
-> [!note]  
+> [!NOTE]  
 > La table Media ne doit pas être utilisée pour calculer la durée du média lors d’une session. Cette table contient les détails de signalisation de l’échange multimédia lors d’une session. L’échange multimédia est effectué par la requête INVITE et StartTime indique l’heure à laquelle la requête INVITE a été envoyée. L’heure d’invitation ne signifie pas nécessairement l’heure de début du média, car le média démarre seulement lorsque le destinataire de la session accepte la session. EndTime signifie généralement l’heure de fin de cette session.
 
 

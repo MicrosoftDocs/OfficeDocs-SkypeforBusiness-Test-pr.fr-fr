@@ -49,7 +49,7 @@ Le tableau ci-dessous décrit les ports utilisés par la fonctionnalité de conf
 
 Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer**. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation de Lync Server Management Shell.
 
-> [!note]  
+> [!NOTE]  
 > Toutes les instances d’une même application présentes dans un pool utilisent le même port d’écoute SIP.
 
 ### Ports utilisés par la fonctionnalité de conférence rendez-vous
@@ -88,7 +88,7 @@ Vous pouvez utiliser le client suivant pour planifier des conférences locales p
 
 L’page Paramètres de conférence rendez-vous prend en charge les combinaisons de systèmes d’exploitation et de navigateurs indiquées dans le tableau suivant.
 
-> [!note]  
+> [!NOTE]  
 > Les versions 32 bits et 64 bits des systèmes d’exploitation sont prises en charge.
 
 ### Systèmes d’exploitation et navigateurs web pris en charge

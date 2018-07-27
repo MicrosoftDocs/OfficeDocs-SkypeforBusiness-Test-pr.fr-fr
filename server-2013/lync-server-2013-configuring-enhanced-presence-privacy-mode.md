@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Grâce au mode de confidentialité améliorée de la présence, les utilisateurs peuvent limiter leurs informations de présence afin que seules les personnes figurant dans leur liste de contacts Lync 2013 puissent les consulter. Le paramètre EnablePrivacyMode des cmdlets **New-CsPrivacyConfiguration** et **Set-CsPrivacyConfiguration** contrôle cette option. Lorsque le paramètre EnablePrivacyMode est défini sur True, l’option permettant de limiter les informations de présence aux contacts apparaît dans les options de statut de Lync 2013. Lorsque l’option EnablePrivacyMode est définie sur False, les utilisateurs peuvent choisir de toujours autoriser les utilisateurs à consulter leurs informations de présence ou d’accepter toutes les futures modifications que l’administrateur apporte au mode de confidentialité.
 
-> [!important]  
+> [!IMPORTANT]  
 > Les paramètres de confidentialité Lync 2013 et Lync 2010 ne sont pas validés par les versions précédentes (Microsoft Office Communicator 2007 R2 ou Microsoft Office Communicator 2007). Si les versions précédentes d’Office Communicator sont autorisées à se connecter, le statut, les coordonnées ou l’image d’un utilisateur Lync 2013 peuvent être consultés par toute personne non autorisée. Par ailleurs, les paramètres de confidentialité d’un utilisateur Lync 2013 sont réinitialisés si cet utilisateur se connecte avec des versions précédentes de Communicator.<br />
 Pour ces raisons, dans un scénario de migration, avant de pouvoir activer le mode de confidentialité améliorée de la présence :<ul>
 > <li><p>Vérifiez que chaque utilisateur a installé Lync 2013.</p></li>

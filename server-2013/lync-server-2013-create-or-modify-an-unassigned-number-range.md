@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Appliquez l’une des procédures suivantes pour configurer des plages de numéros non attribués pour l’application d’annonce.
 
-> [!important]  
+> [!IMPORTANT]  
 > Avant de configurer la table des numéros non attribués, vous devez avoir défini une ou plusieurs annonces ou configuré un standard automatique de la messagerie unifiée Exchange.
 
 ## Pour configurer des numéros de téléphone non attribués à l’aide du Panneau de configuration Lync Server
@@ -32,13 +32,13 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
     
       - Pour créer une nouvelle plage de numéros, cliquez sur **Nouveau**. Dans **Nom**, tapez le nom de cette plage de numéros.
         
-        > [!note]  
+        > [!NOTE]  
         > Une fois que vous avez validé la nouvelle plage de numéros non attribués dans la base de données, vous ne pouvez plus modifier ce nom.    
       - Pour modifier une plage de numéros existante, tapez tout ou une partie du nom de la plage de numéros dans le champ de recherche. Dans la liste des plages de numéros résultante, cliquez sur celle voulue, cliquez sur **Modifier**, puis sur **Afficher les détails**.
 
 5.  Dans le premier champ **Plage de numéros**, tapez le numéro de début de plage, puis dans le second champ **Plage de numéros**, tapez le numéro de fin de la plage.
     
-    > [!note]  
+    > [!NOTE]  
     > <ul>    
 > <li><p>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de celle-ci.</p></li>    
 > <li><p>Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.</p></li>    

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-11-07_
 
 Avant de commencer à concevoir et à planifier votre infrastructure Lync Server 2013 à l’aide de l’outil de planification Microsoft Lync Server 2013, vous devez d’abord installer l’outil de planification. L’outil de planification n’a pas besoin d’être déployé sur un poste de travail ou un serveur appartenant au domaine ou à l’infrastructure où vous envisagez d’installer Lync Server 2013. Le fichier Lisez-moi qui accompagne l’outil de planification contient des informations importantes sur l’installation et l’utilisation de l’outil. Certaines des informations contenues dans le fichier Lisez-moi sont expliquées ici par souci de clarté.
 
-> [!important]  
+> [!IMPORTANT]  
 > L’outil de planification doit être installé par un utilisateur disposant de droits et d’autorisations d’administration sur l’ordinateur sur lequel l’outil doit être installé.
 
 Les systèmes d’exploitation pris en charge pour l’installation et l’utilisation de l’outil de planification sont les suivants :

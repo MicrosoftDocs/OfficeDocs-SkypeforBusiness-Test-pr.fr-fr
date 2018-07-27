@@ -27,7 +27,7 @@ Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spéc
 
 4.  Dans la page **Utilisation RTC**, sélectionnez l’enregistrement d’utilisation RTC que vous souhaitez afficher, cliquez sur **Modifier**, puis cliquez sur **Afficher les détails**.
     
-    > [!note]  
+    > [!NOTE]  
     > Une page en lecture seule de l’enregistrement d’utilisation RTC sélectionné affiche les itinéraires associés et les stratégies de voix associées.
 
 ## Affichage des informations d’utilisation RTC via les applets de commande Windows PowerShell

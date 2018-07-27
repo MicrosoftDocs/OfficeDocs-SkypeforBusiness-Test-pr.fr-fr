@@ -45,7 +45,7 @@ La jonction SIP distribuée n’est requise que dans les cas suivants :
 
 La décision d’opter pour une jonction SIP centralisée ou distribuée doit être basée sur une analyse des coûts-avantages. Dans certains cas, il peut être plus avantageux d’opter pour un mode de déploiement distribué, même s’il n’est pas nécessaire. Dans un déploiement complètement centralisé, tout le trafic du site de succursale est acheminé via des liaisons de réseau étendu. Au lieu de payer pour la bande passante requise pour la liaison de réseau étendu, il est peut-être préférable d’utiliser une jonction SIP distribuée.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur l’utilisation d’un acheminement SIP distribué, reportez-vous à <a href="lync-server-2013-branch-site-sip-trunking.md">Jonction SIP de site de succursale dans Lync Server 2013</a> (contenu éventuellement en anglais) dans la documentation relative à la planification.
 
 ## Types de connexion de jonction SIP pris en charge

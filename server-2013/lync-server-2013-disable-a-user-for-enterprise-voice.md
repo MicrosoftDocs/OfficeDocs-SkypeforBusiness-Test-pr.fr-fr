@@ -33,7 +33,7 @@ Procédez comme suit pour désactiver la fonctionnalité Voix Entreprise pour un
 
 7.  Dans la page **Modifier l’utilisateur Lync Server**, sous **Téléphonie**, cliquez sur l’option de votre choix à l’exception de **Voix Entreprise**.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour empêcher un utilisateur d’effectuer des appels audio ou vidéo à l’aide de Lync, sous <strong>Téléphonie</strong>, cliquez sur <strong>Audio/vidéo désactivé</strong>.
 
 8.  Cliquez sur **Valider**.

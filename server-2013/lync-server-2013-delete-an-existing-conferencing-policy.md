@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Suivez cette procédure pour supprimer une stratégie de conférence au niveau de l’utilisateur ou du site.
 
-> [!note]  
+> [!NOTE]  
 > Vous ne pouvez pas supprimer la stratégie de conférence globale.
 
 ## Pour supprimer une stratégie de conférence au niveau de l’utilisateur ou du site

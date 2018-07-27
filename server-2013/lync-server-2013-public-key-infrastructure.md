@@ -23,7 +23,7 @@ Même si les informations du certificat sont valides, il doit exister un moyen d
 
 Chaque certificat est lié à une clé publique. Le serveur nommé sur le certificat contient une clé privée correspondante que lui seul connaît. Un client ou serveur se connectant utilise la clé publique pour chiffrer une information aléatoire et l’envoie au serveur. Si le serveur déchiffre l’information et la retourne sous forme de texte simple, l’entité se connectant peut ainsi être sûre que le serveur contient la clé privée du certificat et qu’il s’agit donc du serveur nommé sur le certificat.
 
-> [!note]  
+> [!NOTE]  
 > Toutes les CA publiques ne respectent pas les exigences des certificats Lync Server 2013. Nous vous conseillons de vous reporter à la liste des CA publiques approuvées pour vos besoins de certificats publics. Pour plus d’informations, voir Partenaires de certificat de communications unifiées à l’adresse : <a href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</a>.
 
 ## Points de distribution de liste de révocation de certificats
@@ -34,5 +34,5 @@ Lync Server 2013 exige que tous les certificats de serveur contiennent un ou pl
 
 Lync Server 2013 exige que tous les certificats de serveur prennent en charge l’utilisation améliorée de la clé (EKU) pour l’authentification du serveur. La configuration du champ EKU pour l’authentification du serveur signifie que le certificat est valide pour l’authentification des serveurs. Cette EKU est essentielle pour MTLS. Il est possible d’avoir plusieurs entrées dans l’EKU, ce qui permet au certificat d’avoir plusieurs rôles.
 
-> [!note]  
+> [!NOTE]  
 > L’EKU d’authentification client est requise pour les connexions MTLS sortantes de Live Communications Server 2003 et Live Communications Server 2005, mais elle n’est plus requise. Toutefois, cette EKU doit être présente sur les serveurs Edge qui se connectent à AOL par le biais d’une solution PIC (Public IM Connectivity).

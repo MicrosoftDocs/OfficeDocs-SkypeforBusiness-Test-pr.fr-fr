@@ -19,10 +19,10 @@ La fédération est une relation d’approbation entre deux ou plusieurs domaine
 
 Utilisez les procédures suivantes pour effectuer la transition de l’itinéraire de fédération et de l’itinéraire de trafic multimédia de vos serveurs Edge et directeur Office Communications Server 2007 R2 vers votre serveur Edge Lync Server 2013, pour un déploiement de site unique.
 
-> [!important]  
+> [!IMPORTANT]  
 > La modification de l’itinéraire de fédération et de l’itinéraire de trafic multimédia nécessite que vous planifiiez une interruption de maintenance pour les serveurs Edge Lync Server 2013 et Office Communications Server 2007 R2. Ce processus de transition signifie également que l’accès fédéré sera indisponible pendant la durée de l’interruption. Vous devez donc planifier cette interruption à un moment où l’activité des utilisateurs sera minimale. Prévoyez aussi d’en informer les utilisateurs finaux suffisamment à l’avance. Anticipez cette interruption à tous les niveaux et informez-en votre entreprise afin qu’elle s’y prépare en conséquence.
 
-> [!important]  
+> [!IMPORTANT]  
 > Si votre serveur Edge Office Communications Server 2007 R2 hérité est configuré de manière à utiliser le même nom de domaine complet (FQDN) pour le service Edge d’accès, le service Edge de conférence web et le service Edge A/V, les procédures de transition, présentées dans cette section, d’un paramètre de fédération vers un serveur Edge Lync Server 2013 ne sont pas prises en charge. Si les services Edge hérités sont configurés pour utiliser le même FQDN, vous devez d’abord migrer tous vos utilisateurs entre Office Communications Server 2007 R2 et Lync Server 2013, puis désaffecter le serveur Edge Office Communications Server 2007 R2 avant d’activer la fédération sur le serveur Edge Lync Server 2013. Pour obtenir des détails, consultez les rubriques suivantes :
 > <ul>
 > <li><p><a href="move-remaining-users-to-lync-server-2013_1.md">Déplacement des autres utilisateurs vers Lync Server 2013</a></p></li>
@@ -30,7 +30,7 @@ Utilisez les procédures suivantes pour effectuer la transition de l’itinérai
 > </ul>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Si votre fédération XMPP est acheminée via un serveur Edge Lync Server 2013, les utilisateurs Office Communications Server 2007 R2 hérités ne peuvent pas communiquer avec le partenaire fédéré XMPP tant que tous les utilisateurs n’ont pas été déplacés vers Lync Server 2013, que les stratégies XMPP et les certificats n’ont pas été configurés, que le partenaire fédéré XMPP n’a pas été configuré sur Lync Server 2013, et enfin que les entrées DNS n’ont pas été mises à jour.
 
 Pour pouvoir publier, activer ou désactiver une topologie lorsque vous ajoutez ou supprimez un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les autorisations et les droits d’utilisateur voulus pour ajouter des rôles serveur. Pour plus d’informations, reportez-vous à [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) (contenu éventuellement en anglais) dans la documentation relative au déploiement des serveurs Standard Edition ou Enterprise Edition. Pour toutes les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.
@@ -71,7 +71,7 @@ Pour pouvoir publier, activer ou désactiver une topologie lorsque vous ajoutez 
 
 5.  Dans **Spécifier la configuration Edge externe**, désactivez la case à cocher **Ce pool de serveurs Edge est utilisé pour la fédération et la solution PIC (Public IM Connectivity)**. Cela supprimera l’association de fédération avec le BackCompatSite.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Cette étape est importante. Vous devez désactiver cette option pour supprimer l’association de fédération héritée.
 
 6.  Cliquez sur **Suivant** et acceptez les paramètres par défaut des pages restantes de l’Assistant.
@@ -118,7 +118,7 @@ Pour pouvoir publier, activer ou désactiver une topologie lorsque vous ajoutez 
 
 2.  Développez le nœud, cliquez avec le bouton droit sur le serveur Edge répertorié, puis cliquez sur **Modifier les propriétés**.
     
-    > [!note]  
+    > [!NOTE]  
     > La fédération ne peut être activée que pour un seul pool de serveurs Edge. Si vous avez plusieurs pools Edge, sélectionnez-en un à utiliser comme pool de serveurs Edge de fédération.
 
 3.  Dans la page **Général**, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**.
@@ -163,7 +163,7 @@ Pour pouvoir publier, activer ou désactiver une topologie lorsque vous ajoutez 
 
 3.  Attendez que la réplication Active Directory se produise sur tous les pools de serveurs impliqués dans le déploiement.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez voir le message suivant :<br />
     <strong>Attention : La topologie contient plusieurs serveurs Edge fédérés. Cela peut se produire au cours d’une migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait utilisé activement pour la fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge voulu. Si vous voulez déployer plusieurs serveurs Edge de fédération de sorte qu’ils soient actifs simultanément (pas un scénario de migration, donc), vérifiez que tous les partenaires fédérés utilisent Office Communications Server 2007 R2 ou Lync Server. Vérifiez que l’enregistrement SRV DNS externe liste tous les serveurs Edge activés pour la fédération.</strong><br />
     Cet avertissement est attendu et peut être ignoré en toute sécurité.
@@ -190,7 +190,7 @@ Pour pouvoir publier, activer ou désactiver une topologie lorsque vous ajoutez 
 
 2.  Mettez à jour les règles de routage du pare-feu externe ou les paramètres du programme d’équilibrage de la charge matérielle pour envoyer le trafic SIP pour l’accès externe (port 443, en général) et la fédération (port 5061, en général) au serveur Edge  Lync Server 2013, au lieu du serveur serveur Edge hérité.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous n’avez pas de programme d’équilibrage de la charge matérielle, vous devez mettre à jour l’enregistrement DNS A pour que la fédération résolve le nouveau serveur Edge d’accès Lync Server. Pour effectuer cette action avec un minimum de perturbations, diminuez la valeur TTL pour le nom de domaine (FQDN) Edge d’accès Lync Server externe, de sorte que lors de la mise à jour de DNS pour pointer vers le nouveau serveur Edge d’accès Lync Server, la fédération et l’accès à distance soient rapidement mis à jour.
 
 3.  Arrêtez ensuite le **serveur Edge d’accès Lync Server** sur chaque ordinateur serveur Edge.

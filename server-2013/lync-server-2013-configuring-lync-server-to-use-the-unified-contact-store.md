@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2014-02-07_
 
 Le magasin de contacts unifié permet aux utilisateurs de gérer une seule liste de contacts et de rendre ces contacts accessibles dans plusieurs applications, y compris Microsoft Lync 2013, Microsoft Outlook 2013 et Microsoft Outlook Web App 2013. Lorsque vous activez le magasin de contacts unifié pour un utilisateur, les contacts de ce dernier ne sont pas stockés dans Microsoft Lync Server 2013 ni récupérés ensuite à l’aide du protocole SIP. Au lieu de cela, les contacts de l’utilisateur sont stockés dans Microsoft Exchange Server 2013 et récupérés à l’aide des services web Exchange.
 
-> [!note]  
+> [!NOTE]  
 > Techniquement, les informations de contact sont stockées dans deux dossiers figurant dans la boîte aux lettres Exchange 2013 de l’utilisateur. Les contacts eux-mêmes sont stockés dans un dossier nommé « Contacts Lync » visible par les utilisateurs finaux. Les métadonnées sur les contacts sont quant à elles stockées dans un sous-dossier qui n’est pas visible par les utilisateurs finaux.
 
 ## Activation du magasin de contacts unifié pour un utilisateur
@@ -60,7 +60,7 @@ Vous pouvez ensuite affecter cette nouvelle stratégie par utilisateur (NoUnifie
 
 La commande précédente affecte la nouvelle stratégie à l’utilisateur Ken Myer et empêche la migration des contacts de Ken vers le magasin de contacts unifié.
 
-> [!note]  
+> [!NOTE]  
 > Dans certains cas, vous pouvez obtenir le même résultat en annulant simplement l’affectation de la stratégie de services d’utilisateurs actuelle de l’utilisateur. Par exemple, supposons que Ken Myer possède une stratégie de services d’utilisateurs par utilisateur qui active le magasin de contacts unifié, alors que votre stratégie globale interdit l’utilisation du magasin de contacts unifié. Dans ce cas, vous pouvez annuler l’affectation de la stratégie de services par utilisateur à Ken. Il est alors automatiquement géré par la stratégie globale et n’a donc plus accès au magasin de contacts unifié.<br />
 Pour annuler l’affectation d’une stratégie par utilisateur précédemment affectée, utilisez la même commande que celle indiquée précédemment, mais cette fois en affectant au paramètre PolicyName la valeur Null :<br />
 Grant-CsUserServicesPolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null

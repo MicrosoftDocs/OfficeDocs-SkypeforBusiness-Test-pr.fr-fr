@@ -19,7 +19,7 @@ La préparation d’une forêt consiste à créer les paramètres et objets glob
 
 Cette étape crée également des objets contenant des jeux de propriétés et des spécificateurs d’affichage utilisés par Lync Server 2013 et les stocke dans le conteneur de configuration.
 
-> [!important]  
+> [!IMPORTANT]  
 > Vérifiez que les modifications de schéma ont été répliquées sur tous les autres contrôleurs de domaine avant d’effectuer la procédure de préparation de forêt. Une erreur se produit si la réplication n’est pas terminée.
 
 Si vous procédez à un nouveau déploiement de Lync Server, vous devez stocker les paramètres globaux dans le conteneur de configuration. Si vous procédez à une mise à niveau à partir d’une version antérieure et que vous continuez de stocker les paramètres globaux dans le conteneur système, vous pouvez continuer d’utiliser ce dernier.

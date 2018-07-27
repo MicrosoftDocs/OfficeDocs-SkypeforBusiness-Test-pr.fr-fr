@@ -138,12 +138,12 @@ Parmi les transactions synthétiques accessibles aux nœuds observateur, citons 
 
 Il est inutile d’installer des nœuds observateur afin d’utiliser System Center Operations Manager. Si vous n’installez pas ces nœuds, vous pouvez toujours obtenir des alertes en temps réel des composants Lync Server 2013 lorsqu’un problème se produit. (Le pack Component and User Management n’utilise pas de nœuds observateur.) Toutefois, des nœuds observateur sont requis si vous souhaitez surveiller des scénarios de bout en bout à l’aide du pack Active Monitoring Management.
 
-> [!note]  
+> [!NOTE]  
 > Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, et ce sans avoir besoin d’utiliser ou d’installer Operations Manager. Pour plus d’informations sur les applets de commande Test-Cs, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Index des applets de commande Lync Server 2013</a>.
 
 En fonction de la taille de votre déploiement, les transactions synthétiques peuvent utiliser une grande quantité de mémoire d’ordinateur et de temps processeur. Pour cette raison, nous vous recommandons d’utiliser un ordinateur dédié comme nœud observateur. Par exemple, il est déconseillé de configurer un serveur frontal comme nœud observateur. Les nœuds observateurs doivent répondre aux spécifications matérielles suivantes :
 
-> [!note]  
+> [!NOTE]  
 > Un nœud observateur Microsoft Lync Server 2010 hérité ne peut être colocalisé sur le même ordinateur avec un nœud observateur Lync Server 2013. Cela est dû au fait que les fichiers système principaux pour Lync Server 2010 et Lync Server 2013 ne peuvent pas se trouver sur le même ordinateur.<br />
 Toutefois, les nœuds observateur Lync Server 2013 peuvent simultanément surveiller Lync Server 2013 et Lync Server 2010. Les transactions synthétiques par défaut sont prises en charge sur les deux versions du produit.
 

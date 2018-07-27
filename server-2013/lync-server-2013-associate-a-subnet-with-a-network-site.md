@@ -17,10 +17,10 @@ _**Dernière rubrique modifiée :** 2014-10-20_
 
 Chaque sous-réseau de votre réseau doit être associé à un site réseau spécifique, car les informations de sous-réseau servent à définir le site réseau sur lequel figure un point de terminaison lorsqu’une nouvelle session est initiée. Quand l’emplacement de chaque partie d’une session est déterminé, les fonctionnalités Voix Entreprise avancées peuvent appliquer ces informations pour définir la façon de gérer la configuration et le routage des appels.
 
-> [!important]  
+> [!IMPORTANT]  
 > Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de votre déploiement doivent être ajoutées à vos paramètres de configuration réseau. Ces adresses IP sont ajoutées sous forme de sous-réseaux avec un masque de 32. Le site réseau associé doit correspondre au site réseau configuré approprié. Par exemple, l’adresse IP publique correspondant au serveur Edge A/V du site central Chicago serait NetworkSiteID Chicago. Pour plus d’informations sur les adresses IP publiques, reportez-vous à <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013</a> dans la documentation de planification.
 
-> [!note]  
+> [!NOTE]  
 > Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de huit heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<br />
 <strong>Source</strong> : Service de stratégie de bande passante (principal) CS<br />
 <strong>Numéro d’événement</strong> : 36034<br />
@@ -98,7 +98,7 @@ Pour plus d’informations sur l’utilisation des sous-réseaux, reportez-vous 
 
 7.  Cliquez sur **ID de site réseau** , puis sélectionnez l’ID du site auquel vous ajoutez ce sous-réseau.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous n’avez pas encore créé de sites réseau, cette liste est vide. Pour plus d’informations sur la procédure, reportez-vous à <a href="lync-server-2013-create-or-modify-a-network-site.md">Création ou modification d’un site réseau dans Lync Server 2013</a>. Vous pouvez également récupérer des ID de site pour votre déploiement en exécutant l’applet de commande <strong>Get-CsNetworkSite</strong>. Pour plus d’informations, reportez-vous à la documentation relative à Lync Server Management Shell.
 
 8.  Éventuellement, cliquez sur **Description** , puis entrez des informations supplémentaires pour décrire ce sous-réseau.

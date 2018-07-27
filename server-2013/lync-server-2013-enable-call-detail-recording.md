@@ -19,7 +19,7 @@ La fonctionnalité d’enregistrement des détails des appels recense des inform
 
 Procédez comme suit pour activer l’enregistrement des détails des appels dans toute l’organisation ou dans chacun de ses sites.
 
-> [!note]  
+> [!NOTE]  
 > Pour activer l’enregistrement des détails des appels, vous devez configurer la surveillance et une base de données de surveillance. Pour plus d’informations, voir <a href="lync-server-2013-deploying-monitoring.md">Déploiement du serveur de surveillance dans Lync Server 2013</a>.
 
 ## Pour activer l’enregistrement des détails des appels à partir du Panneau de configuration Lync Server
@@ -32,7 +32,7 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 
 4.  Dans la page **Enregistrement des détails des appels**, cliquez sur le site approprié dans la table, sur **Action**, puis sur **Activer l’enregistrement des détails des appels**.
     
-    > [!note]  
+    > [!NOTE]  
     > Cette fonctionnalité est activée par défaut.
 
 ## Pour activer l’enregistrement des détails des appels à l’aide des applets de commande Lync Server Management Shell

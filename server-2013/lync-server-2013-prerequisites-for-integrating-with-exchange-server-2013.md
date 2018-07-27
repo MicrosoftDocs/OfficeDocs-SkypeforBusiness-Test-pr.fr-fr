@@ -57,7 +57,7 @@ Une fois le service de découverte automatique configuré, vous devez modifier l
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc
 
-> [!note]  
+> [!NOTE]  
 > La paramètre d’identité de la commande précédente est facultatif. En effet, Lync Server ne vous permet d’avoir qu’une seule collection globale de paramètres de configuration OAuth. Cela signifie, entre autres, que vous pouvez configurer l’URL de découverte automatique à l’aide d’une commande plus simple :<br />
 Set-CsOAuthConfiguration–ExchangeAutodiscoverUrl &quot;https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc&quot;<br />
 Si vous ne connaissez pas cette technologie, OAuth est un protocole d’autorisation standard utilisé par nombre des plus importants sites web. Grâce à OAuth, les informations d’identification et les mots de passe d’utilisateur ne sont pas transmis d’un ordinateur à un autre. L’authentification et l’autorisation sont basées sur l’échange de jetons de sécurité. Ces jetons octroient l’accès à un ensemble de ressources spécifique pour une durée spécifique.

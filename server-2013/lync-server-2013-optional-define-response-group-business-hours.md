@@ -22,10 +22,10 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 > [!tip]  
 > Lorsque vous créez ou modifiez un flux de travail, vous pouvez spécifier un planning personnalisé s’appliquant uniquement à ce flux de travail. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Création ou modification d’un flux de travail de groupe de recherche dans Lync Server 2013</a> ou <a href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Création ou modification d’un flux de travail interactif dans Lync Server 2013</a>.
 
-> [!note]  
+> [!NOTE]  
 > Si un flux de travail est défini en tant que flux de travail géré, alors tous les utilisateurs affectés au rôle CsResponseGroupManager peuvent définir et modifier les heures d’ouverture personnalisées des flux de travail qu’ils gèrent.
 
-> [!important]  
+> [!IMPORTANT]  
 > Utilisez un format 24 heures pour les paramètres des applets de commande suivantes (par exemple, 20:00 = 8:00 du soir).
 
 ## Pour créer une collection d’heures d’ouverture prédéfinie
@@ -36,7 +36,7 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 3.  Pour chaque plage horaire unique que vous souhaitez définir, exécutez :
     
-        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     Pour créer la collection d’heures d’ouverture qui utilise les plages que vous avez définies, exécutez :
     
@@ -58,6 +58,6 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 #### Autres ressources
 
-[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

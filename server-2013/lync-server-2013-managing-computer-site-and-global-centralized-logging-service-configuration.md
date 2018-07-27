@@ -25,7 +25,7 @@ Par exemple :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-> [!note]  
+> [!NOTE]  
 > Windows PowerShell fournit davantage d’options et d’options de configuration qui ne sont pas disponibles en utilisant CLSController.exe. CLSController offre une méthode rapide et concise pour exécuter des commandes, mais l’ensemble de commandes disponibles pour CLSController est limité. Windows PowerShell n’est pas limité aux commandes disponibles au processeur de commandes de CLSController, et fournit un large éventail de commandes et des options supplémentaires. Par exemple, CLSController.exe fournit des options d’étendue pour les ordinateurs et les pools. Avec Windows PowerShell, vous pouvez indiquer les ordinateurs et les pools dans la plupart des commandes, et quand vous définissez de nouveaux scénarios (CLSController dispose d’un nombre fini de scénarios qui ne sont pas modifiables par l’utilisateur) vous pouvez définir une étendue de site ou globale. Cette fonctionnalité puissante de Windows PowerShell vous permet de définir un scénario au niveau global ou du site, mais limite la journalisation réelle à un ordinateur ou un pool.<br />
 Il existe des différences fondamentales entre les commandes en ligne de commande que vous exécutez dans Windows PowerShell ou CLSController. Windows PowerShell permet de configurer et de définir des scénarios avec plus d’options, et de réutiliser ces scénarios pour le dépannage. CLSController fournit un moyen rapide et efficace d’émettre des commandes et d’obtenir des résultats, l’ensemble de commandes pour CLSController est limité à un nombre fini de commandes disponibles à partir de la ligne de commande. À la différence des applets de commande Windows PowerShell, CLSController ne peut pas définir de nouveaux scénarios ou gérer l’étendue au niveau global ou d’un site et son ensemble de commandes fini ne peut pas être configuré dynamiquement. Bien que CLSController permette une exécution rapide, Windows PowerShell permet d’étendre la fonctionnalité du service de journalisation centralisée bien au-delà de ce qu’il est possible de faire avec CLSController.
 
@@ -36,7 +36,7 @@ Une étendue d’ordinateur peut être définie lors de l’exécution d’une c
 
 Les étendues globale et de site sont définies dans les applets de commande **New-**, **Set-** et **Remove-**service de journalisation centralisée. Les exemples suivants montrent comment définir une étendue globale ou de site.
 
-> [!important]  
+> [!IMPORTANT]  
 > Les commandes indiquées peuvent contenir des paramètres et des concepts décrits dans d’autres sections. Les exemples de commandes sont conçus pour décrire l’utilisation du paramètre <strong>–Identity</strong> pour définir l’étendue, et les autres paramètres sont inclus pour être exhaustif et pour spécifier l’étendue. Pour plus d’informations sur les applets de commande <strong>Set-CsClsConfiguration</strong>, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</a> dans la documentation des opérations.
 
 ## Pour récupérer la configuration du service de journalisation centralisée actuelle
@@ -103,7 +103,7 @@ La commande indique au CLSAgent de chaque ordinateur et pool du déploiement de 
     
         Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40 -EtlFileFolder "C:\LogFiles\Tracing" 
     
-    > [!note]  
+    > [!NOTE]  
     > Comme indiqué dans l’exemple, l’emplacement par défaut des fichiers journaux est %TEMP%\Tracing. Cependant, dans la mesure où CLSAgent écrit dans le fichier et qu’il s’exécute en tant que service réseau, la variable %TEMP% devient %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
 
 Cette commande indique au CLSAgent de chaque ordinateur et pool du site Redmond de définir la taille de la valeur de substitution du fichier de suivi à 40 mégaoctets. Les ordinateurs et les pools des autres sites ne sont pas affectés par cette commande, et continueront d’utiliser la valeur de substitution du journal de suivi configurée actuellement et définie par défaut (20 mégaoctets) ou lors du démarrage de la session de journalisation.
@@ -116,7 +116,7 @@ Cette commande indique au CLSAgent de chaque ordinateur et pool du site Redmond 
     
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
-    > [!note]  
+    > [!NOTE]  
     > New-CsClsConfiguration fournit un accès à de nombreux paramètres de configuration supplémentaires. Pour plus d’informations sur les options de configuration, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a> et <a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Présentation des paramètres de configuration du service de journalisation centralisée</a>.    
     Par exemple, pour créer une configuration qui définit un dossier réseau pour les fichiers en cache, la période de substitution pour les fichiers journaux et la taille de la substitution pour les fichiers journaux, tapez :
     
@@ -136,7 +136,7 @@ Préparez soigneusement la création de configurations et la définition des nou
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
-    > [!note]  
+    > [!NOTE]  
     > Il s’agit de la nouvelle créée dans la procédure « Pour créer une nouvelle configuration du service de journalisation centralisée ».
 
 Si vous choisissez de supprimer une configuration au niveau du site, le site utilisera les paramètres globaux.

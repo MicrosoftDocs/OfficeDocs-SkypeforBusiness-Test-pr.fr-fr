@@ -63,7 +63,7 @@ En planifiant vos jonctions qui associent des paires passerelles:port à des pai
 
 Lync Server permet de manipuler l’ID de l’appelant pour les appels sortants. Par exemple, si une organisation souhaite masquer les numéros de poste direct des employés et les remplacer par le numéro de l’entreprise ou du service générique, un administrateur peut désormais utiliser le Panneau de configuration Lync Server pour supprimer l’ID de l’appelant et le remplacer par un autre ID d’appelant indiqué. Lors de la planification de votre logique de routage, déterminez les personnes, groupes ou sites pour lesquels vous souhaiterez activer cette option (vous pourriez même l’activer pour l’ensemble des employés).
 
-> [!note]  
+> [!NOTE]  
 > Pour les appels réacheminés sur le réseau téléphonique commuté, l’ID de l’appelant générique s’affiche à la place de l’ID initial. L’appel peut alors contourner les paramètres de confidentialité ou « Ne pas déranger » éventuellement configurés par l’appelé.
 
 ## Logique de routage supplémentaire

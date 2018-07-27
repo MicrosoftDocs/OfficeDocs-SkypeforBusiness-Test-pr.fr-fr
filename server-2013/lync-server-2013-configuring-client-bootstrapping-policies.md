@@ -156,7 +156,7 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
-    > [!note]  
+    > [!NOTE]  
     > Pour cette procédure, nous supposons que vous voulez gérer plusieurs ordinateurs de votre domaine. Dans ce cas, stockez les modèles dans un magasin central au sein du dossier Sysvol sur le contrôleur de domaine principal. Ceci fournit un emplacement de stockage central répliqué pour les modèles d’administration de domaine.
 
 2.  Créez un sous-dossier pour chaque langue à utiliser. Ces sous-dossiers contiennent les fichiers de ressources ADML spécifiques à une langue. Par exemple, créez un sous-dossier pour l’anglais américain (EN-US) à l’emplacement suivant :

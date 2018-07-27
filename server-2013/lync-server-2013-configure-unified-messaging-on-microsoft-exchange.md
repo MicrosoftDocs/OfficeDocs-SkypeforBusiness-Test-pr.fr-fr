@@ -17,14 +17,14 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un serveur Microsoft Exchange Server en vue de son utilisation avec Voix Entreprise.
 
-> [!note]  
+> [!NOTE]  
 > Les exemples d’applet de commande dans cette rubrique indiquent la syntaxe pour la version d’Exchange 2007 de l’environnement de ligne de commande Exchange Management Shell. Si vous exécutez Exchange 2010 ou Exchange 2013, reportez-vous à la documentation appropriée indiquée.
 
 ## Pour configurer un serveur exécutant la messagerie unifiée Exchange Server
 
 1.  Créez un plan de numérotation URI (Uniform Resource Identifier) SIP (Session Initiation Protocol) de messagerie unifiée pour chacun des profils d’emplacement Voix Entreprise. Si vous choisissez d’utiliser la console de gestion Exchange, créez un nouveau plan de numérotation avec le paramètre de sécurité **Secured (de préférence)**.
     
-    > [!warning]  
+    > [!WARNING]  
     > Si vous définissez la valeur du paramètre de sécurité sur <strong>SIP Secured</strong> pour exiger le chiffrement uniquement pour le trafic SIP, comme précédemment recommandé, notez que ce paramètre de sécurité sur un plan de numérotation est insuffisant si le pool frontal est configuré pour exiger le chiffrement, ce qui signifie que le pool exige le chiffrement pour le trafic SIP et RTP. Lorsque les paramètres de sécurité du pool et du plan de numérotation ne sont pas compatibles, tous les appels vers la messagerie unifiée Exchange depuis le pool frontal échoueront. Une erreur indiquant « Paramètre de sécurité incompatible » est alors générée.    
     Si vous utilisez l’environnement de ligne de commande Exchange Management Shell, tapez :
     
@@ -38,7 +38,7 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
       - Pour Exchange 2013, consultez « Messagerie unifiée » à l’adresse [http://go.microsoft.com/fwlink/?linkid=266579\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=266579%26clcid=0x40c).
     
-    > [!note]  
+    > [!NOTE]  
     > La sélection du niveau de sécurité <strong>SIPSecured</strong> ou <strong>Secured</strong> dépend de l’activation ou de la désactivation du protocole SRTP (Secure Real-time Transport Protocol) pour le chiffrement multimédia. Pour l’intégration de Lync Server 2010 à la messagerie unifiée Exchange, ce niveau de sécurité doit correspondre au niveau de chiffrement dans la configuration multimédia de Lync Server. Pour afficher la configuration multimédia de Lync Server, exécutez l’applet de commande <strong>Get-CsMediaConfiguration</strong>. Pour plus d’informations, consultez Get-CsMediaConfiguration dans la documentation de Lync Server Management Shell.<br />
     Pour plus d’informations sur la sélection du paramètre Sécurité VoIP approprié, consultez <a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server 2013</a>.
 
@@ -58,7 +58,7 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
 
 3.  Enregistrez le nom de chaque plan de numérotation de messagerie unifiée. En fonction de votre version d’Exchange Server, il se peut que vous deviez utiliser plus tard le nom de domaine complet de chaque plan de numérotation comme nom de plan de numérotation Lync Server correspondant de chaque plan de numérotation de messagerie unifiée pour que les noms de plan de numérotation correspondent.
     
-    > [!note]  
+    > [!NOTE]  
     > Les noms de plan de numérotation Lync Server doivent correspondre aux noms de plan de numérotation de messagerie unifiée uniquement si le plan de numérotation de messagerie unifiée fonctionne sur une version d’Exchange <em>antérieure</em> à Exchange 2010 SP1.
 
 4.  Ajoutez le plan de numérotation au serveur exécutant la messagerie unifiée Exchange comme suit :
@@ -78,7 +78,7 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
             $ums[0].DialPlans +=$dp.Identity; 
             set-umserver -instance $ums[0]
     
-    > [!note]  
+    > [!NOTE]  
     > Avant d’effectuer l’étape suivante, vérifiez que tous les utilisateurs de Voix Entreprise ont été configurés avec une boîte aux lettres Exchange Server.<br />
     Pour Exchange 2007, consultez la bibliothèque TechNet Exchange Server 2007 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=268685%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=268685&amp;clcid=0x40C</a>.<br />
     Pour Exchange 2010, consultez la bibliothèque TechNet Exchange Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=268686%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=268686&amp;clcid=0x40C</a>.<br />
@@ -96,14 +96,14 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     Si vous avez un ou plusieurs plans de numérotation de messagerie unifiée associés à plusieurs passerelles IP, passez à l’étape 6. Si chaque plan de numérotation est associé à une seule passerelle IP, ignorez l’étape 6.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Redémarrez le service <strong>Serveur principal Lync Server</strong> (rtcsrv.exe) <em>après</em> avoir exécuté exchucutil.ps1. Sinon, Lync Server ne détectera pas la messagerie unifiée dans la topologie.
 
 6.  À l’aide de l’environnement de ligne de commande Exchange Management Shell ou de la console de gestion Exchange, désactivez les appels sortants pour toutes les passerelles IP associées à chaque plan de numérotation, à l’exception d’une seule.
     
-    > [!note]  
+    > [!NOTE]  
     > Cette étape est nécessaire pour que les appels sortants, via le serveur exécutant la messagerie unifiée Exchange Server, vers des utilisateurs externes (comme c’est par exemple le cas pour les scénarios d’émission au téléphone), traversent de manière fiable le pare-feu de l’entreprise.    
-    > [!important]  
+    > [!IMPORTANT]  
     > Lors de la sélection de la passerelle IP de messagerie unifiée, qui permet d’autoriser les appels sortants, choisissez celle qui est capable de gérer le plus grand volume de trafic. Ne sélectionnez pas une passerelle IP qui se connecte à un pool directeur Lync Server. Évitez également les pools d’un autre site central ou site de succursale. Vous pouvez utiliser l’une des méthodes suivantes pour empêcher les appels sortants de transiter via une passerelle IP :    
       - Si vous utilisez l’environnement de ligne de commande Exchange Management Shell, désactivez chaque passerelle IP en exécutant la commande suivante :
         
@@ -115,12 +115,12 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
       - Si vous utilisez la console de gestion Exchange, désactivez la case à cocher **Autoriser les appels sortants via cette passerelle IP de messagerie unifiée**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Si votre plan de numérotation URI SIP de messagerie unifiée est associé à une seule passerelle IP, n’interdisez pas les appels sortants via cette passerelle.
 
 7.  Créez un standard automatique de messagerie unifiée pour chaque plan de numérotation Lync Server.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > N’incluez pas d’espaces dans le nom du standard automatique.    
         New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
     
@@ -134,7 +134,7 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
 
 8.  Associez les utilisateurs de la messagerie unifiée Exchange (chacun d’eux devant être configuré avec une boîte aux lettres Exchange) au plan de numérotation de messagerie unifiée et créez un URI SIP pour chaque utilisateur.
     
-    > [!note]  
+    > [!NOTE]  
     > Dans l’exemple suivant, <strong>SIPResourceIdentifier</strong> doit être l’adresse SIP de l’utilisateur Lync Server.    
         enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
     

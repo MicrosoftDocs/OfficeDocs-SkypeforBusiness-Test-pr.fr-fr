@@ -144,7 +144,7 @@ Les fonctionnalités d’égal-à-égal sont prises en charge pour les utilisate
 
 Le tableau suivant compare les fonctionnalités disponibles dans des sessions d’égal-à-égal dans lesquelles le client est connecté à Lync Server 2013 ou à Lync Server 2010.
 
-> [!note]  
+> [!NOTE]  
 > Lync Web App et Participant Lync 2010 sont des clients de réunion uniquement et ne sont pas inclus dans ce tableau.
 
 
@@ -255,7 +255,7 @@ Le tableau suivant compare les fonctionnalités disponibles dans des sessions d�
 </table>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut plus être achetée ni renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo!. Pour plus d’informations, voir <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
 > <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent ne sera pas renouvelé.</p></li>
@@ -386,7 +386,7 @@ La prise en charge par le serveur des différents compléments de planification 
 
   - Le **complément de conférence pour Office Communicator 2007 R2** permet la planification des conférences Office Live Meeting et des conférences Office Communicator 2007 R2.
 
-> [!note]  
+> [!NOTE]  
 > Les conférences Live Meeting ne peuvent pas être planifiées sur Lync Server 2013.
 
 

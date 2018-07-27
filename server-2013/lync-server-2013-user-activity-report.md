@@ -41,7 +41,7 @@ Le rapport d’activité de l’utilisateur est accessible via la page d’accue
 
 Même si le rapport d’activité de l’utilisateur contient des informations utiles, il peut parfois être difficile de les rechercher. Par exemple, toute l’activité qu’effectue l’utilisateur au sein de votre organisation au cours d’une période donnée est incluse dans le rapport d’activité de l’utilisateur ; autrement dit, quelque part dans le rapport se cachent des informations qui renseignent sur l’identité des utilisateurs qui ont utilisé Microsoft Lync Server 2013 d’une manière ou d’une autre.
 
-> [!warning]  
+> [!WARNING]  
 > Techniquement, il est possible que certains détails de l’activité de l’utilisateur ne soient pas enregistrés : même si Lync Server s’efforce de consigner les informations sur tous les appels téléphoniques, les informations sur un appel passé peuvent ne pas être écrites dans la base de données. Lync Server a été conçu pour donner un aperçu extrêmement précis mais pas nécessairement exhaustif de la façon dont Lync Server 2013 est utilisé. (L’enregistrement de tous les appels n’étant pas garanti, la fonctionnalité de surveillance de Lync Server ne doit pas être utilisée comme système de facturation.)<br />
 De plus, un rapport de surveillance ne peut afficher que 1 000 enregistrements, tout au plus. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données.
 

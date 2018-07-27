@@ -45,7 +45,7 @@ Les étapes suivantes décrivent le processus de découverte et d’inscription 
 
 1.  Un client découvre Lync Server via les enregistrements DNS SRV. Dans Lync Server 2013, les enregistrements DNS SRV peuvent être configurés pour renvoyer plusieurs noms de domaine complets à la requête DNS SRV. Par exemple, si l’entreprise Contoso possède trois sites centraux (Amérique du Nord, Europe et Asie-Pacifique) et un pool directeur sur chaque site central, les enregistrements DNS SRV peuvent pointer vers les noms de domaine complets du pool directeur sur chacun des trois sites. Tant que le pool directeur de l’un des sites est disponible, le client peut se connecter au premier tronçon Lync Server.
     
-    > [!note]  
+    > [!NOTE]  
     > L’utilisation d’un pool de directeurs est facultative. Il est possible d’utiliser un pool de serveurs frontaux à la place.
 
 2.  Le pool de directeurs informe le client Lync de la présence du pool de serveurs d’inscriptions principal de l’utilisateur et du pool de serveurs d’inscriptions de sauvegarde.

@@ -47,10 +47,10 @@ L’application Response Group utilise les ports suivants :
 
   - **Port 8404**   Utilisé pour les communications entre les serveurs
     
-    > [!note]  
+    > [!NOTE]  
     > Ce port est utilisé pour le service d’établissement des correspondances et est nécessaire quand l’application Response Group est déployée dans un pool qui comporte plusieurs serveur frontal.
 
-> [!note]  
+> [!NOTE]  
 > Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande <strong>Set-CsApplicationServer</strong>. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation de Lync Server Management Shell.
 
 ## Conditions requises pour les fichiers audio
@@ -83,7 +83,7 @@ Vous pouvez utiliser Microsoft Expression Encoder 4 pour convertir un fichier a
 
 L’outil de configuration Response Group prend en charge les combinaisons de systèmes d’exploitation et de navigateurs indiquées dans le tableau suivant.
 
-> [!note]  
+> [!NOTE]  
 > Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.
 
 ### Systèmes d’exploitation et navigateurs web pris en charge
@@ -135,7 +135,7 @@ L’outil de configuration Response Group prend en charge les combinaisons de s
 
 La console des agents prend en charge les combinaisons de systèmes d’exploitation et de navigateurs indiquées dans le tableau suivant.
 
-> [!note]  
+> [!NOTE]  
 > Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.
 
 ### Systèmes d’exploitation et navigateurs web pris en charge

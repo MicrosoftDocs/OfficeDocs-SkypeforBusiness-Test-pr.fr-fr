@@ -100,7 +100,7 @@ Pour plus d’informations sur l’utilisation des stratégies d’emplacement, 
 
 1.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
     
-    > [!note]  
+    > [!NOTE]  
     > CsLocationPolicy échouera si le paramètre pour <strong>PstnUsage</strong> ne figure pas déjà dans la liste Global de PstnUsages.
 
 2.  Si vous le souhaitez, exécutez la cmdlet suivante pour modifier la stratégie d’emplacement globale :

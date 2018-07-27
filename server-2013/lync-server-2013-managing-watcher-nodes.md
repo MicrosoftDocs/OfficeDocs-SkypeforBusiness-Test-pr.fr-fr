@@ -25,7 +25,7 @@ Cette commande désactive l’exécution des transactions synthétiques sur le n
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
-> [!note]  
+> [!NOTE]  
 > La propriété Enabled peut être utilisée pour activer ou désactiver les nœuds observateur. Si vous souhaitez supprimer définitivement un nœud observateur, utilisez l’applet de commande <strong>Remove-CsWatcherNodeConfiguration</strong> :<br />
 Remove-CsWatcherNodeConfiguration –Identity &quot;atl-watcher-001.litwareinc.com&quot;<br />
 Cette commande supprime tous les paramètres de configuration du nœud observateur de l’ordinateur spécifié, ce qui empêche ainsi l’ordinateur d’exécuter automatiquement des transactions synthétiques. Toutefois, la commande ne désinstalle ni les fichiers de l’agent System Center ni les fichiers système Lync Server 2013.

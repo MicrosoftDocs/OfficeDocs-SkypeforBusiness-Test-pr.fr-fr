@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 L’affichage ConferenceMessageCount stocke les informations relatives au nombre de messages envoyés par un utilisateur à une conférence. Cette vue est une nouveauté de Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > L’affichage ConferenceMessageCount contient toutes les colonnes de l’<a href="lync-server-2013-conferencesessiondetails-view.md">Vue ConferenceSessionDetails</a> en plus des colonnes répertoriées ci-dessous.
 
 

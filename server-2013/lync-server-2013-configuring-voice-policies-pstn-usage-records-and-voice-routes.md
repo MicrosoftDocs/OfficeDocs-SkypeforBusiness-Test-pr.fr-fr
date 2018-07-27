@@ -19,7 +19,7 @@ Les stratégies de voix, les enregistrements d’utilisation RTC et les itinéra
 
 La procédure recommandée pour un nouveau déploiement de Voix Entreprise est de commencer à configurer une stratégie de voix qui comprend les enregistrements d’utilisation RTC appropriés, puis d’associer les itinéraires appropriés à chaque enregistrement d’utilisation RTC.
 
-> [!note]  
+> [!NOTE]  
 > Vous pouvez également créer des stratégies de voix avec l’étendue d’<em>utilisateur</em> et les affecter à des utilisateurs ou des groupes individuels.
 
 Pour connaître en détail la marche à suivre pour effectuer chacune de ces tâches, reportez-vous aux procédures dans cette section.

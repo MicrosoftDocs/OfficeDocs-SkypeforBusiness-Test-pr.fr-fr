@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Les paramètres de configuration de mise à jour des périphériques peuvent être créés (au niveau de l’étendue Site) à l’aide de Windows PowerShell et de l’applet de commande **New-CsDeviceUpdateConfiguration** et modifiés à l’aide de l’applet de commande **Set-CsDeviceUpdateConfiguration**. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 

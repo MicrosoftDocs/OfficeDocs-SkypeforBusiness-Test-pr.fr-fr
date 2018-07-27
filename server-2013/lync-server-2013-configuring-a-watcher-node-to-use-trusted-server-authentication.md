@@ -19,14 +19,14 @@ Si votre ordinateur de nœud observateur se trouve dans le réseau de périmètr
 
 La première étape de configuration de l’authentification de type Serveur sécurisé consiste à créer un pool d’applications approuvées afin d’héberger l’ordinateur de nœud observateur. Une fois le pool d’applications approuvées créé, vous devez configurer les transactions synthétiques de ce nœud observateur afin qu’elles s’exécutent sous forme d’application approuvée.
 
-> [!note]  
+> [!NOTE]  
 > Une application approuvée est une application qui dispose d’un statut d’approbation lui permettant de s’exécuter dans Lync Server 2013, mais qui ne fait pas partie intégrante du produit. Le statut d’application approuvée signifie que l’application n’a pas à s’authentifier chaque fois qu’elle s’exécute.
 
 Pour créer un pool d’applications approuvées, ouvrez Lync Server 2013 Management Shell et exécutez une commande similaire à ce qui suit :
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur les paramètres utilisés dans la commande précédente, tapez ce qui suit à l’invite de Lync Server Management Shell :<br />
 Get-Help New-CsTrustedApplicationPool -Full | more
 
@@ -54,7 +54,7 @@ Chaque nœud observateur doit posséder un certificat par défaut affecté à l�
 
 2.  Dans l’Assistant Déploiement de Lync Server, cliquez sur **Installer ou mettre à jour le système Lync Server**, puis cliquez sur **Exécuter** sous le titre **Demander, installer ou assigner les certificats**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si le bouton <strong>Exécuter</strong> est désactivé, vous devrez peut-être d’abord cliquer sur <strong>Exécuter</strong> sous <strong>Installer le magasin de configurations local</strong>.
 
 3.  Effectuez l’une des actions suivantes :
@@ -75,7 +75,7 @@ Après avoir redémarré l’ordinateur de nœud observateur et configuré un ce
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez également exécuter Watchernode.msi à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur <strong>Démarrer</strong>, cliquez avec le bouton droit sur <strong>Invite de commandes</strong>, puis cliquez sur <strong>Exécuter en tant qu’administrateur</strong>. Quand la fenêtre de commande s’ouvre, tapez la même commande que celle indiquée précédemment.
 
 Notez que la paire nom/valeur de la commande précédente Authentication=TrustedServer respecte l’emploi des majuscules et minuscules. Vous devez la taper exactement telle qu’elle est indiquée. La commande suivante échoue, car elle ne respecte pas l’emploi des majuscules et minuscules :

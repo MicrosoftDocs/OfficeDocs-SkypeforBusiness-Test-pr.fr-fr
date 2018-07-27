@@ -37,7 +37,7 @@ Avant d’entamer le processus de préparation des services de domaine Active D
 
   - La forêt dans laquelle vous déployez Lync Server est élevée à un niveau fonctionnel de forêt de Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou au minimum Windows Server 2003.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour modifier le niveau fonctionnel de votre domaine ou de votre forêt, reportez-vous à l’article « Augmentation des niveaux fonctionnels des domaines et des forêts » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>
 
   - Un catalogue global est déployé dans tous les domaines dans lesquels vous déployez des ordinateurs ou des utilisateurs Lync Server.

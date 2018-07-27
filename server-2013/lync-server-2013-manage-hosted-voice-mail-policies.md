@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-09-20_
 
 Une *stratégie de messagerie vocale hébergée* fournit des informations à l’application de routage ExUM de Lync Server 2013 sur l’emplacement auquel les appels doivent être acheminés pour les utilisateurs dont les boîtes aux lettres se trouvent sur un service Exchange hébergé.
 
-> [!note]  
+> [!NOTE]  
 > Généralement, une seule stratégie de messagerie vocale hébergée est requise. Dans de nombreux cas, vous pouvez modifier la stratégie globale pour qu’elle réponde à vos besoins. Si vous créez une stratégie avec cette étendue de site, elle est affectée automatiquement à tous les utilisateurs hébergés sur le site spécifié. Si vous créez une stratégie avec une étendue utilisateur, vous devez explicitement l’affecter aux utilisateurs, groupes et objets contact. Il est possible de déployer plusieurs stratégies de messagerie vocale hébergées mais, dans ce cas, les stratégies doivent être affectées pour un utilisateur donné.
 
 Pour plus d’informations sur la planification des stratégies de messagerie vocale hébergées, reportez-vous à [Stratégies de messagerie vocale hébergées dans Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) dans la documentation de planification.

@@ -27,12 +27,12 @@ La stratégie de bande passante utilisée dans le cadre du service Contrôle d�
 
 4.  Dans la page **Stratégie de bande passante**, cliquez sur le profil de stratégie de bande passante que vous souhaitez supprimer.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez supprimer plusieurs profils à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs profils. Pour sélectionner tous les profils, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
     
-    > [!warning]  
+    > [!WARNING]  
     > Vous ne pouvez pas supprimer un profil de stratégie de bande passante associé à un site réseau. Vous devez d’abord supprimer l’association au site réseau avant de supprimer le profil. Pour plus d’informations sur la modification du site réseau, voir <a href="lync-server-2013-creating-or-modifying-network-sites.md">Création ou modification des sites réseau</a>.
 
 ## Voir aussi

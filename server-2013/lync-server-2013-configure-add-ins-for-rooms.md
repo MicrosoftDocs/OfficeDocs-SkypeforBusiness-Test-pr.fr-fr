@@ -25,7 +25,7 @@ Les compléments servent à étendre l’expérience dans la salle. Un compléme
 
 2.  Dans le menu **Démarrer** , sélectionnez le Panneau de configuration Lync Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration. Pour plus d’informations sur les différentes méthodes permettant de démarrer le Panneau de configuration Lync Server, reportez-vous à [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Vous pouvez également utiliser des applets de commande Windows PowerShell. Pour plus d’informations, reportez-vous à <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell</a> dans la documentation de déploiement.
 
 3.  Dans la barre de navigation de gauche, cliquez sur **conversation permanente**, puis sur **Complément** .

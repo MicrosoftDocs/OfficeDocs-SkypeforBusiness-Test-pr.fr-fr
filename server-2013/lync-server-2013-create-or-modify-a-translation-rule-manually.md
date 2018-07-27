@@ -45,7 +45,7 @@ Effectuez cette procédure si vous voulez définir une règle de traduction en �
 
 10. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
     
-    > [!note]  
+    > [!NOTE]  
     > À chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi

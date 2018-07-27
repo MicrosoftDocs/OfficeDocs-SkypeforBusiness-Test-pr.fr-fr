@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Vous pouvez afficher les paramètres de configuration du service de mise à jour des périphériques en utilisant Lync Server Management Shell et l’applet de commande **Get-CsDeviceUpdateConfiguration**, que vous pouvez exécuter à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell
 
-> [!note]  
+> [!NOTE]  
 > Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 

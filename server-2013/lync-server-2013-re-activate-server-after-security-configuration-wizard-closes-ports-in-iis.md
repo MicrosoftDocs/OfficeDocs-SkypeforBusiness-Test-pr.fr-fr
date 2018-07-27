@@ -25,5 +25,5 @@ Certains rôles Lync Server 2013 exécutent les services web sur le port 4443 
 
 3.  Dans la page **Exécution de commandes** , lorsque l’état indique que la tâche est terminée, cliquez sur **Terminer** .
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez également utiliser bootstrapper.exe ou <strong>Enable-CsComputer</strong> pour réactiver le serveur.

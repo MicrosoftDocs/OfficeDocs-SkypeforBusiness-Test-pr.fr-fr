@@ -19,7 +19,7 @@ Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utili
 
 ## Redéplacement d’utilisateurs vers la version locale
 
-> [!important]  
+> [!IMPORTANT]  
 > Cette section ne s’applique qu’aux utilisateurs créés et activés pour Lync local, puis déplacés d’un déploiement local vers Lync Online. Pour déplacer des utilisateurs créés dans Lync Online (et qui n’ont jamais été activés pour Lync dans un déploiement local), reportez-vous à <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Déplacement des utilisateurs de Lync Online vers Lync local dans Lync Server 2013</a>.
 
   - Pour redéplacer un utilisateur de Lync Online vers Lync local, exécutez l’applet de commande suivante :

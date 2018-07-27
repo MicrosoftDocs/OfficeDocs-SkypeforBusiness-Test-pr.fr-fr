@@ -29,7 +29,7 @@ Vous pouvez configurer des liens entre deux régions réseau dans le cadre du co
 
 5.  Dans **Nouveau lien de région**, tapez une valeur dans le champ **Nom**.
     
-    > [!note]  
+    > [!NOTE]  
     > Cette valeur doit être unique dans votre déploiement Lync Server 2013.
 
 6.  Dans la liste déroulante **Région réseau n° 1**, sélectionnez l’une des deux régions à relier.

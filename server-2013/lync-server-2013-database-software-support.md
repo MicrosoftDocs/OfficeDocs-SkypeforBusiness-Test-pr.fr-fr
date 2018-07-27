@@ -33,10 +33,10 @@ Lync Server 2013 prend en charge les systèmes de gestion de base de données s
         
         Nous prenons en charge l’application de correctifs et la mise à niveau de Microsoft SQL Server sur serveurs frontaux et serveurs Standard Edition. Toutefois, pour toute application de correctif ou mise à niveau sur serveurs frontaux, vous devez prendre en compte les exigences du quorum. Pour plus d’informations, voir [Mise à niveau ou mise à jour des serveurs frontaux dans Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) et [Topologies et composant utilisés pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
     
-    > [!note]  
+    > [!NOTE]  
     > Microsoft SQL Server 2012 Express (édition 64 bits) est automatiquement installé par Lync Server 2013sur chaque serveur Standard Edition et chaque serveur serveur frontal.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>Lync Server 2013 ne prend pas en charge l’édition 32 bits de SQL Server. Vous devez utiliser l’édition 64 bits.</p></li>
 > <li><p>L’édition SQL Server pour le web et l’édition SQL Server pour les groupes de travail ne sont pas prises en charge. Vous ne pouvez pas les utiliser avec Lync Server 2013.</p></li>
@@ -46,7 +46,7 @@ Lync Server 2013 prend en charge les systèmes de gestion de base de données s
 
 Dans un pool frontal, la base de données principale peut être un ordinateur SQL Server unique.
 
-> [!important]  
+> [!IMPORTANT]  
 > Si vous colocalisez des bases de données Lync Server avec d’autres bases de données, nous vous recommandons vivement d’évaluer tous les facteurs susceptibles d’affecter la disponibilité et les performances et de vous assurer qu’en cas de défaillance d’un nœud, le nœud restant puisse gérer la charge. Pour vérifier les capacités de basculement, nous vous recommandons de tester tous les scénarios de basculement.
 
 ## Utilisation de la mise en miroir SQL et du clustering SQL

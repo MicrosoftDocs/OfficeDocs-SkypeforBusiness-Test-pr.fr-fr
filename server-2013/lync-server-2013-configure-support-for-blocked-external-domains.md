@@ -33,7 +33,7 @@ Empêchez un ou plusieurs domaines externes de se connecter à votre organisatio
     
       - Dans **Nom de domaine complet (ou FQDN)**, tapez le nom de domaine du partenaire fédéré que vous souhaitez bloquer.
         
-        > [!note]  
+        > [!NOTE]  
         > Il peut contenir jusqu’à 256 caractères.<br />
         La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez <strong>contoso.com</strong> , la recherche renverra également le domaine <strong>it.contoso.com</strong>.<br />
         Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Lync Server 2013 empêche cette situation afin que vous n’ayez pas à synchroniser vos listes.    

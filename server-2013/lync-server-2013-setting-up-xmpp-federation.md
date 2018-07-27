@@ -84,7 +84,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 23. Pour configurer DNS pour la fédération XMPP, vous devez ajouter l’enregistrement SRV suivant au système DNS externe :\_xmpp-server.\_tcp.\<nom de domaine\> L’enregistrement SRV aboutira au nom de domaine complet du service Edge, avec une valeur de port de 5 269. Par ailleurs, vous devez configurer un enregistrement d’hôte « A » (par exemple, xmpp.contoso.com) qui pointe vers l’adresse IP du serveur Edge d’accès.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Si vous avez des pools de serveurs Edge dans plusieurs sites, nous vous recommandons d’ajouter plusieurs enregistrements SRV pour la fédération XMPP. Ajoutez un enregistrement SRV pour chaque pool de serveurs Edge dans votre organisation, puis donnez à chacun de ces enregistrements SRV une priorité différente. Lorsque tous les pools de serveurs Edge sont en cours d’exécution, les demandes XMPP sont toutes traitées par le pool de serveurs Edge de première priorité. Cependant, si ce pool de serveurs Edge ne fonctionne pas, vous n’êtes pas obligé d’ajouter un enregistrement SRV pour rétablir les fonctionnalités de fédération XMPP.
 
 24. Configurez une nouvelle stratégie d’accès externe pour activer tous les utilisateurs en ouvrant Lync Server Management Shell sur le serveur frontal et en tapant :

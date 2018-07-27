@@ -41,5 +41,5 @@ Lync Server 2013 introduit la possibilité de convertir aussi le numéro de té
     
       - Pour supprimer une règle de conversion de la jonction, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer** .
     
-    > [!warning]  
+    > [!WARNING]  
     > N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit.

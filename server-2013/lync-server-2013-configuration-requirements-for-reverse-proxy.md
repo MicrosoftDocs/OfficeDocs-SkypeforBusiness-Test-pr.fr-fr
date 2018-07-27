@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-03-05_
 
 Lync Server 2013 impose quelques exigences quant aux communications en provenance du client externe qui sont ensuite passées aux services web externes hébergées sur le directeur, le pool de directeurs, le serveur frontal ou le pool de serveurs frontaux. Le proxy inverse est également responsable de la publication du Office Web Apps Server, si vous offrez des services de conférence à vos utilisateurs.
 
-> [!note]  
+> [!NOTE]  
 > Lync Server 2013 ne spécifie pas de proxy inverse spécifique à utiliser. Lync Server 2013 définit uniquement des exigences opérationnelles que le proxy inverse doit respecter. En général, le proxy inverse déjà déployé dans votre infrastructure peut être en mesure de répondre à ces exigences.
 
 ## Exigences relatives au proxy inverse

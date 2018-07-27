@@ -27,7 +27,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 4.  Dans la page **Région**, cliquez sur la région que vous souhaitez afficher.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous ne pouvez afficher qu’une région à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.

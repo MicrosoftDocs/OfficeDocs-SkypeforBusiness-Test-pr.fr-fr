@@ -19,7 +19,7 @@ Pour chaque site que vous avez déployé, vous pouvez créer une stratégie de c
 
 La configuration de la stratégie du site supplante la stratégie globale, uniquement pour le site pour lequel elle est définie.
 
-> [!note]  
+> [!NOTE]  
 > Pour configurer et utiliser le serveur de conversations permanentes, vous devez d’abord utiliser le Générateur de topologie pour ajouter la prise en charge du serveur de conversations permanentes à la topologie, puis publier la topologie. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Ajout d’un serveur de conversation permanente à votre déploiement dans Lync Server 2013</a> dans la documentation de déploiement.<br />
 Pour configurer les paramètres de configuration du serveur de conversations permanentes, reportez-vous à <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configuration des options de serveur de conversation permanente au niveau global ou pour un pool de serveurs de conversation permanente dans Lync Server 2013</a> dans la documentation de déploiement.
 
@@ -31,7 +31,7 @@ Pour configurer les paramètres de configuration du serveur de conversations per
 
 3.  Dans la barre de navigation de gauche, cliquez sur **conversation permanente**, puis sur **conversation permanenteStratégie**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Vous pouvez également utiliser des applets de commande Windows PowerShell. Pour plus d’informations, reportez-vous à <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell</a> dans la documentation de déploiement.
 
 4.  Cliquez sur **Nouveau**, puis sur **Stratégie de site**.

@@ -23,7 +23,7 @@ Lync Server prend en charge les trois URL simples suivantes : Meet, Dial-In e
 
 Dans l’option 1, vous devez créer une URL de base pour chaque URL simple.
 
-> [!note]  
+> [!NOTE]  
 > Lorsqu’un utilisateur clique sur un lien d’URL simple de réunion, le serveur que l’enregistrement DNS A résout détermine le logiciel client à démarrer. Une fois que le logiciel client a démarré, il communique automatiquement avec le pool hébergeant la conférence. Ainsi, les utilisateurs sont acheminés vers le serveur approprié indépendamment du serveur ou pool sur lequel les enregistrements DNS A d’URL simple sont résolus.
 
 ### Option 1 de définition des URL simples
@@ -152,7 +152,7 @@ Meet-ext.geolb.contoso.com
 
 Créez ensuite des enregistrements CNAME qui font aboutir l’URL simple Meet (telles que meet.contoso.com) aux deux adresses GeoDNS.
 
-> [!note]  
+> [!NOTE]  
 > Si votre réseau utilise le <em>hairpinning</em> (routage de l’ensemble du trafic de l’URL simple via le lien externe, dont le trafic en provenance de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et faire aboutir votre adresse URL simple Meet uniquement à cette adresse externe.
 
 Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoDNS de façon à distribuer les demandes aux deux pools selon la méthode du tourniquet (round robin), ou bien vous connecter principalement à un pool (par exemple, le pool le plus proche géographiquement) et utiliser l’autre pool seulement en cas de problème de connectivité.

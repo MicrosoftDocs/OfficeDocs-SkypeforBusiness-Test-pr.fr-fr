@@ -49,7 +49,7 @@ Par exemple, supposons qu’un client mobile exécutant Lync Mobile soit config
     
     Dans ce scénario, aucune modification de certificat n’est requise pour prendre en charge la mobilité.
     
-    > [!note]  
+    > [!NOTE]  
     > Si le serveur web cible possède un certificat qui ne dispose pas d’une adresse correspondant à lyncdiscover.contoso.com en tant que valeur de la liste des autres noms de sujet :<br />
     a. Le serveur web répond par un « Bonjour de serveur », sans certificat.<br />
     b. L’appareil mobile qui exécute Lync Mobile met immédiatement fin à la session.<br />

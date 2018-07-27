@@ -21,7 +21,7 @@ Un agent qui doit se connecter au groupe et s’en déconnecter (différent de l
 
 Un agent qui ne doit pas se connecter au groupe ou s’en déconnecter est appelé *agent informel* . Ces agents se connectent automatiquement au groupe lorsqu’ils se connectent à Lync Server. Ils ne peuvent pas se déconnecter du groupe.
 
-> [!note]  
+> [!NOTE]  
 > Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé en ligne, les appels Response Group sont acheminés vers cet agent.
 
 ## Dans cette section

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonctionnalités de scénarios fédérés est très rapide. Dans le cas contraire, vous devez commencer par le déploiement des serveurs Edge. Pour plus d’informations, reportez-vous à : [Planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) dans la documentation de planification et [Déploiement de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement.
 
-> [!note]  
+> [!NOTE]  
 > Si vous avez l’intention de configurer une combinaison de fédération XMPP, fédération Lync ou connectivité PIC, vous pouvez les déployer simultanément ou l’une après l’autre. Si vous configurez les options à l’aide du générateur de topologie et de Lync Server Management shell, exécutez l’Assistant Déploiement sur le serveur Edge après avoir configuré les options d’un, de deux ou des trois types de fédération, vous pouvez ainsi réduire le nombre d’étapes nécessaires.
 
 ## Configuration d’une fédération Lync dans le générateur de topologie et l’Assistant Déploiement
@@ -32,7 +32,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
 
 5.  Dans Installer les composants Lync Server, cliquez sur Suivant. L’écran récapitulatif affiche les actions au fur et à mesure qu’elles s’exécutent. Une fois le déploiement terminé, cliquez sur Afficher le journal pour afficher les fichiers journaux disponibles. Cliquez sur Terminer pour terminer le déploiement.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Vous pouvez activer cette option, mais un seul serveur Edge ou pool de serveurs Edge dans votre organisation peut être publié en externe pour la fédération. Tout accès par des utilisateurs fédérés, notamment les utilisateurs de messagerie instantanée publique, passe par le même serveur Edge unique ou pool de serveurs Edge. Par exemple, si votre déploiement inclut un pool de serveurs Edge ou un serveur Edge unique déployé à New York et un déployé à Londres et que vous activez la prise en charge de la fédération sur le pool de serveurs Edge ou le serveur Edge unique de New York, le trafic de signalisation des utilisateurs fédérés passera par le pool de serveurs Edge ou le serveur Edge unique de New York. Cela s’applique aussi aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le serveur Edge ou le pool de serveurs de Londres pour le trafic A/V.
 
 ## Configuration d’une fédération avec des partenaires
@@ -89,7 +89,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
 > <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP hébergés dans Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Ce type de fédération définit les services et les fournisseurs d’hébergement que vous voulez configurer pour vos utilisateurs. Ils sont généralement utilisés pour configurer des fournisseurs de messagerie instantanée comme Windows Live Messenger, Yahoo! et AOL, ainsi que pour héberger des fournisseurs tels que Lync Online et Office 365</p>
     <div class="alert">
-    > [!important]  
+    > [!IMPORTANT]  
     > <ul>    
 > <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>    
 > <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>    
@@ -105,7 +105,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
 
 3.  Définir et configurer des stratégies dans le Panneau de configuration Lync Server ou Lync Server Management Shell et à l’aide des applets de commande appropriées. Pour plus d’informations sur les applets de commande Lync Server Management Shell, reportez-vous à [Cmdlets de fédération et d’accès externe dans Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
     
-    > [!note]  
+    > [!NOTE]  
     > Lync Room System (LRS) n’affiche pas le bouton Participer pour les réunions envoyées par les organisateurs dans les partenaires Lync fédérés. Pour qu’un lien de participation à une réunion apparaisse sur LRS, l’organisation émettrice doit activer TNEF en utilisant l’applet de commande suivante :<br />
     <br />
     <code>New-RemoteDomain -DomainName Contoso.com -Name Contoso</code><br />

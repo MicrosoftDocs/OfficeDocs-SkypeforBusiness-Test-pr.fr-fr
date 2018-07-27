@@ -24,14 +24,14 @@ Si un serveur Standard Edition qui n’héberge pas le magasin central de gestio
 
 1.  Démarrez avec un nouveau serveur ayant le même nom de domaine complet que l’ordinateur ayant subi une défaillance, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
     
-    > [!note]  
+    > [!NOTE]  
     > Suivez les procédures de déploiement de serveur de votre organisation pour effectuer cette étape.
 
 2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins et du groupe Administrateurs locaux, ouvrez une session sur le serveur que vous êtes en train de restaurer.
 
 3.  Restaurez le magasin de fichiers en copiant le magasin de fichiers approprié depuis $Backup vers l’emplacement du magasin de fichiers sur le serveur, puis partagez le dossier.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le chemin d’accès et le nom de fichier du magasin de fichiers restauré doivent être strictement identiques à ceux du magasin de fichiers sauvegardé afin que les composants qui utilisent les fichiers puissent y accéder.
 
 4.  Exécutez le Générateur de topologie :

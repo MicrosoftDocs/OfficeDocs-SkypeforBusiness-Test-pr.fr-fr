@@ -48,7 +48,7 @@ Le processus d'approvisionnement de la connectivité Lync-Skype a changé par ra
 > <li><p>Dans la page <strong>Indiquer les informations d’approvisionnement</strong> entrez le <strong>nom complet du service Edge d’accès</strong>. Par exemple, <strong>accessedge.contoso.com</strong>.</p></li>
 > <li><p>Entrez au moins un nom de domaine SIP, puis cliquez sur <strong>Ajouter</strong>.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Au moins un serveur Edge d'accès et un domaine SIP sont requis pour effectuer le processus d'approvisionnement. Le domaine SIP et le serveur Edge d'accès doivent être actifs, en état de fonctionnement et accessibles sur le réseau.
 </div></li><li><p>Dans la liste des <strong>fournisseurs de service de messagerie instantanée publique</strong>, sélectionnez <strong>Skype,</strong> et cliquez sur <strong>Suivant</strong> pour ajouter des coordonnées, puis envoyez la demande d’approvisionnement.</p></li></ol></td>
 </tr>
@@ -59,7 +59,7 @@ Le processus d'approvisionnement de la connectivité Lync-Skype a changé par ra
 > <li><p>Dans la page <strong>Indiquer les informations d’approvisionnement</strong> entrez le <strong>nom complet du service Edge d’accès</strong>. Par exemple, <strong>accessedge.contoso.com</strong>.</p></li>
 > <li><p>Entrez au moins un nom de domaine SIP, puis cliquez sur <strong>Ajouter</strong>.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Au moins un serveur Edge d'accès et un domaine SIP sont requis pour effectuer le processus d'approvisionnement. Le domaine SIP et le serveur Edge d'accès doivent être actifs, en état de fonctionnement et accessibles sur le réseau.
 </div></li><li><p>Dans la liste des <strong>fournisseurs de service de messagerie instantanée publique</strong>, sélectionnez <strong>Skype,</strong> et cliquez sur <strong>Suivant</strong> pour ajouter des coordonnées, puis envoyez la demande d’approvisionnement.</p></li></ol></td>
 </tr>
@@ -79,7 +79,7 @@ Pour préparer l'environnement Lync Server pour la connectivité Lync-Skype, l'a
 
 La fédération est requise pour permettre aux utilisateurs Skype de communiquer avec les utilisateurs Lync dans votre organisation. La connectivité PIC (Public IM Connectivity) est une classe de fédération. Elle doit être configurée pour permettre à vos utilisateurs Lync de communiquer avec les utilisateurs Skype. La fédération et la connectivité PIC sont configurées à l'aide du panneau de configuration Lync Server (affiché ci-dessous).
 
-> [!important]  
+> [!IMPORTANT]  
 > La fédération PIC n'est plus prise en charge par Live Communication Server 2005 SP1 ou Office Communications Server 2007. Les plateformes prises en charge pour la fédération PIC incluent Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2.
 
 ## 2\. Configurer au moins une stratégie pour la prise en charge de l'accès des utilisateurs fédérés
@@ -90,7 +90,7 @@ La fédération est requise pour permettre aux utilisateurs Skype de communiquer
 
 À l'aide de Lync Server Management Shell, l'administrateur doit configurer la stratégie de client Lync pour afficher Skype comme fournisseur PIC supplémentaire.
 
-> [!note]  
+> [!NOTE]  
 > Les utilisateurs du service PIC ne peuvent pas participer à des sessions de messagerie instantanée ou des conférences dans votre organisation tant que vous n'avez pas configuré au moins une stratégie (étape 2 de cette procédure) pour prendre en charge la connectivité PIC.<br />
 Pour configurer la fédération et la connectivité PIC, voir « Activation ou désactivation de la fédération et de la connectivité PIC (Public IM Connectivity) » à l'adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=306063">http://go.microsoft.com/fwlink/p/?LinkId=306063</a>.<br />
 Pour configurer au moins une stratégie pour prendre en charge l'accès des utilisateurs fédérés, voir « Configuration des stratégies de contrôle d'accès des utilisateurs publics » à l'adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=306064">http://go.microsoft.com/fwlink/p/?LinkId=306064</a>.

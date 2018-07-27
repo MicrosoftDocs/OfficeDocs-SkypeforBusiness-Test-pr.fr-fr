@@ -27,7 +27,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 4.  Dans la page **Site**, cliquez sur le site que vous souhaitez afficher.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous ne pouvez afficher les informations que d’un site à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.

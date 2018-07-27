@@ -33,7 +33,7 @@ Les cas de test, créés à l’aide du Panneau de configuration Lync Server, s
 
 6.  Cliquez sur **Valider**, puis sur **Valider tout**.
     
-    > [!note]  
+    > [!NOTE]  
     > Chaque fois que vous importez un fichier .vtest, vous devez exécuter la commande <strong>Valider tout</strong> pour publier le cas de test. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi

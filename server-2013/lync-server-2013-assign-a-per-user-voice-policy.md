@@ -29,7 +29,7 @@ Les stratégies de voix au niveau global ou au niveau du site sont automatiqueme
 
 5.  Dans **Modifier l’utilisateur Lync Server** sous **Stratégie de voix**, sélectionnez la stratégie d’utilisateur à appliquer.
     
-    > [!note]  
+    > [!NOTE]  
     > Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres de stratégie globale ou du serveur par défaut.
 
 ## Pour assigner une stratégie de voix spécifique à l’utilisateur à l’aide de Lync Server Management Shell

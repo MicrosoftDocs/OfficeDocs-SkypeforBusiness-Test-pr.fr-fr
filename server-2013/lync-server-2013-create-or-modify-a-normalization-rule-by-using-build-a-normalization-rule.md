@@ -55,7 +55,7 @@ Effectuez les étapes suivantes si vous souhaitez créer ou modifier une règle 
 
 9.  (Optionnel) Entrez un numéro pour tester la règle de normalisation, puis cliquez sur **OK** . Les résultats du test s’affichent sous **Numéro composé à tester** .
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-test-voice-routing.md">Test du routage des communications vocales dans Lync Server 2013</a>.
 
 10. Cliquez sur **OK** pour enregistrer la règle de normalisation.
@@ -64,7 +64,7 @@ Effectuez les étapes suivantes si vous souhaitez créer ou modifier une règle 
 
 12. Dans la page **Plan de numérotation** , cliquez sur **Valider** , puis sur **Valider tout** .
     
-    > [!note]  
+    > [!NOTE]  
     > Lorsque vous créez ou modifiez une règle de normalisation, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi

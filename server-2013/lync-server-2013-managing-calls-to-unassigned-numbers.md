@@ -19,7 +19,7 @@ Lync Server vous permet de configurer la gestion des appels téléphoniques ent
 
 Cette section décrit comment gérer les plages de numéros non attribués pour gérer les appels aux numéros de téléphones non attribués. Elle décrit également comment gérer les annonces durant la récupération d’urgence si vous souhaitez bénéficier de cette fonctionnalité lors d’une panne.
 
-> [!note]  
+> [!NOTE]  
 > La gestion des numéros de téléphones non attribués durant une panne est facultative.
 
 ## Dans cette section

@@ -19,7 +19,7 @@ Pour compléter cette procédure, vous devez être connecté au serveur au minim
 
 Avant de configurer et d’installer le serveur frontal pour Lync Server 2013, Standard Edition ou le premier serveur frontal dans un pool, vous installez et configurez le rôle de serveur et les services web pour les services Internet (IIS).
 
-> [!important]  
+> [!IMPORTANT]  
 > Si votre organisation vous oblige à placer les services Internet (IIS) et tous les services web sur un lecteur autre que le lecteur système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server 2013 dans la boîte de dialogue Installation lors de l’installation initiale des outils d’administration Lync Server 2013. Vous devez installer ces derniers avant d’installer les services Internet (IIS). Si vous installez les fichiers d’installation à cet emplacement, y compris OCSCore.msi, le reste des fichiers Lync Server 2013 est également déployé sur ce même lecteur. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-install-lync-server-administrative-tools.md">Installation des outils d’administration Lync Server 2013</a>. Pour plus d’informations sur la façon de déplacer le composant INETPUB déployé par le Gestionnaire de serveur Windows lors de l’installation des services Internet (IIS), reportez-vous à <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
 Le tableau ci-dessous indique les services de rôle des services Internet (IIS) 7.5 nécessaires.
@@ -118,12 +118,12 @@ Sur le système d’exploitation Windows Server 2008 R2 SP1 x64, vous pouvez
 
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
 
-> [!note]  
+> [!NOTE]  
 > L’authentification anonyme est installée par défaut avec le rôle serveur des services Internet (IIS). Vous pouvez gérer l’authentification anonyme après l’installation des services Internet (IIS). Pour plus d’informations, reportez-vous à « Activer l’authentification anonyme (services Internet [IIS] 7) » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>.
 
 Le tableau ci-dessous indique les services de rôle des services Internet (IIS) 8.0 et des services Internet (IIS) 8.5 nécessaires pour Windows Server 2012 et Windows Server 2012 R2.
 
-> [!note]  
+> [!NOTE]  
 > Pour Windows Server 2012 et Windows Server 2012 R2, l’applet de commande Add-WindowsFeature a été remplacée par Install-WindowsFeature. Pour plus d’informations, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>.
 
 ### Services de rôle des services Internet (IIS) 8.0 et des services Internet (IIS) 8.5
@@ -302,7 +302,7 @@ Dans Windows Server 2012 et Windows Server 2012 R2, vous pouvez utiliser Windows
 
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
 
-> [!important]  
+> [!IMPORTANT]  
 > Le paramètre –Source qui définit l’emplacement où se trouve le média source Windows Server 2012 est une nouveauté dans Windows Server 2012. Le média peut être défini en tant que lecteur de DVD (par exemple, D:\Sources\Sxs) ou en tant que partage réseau sur lequel les fichiers multimédias ont été copiés (par exemple, \\fileserver\windows2012\sources\Sxs).
 
 ## Voir aussi

@@ -61,7 +61,7 @@ Protocole SNMP (Simple Network Management Protocol) : le protocole SNMP est une
 
   - Un protocole de gestion, le protocole SNMP, est utilisé pour communiquer les informations de gestion entre les postes de gestion et les agents. Les informations de gestion sont un ensemble d’objets gérés, qui se trouvent dans un magasin d’informations virtuel appelé « base d’informations de gestion » (MIB).
 
-> [!note]  
+> [!NOTE]  
 > Des exemples de solutions de surveillance tierces sont indiqués ci-dessus. Cette liste n’est pas définitive et Microsoft ne privilégie aucune solution tierce spécifique. Pour déterminer la meilleure solution de surveillance du réseau pour votre organisation, prenez conseil auprès d’un fournisseur de services réseau et/ou de votre fournisseur de technologies.
 
 ## Outils de surveillance des performances réseau de serveurs individuels
