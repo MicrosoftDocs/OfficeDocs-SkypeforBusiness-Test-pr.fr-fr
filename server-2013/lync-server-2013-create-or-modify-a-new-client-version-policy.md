@@ -38,7 +38,7 @@ Vous pouvez utiliser des stratégies de version du client pour spécifier les ve
 
 ## Création ou modification de stratégies de version du client à l’aide d’applets de commande Windows PowerShell
 
-Vous pouvez créer des stratégies de version du client à l’aide de l’applet de commande **New-CsClientVersionPolicy**, et les modifier à l’aide de l’applet de commande **set-csclientversionpolicy**. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Vous pouvez créer des stratégies de version du client à l’aide de l’applet de commande **New-CsClientVersionPolicy**, et les modifier à l’aide de l’applet de commande **Set-CsClientVersionPolicy**. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Pour créer une stratégie de version de client au niveau de l’étendue Site
 
@@ -52,5 +52,5 @@ Vous pouvez créer des stratégies de version du client à l’aide de l’apple
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Pour plus d’informations, recherchez les rubriques d’aide relatives aux applets de commande [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) et [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+Pour plus d’informations, recherchez les rubriques d’aide relatives aux applets de commande [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) et [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 
