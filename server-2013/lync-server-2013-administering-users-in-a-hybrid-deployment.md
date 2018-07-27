@@ -24,9 +24,12 @@ Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utili
 
   - Pour redéplacer un utilisateur de Lync Online vers Lync local, exécutez l’applet de commande suivante :
     
-        $cred=Get-Credential
-    
-        Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
+    $cred=Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
 
 L’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit correspondre à celle du pool où le service de migration hébergée s’exécute, au format suivant :
 

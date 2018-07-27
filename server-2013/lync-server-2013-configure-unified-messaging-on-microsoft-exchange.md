@@ -103,6 +103,7 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     > [!NOTE]  
     > Cette étape est nécessaire pour que les appels sortants, via le serveur exécutant la messagerie unifiée Exchange Server, vers des utilisateurs externes (comme c’est par exemple le cas pour les scénarios d’émission au téléphone), traversent de manière fiable le pare-feu de l’entreprise.    
+
     > [!IMPORTANT]  
     > Lors de la sélection de la passerelle IP de messagerie unifiée, qui permet d’autoriser les appels sortants, choisissez celle qui est capable de gérer le plus grand volume de trafic. Ne sélectionnez pas une passerelle IP qui se connecte à un pool directeur Lync Server. Évitez également les pools d’un autre site central ou site de succursale. Vous pouvez utiliser l’une des méthodes suivantes pour empêcher les appels sortants de transiter via une passerelle IP :    
       - Si vous utilisez l’environnement de ligne de commande Exchange Management Shell, désactivez chaque passerelle IP en exécutant la commande suivante :
@@ -122,7 +123,10 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     > [!IMPORTANT]  
     > N’incluez pas d’espaces dans le nom du standard automatique.    
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+        
+    ```
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     
     Pour plus d’informations, consultez :
     
@@ -136,7 +140,10 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     > [!NOTE]  
     > Dans l’exemple suivant, <strong>SIPResourceIdentifier</strong> doit être l’adresse SIP de l’utilisateur Lync Server.    
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+        
+    ```
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     
     Pour plus d’informations, consultez :
     

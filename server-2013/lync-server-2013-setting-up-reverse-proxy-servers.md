@@ -62,28 +62,21 @@ Les rubriques et les procédures suivantes utilisent Forefront Threat Management
 
 Pour déployer Forefront Threat Management Gateway 2010 en tant que proxy inverse, vous devez installer et configurer un serveur en vous conformant aux conditions préalables et à la configuration matérielle requise définies dans la documentation de Forefront Threat Management Gateway 2010. Consultez les rubriques suivantes pour configurer correctement le matériel et installer Forefront Threat Management Gateway 2010 sur le serveur avant de commencer.
 
-  -   
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+  - [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
 
-  -   
-    [Recommandations sur le matériel de Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
+  - [Recommandations sur le matériel de Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
 
 Pour déployer correctement IIS ARR comme proxy inverse, consultez les rubriques suivantes pour configurer le matériel et les logiciels prérequis.
 
-  -   
-    Pour installer les services Internet (IIS) sur Windows Server 2008 ou Windows Server 2008 R2, reportez-vous à [Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2 (Installation des services Internet (IIS) 7 sur Windows Server 2008 ou Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=291296)
+  - Pour installer les services Internet (IIS) sur Windows Server 2008 ou Windows Server 2008 R2, reportez-vous à [Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2 (Installation des services Internet (IIS) 7 sur Windows Server 2008 ou Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=291296)
 
-  -   
-    Pour installer les services Internet (IIS) sur Windows Server 2012, reportez-vous à [Installing IIS 8 on Windows Server 2012 (Installation des services Internet (IIS) 8 sur Windows Server 2012)](http://go.microsoft.com/fwlink/?linkid=291297)
+  - Pour installer les services Internet (IIS) sur Windows Server 2012, reportez-vous à [Installing IIS 8 on Windows Server 2012 (Installation des services Internet (IIS) 8 sur Windows Server 2012)](http://go.microsoft.com/fwlink/?linkid=291297)
 
-  -   
-    Pour installer les services Internet (IIS) sur Windows Server 2012 R2, reportez-vous à [Installing IIS 8.5 on Windows Server 2012 R2 (Installation des services Internet (IIS) 8.5 sur Windows Server 2012 R2)](http://go.microsoft.com/fwlink/?linkid=330687)
+  - Pour installer les services Internet (IIS) sur Windows Server 2012 R2, reportez-vous à [Installing IIS 8.5 on Windows Server 2012 R2 (Installation des services Internet (IIS) 8.5 sur Windows Server 2012 R2)](http://go.microsoft.com/fwlink/?linkid=330687)
 
-  -   
-    Pour télécharger l’extension Application Request Routing pour les services Internet (IIS), suivez les instructions de la page [Application Request Routing v2.5 Download (Téléchargement d’Application Request Routing v2.5)](http://go.microsoft.com/fwlink/?linkid=291298)
+  - Pour télécharger l’extension Application Request Routing pour les services Internet (IIS), suivez les instructions de la page [Application Request Routing v2.5 Download (Téléchargement d’Application Request Routing v2.5)](http://go.microsoft.com/fwlink/?linkid=291298)
 
-  -   
-    Pour installer ARR, reportez-vous aux instructions de la page [Install Application Request Routing Version 2 (Installation d’Application Request Routing Version 2)](http://go.microsoft.com/fwlink/?linkid=291299)
+  - Pour installer ARR, reportez-vous aux instructions de la page [Install Application Request Routing Version 2 (Installation d’Application Request Routing Version 2)](http://go.microsoft.com/fwlink/?linkid=291299)
     
-    > [!NOTE]  
-    > Les instructions publiées actuellement concernent ARR 2.0. La procédure d’installation de cette version et de l’extension sont identiques.
+  > [!NOTE]  
+  > Les instructions publiées actuellement concernent ARR 2.0. La procédure d’installation de cette version et de l’extension sont identiques.

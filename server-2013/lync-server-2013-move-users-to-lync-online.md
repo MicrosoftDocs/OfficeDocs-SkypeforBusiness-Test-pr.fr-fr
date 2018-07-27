@@ -27,9 +27,12 @@ Avant de commencer à déplacer des utilisateurs vers Lync Online, vous souhaite
 
 Pour déplacer un utilisateur local vers votre location Skype Entreprise Online, exécutez les applets de commande suivantes dans Lync Server Management Shell, à l’aide d’informations d’identification d’administrateur correspondant à votre location Microsoft Office 365. Remplacez « nomutilisateur@contoso.com » par les informations correspondant à l’utilisateur que vous souhaitez déplacer.
 
-    $creds=Get-Credential
-
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
+$creds=Get-Credential
+```
+```
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
 
 L’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit correspondre à celle du pool où le service de migration hébergée s’exécute, au format suivant : *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* .
 
