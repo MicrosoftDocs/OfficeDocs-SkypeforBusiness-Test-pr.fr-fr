@@ -75,7 +75,8 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou des enreg
       - Pour un enregistrement DNS externe, tapez ou naviguez jusqu’au nom de domaine complet des services web externes de votre pool de directeurs (par exemple, lyncwebextdir.contoso.com), puis cliquez sur **OK**.
     
     > [!NOTE]  
-    > Si vous n’utilisez pas de directeur, utilisez le nom de domaine complet des services web interne et externe de votre pool de serveurs frontaux, ou, pour un serveur unique, le nom de domaine complet du serveur frontal ou serveur Standard Edition.    
+    > Si vous n’utilisez pas de directeur, utilisez le nom de domaine complet des services web interne et externe de votre pool de serveurs frontaux, ou, pour un serveur unique, le nom de domaine complet du serveur frontal ou serveur Standard Edition. 
+       
     > [!IMPORTANT]  
     > Vous devez créer un enregistrement CNAME de découverte automatique dans la zone de recherche directe de chaque domaine SIP que vous prenez en charge dans votre environnement Lync Server 2013.
 

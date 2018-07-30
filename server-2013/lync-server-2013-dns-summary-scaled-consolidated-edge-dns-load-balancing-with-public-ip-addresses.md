@@ -150,6 +150,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du service Edge d’accès SIP. Requis pour la découverte DNS automatique de votre fédération vers d’autres partenaires de fédération potentiels, appelé « Domaines SIP autorisés » (appelé fédération étendue dans les versions précédentes).</p>
 <div class="alert">
+
 > [!IMPORTANT]  
 > Répéter selon le besoin pour tous les domaines SIP avec des utilisateurs Lync et des clients Microsoft Lync Mobile qui utilisent le service de notifications Push ou le service de notifications Push Apple
 </div></td>

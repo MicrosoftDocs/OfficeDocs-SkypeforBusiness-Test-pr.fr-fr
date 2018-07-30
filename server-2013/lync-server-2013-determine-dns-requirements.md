@@ -82,7 +82,7 @@ L’utilisation de la découverte automatique, plutôt que manuelle, est vivemen
 
 ## Configuration DNS « split-brain » avec Lync Server
 
-Le terme DNS split-brain est connu sous différents, parmi lesquels « split DNS » et « split-horizon DNS ». Il décrit une configuration DNS dans laquelle il existe deux zones DNS avec le même espace de noms (l’une répond aux demandes internes et l’autre aux demandes externes). Cependant, de nombreux enregistrements DNS (SRV et A) contenus dans le DNS interne ne seront pas contenus dans le DNS externe, et inversement. Dans les cas où le même enregistrement DNS existe à la fois dans le DNS interne et externe (par exemple, www.contoso.com), l’adresse IP renvoyée sera différente en fonction de l’endroit d’où provient la requête (interne ou externe).
+Le terme DNS split-brain est connu sous différents, parmi lesquels « split DNS » et « split-horizon DNS ». Il décrit une configuration DNS dans laquelle il existe deux zones DNS avec le même espace de noms (l’une répond aux demandes internes et l’autre aux demandes externes). Cependant, de nombreux enregistrements DNS (SRV et A) contenus dans le DNS interne ne seront pas contenus dans le DNS externe, et inversement. Dans les cas où le même enregistrement DNS existe à la fois dans le DNS interne et externe (par exemple, www<span/>.contoso.com), l’adresse IP renvoyée sera différente en fonction de l’endroit d’où provient la requête (interne ou externe).
 
 > [!IMPORTANT]  
 > Actuellement, DNS split-Brain n’est pas pris en charge pour la mobilité ou, plus précisément, les enregistrements DNS LyncDiscover et LyncDiscoverInternal. LyncDiscover doit être défini sur un serveur DNS externe et LyncDiscoverInternal doit être défini sur un serveur DNS interne.

@@ -39,8 +39,8 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
 
 1.  Pour configurer correctement une fédération avec un autre Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 ou Office Communicator 2007, sélectionnez le type de fédération à partir du tableau suivant et définissez les enregistrements SRV DNS, l’hôte DNS (A ou AAAA pour IPv6) et configurez les stratégies applicables au type de fédération :
     
-    
-    <table>
+
+<table>
     <colgroup>
     <col style="width: 25%" />
     <col style="width: 25%" />
@@ -60,45 +60,44 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
     <td><p>Domaine partenaire découvert</p></td>
     <td><p>Configurez l’enregistrement SRV au format _sipfederationtls._tcp.&lt;nom de domaine externe&gt;où la valeur du port pour l’enregistrement SRV est TCP 5061 et <strong>Hôte offrant ce service</strong> a la valeur sip. &lt;nom de domaine externe&gt; – le nom de domaine complet de votre service Edge d’accès. Reportez-vous à <a href="lync-server-2013-configure-dns-for-edge-support.md">Configuration de DNS pour la prise en charge de périphérie dans Lync Server 2013</a> pour obtenir des détails sur la création de l’enregistrement SRV</p></td>
     <td><ul>    
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    
-> <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Activation ou désactivation de la découverte de partenaires de fédération dans Lync Server 2013</a></p></li>    </ul></td>
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Activation ou désactivation de la découverte de partenaires de fédération dans Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Les versions précédentes faisaient référence à ce type de fédération sous le nom de <strong>Fédération ouverte améliorée</strong>. La création de l’enregistrement SRV est nécessaire pour ce type de fédération et doit permettre aux autres partenaires de découvrir votre fédération.</p></td>
     </tr>
     <tr class="even">
     <td><p>Domaine partenaire autorisé</p></td>
     <td><p>Configurez l’enregistrement SRV au format _sipfederationtls._tcp.&lt;nom de domaine externe&gt;où la valeur du port pour l’enregistrement SRV est TCP 5061 et <strong>Hôte offrant ce service</strong> a la valeur sip. &lt;nom de domaine externe&gt; – le nom de domaine complet de votre service Edge d’accès. Reportez-vous à <a href="lync-server-2013-configure-dns-for-edge-support.md">Configuration de DNS pour la prise en charge de périphérie dans Lync Server 2013</a> pour obtenir des détails sur la création de l’enregistrement SRV</p></td>
     <td><ul>    
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    </ul></td>
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Les versions précédentes faisaient référence à ce type de fédération sous le nom de <strong>Fédération améliorée</strong>. La création de l’enregistrement SRV est facultative pour ce type de fédération et doit permettre aux autres partenaires de découvrir votre fédération. Il s’agit alors d’une <strong>Fédération ouverte améliorée</strong>, ou d’un <strong>Domaine partenaire découvert</strong></p></td>
     </tr>
     <tr class="odd">
     <td><p>Serveur partenaire autorisé</p></td>
     <td><p>Configurez le nom de domaine SIP et le nom de domaine complet du serveur Edge partenaire en tant que partenaire de fédération dans Stratégies</p></td>
     <td><ul>    
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    
-> <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configuration de la prise en charge des domaines externes autorisés dans Lync Server 2013</a></p></li>    
-> <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configuration de la prise en charge pour les domaines externes bloqués dans Lync Server 2013</a></p></li>    </ul></td>
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configuration de la prise en charge des domaines externes autorisés dans Lync Server 2013</a></p></li>    <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configuration de la prise en charge pour les domaines externes bloqués dans Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Ce type de fédération est la définition d’une relation un-à-un et ne permet pas la découverte d’autres partenaires de fédération. Chaque partenaire de fédération est configuré explicitement. Dans les versions précédentes, on parlait de <strong>Fédération directe</strong></p></td>
     </tr>
     <tr class="even">
     <td><p>Fournisseur d’hébergement et fournisseur de messagerie instantanée public</p></td>
     <td><p>Aucune configuration DNS spécifique n’est définie pour ce type de fédération</p></td>
     <td><ul>    
-> <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    
-> <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013</a></p></li>    
-> <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP hébergés dans Lync Server 2013</a></p></li>    </ul></td>
+<li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013</a></p></li>    
+<li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP hébergés dans Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Ce type de fédération définit les services et les fournisseurs d’hébergement que vous voulez configurer pour vos utilisateurs. Ils sont généralement utilisés pour configurer des fournisseurs de messagerie instantanée comme Windows Live Messenger, Yahoo! et AOL, ainsi que pour héberger des fournisseurs tels que Lync Online et Office 365</p>
     <div class="alert">
-    > [!IMPORTANT]  
-    > <ul>    
-> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>    
+
+> [!IMPORTANT]  
+> <ul> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>    
 > <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>    
 > <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li>    </ul>
-
-    </div></td>
+</div></td>
     </tr>
     </tbody>
     </table>
+    
 
 
 2.  Définir et configurer les hôtes DNS (A ou AAAA pour IPv6) et les enregistrements SRV DNS requis
