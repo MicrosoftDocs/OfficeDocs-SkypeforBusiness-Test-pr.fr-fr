@@ -25,7 +25,7 @@ Les procédures de récupération d’urgence présentées dans le reste de la s
 
   - Si le magasin central de gestion est hébergé sur un autre pool, il est installé et exécuté sur les deux pools couplés, et un de ces pools héberge le Réplicateur principal actif tandis que l’autre héberge celui de secours.
 
-> [!important]  
+> [!IMPORTANT]  
 > Dans les procédures suivantes, le paramètre <em>PoolFQDN</em> se réfère au nom de domaine complet (FQDN) du pool affecté par la situation d’urgence et non pas le pool depuis lequel les utilisateurs affectés sont redirigés. Dans le cas d’un ensemble d’utilisateurs identique, le paramètre se réfère au même pool, dans les applets de commande de basculement et de récupération automatique (c’est-à-dire, le pool ayant hébergé les utilisateurs avant le basculement).<br />
 Par exemple, supposons que tous les utilisateurs hébergés sur un pool P1 ont été basculés sur le pool de sauvegarde, P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement traités par les services de P2 pour qu’ils soient traités par les services de P1, l’administrateur doit procéder comme ceci :
 > <ol>

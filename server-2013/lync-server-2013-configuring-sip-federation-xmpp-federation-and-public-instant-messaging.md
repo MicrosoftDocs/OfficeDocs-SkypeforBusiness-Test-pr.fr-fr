@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 La fédération, la connectivité PIC et le protocole XMPP (Extensible Messaging and Presence Protocol) définissent une classe différente d’utilisateurs externes : les utilisateurs fédérés. Les utilisateurs d’un déploiement XMPP ou d’un déploiement Lync Server fédéré ont accès à un ensemble de services limité et sont authentifiés par le déploiement externe. Les utilisateurs distants sont des membres de votre déploiement Lync Server et ont accès à tous les services offerts par votre déploiement.
 
-> [!note]  
+> [!NOTE]  
 > Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo!. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.
 
 La connectivité PIC est un type spécial de fédération qui permet à un client Lync Server d’accéder à des partenaires de messagerie instantanée publique configurés à l’aide de Lync 2013. Les partenaires de connectivité PIC actuels sont les suivants :
@@ -53,7 +53,7 @@ La fédération XMPP définit un déploiement externe basé sur le protocole XMP
 
   - Création de contacts fédérés XMPP dans le client Lync
 
-> [!important]  
+> [!IMPORTANT]  
 > La fonctionnalité XMPP de Lync Server 2013 est testée et prise en charge par Microsoft pour la fédération de messagerie instantanée avec Google Talk. Pour d’autres systèmes XMPP, contactez le fournisseur tiers pour vérifier qu’il prend en charge la fédération avec Lync Server 2013 et pour obtenir d’autres recommandations de déploiement et de dépannage.
 
 ## Fédération externe de serveur Edge, connectivité PIC et processus de déploiement d’utilisateurs XMPP
@@ -80,7 +80,7 @@ La fédération XMPP définit un déploiement externe basé sur le protocole XMP
 <td><p>Exécuter le Générateur de topologie pour modifier les paramètres du serveur Edge et créer et publier la topologie. Votre topologie Edge existante répliquera les modifications du magasin central de gestion vers le serveur Edge.</p></td>
 <td><p>Groupe Administrateurs du domaine et groupe RTCUniversalServerAdmins</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Vous pouvez modifier une topologie à l’aide d’un compte qui est membre du groupe d’utilisateurs locaux, mais la publication d’une topologie nécessite un compte membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.
 </div></td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Création d’une topologie de serveurs Edge et directeurs dans Lync Server 2013</a></p></td>

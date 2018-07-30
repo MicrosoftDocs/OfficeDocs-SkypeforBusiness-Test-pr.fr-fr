@@ -19,7 +19,7 @@ Dans Lync Server 2013, vous configurez la fonctionnalité de visioconférence d
 
 Quand la vidéo d’un participant à une conférence n’est pas disponible, l’expérience de la vue Galerie des utilisateurs peut être améliorée si vous déployez des photos haute résolution, une nouvelle fonctionnalité de Lync Server 2013. Les photos haute résolution permettent de remplacer les photos de contacts dont la résolution est plus faible et plus limitée, et qui sont stockées dans les services de domaine Active Directory. Les photos haute résolution sont stockées dans la boîte aux lettres Exchange 2013 de l’utilisateur correspondant. Ainsi, cela vous oblige à intégrer Lync Server 2013 à Exchange 2013. Pour plus d’informations, voir l’article du blog NextHop décrivant l’intégration d’Exchange 2013 et de Lync Server 2013 à l’adresse [http://go.microsoft.com/fwlink/?linkid=260987\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=260987%26clcid=0x40c).
 
-> [!note]  
+> [!NOTE]  
 > Le contenu des blogs et leurs URL peuvent être modifiés sans préavis.
 
 Vous pouvez afficher ou modifier les paramètres de la vue Galerie via le Panneau de configuration Lync Server 2013 ou à l’aide de l’une des applets de commande suivantes :

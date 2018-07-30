@@ -44,7 +44,7 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <td><p>Nom de domaine complet du pool</p></td>
 <td><p>webext.contoso.com</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > Le nom du sujet doit aussi être présent dans l’autre nom de sujet.
 </div></td>
 </tr>
@@ -57,7 +57,7 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <td><p>Autre nom du sujet</p></td>
 <td><p>URL simple de réunion</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Toutes les URL simples de réunion doivent se trouver dans l’autre nom de sujet. Chaque domaine SIP doit comporter au moins une URL simple de réunion active.
 </div></td>
 <td><p>meet.contoso.com</p></td>
@@ -77,7 +77,7 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <td><p>URL du service de découverte automatique externe</p></td>
 <td><p>lyncdiscover.contoso.com</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Si vous utilisez Microsoft Exchange Server, vous devrez également configurer les règles de proxy inverse pour les URL de découverte automatique Exchange et des services web.
 </div></td>
 </tr>
@@ -85,14 +85,14 @@ Vous devez également installer un certificat de serveur web public sur votre s
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Si votre déploiement interne se compose de plusieurs serveurs Standard Edition ou pools frontaux, vous devez configurer les règles de publication web pour chaque nom de domaine complet (FQDN) externe de la batterie de serveurs web. En outre, soit vous avez besoin d’un certificat et d’un port d’écoute web pour chacun, soit vous devez obtenir un certificat dont l’autre nom de sujet contient les noms utilisés par tous les pools, l’affecter à un port d’écoute web et le partager entre plusieurs règles de publication web.
 
 ## Créer une demande de certificat
 
 Une demande de certificat est créée sur le proxy inverse. Si vous créez une demande sur un autre ordinateur, vous devez tout de même exporter le certificat signé avec la clé privée, puis l’importer sur le proxy inverse une fois que vous l’avez reçu de l’autorité de certification publique.
 
-> [!note]  
+> [!NOTE]  
 > Une demande de certificat ou une demande de signature de certificat (CSR) est adressée à une autorité de certification publique approuvée afin de valider et signer la clé publique de l’ordinateur à l’origine de la demande. Lorsqu’un certificat est généré, une clé publique et une clé privée sont créées. Seule la clé publique est partagée et signée. Comme son nom l’indique, la clé publique est mise à disposition pour toute demande publique. La clé publique est destinée à l’usage des clients, serveurs et autres demandeurs devant échanger des informations de façon sécurisée et valider l’identité d’un ordinateur. La clé privée est conservée de façon sécurisée et utilisée uniquement par l’ordinateur ayant créé la paire de clés pour déchiffrer les messages chiffrés avec sa clé publique. La clé privée peut être utilisée à d’autres fins. Le chiffrement des données constitue la principale utilisation pour le proxy inverse. L’authentification du certificat au niveau de la clé de certificat constitue une autre utilisation. Celle-ci cherche à vérifier que le demandeur dispose de la clé publique de l’ordinateur ou que l’ordinateur pour lequel vous avez une clé publique est réellement l’ordinateur qu’il prétend être.
 
 > [!tip]  
@@ -145,5 +145,5 @@ Pour générer une demande de signature de certificat sur l’ordinateur sur leq
 
 20. Recherchez le fichier de demande que vous avez enregistré lors de l’étape précédente. Envoyez-le à votre autorité de certification publique.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Microsoft a dressé la liste des autorités de certification publiques qui respectent les impératifs liés aux communications unifiées. Celle-ci est accessible dans l’article suivant de la Base de connaissances : <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>.

@@ -47,7 +47,7 @@ En plus de spécifier la version des clients que vous souhaitez prendre en charg
 
 ## Modification de l’action par défaut à l’aide des applets de commande Lync Server PowerShell
 
-L’action par défaut à exécuter quand des utilisateurs tentent de se connecter à l’aide de clients qui ne sont pas explicitement pris en charge ou limités par une stratégie de version des clients peut également être gérée via l’interface de ligne de commande Windows PowerShell et l’applet de commande **set-csclientversionpolicy**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+L’action par défaut à exécuter quand des utilisateurs tentent de se connecter à l’aide de clients qui ne sont pas explicitement pris en charge ou limités par une stratégie de version des clients peut également être gérée via l’interface de ligne de commande Windows PowerShell et l’applet de commande **Set-CsClientVersionPolicy**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## Configuration de l’action par défaut pour bloquer l’accès
 
@@ -61,7 +61,7 @@ L’action par défaut à exécuter quand des utilisateurs tentent de se connect
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 
 ## Voir aussi
 

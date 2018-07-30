@@ -15,14 +15,14 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2016-12-08_
 
-> [!important]  
+> [!IMPORTANT]  
 > Si vous souhaitez utiliser la messagerie unifiée Exchange pour offrir aux utilisateurs de Voix Entreprise les services Répondeur automatique, Standard automatique et Outlook Voice Access, lisez <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013</a> dans la documentation de planification, puis suivez les instructions de cette section.
 
 Pour configurer la messagerie unifiée Exchange afin qu’elle fonctionne avec Voix Entreprise, vous devez effectuer les tâches suivantes :
 
   - Configurer des certificats sur le serveur exécutant les services de la messagerie unifiée Exchange
     
-    > [!note]  
+    > [!NOTE]  
     > Ajoutez tous les serveurs d’accès au client et de boîte aux lettres à tous les plans de numérotation URI SIP de messagerie unifiée. Autrement, le routage des appels sortant ne fonctionnera pas correctement.
 
   - Créez un ou plusieurs plans de numérotation URI SIP de messagerie unifiée ainsi que, le cas échéant, leurs numéros d’accès d’abonné, puis créez les plans de numérotation Lync Server correspondants
@@ -53,7 +53,7 @@ Notez également les points suivants :
 
   - Les étapes d’intégration s’effectuent sur les rôles serveur Exchange qui exécutent les services de messagerie unifiée, ainsi que sur le serveur qui exécute Lync Server 2013. Vous devez effectuer les étapes d’intégration de la messagerie unifiée Exchange Server avant de procéder à l’intégration de Lync Server 2013.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour voir quelles étapes d’intégration sont effectuées sur quels serveurs et par quels rôles d’administrateur, reportez-vous à <a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server 2013</a>.
 
 Les outils suivants doivent être disponibles sur chaque serveur qui exécute la messagerie unifiée Exchange:

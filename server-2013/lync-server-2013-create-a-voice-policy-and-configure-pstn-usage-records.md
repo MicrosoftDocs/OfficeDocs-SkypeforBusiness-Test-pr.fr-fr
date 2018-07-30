@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modifier une stratégie de voix, consultez la procédure de la rubrique [Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md) (contenu éventuellement en anglais).
 
-> [!note]  
+> [!NOTE]  
 > Chaque stratégie de voix doit être associée à au moins un enregistrement d’utilisation réseau téléphonique commuté (PSTN). Pour obtenir la liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement Voix Entreprise et consulter leurs propriétés, voir <a href="lync-server-2013-view-pstn-usage-records.md">Affichage des enregistrements d’utilisation RTC dans Lync Server 2013</a> (contenu éventuellement en anglais).
 
 ## Pour créer une stratégie de voix
@@ -36,7 +36,7 @@ Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modif
 
 5.  Si l’étendue de la stratégie de voix est Utilisateur, entrez un nom descriptif de la stratégie dans le champ **Nom**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si l’étendue de la stratégie de voix est Site, le champ <strong>Nom</strong> de la boîte de dialogue <strong>Nouvelle stratégie de voix</strong> est prérempli avec le nom du site et ne peut pas être modifié.
 
 6.  (Optionnel) Entrez une description supplémentaire de la stratégie de voix.
@@ -45,7 +45,7 @@ Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modif
     
       - **Voice mail escape** empêche les appels d’être immédiatement routés vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, déchargé ou en dehors de la plage.
         
-        > [!note]  
+        > [!NOTE]  
         > Cette fonctionnalité peut uniquement être configurée via le Lync Server Management Shell    
       - **Transfert d’appels** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Lync Server 2013 offre un éventail bien plus large d’options de configuration pour le transfert d’appels. Par exemple, si une entreprise ne souhaite pas autoriser les appels entrants à être transférés de manière externe vers le PSTN, un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
     
@@ -63,7 +63,7 @@ Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modif
     
       - Le **remplacement de stratégie de bande passante** permet aux administrateurs de remplacer les décisions de stratégie du contrôle d’admission des appels pour un utilisateur particulier. Désactivée par défaut.
         
-        > [!note]  
+        > [!NOTE]  
         > La stratégie sera uniquement remplacée pour les appels entrants vers l’utilisateur et non pour les appels sortants qui sont passés par l’utilisateur. Une fois la session établie, la consommation de bande passante est précisément enregistrée. Ce paramètre doit être utilisé avec modération et doit être réservé à la prise de décision appropriée en matière de contrôle d’admission des appels.    
       - **Suivi des appels malveillants** permet aux utilisateurs de consigner des appels malveillants (comme une alerte à la bombe) à l’aide de l’interface utilisateur du client, qui signale ensuite ces appels dans les enregistrements des détails des appels (CDR). Désactivée par défaut.
 
@@ -79,7 +79,7 @@ Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modif
         
         2.  Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement. Par exemple, vous pouvez créer un enregistrement d’utilisation PSTN appelé **Redmond** pour les employés qui travaillent à plein temps situés à Redmond et un autre appelé **RedmondTemps** pour les employés qui travaillent à temps partiel.
             
-            > [!note]  
+            > [!NOTE]  
             > Le nom de l’enregistrement d’utilisation PSTN doit être unique dans le déploiement Voix Entreprise. Une fois que l’enregistrement est enregistré, le champ <strong>Nom</strong> ne peut plus être modifié.        
         3.  Utilisez l’une des méthodes suivantes pour associer et configurer les itinéraires de cet enregistrement d’utilisation PSTN :
             
@@ -111,7 +111,7 @@ Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modif
 
 9.  Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour changer la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement, puis cliquez sur la flèche vers le haut ou vers le bas.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L’ordre dans lequel les enregistrements d’utilisation apparaissent dans la stratégie de voix est essentiel. Lync Server parcourt la liste de haut en bas. Nous vous conseillons d’organiser la liste par fréquence d’utilisation ; par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 10. Pour associer et configurer les enregistrements d’utilisation PSTN pour cette stratégie de voix, effectuez l’une des opérations suivantes :
@@ -132,7 +132,7 @@ Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modif
             
             2.  Dans le champ **Nom**, entrez un nom descriptif unique pour l’enregistrement.
                 
-                > [!note]  
+                > [!NOTE]  
                 > Le nom de l’enregistrement d’utilisation PSTN doit être unique dans le déploiement Voix Entreprise. Une fois que l’enregistrement est enregistré, le champ <strong>Nom</strong> ne peut plus être modifié.            
             3.  Utilisez l’une des méthodes suivantes pour associer et configurer les itinéraires de cet enregistrement d’utilisation PSTN :
                 
@@ -164,14 +164,14 @@ Procédez comme suit pour créer une stratégie de voix. Si vous souhaitez modif
 
 11. (Facultatif) Entrez un numéro pour tester la stratégie de voix, puis cliquez sur **OK**. Les résultats du test apparaissent sous **Numéro traduit à tester**.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez enregistrer une stratégie de voix qui ne réussit pour l’instant pas le test, puis la reconfigurer ultérieurement. Pour plus d’informations, voir <a href="lync-server-2013-test-voice-routing.md">Test du routage des communications vocales dans Lync Server 2013</a> (contenu éventuellement en anglais).
 
 12. Cliquez sur **OK**.
 
 13. Sur la page **Stratégie de la voix**, cliquez sur **Valider**, puis sur **Valider tout**.
     
-    > [!note]  
+    > [!NOTE]  
     > À chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> (contenu éventuellement en anglais) dans la documentation relative aux opérations.
 
 14. (Facultatif) Voicemail Escape détecte qu’un appel a été immédiatement intercepté par la messagerie vocale du téléphone portable de l’utilisateur, et déconnecte l’appel à la messagerie vocale du téléphone portable. L’appel continue ainsi de sonner sur les autres points de terminaison de l’utilisateur, lui offrant la possibilité de répondre. Pour plus d’informations sur la manière de configurer une stratégie de messagerie vocale, voir [Configuration de la redirection vers la messagerie vocale dans Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md) (contenu éventuellement en anglais).

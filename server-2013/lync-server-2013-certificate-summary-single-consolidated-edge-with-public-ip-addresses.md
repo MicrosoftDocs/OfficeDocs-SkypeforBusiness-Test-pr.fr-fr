@@ -19,7 +19,7 @@ Microsoft Lync Server 2013 utilise des certificats pour authentifier mutuelleme
 
 Le certificat affecté aux interfaces externes du serveur Edge est demandé auprès d’une autorité de certification (AC) publique. Celles qui réussissent à fournir des certificats aux fins de Communications unifiées sont répertoriées dans l’article suivant : [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) Lors de la demande du certificat, vous pouvez utiliser celle générée par le Assistant Déploiement de Lync Server ou la créer manuellement, ou via un processus fourni par la AC publique. Le certificat est affecté aux interfaces service Edge d’accès et service Edge de conférence web, ainsi qu’au service d’authentification audio/vidéo (à ne pas confondre avec le service Edge A/V, qui n’utilise aucun certificat pour crypter les flux audio et vidéo). L’interface serveur Edge peut utiliser un certificat provenant d’une AC interne (pour votre organisation) ou publique. Le certificat de l’interface interne utilise uniquement le nom de sujet et n’exige ni n’utilise aucune entrée SAN.
 
-> [!note]  
+> [!NOTE]  
 > Le tableau ci-dessous montre une seconde entrée SIP (sip.fabrikam.com) dans la liste des autres noms de sujets pour référence. Pour chaque domaine SIP de votre entreprise, vous devez ajouter un nom de domaine complet correspondant répertorié dans la liste des autres noms de sujets du certificat.
 
 ## Certificats requis pour un serveur Edge consolidé unique avec adresses IP publiques

@@ -29,7 +29,7 @@ La plupart des déploiements de Microsoft Lync Server 2013 qui implémentent le
 
 4.  Dans la page **Sous-réseau**, cliquez sur le sous-réseau à supprimer.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez supprimer plusieurs sous-réseaux à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez les différents sous-réseaux à supprimer. Pour sélectionner la totalité des sous-réseaux, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.

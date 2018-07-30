@@ -39,7 +39,7 @@ Par défaut, le format des URL simples est le suivant (par exemple, l’URL simp
     
     > [!tip]  
     > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est <strong>https://admin.</strong> <em>&lt;domaine&gt;</em> .    
-    > [!important]  
+    > [!IMPORTANT]  
     > Si vous modifiez une URL simple après son déploiement, sachez que cette modification risque d’altérer les enregistrements et les certificats DNS (Domain Name System) pour les URL simples. Si la modification altère la base d’une URL simple, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous modifiez https://lync.contoso.com/Meet de sorte qu’elle devienne https://meet.contoso.com, l’URL de base change, lync.contoso.com est remplacé par meet.contoso.com. Par conséquent, vous devez modifier les enregistrements et les certificats DNS de sorte qu’ils fassent référence à meet.contoso.com. Si vous avez modifié l’URL simple afin que https://lync.contoso.com/Meet devienne https://lync.contoso.com/Meetings, l’URL de base lync.contoso.com ne change pas. Il n’est donc pas nécessaire de modifier les enregistrements ou les certificats DNS. Cependant, lorsque vous modifiez un nom d’URL simple, vous devez exécuter l’applet de commande <strong>Enable-CsComputer</strong> sur chaque directeur et serveur frontal pour enregistrer la modification.
 
 ## Voir aussi

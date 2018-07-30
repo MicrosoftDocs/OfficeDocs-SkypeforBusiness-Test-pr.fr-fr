@@ -84,5 +84,5 @@ Le tableau ci-dessous répertorie les étapes de base impliquées dans le déplo
 </table>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Vous pouvez déployer un ou plusieurs pools de serveurs de conversations permanentes. Nous prenons en charge plusieurs pools de serveurs de conversations permanentes à des fins de contrôle au cours duquel les données générées dans une région données doivent rester dans cette région. Par exemple, si vous déployez un pool de serveurs de conversations permanentes à Chicago, et un autre à Zurich afin de respecter des règles applicables aux données en Suisse, les utilisateurs peuvent se connecter à des salles dans les deux pools de serveurs de conversations permanentes, à condition qu’ils y aient accès.

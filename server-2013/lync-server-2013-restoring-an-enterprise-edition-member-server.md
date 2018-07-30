@@ -34,7 +34,7 @@ Si un serveur exécutant l’un des rôles serveur suivants est défaillant, app
 
 1.  Démarrez avec un nouveau serveur ayant le même nom de domaine complet que le serveur ayant subi une défaillance, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
     
-    > [!note]  
+    > [!NOTE]  
     > Suivez les procédures de déploiement de serveur de votre organisation pour effectuer cette étape.
 
 2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, ouvrez une session sur le serveur que vous restaurez.

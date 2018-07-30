@@ -27,7 +27,7 @@ Le contrôle d’admission des appels est un réseau de régions, de sites et de
 
 4.  Dans la page **Globale**, cliquez sur la configuration **Globale**.
     
-    > [!note]  
+    > [!NOTE]  
     > Un seul réseau peut être configuré par déploiement de Microsoft Lync Server 2013, par conséquent, une seule configuration réseau figurera dans la liste. Il n’est pas possible de renommer la configuration Globale.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Vous pouvez utiliser le programme d’installation ou des applets de commande Lync Server Management Shell pour préparer le schéma Active Directory. L’applet de commande qui étend le schéma Active Directory est **Install-CsAdServerSchema**.
 
-> [!note]  
+> [!NOTE]  
 > L’applet de commande de préparaton de schéma (<strong>Install-CsAdServerSchema</strong>) doit accéder au contrôleur de schéma. Il est donc nécessaire que le service d’accès à distance au Registre soit en cours d’exécution et que la clé de Registre distante soit activée. Vous pouvez exécuter l’applet de commande localement sur le contrôleur de schéma si le service d’accès à distance au Registre ne peut pas y être activé. Pour plus d’informations sur l’accès à distance au Registre, reportez-vous à l’article 314837 « Comment gérer l’accès à distance au Registre » de la base de connaissances Microsoft, à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</a>.
 
 Après avoir préparé le schéma, vérifiez manuellement que la partition du schéma a été répliquée avant de procéder à la préparation de la forêt. Pour plus d’informations, reportez-vous à [Vérification de la réplication de schéma Active Directory dans Lync Server 2013](lync-server-2013-verifying-schema-replication.md).

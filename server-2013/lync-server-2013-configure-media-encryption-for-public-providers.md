@@ -19,7 +19,7 @@ Pour plus d’informations sur les exigences de licence et savoir comment exécu
 
 Si vous mettez en œuvre la fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez modifier deux paramètres : le niveau de chiffrement de Lync Server et la stratégie EnablePublicCloudAccess. Par défaut, le niveau de chiffrement est Requis. Vous devez définir ce paramètre sur Pris en charge. Si la stratégie EnablePublicCloudAccess a la valeur False, vous devez lui affecter la valeur **True** . Pour cela, utilisez Lync Server Management Shell.
 
-> [!important]  
+> [!IMPORTANT]  
 > Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. L’an prochain, la fédération avec Skype sera ajoutée à cette liste, permettant ainsi aux utilisateurs de Lync de joindre des millions de personnes par le biais de la messagerie instantanée et de la voix.
 
 ## Configurer la fédération pour Windows Live
@@ -35,5 +35,5 @@ Si vous mettez en œuvre la fédération audio/vidéo (A/V) avec Windows Live Me
     Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
     
-    > [!note]  
+    > [!NOTE]  
     > Cette étape est obligatoire car Windows Live Messenger ne prend pas en charge le chiffrement de l’audio/vidéo. La commande affecte un paramètre de prise en charge du chiffrement à votre stratégie globale au lieu d’exiger le chiffrement des données audio/vidéo. Les clients qui prennent en charge le chiffrement, tels que Lync 2013, l’utiliseront toujours.

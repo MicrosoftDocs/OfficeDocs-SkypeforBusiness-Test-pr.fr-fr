@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2017-03-07_
 
 Dans un environnement VDI (Virtual Desktop Infrastructure), les ordinateurs virtuels et l’ordinateur local de l’utilisateur doivent remplirent les conditions indiquées dans cette section.
 
-> [!note]  
+> [!NOTE]  
 > Consultez votre fournisseur de solution de virtualisation pour plus d’informations sur l’installation et le déploiement de l’environnement virtualisé. Pour plus d’informations sur le déploiement d’un environnement virtualisé basé sur Hyper-V et les services Bureau à distance, reportez-vous aux articles suivants de la bibliothèque Microsoft TechNet :<ul>
 > <li><p>Hyper-V à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247514</a></p></li>
 > <li><p>Services Bureau à distance dans Windows Server 2008 R2 à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/p/?linkid=247513</a></p></li></ul>

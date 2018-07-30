@@ -96,7 +96,7 @@ Les paramètres des journaux peuvent être modifiés globalement ou par site.
 
 Les paramètres des fichiers journaux de mise à jour des périphériques peuvent être modifiés à l’aide de Windows PowerShell et de l’applet de commande **Set-CsDeviceUpdateConfiguration**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 Les exemples suivants montrent comment modifier des paramètres à l’aide de **Set-CsDeviceUpdateConfiguration**.

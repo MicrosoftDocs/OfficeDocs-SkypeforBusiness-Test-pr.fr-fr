@@ -47,9 +47,9 @@ Voici les questions auxquelles vous devez répondre :
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
-    > [!note]  
+    > [!NOTE]  
     > Aucune configuration supplémentaire n’est requise pour UCWA. UCWA n’offre aucune configuration interne-uniquement équivalente.    
-    > [!important]  
+    > [!IMPORTANT]  
     > Si vous utilisez un serveur frontal ou des pools de serveurs frontauxLync Server 2013 et que <strong>vous n’avez pas</strong> de serveurs frontaux ou de pools de serveurs frontauxLync Server 2010, <strong>il n’y a pas d’exigences concernant la persistance basée sur les cookies</strong>. Si vous devez conserver des serveurs frontaux ou pools de serveurs frontauxLync Server 2010, les mêmes règles que dans Lync Server 2010 s’appliquent concernant la persistance basée sur les cookies.
 
   - **Souhaitez-vous prendre en charge les notifications push pour les appareils Apple iOS et Windows Phone ?**
@@ -58,11 +58,11 @@ Voici les questions auxquelles vous devez répondre :
     
     Si vous souhaitez prendre en charge les notifications push sur votre réseau Wi-Fi, en plus de la prise en charge des notifications push sur les réseaux de données ou 3G de vos fournisseurs d’appareils mobiles, vous devez ouvrir le port 5223 sortant sur votre réseau Wi-Fi d’entreprise. La prise en charge les notifications push sur le réseau Wi-Fi permet de prendre en charge les appareils mobiles qui utilisent uniquement le réseau Wi-Fi et ceux bénéficiant d’une mauvaise réception à l’intérieur.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L’ouverture du port TCP 5223 est nécessaire uniquement lors de la prise en charge d’appareils Apple exécutant le client Lync 2010 Mobile.    
     Si vous ne prenez pas en charge les notifications push, les utilisateurs d’appareils mobiles Apple et Windows Phone ne seront pas tenus au courant des événements (tels que les invitations de messagerie instantanée ou les messages manqués) qui se produisent lorsque l’application mobile est inactive.
     
-    > [!note]  
+    > [!NOTE]  
     > Les notifications push ne sont pas nécessaires sur les clients Lync 2013 Mobile sur appareils Apple. Les clients Lync 2013 Mobile sur Windows Phone utilisent les notifications push. La planification des notifications push et du centre d’échanges de notifications push demeure identique pour Lync Mobile sur Windows Phone et les appareils Apple qui ne peuvent pas exécuter le client Lync 2013 Mobile.
 
   - **Souhaitez-vous que tous les utilisateurs aient accès aux fonctionnalités de mobilité ou voulez-vous être en mesure de spécifier les utilisateurs qui ont accès à ces fonctionnalités ?**
@@ -133,7 +133,7 @@ Voici les questions auxquelles vous devez répondre :
     
     Pour que les utilisateurs puissent accéder aux fonctionnalités de mobilité et à Appel via le bureau, ils doivent être activés pour Voix Entreprise. Cependant, les utilisateurs qui ne sont pas activés pour Voix Entreprise peuvent participer à des conférences en cliquant sur le lien sur leur appareil mobile si une stratégie de voix appropriée leur a été affectée. Vous pouvez affecter une stratégie de voix spécifique à ces utilisateurs ou vous assurer qu’il existe une stratégie globale ou au niveau du site qui s’applique à eux. La stratégie de voix que vous affectez doit avoir des enregistrements d’utilisation RTC (réseau téléphonique commuté) et des itinéraires qui définissent les zones vers lesquelles les utilisateurs peuvent téléphoner pour rejoindre une conférence. Pour plus d’informations sur la définition d’une stratégie de voix, sur les enregistrements d’utilisation RTC et sur les itinéraires, reportez-vous à [Configuration des stratégies de voix, des enregistrements d’utilisation du RTC et des itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
     
-    > [!note]  
+    > [!NOTE]  
     > Les utilisateurs mobiles qui souhaitent utiliser Cliquez pour participer requièrent une stratégie de voix, ainsi que les enregistrements d’utilisation RTC et itinéraires des communications vocales associés, car un clic sur le lien sur l’appareil mobile entraîne l’établissement d’un appel sortant à partir de Lync Server 2013.
 
 ## Voir aussi

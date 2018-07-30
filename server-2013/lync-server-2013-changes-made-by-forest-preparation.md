@@ -209,7 +209,7 @@ La préparation de la forêt crée des entrées de contrôle d’accès privées
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > <strong>*</strong>Les entrées de contrôle d’accès qui ne sont pas héritées ne permettent pas d’accéder aux objets enfants qui figurent dans ces conteneurs. *Les entrées de contrôle d’accès qui sont héritées permettent d’accéder aux objets enfants qui figurent dans ces conteneurs.
 
 La préparation de la forêt exécute les tâches suivantes sur le conteneur de configuration, sous le contexte d’affectation de noms de la configuration :

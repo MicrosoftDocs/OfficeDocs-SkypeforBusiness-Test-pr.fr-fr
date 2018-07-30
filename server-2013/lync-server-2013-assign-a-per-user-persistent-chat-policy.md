@@ -52,7 +52,7 @@ Vous pouvez attribuer une stratégie de conversation persistante par utilisateur
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de conversation persistante**, effectuez l’une des opérations suivantes :
     
-    > [!note]  
+    > [!NOTE]  
     > Il existe de nombreuses stratégies que vous pouvez configurer à l’aide de la boîte de dialogue <strong>Attribuer des stratégies</strong> ; l’option <strong>&lt;Conserver tel quel&gt;</strong> est donc sélectionnée par défaut pour chaque stratégie de la boîte de dialogue. Ne modifiez pas ce paramètre pour continuer à utiliser la stratégie attribuée précédemment à l’utilisateur.    
       - Sélectionnez **\<Automatique\>** pour permettre à Lync Server 2013 de choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du site.
     

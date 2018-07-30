@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 La vue Transfert de fichier stocke des informations concernant les sessions de transfert de fichier entre homologues. Cette vue a été présentée dans Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > La vue Transfert de fichier contient toutes les colonnes de la <a href="lync-server-2013-sessiondetails-view.md">Vue SessionDetails</a>, en plus des colonnes énumérées ci-dessous.
 
 

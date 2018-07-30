@@ -19,7 +19,7 @@ Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en 
 
 Pour plus d’informations sur le fonctionnement des stratégies d’archivage, notamment la hiérarchie pour les stratégies globale, de site et utilisateur, voir la documentation de planification, de déploiement ou des opérations [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md).
 
-> [!note]  
+> [!NOTE]  
 > Si vous activez l’intégration de Microsoft Exchange pour votre déploiement, les stratégies d’archive permanente d’Exchange contrôlent si l’archivage est activé pour les utilisateurs hébergés sur Exchange 2013 dont les boîtes aux lettres sont placées en archive permanente. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server</a> dans la documentation de déploiement.<br />
 Vous devez spécifier les options appropriées dans les configurations d’archivage avant d’activer l’archivage des communications internes ou externes dans les stratégies d’archivage. Pour plus d’informations, voir <a href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage</a> dans la documentation de déploiement.
 

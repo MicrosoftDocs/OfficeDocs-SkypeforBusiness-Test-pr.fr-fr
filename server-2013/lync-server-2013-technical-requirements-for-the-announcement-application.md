@@ -41,7 +41,7 @@ L’application d’annonce utilise les ports suivants :
 
   - **Port 5071**   Utilisé pour les requêtes d’écoute SIP
 
-> [!note]  
+> [!NOTE]  
 > Ce port est le paramètre par défaut, que vous pouvez modifier en utilisant l’applet de commande <strong>Set-CsApplicationServer</strong>. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation Lync Server Management Shell.
 
 ## Conditions requises pour les fichiers audio

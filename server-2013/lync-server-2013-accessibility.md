@@ -110,7 +110,7 @@ Toutes les illustrations de l’Aide Lync Server 2013, dont les captures d’é
 
 Les sections suivantes présentent des informations sur les fonctionnalités, produits et services qui rendent Windows plus accessible aux personnes présentant un handicap.
 
-> [!note]  
+> [!NOTE]  
 > Les informations de cette section ne concernent que les utilisateurs qui ont acheté des produits Microsoft sous licence aux États-Unis. Si vous avez acheté ce produit dans un autre pays, vous pouvez utiliser la fiche d’informations des filiales livrée avec votre package logiciel ou accéder au site web Accessibilité de Microsoft à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</a> pour obtenir la liste des adresses et numéros de téléphone des services de support technique Microsoft. Vous pouvez contacter la filiale de votre région pour savoir si les produits et services décrits dans cette section y sont disponibles. Vous trouverez d’autres informations sur les fonctionnalités d’accessibilité incluses dans les produits Microsoft sur le site web Accessibilité des produits Microsoft.
 
 ## Fonctionnalités d’accessibilité de Windows

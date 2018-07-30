@@ -27,7 +27,7 @@ Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépe
 
 4.  Si le serveur Survivable Branch Server est associé, développez **Sites de succursale** , le nom du site de succursale, puis **Survivable Branch Appliances** .
     
-    > [!note]  
+    > [!NOTE]  
     > <strong>Survivable Branch Appliances</strong> dans l’interface utilisateur s’applique à la fois au serveur Survivable Branch Server et au Survivable Branch Appliance.
 
 5.  Cliquez avec le bouton droit sur le pool, le serveur ou l’appareil associé au serveur d’archivage, puis cliquez sur **Modifier les propriétés** .

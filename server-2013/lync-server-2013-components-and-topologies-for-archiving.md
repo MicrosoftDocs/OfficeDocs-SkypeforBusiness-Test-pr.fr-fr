@@ -55,7 +55,7 @@ Si vous utilisez des bases de données SQL Server distinctes pour l’archivage
 
   - Base de données principale d’un pool frontal Enterprise Edition
 
-> [!note]  
+> [!NOTE]  
 > Le serveur qui héberge la base de données d’archivage peut également héberger d’autres bases de données. Cependant, quand vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données d’archivage peuvent devenir très importants. C’est la raison pour laquelle nous vous déconseillons de colocaliser la base de données d’archivage avec la base de données principale.
 
 Si vous colocalisez la base de données d’archivage avec la base de données de surveillance, la base de données principale ou les deux à la fois, vous avez le choix entre utiliser une instance SQL unique pour la ou les bases de données ou utiliser une instance SQL distincte pour chaque base de données, tout en sachant qu’il existe les limitations suivantes :

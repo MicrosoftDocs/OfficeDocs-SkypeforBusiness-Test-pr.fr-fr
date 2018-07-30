@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2013-11-07_
 
-> [!important]  
+> [!IMPORTANT]  
 > Lorsque vous exécutez l’Assistant Certificat, assurez-vous d’être connecté à l’aide d’un compte membre d’un groupe auquel ont été affectées les autorisations appropriées pour le type de modèle de certificat que vous utiliserez. Par défaut, une demande de certificat Lync Server 2013 utilise le modèle de certificat Serveur web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat utilisant ce modèle, vérifiez que les autorisations Inscrire requises pour utiliser ce modèle ont été affectées au groupe.
 
 Un seul certificat est requis sur l’interface interne de chaque serveur Edge. Les certificats de l’interface interne peuvent être émis par une autorité de certification d’entreprise interne (AC) ou une autorité de certification publique. Si votre organisation dispose d’une autorité de certification interne déployée, vous pouvez réaliser des économies sur l’utilisation de certificats publics en faisant appel à l’AC interne pour émettre le certificat de l’interface interne. Vous pouvez utiliser une AC interne Windows Server 2008 ou Windows Server 2008 R2 pour créer ces certificats.
@@ -38,7 +38,7 @@ Pour configurer des certificats sur l’interface interne d’un serveur Edge au
 
 Si vous avez plusieurs sites dotés de serveurs Edge (autrement dit, une topologie Edge sur plusieurs sites) ou des ensembles distincts de serveurs Edge déployés derrière différents programmes d’équilibrage de charge, vous devez exécuter ces étapes pour chaque site disposant de serveurs Edge et pour chaque ensemble de serveurs Edge déployé derrière un programme d’équilibrage de charge différent.
 
-> [!note]  
+> [!NOTE]  
 > Les étapes des procédures présentées dans cette section sont basées sur l’utilisation d’une autorité de certification Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2 pour créer un certificat pour chaque serveur Edge. Pour obtenir des instructions pas à pas pour toute autre autorité de certification, consultez la documentation de l’autorité de certification concernée. Par défaut, tous les utilisateurs authentifiés disposent des droits de l’utilisateur appropriés pour demander des certificats.<br />
 Les procédures de cette section sont basées sur la création de demandes de certificats sur le serveur Edge dans le cadre du processus de déploiement Edge Server. Il est possible de créer des demandes de certificats à l’aide du serveur frontal. Cela vous permet d’achever la demande de certificat dès le début du processus de planification et de déploiement, avant de commencer le déploiement des serveurs Edge. Pour ce faire, vous devez vous assurer que le certificat demandé est défini avec une clé privée exportable.<br />
 Les procédures de cette section décrivent l’utilisation d’un fichier .cer et d’un fichier .p7b pour le certificat. Si vous utilisez un type de fichier différent, modifiez ces procédures en conséquence.
@@ -55,7 +55,7 @@ Les procédures de cette section décrivent l’utilisation d’un fichier .cer 
     
         https://ca01.contoso.net/certsrv
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous utilisez une AC Windows Server 2008 ou Windows Server 2008 R2 Entreprise, vous devez employer https, et non http.
 
 3.  Dans la page web certsrv de l’autorité de certification émettrice, sous **Sélectionnez une tâche** , cliquez sur **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou la liste de révocation de certificats** .
@@ -66,7 +66,7 @@ Les procédures de cette section décrivent l’utilisation d’un fichier .cer 
 
 6.  Enregistrez le fichier .p7b sur le lecteur de disque dur du serveur, puis copiez-le dans un dossier sur chaque serveur Edge.
     
-    > [!note]  
+    > [!NOTE]  
     > Vérifiez que le fichier .p7b contient tous les certificats du chemin d’accès de certification. Pour afficher le chemin d’accès de certification, ouvrez le certificat de serveur et cliquez sur le chemin d’accès de certification.
 
 ## Pour exporter la chaîne de certification de l’autorité de certification pour l’interface interne à l’aide de la console MMC (Microsoft Management Console)
@@ -113,7 +113,7 @@ Les procédures de cette section décrivent l’utilisation d’un fichier .cer 
 
 1.  Sur l’un des serveurs Edge, démarrez l’Assistant Déploiement, et en regard de **Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Exécuter** .
     
-    > [!note]  
+    > [!NOTE]  
     > Si plusieurs serveurs Edge d’un pool se trouvent à un même emplacement, vous pouvez exécuter l’Assistant Certificat sur n’importe lequel d’entre eux.<br />
     Après la première exécution de l’Étape 3, le bouton change et indique <strong>Réexécuter</strong> et une coche verte indiquant la fin de la tâche ne s’affiche qu’une fois que tous les certificats requis ont été demandés, installés et affectés.
 
@@ -133,7 +133,7 @@ Les procédures de cette section décrivent l’utilisation d’un fichier .cer 
     
       - Dans **Longueur en bits** , spécifiez la longueur en bits (généralement, la valeur par défaut est **2048** ).
         
-        > [!note]  
+        > [!NOTE]  
         > Les longueurs en bits plus élevées offrent davantage de sécurité, mais nuisent à la vitesse.    
       - Si le certificat doit être exportable, activez la case à cocher **Marquer la clé privée du certificat comme exportable** .
 
@@ -189,14 +189,14 @@ Les procédures de cette section décrivent l’utilisation d’un fichier .cer 
 
 6.  Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **Personnel** , puis sur **Certificats** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Si aucun certificat ne se trouve dans le magasin personnel de certificats de l’ordinateur local, aucune clé privée n’est associée au certificat importé. Vérifiez la demande et la procédure d’importation. Si le problème persiste, contactez votre administrateur ou fournisseur d’autorités de certification.
 
 7.  Dans le magasin personnel de certificats de l’ordinateur local, cliquez avec le bouton droit sur le certificat que vous exportez. Cliquez sur **Toutes les tâches** , puis sur **Exporter** .
 
 8.  Dans l’Assistant Exportation du certificat, cliquez sur **Suivant** . Sélectionnez **Oui, exporter la clé privée** . Cliquez sur **Suivant** .
     
-    > [!note]  
+    > [!NOTE]  
     > Si la sélection <strong>Oui, exporter la clé privée</strong> n’est pas disponible, cela signifie que la clé privée associée au certificat n’était pas marquée pour l’exportation. Pour pouvoir poursuivre l’exportation, vous devrez faire une nouvelle demande de certificat en vous assurant que le certificat est marqué de façon à autoriser l’exportation de la clé privée. Contactez votre administrateur ou fournisseur d’autorités de certification.
 
 9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **Échange d’informations personnelles – PKCS\#12 (.PFX)** , puis les éléments suivants :
@@ -205,7 +205,7 @@ Les procédures de cette section décrivent l’utilisation d’un fichier .cer 
     
       - Exporter toutes les propriétés étendues
         
-        > [!warning]  
+        > [!WARNING]  
         > Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <strong>Supprimer la clé privée si l’exportation s’est terminée correctement</strong> . Si vous sélectionnez cette option, vous serez obligé d’importer le certificat et la clé privée sur ce serveur Edge.    
     Cliquez sur **Suivant** pour continuer.
 

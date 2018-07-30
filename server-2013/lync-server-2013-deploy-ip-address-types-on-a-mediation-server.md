@@ -29,7 +29,7 @@ _**Dernière rubrique modifiée :** 2016-07-28_
     
       - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser.
         
-        > [!note]  
+        > [!NOTE]  
         > Cette option est recommandée pour les configurations IP version 6 (IPv6).    
       - **Limiter l’utilisation des services aux adresses IP sélectionnées** : sélectionnez cette option pour indiquer une adresse spécifique à utiliser sur le nouveau serveur. Si vous sélectionnez cette option, vous devez entrer une valeur pour l’adresse IP principale.
     
@@ -37,5 +37,5 @@ _**Dernière rubrique modifiée :** 2016-07-28_
     
       - **Adresse IP RTC** : entrez l’adresse IP RTC à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
         
-        > [!note]  
+        > [!NOTE]  
         > L’installation de cartes d’interface réseau (NIC) supplémentaires afin de prendre en charge la configuration de l’adresse IP PSTN pour Lync Server 2013 n’est pas prise en charge. Pour plus d’informations sur les configurations NIC prises en charge Lync Server 2013, reportez-vous à la rubrique <a href="lync-server-2013-server-hardware-platforms.md">Plateformes matérielles de serveur pour Lync Server 2013</a>.

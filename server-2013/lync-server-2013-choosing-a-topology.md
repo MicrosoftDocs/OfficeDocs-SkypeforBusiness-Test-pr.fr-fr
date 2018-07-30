@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Lorsque vous choisissez une topologie, vous pouvez utiliser l’une des options de topologie prises en charge suivantes :
 
-> [!note]  
+> [!NOTE]  
 > Sauf mention contraire, si vous disposez déjà d’une expérience de Microsoft Lync Server 2010, vous constaterez que l’aide de cette rubrique a subi peu de modifications.
 
   - [Serveur Edge consolidé unique avec des adresses IP privées et la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
@@ -30,7 +30,7 @@ Lorsque vous choisissez une topologie, vous pouvez utiliser l’une des options 
 
   - [Topologie Edge consolidée mise à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-> [!important]  
+> [!IMPORTANT]  
 > Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface Edge et l’équilibrage de la charge matérielle sur l’autre interface Edge.
 
 Le tableau ci-dessous récapitule les fonctionnalités associées aux topologies Microsoft Lync Server 2013 prises en charge. Le titre des colonnes indique la fonctionnalité disponible pour une option de configuration Edge donnée. Par exemple, vous pouvez voir que l’option Serveur Edge mise à l’échelle (charge DNS équilibrée) prend en charge la haute disponibilité, peut utiliser des adresses IP privées non routables (avec NAT) ou des adresses IP publiques routables affectées aux interfaces externes du serveur Edge et permet de réduire les coûts, car elle ne nécessite pas de programme d’équilibrage de la charge matérielle.
@@ -98,10 +98,10 @@ Les scénarios de basculement Edge pris en charge avec l’équilibrage de la ch
 
 **\*** Le basculement pour la connectivité PIC (Public IM Connectivity) et la fédération avec des serveurs exécutant Office Communications Server ne sont pas disponibles avec l’équilibrage de la charge DNS. Le basculement de la messagerie unifiée Exchange (utilisateur distant) en utilisant l’équilibrage de la charge DNS requiert Exchange Server 2010 SP1 ou une version ultérieure.
 
-> [!note]  
+> [!NOTE]  
 > Serveur Edge mis à l’échelle (équilibrage de charge DNS)<ul><li><p>Adresses IP publiques routables</p></li><li><p>Adresse IP privée non routable si la conversion d’adresses réseau symétrique est utilisée
 
-> [!note]  
+> [!NOTE]  
 > Si vous utilisez une adresse IP publique ou une adresse IP privée avec conversion d’adresses réseau, vous utilisez le même nombre d’adresses IP en fonction de la configuration que vous avez définie dans le Générateur de topologie. Vous pouvez configurer le serveur Edge pour utiliser une seule adresse IP avec des ports distincts par service ou utiliser des adresses IP distinctes par service, mais le même port (par défaut, TCP 443).
 </div></li></ul>
 Si vous décidez d’utiliser des adresses IP privées non routables avec conversion d’adresses réseau :<ul><li><p>Vous devez utiliser des adresses IP privées routables sur les trois interfaces externes</p></li><li><p>Vous devez configurer la conversion d’adresses réseau symétrique pour le trafic entrant et sortant</p></li></ul>
@@ -203,7 +203,7 @@ Les principaux points devant orienter la sélection de la topologie sont la haut
 
   - **Haute disponibilité**   Si la haute disponibilité est requise, déployez au moins deux serveurs Edge dans un pool. Un seul pool Edge est capable de prendre en charge jusqu’à douze serveurs Edge. Pour davantage de capacité, vous pouvez déployer plusieurs pools Edge. En règle générale, 10 % du nombre d’utilisateurs inclus dans la base auront besoin d’un accès externe.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le Générateur de topologie vous permet de configurer jusqu’à vingt serveurs Edge dans un même pool de serveurs Edge. Le nombre maximal de serveurs Edge testé et pris en charge dans un pool est douze et la prise en charge par le Générateur de topologie d’un nombre supérieur à douze ne doit pas être interprété comme une prise en charge implicite de plus de douze serveurs Edge dans un même pool de serveurs Edge.
 
   - **Équilibrage de la charge matérielle**   L’équilibrage de la charge matérielle est pris en charge pour la charge des serveurs EdgeLync Server 2013 quand les adresses IP publiquement routables font appel à des interfaces Edge externes. Par exemple, vous devez utiliser cette approche dans les situations où le basculement est nécessaire aux applications suivantes :
@@ -214,9 +214,9 @@ Les principaux points devant orienter la sélection de la topologie sont la haut
     
       - accès externe à la messagerie unifiée Exchange 2007 ou Exchange 2010 ;
         
-        > [!important]  
+        > [!IMPORTANT]  
         > L’équilibrage de la charge DNS pour Exchange 2010 SP1 et version ultérieure n’est pas pris en charge pour messagerie unifiée Exchange.    
     Ces trois applications continueront à fonctionner, mais ne pourront pas tirer parti de l’équilibrage de la charge DNS et ne se connecteront qu’au premier serveur Edge du pool. En cas d’indisponibilité de ce serveur, la connexion échoue. Par exemple, si plusieurs serveurs Edge sont déployés sur un pool en vue de gérer la charge de trafic fédérée, seul un proxy d’accès recevra le trafic alors que les autres seront inactifs.
 
-> [!important]  
+> [!IMPORTANT]  
 > L’utilisation de l’équilibrage de la charge DNS est recommandée pour la fédération avec des entreprises exécutant Lync Server 2010 et Microsoft Office 365. Notez que si la plupart des partenaires de la fédération utilisent Office Communications Server 2007 ou Office Communications Server 2007 R2, les performances risquent d’être sensiblement affectées.

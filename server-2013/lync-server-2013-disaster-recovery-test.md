@@ -74,7 +74,7 @@ Pour faciliter le basculement, cet enregistrement CNAME doit être mis à jour d
 
   - OCSServices.\<domaine\>
 
-> [!important]  
+> [!IMPORTANT]  
 > Pour plus d’informations sur les procédures d’administration et de gestion, reportez-vous à la rubrique <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sauvegarde et restauration de Lync Server 2013</a>.
 
 ## Voir aussi

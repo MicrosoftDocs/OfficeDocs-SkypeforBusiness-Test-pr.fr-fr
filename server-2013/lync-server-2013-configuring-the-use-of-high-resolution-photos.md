@@ -25,7 +25,7 @@ En revanche, dans Microsoft Lync Server 2013 les photos peuvent être stockées
 
   - 648 x 648 pixels, pour une utilisation dans Lync 2013 et Microsoft Lync Web App.
 
-> [!note]  
+> [!NOTE]  
 > Si vous disposez des ressources nécessaires, nous vous recommandons de télécharger des photos de 648 x 648 pixels. Cela permet de bénéficier de la résolution maximale et d’une qualité d’image optimale dans toutes les applications Office 2013. Chaque photo JPEG de 648 x 648 pixels et d’une profondeur de 24 bits équivaut à une taille de fichier d’environ 240 kilo-octets, ce qui signifie que vous avez besoin d’environ 1 mégaoctet d’espace disque pour quatre photos d’utilisateurs.
 
 Les photos haute résolution, qui sont accessibles par le biais des services web Exchange, peuvent être téléchargées par les utilisateurs qui exécutent Outlook 2013 Web App. Les utilisateurs ne peuvent mettre à jour que leur propre photo : les administrateurs, quant à eux, peuvent mettre à jour la photo de tout utilisateur à l’aide d’Exchange Management Shell et d’une série de commandes Windows PowerShell semblable à la suivante :
@@ -36,7 +36,7 @@ Les photos haute résolution, qui sont accessibles par le biais des services web
 
 La première commande de l’exemple ci-dessus utilise l’applet de commande Get-Content pour lire le contenu du fichier C:\\Photos\\Kenmyer.jpg et stocker les données dans une variable nommée $photo. Dans la seconde commande, l’applet de commande Exchange Set-UserPhoto est utilisée pour télécharger la photo et l’associer au compte d’utilisateur de Ken Myer.
 
-> [!note]  
+> [!NOTE]  
 > Dans cet exemple, le nom complet Active Directory de Ken Myer est utilisé comme identité de compte d’utilisateur. Vous pouvez également faire référence à un compte d’utilisateur au moyen d’autres identificateurs tels que l’adresse SMTP de l’utilisateur ou son nom d’utilisateur principal. Pour plus d’informations, voir la documentation de l’applet de commande Set-UserPhoto à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=268536%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=268536&amp;clcid=0x40C</a>.
 
 Télécharger la photo n’équivaut pas à l’assigner au compte d’utilisateur de Ken Myer. Cela entraîne simplement l’affichage d’un aperçu de cette photo dans la page Options d’Outlook Web App. Pour assigner cette photo au compte d’utilisateur, celui-ci doit cliquer sur **Enregistrer** dans la page Options ou l’administrateur doit exécuter la troisième commande de l’exemple. Cette troisième commande utilise le paramètre Save pour assigner la photo au compte d’utilisateur de Ken Myer :

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur Lync Server 2013 ayant des informations d’identification de services de domaine Active Directory (AD DS) nécessite un code confidentiel. Vous pouvez afficher les informations relatives au code confidentiel d’un utilisateur à partir du Panneau de configuration Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Vous pouvez afficher les informations de statut du code confidentiel, qui indiquent par exemple si le code confidentiel a été défini ou quand il a été modifié pour la dernière fois, mais vous ne pouvez pas voir le code confidentiel actif en consultant le statut de ce dernier. Si un utilisateur a perdu son code confidentiel, vous pouvez le réinitialiser en suivant les procédures décrites dans <a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Définition du code confidentiel de conférence rendez-vous d’un utilisateur dans Lync Server 2013</a>.
 
 ## Pour afficher le code confidentiel d’un utilisateur dans le Panneau de configuration Lync Server
@@ -48,7 +48,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
         > Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si le code confidentiel est verrouillé, vous devez le déverrouiller avant de pouvoir le définir. Pour déverrouiller le code confidentiel, cliquez sur l’utilisateur, sur <strong>Action</strong>, puis sur <strong>Déverrouiller le code confidentiel</strong>.
 
 6.  Cliquez sur un utilisateur dans les résultats de recherche, puis cliquez sur **Action** et sur **Afficher le statut du code confidentiel**.

@@ -65,12 +65,12 @@ Pour configurer votre déploiement Lync Server 2013 pour une utilisation hybrid
 
   - Microsoft Office Communications Server 2007 R2 avec Lync Server 2013 en local. La fédération Lync Server 2013serveur Edge et le serveur du tronçon suivant à partir du serveur Edge de fédération doit exécuter Lync Server 2013, et un Magasin central de gestion doit être déployé. Le serveur Edge et le pool doivent être déployés localement.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Même si cette topologie est prise en charge, certaines fonctionnalités peuvent être limitées. Par exemple, les informations de présence entre les utilisateurs Microsoft Lync Online et les utilisateurs Office Communications Server 2007 R2 locaux peuvent ne pas fonctionner comme prévu.
 
   - Microsoft Lync Server 2010 avec les mises à jour cumulatives pour Lync Server 2010 de mars 2013 appliqués (ou ultérieures) et outils d’administration de Lync Server 2013 installés en local. Le serveur Edge de fédération et le serveur de la jonction suivante du serveur Edge de fédération doivent exécuter Microsoft Lync Server 2010 avec les mises à jour cumulatives de mars 2013 (ou ultérieures) appliquées ou Lync Server 2013.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Les outils d’administration de Lync Server 2013 doivent être installés sur un serveur distinct pouvant se connecter au déploiement Lync Server 2010 existant. L’applet de commande Move-CsUser doit être exécutée à partir des outils d’administration de Lync Server 2013 connectés à votre déploiement local pour déplacer les utilisateurs de votre déploiement local vers Lync Online.
 
   - Un déploiement Lync Server 2013 avec tous les serveurs exécutant Lync Server 2013.
@@ -184,7 +184,7 @@ En plus de la configuration requise pour les ports pour les communications Lync 
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Si vous avez besoin de la fédération avec les partenaires exécutant Office Communications Server 2007, vous devez ouvrir les ports entrant/sortant RTP/UDP et RTP/TCP 50000-59999. Pour plus d’informations sur les exigences liées au pare-feu A/V, reportez-vous à <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013</a>. Pour plus d’informations sur les ports et les protocoles, reportez-vous à <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé des ports - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013</a>.
 
 ## Comptes et données utilisateur
@@ -193,7 +193,7 @@ Dans un déploiement Lync Server 2013 hybride, tout utilisateur que vous voulez
 
 Lorsque vous synchronisez des comptes utilisateur entre les déploiements Lync locaux et Lync Online avec AD FS et Dirsync, vous devez synchroniser les comptes Active Directory pour tous les utilisateurs Lync de votre organisation entre vos déploiements Lync locaux et en ligne, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.
 
-> [!important]  
+> [!IMPORTANT]  
 > Si l’utilisateur est créé à l’aide du portail en ligne pour Office 365, le compte utilisateur ne sera pas synchronisé avec Active Directory en local où cet utilisateur ne figurera pas. Si vous avez déjà créé des utilisateurs dans Lync Online et que vous souhaitez configurer le déploiement hybride avec le déploiement Lync Server local, reportez-vous à <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Déplacement des utilisateurs de Lync Online vers Lync local dans Lync Server 2013</a>.
 
 Prenez en compte les problèmes suivants liés aux utilisateurs lors de la planification d’un déploiement hybride.

@@ -49,7 +49,7 @@ Pour plus d’informations, voir la documentation de Lync Server Management Shel
 
 5.  Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer le contrôle d’admission des appels**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous souhaitez désactiver le contrôle d’admission des appels à travers votre déploiement, désactivez cette case à cocher.
 
 6.  Cliquez sur **Valider**.

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-10-06_
 
 Si un utilisateur a été activé pour Lync Server 2013, vous pouvez appliquer les stratégies appropriées à des utilisateurs spécifiques afin de les activer ou désactiver pour le serveur de conversations permanentes.
 
-> [!note]  
+> [!NOTE]  
 > Pour configurer et utiliser le serveur de conversations permanentes, vous devez d’abord utiliser le Générateur de topologie pour ajouter la prise en charge du serveur de conversations permanentes à la topologie, puis publier la topologie. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Ajout d’un serveur de conversation permanente à votre déploiement dans Lync Server 2013</a> dans la documentation de déploiement.<br />
 Pour configurer les paramètres de configuration du serveur de conversations permanentes, reportez-vous à <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configuration des options de serveur de conversation permanente au niveau global ou pour un pool de serveurs de conversation permanente dans Lync Server 2013</a> dans la documentation de déploiement.
 
@@ -35,7 +35,7 @@ Utilisez la procédure décrite dans cette rubrique pour appliquer une stratégi
 
 5.  Dans **Modifier l’utilisateur Lync Server** sous **Stratégie conversation permanente**, sélectionnez la stratégie utilisateur conversation permanente à appliquer.
     
-    > [!note]  
+    > [!NOTE]  
     > Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent la stratégie effective par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
 
 6.  Cliquez sur **Valider**.

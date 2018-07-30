@@ -125,7 +125,7 @@ Dans Lync 2010, les photos d’utilisateur sont gérées sur le serveur par le 
 
 Une valeur de hachage est également associée aux photos d’utilisateur figurant dans le statut de présence. Le client Lync l’utilise pour déterminer s’il existe une image plus récente disponible. Il est automatiquement averti des modifications apportées au fichier image dans le statut de présence.
 
-> [!note]  
+> [!NOTE]  
 > Comme les photos ne sont pas stockées dans la base de données GalContacts.db, le téléchargement des photos d’utilisateur ne dépend pas du paramètre <strong>AddressBookAvailability</strong> dans la stratégie de client (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>).
 
 La requête adressée au service d’interrogation web de carnet d’adresses inclut les attributs suivants :
@@ -197,7 +197,7 @@ Vous pouvez définir la stratégie de client de manière à activer le paramètr
 
 Lorsqu’une image est transférée dans la boîte aux lettres de l’utilisateur, Exchange crée automatiquement une version basse résolution de l’image, qui peut être utilisée dans des applications clientes. La photo de l’utilisateur est elle aussi mise à jour dans les services de domaine Active Directory.
 
-> [!note]  
+> [!NOTE]  
 > Lorsqu’un fichier image est mis à jour dans les services de domaine Active Directory, une image de 48 × 48 pixels y est créée et utilisée pour l’attribut thumbnailPhoto. Les éventuelles images existantes sont remplacées. Ainsi, si vous avez ajouté une image de 96 × 96 pixels aux services de domaine Active Directory, elle est remplacée par la nouvelle image de 48 × 48 pixels. Cela n’est important que si des utilisateurs inclus dans votre environnement utilisent des clients Lync 2010, car ces clients extraient les photos d’utilisateur à partir des services de domaine Active Directory. Vous pouvez importer des images de 96 × 96 pixels pour remplacer celles créées par les services de domaine Active Directory si votre organisation utilise des clients Lync 2010.
 
 ## Prise en charge des photos d’utilisateur dans Lync 2013

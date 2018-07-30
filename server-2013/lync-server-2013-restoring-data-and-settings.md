@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-17_
 
 Si vous avez mis en œuvre une topologie de récupération d’urgence avec des pools associés, que l’un de ces pools frontaux est défaillant et que vous devez rétablir rapidement le service pour vos utilisateurs, voir [Basculement vers un pool dans Lync Server 2013](lync-server-2013-failing-over-a-pool.md). Autrement, utilisez les informations des rubriques suivantes ainsi que les fiches de travail fournies dans l’[Feuilles de travail de sauvegarde et de restauration](lync-server-2013-backup-and-restoration-worksheets.md) pour restaurer Lync Server après une défaillance ou une panne.
 
-> [!note]  
+> [!NOTE]  
 > Pour réduire le temps mort et le risque de perte de données, appliquez les procédures de restauration décrites dans ce document uniquement si les procédures de dépannage ne vous permettent pas d’identifier et de résoudre le problème. Lors du dépannage, essayez de limiter l’impact sur les autres serveurs et composants lors de l’arrêt et du redémarrage des serveurs.
 
 ## Dans cette section

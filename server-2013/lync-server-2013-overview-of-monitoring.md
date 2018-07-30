@@ -23,7 +23,7 @@ Dans Microsoft Lync Server 2013, la surveillance est utilisée pour collecter d
 
   - un autre utilisateur via une conversation P2P (comme la messagerie instantanée ou un appel audio).
 
-> [!note]  
+> [!NOTE]  
 > Lync Server 2013 fait le suivi des informations relatives à chaque session : qui a appelé qui, les points de terminaison utilisés lors de la session, la durée de la session, la qualité de la session telle qu’elle a été perçue, etc. Cependant, Lync Server n’enregistre pas et ne stocke pas l’appel à proprement parler. Il en va de même pour les conversations par messagerie instantanée : même si Lync Server enregistre des informations sur les conversations par messagerie instantanée, il ne conserve pas un enregistrement de chaque message instantané envoyé lors de la conversation.
 
 Les informations détaillées sur l’appel collectées par Lync Server peuvent s’avérer utiles dans de nombreuses situations, notamment celles qui suivent :

@@ -31,5 +31,5 @@ Avant de publier votre topologie, installez les bases de données du serveur de 
 
 5.  Dans la page **Assistant Publication terminé** , assurez-vous que la topologie a été publiée correctement, puis cliquez sur **Terminer** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Une fois la topologie publiée, vous devez configurer la prise en charge du serveur de conversations permanentes pour permettre l’archivage du contenu.

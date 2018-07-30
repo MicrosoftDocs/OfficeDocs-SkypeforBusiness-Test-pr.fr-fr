@@ -21,7 +21,7 @@ Pour créer et configurer un directeur, vous devez déployer le rôle serveur di
 
 Vous pouvez implémenter un seul serveur directeur ou un pool de directeurs. Le directeur est toujours un serveur ou un pool distinct, il n’est pas colocalisé avec un autre rôle serveur dans Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Si vous ne déployez pas les directeurs, les serveur frontal ou le pool de serveurs frontaux endosseront le rôle des directeur.
 
 La charge du pool de directeurs doit être équilibrée. Vous pouvez effectuer l’une des opérations suivantes :

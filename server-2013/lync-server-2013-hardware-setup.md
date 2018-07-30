@@ -27,7 +27,7 @@ La configuration du matériel et d’autres composants requis dans l’infrastru
     
     Pour plus d’informations sur la mise à jour à l’aide des partages de fichiers dans un système de fichiers DFS, reportez-vous à [Configuration du stockage des fichiers pour Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
     
-    > [!warning]  
+    > [!WARNING]  
     > Le partage de fichiers de Lync Server 2013, Enterprise Edition ne peut pas se trouver sur le serveur frontal.
 
   - Installez et configurez le programme d’équilibrage de la charge matérielle pour les services web. Si l’équilibrage de la charge DNS (Domain Name System) est déployé, vous devez tout de même utiliser des programmes d’équilibrage de la charge matérielle pour ces pools, mais uniquement pour le trafic HTTP/HTTPS. Les programmes d’équilibrage de la charge matérielle sont utilisés pour le trafic HTTPS provenant des clients et transitant via les ports 443 et 80. Même si le recours à ces programmes est toujours nécessaire pour vos pools de serveurs, leur configuration et leur administration concernera avant tout le trafic HTTP/HTTPS avec lequel les administrateurs des programmes d’équilibrage de la charge matérielle sont familiarisés..

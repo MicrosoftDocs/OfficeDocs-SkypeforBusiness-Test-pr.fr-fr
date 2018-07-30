@@ -17,17 +17,17 @@ _**Dernière rubrique modifiée :** 2014-02-07_
 
 Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d’agents.
 
-> [!note]  
+> [!NOTE]  
 > Un administrateur (par exemple, CsVoiceAdministrator) doit activer les utilisateurs de Voix Entreprise et Lync Server pour qu’ils puissent être affectés aux groupes d’agents. Si vous faites partie des responsables de groupes de réponse délégués pour un flux de travail géré, vous pouvez créer des groupes d’agents et les utiliser dans les flux de travail que vous gérez.
 
-> [!important]  
+> [!IMPORTANT]  
 > Lorsque vous affectez des utilisateurs en tant qu’agents de groupe de réponse, informez-les que, si leur mode de confidentialité est activé, ils doivent rechercher des contacts « RGS Presence Watcher » et les rajouter à leur liste de contacts. Les agents dont le mode de confidentialité est activé, mais qui n’ont aucun contact « RGS Presence Watcher » dans leur liste de contacts, ne peuvent pas recevoir d’appels vers le groupe de réponse. Les agents dont le mode de confidentialité n’est pas activé ne seront pas affectés.
 
 ## Pour utiliser Panneau de configuration Lync Server pour créer ou modifier un groupe d’agents
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous faites partie des responsables de groupes Response Group délégués pour un flux de travail géré, vous pouvez créer des groupes et les utiliser dans les flux de travail que vous gérez.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
@@ -52,7 +52,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
 
 8.  Dans **Temps d’alerte (secondes)**, spécifiez combien de temps (en secondes) un appel doit sonner pour qu’il soit transmis à un agent disponible si l’agent auquel l’appel était initialement destiné ne peut pas y répondre (la durée par défaut est 20 secondes).
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le paramètre de temps d’alerte d’agent ne peut pas dépasser 180 secondes. S’il dépasse 180 secondes, l’application cliente refusera l’appel, car la durée d’attente de la transaction SIP sera dépassée.
 
 9.  Dans **Méthode de routage**, sélectionnez la méthode pour transmettre les appels aux agents dans le groupe comme suit :
@@ -89,7 +89,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
         
           - Si la liste de distribution contient des utilisateurs pour lesquels Lync Server 2010 est activé mais pas Voix Entreprise, ces utilisateurs sont ajoutés au groupe d’agent en tant qu’agents dysfonctionnels. Assurez-vous que tous les membres de la liste de distribution ont Voix Entreprise activée pour leurs comptes d’utilisateurs.
         
-        > [!important]  
+        > [!IMPORTANT]  
         > Si vous utilisez une liste de distribution de courrier électronique, les appartenances au groupe d’agents masquées ou les listes masquées peuvent devenir visible pour l’administrateur ou les utilisateurs de l’application Response Group.        
         Les appartenances au groupe d’agents masquées ou les listes masquées peuvent devenir visibles comme suit :
         
@@ -113,7 +113,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     
         New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le paramètre de temps d’alerte d’agent ne peut pas dépasser 180 secondes. S’il dépasse 180 secondes, l’application cliente refusera l’appel, car la durée d’attente de la transaction SIP sera dépassée.
 
 4.  Confirmez la création du groupe d’agents. Exécutez :

@@ -33,5 +33,5 @@ De plus, si votre déploiement inclut des périphériques analogiques, vous dev
 
 Pour savoir comment configurer une passerelle analogique, reportez-vous à « Planification du déploiement des périphériques analogiques », à l’adresse [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537), dans la bibliothèque TechNet Lync Server 2010. (Les périphériques analogiques fonctionnent de la même manière dans Lync Server 2013 que dans Lync Server 2010.)
 
-> [!important]  
+> [!IMPORTANT]  
 > Vous pouvez configurer le commutateur pour Enhanced 9-1-1 (E9-1-1) si celui-ci prend en charge cette fonctionnalité.

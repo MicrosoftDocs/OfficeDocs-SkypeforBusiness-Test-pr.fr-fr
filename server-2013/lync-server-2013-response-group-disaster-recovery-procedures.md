@@ -39,7 +39,7 @@ Appliquez la procédure suivante pour préparer et effectuer une récupération 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    > [!Caution]  
+    > [!CAUTION]  
     > Si vous ne remplacez pas les paramètres du pool de sauvegarde et que le pool principal ne peut pas être récupéré, les paramètres du pool principal seront perdus. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planification de la récupération d’urgence des groupes Response Group dans Lync Server 2013</a>.
 
 4.  Vérifiez que l’importation a réussi en affichant les groupes Response Group importés. Ces groupes appartiennent toujours au pool principal. Procédez comme suit :
@@ -88,7 +88,7 @@ Appliquez la procédure suivante pour préparer et effectuer une récupération 
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Vous devez utiliser le paramètre –ShowAll ou le paramètre –Owner. Si vous n’utilisez aucun de ces paramètres, les groupes Response Group que vous avez importés dans le pool de sauvegarde ne seront pas répertoriés dans les résultats renvoyés par les applets de commande.
 
 5.  Vérifiez que l’importation a réussi en passant un appel à un groupe Response Group importé et en vérifiant que l’appel est correctement géré.
@@ -97,7 +97,7 @@ Appliquez la procédure suivante pour préparer et effectuer une récupération 
 
 7.  Gérez et modifiez les groupes Response Group importés comme d’habitude.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Pendant que les groupes Response Group sont dans le pool de sauvegarde, vous devez utiliser Lync Server Management Shell pour les gérer. Vous ne pouvez pas utiliser le Panneau de configuration Lync Server pour gérer les groupes Response Group que vous avez importés dans le pool de sauvegarde.
 
 8.  Une fois le pool principal restauré et la restauration automatique terminée, exportez les groupes Response Group du pool principal qui ont été importés dans le pool de sauvegarde. Dans la ligne de commande, tapez :
@@ -112,7 +112,7 @@ Appliquez la procédure suivante pour préparer et effectuer une récupération 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous reconstruisez un pool pendant la récupération, que ce soit avec le même nom de domaine complet (FQDN) ou avec un nom FQDN différent, vous devez utiliser le paramètre –OverwriteOwner. Généralement, vous pouvez toujours utiliser le paramètre –OverwriteOwner lorsque vous importez à nouveau des groupes Response Group dans le pool principal.    
     Si vous avez déployé un nouveau pool (avec le même nom FQDN ou avec un nom différent) pour remplacer le pool principal, et que vous voulez utiliser les paramètres de niveau application du pool de sauvegarde du nouveau pool, incluez le paramètre –ReplaceExistingSettings. Dans la ligne de commande, tapez :
     
@@ -122,7 +122,7 @@ Appliquez la procédure suivante pour préparer et effectuer une récupération 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Si vous ne voulez pas remplacer les paramètres de niveau application et le fichier audio d’attente musicale par défaut du nouveau pool par les paramètres du pool de sauvegarde, le nouveau pool utilise les paramètres de niveau application par défaut.
 
 10. Vérifiez que la nouvelle importation dans le pool principal a réussi en affichant la configuration des groupes Response Group importés. Procédez comme suit :
@@ -177,5 +177,5 @@ Appliquez la procédure suivante pour préparer et effectuer une récupération 
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
-    > [!note]  
+    > [!NOTE]  
     > Cette étape crée un fichier avec la configuration exportée, puis le supprime du pool de sauvegarde.

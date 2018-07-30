@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2014-10-28_
 
 Exécutez l’une des deux procédures décrites dans cette rubrique sur le site de succursale, après avoir terminé les tâches indiquées dans [Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013 - Tâches pour un site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
 
-> [!important]  
+> [!IMPORTANT]  
 > Pour exécuter cette procédure, vous devez être membre du groupe RTCUniversalSBATechnicians.
 
 ## Pour déployer le Survivable Branch Appliance
@@ -28,7 +28,7 @@ Exécutez l’une des deux procédures décrites dans cette rubrique sur le site
 
   - Installez Microsoft Lync Server 2010 sur un ordinateur exécutant Windows Server 2008 ou Windows Server 2008 R2, comme si vous installiez un rôle serveur Lync Server 2013.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour plus d’informations sur l’installation de Lync Server, reportez-vous à <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a> dans la documentation de déploiement.
 
 **Étape suivante**: [Configuration des utilisateurs pour la résistance de sites de succursale dans Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)

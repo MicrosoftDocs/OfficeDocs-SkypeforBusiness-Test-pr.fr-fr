@@ -25,7 +25,7 @@ Cette rubrique décrit l’infrastructure et la configuration logicielle requise
 
   - Pour être en mesure de publier un pool de serveurs frontaux Enterprise Edition, le serveur principal SQL Server doit être joint au domaine dans lequel vous déployez les serveurs, être en ligne et configuré à l’aide des règles de pare-feu appropriées pour le mettre à la disposition des utilisateurs distants. Pour obtenir des informations sur la définition des exceptions du pare-feu, reportez-vous à [Description des exigences de pare-feu pour SQL Server avec Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md). Pour obtenir d’autres informations sur la configuration de SQL Server, reportez-vous à [Configuration de SQL Server pour Lync Server 2013](lync-server-2013-configure-sql-server-for-lync-server.md).
     
-    > [!note]  
+    > [!NOTE]  
     > Le serveur serveur Standard Edition dispose d’une base de données colocalisée qui acceptera la configuration publiée. Vous devez d’abord exécuter la tâche de configuration <strong>Préparer d’abord le serveur Standard Edition</strong> dans l’Assistant Déploiement de Lync Server.
 
 ## Voir aussi

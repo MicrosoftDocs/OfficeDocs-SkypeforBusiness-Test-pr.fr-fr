@@ -28,7 +28,7 @@ La prise en charge logicielle des clients et périphériques d’un déploiement
   -   
     [Comment les photos d’utilisateur sont affichées dans Lync](how-user-photos-are-displayed-in-lync.md)
 
-> [!note]  
+> [!NOTE]  
 > Lync Phone Edition fonctionne de la même manière avec Lync Server 2013 qu’avec Lync Server 2010. Pour plus d’informations sur la prise en charge logicielle pour les périphériques, reportez-vous aux rubriques suivantes dans la bibliothèque TechNet Lync Server 2010 :<ul>
 > <li><p>Composants Lync Server 2010 requis pour les périphériques, à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=256488&amp;clcid=0x40C</a></p></li>
 > <li><p>Prise en charge du système de périphériques et de l’infrastructure, à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=256489%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=256489&amp;clcid=0x40C</a></p></li></ul>

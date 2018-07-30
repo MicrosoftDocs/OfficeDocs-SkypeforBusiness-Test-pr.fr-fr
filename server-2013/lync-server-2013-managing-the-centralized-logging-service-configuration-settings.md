@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Le service de journalisation centralisée est contrôlé et configuré par des paramètres créés et utilisés par le contrôleur service de journalisation centralisée (CLSController) pour envoyer des commandes à l’agent service de journalisation centralisée (CLSAgent) de l’ordinateur. L’agent traite les commandes qui lui sont envoyées et (dans le cas d’une commande de démarrage) utilise la configuration des scénarios, fournisseurs, tailles de journaux, durées des suivis et indicateurs pour commencer la collecter des journaux de suivi selon les informations de configuration fournies.
 
-> [!important]  
+> [!IMPORTANT]  
 > Toutes les cmdlets Windows PowerShell répertoriées pour le service de journalisation centralisée ne sont pas conçues pour être utilisées avec des déploiements de Lync Server 2013 sur sites. Bien qu’elle peuvent sembler fonctionner, les cmdlets suivantes ne sont pas conçues pour fonctionner avec les déploiements Lync Server 2013 sur sites :
 > <ul>
 > <li><p><strong>Cmdlets CsClsRegion :</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</a>, et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</a>.</p></li>

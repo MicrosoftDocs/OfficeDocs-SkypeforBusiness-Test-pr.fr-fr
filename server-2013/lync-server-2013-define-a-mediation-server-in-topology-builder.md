@@ -35,7 +35,7 @@ Suivez les étapes présentées dans cette rubrique pour utiliser le Générateu
 
 5.  Dans **Sélectionner des rôles serveur colocalisés** , activez l’option **Colocaliser le serveur de médiation**.
     
-    > [!note]  
+    > [!NOTE]  
     > <ul>    
 > <li><p>Si le type de pool de serveurs frontaux sélectionné correspond à la version Enterprise Edition, le composant serveur de médiation est installé sur tous les serveurs frontaux de ce pool de serveurs frontaux.</p></li>    
 > <li><p>Le <strong>Pool du tronçon suivant</strong> utilisé par le serveur de médiation est le pool de serveurs frontaux sur lequel le serveur de médiation est colocalisé.</p></li>    
@@ -46,7 +46,7 @@ Suivez les étapes présentées dans cette rubrique pour utiliser le Générateu
 
 7.  Cliquez sur **Terminer** quand vous avez terminé d’associer un ou plusieurs homologues au pool de serveurs frontaux.
     
-    > [!note]  
+    > [!NOTE]  
     > Avant de passer à l’étape suivante du processus de déploiement Voix Entreprise, assurez-vous que le pool de serveur de médiation (c’est-à-dire le pool de serveurs frontaux avec le composant serveur de médiation colocalisé) utilise les noms de domaine complets que vous avez spécifiés.
 
 8.  Suivez ensuite les procédures décrites dans la section [Publication de la topologie dans Lync Server 2013](lync-server-2013-publish-the-topology.md) de la documentation du Guide de déploiement pour ajouter le serveur de médiation à votre topologie avant de passer à la prochaine étape qui consiste à modifier les ports d’écoute du serveur de médiation, le cas échéant. Vous devez publier votre topologie chaque fois que vous utilisez le Générateur de topologie pour définir ou modifier votre topologie.
@@ -57,7 +57,7 @@ Suivez les étapes présentées dans cette rubrique pour utiliser le Générateu
 
 Si vous avez déjà déployé des serveurs de médiation colocalisés sur des pools de serveurs frontaux au niveau de ce site, vous pouvez ignorer cette section et [Installation des fichiers du serveur de médiation dans Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) avant de passer à [Configuration des jonctions dans Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-> [!note]  
+> [!NOTE]  
 > Dans cette section, nous partons du principe que vous avez déjà configuré au moins un pool de serveurs frontaux, comme indiqué dans <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013</a> et <a href="lync-server-2013-publish-the-topology.md">Publication de la topologie dans Lync Server 2013</a> au sein de la documentation du Guide de déploiement.
 
 ## Pour ajouter un serveur de médiation
@@ -74,7 +74,7 @@ Si vous avez déjà déployé des serveurs de médiation colocalisés sur des po
     
       - Si vous souhaitez déployer plusieurs serveurs de médiation dans le pool afin de fournir la haute disponibilité, sélectionnez **Pool de plusieurs ordinateurs** .
         
-        > [!note]  
+        > [!NOTE]  
         > Vous devez déployer l’équilibrage de charge DNS pour prendre en charge les pools de serveur de médiation qui comportent plusieurs serveurs de médiation. Pour plus d’informations, reportez-vous à la section relative à l’utilisation de l’équilibrage de charge DNS sur les pools de serveur de médiation dans la rubrique <a href="lync-server-2013-dns-load-balancing.md">Équilibrage de charge DNS dans Lync Server 2013</a> de la documentation de planification.    
       - Si vous ne souhaitez déployer qu’un seul serveur de médiation dans le pool, car vous n’avez pas besoin de la haute disponibilité, sélectionnez **Pool d’un seul ordinateur** . Ignorez l’étape suivante.
 
@@ -104,7 +104,7 @@ Suivez les étapes présentées dans cette rubrique pour utiliser le Générateu
 
 4.  Spécifiez la plage de ports d’écoute TLS ou TCP que le serveur de médiation doit utiliser pour accepter les connexions entrantes en provenance des passerelles RTC.
     
-    > [!note]  
+    > [!NOTE]  
     > L’entrée d’une plage de ports TCP n’est pas nécessaire, si l’option <strong>Activer le port TCP</strong> n’est pas activée. Ce paramètre est facultatif.
 
 Vous devez ensuite [Définition d’une passerelle dans le générateur de topologie dans Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md), puis installer les fichiers sur chaque serveur de médiation du pool en respectant les procédures décrites dans [Installation des fichiers du serveur de médiation dans Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md).

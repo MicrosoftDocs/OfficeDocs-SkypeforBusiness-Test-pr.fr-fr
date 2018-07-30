@@ -21,7 +21,7 @@ Si une application SNMP est installée et que le service d’informations sur l�
 
 Pour plus d’informations, voir [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
-> [!note]  
+> [!NOTE]  
 > Les adresses MAC ne sont pas disponibles sur les ordinateurs qui exécutent Windows 8.
 
 ## Pour configurer l’URL de l’application SNMP

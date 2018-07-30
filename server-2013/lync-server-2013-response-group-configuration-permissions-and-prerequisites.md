@@ -110,7 +110,7 @@ Pour configurer les groupes Response Group, vous devez être membre d’au moins
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > <strong>(1)</strong> Un objet utilisateur services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié. Un administrateur ou autre membre de groupe Active Directory délégué disposant des autorisations nécessaires pour ajouter des utilisateurs à un groupe de sécurité (par exemple, Administrateur, Opérateurs de compte) doit ajouter un objet utilisateur au groupe de sécurité mentionné pour que l’utilisateur puisse exécuter les fonctions indiquées. <strong>(2)</strong> Uniquement pour les flux de travail que le groupe CsResponseGroupAdministrator a affectés au groupe CsResponseGroupManager. <strong>(3)</strong> Un responsable Response Group peut affecter un autre membre du groupe CsResponseGroupManager à un flux de travail dont le responsable actuel a déjà la charge. <strong>(4)</strong> Le groupe CsViewOnlyAdministrator peut uniquement exécuter les applets de commande Lync Server Management Shell avec le verbe « Get ».
 
 ## Composants requis pour la configuration de Response Group
@@ -167,7 +167,7 @@ Pour modifier le fichier Web.config, procédez comme suit :
 
 Cette section vous est applicable seulement si votre organisation doit prendre en charge les caractères Yi, Meng ou Zang.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur les caractères Yi, Meng et Zang et pour savoir en quoi ils sont essentiels à votre déploiement, reportez-vous au document relatif aux jeux de caractères GB18030 à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</a>.
 
 Pour assurer une prise en charge des caractères Yi, Meng ou Zang, vous devez modifier le classement de la base de données Rgsconfig. Modifiez le classement de la colonne **Nom** des tableaux suivants dans chaque base de données Rgsconfig :

@@ -29,9 +29,9 @@ Pour effectuer correctement cette procédure, vous devez être connecté au serv
 
 5.  Cliquez sur **Adresse IP** et tapez l’adresse IP virtuelle (VIP) du programme d’équilibrage de la charge pour le pool de serveurs frontaux.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Dans les déploiements qui utilisent un pool directeur, les enregistrements hôtes (A) pour les URL simples doivent pointer sur l’adresse IP virtuelle du programme d’équilibrage de la charge du directeur.    
-    > [!note]  
+    > [!NOTE]  
     > Si vous déployez un seul serveur Enterprise Edition Server connecté à la topologie sans programme d’équilibrage de la charge, ou si vous déployez un serveur Standard Edition, tapez l’adresse IP du serveur Enterprise Edition Server, Standard Edition Server ou du directeur. L’utilisation d’un programme d’équilibrage de la charge est nécessaire si vous déployez plusieurs serveurs Enterprise Edition Server ou directeur dans un pool. Les programmes d’équilibrage de la charge ne sont pas utilisés avec les serveurs Standard Edition.
 
 6.  Cliquez sur **Ajouter un hôte** , puis sur **OK** .

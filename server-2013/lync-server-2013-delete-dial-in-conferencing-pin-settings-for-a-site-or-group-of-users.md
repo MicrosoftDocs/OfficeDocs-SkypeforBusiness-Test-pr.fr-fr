@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-10-18_
 
 Suivez cette procédure pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site.
 
-> [!note]  
+> [!NOTE]  
 > Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.
 
 ## Pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site

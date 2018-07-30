@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-09-11_
 
 En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier un flux de travail interactif.
 
-> [!note]  
+> [!NOTE]  
 > Pour cela, vous pouvez utiliser Lync Server Management Shell ou l’outil de configuration Response Group. Vous pouvez accéder à l’outil de configuration Response Group depuis le Panneau de configuration Lync Server ou en ouvrant la page web directement depuis un navigateur web en tapant l’URL suivante : <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong> .
 
 ## Pour utiliser outil de configuration Response Group pour créer ou modifier un flux de travail interactif
@@ -32,7 +32,7 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
 
 5.  Dans le champ de recherche **Sélectionner un service** , tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail à créer ou à modifier. Dans la liste des services qui s’affiche, cliquez sur le service de votre choix, puis sur **OK** .
     
-    > [!note]  
+    > [!NOTE]  
     > L’outil de configuration Response Group s’ouvre. Vous pouvez également accéder à l’outil de configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : <strong>https://</strong> <em>&lt;FQDN_pool_web&gt;</em> <strong>/RgsConfig</strong> .
 
 6.  Effectuez l’une des actions suivantes :
@@ -43,26 +43,26 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
 
 7.  Si vous n’êtes pas prêt et que les utilisateurs ne peuvent pas encore commencer à appeler le flux de travail, décochez la case **Activer le flux de travail** .
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous créez un flux de travail géré, vous devez sélectionner <strong>Activer le flux de travail</strong> . Une fois le flux de travail géré actif enregistré, vous pouvez le modifier et le désactiver.
 
 8.  Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération** . Vous devez aussi avoir une stratégie d’accès externe qui s’applique à l’application Response Group configurée pour la fédération.
     
-    > [!note]  
+    > [!NOTE]  
     > La stratégie globale d’accès externe s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération Response group à l’aide du Panneau de configuration Lync Server ou de l’applet de commande <strong>Set-CsExternalAccessPolicy</strong> pour attribuer la valeur True au paramètre EnableOutsideAccess. N’oubliez pas que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf si une stratégie de l’utilisateur ou un site leur est affecté. Avant de changer ce paramètre pour les groupes Response group, assurez-vous que le paramètre de fédération est conforme aux exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gestion de la stratégie d’accès externe dans Lync Server 2013</a>. Pour plus d’informations sur le paramètre de fédération, reportez-vous à <strong>Set-CsExternalAccessPolicy</strong> dans la documentation de Lync Server Management Shell.    
-    > [!note]  
+    > [!NOTE]  
     > Les utilisateurs hébergés dans Lync Online ne peuvent pas appeler de groupes Response Group hébergés dans un déploiement local. Cela concerne les déploiements hybrides et les déploiements locaux fédérés avec un déploiement Lync Online.
 
 9.  Pour masquer l’identité des agents pendant les appels, activez la case à cocher **Activer l’anonymat de l’agent** .
     
-    > [!note]  
+    > [!NOTE]  
     > Les appels anonymes ne peuvent pas démarrer avec la messagerie instantanée ou la vidéo, mais l’agent ou l’appelant peut ajouter la messagerie instantanée et la vidéo quand l’appel a commencé. Un agent anonyme peut aussi mettre des appels en attente, transférer des appels (transferts invisibles et consultatifs), mais aussi parquer et récupérer des appels. Les appels anonymes ne prennent pas en charge la conférence, le partage d’application, le partage du Bureau, le transfert de fichiers, le tableau blanc, la collaboration de données et l’enregistrement d’appel. Les agents utilisant le plugin Lync VDI peuvent recevoir des appels entrants anonymes, mais ils ne peuvent pas effectuer d’appels sortants anonymes.
 
 10. Sous **Entrez l’adresse du groupe qui recevra les appels** , cliquez sur l’adresse URI SIP principale du groupe qui doit prendre les appels vers le flux de travail.
 
 11. Dans **Nom d’affichage** , tapez le nom que vous souhaitez voir s’afficher pour le flux de travail (par exemple, Sales IVR Response Group).
     
-    > [!note]  
+    > [!NOTE]  
     > N’ajoutez pas les caractères « &lt; » ou « &gt; » dans le nom d’affichage. N’utilisez pas les noms d’affichage suivants, car ils sont réservés : RGS Presence Watcher ou Service d’annonce.
 
 12. Dans **Numéro de téléphone** , tapez l’URI de ligne pour le groupe Response Group (par exemple, +14255550165).
@@ -77,7 +77,7 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
     
     2.  Tapez l’URI SIP des autres gestionnaires à ajouter au flux de travail, puis cliquez sur **Ajouter** .
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Tous les utilisateurs désignés comme responsables d’un groupe Response Group doivent avoir le rôle CsResponseGroupManager. Si les utilisateurs n’ont pas ce rôle, ils ne peuvent pas gérer les groupes Response Group.
 
 16. Sous **Étape 2 Sélectionner une langue** , cliquez sur la langue à utiliser pour la reconnaissance vocale et la synthèse vocale.
@@ -86,23 +86,23 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
     
       - Pour entrer le message de bienvenue sous forme de texte converti en message vocal pour les appelants, cliquez sur **Utiliser la synthèse vocale** , puis tapez le message de bienvenue dans la zone de texte.
         
-        > [!note]  
+        > [!NOTE]  
         > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.    
       - Pour utiliser un enregistrement au format de fichier Wave ou Windows Media Audio pour le message de bienvenue, cliquez sur **Sélectionner un enregistrement** . Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement** . Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir** , sélectionnez le fichier audio à utiliser, puis cliquez sur **Ouvrir** . Cliquez sur **Télécharger** pour charger le fichier audio.
         
-        > [!note]  
+        > [!NOTE]  
         > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à <a href="lync-server-2013-technical-requirements-for-response-group.md">Configuration technique requise pour Response Group dans Lync Server 2013</a>.
 
 18. Sous **Étape 4 Indiquer vos heures d’ouverture** , dans la zone **Votre fuseau horaire** , cliquez sur le fuseau horaire du flux de travail.
     
-    > [!note]  
+    > [!NOTE]  
     > Il s’agit du fuseau horaire des appelants et des agents du flux de travail. Il est utilisé pour calculer les heures d’ouverture et de fermeture. Par exemple, si le flux de travail est configuré pour utiliser le fuseau horaire Est de l’Amérique du Nord et que l’ouverture et la fermeture du flux de travail sont planifiées respectivement pour 7 heures et 23 heures, il s’agit de l’heure d’ouverture 7 h 00 Est et de l’heure de fermeture 11 h 00 Est. (Vous devez entrer les heures au format 24 heures.)
 
 19. Sélectionnez le type d’heures d’ouverture que vous souhaitez utiliser en effectuant l’une des opérations suivantes :
     
       - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini** , puis sélectionnez le planning souhaité dans la liste déroulante.
         
-        > [!note]  
+        > [!NOTE]  
         > Vous devez avoir défini précédemment au moins un planning prédéfini pour pouvoir sélectionner cette option. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande <strong>New-CsRgsHoursOfBusiness</strong> . Pour plus d’informations, reportez-vous à <a href="lync-server-2013-optional-define-response-group-business-hours.md">(Facultatif) Définition des heures ouvrées des groupes Response Group dans Lync Server 2013</a>. Quand vous sélectionnez un planning prédéfini, les champs <strong>Jour</strong> , <strong>Ouverture</strong> et <strong>Fermeture</strong> reprennent automatiquement les jours et les heures pendant lesquels le groupe Response Group est disponible.    
       - Pour utiliser un planning personnalisé qui s’applique uniquement à ce flux de travail, cliquez sur **Utiliser un planning personnalisé** .
 
@@ -110,18 +110,18 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
 
 21. Si vous créez un planning personnalisé, tapez les heures **Ouverture** et **Fermeture** où le groupe Response Group est disponible.
     
-    > [!note]  
+    > [!NOTE]  
     > Les heures <strong>Ouverture</strong> et <strong>Fermeture</strong> doivent être au format 24 heures. Par exemple, si votre bureau est ouvert de 9 heures à 17 heures et fermé à midi pour le déjeuner, les heures d’ouverture sont spécifiées comme suit : <strong>Ouverture</strong> 9:00, <strong>Fermeture</strong> 12:00, <strong>Ouverture</strong> 13:00 et <strong>Fermeture</strong> 17:00.
 
 22. Si vous souhaitez que la lecture d’un message se déclenche lorsque le bureau est fermé, activez la case à cocher **Lisez un message lorsque le service Response Group est en dehors des heures d’ouverture** , puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
     
       - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale** , puis tapez le message dans la zone de texte.
         
-        > [!note]  
+        > [!NOTE]  
         > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.    
       - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement** . Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement** . Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir** , sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir** . Cliquez sur **Télécharger** pour charger le fichier audio.
         
-        > [!note]  
+        > [!NOTE]  
         > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à <a href="lync-server-2013-technical-requirements-for-response-group.md">Configuration technique requise pour Response Group dans Lync Server 2013</a>.
 
 23. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
@@ -136,18 +136,18 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
 
 24. Sous **Étape 5 Spécifier vos congés** , activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours où le groupe Response Group est fermé.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande <strong>New-CsRgsHoliday</strong> et <strong>New-CsRgsHolidaySet</strong> pour créer des congés et des périodes de congé. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013</a>.
 
 25. Si vous souhaitez que la lecture d’un message se déclenche pendant les congés, activez la case à cocher **Lisez un message pendant les congés** , puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
     
       - Pour entrer le message sous forme de texte converti en message vocal pour l’appelant, cliquez sur **Utiliser la synthèse vocale** , puis tapez le message dans la zone de texte.
         
-        > [!note]  
+        > [!NOTE]  
         > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.    
       - Pour utiliser un enregistrement de fichier audio pour le message, cliquez sur **Sélectionner un enregistrement** . Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un enregistrement** . Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir** , sélectionnez le fichier que vous souhaitez utiliser, puis cliquez sur **Ouvrir** . Cliquez sur **Télécharger** pour charger le fichier audio.
         
-        > [!note]  
+        > [!NOTE]  
         > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier audio pris en charge, reportez-vous à <a href="lync-server-2013-technical-requirements-for-response-group.md">Configuration technique requise pour Response Group dans Lync Server 2013</a>.
 
 26. Spécifiez comment gérer les appels après la lecture du message (si un message est configuré) :
@@ -166,27 +166,27 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
     
       - Pour utiliser un enregistrement audio pour l’attente musicale, cliquez sur **Sélectionner un fichier de musique** . Si vous souhaitez télécharger un nouveau fichier audio, cliquez sur le lien **un fichier de musique** . Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir** , sélectionnez le fichier à utiliser, puis cliquez sur **Ouvrir** . Cliquez sur **Télécharger** pour charger le fichier audio.
         
-        > [!note]  
+        > [!NOTE]  
         > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à <a href="lync-server-2013-technical-requirements-for-response-group.md">Configuration technique requise pour Response Group dans Lync Server 2013</a>.
 
 28. Sous **Étape 7 Configurer la réponse vocale interactive** , dans l’en-tête **L’utilisateur entendra le texte ou message enregistré suivant** , spécifiez comme suit la question à poser aux appelants :
     
       - Pour entrer la question au format texte, cliquez sur **Utiliser la synthèse vocale** , puis tapez la question dans la zone de texte.
         
-        > [!note]  
+        > [!NOTE]  
         > N’incluez pas de balises HTML dans le texte que vous entrez. Si vous incluez des balises HTML, vous recevrez un message d’erreur.        
-        > [!note]  
+        > [!NOTE]  
         > Le moteur de synthèse vocale convertit le symbole « # » par le mot « numéro ». Pour faire référence à la touche #, utilisez le nom de celle-ci au lieu de son symbole dans votre message d’invite. Par exemple, « Pour être mis en relation avec le service commercial, appuyez sur la touche dièse ».    
       - Pour utiliser un fichier audio préenregistré contenant la question, cliquez sur **Sélectionner un enregistrement** , puis cliquez sur le lien **un enregistrement** pour télécharger le fichier. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir** , sélectionnez le fichier audio, puis cliquez sur **Ouvrir** . Cliquez sur **Télécharger** pour charger le fichier, puis tapez au besoin la question dans la zone de texte (la question, ainsi que la réponse de l’appelant sont alors transférées à l’agent chargé de répondre).
         
-        > [!note]  
+        > [!NOTE]  
         > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à <a href="lync-server-2013-technical-requirements-for-response-group.md">Configuration technique requise pour Response Group dans Lync Server 2013</a>.
 
 29. Sous **Réponse 1** , procédez comme suit pour spécifier la première réponse possible à la question :
     
-    > [!important]  
+    > [!IMPORTANT]  
     > N’incluez pas de guillemets (&quot;) dans les réponses vocales. Les guillemets entraînent l’échec de la réponse vocale interactive (IVR).    
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez choisir d’autoriser les appelants à répondre vocalement et/ou au clavier.    
       - Si vous souhaitez permettre à l’appelant de répondre vocalement, entrez la réponse dans **Entrer une réponse vocale** .
     
@@ -259,5 +259,5 @@ En choisissant l’une des procédures suivantes, vous pouvez créer ou modifier
         $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
         $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     
-    > [!note]  
+    > [!NOTE]  
     > Tous les utilisateurs désignés comme responsables d’un groupe Response Group doivent avoir le rôle CsResponseGroupManager qui leur est affecté. Dans le cas contraire, ils ne peuvent pas gérer de groupe Response Group.

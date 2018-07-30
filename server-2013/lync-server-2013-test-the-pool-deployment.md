@@ -21,12 +21,12 @@ La procédure suivante explique comment tester le déploiement du pool de serveu
 
 1.  Utilisez Ordinateurs et utilisateurs Active Directory pour ajouter l’objet utilisateur Active Directory du rôle administrateur du déploiement Lync Server 2013 (où Panneau de configuration Lync Server 2013 est installé) au groupe **CSAdministrator**.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Si vous n’ajoutez pas les utilisateurs et les groupes appropriés au groupe CsAdministors, vous obtiendrez un message d’erreur lors de l’ouverture du Panneau de configuration Lync Server, indiquant « Non autorisé : l’accès est refusé en raison d’un échec d’autorisation du contrôle d’accès basé sur un rôle (RBAC) ».
 
 2.  Si l’objet utilisateur est actuellement connecté, fermez, puis rouvrez la session pour inscrire la nouvelle affectation de groupe.
     
-    > [!note]  
+    > [!NOTE]  
     > Le compte d’utilisateur ne peut pas être l’administrateur local d’un serveur exécutant Lync Server 2013.
 
 3.  Utilisez le compte administratif pour vous connecter à l’ordinateur sur lequel le Panneau de configuration Lync Server est installé.

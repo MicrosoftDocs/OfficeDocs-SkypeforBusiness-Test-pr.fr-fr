@@ -37,7 +37,7 @@ Le tableau suivant compare les fonctionnalités des clients mobiles Lync 2013 et
 
 Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilisateurs Lync dans un déploiement local de Lync Server 2013. Ces mêmes fonctionnalités sont également disponibles pour les utilisateurs de Skype Entreprise Online et d’Microsoft Office 365, sauf mention contraire dans les notes de bas de page des tableaux.
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > <li><p>Pour accéder à l’aide et aux ressources destinées aux utilisateurs finaux, voir « Microsoft Lync 2013 pour les clients mobiles » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>.</p></li>
 > <li><p>Pour comparer les fonctionnalités disponibles dans les autres clients mobiles Lync 2013, voir <a href="lync-server-2013-desktop-client-comparison-tables.md">Tableau de comparaison des clients pour Lync Server 2013</a>.</p></li>

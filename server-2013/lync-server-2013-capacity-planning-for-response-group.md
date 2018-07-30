@@ -17,10 +17,10 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Le tableau ci-dessous décrit le modèle utilisateur de Response Group dont vous pouvez vous servir comme base pour les exigences de planification de capacité.
 
-> [!note]  
+> [!NOTE]  
 > Les chiffres du tableau suivant supposent que vous utilisez des fichiers 16 kHz, mono, 16 bits (.wav) pour tous les fichiers audio Response Group. Si vous utilisez d’autres formats de fichier, tels que Windows Media Audio (.wma), les chiffres peuvent changer.
 
-> [!important]  
+> [!IMPORTANT]  
 > N’oubliez pas que pour la planification de capacité de récupération d’urgence, chaque pool d’un pool associé doit être capable de gérer les charges de travail de tous les groupes de réponse des deux pools.
 
 ### Modèle utilisateur de Response Group

@@ -19,7 +19,7 @@ Un flux de travail définit le comportement d’un appel, depuis le déclencheme
 
 Utilisez l’outil de configuration Response Group pour créer des flux de travail. Vous pouvez accéder à l’outil de configuration Response Group depuis la page Response Group du Panneau de configuration Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise.
 
 ## Dans cette section

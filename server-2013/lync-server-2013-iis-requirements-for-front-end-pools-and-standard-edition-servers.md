@@ -37,12 +37,12 @@ De plus, le programme d’installation de la mise à jour cumulative de novembre
 
   - Sur les serveurs frontaux ou les serveurs Standard Edition et sur les Directeurs afin de permettre aux appareils mobiles de découvrir automatiquement les ressources de mobilité
 
-> [!note]  
+> [!NOTE]  
 > Si vous déployez la mobilité, nous vous recommandons d’utiliser les services Internet (IIS) 7.5. Le programme d’installation du service de mobilité de Lync Server définit certains indicateurs ASP.NET afin d’améliorer les performances. Les services Internet (IIS) 7.5 sont installés par défaut sur Windows Server 2008 R2 et le programme d’installation du service de mobilité modifie automatiquement les paramètres ASP.NET. Si vous utilisez les services Internet (IIS) 7.0 sur Windows Server 2008, vous devez modifier manuellement ces paramètres.
 
 Lync Server nécessite l’installation des modules des services Internet (IIS) suivants :
 
-> [!important]  
+> [!IMPORTANT]  
 > Si votre organisation vous oblige à placer les services Internet (IIS) et tous les services web sur une unité autre que l’unité système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server fdans la boîte de dialogue Installation. Si vous installez les fichiers d’installation à cet emplacement, dont OCSCore.msi, les autres fichiers Lync Server seront également déployés sur cette unité. Pour plus d’informations sur le déplacement du composant INETPUB déployé par le Gestionnaire de serveur Windows lors de l’installation des services Internet (IIS), reportez-vous à <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>.
 
   - Contenu statique
@@ -159,7 +159,7 @@ Le tableau ci-dessous répertorie les URI des répertoires virtuels pour l’acc
 </table>
 
 
-> [!note]  
+> [!NOTE]  
 > Pour les pools de serveurs frontaux dans une configuration consolidée, vous devez déployer les services Internet (IIS) pour pouvoir ajouter des serveurs au pool.
 
 > [!security]  

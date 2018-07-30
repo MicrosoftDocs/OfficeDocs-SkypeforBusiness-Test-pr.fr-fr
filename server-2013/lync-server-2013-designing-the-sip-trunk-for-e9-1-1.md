@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Lync Server utilise les jonctions SIP pour connecter un appel d’urgence au fournisseur du service E9-1-1. Vous pouvez configurer des jonctions SIP de services d’urgence pour le service E9-1-1 au niveau d’un site central, de plusieurs sites centraux ou de chaque site de succursale. Cependant, si la liaison de réseau étendu (WAN) entre le site de l’appelant et le site qui héberge la jonction SIP de service d’urgence n’est pas disponible, tout appel passé par un utilisateur au niveau du site déconnecté nécessitera un enregistrement d’utilisation téléphonique spécifique dans la stratégie de voix de l’utilisateur qui acheminera l’appel au centre d’intervention en cas d’appels d’urgence via la passerelle RTC. Il en va de même si les limites relatives aux appels simultanés du service Contrôle d’admission des appels sont appliquées.
 
-> [!note]  
+> [!NOTE]  
 > Il existe deux façons d’implémenter une liaison SIP dans un environnement Lync Server :
 > <ul>
 > <li><p>en utilisant des serveurs de médiation multirésidents qui tirent parti de leurs interfaces routées publiquement vers l’extérieur pour communiquer avec le fournisseur de jonctions SIP ;</p></li>

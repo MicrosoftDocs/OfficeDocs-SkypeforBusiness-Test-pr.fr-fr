@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-09-11_
 
 Les orbites de parcage d’appel ne doivent pas être normalisées. Vérifiez sur vos plans de numérotation que vos numéros orbites ne sont pas normalisés. Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure de la section [Création d’un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md) pour définir une nouvelle règle de normalisation afin que le **modèle à suivre** identifie la plage d’orbites et que le **modèle de conversion** affiche la valeur **$1**. Par exemple, si votre plage d’orbites de parcage d’appel s’étend de 7000 à 7999, le champ **Modèle à suivre** affiche **^(7\\d{3})$** et **Modèle de conversion** **$1**.
 
-> [!important]  
+> [!IMPORTANT]  
 > Vérifiez que la règle de normalisation par défaut de vos plans de numérotation ne contient pas l’élément <strong>^(\d*)</strong>. Sinon, votre règle de normalisation de parcage d’appel ne sera jamais exécutée.
 
 ## Voir aussi

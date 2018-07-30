@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-05-25_
 
 Utilisez la procédure suivante pour configurer le certificat sur vos répertoires virtuels des services Internet (IIS) ou pour vérifier que le certificat est correctement configuré. Effectuez la procédure suivante sur chaque serveur exécutant les services Internet (IIS) dans votre pool Lync Server interne et les serveurs directeur ou de pool de directeurs facultatifs.
 
-> [!note]  
+> [!NOTE]  
 > La procédure suivante vise à faire une demande de certificat combiné polyvalent pour Lync Server, le site web interne et le site web externe dans les services Internet (IIS). Lync Server 2010 a inauguré un jeu d’applets de commande Windows PowerShellLync Server Management Shell à des fins expresses de gestion de la demande, de l’importation et de l’affectation de certificats. La procédure part du principe qu’une autorité de certification capable de traiter la demande a été déployée en interne. Si vous utilisez des certificats publics pour vos besoins Lync Server ou si votre autorité de certification impose une demande hors connexion, examinez la syntaxe détaillée dans cette rubrique pour plus d’informations sur le paramètre –Output . <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</a>
 
 ## Pour configurer l’authentification et les certificats au niveau des répertoires virtuels des services Internet (IIS)

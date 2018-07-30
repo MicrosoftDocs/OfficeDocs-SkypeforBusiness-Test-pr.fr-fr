@@ -27,7 +27,7 @@ Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous
 
 1.  Créez un site réseau pour représenter le fournisseur de services de téléphonie Internet. Associez le site réseau à une région réseau appropriée, et allouez une bande passante nulle pour l’audio et la vidéo pour ce site réseau. Pour plus d’informations, reportez-vous à [Configurer les sites réseau pour le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) dans la documentation de déploiement.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour le fournisseur de services de téléphonie Internet, cette configuration de site réseau n’est pas fonctionnelle. Les valeurs de stratégie de bande passante sont en fait appliquées à l’étape 2.
 
 2.  Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, reportez-vous à [Créer des stratégies inter-sites réseau](lync-server-2013-create-network-intersite-policies.md) dans la documentation de déploiement. Consultez également la documentation de Lync Server Management Shell pour l’applet de commande New-CsNetworkInterSitePolicy.

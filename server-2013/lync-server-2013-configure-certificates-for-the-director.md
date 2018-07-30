@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2012-09-08_
 
-> [!important]  
+> [!IMPORTANT]  
 > Lorsque vous exécutez l’Assistant Certificat, assurez-vous d’être connecté à l’aide d’un compte membre d’un groupe auquel ont été affectées les autorisations appropriées pour le type de modèle de certificat que vous utiliserez. Par défaut, une demande de certificat Lync Server 2013 utilise le modèle de certificat Serveur web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat utilisant ce modèle, vérifiez que les autorisations Inscrire requises pour utiliser ce modèle ont été affectées au groupe.
 
 Chaque directeur requiert un certificat par défaut, un certificat web interne et un certificat web externe. Pour plus d’informations sur les exigences en matière de certificat des directeurs, reportez-vous à [Exigences de certificat pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) dans la documentation de planification.
@@ -46,7 +46,7 @@ Configurez les certificats de directeur en suivant la procédure ci-dessous. Ré
 
 11. Dans la page **Nom de sujet / Autres noms de sujet** , cliquez sur **Suivant** .
     
-    > [!note]  
+    > [!NOTE]  
     > La liste des autres noms de sujet devrait contenir le nom de l’ordinateur sur lequel vous installez le directeur (s’il n’y en a qu’un) ou le nom du pool directeur ainsi que le nom des URL simples configurés pour l’organisation.
 
 12. Dans la page **Paramètre du domaine SIP sur les autres noms du sujet** , sélectionnez **Domaines SIP configurés** pour tous les domaines devant être gérés par le directeur, puis cliquez sur **Suivant** .
@@ -61,7 +61,7 @@ Configurez les certificats de directeur en suivant la procédure ci-dessous. Ré
 
 17. Dans la page **Affectation de certificat** , cliquez sur **Suivant** .
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous souhaitez afficher le certificat, double-cliquez sur celui-ci dans la liste.
 
 18. Dans la page **Résumé de l’affectation du certificat** , cliquez sur **Suivant** .

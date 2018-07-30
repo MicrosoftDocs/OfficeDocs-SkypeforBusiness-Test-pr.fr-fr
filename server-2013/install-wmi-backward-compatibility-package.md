@@ -29,7 +29,7 @@ Pour installer le package de compatibilité descendante WMI
 
 2.  Installez OCSWMIBC.MSI.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > OCSWMIBC.msi doit être installé sur l’ordinateur sur lequel l’Assistant Fusion du générateur de topologie s’exécute. Cependant, nous recommandons d’installer OCSWMIBC.msi sur tous les serveurs frontaux de votre topologie.    
-    > [!important]  
+    > [!IMPORTANT]  
     > OCSWMIBC.msi peut être installé sur tout ordinateur du domaine sur lequel les composants principaux de Lync Server 2013 et Lync Server 2013 Management Shell sont installés, et ayant accès à la topologie Office Communications Server 2007 R2 (fournisseur WMI des services de domaine Active Directory (AD DS) et SQL Server).

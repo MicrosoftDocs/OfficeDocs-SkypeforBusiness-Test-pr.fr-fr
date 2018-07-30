@@ -31,8 +31,8 @@ Lync Server 2013 utilise le système DNS (Domain Name System) pour les opérati
 
   - procéder à l’équilibrage de la charge DNS.
 
-> [!note]  
+> [!NOTE]  
 > Lync Server 2013 ne prend pas en charge les noms de domaine internationaux (IDN).
 
-> [!important]  
+> [!IMPORTANT]  
 > Le nom spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas lié à un domaine est un nom court, pas un nom de domaine complet (FQDN). Générateur de topologie utilise des FQDN, pas des noms courts. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. <strong>Utilisez uniquement les caractères standard</strong> (tels que A–Z, a–z, 0–9, et les traits d’union) quand vous assignez les FQDN de vos serveurs Lync, serveurs de périphérie et pools. N’utilisez pas les caractères ou traits de soulignement Unicode. Souvent, les caractères non standard dans un FQDN ne sont pas pris en charge par le DNS externe et les autorités de certification publique (quand le FQDN doit être assigné au SN dans le certificat).

@@ -27,7 +27,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région que vous souhaitez modifier.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous ne pouvez afficher qu’un itinéraire de région à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.

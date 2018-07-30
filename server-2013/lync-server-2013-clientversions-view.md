@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 La vue ClientVersions stocke les informations relatives aux divers types et versions de client qui ont participé aux sessions enregistrées dans la base de données. Chaque enregistrement de la vue représente une version de client. Cette vue a été introduite dans Microsoft Lync Server 2013.
 
-> [!note]  
+> [!NOTE]  
 > Plusieurs enregistrements peuvent exister pour certaines colonnes.
 
 

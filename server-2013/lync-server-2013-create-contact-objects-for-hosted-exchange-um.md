@@ -25,7 +25,7 @@ Pour plus d’informations sur la configuration des objets Contact, reportez-vou
 
   - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
-> [!important]  
+> [!IMPORTANT]  
 > Avant que les objets Contact Lync Server 2013 puissent être activés pour la messagerie unifiée Exchange hébergée, une stratégie de messagerie vocale hébergée qui s’applique à eux doit être déployée. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-hosted-voice-mail-policies.md">Stratégies de messagerie vocale hébergées dans Lync Server 2013</a>.
 
 ## Pour créer des objets Contact Standard automatique ou Accès abonné pour la messagerie unifiée Exchange hébergée
@@ -47,7 +47,7 @@ Pour plus d’informations sur la configuration des objets Contact, reportez-vou
     
       - **RegistrarPool** spécifie le nom de domaine complet du pool sur lequel le service de serveur d’inscriptions est exécuté.
         
-        > [!note]  
+        > [!NOTE]  
         > Les objets Contact de la messagerie unifiée Exchange ne peuvent pas être déplacés vers des pools qui font partie de déploiements de Lync Server 2013 antérieurs à Lync Server 2013.    
       - **OU** spécifies l’unité d’organisation Active Directory dans laquelle cet objet Contact sera situé.
     

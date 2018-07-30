@@ -52,7 +52,7 @@ La stratégie de mobilité est l’un des paramètres individuels d’un compte 
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de mobilité**, effectuez l’une des actions suivantes :
     
-    > [!note]  
+    > [!NOTE]  
     > Du fait qu’il existe plusieurs stratégies configurables dans la boîte de dialogue <strong>Attribuer des stratégies</strong>, l’option <strong>&lt;Conserver tel quel&gt;</strong> est activée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.    
       - Sélectionnez **\<Automatique\>** pour permettre à Lync Server 2013 de choisir automatiquement la stratégie au niveau global, ou, si elle est définie, la stratégie au niveau du site.
     

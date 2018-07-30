@@ -45,7 +45,7 @@ Le 1er juillet 2012, le nouveau certificat est alors configuré comme certific
 
 Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez aussi faire appel à la console MMC Certificats pour exporter un certificat d’un serveur frontal puis l’importer sur tous vos autres serveurs frontaux. Assurez-vous dans ce cas d’exporter la clé privée en plus du certificat même.
 
-> [!Caution]  
+> [!CAUTION]  
 > Dans ce cas, vous devez effectuer la procédure sur chaque serveur frontal. Pendant l’exportation et l’importation des certificats de cette manière, Lync Server 2013 ne réplique pas le certificat sur chaque serveur frontal.
 
 

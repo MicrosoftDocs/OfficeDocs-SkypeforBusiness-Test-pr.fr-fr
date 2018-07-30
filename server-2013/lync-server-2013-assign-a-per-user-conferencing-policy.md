@@ -60,7 +60,7 @@ Pour plus d’informations sur la création de stratégies de conférence, voir 
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de conférence**, effectuez l’une des opérations suivantes :
     
-    > [!note]  
+    > [!NOTE]  
     > Du fait qu’il existe plusieurs stratégies configurables dans la boîte de dialogue <strong>Attribuer des stratégies</strong>, l’option <strong>&lt;Conserver tel quel&gt;</strong> est activée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.    
       - Sélectionnez **\<Automatique\>** pour autoriser Lync Server 2013 à choisir automatiquement la stratégie au niveau global, ou, si elle est définie, la stratégie au niveau du site.
     

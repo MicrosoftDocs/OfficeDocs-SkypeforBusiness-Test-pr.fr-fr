@@ -23,7 +23,7 @@ Si vous souhaitez configurer Lync Server 2013 pour IPv6, vous devez garder les 
 
   - Chaque adresse IPv6 a une étendue. Les trois étendues que vous pouvez utiliser pour l’adressage IPv6 sont les adresses globales IPv6 (semblables aux adresses IPv4 publiques), les adresses locales uniques IPv6 (semblables aux plages d’adresses IPv4 privées) et les adresses locales de lien IPv6 (semblables aux adresses IP privées automatiques dans Windows Server pour IPv4). Tous les serveurs au sein d’un pool doivent avoir des adresses IPv6 avec la même étendue.
 
-> [!important]  
+> [!IMPORTANT]  
 > IPv6 est un sujet complexe et nécessite une planification minutieuse avec votre équipe de gestion de réseau et votre fournisseur Internet afin de vérifier que les adresses que vous affectez au niveau de Windows Server et de Lync Server 2013 fonctionnent comme prévu. Consultez les liens à la fin de cette rubrique pour accéder à des ressources supplémentaires sur l’adressage et la planification IPv6.
 
 ## Voir aussi

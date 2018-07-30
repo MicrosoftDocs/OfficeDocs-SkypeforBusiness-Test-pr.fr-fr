@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Si vous avez déployé la messagerie unifiée Exchange, comme indiqué dans [Planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) dans la documentation de planification, et que vous souhaitez fournir la messagerie unifiée Exchange aux utilisateurs Voix Entreprise de votre entreprise, vous pouvez utiliser les procédures suivantes pour configurer le certificat sur le serveur exécutant la messagerie unifiée Exchange.
 
-> [!important]  
+> [!IMPORTANT]  
 > Pour les certificats internes, les serveurs exécutant Lync Server 2013 et ceux exécutant Microsoft Exchange doivent tous deux avoir des certificats d’autorité de certification racine mutuellement approuvés. L’autorité de certification (AC) peut être identique ou différente, du moment que les serveurs ont le certificat racine de l’autorité de certification inscrit dans leur magasin de certificats d’autorités racines approuvés.
 
 Le serveur Exchange Server doit être configuré avec un certificat de serveur pour pouvoir se connecter à Lync Server 2013 :
@@ -40,7 +40,7 @@ Le serveur Exchange Server doit être configuré avec un certificat de serveur p
 
 3.  Sous **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou la liste de révocation de certificats**, sélectionnez **Méthode de codage Base 64**, puis cliquez sur **Télécharger un certificat de l’autorité de certification**.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez également spécifier la méthode de codage DER (Distinguished Encoding Rules). Si vous sélectionnez cette méthode, le fichier spécifié à l’étape suivante de cette procédure et à l’étape 10 de la procédure <strong>Pour installer le certificat de l’autorité de certification</strong> sera de type .p7b et non .cer.
 
 4.  Dans la boîte de dialogue **Téléchargement de fichier**, cliquez sur **Enregistrer**, puis enregistrez le fichier sur le disque dur du serveur (le fichier sera doté de l’extension .cer ou .p7b, selon la méthode de codage que vous avez sélectionnée à l’étape précédente).
@@ -97,7 +97,7 @@ Le serveur Exchange Server doit être configuré avec un certificat de serveur p
 
 6.  Dans **Informations d’identification pour les modèles hors connexion**, dans la zone **Nom**, tapez le nom de domaine complet (FQDN) du serveur Exchange Server.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous devez entrer le nom de domaine complet du serveur Exchange Server pour que les communications fonctionnent.
 
 7.  Sous **Options de la clé**, activez la case à cocher **Stocker le certificat dans le magasin de certificats de l’ordinateur local**.
@@ -122,7 +122,7 @@ Le serveur Exchange Server doit être configuré avec un certificat de serveur p
     
     2.  « Importer un certificat Exchange » à l’adresse [http://go.microsoft.com/fwlink/?linkid=195496\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=195496%26clcid=0x40c)
     
-    > [!note]  
+    > [!NOTE]  
     > Pour le <strong>Nom du sujet</strong> du certificat, vous devez entrer le nom de domaine complet du serveur Exchange Server pour que les communications fonctionnent.
 
 ## Pour attribuer le certificat au serveur Exchange Server 2007 (SP1)
@@ -135,12 +135,12 @@ Le serveur Exchange Server doit être configuré avec un certificat de serveur p
 
 4.  Double-cliquez sur le certificat pour afficher ses détails et vérifier qu’il est valide.
     
-    > [!note]  
+    > [!NOTE]  
     > Cela peut prendre quelques minutes avant que le certificat s’affiche comme étant valide.
 
 5.  Redémarrez le service de messagerie unifiée Microsoft Exchange.
     
-    > [!note]  
+    > [!NOTE]  
     > Le serveur qui exécute la messagerie unifiée Exchange Server 2007 SP1 récupère automatiquement le bon certificat.
 
 6.  Ouvrez l’Observateur d’événements et recherchez l’ID de l’événement 1112. Il indique le certificat récupéré par le serveur exécutant la messagerie unifiée Exchange Server 2007 SP1.

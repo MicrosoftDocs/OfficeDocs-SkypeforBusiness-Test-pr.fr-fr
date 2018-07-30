@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-11-13_
 
 Les communications audio/vidéo (A/V) constituent un composant clé de Microsoft Lync Server 2013. Les fonctionnalités telles que le partage d’applications et la conférence audio et vidéo reposent sur les certificats attribués au service Edge A/V, en particulier le service d’authentification A/V.
 
-> [!important]  
+> [!IMPORTANT]  
 > <ol>
 > <li><p>Cette nouvelle fonctionnalité a été conçue pour le service Edge A/V et le certificat <em>OAuthTokenIssuer</em>. D’autres types de certificat peuvent être configurés, de même que le service Edge A/V et le type de certificat OAuth, mais ils ne bénéficieront pas du comportement de coexistence dont bénéficiera le certificat du service Edge A/V .</p></li>
 > <li><p>Les applets de commande PowerShell Lync Server Management Shell utilisés pour gérer les certificats Microsoft Lync Server 2013 font référence au certificat du service Edge A/V en tant que type <em>AudioVideoAuthentication</em> et le certificat OAuthServer en tant que type <em>OAuthTokenIssuer</em>. Dans la suite de cette rubrique, les certificats seront désignés par le même type d’identificateur, <em>AudioVideoAuthentication</em> et <em>OAuthTokenIssuer</em> de manière à les identifier de manière unique.</p></li></ol>
@@ -50,7 +50,7 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
 
 4.  Configurez le certificat importé à l’aide de l’applet de commande Set-CsCertificate et utilisez le paramètre –Roll avec le paramètre –EffectiveDate. La date d’effet doit être définie comme étant l’heure d’expiration du certificat actuel (14:00:00 ou 2:00:00 PM) moins la durée de vie du jeton, dont la valeur par défaut est de huit heures. Cela donne l’heure à laquelle le certificat doit être défini comme étant actif : –EffectiveDate \<string\>: “7/22/2012 6:00:00 AM”.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Pour un pool de serveurs Edge, tous les certificats AudioVideoAuthentication doivent être déployés et configurés pour la date et à l’heure définies par le paramètre –EffectiveDate du premier certificat déployé afin d’éviter une possible perturbation des communications A/V en raison de l’expiration du certificat le plus ancien avant que tous les jetons des clients et consommateurs aient été renouvelés à l’aide du nouveau certificat.    
     Commande Set-CsCertificate avec les paramètres –Roll et –EffectiveTime :
     
@@ -60,7 +60,7 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2012 6:00:00 AM"
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le format de la date d’effet doit correspondre à celui du paramètre régional et linguistique de votre serveur. Cet exemple utilise le paramètre régional et linguistique Anglais (États-Unis)
 
 Une représentation chronologique constitue un moyen efficace pour mieux comprendre le processus utilisé par Set-CsCertificate, -Roll et –EffectiveDate pour créer un certificat intermédiaire permettant d’émettre de nouveaux jetons AudioVideoAuthentication tout en continuant à utiliser un certificat existant pour valider les jetons AudioVideoAuthentication en cours d’utilisation par les consommateurs.
@@ -91,7 +91,7 @@ Une fois la date d’effet atteinte (7/22/2012 6:00:00 AM), tous les nouveaux je
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2012 1:00:00 PM"
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le format de la date d’effet doit correspondre à celui du paramètre régional et linguistique de votre serveur. Cet exemple utilise le paramètre régional et linguistique Anglais (États-Unis)
 
 Quand la date d’effet est atteinte (7/21/2012 1:00:00 AM), tous les nouveaux jetons sont émis par le nouveau certificat. Lors de la validation des jetons, ces derniers sont d’abord validés par rapport au nouveau certificat. Si la validation échoue, l’ancien certificat est testé. Le processus consistant à tester le nouveau certificat puis à utiliser l’ancien certificat continuera jusqu’à l’expiration de l’ancien certificat. Une fois l’ancien certificat expiré (7/22/2012 2:00:00 PM), les jetons seront uniquement validés par le nouveau certificat. L’ancien certificat peut être supprimé en toute sécurité à l’aide de l’applet de commande Remove-CsCertificate et du paramètre –Previous.

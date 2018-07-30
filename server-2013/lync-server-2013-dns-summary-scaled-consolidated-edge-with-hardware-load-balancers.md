@@ -41,7 +41,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
     
     Trois adresses IP publiques sont affectées à cette carte réseau, par exemple, 131.107.155.10 pour le service Edge d’accès, 131.107.155.20 pour le service Edge de conférence web, 131.107.155.30 pour le service Edge A/V.
     
-    > [!note]  
+    > [!NOTE]  
     > Les adresses IP affectées aux interfaces réseau externes réelles du serveur Edge peuvent varier en fonction de l’équilibreur de charge matérielle choisi. Pour plus d’informations sur les exigences liées aux adresses IP, reportez-vous à la documentation de votre équilibreur de charge matérielle.<br />
     Il est possible, bien que non recommandé, d’utiliser une seule adresse IP pour toutes les interfaces de service Edge. Même si cela économise des adresses IP, des numéros de port différents sont requis pour chaque service. Le numéro de port par défaut est 443/TCP (garantit que la plupart des pare-feux distants autorisent le trafic). La modification des valeurs de port sur (par exemple) 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence web et 443/TCP pour le service Edge A/V peut engendrer des problèmes pour les utilisateurs distants si le pare-feu derrière lequel ils se trouvent n’autorise pas le trafic via les ports 5061/TCP et 444/TCP. En outre, trois adresses IP distinctes facilitent l’identification et la résolution des problèmes, car vous pouvez filtrer selon l’adresse IP.    
     L’adresse IP du service Edge d’accès avec la passerelle par défaut définie sur le routeur Internet (131.107.155.1) est l’adresse principale.

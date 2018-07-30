@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-09-10_
 
 Vous pouvez spécifier un fichier de musique personnel à utiliser en guise d’attente musicale en lieu et place du fichier de musique par défaut fourni avec Lync Server 2013. Pour personnaliser l’attente musicale, utilisez l’applet de commande **Set-CsCallParkServiceMusicOnHoldFile**.
 
-> [!note]  
+> [!NOTE]  
 > Si vous personnalisez l’attente musicale et voulez utiliser la même musique pour plusieurs sites, vous devez configurer le fichier de musique pour chaque site exécutant l’application de parcage d’appel.
 
 ## Pour personnaliser le fichier de musique

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Après avoir installé des fichiers pour un ou plusieurs serveurs de médiation, configuré le routage des appels sortants et éventuellement déployé une ou plusieurs fonctions Voix Entreprise avancées, vous pouvez utiliser les procédures suivantes pour permettre à un utilisateur de passer des appels en utilisant Voix Entreprise :
 
-> [!note]  
+> [!NOTE]  
 > Parmi ces procédures, seule la première peut être effectuée en utilisant Panneau de configuration Lync Server. Pour les autres procédures, vous pouvez utiliser uniquement Lync Server Management Shell.
 
   - Activez le compte d’utilisateur pour Voix Entreprise.

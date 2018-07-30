@@ -21,7 +21,7 @@ Pour les sites des petites et moyennes succursales (de 25 à 1 000 utilisateu
 
 Pour les sites de succursale de 1 000 à 5 000 utilisateurs, sans réseau étendu résistant, nous conseillons de connecter un serveur Survivable Branch Server à une passerelle RTC ou via une jonction SIP à un fournisseur de services téléphoniques. Un serveur Survivable Branch Server est un ordinateur Windows Server sur lequel sont installés le serveur d’inscriptions et le logiciel du serveur de médiation.
 
-> [!note]  
+> [!NOTE]  
 > Pour les sites de succursale de plus de 5 000 utilisateurs et des administrateurs Lync Server dédiés, nous conseillons un déploiement complet de Lync Server 2013, distinct de celui du site central.<br />
 Pour plus d’informations sur le choix de la solution de résistance la plus adaptée aux sites de succursale de votre entreprise, notamment les conditions préalables ainsi que les points à prendre en considération en matière de planification, reportez-vous à <a href="lync-server-2013-branch-site-resiliency-requirements.md">Configuration requise pour la résistance des sites de succursale pour Lync Server 2013</a> dans la documentation de planification.
 

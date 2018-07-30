@@ -19,10 +19,10 @@ Lync Server 2013 prend en charge les protocoles IP et réseau suivants :
 
   - **Protocoles IP.**    Lync Server 2013 prend en charge IP version 4 (IPv4) ou IP version 6 (IPv6) pour le réseau du serveur.
     
-    > [!note]  
+    > [!NOTE]  
     > Lync Server 2013 peut fonctionner dans un réseau avec la double pile IP activée.
 
   - **Protocoles de transport SIP.**   En général, SIP peut utiliser au moins trois types de transport : UDP (User Datagram Protocol), TCP (Transmission Control Protocol) et TLS (Transport Layer Security). Dans la configuration de transport SIP par défaut, le protocole TLS prévaut sur TCP. TLS est utilisé sur le réseau Lync Server 2013. À la périphérie du réseau, Lync Server 2013 peut interagir par le biais du protocole TCP. Lync Server 2013 ne prend pas en charge le protocole UDP pour le transport SIP, car il ne respecte pas les normes minimales de sécurité, de fiabiilité et d’évolutivité. Pour plus d’informations, reportez-vous à l’article du blog NextHop intitulé « Utiliser ou non UDP, telle est la question », à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369).
     
-    > [!note]  
+    > [!NOTE]  
     > Le contenu des blogs et leurs URL peuvent être modifiés sans préavis.

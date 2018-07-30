@@ -38,7 +38,7 @@ Vous pouvez utiliser Panneau de configuration Lync Server pour attribuer des ut
 
 8.  (Optionnel) Si le serveur ou pool de destination n’est pas disponible, activez la case à cocher **Forcer**.
     
-    > [!warning]  
+    > [!WARNING]  
     > Si vous activez la case à cocher <strong>Forcer</strong>, le compte d’utilisateur est déplacé, mais toutes les données associées sont supprimées (par exemple, les conférences planifiées par l’utilisateur). Si vous n’activez pas cette case à cocher, le compte et les données associées sont déplacés.
 
 ## Pour déplacer tous les utilisateurs d’un seul serveur ou pool vers un autre serveur ou pool
@@ -57,7 +57,7 @@ Vous pouvez utiliser Panneau de configuration Lync Server pour attribuer des ut
 
 7.  (Optionnel) Si le serveur ou pool de destination n’est pas disponible, activez la case à cocher **Forcer**.
     
-    > [!warning]  
+    > [!WARNING]  
     > Si vous activez la case à cocher <strong>Forcer</strong>, le compte d’utilisateur est déplacé, mais toutes les données associées sont supprimées (par exemple, les conférences planifiées par l’utilisateur). Si vous n’activez pas cette case à cocher, le compte et les données associées sont déplacés.
 
 ## Pour déplacer des utilisateurs d’un pool vers un autre pool à l’aide d’un filtre
@@ -74,7 +74,7 @@ Vous pouvez utiliser Panneau de configuration Lync Server pour attribuer des ut
 
 6.  Dans le menu **Action**, cliquez sur **Déplacer tous les utilisateurs vers le pool**.
     
-    > [!note]  
+    > [!NOTE]  
     > Lorsqu’un filtre est appliqué à un ensemble d’utilisateurs existant, l’option <strong>Déplacer tous les utilisateurs vers le pool</strong> s’applique au sous-ensemble filtré des utilisateurs, et non à <strong><em>tous</em></strong> les utilisateurs possibles.
 
 7.  Dans **Déplacer des utilisateurs**, sélectionnez le pool contenant les comptes d’utilisateur que vous souhaitez déplacer à l’aide de l’option **Pool de serveurs d’inscriptions source**.
@@ -83,7 +83,7 @@ Vous pouvez utiliser Panneau de configuration Lync Server pour attribuer des ut
 
 9.  (Optionnel) Si le serveur ou pool de destination n’est pas disponible, activez la case à cocher **Forcer**.
     
-    > [!warning]  
+    > [!WARNING]  
     > Si vous activez la case à cocher <strong>Forcer</strong>, le compte d’utilisateur est déplacé, mais toutes les données associées sont supprimées (par exemple, les conférences planifiées par l’utilisateur et les contacts). Si vous n’activez pas cette case à cocher, le compte et les données associées sont déplacés.
 
 ## Pour déplacer des utilisateurs d’un pool vers un autre pool à l’aide de Lync Management Shell

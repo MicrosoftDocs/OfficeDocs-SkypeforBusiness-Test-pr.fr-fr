@@ -19,7 +19,7 @@ Dans Lync Server 2013, la prise en charge des scénarios de contrôle d’appel
 
 L’intégration entre un PBX et Lync Server 2013 permet aux utilisateurs activés pour le contrôle d’appel distant d’utiliser l’interface utilisateur de Lync 2013 pour contrôler les appels sur leurs téléphones PBX des différentes façons suivantes :
 
-> [!note]  
+> [!NOTE]  
 > En définitive, les capacités de l’autocommutateur privé (PBX) qui héberge le téléphone PBX d’un utilisateur déterminent les fonctionnalités de contrôle d’appel distant mises à la disposition de cet utilisateur.
 
   - Passer un appel sortant
@@ -28,7 +28,7 @@ L’intégration entre un PBX et Lync Server 2013 permet aux utilisateurs activ
 
   - Répondre à un appel entrant avec un message instantané
     
-    > [!note]  
+    > [!NOTE]  
     > C’est-à-dire, lorsque le numéro de téléphone de l’appelant peut être associé à une adresse de messagerie instantanée figurant dans la liste d’adresses globale (GAL) de votre organisation ou dans la liste des contacts Lync de l’appelé, ou appartenant à l’organisation d’un partenaire fédéré.
 
   - Transférer un appel

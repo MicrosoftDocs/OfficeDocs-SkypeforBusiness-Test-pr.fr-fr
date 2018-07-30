@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-10-22_
 
 Un directeur est un serveur exécutant les logiciels de communication  Microsoft Lync Server 2013 qui peut authentifier des demandes des utilisateurs, mais qui n’héberge pas de comptes d’utilisateurs. Le directeur héberge également des services web similaires à ceux du serveur frontal, authentifie les demandes de tickets web et fournit d’autres services.
 
-> [!important]  
+> [!IMPORTANT]  
 > Si vous déployez des directeurs, vous devez publier les services web du directeur en externe via le proxy inverse ainsi que les services web du serveur frontal. Les rubriques suivantes décrivent le processus de planification pour les topologies possibles du directeur.
 
 ## Dans cette section

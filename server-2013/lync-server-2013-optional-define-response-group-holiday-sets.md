@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2014-02-07_
 
 Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés qui s’applique à un groupe Response Group.
 
-> [!note]  
+> [!NOTE]  
 > Si un flux de travail est défini en tant que flux de travail géré, tout utilisateur auquel est affecté le rôle CsResponseGroupManager peut définir et modifier les congés des flux de travail dont il assure la gestion.
 
 ## Pour créer une période de congé

@@ -49,7 +49,7 @@ Une fois que l’ordinateur du nœud observateur a redémarré, vous devez exéc
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
-> [!note]  
+> [!NOTE]  
 > Comme indiqué précédemment, vous pouvez également exécuter Watchernode.msi à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur <strong>Démarrer</strong>, cliquez avec le bouton droit sur <strong>Invite de commandes</strong>, puis cliquez sur <strong>Exécuter en tant qu’administrateur</strong>. Lorsque la fenêtre de commande s’ouvre, tapez la même commande que précédemment.
 
 Le mode Négocier est utilisé à chaque fois que le nœud observateur ne peut pas être configuré en tant que pool d’application approuvées. Dans ce mode, les administrateurs devront gérer les mots de passe des utilisateurs de test sur le nœud observateur.

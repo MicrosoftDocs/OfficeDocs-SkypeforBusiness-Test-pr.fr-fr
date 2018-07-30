@@ -33,10 +33,10 @@ Les tableaux suivants comparent les fonctionnalités des clients Lync 2013 selon
 
 Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de Lync dans un déploiement local de Lync Server 2013. Les mêmes fonctionnalités sont également disponibles pour les utilisateurs de Lync Online et Office 365, sauf indication contraire.
 
-> [!important]  
+> [!IMPORTANT]  
 > Voir <a href="lync-server-2013-mobile-client-comparison-tables.md">Tableau de comparaison des clients mobiles pour Lync Server 2013</a> pour des détails sur la disponibilité des fonctionnalités dans les clients mobiles Lync 2013.
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > <li><p>Pour plus d’informations sur les plans d’abonnement Lync Online, voir la description du service Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>.</p></li>
 > <li><p>Lync Server 2013 prend en charge les clients précédents suivants : Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Lync 2010 Attendant. Pour plus d’informations sur ces clients, voir la version Lync 2010 des tableaux de comparaison des clients à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>.</p></li>
@@ -862,7 +862,7 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 
 ## Prise en charge de la conférence
 
-> [!note]  
+> [!NOTE]  
 > <ul>
 > <li><p>Les fonctionnalités de réunion Lync ne sont pas disponibles dans le plan autonome 1 de Lync Online.</p></li>
 > <li><p>Dans les sessions Lync-à-Lync, un utilisateur du plan 1 de Lync Online peut participer au partage de bureau et au partage d’applications s’il est invité par un utilisateur qui a accès aux fonctionnalités de partage.</p></li>
@@ -1358,7 +1358,7 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 
 ## Prise en charge de la téléphonie
 
-> [!note]  
+> [!NOTE]  
 > Les fonctions vocales de Lync sont limitées à certains plans d’abonnement Lync Online. Pour plus d’informations, voir la rubrique « Fonctions vocales de Lync » dans la description du service Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.
 
 

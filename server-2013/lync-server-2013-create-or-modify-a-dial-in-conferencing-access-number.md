@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-09-17_
 
 Suivez ces étapes si vous souhaitez créer ou modifier un numéro d’accès à une conférence rendez-vous.
 
-> [!important]  
+> [!IMPORTANT]  
 > Avant de créer un numéro d’accès entrant, vous devez définir une région de conférence rendez-vous dans le plan de numérotation qui est associé au nouveau numéro d’accès entrant. Plusieurs plans de numérotation peuvent utiliser la même région.
 
 ## Pour créer ou modifier un numéro d’accès entrant
@@ -34,45 +34,45 @@ Suivez ces étapes si vous souhaitez créer ou modifier un numéro d’accès à
     
       - Cliquez sur l’un des numéros d’accès entrant dans la liste, cliquez sur **Modifier** , puis sur **Afficher les détails** .
         
-        > [!note]  
+        > [!NOTE]  
         > Utiliser le champ de recherche pour rechercher le contenu d’une colonne dans la liste des numéros d’accès entrant peut ne pas produire les résultats que vous attendez. Par conséquent, triez la liste selon la colonne qui vous intéresse pour identifier le numéro d’accès entrant que vous voulez afficher ou modifier.
 
 5.  Dans **Numéro affiché** , tapez le numéro de téléphone que les utilisateurs du réseau téléphonique commuté (RTC) composent pour rejoindre une conférence.
     
-    > [!note]  
+    > [!NOTE]  
     > Ce numéro est affiché dans les invitations aux réunions et dans la page web des paramètres des conférences rendez-vous.
 
 6.  Dans **Nom d’affichage** , tapez la description du numéro d’accès entrant. Il s’agit du nom qui est associé au numéro d’accès entrant dans les résultats des recherches dans Lync.
     
-    > [!note]  
+    > [!NOTE]  
     > Ce nom est affiché dans le client lorsqu’un utilisateur appelle le numéro d’accès.
 
 7.  Dans **URI de ligne** , tapez le numéro E.164 du numéro d’accès entrant au format d’URI TEL, avec le symbole + avant le numéro et sans espace. Par exemple, tel :+14255550200.
     
-    > [!note]  
+    > [!NOTE]  
     > Le même URI de ligne ne peut pas être réutilisé par un autre numéro d’accès à une conférence rendez-vous.
 
 8.  Dans **URI SIP** , procédez comme suit :
     
       - Dans la zone de texte, tapez un URI SIP unique pour ce numéro d’accès à une conférence rendez-vous. Cet URI SIP est affiché à différents endroits, notamment dans les messages de notification d’appel et dans les versions précédentes des clients Communicator.
         
-        > [!note]  
+        > [!NOTE]  
         > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès à une conférence rendez-vous. Il n’est pas possible de modifier l’URI SIP une fois que le numéro d’accès est créé. Le seul moyen de modifier l’URI SIP est de supprimer et de recréer le numéro d’accès.    
       - Dans la zone de liste déroulante, cliquez sur le domaine de l’application Intendant Conférence qui prend en charge ce numéro d’accès entrant.
 
 9.  Dans **Pool** , cliquez sur le pool qui exécute l’instance d’Intendant Conférence qui prend en charge ce numéro d’accès entrant.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous devez modifier le pool après avoir créé le numéro d’accès, vous devez utiliser l’applet de commande <strong>Move-CsApplicationEndpoint</strong> ou supprimer et recréer le numéro d’accès.
 
 10. Dans **Langue principale** , cliquez sur la langue des invites pour ce numéro d’accès entrant.
     
-    > [!note]  
+    > [!NOTE]  
     > La langue principale est la langue que l’Intendant Conférence utilise pour répondre aux appels. Les langues prises en charge sont affichées avec chaque numéro de téléphone d’accès dans la page web des paramètres des conférences rendez-vous.
 
 11. (Facultatif) Dans **Langues secondaires (quatre au maximum)** , cliquez sur **Ajouter** , sélectionnez les langues supplémentaires que vous souhaitez prendre en charge pour les personnes qui appellent ce numéro d’accès entrant, puis cliquez sur **OK** .
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez sélectionner jusqu’à quatre langues secondaires pour chaque numéro d’accès entrant. Les utilisateurs peuvent sélectionner une langue secondaire avant d’entrer l’ID de la conférence à laquelle ils souhaitent participer.
 
 12. Pour ajouter une région pour le numéro d’accès entrant, sous **Régions associées** , cliquez sur **Ajouter** , cliquez sur les régions associées aux plans de numérotation pour ce numéro d’accès entrant, puis cliquez sur **OK** .

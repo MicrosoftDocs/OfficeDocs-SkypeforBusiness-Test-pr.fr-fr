@@ -21,10 +21,10 @@ Un tronçon est une connexion logique entre un serveur de médiation et une pass
 
 {Nom de domaine complet (FQDN) du serveur de médiation, port d’écoute (TLS ou TCP) du serveur de médiation : IP et FQDN de passerelle, port d’écoute de passerelle}
 
-> [!note]  
+> [!NOTE]  
 > Cette rubrique part du principe que vous avez installé une passerelle RTC et un tronçon racine avec au moins un serveur de médiation colocalisé ou autonome, ou un pool, tel que décrit dans la section <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Définition d’une passerelle dans le générateur de topologie dans Lync Server 2013</a> (contenu éventuellement en anglais) de la documentation relative au déploiement.
 
-> [!note]  
+> [!NOTE]  
 > Cette rubrique part du principe que vous avez installé au moins un pool de serveurs frontaux ou serveur Standard Edition dans au moins un site central, tel que décrit dans les sections <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013</a> et <a href="lync-server-2013-publish-the-topology.md">Publication de la topologie dans Lync Server 2013</a> de la documentation relative au déploiement.
 
 ## Pour définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle
@@ -37,7 +37,7 @@ Un tronçon est une connexion logique entre un serveur de médiation et une pass
 
 3.  Dans **Définir un nouveau tronçon** , spécifiez un nom convivial pour identifier le tronçon de manière unique. Deux tronçons ne peuvent pas avoir le même nom.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous spécifiez Transport Layer Security (TLS) comme type de transport, vous devez spécifier le nom de domaine complet (FQDN) au lieu de l’adresse IP de l’homologue du serveur de médiation.
 
 4.  Sous **Passerelle RTC associée** , sélectionnez l’homologue de passerelle RTC à associer à ce tronçon.
@@ -48,16 +48,16 @@ Un tronçon est une connexion logique entre un serveur de médiation et une pass
 
 6.  Sous **Protocole de transport SIP** , cliquez sur le type de transport utilisé par l’homologue.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour des raisons de sécurité, nous vous recommandons vivement de déployer un homologue vers le serveur de médiation qui peut utiliser TLS.
 
 7.  Sous **Serveur de médiation associé** , sélectionnez le pool du serveur de médiation à associer avec le tronçon racine de cet homologue
 
 8.  Sous **Port du serveur de médiation associé** , tapez le port d’écoute dans lequel le serveur de médiation recevra les messages SIP de l’homologue.
     
-    > [!note]  
+    > [!NOTE]  
     > Avec la prise en charge de plusieurs tronçons dans Lync Server 2013, deux tronçons ayant des noms différents ne peuvent pas être configurés avec les mêmes <strong>port de serveur de médiation associé</strong> et <strong>port d’écoute pour passerelle IP/RTC</strong>    
-    > [!note]  
+    > [!NOTE]  
     > Avec la prise en charge de plusieurs tronçons dans Lync Server 2013, plusieurs ports de signalisation SIP peuvent être définis sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’un tronçon, le numéro du <strong>port de serveur de médiation associé</strong> doit être compris dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie pour Lync Server 2013 et les pools de serveurs de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation approprié, puis sélectionnez <strong>Modifier les propriétés</strong> . Spécifiez la plage de ports dans le champ <strong>Ports d’écoute</strong> .
 
 9.  Cliquez sur **OK** .

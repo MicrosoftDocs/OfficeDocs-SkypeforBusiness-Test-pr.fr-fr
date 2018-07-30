@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-10-01_
 
 Cette section vous guide au cours de l’installation de Lync Server 2013 et de la configuration des rôles serveur pour le serveur Standard Edition et le pool de serveurs frontaux, notamment les serveurs frontaux et les rôles serveurs colocalisés avec les serveurs frontaux. Pour installer et configurer les rôles serveur, vous devez exécuter l’Assistant Déploiement de Lync Server sur chaque ordinateur sur lequel vous installez un rôle serveur. Faites appel à l’Assistant Déploiement pour exécuter les quatre étapes du déploiement que sont l’installation du magasin de configurations local, l’installation des serveurs frontaux, la configuration des certificats et le démarrage des services.
 
-> [!note]  
+> [!NOTE]  
 > Avant de pouvoir configurer les rôles serveur, vous devez avoir réussi la publication d’une topologie. Pour plus d’informations sur la publication d’une topologie, reportez-vous à <a href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalisation et implémentation de la conception de topologie dans Lync Server 2013</a>.
 
 ## Dans cette section

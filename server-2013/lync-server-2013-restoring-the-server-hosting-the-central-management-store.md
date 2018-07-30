@@ -21,7 +21,7 @@ Pour trouver le pool où se trouve le serveur de gestion centralisée, ouvrez le
 
 Si le serveur principal qui héberge le magasin central de gestion se trouve dans une configuration en miroir et que la base de données miroir est toujours fonctionnelle, nous vous recommandons d’effectuer une sauvegarde de ce miroir toujours opérationnel, puis d’effectuer une restauration complète sur la base de données primaire et la base de données miroir, à l’aide de cette sauvegarde, en suivant la procédure de restauration ci-après. Cela est nécessaire, car la restauration du serveur principal nécessite la modification et la publication de la topologie, opérations qui ne peuvent être effectuées que si la base de données primaire qui héberge le magasin central de gestion est opérationnelle. En outre, notez que les rôles de base de données primaire et miroir ne peuvent être permutés que si la topologie peut être publiée.
 
-> [!note]  
+> [!NOTE]  
 > Si un serveur principal ou le serveur Standard Edition qui n’héberge pas le magasin central de gestion échoue, consultez <a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restauration du serveur principal Enterprise Edition</a> ou <a href="lync-server-2013-restoring-a-standard-edition-server.md">Restauration d’un serveur Standard Edition</a>. Si un serveur principal qui héberge le magasin central de gestion se trouve dans une configuration en miroir et que seul le miroir échoue, consultez <a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restauration d’un serveur principal Enterprise Edition en miroir - Miroir</a>. Si n’importe quel autre serveur échoue, consultez <a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restauration d’un serveur membre Enterprise Edition</a>.
 
 > [!tip]  
@@ -31,14 +31,14 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
 
 1.  Démarrez avec un serveur nouveau ou propre qui a le même nom de domaine complet (FQDN) que l’ordinateur qui a échoué, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
     
-    > [!note]  
+    > [!NOTE]  
     > Suivez les procédures de déploiement serveur de votre organisation pour effectuer cette étape.
 
 2.  Depuis un compte utilisateur qui est membre du groupe RTCUniversalServerAdmins et du groupe Administrateurs local, connectez-vous au serveur que vous êtes en train de restaurer.
 
 3.  Si vous restaurez un serveur Standard Edition, restaurez le magasin de fichiers en copiant le magasin de fichiers approprié depuis $Backup à l’emplacement du magasin de fichiers sur le serveur, puis partagez le dossier.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Le chemin d’accès et le nom de fichier du magasin de fichiers restauré doivent être exactement les mêmes que ceux du magasin de fichiers sauvegardé pour que les composants qui utilisent les fichiers puissent continuer à y accéder.
 
 4.  Effectuez l’une des opérations suivantes :
@@ -47,7 +47,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
       - Si vous installez un serveur principal d’entreprise, installez SQL Server 2012 ou SQL Server 2008 R2, en conservant les mêmes noms d’instances qu’avant la défaillance.
         
-        > [!note]  
+        > [!NOTE]  
         > Suivant le serveur que vous restaurez et votre déploiement, le serveur peut inclure plusieurs bases de données colocalisées ou séparées. Suivez la même procédure pour installer SQL Server que celle que vous avez utilisée à l’origine pour déployer le serveur, avec les autorisations et les comptes de connexion SQL Server.
 
 5.  À partir d’un serveur frontal, procédez comme suit. Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
@@ -68,7 +68,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous perdez le point de connexion, vous pouvez réexécuter cette applet de commande.
 
 8.  Importez les données du magasin central de gestion depuis $Backup. Sur la ligne de commande, tapez :
@@ -83,7 +83,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
         Enable-CsTopology
     
-    > [!note]  
+    > [!NOTE]  
     > Lorsque vous avez activé la topologie, vous pouvez trouver le document de topologie dans la base de données.
 
 10. Si vous restaurez un serveur principalEnterprise Edition qui hébergeait également le magasin central de gestion ou que vous devez recréer un miroir du magasin central de gestion, suivez cette étape. Sinon, passez à l’étape 11.
@@ -100,7 +100,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
     5.  Suivez l’Assistant **Installer une base de données**. Si vous restaurez une autre base de données que le magasin central de gestion sur ce serveur, dans la page **Créer des bases de données**, sélectionnez les bases de données que vous voulez recréer.
         
-        > [!note]  
+        > [!NOTE]  
         > Seules les bases de données autonomes sont affichées dans la page <strong>Créer des bases de données</strong>. Les bases de données colocalisées sont créées lorsque vous exécutez l’Assistant Déploiement de Lync Server.    
     6.  Si vous restaurez un serveur principal en miroir, poursuivez le reste de l’Assistant jusqu’à l’apparition d’une invite Créer des bases de données miroir. Sélectionnez la base de données à installer, puis terminez le processus.
     

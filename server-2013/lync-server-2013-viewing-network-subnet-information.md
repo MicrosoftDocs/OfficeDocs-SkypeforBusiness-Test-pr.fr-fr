@@ -27,7 +27,7 @@ Vous pouvez utiliser la procédure suivante pour afficher un sous-réseau. Dans 
 
 4.  Dans la page **Sous-réseau**, cliquez sur le sous-réseau que vous souhaitez afficher.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous ne pouvez afficher qu’un seul sous-réseau à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.

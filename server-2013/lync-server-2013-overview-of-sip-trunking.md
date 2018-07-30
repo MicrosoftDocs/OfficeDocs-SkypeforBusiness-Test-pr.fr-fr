@@ -47,5 +47,5 @@ Bénéficier de fonctionnalités vocales est souvent la principale motivation po
 
   - Le service d’appels d’urgence E9-1-1 permet aux services de secours qui répondent aux appels d’urgence de déterminer l’emplacement de la personne qui appelle à partir de son numéro de téléphone.
 
-> [!note]  
+> [!NOTE]  
 > Contactez votre fournisseur de services de téléphonie Internet pour savoir quels services il prend en charge et peut activer pour votre organisation.

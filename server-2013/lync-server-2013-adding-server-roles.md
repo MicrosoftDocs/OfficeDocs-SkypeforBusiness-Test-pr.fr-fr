@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-06-19_
 
 Une fois que votre déploiement initial est opérationnel, vous pouvez ajouter des rôles serveur supplémentaires pour Lync Server 2013, par exemple, un directeur ou un serveur de médiation autonome.
 
-> [!note]  
+> [!NOTE]  
 > Avant de commencer à installer des rôles serveur supplémentaires, consultez les rubriques de planification relatives à chaque rôle.
 
 ## Dans cette section

@@ -25,7 +25,7 @@ Vous pouvez demander à vos utilisateurs d’installer Lync 2013 pour iPhone et 
 
   - Lync pour iPad est disponible dans l’App Store à l’adresse \< http://www.apple.com/ipad/from-the-app-store/\>
 
-> [!important]  
+> [!IMPORTANT]  
 > Les utilisateurs de l'iPhone qui n'ont pas installé l'application Lync 2013 et qui essaient de participer à une réunion Lync à partir d'une invitation de réunion seront redirigés vers une page Lanceur de participation. Cette page contient un lien pour l'installation de l'application Lync 2013. Cependant, au lieu de diriger l'utilisateur vers l'App Store, ce lien ouvre une page vide dans le navigateur Safari. L'utilisateur dispose de deux possibilités pour résoudre ce problème :<ul>
 > <li><p>Utilisez le bouton <strong>Accueil</strong> pour mettre la page Safari en arrière-plan, puis rouvrez Safari. Quand la notification « Ouvrir cette page dans App Store » s'affiche, appuyez sur <strong>Ouvrir</strong> pour être dirigé vers le téléchargement de Lync 2013 dans l'App Store.</p></li>
 > <li><p>Ouvrez manuellement l'App Store, recherchez « Lync 2013 » et téléchargez l'application.</p></li></ul>

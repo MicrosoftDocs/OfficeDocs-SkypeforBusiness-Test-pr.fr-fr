@@ -75,7 +75,7 @@ L’exécution de ces services sur chaque serveur de conversations permanentes p
 
 En outre, pour garantir la prise en charge du chargement et du téléchargement de fichiers dans les salles de conversation permanente, le serveur de conversations permanentes intègre un service web. Dans la version précédente, ce service était colocalisé sur le serveur frontal du serveur de conversations permanentes et nécessitait l’installation préalable des services Internet (IIS). Sur le serveur de conversations permanentesLync Server 2013, le service web de chargement/téléchargement de fichiers est colocalisé avec le serveur frontalLync Server 2013. Par conséquent, il n’est plus nécessaire d’installer les services Internet (IIS) pour le serveur de conversations permanentes. Le service web de chargement/téléchargement de fichiers est identifié sous le nom **PersistentChat** dans le Gestionnaire des services Internet (IIS).
 
-> [!important]  
+> [!IMPORTANT]  
 > Le rôle <strong>PersistentChatService</strong> peut être exécuté sur le même serveur qu’un serveur frontalLync Server 2013 seulement si ce serveur frontal est un serveur frontalStandard Edition. Le rôle <strong>PersistentChatService</strong> ne peut pas être exécuté indépendamment d’un serveur frontal  Lync Server 2013. Il ne peut être installé que dans le cadre d’un déploiement de Lync Server 2013.
 
 Le serveur de conversations permanentes ne contient plus le service de recherche. Dans Lync Server 2010, conversation de groupe, ce service était exécuté sur chaque serveur frontal du serveur Group Chat pour effectuer le routage vers l’un des serveurs de canal. Pour le routage, Lync Server 2013 utilise des objets contact, chacun représentant un pool de serveurs de conversations permanentes. Les serveurs frontaux  Lync Server se réfèrent aux objets contact pour identifier les demandes et les acheminer vers un pool de serveurs de conversations permanentes approprié et vers l’un des ordinateurs exécutant le serveur de conversations permanentes dans ce pool.
@@ -86,9 +86,9 @@ Dans Lync Server 2013, le service de conformité a été modifié, comme détai
 
   - La file d’attente Microsoft Message Queuing (ou MSMQ) utilisée conjointement par le service de conversation permanente et le service de conformité sur chaque serveur frontal du serveur de conversations permanentes est désormais une file d’attente privée partagée uniquement par ces deux services. Tous les services de conformité enregistrent leurs données dans la même base de données sur le serveur principal de conformité. Ils extraient également de cette base de données toutes les données qu’ils doivent envoyer à l’instance de carte associée. Le serveur principal de conformité constitue un nouveau rôle serveur principal.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Comme dans les versions précédentes, toutes les données de conformité sont traitées en une seule fois. Toutes les données peuvent être traitées par n’importe quelle instance de carte appelée par le service de conformité exécuté sur l’un des différents ordinateurs serveur de conversations permanentesLync Server 2013. Sur le serveur de conversations permanentes, chacune des instances de carte peut traiter les données.    
-    > [!note]  
+    > [!NOTE]  
     > Pour plus d’informations sur la file d’attente Microsoft Message Queuing, reportez-vous à <a href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Installation des systèmes d’exploitaition et des logiciels prérequis sur les serveurs pour Lync Server 2013</a> dans la documentation de déploiement.
 
 Lync Server 2013 apporte des améliorations en termes de haute disponibilité et de récupération d’urgence :

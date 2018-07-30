@@ -19,7 +19,7 @@ Lync Server 2013 inclut la prise en charge de nouvelles applets de commande pou
 
 La procédure suivante permet de déplacer les groupes Response Groupe d’un pool de serveurs frontaux vers un autre pool de serveurs frontaux avec un nom de domaine complet différent.
 
-> [!note]  
+> [!NOTE]  
 > Dans un environnement de coexistence, vous ne pouvez déplacer les groupes Response Group qu’entre les pools de serveurs frontauxLync Server 2013.
 
 ## Pour déplacer les groupes Response Group avec un nom de domaine complet différent
@@ -48,7 +48,7 @@ La procédure suivante permet de déplacer les groupes Response Groupe d’un po
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
     
-    > [!note]  
+    > [!NOTE]  
     > Les paramètres de niveau d’application comprennent la configuration de l’attente musicale par défaut, le fichier audio de l’attente musicale par défaut, la période de grâce de la reprise d’appel parqué des agents ainsi que la configuration du contexte de l’appel. Pour afficher ces paramètres de configuration, exécutez l’applet de commande <strong>Get-CsRgsConfiguration</strong>. Pour plus d’informations sur cette applet de commande, voir <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>.
 
 4.  Vérifiez que l’importation est réussie en affichant la configuration des groupes Response Group importés. Pour ce faire, procédez comme suit :

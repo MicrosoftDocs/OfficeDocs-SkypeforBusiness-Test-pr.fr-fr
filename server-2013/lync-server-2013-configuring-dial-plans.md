@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-22_
 
 Un plan de numérotation Lync Server 2013 est un ensemble nommé de règles de normalisation qui convertissent des numéros de téléphone pour un emplacement nommé, un utilisateur individuel ou un objet Contact, à des fins d’autorisation téléphonique et de routage des appels.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations, reportez-vous à <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Plans de numérotation et règles de normalisation dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Dans cette section

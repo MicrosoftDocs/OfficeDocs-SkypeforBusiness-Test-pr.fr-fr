@@ -31,12 +31,12 @@ Voici la procédure générale pour travailler avec votre administrateur de clie
 
 4.  Ce dernier attribue les numéros de téléphone aux plans de numérotation de messagerie unifiée Exchange appropriés pour les standards automatiques et l’accès abonné.
 
-> [!note]  
+> [!NOTE]  
 > Il n’est pas nécessaire de configurer des paramètres de plan de numérotation Lync Server 2013 sur les objets Contact comme c’est le cas avec des déploiements sur site.
 
 ## Configuration d’objet Contact hébergés
 
-> [!note]  
+> [!NOTE]  
 > Avant que les objets Contact Lync Server 2013 puissent être activés pour la messagerie unifiée Exchange hébergée, une stratégie de messagerie vocale hébergée qui s’applique à eux doit être déployée. Cette stratégie peut avoir une portée globale, au niveau du site ou par utilisateur, dès lors qu’elle s’applique à l’objet Contact que vous voulez activer. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-hosted-voice-mail-policies.md">Stratégies de messagerie vocale hébergées dans Lync Server 2013</a> (contenu éventuellement en anglais).
 
 Pour configurer des objets Contact de standard automatique et d’accès abonné hébergés dans un déploiement intersite, vous devez utiliser les applets de commande suivantes :

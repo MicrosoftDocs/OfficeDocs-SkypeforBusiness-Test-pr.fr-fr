@@ -35,14 +35,14 @@ Procédez comme suit pour garantir la continuité de la copie des journaux de tr
 
 9.  Si le dossier de sauvegarde se trouve sur le serveur principal, tapez le chemin d’accès local au dossier de sauvegarde dans la zone **Si le dossier de sauvegarde se trouve sur le serveur principal, tapez un chemin d’accès local au dossier** . (Si le dossier de sauvegarde ne figure pas sur le serveur principal, vous pouvez laisser cette case à cocher vide.)
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Si le compte de service SQL Server sur votre serveur principal s’exécute sous le compte système local, vous devez créer votre dossier de sauvegarde sur le serveur principal et spécifier le chemin d’accès local de ce dossier.
 
 10. Configurez les paramètres **Supprimer les fichiers antérieurs à** et **Envoyer une alerte si aucune sauvegarde ne se produit en l’espace de** .
 
 11. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde** . Pour personnaliser la planification de votre installation, cliquez sur **Planification** , puis ajustez la planification de SQL Server Agent, selon les besoins.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Utilisez les mêmes paramètres que ceux de la base de données primaire.
 
 12. Sous **Compression** , sélectionnez **Utiliser le paramètre du serveur par défaut** , puis cliquez sur **OK** .
@@ -63,7 +63,7 @@ Procédez comme suit pour garantir la continuité de la copie des journaux de tr
 
 20. Sélectionnez et exécutez la première moitié de la requête (reportez-vous à l’étape 18) jusqu’à la ligne : -- \*\*\*\*\*\* Fin : script à exécuter sur le serveur principal : \*\*\*\*\*\*.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > L’exécution manuelle de ce script est nécessaire, car SQL Server Management Studio ne prend pas en charge plusieurs bases de données primaires dans une configuration de copie des journaux de transaction SQL Server.
 
 21. Sélectionnez **Annuler** pour fermer le panneau de configuration de copie des journaux de transaction et établir une configuration de travail qui implémente correctement la copie des journaux de transaction pour la base de données primaire et la base de données en miroir (en cas de basculement).

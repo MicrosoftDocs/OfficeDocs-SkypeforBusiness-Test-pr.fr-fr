@@ -93,7 +93,7 @@ Certaines organisations utilisent désormais un processus de connexion en plusie
 
 Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite » (vos informations d’identification doivent être identifiées auprès de la carte), que la carte soit virtuelle ou physique. Il est possible que votre administrateur Lync Server ait déjà effectué cette opération. Contactez-le si vous n’êtes pas certain que ce soit le cas.
 
-> [!note]  
+> [!NOTE]  
 > Chaque carte à puce virtuelle étant seulement associée à l’appareil sur lequel elle est installée, une nouvelle carte doit être inscrite pour chaque ordinateur Windows 8 que vous utilisez.
 
 **Pour inscrire votre carte à puce manuellement**
@@ -104,7 +104,7 @@ Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite
     
     Demandez à votre administrateur Lync Server l’adresse web de cette ressource si vous ne l’avez pas déjà. L’URL est semblable à celle-ci : https://MyCA.\[nom de votre entreprise\].com/certsrv.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous utilisez Internet Explorer 10, vous devrez peut être afficher ce site web en mode de compatibilité.
 
 3.  Lorsque vous y êtes invité sur la page de certification, connectez-vous à l’aide de votre compte de domaine (plutôt qu’avec un compte d’administrateur de votre ordinateur).
@@ -133,7 +133,7 @@ Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite
 
 9.  Lorsque vous y êtes invité, entrez votre code confidentiel, puis cliquez sur **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si votre agent de support technique ne vous a pas communiqué de code confidentiel spécial pour inscrire votre carte à puce, utilisez la valeur de code confidentiel par défaut de la carte à puce (12345678).
 
 10. Sélectionnez l’option forçant l’utilisateur (vous) à modifier le code confidentiel à la première utilisation de la carte.
@@ -142,7 +142,7 @@ Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite
 
 12. Lorsque vous y êtes invité, entrez votre code confidentiel, puis cliquez sur **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si votre agent de support technique ne vous a pas communiqué de code confidentiel spécial pour inscrire votre carte à puce, utilisez la valeur de code confidentiel par défaut de la carte à puce (12345678).
 
 13. Sélectionnez l’option forçant l’utilisateur (vous) à modifier le code confidentiel à la première utilisation de la carte.
@@ -167,5 +167,5 @@ Avant d’utiliser votre carte à puce la première fois, il est recommandé de 
 
 4.  Tapez le code confidentiel de votre carte à puce, puis cliquez sur **OK**.
     
-    > [!note]  
+    > [!NOTE]  
     > Si votre agent de support technique ne vous a pas communiqué de code confidentiel, utilisez la valeur par défaut (12345678).

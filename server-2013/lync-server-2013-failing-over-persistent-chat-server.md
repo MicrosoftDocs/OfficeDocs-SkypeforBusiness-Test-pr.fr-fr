@@ -67,7 +67,7 @@ La base de données de conformité de conversation permanente (mgccomp) n’est 
 
 7.  Définissez le serveur de conversations permanentes actif. Dans l’interface de commande Lync Server, utilisez l’applet de commande **Set-CsPersistentChatActiveServer** pour définir la liste des serveurs actifs.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Tous les serveurs actifs doivent être situés au sein du même centre de données que celui de la nouvelle base de données primaire, ou dans un centre de données avec une connexion à latence faible/bande passante élevée à la base de données.    
     À ce stade, le basculement de la base de données principale du serveur de conversations permanentes vers la base de données de sauvegarde du serveur de conversations permanentes s’effectue correctement.
 

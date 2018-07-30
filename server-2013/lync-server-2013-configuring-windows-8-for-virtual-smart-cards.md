@@ -35,7 +35,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée 
 
 6.  À partir de la console de gestion du module de plateforme sécurisée, vérifiez que la spécification du module de plateforme sécurisée correspond à la version 1.2 au minimum.
     
-    > [!note]  
+    > [!NOTE]  
     > Si un message indiquant qu’aucun module de plateforme sécurisée compatible n’a été trouvé, vérifiez que l’ordinateur dispose d’un module de plateforme sécurisée compatible et que celui-ci est activé dans le BIOS système.
 
 7.  Fermez la console de gestion du module de plateforme sécurisée.
@@ -44,7 +44,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée 
     
         TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
     
-    > [!note]  
+    > [!NOTE]  
     > Pour fournir une valeur de code confidentiel personnalisée lors de la création de la carte à puce virtuelle, utilisez plutôt l’invite /pin.
 
 9.  Sur la ligne de commande, ouvrez la console de gestion de l’ordinateur en exécutant la commande suivante :

@@ -23,7 +23,7 @@ Lync Server 2013 et Lync 2013 peuvent communiquer de manière sécurisée et tr
 
   - contenu archivé à partir de Lync, comme le contenu de messagerie instantanée et de réunion, pouvant être conservé dans le stockage Exchange.
 
-> [!note]  
+> [!NOTE]  
 > Lync Server 2013 prend en charge l’intégration dans les versions antérieures de Microsoft Exchange Server et SharePoint, mais toutes les fonctionnalités ne sont pas prises en charge dans ces versions antérieures, notamment l’intégration du stockage d’archives dans Microsoft Exchange.<br />
 Si vous êtes en train de faire migrer vos utilisateurs vers Exchange 2013, vous pouvez utiliser à la fois le stockage Exchange et le stockage Lync Server de manière provisoire, jusqu’à ce que vous ayez terminé cette migration. L’utilisation définitive du stockage Exchange et Lync Server n’est pas prise en charge.
 
@@ -35,7 +35,7 @@ Lync Server 2013 prend en charge les deux scénarios d’authentification de se
 
   - une paire de composants Office (par exemple, entre Microsoft Exchange 365 et Microsoft Lync Server 365 ou entre Microsoft Lync Server 365 et Microsoft SharePoint 365).
 
-> [!note]  
+> [!NOTE]  
 > L’authentification de serveur à serveur entre un serveur local et un composant Office 365 n’est pas prise en charge dans cette version de Lync Server 2013. Cela signifie, entre autres, que vous ne pouvez pas configurer une authentification de serveur à serveur entre une installation locale de Lync Server 2013 et Microsoft Exchange 365.
 
 Pour plus d’informations sur l’authentification de serveur à serveur, reportez-vous à [Gestion de l’authentification serveur à serveur (Oauth) et des applications partenaires dans Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) dans la documentation de déploiement ou la documentation des opérations.

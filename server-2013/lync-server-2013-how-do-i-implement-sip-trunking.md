@@ -19,7 +19,7 @@ Pour implémenter la jonction SIP, vous devez acheminer la connexion par l’int
 
 Chaque serveur de médiation est doté d’une interface réseau interne et externe. L’interface interne se connecte aux serveurs frontaux. L’interface externe est généralement appelée « interface de passerelle », car elle a été traditionnellement utilisée pour connecter le serveur de médiation à une passerelle RTC ou à un système PBX IP. Pour implémenter une jonction SIP, vous connectez l’interface externe du serveur de médiation au composant Edge externe du fournisseur de services de téléphonie Internet.
 
-> [!note]  
+> [!NOTE]  
 > Ce dernier peut être un contrôleur SBC, un routeur ou une passerelle.
 
 Pour plus d’informations sur les serveurs de médiation, reportez-vous à [Composant Serveur de médiation dans Lync Server 2013](lync-server-2013-mediation-server-component.md).
@@ -46,7 +46,7 @@ Selon l’emplacement géographique des sites et le trafic anticipé au sein de 
 
 La décision d’opter pour une jonction SIP centralisée ou distribuée doit être basée sur une analyse des coûts-avantages. Dans certains cas, il peut être plus avantageux d’opter pour un modèle de déploiement distribué, même s’il n’est pas nécessaire. Dans un environnement entièrement centralisé, tout le trafic de site de succursale est acheminé via des liaisons de réseau étendu (WAN). Au lieu de payer pour la bande passante requise pour la liaison de réseau étendu, il est peut-être préférable d’utiliser une jonction SIP distribuée. Par exemple, vous pouvez déployer un serveur Standard Edition sur un site de succursale fédéré au site central ou déployer un Survivable Branch Appliance ou un serveur Survivable Branch Server avec une petite passerelle.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur la jonction SIP distribuée, reportez-vous à <a href="lync-server-2013-branch-site-sip-trunking.md">Jonction SIP de site de succursale dans Lync Server 2013</a>.
 
 ## Types de connexion de jonction SIP pris en charge
@@ -75,7 +75,7 @@ La capacité d’appels (c’est-à-dire le nombre d’appels simultanés devant
 
 Bande passante de jonction SIP maximale = Nbre max. d’appels simultanés (64 Kbits/s + taille d’en-tête)
 
-> [!note]  
+> [!NOTE]  
 > La taille d’en-tête maximale est de 20 octets.
 
 ## Prise en charge de codec
@@ -92,5 +92,5 @@ La manière dont vous mettez en œuvre le côté fournisseur de services d’une
 
 Pour plus d’informations sur les fournisseurs de jonctions SIP approuvés par Microsoft, contactez votre représentant Microsoft.
 
-> [!important]  
+> [!IMPORTANT]  
 > Vous devez utiliser un fournisseur de services approuvé par Microsoft pour garantir que votre fournisseur de services de téléphonie Internet prend en charge toutes les fonctionnalités qui transitent par la jonction SIP (par exemple, la configuration et la gestion des sessions et la prise en charge des services VoIP étendus). Le support technique Microsoft ne s’étend pas aux configurations qui utilisent des fournisseurs non approuvés. Si vous utilisez actuellement un fournisseur de services Internet non approuvé pour la jonction SIP, vous pouvez envisager de continuer à utiliser ce fournisseur en tant que FAI et utiliser un fournisseur approuvé par Microsoft pour la jonction SIP.

@@ -37,6 +37,6 @@ Les utilisateurs constatent le comportement suivant quand un client Lync Server�
 
   - Pour les conférences à plusieurs, la résolution vidéo et les fonctionnalités de vidéoconférence sont les mêmes que celles d’un client hérité dans le pool hérité.
 
-> [!note]  
+> [!NOTE]  
 > Quand un serveur hérité héberge un client Lync Server 2013, il est possible de configurer la bande passante réservée à la vidéoconférence de sorte que tous les utilisateurs du pool ne reçoivent qu’une vidéo basse résolution mais puissent envoyer une vidéo haute résolution. Par exemple, la valeur de MaxVideoRateAllowed est CIF-250K dans la configuration multimédia et celle de VideoBitRateKb est 2 000 Kbits/s dans la stratégie de conférence, dans ce scénario, les utilisateurs du pool ne peuvent pas bénéficier d’une haute résolution.<br />
 MaxVideoRateAllowed n’étant plus utilisé pour les clients Lync Server 2013, il ne peut pas empêcher les clients Lync Server 2013 de demander des vidéos haute résolution. En revanche, vous pouvez affecter pour tous les utilisateurs du pool la même valeur à VideoBitRateKb et à MaxVideoRateAllowed (c’est-à-dire, CIF est défini sur 250 Kbits/s ou VGA est défini sur 600 Kbits/s ou HD est défini sur 1 500 Kbits/s).

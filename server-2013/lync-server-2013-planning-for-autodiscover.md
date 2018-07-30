@@ -25,7 +25,7 @@ Quand la découverte automatique a été introduite dans Lync Server 2010, la s
 
 Étant donné que Lync Server 2013 utilise la découverte automatique pour tous les clients, le principal scénario consiste à utiliser HTTPS exclusivement et à créer des certificats avec lyncdiscover.\<domain\> dans le cadre de la configuration des proxys inverses, des directeurs et des serveurs frontaux. Si vous implémentez la découverte automatique dans un déploiement mis à niveau à partir de Lync Server 2010, vous pouvez utiliser HTTP pour éviter la réémission de certificats. Les sections suivantes fournissent de l’aide pour les deux scénarios.
 
-> [!important]  
+> [!IMPORTANT]  
 > La liste des autres noms de sujet sur les certificats utilisés par la règle de publication des services web externes doit contenir une entrée <em>lyncdiscover.&lt;sipdomain&gt;</em> pour chaque domaine SIP situé au sein de votre organisation. Pour plus d’informations sur les entrées des autres noms de sujet requises pour les directeurs, les serveurs frontaux et les proxys inverses, voir <a href="lync-server-2013-certificate-summary-autodiscover.md">Résumé des certificats - découverte automatique</a>.
 
 ## Dans cette section

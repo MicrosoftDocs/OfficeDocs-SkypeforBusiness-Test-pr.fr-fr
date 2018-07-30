@@ -34,7 +34,7 @@ Les paramètres de l’application de parcage d’appel incluent le seuil du dé
 
 2.  Dans la ligne de commande, tapez ce qui suit :
     
-    > [!note]  
+    > [!NOTE]  
     > Si les paramètres de votre application de parcage d’appel Lync Server 2013 sont identiques aux paramètres Lync Server 2010 hérités, vous pouvez ignorer cette étape. Si les paramètres de l’application de parcage d’appel sont différents pour les environnements Lync Server 2013 et Lync Server 2010, utilisez l’applet de commande ci-dessous comme modèle pour effectuer une mise à jour afin d’appliquer ces changements.    
         Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
 

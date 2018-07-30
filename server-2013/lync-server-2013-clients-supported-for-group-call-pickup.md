@@ -23,7 +23,7 @@ N’importe lequel des clients suivants peut être utilisé pour répondre à de
 
   - Lync Phone Edition
 
-> [!note]  
+> [!NOTE]  
 > Les utilisateurs peuvent utiliser l’un de ces clients pour répondre à des appels aux membres de prise d’appel de groupe, mais les utilisateurs doivent être hébergés sur un pool Lync Server 2013 avec les mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 Dans les mises à jour cumulatives pour Lync Server 2013 : février 2013, les clients et appareils suivants ne sont pas pris en charge pour prendre des appels aux membres de prise d’appel de groupe :

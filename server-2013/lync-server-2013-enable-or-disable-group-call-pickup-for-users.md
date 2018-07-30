@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-22_
 
 Quand une plage de prise d’appel de groupe est ajoutée à la table des numéros d’appel parqué, vous pouvez activer et désactiver la prise d’appel de groupe pour l’utilisateur en fonction des besoins. Cette section explique comment utiliser l’outil de kit de ressources SEFAUtil pour activer et désactiver la prise d’appel de groupe pour les utilisateurs.
 
-> [!note]  
+> [!NOTE]  
 > Le paramètre SEFAUtil /enablegrouppickup active la prise d’appel de groupe et attribue le numéro de groupe.
 
 ## Dans cette section

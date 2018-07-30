@@ -69,7 +69,7 @@ Lync Server 2013 prend en charge les déploiements des services de domaine Acti
 
 Lync Server ne prend pas en charge les domaines en une seule partie. Par exemple, une forêt comportant le domaine racine **contoso.local** est prise en charge alors que le domaine racine **local** ne l’est pas. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, « Informations sur la configuration des domaines Active Directory à l’aide de noms DNS en une seule partie », à l’adresse <http://go.microsoft.com/fwlink/?linkid=143752>.
 
-> [!note]  
+> [!NOTE]  
 > Lync Server ne prend pas en charge l’attribution de nouveau nom aux domaines. Si vous devez renommer un domaine où Lync Server est déployé, vous devez d’abord désinstaller Lync Server, renommer le domaine, puis réinstaller Lync Server.
 
 ## Environnements de services de domaine Active Directory verrouillés

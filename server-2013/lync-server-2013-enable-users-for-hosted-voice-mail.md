@@ -21,7 +21,7 @@ Pour plus d’informations, reportez-vous à [Gestion des utilisateurs Exchange 
 
 Pour plus d’informations sur l’applet de commande [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), reportez-vous à la documentation Lync Server Management Shell.
 
-> [!important]  
+> [!IMPORTANT]  
 > Avant de pouvoir activer un utilisateur Lync Server 2013 pour la messagerie vocale hébergée, vous devez déployer une stratégie de messagerie vocale hébergée s’appliquant à son compte d’utilisateur. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-hosted-voice-mail-policies.md">Stratégies de messagerie vocale hébergées dans Lync Server 2013</a>.
 
 ## Pour activer les utilisateurs pour la messagerie vocale hébergée
@@ -46,5 +46,5 @@ Pour plus d’informations sur l’applet de commande [Set-CsUser](https://docs.
         
           - le nom complet des services de domaine Active Directory de l’utilisateur (par exemple, Ken Myer). Vous pouvez recourir à l’astérisque (caractère générique \*) si vous utilisez le nom complet comme « Identity » pour l'utilisateur. Par exemple « Identity \* Smith » renvoie tous les utilisateurs dont le nom complet se termine par la valeur de chaîne « Smith ».
         
-        > [!note]  
+        > [!NOTE]  
         > Le nom de compte SAM Active Directory de l’utilisateur ne peut pas être utilisé comme valeur « Identity », car il n’est pas forcément unique dans la forêt.

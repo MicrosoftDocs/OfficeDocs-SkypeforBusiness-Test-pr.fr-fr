@@ -17,10 +17,10 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Lorsqu’un appelant appelle un groupe de réponses, l’appel est acheminé vers un agent basé sur un groupement de postes ou vers les réponses vocales interactives (IVR) aux questions de l’appelant. L’application Response Group utilise des méthodes standard de routage du groupe de réponses pour acheminer l’appel vers le prochain agent disponible. Parmi les méthodes de routage d’appel figurent notamment le routage de série, parallèle, le plus longuement inactif, tourniquet (round robin) et le nouveau routage Attendant dans lequel tous les agents sont appelés en même temps pour tous les appels entrants, quelle que soit leur présence actuelle. Si aucun agent n’est disponible, l’appel est mis en file d’attente jusqu’à ce qu’un agent se libère. Quand il est en file d’attente, l’appelant entend de la musique jusqu’à ce qu’un agent accepte l’appel. Si la file d’attente est pleine, ou si l’appel arrive à expiration dans la file d’attente, l’appelant entendra probablement un message, puis sera déconnecté ou transféré vers une autre destination. Quand un agent accepte l’appel, l’appelant peut dans certains cas voir l’identité de l’agent, selon la façon dont l’administrateur configure le groupe de réponses. Les agents peuvent être formels, c’est-à-dire qu’ils doivent se connecter au groupe avant de pouvoir accepter les appels y étant acheminés, ou informels, c’est-à-dire qu’ils n’ont pas besoin de se connecter ou déconnecter du groupe pour accepter les appels.
 
-> [!note]  
+> [!NOTE]  
 > Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé en ligne, les appels Response Group sont acheminés vers cet agent.
 
-> [!note]  
+> [!NOTE]  
 > L’application Response Group utilise un service interne, appelé service d’établissement des correspondances (Match Making), pour mettre les appels en file d’attente et rechercher les agents disponibles. Chaque ordinateur exécutant l’application Response Group exécute le service d’établissement des correspondances, mais un seul service d’établissement des correspondances par pool Lync Server est actif à la fois, tous les autres sont passifs. En cas d’indisponibilité du service d’établissement des correspondances actif au cours d’une interruption de service imprévue, l’un des services passifs devient actif. L’application Response Group fait le maximum pour s’assurer que le routage des appels et la mise en file d’attente se poursuivent sans interruption. Cependant, lorsqu’une transition du service d’établissement des correspondances se produit, tous les appels en transfert à ce moment-là sont perdus. Par exemple, si la transition est due à une panne du serveur frontal, tous les appels actuellement gérés par le service d’établissement des correspondances actif sur ce serveur frontal sont également perdus.
 
 Dans Lync Server 2013, deux rôles d’administration sont disponibles pour gérer les groupes Response Group : gestionnaire Response Group et administrateur Response Group. Les administrateurs Response Group peuvent gérer tous les aspects de tous les groupes Response Group. Les gestionnaires Response Group peuvent uniquement gérer certains aspects et uniquement pour les groupes Response Group dont ils sont propriétaires. Le nouveau rôle de gestionnaire permet de réduire les coûts d’administration, car il permet de déléguer des responsabilités limitées pour des groupes Response Group spécifiques à un utilisateur pour lequel la solution Voix Entreprise est activée.
@@ -84,7 +84,7 @@ Les gestionnaires Response Group peuvent utiliser les outils suivants pour gére
 
   - Panneau de configuration Lync Server
     
-    > [!note]  
+    > [!NOTE]  
     > Les gestionnaires Response Group peuvent uniquement gérer les paramètres Response Group avec cet outil. Les autres paramètres Lync Server ne sont pas disponibles pour les gestionnaires.
 
   - outil de configuration Response Group

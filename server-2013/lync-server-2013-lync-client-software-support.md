@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2013 et le complément de réunion en ligne pour Lync 2013.
 
-> [!note]  
+> [!NOTE]  
 > Le complément de réunion en ligne pour Lync 2013, qui permet de gérer les réunions à partir du client de messagerie et de collaboration Outlook s’installe automatiquement avec Lync 2013.
 
 ### Configuration logicielle requise pour Lync 2013 et le complément de réunion en ligne pour Lync 2013
@@ -41,7 +41,7 @@ Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2
 <p>système d’exploitation Windows 7</p>
 <p>Windows Server 2008 R2 avec le Service Pack le plus récent</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Lync 2013 et complément de réunion en ligne pour Lync 2013 ne sont pas pris en charge sur Windows Vista ni sur Windows XP (toutes versions).
 </div></td>
 </tr>
@@ -57,7 +57,7 @@ Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2
 <p>Navigateur Internet Internet Explorer 7</p>
 <p>Navigateur web Mozilla Firefox</p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Si vous utilisez Lync avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 9 ou Internet Explorer 8 est requis.
 </div></td>
 </tr>

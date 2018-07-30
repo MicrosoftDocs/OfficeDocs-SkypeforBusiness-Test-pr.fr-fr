@@ -47,5 +47,5 @@ Vous pouvez utiliser l’applet de commande **Get-CsKerberosAccountAssignment** 
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
-        > [!note]  
+        > [!NOTE]  
         > Si vous spécifiez *SiteName pour le paramètre Filter, le système renvoie les informations sur tous les sites qui contiennent le nom de site spécifié partout dans l’identificateur de site (par exemple, tous les sites qui contiennent la chaîne Redmond dans l’identificateur de site).

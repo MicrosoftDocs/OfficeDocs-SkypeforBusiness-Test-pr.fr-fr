@@ -51,7 +51,7 @@ Le tableau ci-dessous présente une vue d’ensemble du processus de déploiemen
 <td><ol>
 <li><p>Créez un nouvel enregistrement d’utilisation RTC. Son nom doit être identique à celui du paramètre <strong>Utilisation RTC</strong> utilisé dans la stratégie d’emplacement.</p></li>
 <li><p>Créez ou affectez un itinéraire de communications vocales à l’enregistrement d’utilisation RTC créé dans l’étape précédente, puis pointez l’attribut de passerelle vers la jonction SIP E9-1-1 ou la passerelle ELIN.</p></li>
-<li><p>Pour un fournisseur de services E9-1-1 de jonction SIP, définissez la jonction qui traitera les appels E9-1-1 via le protocole SIP pour transmettre les données PIDF-LO à l’aide de l’applet de commande <strong>set-cstrunkconfiguration –EnablePIDFLOSupport</strong>.</p></li>
+<li><p>Pour un fournisseur de services E9-1-1 de jonction SIP, définissez la jonction qui traitera les appels E9-1-1 via le protocole SIP pour transmettre les données PIDF-LO à l’aide de l’applet de commande <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong>.</p></li>
 <li><p>Pour un fournisseur de services E9-1-1 de jonction SIP, vous pouvez éventuellement créer ou affecter un itinéraire RTC local pour les appels qui ne sont pas traités par la jonction SIP du fournisseur de services E9-1-1. Cet itinéraire sera utilisé si la connexion au fournisseur de services E9-1-1 n’est pas disponible. Si cette option est prise en charge par votre fournisseur de services E9-1-1, affectez une règle de configuration de jonction à la passerelle qui convertit la chaîne de numérotation 911 en numéro SDA (sélection directe à l’arrivée) du centre d’intervention en cas d’appels d’urgence (ECRC) national/régional.</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>

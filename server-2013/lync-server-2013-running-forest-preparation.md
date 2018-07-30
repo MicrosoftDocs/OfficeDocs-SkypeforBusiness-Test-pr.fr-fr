@@ -31,7 +31,7 @@ Après avoir préparé la forêt, vous devez vérifier que les paramètres globa
 
 5.  Dans la page **Préparer la forêt** , cliquez sur **Suivant** .
     
-    > [!note]  
+    > [!NOTE]  
     > La préparation de la forêt vous permet de choisir l’emplacement des groupes universels de Lync Server 2013. Sélectionnez un emplacement cohérent avec les besoins de votre organisation.
 
 6.  Dans la page **Exécution de commandes** , recherchez **Statut de la tâche : Terminée** , puis cliquez sur **Afficher le journal** .

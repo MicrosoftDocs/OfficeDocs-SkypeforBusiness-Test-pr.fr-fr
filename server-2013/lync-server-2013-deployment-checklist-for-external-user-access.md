@@ -29,7 +29,7 @@ Pour plus d’informations sur l’outil de planification et le générateur de 
 
 Le tableau ci-dessous présente une vue d’ensemble du processus de déploiement des serveurs Edge. Pour consulter les décisions de planification qui doivent être prises avant de déployer l’accès des utilisateurs externes, reportez-vous à [Scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
-> [!warning]  
+> [!WARNING]  
 > Les informations contenues dans le tableau suivant s’appliquent essentiellement à un nouveau déploiement. Si vous avez déployé des serveurs Edge dans un environnement Lync Server 2010, Office Communications Server 2007 R2 ou Office Communications Server 2007, reportez-vous à <a href="migration.md">Migration</a> pour plus d’informations sur la migration vers Lync Server 2013. La migration n’est pas prise en charge pour les versions antérieures à Office Communications Server 2007 R2, dont Office Communications Server 2007, Live Communications Server 2005 et Live Communications Server 2003.
 
 Pour améliorer les performances et le niveau de sécurité des serveurs Edge, mais aussi pour faciliter leur déploiement, appliquez les recommandations suivantes lors du déploiement de votre réseau de périmètre et de vos serveurs Edge :
@@ -65,7 +65,7 @@ Pour améliorer les performances et le niveau de sécurité des serveurs Edge, m
 <p></p></td>
 <td><p>Groupe <strong>Administrateurs du domaine</strong> et groupe <strong>RTCUniversalServerAdmins</strong> ou <strong>CsAdmins</strong></p>
 <div class="alert">
-> [!note]  
+> [!NOTE]  
 > Vous pouvez définir une topologie à l’aide d’un compte qui est membre du groupe d’utilisateurs locaux, mais la publication d’une topologie nécessite un compte qui soit membre du groupe <strong>Administrateurs du domaine</strong> et du groupe <strong>RTCUniversalServerAdmins</strong>.
 </div></td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Création d’une topologie de serveurs Edge et directeurs dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
@@ -74,7 +74,7 @@ Pour améliorer les performances et le niveau de sécurité des serveurs Edge, m
 <td><p>Préparez l’installation.</p></td>
 <td><ol><li><p>Assurez-vous que les conditions préalables du système sont respectées.</p></li><li><p>Configurez les adresses IP (IPv4 et IPv6, le cas échéant) des interfaces réseau interne et publique sur chaque serveur Edge.</p></li><li><p>Configurez les enregistrements DNS internes et externes (hôte A et AAAA pour IPv4 et IPv6), dont le suffixe DNS sur l’ordinateur à déployer en tant que serveur Edge.</p></li><li><p>(Facultatif) Créez et installez des certificats publics. La durée nécessaire à l’obtention de certificats dépend de l’autorité de certification qui les émet. Si vous n’effectuez pas cette étape à ce stade, vous devrez le faire lors de l’installation du serveur Edge. Les services du serveur Edge ne peuvent pas être démarrés tant que les certificats n’ont pas été obtenus et installés.</p></li><li><p>Provisionnez la prise en charge de la solution PIC (Public IM Connectivity) si votre déploiement doit prendre en charge les communications avec des utilisateurs Windows Live, AOL ou Yahoo!.</p>
 <div class="alert">
-> [!important]  
+> [!IMPORTANT]  
 > <ul>
 > <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
 > <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>

@@ -47,7 +47,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     
     ![Exemple de topologie réseau avec 3 régions réseau](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemple de topologie réseau avec 3 régions réseau")  
     
-    > [!note]  
+    > [!NOTE]  
     > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, reportez-vous à la rubrique «  <a href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Contrôle d’admission des appels sur un réseau MPLS avec Lync Server 2013</a> » dans la documentation de planification.    
     L’exemple de topologie réseau précédent présente trois régions réseau, chacune comportant un site central Lync Server qui gère la fonctionnalité CAC. Le site central convenant le mieux à une région réseau est déterminé en fonction de la proximité géographique. Comme le trafic multimédia est susceptible d’être le plus important au sein d’une même région réseau, le fait d’opter pour la proximité géographique rend la fonctionnalité CAC indépendante. Celle-ci continuera de fonctionner même en cas d’indisponibilité d’autres sites centraux.
     
@@ -84,7 +84,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     </tbody>
     </table>
     
-    > [!note]  
+    > [!NOTE]  
     > Selon votre topologie Lync Server, vous pouvez affecter le même site central à plusieurs régions réseau.
 
 3.  Pour chaque région réseau, identifiez tous les sites réseau (bureaux ou emplacements) dont les connexions au réseau étendu ne sont pas soumises à une limite de bande passante. Comme ces sites disposent de liaisons réseau dont la bande passante n’est pas limitée, il n’est pas nécessaire de leur appliquer des stratégies de bande passante CAC.
@@ -254,10 +254,11 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
 6.  Pour chaque sous-réseau du réseau, indiquez son site réseau associé.
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Chaque sous-réseau doit être associé à un site réseau, même si le site réseau n’est pas soumis à une limite de bande passante. Cela est dû au fait que le contrôle d’admission des appels utilise les informations relatives aux sous-réseaux pour déterminer sur quel site réseau un point de terminaison doit se situer. Lorsque les emplacements de chaque partie de la session sont déterminés, le contrôle d’admission des appels peut déterminer si la bande passante est suffisante pour établir l’appel. Lorsqu’une session est établie sur une liaison dont la bande passante n’est pas limitée, une alerte est générée.<br />
-    Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé. Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32. Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux. Pour plus d’informations sur les adresses IP publiques, reportez-vous à <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013</a> dans la documentation de planification.    
-    > [!note]  
+    Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé. Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32. Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux. Pour plus d’informations sur les adresses IP publiques, reportez-vous à <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013</a> dans la documentation de planification.  
+
+    > [!NOTE]  
     > Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de 8 heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<br />
     <strong>Source</strong> : Service de stratégie de bande passante (principal) CS<br />
     <strong>Numéro d’événement</strong> : 36034<br />
@@ -265,13 +266,11 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     <strong>Description</strong> : les sous-réseaux pour les adresses IP suivantes ne sont pas configurés ou les sous-réseaux ne sont pas associés à un site réseau : &lt;liste d’adresses IP&gt;.<br />
     <strong>Cause</strong> : les sous-réseaux pour les adresses IP correspondantes sont absents des paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.<br />
     <strong>Résolution</strong> : ajoutez les sous-réseaux pour les adresses IP correspondantes aux paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.<br />
-    Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit :    <ol>    
-> <li><p>Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.</p></li>    
-> <li><p>Vérifiez que les sous-réseaux 10.121.248.0/24 et 10.121.249.0/24 sont chacun associés à un site réseau.</p></li>    </ol>
+    Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit :<ol><li><p>Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.</p></li><li><p>Vérifiez que les sous-réseaux 10.121.248.0/24 et 10.121.249.0/24 sont chacun associés à un site réseau.</p></li>    </ol>
     
-    ### Sites réseau et sous-réseaux associés (bande passante en Kbits/s)
+### Sites réseau et sous-réseaux associés (bande passante en Kbits/s)
     
-    <table>
+   <table>
     <colgroup>
     <col style="width: 12%" />
     <col style="width: 12%" />
@@ -425,7 +424,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
 8.  Définissez un itinéraire entre chaque paire de régions réseau.
     
-    > [!note]  
+    > [!NOTE]  
     > Deux liaisons sont nécessaires à l’itinéraire entre les régions Amérique du Nord et APAC, car aucun lien de région ne les relie directement.    
     ### Itinéraires de région
     
@@ -525,5 +524,5 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
 Une fois que vous avez rassemblé toutes les informations requises, vous pouvez procéder au déploiement de la fonctionnalité CAC à l’aide de Lync Server Management Shell ou du Panneau de configuration Lync Server.
 
-> [!note]  
+> [!NOTE]  
 > Même si vous pouvez exécuter la plupart des tâches de configuration du réseau à l’aide du Panneau de configuration Lync Server, vous devez utiliser Lync Server Management Shell pour créer les sous-réseaux et les liaisons intersites. Pour plus d’informations, reportez-vous aux ²applets de commande <strong>New-CsNetworkSubnet</strong> et <strong>New-CsNetworkIntersitePolicy</strong> dans la documentation Lync Server Management Shell.

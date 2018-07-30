@@ -17,9 +17,9 @@ _**Dernière rubrique modifiée :** 2012-10-20_
 
 Lync Server 2013 peut interconnecter un système IP-PBX à une passerelle RTC (réseau téléphonique commuté) afin que les appels émis par un téléphone PBX puissent être acheminés au réseau téléphonique commuté, et que les appels RTC entrants puissent être acheminés à un téléphone PBX (autocommutateur privé). De même, Lync Server 2013 peut interconnecter deux systèmes IP-PBX ou plus afin que les appels puissent être émis et reçus entre des téléphones PBX des différents systèmes IP-PBX.
 
-Cette fonctionnalité de routage d’inter-jonctions peut être configurée à l’aide de l’applet de commande Lync Server Management Shell, **set-cstrunkconfiguration**, en utilisant le nouveau paramètre, PstnUsages. Ce paramètre spécifie l’ensemble d’enregistrements d’utilisation RTC à utiliser. Une jonction fait appel à cette utilisation RTC pour déterminer un itinéraire et pour acheminer tous les appels entrants en conséquence.
+Cette fonctionnalité de routage d’inter-jonctions peut être configurée à l’aide de l’applet de commande Lync Server Management Shell, **Set-CsTrunkConfiguration**, en utilisant le nouveau paramètre, PstnUsages. Ce paramètre spécifie l’ensemble d’enregistrements d’utilisation RTC à utiliser. Une jonction fait appel à cette utilisation RTC pour déterminer un itinéraire et pour acheminer tous les appels entrants en conséquence.
 
-    set-cstrunkconfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
+    Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
 Le diagramme suivant présente Lync Server 2013 fournissant une interconnectivité entre une passerelle RTC et un système IP-PBX.
 

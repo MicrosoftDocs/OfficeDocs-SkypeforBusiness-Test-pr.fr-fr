@@ -73,7 +73,7 @@ La section Intégrité fournit une indication visuelle de l’intégrité de la 
 
 ## Remarques supplémentaires concernant le portail web d’administration
 
-> [!note]  
+> [!NOTE]  
 > <ul><li><p>Pour des raisons de sécurité, le portail web d’administration vous déconnecte automatiquement toutes les 15 minutes.</p></li><li><p>Les modifications des paramètres ne sont appliquées qu’une fois que le système de stockage redondant en local a été redémarré.</p></li><li><p>Sur le portail web d’administration du stockage redondant en local, les notifications sont mises en avant. En d’autres termes, elles ne disparaissent pas.</p></li>
 > <li><p>Les notifications s’affichent uniquement une fois que vous avez actualisé la page.</p></li>
 > <li><p>Le statut des salles de stockage redondant en local s’affiche une fois que vous avez actualisé la page.</p></li>

@@ -21,12 +21,12 @@ Les certificats nécessaires à la prise en charge de l’accès des utilisateur
 
   - Les certificats requis pour l’interface interne peuvent être émis par une autorité de certification publique ou une autorité de certification d’entreprise interne. Nous vous conseillons d’utiliser une autorité de certification Windows Server 2008 interne, une autorité de certification Windows Server 2008 R2, une autorité de certification Windows Server 2012 ou une autorité de certification Windows Server 2012 R2 pour créer ces certificats afin d’éviter les dépenses liées à l’utilisation de certificats publics.
 
-> [!important]  
+> [!IMPORTANT]  
 > Le traitement des demandes de certificats peut prendre du temps, notamment les demandes effectuées auprès des autorités de certification publiques. Par conséquent, veillez à demander les certificats de vos serveurs Edge suffisamment tôt pour être certain qu’ils seront disponibles lorsque vous commencerez le déploiement de vos composants de serveur Edge. Pour obtenir un résumé des éléments de certificat requis pour les serveurs Edge, reportez-vous à <a href="lync-server-2013-certificate-requirements-for-external-user-access.md">Certificats requis pour l’accès des utilisateurs externes dans Lync Server 2013</a>.
 
 Même si vous pouvez choisir d’utiliser une autorité de certification publique pour le certificat Edge interne, nous vous conseillons plutôt d’utiliser une autorité de certification d’entreprise interne pour les autres certificats pour en réduire le coût. Pour obtenir le résumé des certificats requis pour les serveurs Edge, reportez-vous à [Certificats requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-> [!note]  
+> [!NOTE]  
 > Lorsque vous installez un serveur Edge, le programme d’installation inclut un Assistant Certificat qui simplifie la demande, l’attribution et l’installation de certificats, comme indiqué dans la section <a href="lync-server-2013-set-up-edge-certificates.md">Configuration des certificats de serveur Edge pour Lync Server 2013</a>. Si vous souhaitez demander des certificats avant d’installer un serveur Edge (pour gagner du temps pendant le déploiement réel des composants de serveur Edge), vous pouvez utiliser des serveurs internes tant que vous vous assurez que les certificats sont exportables et contiennent tous les autres noms de sujet requis. Cette documentation ne fournit pas de procédures relatives à l’utilisation de serveurs internes pour la demande de certificats.
 
 ## Demander des certificats à une autorité de certification publique

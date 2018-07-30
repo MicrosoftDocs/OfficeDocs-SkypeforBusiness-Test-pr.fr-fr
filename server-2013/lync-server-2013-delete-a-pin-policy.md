@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Suivez cette procédure pour supprimer une stratégie de code confidentiel (PIN).
 
-> [!note]  
+> [!NOTE]  
 > Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.
 
 ## Pour supprimer une stratégie de code confidentiel dans le Panneau de configuration Lync Server 2013

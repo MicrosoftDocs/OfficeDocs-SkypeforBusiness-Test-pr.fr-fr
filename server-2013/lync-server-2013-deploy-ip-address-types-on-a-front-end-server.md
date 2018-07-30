@@ -29,7 +29,7 @@ _**Dernière rubrique modifiée :** 2016-07-28_
     
       - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser.
         
-        > [!note]  
+        > [!NOTE]  
         > Cette option est recommandée pour les configurations IP version 6 (IPv6).    
       - **Limiter l’utilisation des services aux adresses IP sélectionnées** : sélectionnez cette option pour spécifier une adresse spécifique à utiliser sur le nouveau serveur. Si vous la sélectionnez, vous devez entrer une valeur pour **Adresse IP principale** .
     

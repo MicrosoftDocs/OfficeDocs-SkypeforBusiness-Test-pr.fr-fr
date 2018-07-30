@@ -46,7 +46,7 @@ Dans l’exemple de topologie, les itinéraires inter-région réseau doivent ê
     ```
     New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
     ```
-    > [!note]  
+    > [!NOTE]  
     > L’itinéraire inter-région réseau Amérique du Nord/APAC requiert deux liens de région réseau, car il n’existe aucun lien de région réseau direct entre elles.
 
 ## Pour créer des itinéraires inter-région réseau à l’aide du Panneau de configuration Lync Server
@@ -67,7 +67,7 @@ Dans l’exemple de topologie, les itinéraires inter-région réseau doivent ê
 
 8.  Cliquez sur **Ajouter** en regard du champ **Liens de région réseau**, puis ajoutez un lien de région réseau qui sera utilisé dans l’itinéraire inter-région réseau.
     
-    > [!note]  
+    > [!NOTE]  
     > Si vous créez un itinéraire pour deux régions réseau qui n’ont pas de lien de région réseau direct entre elles, vous devez ajouter tous les liens nécessaires pour terminer l’itinéraire. Par exemple, l’itinéraire inter-région réseau Amérique du Nord/APAC requiert deux liens de région réseau, car il n’existe aucun lien de région réseau direct entre elles.
 
 9.  Cliquez sur **Valider**.

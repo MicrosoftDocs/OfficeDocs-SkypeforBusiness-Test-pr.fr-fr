@@ -143,7 +143,7 @@ Si vos stratégies nécessitent des définitions de règle de pare-feu entrante 
 </table>
 
 
-> [!important]  
+> [!IMPORTANT]  
 > Microsoft Office Communications Server 2007 nécessite une configuration légèrement différente. La plage de port TCP et UDP 50 000-59 999 doit être sortante et entrante à connexions ouvertes. Cette contrainte concerne uniquement Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013 nécessitent uniquement une plage TCP 50 000-59 999 sortante à connexions ouvertes.
 
 ## Configuration requise pour la conversion d’adresses réseau (NAT) concernant l’accès des utilisateurs externes
@@ -152,7 +152,7 @@ La conversion d’adresses réseau (NAT) est à la base une fonction de routage.
 
 Les logiciels de communicationLync Server 2013 ne prennent pas en charge NAT pour le trafic à destination et en provenance de l’interface interne Edge, mais pour l’interface externe Edge, NAT doit avoir le comportement suivant.
 
-> [!important]  
+> [!IMPORTANT]  
 > Vous devez configurer la fonction NAT symétrique pour le trafic entrant et sortant. La fonction NAT symétrique est la technologie NAT décrite dans cette rubrique.
 
 Dans cette documentation, les termes ChangeDST et ChangeSRC sont utilisés dans les tableaux et les illustrations pour définir le comportement requis suivant :

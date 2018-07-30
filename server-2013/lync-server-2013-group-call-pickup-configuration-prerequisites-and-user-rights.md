@@ -49,7 +49,7 @@ Selon la tâche de configuration de prise d’appel de groupe, l’un des rôles
 
   - **CsAdministrator** : ce rôle d’administrateur peut exécuter toutes les tâches des rôles CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.
 
-> [!note]  
+> [!NOTE]  
 > Pour plus d’informations sur les droits d’administration, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Voir aussi

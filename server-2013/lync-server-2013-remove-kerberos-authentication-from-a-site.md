@@ -19,7 +19,7 @@ Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu�
 
 Si vous devez supprimer l’authentification Kerberos d’un site ou supprimer un site, vous devez supprimer l’affectation du compte d’authentification Kerberos du site à l’aide de l’applet de commande **Remove-CsKerberosAccountAssignment**. Utilisez la procédure suivante pour supprimer l’affectation du compte d’authentification Kerberos, ce qui a pour effet de supprimer l’affectation de tous les ordinateurs présents sur le site.
 
-> [!warning]  
+> [!WARNING]  
 > Si vous supprimez définitivement le compte activé pour Kerberos, vous devriez utiliser le composant Utilisateurs et ordinateurs Active Directory pour le supprimer des services de domaine Active Directory après avoir supprimé l’affectation. Si vous envisagez d’utiliser l’objet ultérieurement, vous pouvez peut-être conserver l’objet Active Directory.
 
 ## Pour supprimer l’authentification Kerberos d’un site
@@ -45,5 +45,5 @@ Si vous devez supprimer l’authentification Kerberos d’un site ou supprimer u
     Enable-CsTopology
     ```
     
-    > [!important]  
+    > [!IMPORTANT]  
     > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.

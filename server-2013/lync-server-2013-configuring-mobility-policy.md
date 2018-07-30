@@ -35,7 +35,7 @@ Pour pouvoir utiliser la fonctionnalité d’Appel via le bureau, les utilisateu
 
   - une stratégie de mobilité dont l’option **EnableOutsideVoice** a la valeur True doit être affectée aux utilisateurs.
 
-> [!note]  
+> [!NOTE]  
 > Les utilisateurs qui ne sont pas activés pour Voix Entreprise peuvent utiliser leur appareil mobile pour effectuer des appels VoIP depuis Lync vers Lync ou rejoindre des conférences par le biais du lien Cliquez pour rejoindre affiché sur leur appareil mobile, si vous affectez à ces utilisateurs les options appropriées pour une stratégie de voix. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-defining-your-mobility-requirements.md">Définition de la configuration requise pour la mobilité pour Lync Server 2013</a>.
 
 Pour plus d’informations sur l’activation des utilisateurs pour Lync Server 2013, reportez-vous à [Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Pour plus d’informations sur l’activation des utilisateurs pour Voix Entreprise, reportez-vous à [Activation des utilisateurs pour Voix Entreprise dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md). Pour plus d’informations sur la définition des options de stratégie de voix, reportez-vous à [Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
@@ -50,7 +50,7 @@ Pour plus d’informations sur l’activation des utilisateurs pour Lync Server�
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez désactiver l’Appel via le bureau sans désactiver l’accès à la mobilité. En revanche, il est impossible de désactiver la mobilité sans également désactiver l’Appel via le bureau.
 
 ## Pour modifier la stratégie de mobilité par site

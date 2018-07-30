@@ -35,7 +35,7 @@ Lorsque vous utilisez l’applet de commande **Set-CsKerberosAccountPassword** p
     
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
-    > [!note]  
+    > [!NOTE]  
     > Vous devez spécifier le paramètre Compte d’utilisateur au format Domaine\Utilisateur. Le format Utilisateur@Domaine.extension n’est pas pris en charge pour le référencement des objets Ordinateur créés à des fins d’authentification Kerberos.    
-    > [!important]  
+    > [!IMPORTANT]  
     > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.

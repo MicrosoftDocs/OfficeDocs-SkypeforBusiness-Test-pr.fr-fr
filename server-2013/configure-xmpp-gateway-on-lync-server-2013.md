@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-10-28_
 
 Les étapes finales pour le transfert de votre passerelle XMPP consistent à configurer les certificats pour le serveur Edge Lync Server 2013, à déployer la passerelle XMPP Lync Server 2013 et à mettre à jour les enregistrements DNS pour la passerelle. Ces étapes doivent être effectuées en parallèle pour réduire le temps d’arrêt de votre passerelle XMPP. Vous devez transférer tous les utilisateurs vers votre déploiement Microsoft Lync Server 2013 avant de suivre ces tâches.
 
-> [!important]  
+> [!IMPORTANT]  
 > La fédération XMPP n’est pas prise en charge pour les utilisateurs hébergés sur des Survivable Branch Appliances. Cela s’applique à la fois aux informations de présence et à l’échange de messages instantanés.
 
 ## Configurer des certificats pour la passerelle XMPP sur le serveur Edge Lync Server 2013

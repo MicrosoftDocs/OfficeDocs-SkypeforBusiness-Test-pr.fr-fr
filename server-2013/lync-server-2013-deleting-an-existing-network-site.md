@@ -27,12 +27,12 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 4.  Dans la page **Site**, cliquez sur le site que vous souhaitez supprimer.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez supprimer plusieurs sites à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs sites. Ou, pour sélectionner tous les sites, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
     
-    > [!warning]  
+    > [!WARNING]  
     > Vous ne pouvez pas supprimer un site réseau associé à un sous-réseau. Si vous essayez, vous recevrez un message d’erreur. Pour savoir si un site est associé à des sous-réseaux, cliquez sur le site, puis sur <strong>Afficher les détails</strong> dans le menu <strong>Edition</strong>.

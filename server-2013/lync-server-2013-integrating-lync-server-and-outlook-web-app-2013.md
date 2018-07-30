@@ -33,7 +33,7 @@ Si vous avez installé le service de routage d’appels vers la messagerie unifi
 
 Lync Server 2013 peut découvrir automatique tous les serveurs Exchange qui hébergent un plan de numérotation de messagerie unifiée SipName ; ces serveurs sont automatiquement ajoutés à la liste des serveurs connus Lync Server. Vous n’avez pas besoin de créer de pool d’applications approuvées et d’ajouter ces serveurs à la liste des serveurs connus. En fait, cela entraînerait l’arrêt de l’intégration d’Outlook Web App.
 
-> [!note]  
+> [!NOTE]  
 > En effet, la topologie Lync Server posséderait alors deux entrées pour le même ordinateur : l’entrée découverte automatiquement et l’entrée ajoutée manuellement. Pour résoudre le problème et permettre à Outlook Web App de fonctionner de nouveau, utilisez Windows PowerShell pour supprimer les entrées du pool approuvé et des applications approuvées associées au serveur. Pour plus d’informations, voir les rubriques d’aide des applets de commande <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</a>.
 
 Si ces deux services s’exécutent sur des ordinateurs distincts, après avoir vérifié que le runtime Unified Communications Managed API 4.0 a été installé, vous devez créer un pool d’applications approuvées Lync Server et une application approuvée associés à Outlook Web App ; cette opération permet d’ajouter le serveur à la liste des serveurs connus. Pour ce faire, exécutez d’abord une commande semblable à ce qui suit à partir de Lync Server Management Shell :
@@ -62,7 +62,7 @@ Une fois Lync Server correctement configuré, vous pouvez commencer à configur
 
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -InstantMessagingEnabled $True -InstantMessagingType OCS
 
-> [!note]  
+> [!NOTE]  
 > Par défaut, la messagerie instantanée est activée quand vous installez Outlook Web App ; en d’autres termes, la propriété InstantMessagingEnabled est définie sur True. Toutefois, vous devez exécuter la commande précédente pour définir le type de messagerie instantanée sur OCS. Par défaut, la propriété InstantMessagingType est définie sur None.
 
 Vous devez ensuite ajouter les deux lignes suivantes au fichier Web.config d’Outlook Web App (ce fichier se trouve généralement dans le dossier C:\\Program Files\\Microsoft\\Exchange Server\\V15\\ClientAccess\\Owa). Ces deux lignes doivent être ajoutées sous le nœud \<AppSettings\> dans le fichier Web.config, et cette procédure ne doit être effectuée que sur les serveurs principaux sur lesquels Outlook Web App a été installé :

@@ -35,6 +35,6 @@ Chaque fois que vous utilisez le Générateur de topologie pour créer une topol
     
       - Pour fermer l’Assistant, cliquez sur **Terminer** .
         
-        > [!important]  
+        > [!IMPORTANT]  
         > S’il s’agit d’une nouvelle installation d’un serveur Edge ou d’un pool de serveurs Edge, vous devez exporter la configuration du serveur Edge d’un serveur frontal, pool de serveurs frontaux ou serveur Standard Edition existant. Pour exporter la configuration, reportez-vous à <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportation de la topologie Lync Server 2013 et copie vers le support externe de l’installation Edge</a>. Vous importez le fichier de configuration à partir du média externe ou d’un partage réseau lors de la phase d’installation et de déploiement des serveurs Edge via l’Assistant Déploiement de Lync Server.<br />
         Une fois que les serveurs Edge sont opérationnels et que la base de données du magasin local de gestion de la configuration est répliquée avec le déploiement interne, les mises à jour suivantes de la configuration de Lync Server 2013 seront publiées et répliquées sur les serveurs Edge.

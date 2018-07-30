@@ -29,26 +29,26 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 5.  Dans **Nouveau site**, renseignez le champ **Nom**.
     
-    > [!note]  
+    > [!NOTE]  
     > Les noms de site doivent être uniques dans le déploiement Lync Server 2013.
 
 6.  Dans la liste déroulante **Région**, sélectionnez une région réseau à associer au site.
 
 7.  (Facultatif) Si vous voulez imposer sur ce site des limitations de bande passante aux appels audio ou vidéo, sélectionnez le profil de stratégie de bande passante adéquat dans la liste déroulante **Stratégie de bande passante**.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez afficher les détails des profils de stratégie de bande passante ou créer un profil dans la page <strong>Profil de stratégie</strong> du groupe <strong>Configuration du réseau</strong>. Pour plus d’informations, voir <a href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Création ou modification des profils de stratégie de bande passante</a>.
 
 8.  (Facultatif) Si vous voulez spécifier des paramètres d’emplacement pour ce site, sélectionnez une stratégie d’emplacement dans la liste déroulante **Stratégie d’emplacement**.
     
-    > [!note]  
+    > [!NOTE]  
     > La stratégie d’emplacement affecte les paramètres Enhanced 9-1-1 (E9-1-1) et d’emplacement des clients au site. Vous pouvez afficher les détails des stratégies d’emplacement ou créer une stratégie d’emplacement dans la page <strong>Stratégie d’emplacement</strong> du groupe <strong>Configuration du réseau</strong>. Pour plus d’informations, voir <a href="lync-server-2013-viewing-location-policy-information.md">Affichage des informations d’une stratégie d’emplacement</a>.
 
 9.  (Facultatif) Tapez une valeur dans le champ **Description** pour fournir plus d’informations sur ce site, car son nom ne suffit pas à le décrire.
 
 10. Cliquez sur **Valider**.
     
-    > [!note]  
+    > [!NOTE]  
     > Lors de la création d’un site réseau, vous n’utilisez pas la table <strong>Sous-réseaux associés</strong>. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir <a href="lync-server-2013-create-or-modify-network-subnets.md">Création ou modification de sous-réseaux</a>.
 
 ## Pour modifier un site réseau
@@ -79,14 +79,14 @@ Vous ne pouvez pas modifier la table **Sous-réseaux associés** de cette page. 
 
 4.  Dans la page **Site**, cliquez sur le site que vous souhaitez supprimer.
     
-    > [!note]  
+    > [!NOTE]  
     > Vous pouvez supprimer plusieurs sites à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs sites. Ou, pour sélectionner tous les sites, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
     
-    > [!warning]  
+    > [!WARNING]  
     > Vous ne pouvez pas supprimer un site réseau associé à un sous-réseau de réseau. Si vous essayez, vous recevrez un message d’erreur. Pour savoir si un site est associé à des sous-réseaux, cliquez sur le site, puis sur <strong>Afficher les détails</strong> dans le menu <strong>Edition</strong>.
 
 ## Voir aussi

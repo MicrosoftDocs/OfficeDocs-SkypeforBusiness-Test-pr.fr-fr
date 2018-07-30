@@ -19,7 +19,7 @@ Personnes autorisées à exécuter cette applet de commande : Par défaut, les
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration est similaire à l’applet de commande new-csaddressbookconfiguration, à la seule différence qu’elle sert à modifier une configuration existante.
+Set-CsAddressBookConfiguration est similaire à l’applet de commande New-CsAddressBookConfiguration, à la seule différence qu’elle sert à modifier une configuration existante.
 
 Par exemple :
 

@@ -42,10 +42,10 @@ Si vous ne disposez pas de copies de sauvegarde des fichiers audio personnalisé
 
 Pour utiliser l’application d’annonce lors d’une panne, vous devez recréer la configuration des annonces dans le pool de sauvegarde en suivant les étapes décrites dans cette section.
 
-> [!note]  
+> [!NOTE]  
 > Nous vous recommandons d’effectuer ces étapes après le basculement vers le pool de sauvegarde. En effet, dès que vous avez terminé l’étape 2, le pool de sauvegarde devient propriétaire des plages de numéros non attribués.
 
-> [!note]  
+> [!NOTE]  
 > Ces étapes ne sont pas requises pour les plages de numéros qui utilisent un numéro de téléphone du standard automatique de la messagerie unifiée Exchange.
 
 **Pour recréer la configuration des annonces dans le pool de sauvegarde**
@@ -56,7 +56,7 @@ Pour utiliser l’application d’annonce lors d’une panne, vous devez recrée
     
     2.  Recréez chaque annonce en exécutant l’applet de commande **New-CsAnnouncement** et en spécifiant le pool de sauvegarde dans le paramètre Parent.
     
-    > [!note]  
+    > [!NOTE]  
     > Pour plus d’informations sur l’utilisation de ces paramètres pour créer des annonces dans le pool de sauvegarde, reportez-vous à <a href="lync-server-2013-create-an-announcement.md">Création d’une annonce dans Lync Server 2013</a>.
 
 2.  Lorsque vous avez fini de recréer toutes les annonces dans le pool de sauvegarde, redirigez toutes les plages de numéros non attribués associées aux annonces du pool principal vers les nouvelles annonces du pool de sauvegarde.
@@ -69,7 +69,7 @@ Pour utiliser l’application d’annonce lors d’une panne, vous devez recrée
 
 Lorsque le pool principal est redevenu disponible, vous devez rediriger vers ce pool toutes les plages de numéros non attribués que vous avez modifiées lors de la panne.
 
-> [!note]  
+> [!NOTE]  
 > Ces étapes ne sont pas requises pour les plages de numéros qui utilisent un numéro de téléphone du standard automatique de la messagerie unifiée Exchange.
 
 **Pour restaurer les annonces dans le pool principal**

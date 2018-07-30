@@ -47,7 +47,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
     
         Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
     
-    > [!note]  
+    > [!NOTE]  
     > Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous souhaitez enregistrer les résultats de la recherche dans un fichier, utilisez –OutputFilePath <em>&lt;chaîne de chemin d’accès complet&gt;</em>. Pour définir le paramètre –OutputFilePath, indiquez un chemin d’accès et un nom de fichier dans un format de chaîne entouré de guillemets (par exemple ; C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTFS Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous souhaitez des fichiers séparés, définissez un nom de fichier distinct pour chaque recherche.    
     Par exemple :
     
@@ -89,7 +89,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
-    > [!note]  
+    > [!NOTE]  
     > La chaîne d’heure et de date que vous spécifiez peut être « date time » ou « time date ». La commande analysera la chaîne et utilisera les valeurs appropriées pour la date et l’heure.
 
 3.  Si vous souhaitez extraire les journaux à partir de 11 h 00 00 le 20/11/2012, définissez l’heure de début (paramètre –StartTime). La plage horaire par défaut pour la recherche est de 30 minutes sauf si vous définissez une heure de fin ( paramètre –EndTime) spécifique. La recherche obtenue renverra les journaux des ordinateurs ou pools définis entre 11 h 00 00 et 11 h 30 00.

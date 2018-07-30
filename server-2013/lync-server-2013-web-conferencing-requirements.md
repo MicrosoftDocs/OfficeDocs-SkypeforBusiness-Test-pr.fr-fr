@@ -45,7 +45,7 @@ Le service de conférence web stocke ensuite le contenu (diapositives PowerPoint
 
 L’administrateur doit définir des autorisations sur le partage de fichiers de façon à ce que les groupes RTC disposent de l’accès nécessaire en lecture et en écriture.
 
-> [!warning]  
+> [!WARNING]  
 > Si vous rencontrez des erreurs avec les autorisations, ouvrez le Générateur de topologie, téléchargez et republiez la topologie existante. La publication de la topologie permet de vérifier les autorisations du partage de fichiers et de les redéfinir si besoin est.
 
 Vous pouvez utiliser les paramètres suivants pour gérer le mode de stockage du contenu d’une réunion :

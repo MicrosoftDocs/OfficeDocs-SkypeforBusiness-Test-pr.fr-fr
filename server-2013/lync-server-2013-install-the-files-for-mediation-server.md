@@ -21,7 +21,7 @@ Utilisez la procédure décrite dans cette rubrique pour exécuter l’Assistant
 
 Sur ce site, si vous avez déjà déployé des serveurs de médiation colocalisés sur les pools de serveurs frontaux ou le serveur Standard Edition, vous pouvez ignorer cette rubrique et passer directement à [Configuration des jonctions dans Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
-> [!note]  
+> [!NOTE]  
 > Cette rubrique suppose que vous ayez déjà défini et publié un pool de serveurs de médiation autonome tel que décrit dans <a href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Définition d’un serveur de médiation dans le générateur de topologie dans Lync Server 2013</a> et <a href="lync-server-2013-publish-the-topology.md">Publication de la topologie dans Lync Server 2013</a> dans la documentation de déploiement, et que vous ayez vérifié que les ordinateurs du pool de serveurs de médiation répondent aux exigences décrites dans <a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Configuration logicielle requise pour Entreprise Voix dans Lync Server 2013</a> and <a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Conditions prérequises de configuration et de sécurité pour Voix Entreprise dans Lync Server 2013</a>.
 
 ## Pour installer les fichiers sur un pool de serveurs de médiation autonome
