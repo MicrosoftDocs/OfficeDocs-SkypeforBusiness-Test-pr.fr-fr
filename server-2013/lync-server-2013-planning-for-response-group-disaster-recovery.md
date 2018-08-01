@@ -94,7 +94,8 @@ Pour plus d’informations sur l’exécution de ces étapes, reportez-vous à [
 <tr class="even">
 <td><p>Pendant une panne</p></td>
 <td><p>Exécutez l’applet de commande <strong>Import-CsRgsConfiguration</strong> pour importer la configuration du service Response Group Lync Server sauvegardée du pool principal vers le pool de sauvegarde.</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Utilisez le paramètre –ReplaceExistingSettings pour remplacer les paramètres Response Group de niveau application dans le pool de sauvegarde par les paramètres du pool principal. Si vous ne transférez pas les paramètres de niveau application du pool principal vers le pool de sauvegarde, et si le pool principal ne peut pas être récupéré, vous perdrez les paramètres du pool principal.
 </div></td>
@@ -104,7 +105,8 @@ Pour plus d’informations sur l’exécution de ces étapes, reportez-vous à [
 <tr class="odd">
 <td><p>Après l’importation</p></td>
 <td><p>Exécutez l’applet de commande Response Group avec le paramètre –ShowAll (pour afficher tous les groupes Response Group) ou avec le paramètre –Owner (pour afficher uniquement les groupes Response Group importés) afin de vérifier que toutes les configurations Response Group ont été importées dans le pool de sauvegarde.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Si vous n’utilisez ni le paramètre –ShowAll, ni le paramètre –Owner, les groupes Response Group que vous avez importés dans le pool de sauvegarde ne seront pas répertoriés dans les résultats renvoyés par les applets de commande.
 </div>
@@ -116,7 +118,8 @@ Pour plus d’informations sur l’exécution de ces étapes, reportez-vous à [
 <td><p>Après un basculement</p></td>
 <td><ul><li><p>Effectuez un test d’appel vers un groupe Response Group qui a été importé dans le pool de sauvegarde et vérifiez que l’appel est géré correctement.</p></li><li><p>Tous les agents formels doivent se reconnecter à leurs groupes formels dans le pool de sauvegarde.</p></li><li><p>Gérer les changements de configuration :</p>
 <p>Les groupes Response Group dans le pool de sauvegarde, qu’ils soient importés dans le pool de sauvegarde ou qu’ils soient la propriété du pool de sauvegarde, peuvent être modifiés comme d’habitude pendant la panne.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Vous devez utiliser Lync Server Management Shell pour gérer les groupes Response Group que vous avez importés dans le pool de sauvegarde. Vous ne pouvez pas utiliser Panneau de configuration Lync Server pour gérer ces groupes Response Group lorsqu’ils se trouvent dans le pool de sauvegarde.
 </div></li></ul></td>
@@ -131,7 +134,8 @@ Pour plus d’informations sur l’exécution de ces étapes, reportez-vous à [
 <tr class="even">
 <td><p>Après une restauration</p></td>
 <td><ul><li><p>Exécutez l’applet de commande <strong>Import-CsRgsConfiguration</strong> pour réimporter les groupes Response Group dans le pool principal.</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Si le pool principal ne peut pas être récupéré et que vous déployez un nouveau pool pour le remplacer, utilisez le paramètre –ReplaceExistingSettings pour transférer les paramètres de niveau application du pool de sauvegarde vers le nouveau pool. Si vous ne souhaitez pas transférer les paramètres du pool de sauvegarde, le nouveau pool utilisera les paramètres par défaut.
 </div></li><li><p>Exécutez les applets de commande suivantes avec le paramètre –ShowAll (pour afficher tous les groupes Response Group) ou avec le paramètre –Owner (pour afficher uniquement les groupes Response Group importés) afin de vérifier que toutes les configurations Response Group ont été réimportées dans le pool principal :</p><ul><li><p><strong>Get-CsRgsWorkflow</strong></p></li><li><p><strong>Get-CsRgsQueue</strong></p></li><li><p><strong>Get-CsRgsAgentGroup</strong></p></li><li><p><strong>Get-CsRgsHoursOfBusiness</strong></p></li><li><p><strong>Get-CsRgsHolidaySet</strong></p></li></ul></li><li><p>Effectuez un test d’appel vers un groupe Response Group qui a été réimporté dans le pool principal et vérifiez que l’appel est géré correctement.</p></li><li><p>Vous pouvez également exécuter l’applet de commande <strong>Export-CsRgsConfiguration</strong> dans le pool de sauvegarde avec le paramètre –RemoveExportedConfiguration pour supprimer du pool de sauvegarde les groupes Response Group détenus par le pool principal.</p></li></ul></td>

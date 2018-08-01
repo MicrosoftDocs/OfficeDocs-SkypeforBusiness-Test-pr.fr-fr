@@ -66,7 +66,7 @@ Lorsque vous avez terminé d’utiliser Lync, vous pouvez fermer la fenêtre, vo
 <tr class="even">
 <td><p>Se déconnecter</p></td>
 <td><p>Met fin à la session Lync associée à votre ID d’utilisateur. Lync continue toutefois d’être exécuté en arrière-plan. Lorsque vous vous déconnectez, la fenêtre de connexion apparaît.</p>
-<div class="alert">
+<div>
 
 > [!TIP]  
 > Sélectionnez <strong>Supprimer mes informations de connexion</strong> lorsque vous vous déconnectez pour supprimer l’enregistrement de vos ID de connexion et mot de passe de l’ordinateur. Cela peut simplifier la résolution des problèmes de connexion pour les agents de support technique. Vos informations de connexion bénéficient d’une sécurité accrue en rendant plus difficile la connexion d’utilisateurs non autorisés à l’aide de vos informations d’identification.

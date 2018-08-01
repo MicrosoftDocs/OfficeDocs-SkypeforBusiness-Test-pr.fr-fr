@@ -82,7 +82,8 @@ Le tableau ci-dessous résume ces recommandations.
 <tr class="even">
 <td><p>Conférence A/V</p></td>
 <td><p>Le service de conférence A/V fournit par un pool de serveurs frontaux prend en charge les conférences du pool avec une taille de conférence maximale de 250 utilisateurs, et une seule grande conférence s’exécutant à la fois.</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > De plus, vous pouvez prendre en charge des grandes conférences (250 à 1 000 utilisateurs) en déployant un pool de serveurs frontaux distinct avec deux serveurs frontaux pour héberger les grandes conférences. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-supporting-large-meetings.md">Prise en charge des grandes réunions à l’aide de Lync Server 2013</a>.
 </div></td>

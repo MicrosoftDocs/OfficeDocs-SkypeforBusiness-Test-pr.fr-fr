@@ -148,7 +148,8 @@ Vous trouverez ci-après un tableau récapitulant les conditions requises :
 <td><p>Accès des utilisateurs anonymes aux réunions et conférences</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes dans Lync Server 2013</a></p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Vous devez aussi considérer les paramètres de configuration suivants sous Stratégies de conférence : <a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Création ou modification d’une stratégie de conférence dans Lync Server 2013</a> et <a href="lync-server-2013-conferencing-policy-settings-reference.md">Référence des paramètres de stratégie de conférence pour Lync Server 2013</a>
 </div></td>

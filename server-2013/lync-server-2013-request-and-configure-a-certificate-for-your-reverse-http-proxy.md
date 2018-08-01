@@ -43,7 +43,8 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <td><p>Autre nom du sujet</p></td>
 <td><p>Nom de domaine complet du pool</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Le nom du sujet doit aussi être présent dans l’autre nom de sujet.
 </div></td>
@@ -56,7 +57,8 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <tr class="even">
 <td><p>Autre nom du sujet</p></td>
 <td><p>URL simple de réunion</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Toutes les URL simples de réunion doivent se trouver dans l’autre nom de sujet. Chaque domaine SIP doit comporter au moins une URL simple de réunion active.
 </div></td>
@@ -76,7 +78,8 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <td><p>Autre nom du sujet</p></td>
 <td><p>URL du service de découverte automatique externe</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Si vous utilisez Microsoft Exchange Server, vous devrez également configurer les règles de proxy inverse pour les URL de découverte automatique Exchange et des services web.
 </div></td>

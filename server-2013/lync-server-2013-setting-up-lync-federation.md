@@ -87,7 +87,7 @@ Si vous avez déjà déployé votre ou vos serveurs Edge, l’ajout des fonction
 <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013</a></p></li>    
 <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP hébergés dans Lync Server 2013</a></p></li>    </ul></td>
     <td><p>Ce type de fédération définit les services et les fournisseurs d’hébergement que vous voulez configurer pour vos utilisateurs. Ils sont généralement utilisés pour configurer des fournisseurs de messagerie instantanée comme Windows Live Messenger, Yahoo! et AOL, ainsi que pour héberger des fournisseurs tels que Lync Online et Office 365</p>
-    <div class="alert">
+    <div>
 
 > [!IMPORTANT]  
 > <ul> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>    
