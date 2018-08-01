@@ -40,7 +40,7 @@ Exécutez cette procédure sur le site central, qui doit contenir au moins un po
     > [!NOTE]  
     > Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser une passerelle RTC qui prend en charge le protocole TLS (Transport Layer Security).
 
-> [!tip]  
+> [!TIP]  
 > Utilisez l’applet de commande <strong>Set-CsPstnGateway</strong> pour modifier les propriétés d’une passerelle RTC. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</a> dans l’Aide de Lync Server Management Shell.
 
 **Étape suivante** pour la résistance d’un site de succursale : [Configuration des utilisateurs pour la résistance de sites de succursale dans Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)

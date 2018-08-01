@@ -31,7 +31,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 6.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de Étape 3 : Demander, installer ou affecter les certificats, cliquez sur Réexécuter.
     
-    > [!tip]  
+    > [!TIP]  
     > Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.
 
 7.  Dans la page Tâches se rapportant aux certificats disponibles, cliquez sur Créer une demande de certificat.
@@ -62,7 +62,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 17. Dans la page Configurer d’autres noms du sujet supplémentaires, spécifiez les autres noms du sujet supplémentaires requis.
     
-    > [!tip]  
+    > [!TIP]  
     > Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.
 
 18. Dans la page Résumé de la demande, vérifiez les informations de certificat à utiliser pour générer la demande.
@@ -147,7 +147,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 10. Publiez la topologie. Pour plus d’informations, reportez-vous à [Publication de la topologie dans Lync Server 2013](lync-server-2013-publish-your-topology.md).
     
-    > [!tip]  
+    > [!TIP]  
     > Même si, en général, cela n’est pas nécessaire, il est possible que vous soyez amené à redémarrer les serveurs Edge.
 
 11. Selon le processus netstat utilisé précédemment, confirmez que le serveur Edge est maintenant à l’écoute ou qu’il dispose de sessions établies sur les ports 5269 et 23456.

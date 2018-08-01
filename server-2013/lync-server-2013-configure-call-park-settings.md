@@ -68,7 +68,7 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
-    > [!tip]  
+    > [!TIP]  
     > L’applet de commande <strong>Get-CsSite</strong> permet d’identifier le site. Pour plus d’informations, voir la documentation de Lync Server Management Shell.    
     Par exemple :
     

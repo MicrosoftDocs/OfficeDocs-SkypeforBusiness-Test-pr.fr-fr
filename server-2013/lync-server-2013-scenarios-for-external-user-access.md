@@ -27,7 +27,7 @@ Cette section définit les scénarios des déploiements de serveur Edge et fait 
 
 Ce processus vous permet de planifier et de documenter la configuration de toutes les fonctionnalités potentielles que vous envisagez de déployer pour vos utilisateurs. Cependant, vous pouvez ajouter des services de fédération et de mobilité après avoir déployé le serveur Edge et confirmé la conformité de l’opération avant d’ajouter d’autres fonctionnalités. Le processus d’ajout de fonctionnalités à un déploiement de serveur Edge est décrit dans la section Déploiement. Pour plus d’informations sur le déploiement, reportez-vous à [Déploiement de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) Le fait d’inclure la planification de ces fonctionnalités dans la planification initiale vous permet de préparer le DNS, le pare-feu et les certificats requis pour les fonctionnalités ajoutées, d’acquérir les certificats et de configurer le DNS et les ports/protocoles à l’avance.
 
-> [!tip]  
+> [!TIP]  
 > Si vous envisagez d’installer les serveurs Edge et le proxy inverse, puis d’ajouter des fonctionnalités ultérieurement (par exemple, la fédération et la mobilité), déterminez de quels certificats vous aurez besoin pour tous les services après le déploiement. La planification et l’acquisition anticipées des certificats de toutes les fonctionnalités, qu’elles soient ou non déployées initialement, vous épargne l’achat de nouveaux certificats pour satisfaire aux exigences de la fédération (c’est-à-dire, sur les serveurs Edge) ou du proxy inverse (c’est-à-dire, pour les services de mobilité).
 
 > [!NOTE]  
@@ -85,5 +85,5 @@ Ce processus vous permet de planifier et de documenter la configuration de toute
 </table>
 
 
-> [!tip]  
+> [!TIP]  
 > Dans les scénarios suivants, les sections constituent des architectures de référence, des exemples de DNS, des définitions de ports/protocoles et des exigences en matière de certificat. Elles contiennent également des diagrammes pour votre DNS, des définitions de port/protocole et des besoins en termes de certificat. Ces diagrammes serviront de modèles que vous pourrez remplir et diffuser à d’autres équipes (par exemple, aux équipes chargées du réseau, de l’infrastructure à clé publique et du déploiement de serveur de votre organisation). L’objectif de ces diagrammes et d’améliorer la communication et de faire en sorte que les éléments de configuration de serveur Edge requis soient correctement indiqués aux personnes en charge de la configuration réelle. Nous vous recommandons d’utiliser les diagrammes et les architectures de référence associées pour planifier votre déploiement.

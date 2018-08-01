@@ -52,7 +52,7 @@ Pour installer les bases de données, **Install-CsDatabase** fait appel à trois
     Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
     ```
 
-    > [!tip]  
+    > [!TIP]  
     > Le paramètre Report est facultatif, mais peut être utile si vous documentez le processus d’installation.
 
 4.  **Install-CsDatabase –DatabasePaths** peut utiliser jusqu’à six paramètres de chemin d’accès, chacun définissant les chemins d’accès aux lecteurs tels que définis dans l’emplacement des fichiers de données et fichiers journaux SQL Server. Conformément aux règles logiques de la configuration des bases de données de Lync Server 2013, les lecteurs sont analysés dans des compartiments de deux, quatre ou six. Selon votre configuration SQL Server et le nombre de compartiments, vous indiquerez deux, quatre ou six chemins d’accès.
@@ -85,7 +85,7 @@ Pour installer les bases de données, **Install-CsDatabase** fait appel à trois
     -Report "C:\Logs\InstallDatabases.html"
     ```
     
-    > [!tip]  
+    > [!TIP]  
     > Le paramètre Report est facultatif, mais peut être utile si vous documentez le processus d’installation.
 
 5.  Lorsque la base de données est installée, fermez Lync Server 2013 Management Shell.

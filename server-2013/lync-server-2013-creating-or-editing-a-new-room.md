@@ -19,7 +19,7 @@ La configuration des salles de conversation permanente est couramment gérée pa
 
 Les utilisateurs qui sont des **Créateurs** dans une catégorie donnée peuvent utiliser le client Lync pour créer et gérer des salles. Les utilisateurs qui ont été désignés comme responsables d’une salle de conversation spécifique peuvent également assurer la gestion continue de la salle, par exemple, modifier ses propriétés ou son appartenance.
 
-> [!tip]  
+> [!TIP]  
 > Les administrateurs de conversation permanente peuvent également être des Créateurs et ne sont pas soumis aux restrictions imposées sur les Créateurs.
 
 Si vous êtes administrateur de conversation permanente, vous pouvez éventuellement avoir recours à une interface utilisateur pour créer et gérer des salles de conversation plutôt qu’utiliser des applets de commande Windows PowerShell. Pour cela, activez un administrateur pour SIP pour la serveur de conversations permanentes, puis utilisez le client Lync pour créer et gérer les salles de conversation.

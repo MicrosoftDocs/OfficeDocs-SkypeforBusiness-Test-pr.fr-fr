@@ -25,7 +25,7 @@ Le contrôle d’appel distant exige que chaque pool Lync Server soit configuré
 
 3.  Pour créer un itinéraire statique et le placer dans la variable $TLSRoute ou $TCPRoute, effectuez l’une des opérations suivantes :
     
-    > [!tip]  
+    > [!TIP]  
     > Pour faire correspondre les domaines enfants d’un domaine, vous pouvez spécifier une valeur à caractère générique dans le paramètre MatchUri. Par exemple, <strong>*.contoso.net</strong> . Cette valeur fait correspondre tout domaine se terminant par le suffixe <strong>contoso.net</strong> .    
       - Pour une connexion TLS (Transport Layer Security), tapez ce qui suit dans l’invite de commandes :
         

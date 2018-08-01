@@ -21,7 +21,7 @@ Lorsque vous configurez des stratégies pour prendre en charge des partenaires f
 
 1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de **Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
     
-    > [!tip]  
+    > [!TIP]  
     > Si vous déployez le serveur Edge pour la première fois, l’option Exécuter s’affiche au lieu de Réexécuter.
 
 2.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Créer une demande de certificat** .
@@ -52,7 +52,7 @@ Lorsque vous configurez des stratégies pour prendre en charge des partenaires f
 
 12. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
     
-    > [!tip]  
+    > [!TIP]  
     > Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.
 
 13. Dans la page **Résumé de la demande** , vérifiez les informations de certificat à utiliser pour générer la demande.

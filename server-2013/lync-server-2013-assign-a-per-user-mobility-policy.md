@@ -41,13 +41,13 @@ La stratégie de mobilité est l’un des paramètres individuels d’un compte 
     
     4.  Selon la propriété utilisateur que vous avez sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche dans la liste déroulante.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
 
 6.  Cliquez sur un utilisateur dans les résultats, sur **Action**, puis sur **Attribuer des stratégies**.
     
-    > [!tip]  
+    > [!TIP]  
     > Si vous voulez que la même stratégie de mobilité par utilisateur s’applique à plusieurs utilisateurs, sélectionnez-les dans les résultats de la recherche, cliquez sur <strong>Actions</strong>, puis sur <strong>Attribuer des stratégies</strong>.
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de mobilité**, effectuez l’une des actions suivantes :
@@ -58,7 +58,7 @@ La stratégie de mobilité est l’un des paramètres individuels d’un compte 
     
       - Cliquez sur le nom d’une stratégie de mobilité par utilisateur que vous avez précédemment définie sur la page **Stratégie de mobilité**.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour vous aider à décider quelle stratégie attribuer, après avoir cliqué sur un nom de stratégie, cliquez sur <strong>Afficher</strong> pour afficher les droits et autorisations des utilisateurs définis dans la stratégie.
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.

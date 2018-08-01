@@ -43,7 +43,7 @@ Pour plus d’informations sur l’utilisation des sous-réseaux, reportez-vous 
 
   - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
-> [!tip]  
+> [!TIP]  
 > Si vous utilisez un grand nombre de sous-réseaux, nous vous recommandons d’utiliser un fichier de valeurs séparées par des virgules (CSV) pour associer les sous-réseaux à des sites. Le fichier CSV doit comporter les quatre colonnes suivantes : <strong>adresse IP</strong>, <strong>masque</strong>, <strong>description</strong>, <strong>ID de site réseau</strong>.
 
 ## Pour associer un sous-réseau à un site réseau à l’aide de Management Shell

@@ -49,7 +49,7 @@ La fonctionnalité de mobilité introduite dans les mises à jour cumulatives po
 
 Les utilisateurs d’appareils Apple iPad auront accès aux fonctionnalités améliorées. Après avoir rejoint une réunion par appel audio, un utilisateur d’appareil iPad pourra consulter les présentations Microsoft PowerPoint téléchargées dans une réunion, partager les applications et les bureaux, afficher la liste des participants à la réunion et recevoir des notifications d’autres types de contenu partagés dans le cadre de la réunion.
 
-> [!tip]  
+> [!TIP]  
 > Grâce au numéro unique, un utilisateur reçoit les appels qui ont été passés en composant son numéro professionnel sur son téléphone portable. L’appel via le bureau permet à l’utilisateur de passer un appel sortant à partir du client Lync Mobile en utilisant un numéro professionnel au lieu du numéro du téléphone portable. Avec la mise en conférence par téléphone, le client envoie une demande au service Mcx ou à l’API UCWA (suivant la Lync Mobile) afin qu’il effectue l’appel. Le serveur lance l’appel, puis rappelle l’utilisateur sur son téléphone mobile. Quand ce dernier répond, le serveur termine l’appel en composant le numéro de l’interlocuteur. L’utilisation de l’appel via le bureau permet aux utilisateurs de conserver leur identité professionnelle pendant un appel, ce qui signifie que le destinataire de l’appel ne voit pas le numéro de portable de l’appelant, et ce dernier évite ainsi les frais d’appel sortant encourus.
 
 > [!NOTE]  

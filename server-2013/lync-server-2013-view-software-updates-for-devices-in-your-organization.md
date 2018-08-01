@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Avec Lync Server 2013, vous utilisez le service web de mise à jour des périphériques pour afficher et gérer les mises à jour logicielles des périphériques de votre entreprise. Ces mises à jour sont disponibles dans des fichiers .cab (cabinet) sur le site web de support Microsoft à l’adresse [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x40c). Lorsque vous avez téléchargé le fichier .cab, exécutez la cmdlet **Import-CSdeviceUpdate** pour importer les règles de mise à jour de périphérique du fichier .cab. Pour plus d’informations sur la cmdlet **Import-CSdeviceUpdate**, voir [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) dans la documentation Lync Server Management Shell.
 
-> [!tip]  
+> [!TIP]  
 > Avant de déployer une nouvelle mise à jour dans votre entreprise, vérifiez qu’elle fonctionne correctement sur un périphérique de test.
 
 ## Pour afficher les mises à jour logicielles des périphériques de communications unifiées

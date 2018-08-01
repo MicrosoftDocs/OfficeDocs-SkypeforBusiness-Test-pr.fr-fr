@@ -44,7 +44,7 @@ La prise d’appel de groupe ne permet pas de répondre aux types d’appel suiv
 
   - Appels en provenance d’un contact auquel a été affecté le niveau de confidentialité Famille et amis
     
-    > [!tip]  
+    > [!TIP]  
     > Tout utilisateur membre d’un groupe de prise d’appel peut empêcher certains appels d’être récupérés par le biais de la prise d’appel de groupe en marquant le contact en tant que contact personnel dans le client Lync. Pour marquer un contact en tant que contact personnel, définissez le niveau de confidentialité du contact sur Famille et amis. Aucun appel entrant en provenance d’un contact dont le niveau de confidentialité est défini sur Famille et amis ne peut être récupéré à l’aide de la prise d’appel de groupe.
 
   - Partie vidéo d’un appel audio/vidéo

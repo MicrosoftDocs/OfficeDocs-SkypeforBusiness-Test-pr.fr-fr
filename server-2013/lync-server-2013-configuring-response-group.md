@@ -21,7 +21,7 @@ Les composants nécessaires à Response Group sont installés et activés automa
 
 Cette section vous guide tout au long de la configuration de Response GroupLync Server 2013. Nous partons du principe que vous avez déjà lu les sections de planification concernant Response Group et que vous avez déployé un serveur Enterprise Edition ou Standard Edition server avec Voix Entreprise.
 
-> [!tip]  
+> [!TIP]  
 > Pour plus d’informations sur la création d’un Response Group à l’aide de Lync Server Management Shell, y compris un exemple de script, reportez-vous à « Création de votre premier groupe de réponse à l’aide de Lync Server Management Shell » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</a>.
 
 ## Dans cette section

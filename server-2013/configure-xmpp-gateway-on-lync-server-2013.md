@@ -24,7 +24,7 @@ Les étapes finales pour le transfert de votre passerelle XMPP consistent à con
 
 1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de **Étape 3 : Demander, installer ou affecter les certificats**, cliquez sur **Réexécuter**.
     
-    > [!tip]  
+    > [!TIP]  
     > Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.
 
 2.  Dans la page **Tâches se rapportant aux certificats disponibles**, cliquez sur **Créer une demande de certificat**.
@@ -55,7 +55,7 @@ Les étapes finales pour le transfert de votre passerelle XMPP consistent à con
 
 12. Dans la page **Configurer d’autres noms du sujet supplémentaires**, spécifiez les autres noms du sujet supplémentaires nécessaires.
     
-    > [!tip]  
+    > [!TIP]  
     > Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.
 
 13. Dans la page **Résumé de la demande**, vérifiez les informations de certificat à utiliser pour générer la demande.

@@ -121,14 +121,14 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
-    > [!tip]  
+    > [!TIP]  
     > Au terme du chargement du module, vous revenez à l’invite de commandes Windows PowerShell. Pour vérifier que le module est chargé et que Edit-CsClsScenario est disponible, tapez <code>Get-Help Edit-CsClsScenario</code>. Le résumé de base de la syntaxe pour EditCsClsScenario doit apparaître.
 
 3.  Pour décharger les modules, tapez :
     
         Remove-Module ClsController
     
-    > [!tip]  
+    > [!TIP]  
     > Au terme du déchargement du module, vous revenez à l’invite de commandes Windows PowerShell. Pour vérifier que le module est déchargé, tapez <code>Get-Help Edit-CsClsScenario</code>. Windows PowerShell tente ensuite de localiser l’aide de l’applet de commande et échoue.
 
 ## Pour supprimer un fournisseur existant d’un scénario avec le module Edit-ClsController

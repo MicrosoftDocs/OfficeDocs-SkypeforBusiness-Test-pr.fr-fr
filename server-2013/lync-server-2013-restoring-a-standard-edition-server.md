@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-21_
 
 Si un serveur Standard Edition qui n’héberge pas le magasin central de gestion est défaillant, suivez les procédures indiquées dans cette section. En cas d’échec du magasin central de gestion, voir [Restauration du serveur hébergeant le magasin central de gestion](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
 
-> [!tip]  
+> [!TIP]  
 > Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pourrez utiliser cette copie comme point de restauration au cas où un problème surviendrait lors de la restauration. Il peut être préférable de créer cette copie instantanée après avoir installé le système d’exploitation et SQL Server et après avoir restauré ou réinscrit les certificats.
 
 ## Pour restaurer un serveur Standard Edition

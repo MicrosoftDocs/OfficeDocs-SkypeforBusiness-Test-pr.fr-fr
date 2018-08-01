@@ -24,7 +24,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
 > [!NOTE]  
 > Si un serveur principal ou le serveur Standard Edition qui n’héberge pas le magasin central de gestion échoue, consultez <a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restauration du serveur principal Enterprise Edition</a> ou <a href="lync-server-2013-restoring-a-standard-edition-server.md">Restauration d’un serveur Standard Edition</a>. Si un serveur principal qui héberge le magasin central de gestion se trouve dans une configuration en miroir et que seul le miroir échoue, consultez <a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restauration d’un serveur principal Enterprise Edition en miroir - Miroir</a>. Si n’importe quel autre serveur échoue, consultez <a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restauration d’un serveur membre Enterprise Edition</a>.
 
-> [!tip]  
+> [!TIP]  
 > Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pouvez utiliser cette image en tant que point de restauration au cas où un problème se produise pendant la restauration. Cette image pourra être effectuée après l’installation du système d’exploitation et SQL Server, et la restauration et réinscription des certificats.
 
 ## Pour restaurer le magasin central de gestion
@@ -106,7 +106,7 @@ Si le serveur principal qui héberge le magasin central de gestion se trouve dan
     
     7.  Suivez les dernières instructions de l’Assistant, puis cliquez sur **Terminer**.
     
-    > [!tip]  
+    > [!TIP]  
     > Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsDatabase</strong> pour créer chaque base de données et l’applet de commande <strong>Install-CsMirrorDatabase</strong> pour configurer la mise en miroir. Pour plus d’informations, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>.
 
 11. Si vous restaurez un serveur Standard Edition, naviguez jusqu’au dossier ou au support d’installation de Lync Server, puis démarrez l’Assistant Déploiement de Lync Server qui se trouve ici : \\setup\\amd64\\Setup.exe. Utilisez l’Assistant Déploiement de Lync Server pour faire ce que suit :

@@ -101,7 +101,7 @@ Lors de la restauration d’un serveur, vous devez prendre pour base un nouvel o
 
   - Logiciels de prise d’images système
     
-    > [!tip]  
+    > [!TIP]  
     > Nous vous recommandons de créer une image du système après avoir installé le système d’exploitation et SQL Server et avant de commencer la restauration, de manière à pouvoir utiliser cette image comme point de restauration dans l’éventualité où un problème surviendrait lors de la restauration.
 
   - Logiciel d’installation de Lync Server 2013. L’Assistant Déploiement de Lync Server se trouve sur le support ou dans le dossier d’installation de Lync Server à l’emplacement \\setup\\amd64\\Setup.exe.

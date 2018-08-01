@@ -64,7 +64,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
     
     Les adresses IP privées du service Edge de conférence web et du service Edge A/V sont des adresses IP supplémentaires dans la section **Avancées** des propriétés du **Protocole Internet version 4 (TCP/IPv4)** et du **Protocole Internet version 6 (TCP/IPv6)** des **Propriétés de la connexion au réseau local** dans Windows Server.
 
-> [!tip]  
+> [!TIP]  
 > La configuration du serveur Edge avec deux cartes réseau est une option. L’autre option consiste à utiliser une carte réseau pour le côté interne et trois cartes réseau pour le côté externe du serveur Edge. Cela permet d’utiliser une carte réseau distincte par service serveur Edge et une collection de données potentiellement plus concise en cas d’identification et de résolution des problèmes.
 
 ### Enregistrements DNS requis pour la topologie Edge consolidée mise à l’échelle, équilibrage de la charge DNS avec des adresses IP publiques (exemple)

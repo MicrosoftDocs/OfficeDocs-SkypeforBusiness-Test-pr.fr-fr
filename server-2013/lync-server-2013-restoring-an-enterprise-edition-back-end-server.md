@@ -25,7 +25,7 @@ Si vous possédez un serveur principal Enterprise Edition en miroir et que seule
 
 Si le magasin central de gestion échoue, voir [Restauration du serveur hébergeant le magasin central de gestion](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si un serveur membre Enterprise Edition qui n’est pas le serveur principal échoue, voir [Restauration d’un serveur membre Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-> [!tip]  
+> [!TIP]  
 > Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pouvez utiliser cette image en tant que point de restauration au cas où un problème se produise pendant la restauration. Cette image pourra être effectuée après l’installation du système d’exploitation et SQL Server, et la restauration et réinscription des certificats.
 
 ## Pour restaurer un serveur principal Enterprise Edition
@@ -60,7 +60,7 @@ Si le magasin central de gestion échoue, voir [Restauration du serveur héberge
     
     7.  Suivez le reste de l’Assistant, puis cliquez sur **Terminer**.
     
-    > [!tip]  
+    > [!TIP]  
     > Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsDatabase</strong>, pour créer chaque base de données, et l’applet de commande <strong>Install-CsMirrorDatabase</strong>, pour configurer la mise en miroir. Pour plus d’informations, voir la documentation Lync Server Management Shell.
 
 5.  Restaurez les données utilisateur comme suit :

@@ -40,7 +40,7 @@ Vous pouvez supprimer une règle de mise à jour des périphériques à l’aide
 
 5.  Cliquez sur **Action**, puis sur **Annuler les mises à jour en attente**.
     
-    > [!tip]  
+    > [!TIP]  
     > Si vous êtes certain que vous ne souhaiterez jamais déployer les mises à jour que vous avez annulées, vous pouvez les supprimer. Pour plus d’informations, voir <a href="lync-server-2013-remove-a-device-update-rule.md">Supprimer une règle de mise à jour des périphériques</a>.
 
 ## Réinitialisation d’une règle de mise à jour des périphériques à l’aide d’applets de commande Windows PowerShell

@@ -63,7 +63,7 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 10. Dans la page **Numéro non attribué**, vérifiez que les plages de numéros non attribués s’affichent dans l’ordre voulu. Pour déplacer une plage dans la table, cliquez sur un ou plusieurs noms consécutifs dans la liste de plages, puis cliquez sur la flèche vers le haut ou vers le bas.
     
-    > [!tip]  
+    > [!TIP]  
     > Lync Server analyse la table de haut en bas et utilise la première plage correspondant au numéro non attribué. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste.
 
 11. Une fois que vous disposez des plages de numéros non attribués dans l’ordre souhaité, cliquez sur **Valider tout**.
@@ -76,7 +76,7 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 3.  Utilisez **New-CsUnassignedNumber** pour créer une plage de numéros non attribués. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribués existante.
     
-    > [!tip]  
+    > [!TIP]  
     > Si des plages se chevauchent et vous souhaitez qu’elles soient appliquées dans un ordre spécifique, incluez le paramètre Priority. La plage dont la priorité est la plus élevée sera appliquée à l’appel.    
     Dans la ligne de commande, effectuez l’une des opérations suivantes :
     
