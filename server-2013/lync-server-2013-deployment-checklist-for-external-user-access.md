@@ -64,7 +64,8 @@ Pour améliorer les performances et le niveau de sécurité des serveurs Edge, m
 <td><ul><li><p>Exécutez le Générateur de topologie pour configurer les paramètres de serveur Edge et créez et publiez la topologie, puis utilisez Lync Server Management Shell pour exporter le fichier de configuration de topologie.</p></li></ul>
 <p></p></td>
 <td><p>Groupe <strong>Administrateurs du domaine</strong> et groupe <strong>RTCUniversalServerAdmins</strong> ou <strong>CsAdmins</strong></p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Vous pouvez définir une topologie à l’aide d’un compte qui est membre du groupe d’utilisateurs locaux, mais la publication d’une topologie nécessite un compte qui soit membre du groupe <strong>Administrateurs du domaine</strong> et du groupe <strong>RTCUniversalServerAdmins</strong>.
 </div></td>
@@ -73,7 +74,8 @@ Pour améliorer les performances et le niveau de sécurité des serveurs Edge, m
 <tr class="even">
 <td><p>Préparez l’installation.</p></td>
 <td><ol><li><p>Assurez-vous que les conditions préalables du système sont respectées.</p></li><li><p>Configurez les adresses IP (IPv4 et IPv6, le cas échéant) des interfaces réseau interne et publique sur chaque serveur Edge.</p></li><li><p>Configurez les enregistrements DNS internes et externes (hôte A et AAAA pour IPv4 et IPv6), dont le suffixe DNS sur l’ordinateur à déployer en tant que serveur Edge.</p></li><li><p>(Facultatif) Créez et installez des certificats publics. La durée nécessaire à l’obtention de certificats dépend de l’autorité de certification qui les émet. Si vous n’effectuez pas cette étape à ce stade, vous devrez le faire lors de l’installation du serveur Edge. Les services du serveur Edge ne peuvent pas être démarrés tant que les certificats n’ont pas été obtenus et installés.</p></li><li><p>Provisionnez la prise en charge de la solution PIC (Public IM Connectivity) si votre déploiement doit prendre en charge les communications avec des utilisateurs Windows Live, AOL ou Yahoo!.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > <ul>
 > <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>

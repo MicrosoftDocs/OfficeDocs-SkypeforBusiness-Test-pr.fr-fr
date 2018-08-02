@@ -189,7 +189,8 @@ Le tableau suivant décrit la prise en charge de différentes versions d’Excha
 <tr class="odd">
 <td><p>Exchange Server 2013</p></td>
 <td><p>Identique à la prise en charge d’Exchange Server 2010, avec en plus le Magasin de contact unifié, les images haute résolution et l’intégration de l’archivage.</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Pour plus d’informations, voir <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Intégration de Microsoft Lync Server 2013 à Microsoft Exchange Server 2013</a>.
 </div></td>

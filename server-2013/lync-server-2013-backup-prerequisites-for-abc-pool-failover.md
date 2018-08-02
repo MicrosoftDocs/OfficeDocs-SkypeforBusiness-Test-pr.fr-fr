@@ -29,7 +29,7 @@ Pour tirer le plus grand parti de l’utilisation de la procédure de basculemen
     
     L’application Response Group ne peut stocker qu’un seul jeu de paramètres de niveau application par pool. Ces paramètres sont accessibles par le biais de l’applet de commande **Get-CsRgsConfiguration**. Les paramètres incluent la configuration de la mise en attente musicale, le fichier audio de mise en attente musicale par défaut, la période de grâce de reprise d’appel parqué d’agent et la configuration du contexte de l’appel. Ces paramètres peuvent être transférés depuis un pool vers un autre à l’aide de l’applet de commande **Import-CsRgsConfiguration** et du paramètre **ReplaceExistingSettings**, mais cette opération remplace tous les paramètres de niveau application dans le pool de destination.
     
-    > [!tip]  
+    > [!TIP]  
     > Dans un emplacement séparé, conservez une copie de sauvegarde de tous les fichiers audio d’origine qui ont servi à la configuration de l’application Response Group (c’est-à-dire les enregistrements ou les fichiers de mise en attente musicale).    
     Si des fichiers de mise en attente musicale personnalisés ont été téléchargés pour le parcage d’appel vers un pool, vous devez en conserver une copie à un autre emplacement. Ces fichiers ne sont pas sauvegardés durant le processus de récupération d’urgence de Lync Server 2013 et seront perdus si les fichiers téléchargés vers le pool sont endommagés ou effacés.
     

@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2017-02-17_
 
 Les serveurs internes qui exécutent Lync Server et qui requièrent des certificats sont les suivants : le serveur Standard Edition, le serveur frontal Enterprise Edition, le serveur de médiation et le directeur. Le tableau ci-dessous indique les certificats requis pour ces serveurs. Vous pouvez utiliser l’Assistant Certificat de Lync Server pour demander ces certificats.
 
-> [!tip]  
+> [!TIP]  
 > Les certificats avec caractères génériques sont pris en charge pour les autres noms d’objets associés à des URL simples sur le pool de serveurs frontaux, le serveur frontal ou le directeur. Pour plus d’informations sur la prise en charge des certificats avec caractères génériques, reportez-vous à <a href="lync-server-2013-wildcard-certificate-support.md">Prise en charge des certificats comportant des caractères génériques dans Lync Server 2013</a>.
 
 Même si une autorité de certification d’entreprise interne est recommandée pour les serveurs internes, vous pouvez également utiliser une autorité de certification publique. Pour obtenir la liste des autorités de certification publiques fournissant des certificats conformes aux exigences des communications unifiées et ayant conclu un partenariat avec Microsoft afin de garantir la compatibilité de leurs certificats avec l’Assistant Certificat de Lync Server, consultez l’article 929395 de la Base de connaissances Microsoft « Partenaires de certificat de communications unifiées pour Exchange Server et Communications Server », à l’adresse [http://go.microsoft.com/fwlink/?linkid=202834\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=202834%26clcid=0x40c).

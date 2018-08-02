@@ -39,7 +39,7 @@ Pour préparer correctement vos données sources pour la migration, procédez co
 
 2.  Inspectez la configuration de vos salles de conversation et catégories Lync Server 2010, conversation de groupe ou Office Communications Server 2007 R2  Group Chat. Toutes les modifications des catégories, salles ou compléments dans votre déploiement hérité existant seront apportées par l’outil d’administration Group Chat.
     
-    > [!tip]  
+    > [!TIP]  
     > Toutes les modifications des catégories, salles ou compléments dans votre déploiement de serveur de conversations permanentesLync Server 2013 sont apportées par le Panneau de configuration Lync Server ou les applets de commande Windows PowerShell.    
     Pour préparer votre système hérité pour la migration, procédez comme suit.
     

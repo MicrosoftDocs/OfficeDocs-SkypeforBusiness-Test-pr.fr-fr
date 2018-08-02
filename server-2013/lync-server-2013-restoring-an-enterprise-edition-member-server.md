@@ -27,7 +27,7 @@ Si un serveur exécutant l’un des rôles serveur suivants est défaillant, app
 
   - Serveur Edge
 
-> [!tip]  
+> [!TIP]  
 > Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pourrez utiliser cette copie comme point de restauration au cas où un problème surviendrait lors de la restauration. Il peut être préférable de créer cette copie instantanée après avoir installé le système d’exploitation et SQL Server et après avoir restauré ou réinscrit les certificats.
 
 ## Pour restaurer un serveur membre

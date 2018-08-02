@@ -43,7 +43,8 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <td><p>Autre nom du sujet</p></td>
 <td><p>Nom de domaine complet du pool</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Le nom du sujet doit aussi être présent dans l’autre nom de sujet.
 </div></td>
@@ -56,7 +57,8 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <tr class="even">
 <td><p>Autre nom du sujet</p></td>
 <td><p>URL simple de réunion</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Toutes les URL simples de réunion doivent se trouver dans l’autre nom de sujet. Chaque domaine SIP doit comporter au moins une URL simple de réunion active.
 </div></td>
@@ -76,7 +78,8 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <td><p>Autre nom du sujet</p></td>
 <td><p>URL du service de découverte automatique externe</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Si vous utilisez Microsoft Exchange Server, vous devrez également configurer les règles de proxy inverse pour les URL de découverte automatique Exchange et des services web.
 </div></td>
@@ -95,7 +98,7 @@ Une demande de certificat est créée sur le proxy inverse. Si vous créez une d
 > [!NOTE]  
 > Une demande de certificat ou une demande de signature de certificat (CSR) est adressée à une autorité de certification publique approuvée afin de valider et signer la clé publique de l’ordinateur à l’origine de la demande. Lorsqu’un certificat est généré, une clé publique et une clé privée sont créées. Seule la clé publique est partagée et signée. Comme son nom l’indique, la clé publique est mise à disposition pour toute demande publique. La clé publique est destinée à l’usage des clients, serveurs et autres demandeurs devant échanger des informations de façon sécurisée et valider l’identité d’un ordinateur. La clé privée est conservée de façon sécurisée et utilisée uniquement par l’ordinateur ayant créé la paire de clés pour déchiffrer les messages chiffrés avec sa clé publique. La clé privée peut être utilisée à d’autres fins. Le chiffrement des données constitue la principale utilisation pour le proxy inverse. L’authentification du certificat au niveau de la clé de certificat constitue une autre utilisation. Celle-ci cherche à vérifier que le demandeur dispose de la clé publique de l’ordinateur ou que l’ordinateur pour lequel vous avez une clé publique est réellement l’ordinateur qu’il prétend être.
 
-> [!tip]  
+> [!TIP]  
 > Si vous planifiez vos certificats de serveur Edge et de proxy inverse simultanément, vous remarquerez certainement qu’ils y a de grandes similitudes entre leurs exigences. Lorsque vous configurez et demandez votre certificat de serveur Edge, vous devez combiner les autres noms de sujet du serveur Edge et du proxy inverse. Vous pouvez utiliser le même certificat pour votre proxy inverse si vous exportez le certificat et la clé privée, copiez le fichier exporté vers le proxy inverse, importez la paire certificat/clé, puis affectez celle-ci de façon appropriée dans les procédures suivantes. Consultez les exigences de certificat de serveur Edge ( <a href="lync-server-2013-plan-for-edge-server-certificates.md">Planification des certificats de serveur Edge dans Lync Server 2013</a>) et de proxy inverse ( <a href="lync-server-2013-certificate-summary-reverse-proxy.md">Résumé des certificats - Proxy inverse dans Lync Server 2013</a>). Veillez à créer le certificat avec une clé privée exportable. La création du certificat et de la demande de certificat avec une clé de ce type est nécessaire pour les serveurs Edge regroupés, aussi s’agit-il d’une pratique normale. L’Assistant Certificat dans l?’Assistant Déploiement de Lync Server pour le serveur Edge vous permet d’ailleurs de définir l’indicateur <strong>Permettre l’exportation de la clé privée</strong> . Lorsque vous recevez la demande de certificat de l’autorité de certification publique, vous devez exporter le certificat et la clé privée. Pour plus d’informations sur la création et l’exportation de votre certificat avec une clé privée, reportez-vous à la section « Pour exporter le certificat avec la clé privée pour les serveurs Edge d’un pool » de la rubrique <a href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Configuration des certificats pour l’interface Edge externe pour Lync Server 2013</a>. L’extension du certificat doit être de type <strong>.pfx</strong>.
 
 Pour générer une demande de signature de certificat sur l’ordinateur sur lequel le certificat et la clé privée seront affectés, procédez comme suit :

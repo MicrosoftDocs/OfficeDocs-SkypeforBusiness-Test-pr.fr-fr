@@ -59,17 +59,13 @@ Le routage des appels sortants s’applique aux appels destinés à une passerel
 
 Cette section explique comment configurer les paramètres serveur de routage des appels sortants suivants :
 
-  -   
-    [Plans de numérotation et règles de normalisation dans Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
+  - [Plans de numérotation et règles de normalisation dans Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-  -   
-    [Stratégies de voix dans Lync Server 2013](lync-server-2013-voice-policies.md)
+  - [Stratégies de voix dans Lync Server 2013](lync-server-2013-voice-policies.md)
 
-  -   
-    [Enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+  - [Enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-pstn-usage-records.md)
 
-  -   
-    [Itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-voice-routes.md)
+  - [Itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-voice-routes.md)
 
 ## Voir aussi
 

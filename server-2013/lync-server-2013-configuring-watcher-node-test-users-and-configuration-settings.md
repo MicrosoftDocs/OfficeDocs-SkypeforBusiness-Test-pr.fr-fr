@@ -166,7 +166,7 @@ Cette commande retourne des informations semblables aux suivantes, en fonction d
     PersistentChatMessage
     DataConference
 
-> [!tip]  
+> [!TIP]  
 > Pour afficher les transactions synthétiques par ordre alphabétique, exécutez plutôt la commande suivante :<br />
 Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object
 

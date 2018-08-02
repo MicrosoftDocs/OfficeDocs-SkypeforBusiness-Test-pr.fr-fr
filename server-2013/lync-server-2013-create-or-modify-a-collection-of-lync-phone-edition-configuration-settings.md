@@ -33,7 +33,7 @@ Les paramètres de configuration comprennent le nom de la collection, l’étend
     
       - Pour modifier l’un des paramètres d’une collection existante, cliquez sur la collection, cliquez sur le menu **Modifier**, cliquez sur **Afficher les détails**, puis apportez vos modifications.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour revenir à l’utilisation des paramètres par défaut de la collection globale, cliquez sur la collection globale, cliquez sur le menu <strong>Modifier</strong>, cliquez sur <strong>Supprimer</strong>, puis sur <strong>OK</strong>. Cela ne supprime pas la collection globale, mais rétablit simplement les paramètres à leurs valeurs par défaut.
 
 5.  Cliquez sur **Valider**.

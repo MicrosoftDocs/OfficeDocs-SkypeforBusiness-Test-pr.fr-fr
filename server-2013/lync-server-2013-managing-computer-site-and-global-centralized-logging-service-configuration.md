@@ -31,7 +31,7 @@ Il existe des différences fondamentales entre les commandes en ligne de command
 
 Une étendue d’ordinateur peut être définie lors de l’exécution d’une commande [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging) et [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) avec le paramètre –Computers. Le paramètre –Computers accepte une liste de noms de domaine complets séparés par des virgules pour l’ordinateur cible.
 
-> [!tip]  
+> [!TIP]  
 > Vous pouvez également définir –Pools et une liste de pools séparée par des virgules sur laquelle exécuter les commandes de journalisation.
 
 Les étendues globale et de site sont définies dans les applets de commande **New-**, **Set-** et **Remove-**service de journalisation centralisée. Les exemples suivants montrent comment définir une étendue globale ou de site.

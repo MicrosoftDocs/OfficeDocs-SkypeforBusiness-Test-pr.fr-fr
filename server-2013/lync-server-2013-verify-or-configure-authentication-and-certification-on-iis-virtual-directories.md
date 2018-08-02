@@ -28,7 +28,7 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
 
 3.  Dans le **Gestionnaire des services Internet (IIS)** , sélectionnez **NomServeur** . Dans **Affichage des fonctionnalités** , sélectionnez **Certificats de serveur** , cliquez avec le bouton droit, puis sélectionnez **Ouvrir la fonctionnalité** .
     
-    > [!tip]  
+    > [!TIP]  
     > Si des certificats sont affectés au serveur, ils figurent parmi les certificats de serveur de l’affichage des fonctionnalités. Si un certificat répond aux conditions requises pour le site web externe dans les services Internet (IIS), vous pouvez réutiliser ce certificat. Pour afficher un certificat, cliquez avec le bouton droit sur le certificat et sélectionnez <strong>Afficher…</strong>
 
 4.  Sur le serveur frontal ou le directeur pour lequel vous demandez le certificat, cliquez sur **Démarrer** , sélectionnez **Tous les programmes** , **Microsoft Lync Server 2013**, puis cliquez sur **Lync Server Management Shell**.
@@ -49,7 +49,7 @@ Utilisez la procédure suivante pour configurer le certificat sur vos répertoir
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
-    > [!tip]  
+    > [!TIP]  
     > Par défaut, Request-CsCertificate renseigne le nom du sujet avec le nom du serveur ou du pool et remplit l’autre nom du sujet avec des entrées constituées du nom de domaine complet du serveur, du nom de domaine complet du pool, des noms de domaine complets d’URL simples et des noms de domaine complets des services web interne et externe. Pour cela, l’applet de commande se réfère aux documents de topologie de votre déploiement. S’il manque une valeur et que vous avez spécifié le paramètre –Verbose, elle vous signale que les valeurs calculées et réelles des autres noms sont différentes, mais elle ne vous indique pas la valeur manquante. Elle vous fournit la valeur calculée complète à laquelle l’applet de commande se réfère. Utilisez la chaîne desautres noms calculés figurant dans le résultat pour faire une nouvelle demande de certificat qui comportera toutes les valeurs.    
     ![Sortie de la demande cert à l’aide de Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Sortie de la demande cert à l’aide de Request-CsCertifica")
 

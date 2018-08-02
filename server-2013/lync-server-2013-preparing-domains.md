@@ -32,7 +32,7 @@ Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond
 
 Pour plus d’informations sur l’applet de commande **Grant-CsOuPermission**, reportez-vous à la documentation Lync Server Management Shell.
 
-> [!tip]  
+> [!TIP]  
 > Pour plus d’informations sur les entrées de contrôle d’accès créées sur le domaine racine et dans les conteneurs Utilisateurs, Ordinateurs et Contrôleurs de domaine, reportez-vous à <a href="lync-server-2013-changes-made-by-domain-preparation.md">Modifications effectuées par la préparation de domaine dans Lync Server 2013</a>.
 
 ## Dans cette section

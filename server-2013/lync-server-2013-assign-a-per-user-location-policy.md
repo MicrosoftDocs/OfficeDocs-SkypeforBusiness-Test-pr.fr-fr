@@ -49,13 +49,13 @@ Pour plus d’informations sur la création de stratégies d’emplacement, voir
     
     4.  Selon la propriété utilisateur que vous avez sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche dans la liste déroulante.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
 
 6.  Cliquez sur un utilisateur dans les résultats, puis sur **Action** et sur **Attribuer des stratégies**.
     
-    > [!tip]  
+    > [!TIP]  
     > Si vous voulez appliquer la même stratégie d’emplacement de niveau utilisateur à plusieurs utilisateurs, sélectionnez plusieurs utilisateurs dans les résultats, puis cliquez sur <strong>Actions</strong> et sur <strong>Attribuer des stratégies</strong>.
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie d’emplacement**, effectuez l’une des actions suivantes :
@@ -66,7 +66,7 @@ Pour plus d’informations sur la création de stratégies d’emplacement, voir
     
       - Cliquez sur le nom d’une stratégie d’emplacement de niveau utilisateur que vous avez définie en exécutant l’applet de commande **New-CsLocationPolicy**.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour vous aider à décider de la stratégie à attribuer, après avoir cliqué sur le nom d’une stratégie, cliquez sur <strong>Afficher</strong> pour afficher les droits et les autorisations associés à la stratégie.
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.

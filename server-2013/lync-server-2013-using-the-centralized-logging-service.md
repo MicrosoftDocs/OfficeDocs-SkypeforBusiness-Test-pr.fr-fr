@@ -29,7 +29,7 @@ Le service de journalisation centralisée est une nouvelle fonctionnalité dans 
     
       - Utiliser un *fournisseur* existant ou en créer un nouveau. Un *fournisseur* définit ce que la session de journalisation collecte, le niveau de détails, les composants à suivre et les indicateurs à appliquer.
         
-        > [!tip]  
+        > [!TIP]  
         > Si vous connaissez bien OCSLogger, le terme <em>fournisseur</em> fait référence à la collection de <strong>composants</strong> (par exemple, S4, SIPStack), à un <strong>type de journalisation</strong> (par exemple, un fichier journal WPP, EventLog ou IIS), à un <strong>niveau de suivi</strong> (par exemple, intégral, détaillé, débogage) et à des <strong>indicateurs</strong> (par exemple, TF_COMPONENT, TF_DIAG). Ces éléments sont définis dans le fournisseur (une variable Windows PowerShell) et transmis à la commande du service de journalisation centralisée.    
       - Configurer les ordinateurs et pools auprès desquels vous voulez collecter des journaux.
     

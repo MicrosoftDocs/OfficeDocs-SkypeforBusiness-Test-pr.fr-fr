@@ -79,7 +79,8 @@ La fédération XMPP définit un déploiement externe basé sur le protocole XMP
 <td><p>Déterminer les options à ajouter au déploiement Edge existant</p></td>
 <td><p>Exécuter le Générateur de topologie pour modifier les paramètres du serveur Edge et créer et publier la topologie. Votre topologie Edge existante répliquera les modifications du magasin central de gestion vers le serveur Edge.</p></td>
 <td><p>Groupe Administrateurs du domaine et groupe RTCUniversalServerAdmins</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Vous pouvez modifier une topologie à l’aide d’un compte qui est membre du groupe d’utilisateurs locaux, mais la publication d’une topologie nécessite un compte membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.
 </div></td>

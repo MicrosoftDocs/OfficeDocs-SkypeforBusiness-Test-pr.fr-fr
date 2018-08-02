@@ -22,7 +22,7 @@ La manière dont vous configurez la table des numéros non attribués dépend de
 > [!IMPORTANT]  
 > Avant de configurer la table des numéros non attribués, vous devez avoir défini des annonces ou configuré un standard automatique de la messagerie unifiée Exchange dans le système.
 
-> [!tip]  
+> [!TIP]  
 > Lorsqu’une personne appelle un numéro non attribué, Lync Server recherche de haut en bas dans la table des numéros non attribués et utilise la première plage correspondante. Par conséquent, une action que vous voulez voir effectuée en dernier ressort doit être spécifiée pour la dernière plage de la table.
 
 ## Dans cette section

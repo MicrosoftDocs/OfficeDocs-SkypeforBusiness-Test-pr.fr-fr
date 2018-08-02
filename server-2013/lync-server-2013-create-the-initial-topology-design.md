@@ -36,7 +36,7 @@ Une fois l’installation de l’outil de planification Lync Server 2013 termin�
 
 4.  Répondez à chaque rubrique en sélectionnant les critères appropriés pour votre conception, puis cliquez sur **Suivant** pour passer à la page suivante de l’Assistant. Cliquez sur **Précédent** pour modifier les pages précédentes.
     
-    > [!tip]  
+    > [!TIP]  
     > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin d’informations supplémentaires, cliquez sur <strong>En savoir plus</strong> pour lire des informations détaillées dans la documentation de planification de Lync Server 2013 sur le site web Microsoft TechNet. Vous devez disposer d’une connexion à Internet pour accéder au site web Microsoft TechNet.
 
 5.  Sélectionnez les options appropriées pour votre conception. Une fois les critères initiaux définis, une page viendra confirmer que votre vue d’ensemble des fonctionnalités est complète.

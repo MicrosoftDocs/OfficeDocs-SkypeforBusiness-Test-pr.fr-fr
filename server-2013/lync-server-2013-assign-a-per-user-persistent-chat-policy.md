@@ -41,13 +41,13 @@ Vous pouvez attribuer une stratégie de conversation persistante par utilisateur
     
     4.  En fonction de la propriété utilisateur sélectionnée, entrez les critères que vous voulez utiliser pour filtrer les résultats de la recherche en les tapant ou en cliquant sur la flèche de la liste déroulante.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour ajouter des clauses de recherche supplémentaires à votre requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
 
 6.  Cliquez sur un utilisateur dans les résultats de la recherche, cliquez sur **Action**, puis sur **Attribuer des stratégies**.
     
-    > [!tip]  
+    > [!TIP]  
     > Si vous voulez que la même stratégie de conversation persistante s’applique à plusieurs utilisateurs, sélectionnez plusieurs utilisateurs dans les résultats de la recherche, puis cliquez sur <strong>Actions</strong> et sur <strong>Attribuer des stratégies</strong>.
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de conversation persistante**, effectuez l’une des opérations suivantes :
@@ -58,7 +58,7 @@ Vous pouvez attribuer une stratégie de conversation persistante par utilisateur
     
       - Cliquez sur le nom d’une stratégie de conversation persistante par utilisateur définie précédemment sur la page **Stratégie de conversation persistante**.
         
-        > [!tip]  
+        > [!TIP]  
         > Pour vous aider à choisir la stratégie que vous voulez attribuer, après avoir cliqué sur le nom d’une stratégie, cliquez sur <strong>Voir</strong> pour afficher les droits et autorisations d’utilisateur définis dans la stratégie.
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.

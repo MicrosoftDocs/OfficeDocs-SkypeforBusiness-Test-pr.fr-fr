@@ -94,7 +94,8 @@ Vous devez créer l’un des enregistrements DNS externes suivants :
 <td><p>_sipfederationtls._tcp. <em>&lt;domaine_sip&gt;</em></p>
 <p>Résout l’enregistrement d’hôte (A ou AAAA) pour le service Edge d’accès</p></td>
 <td><p>Pour prendre en charge le service de notifications Push et le service de notifications Push Apple, vous créez un enregistrement SRV pour chaque domaine SIP ayant des clients Microsoft Lync Mobile.</p>
-<div class="alert">
+<div>
+
 > [!IMPORTANT]  
 > Cette condition s’applique uniquement aux clients Microsoft Lync Mobile sur des appareils mobiles Apple ou Microsoft. Les appareils Android et Nokia Symbian n’utilisent pas de notification push.
 </div></td>

@@ -54,7 +54,8 @@ Le tableau ci-dessous décrit les étapes nécessaires pour déployer l’archiv
 <tr class="odd">
 <td><p><strong>Installer le matériel et les logiciels prérequis</strong></p></td>
 <td><ul><li><p>Pour utiliser l’intégration de Microsoft Exchange (avec Exchange 2013 pour le stockage d’archives d’une partie ou de la totalité des utilisateurs), vous avez besoin d’un déploiement Exchange 2013 existant.</p></li><li><p>Pour utiliser des bases de données d’archivage distinctes (à l’aide de bases de données SQL Server) pour le stockage d’archives d’une partie ou de la totalité des utilisateurs, vous avez besoin de SQL Server sur le serveur qui va stocker les données d’archivage.</p></li></ul>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > L’archivage s’exécute sur les serveurs frontaux d’un pool Enterprise et des serveurs Standard Edition. Aucune configuration matérielle ou logicielle supplémentaire n’est requise en dehors de celle nécessaire à l’installation de ces serveurs.
 </div></td>

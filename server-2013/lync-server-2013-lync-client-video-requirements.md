@@ -39,7 +39,8 @@ Lync 2013 propose désormais l\\rquote accélération matérielle pour l\\rquote
 <tr class="odd">
 <td><p>Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)</p></td>
 <td><ul><li><p>La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode de décodage DXVA2_ModeH264_VLD_NoFGT.</p></li><li><p>Le tout dernier pilote de carte graphique doit être installé.</p></li></ul>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Pour plus d’informations sur les modes de décodage, voir <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.
 </div></td>
@@ -52,7 +53,8 @@ Lync 2013 propose désormais l\\rquote accélération matérielle pour l\\rquote
 <tr class="odd">
 <td><p>Encodage matériel accéléré H.264 : caméra requise</p></td>
 <td><p>Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Lync 2013 prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d\rquote UVC 1.5. Dans la mesure où Windows 7 ne prend pas en charge UVC 1.5, Lync 2013 considère les caméras UVC 1.5 comme des caméras génériques sans prise en charge de l\rquote encodage matériel.
 </div></td>
@@ -60,7 +62,8 @@ Lync 2013 propose désormais l\\rquote accélération matérielle pour l\\rquote
 <tr class="even">
 <td><p>Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)</p></td>
 <td><ul><li><p>La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode de décodage DXVA2_ModeH264_VLD_NoFGT.</p></li><li><p>Le tout dernier pilote de carte graphique doit être installé.</p></li></ul>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Pour plus d’informations sur les modes de décodage, voir <a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a>.
 </div></td>
@@ -73,7 +76,8 @@ Lync 2013 propose désormais l\\rquote accélération matérielle pour l\\rquote
 <tr class="even">
 <td><p>Encodage matériel accéléré H.264 : caméra requise</p></td>
 <td><p>Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Lync 2013 prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d\rquote UVC 1.5. Dans la mesure où Windows 7 ne prend pas en charge UVC 1.5, Lync 2013 considère les caméras UVC 1.5 comme des caméras génériques sans prise en charge de l\rquote encodage matériel.
 </div></td>

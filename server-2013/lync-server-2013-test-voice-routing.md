@@ -19,7 +19,7 @@ Vous pouvez utiliser l’onglet **Tester le routage des com. vocales** du Pannea
 
 Avant de déployer votre configuration de routage des communications vocales, nous vous conseillons de la tester sur plusieurs numéros de téléphone pour vous assurer que les résultats obtenus sont ceux escomptés.
 
-> [!tip]  
+> [!TIP]  
 > Vous pouvez faire appel aux commandes <strong>Exporter des cas de test</strong> et <strong>Importer des cas de test</strong> pour enregistrer des cas de test de routage des communications vocales et les importer sur un autre ordinateur afin de les utiliser.
 
 > [!CAUTION]  

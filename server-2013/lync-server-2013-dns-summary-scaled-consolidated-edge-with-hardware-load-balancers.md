@@ -48,7 +48,7 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
     
     Les adresses IP service Edge de conférence web et service Edge A/V sont secondaires.
 
-> [!tip]  
+> [!TIP]  
 > La configuration du serveur Edge avec deux cartes réseau est une option. L’autre option consiste à utiliser une carte réseau pour le côté interne et trois cartes réseau pour le côté externe du serveur Edge. Cela permet d’utiliser une carte réseau distincte par service serveur Edge et une collection de données potentiellement plus concise en cas d’identification et de résolution des problèmes.
 
 ### Enregistrements DNS requis pour le serveur Edge consolidé ajusté, équilibrage de charge matérielle (exemple)

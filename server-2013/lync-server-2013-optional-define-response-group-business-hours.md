@@ -19,7 +19,7 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Les paramètres des heures d’ouverture définissent si le flux de travail est disponible pour répondre aux appels et spécifient les actions à prendre lorsque les appels sont passés en dehors des heures d’ouverture. Les administrateurs de Response Group peuvent utiliser l’applet de commande **New-CsRgsHoursOfBusiness** afin de créer des plannings prédéfinis disponibles pour un nombre de groupes Response Group quelconque.
 
-> [!tip]  
+> [!TIP]  
 > Lorsque vous créez ou modifiez un flux de travail, vous pouvez spécifier un planning personnalisé s’appliquant uniquement à ce flux de travail. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Création ou modification d’un flux de travail de groupe de recherche dans Lync Server 2013</a> ou <a href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Création ou modification d’un flux de travail interactif dans Lync Server 2013</a>.
 
 > [!NOTE]  

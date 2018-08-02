@@ -66,7 +66,7 @@ Si les Mises à jour cumulatives pour Lync Server 2013 de février 2013 ont é
 > [!NOTE]  
 > Lors de la création d’enregistrements SRV, n’oubliez pas qu’ils doivent pointer vers un enregistrement DNS (A) et AAAA (si vous utilisez l’adressage IPv6) dans le même domaine que celui sur lequel l’enregistrement DNS SRV est créé. Par exemple, si l’enregistrement SRV se trouve dans contoso.com, l’enregistrement A et AAAA (si vous utilisez l’adressage IPv6) sur lequel il pointe ne peut pas se trouver dans fabrikam.com.
 
-> [!tip]  
+> [!TIP]  
 > La configuration par défaut consiste à diriger tout le trafic des clients mobiles à travers le site externe. Vous pouvez modifier les paramètres de façon à renvoyer uniquement l’URL interne, si cela correspond davantage à vos exigences. Dans cette configuration, les utilisateurs peuvent utiliser les applications mobiles Lync sur leur appareil mobile uniquement lorsqu’ils se trouvent sur le réseau d’entreprise. Pour définir cette configuration, vous devez exécuter l’applet de commande <strong>Set-CsMcxConfiguration</strong>.
 
 > [!NOTE]  
@@ -82,7 +82,7 @@ L’utilisation de la découverte automatique, plutôt que manuelle, est vivemen
 
 ## Configuration DNS « split-brain » avec Lync Server
 
-Le terme DNS split-brain est connu sous différents, parmi lesquels « split DNS » et « split-horizon DNS ». Il décrit une configuration DNS dans laquelle il existe deux zones DNS avec le même espace de noms (l’une répond aux demandes internes et l’autre aux demandes externes). Cependant, de nombreux enregistrements DNS (SRV et A) contenus dans le DNS interne ne seront pas contenus dans le DNS externe, et inversement. Dans les cas où le même enregistrement DNS existe à la fois dans le DNS interne et externe (par exemple, www.contoso.com), l’adresse IP renvoyée sera différente en fonction de l’endroit d’où provient la requête (interne ou externe).
+Le terme DNS split-brain est connu sous différents, parmi lesquels « split DNS » et « split-horizon DNS ». Il décrit une configuration DNS dans laquelle il existe deux zones DNS avec le même espace de noms (l’une répond aux demandes internes et l’autre aux demandes externes). Cependant, de nombreux enregistrements DNS (SRV et A) contenus dans le DNS interne ne seront pas contenus dans le DNS externe, et inversement. Dans les cas où le même enregistrement DNS existe à la fois dans le DNS interne et externe (par exemple, www<span/>.contoso.com), l’adresse IP renvoyée sera différente en fonction de l’endroit d’où provient la requête (interne ou externe).
 
 > [!IMPORTANT]  
 > Actuellement, DNS split-Brain n’est pas pris en charge pour la mobilité ou, plus précisément, les enregistrements DNS LyncDiscover et LyncDiscoverInternal. LyncDiscover doit être défini sur un serveur DNS externe et LyncDiscoverInternal doit être défini sur un serveur DNS interne.

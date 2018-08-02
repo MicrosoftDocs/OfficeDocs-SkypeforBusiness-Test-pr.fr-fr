@@ -58,7 +58,8 @@ Pour obtenir les meilleures performances, nous vous recommandons d'exécuter Lyn
 <tr class="even">
 <td><p>Réseau</p></td>
 <td><ul><li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l'association à une seule adresse MAC et une seule adresse IP).</p>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Les configurations doubles ou à plusieurs connexions ne sont pas prises en charge pour les serveurs serveurs frontaux, serveurs principaux, serveurs Standard Edition et serveurs de conversations permanentes.<br />
 Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilisées pour la surveillance et la gestion du matériel des serveurs ne constituent pas un serveur à plusieurs connexions et ne sont donc pas prises en charge.
@@ -101,7 +102,8 @@ Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilis�
 <tr class="even">
 <td><p>Réseau</p></td>
 <td><ul><li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l'association à une seule adresse MAC et une seule adresse IP). 2 interfaces réseau sont requises sur serveurs Edge et sont prises en charge sur les serveurs serveurs de médiation autonomes.</p></li></ul>
-<div class="alert">
+<div>
+
 > [!NOTE]  
 > Les configurations doubles ou à plusieurs connexions ne sont pas prises en charge pour les serveurs directeurs.<br />
 Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilisées pour la surveillance et la gestion du matériel des serveurs ne constituent pas un serveur à plusieurs connexions et ne sont donc pas prises en charge.

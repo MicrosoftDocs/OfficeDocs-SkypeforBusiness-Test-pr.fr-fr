@@ -66,7 +66,7 @@ S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la st
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    > [!tip]  
+    > [!TIP]  
     > Le paramètre « EnablePublicCloudAudioVideoAccess » n’a pas de sélection correspondante dans le Panneau de configuration Lync Server
 
 ## Pour créer une stratégie via Windows PowerShell afin de prendre en charge l’accès des utilisateurs des domaines fédérés

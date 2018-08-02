@@ -23,38 +23,27 @@ Ce document contient des informations importantes que vous devez connaître avan
 
 Ce document contient les sections suivantes :
 
-  -   
-    Client Skype Entreprise 2015
+  - Client Skype Entreprise 2015
 
-  -   
-    Lync Server
+  - Lync Server
 
-  -   
-    Installation
+  - Installation
 
-  -   
-    Mobilité
+  - Mobilité
 
-  -   
-    Conférence
+  - Conférence
 
-  -   
-    Voix Entreprise
+  - Voix Entreprise
 
-  -   
-    Présence
+  - Présence
 
-  -   
-    application Response Group, application de parcage d’appel et prise d’appel de groupe
+  - application Response Group, application de parcage d’appel et prise d’appel de groupe
 
-  -   
-    Panneau de configuration de Lync Server, générateur de topologie et Outil de planification
+  - Panneau de configuration de Lync Server, générateur de topologie et Outil de planification
 
-  -   
-    Localisation
+  - Localisation
 
-  -   
-    Copyright
+  - Copyright
 
 ## Client Skype Entreprise 2015
 
