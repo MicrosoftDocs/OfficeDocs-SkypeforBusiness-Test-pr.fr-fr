@@ -43,6 +43,8 @@ Le contrôle d’appel distant exige que chaque pool Lync Server soit configuré
         
         > [!NOTE]  
         > Si vous spécifiez un nom de domaine complet (FQDN), vous devez commencer par configurer a enregistrement DNS (Domain Name System) A.        
+            
+            
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         
         Exemple :
