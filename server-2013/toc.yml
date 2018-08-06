@@ -4839,7 +4839,7 @@
   - name: Lync Server Management Shell
     href: lync-server-2013-lync-server-management-shell.md
     items:
-      - name: Cmdlets de gestion des utilisateurs
-        href: lync-server-2013-user-management-cmdlets.md
+    - name: Cmdlets de gestion des utilisateurs
+      href: lync-server-2013-user-management-cmdlets.md
   - name: Glossaire
     href: lync-server-2013-glossary.md
