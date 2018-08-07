@@ -128,7 +128,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
     <table>
     <thead>
     <tr class="header">
-    <th><img src="images/Gg399038.security(OCS.15).gif" title="security" alt="security" />Sécurité Remarque :</th>
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Sécurité Remarque :</th>
     </tr>
     </thead>
     <tbody>
