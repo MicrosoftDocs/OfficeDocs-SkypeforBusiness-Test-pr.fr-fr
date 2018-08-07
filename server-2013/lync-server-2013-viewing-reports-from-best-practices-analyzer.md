@@ -45,7 +45,7 @@ Utilisez la procédure suivante pour afficher les résultats d’analyse précé
       - Pour afficher des rapports figurant dans la liste des résultats d’analyse stockés localement, cliquez sur le nom de l’analyse, puis sur **Afficher un rapport de cette analyse**.
         
         > [!NOTE]  
-        > Best Practices Analyzer crée la liste des fichiers locaux d’après le dossier <em>&lt;systemDrive&gt;</em>\Documents and Settings\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA.    
+        > Best Practices Analyzer crée la liste des fichiers locaux d’après le dossier <em>&lt;systemDrive&gt;</em>\Documents and Settings\\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA.    
       - Pour afficher les rapports liés à des résultats d’analyse stockés à un autre emplacement, cliquez sur **Importer analyse**, localisez le fichier contenant les résultats d’analyse, puis cliquez sur **Ouvrir**.
         
         > [!NOTE]  

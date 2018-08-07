@@ -100,15 +100,11 @@ Les scénarios de basculement Edge pris en charge avec l’équilibrage de la ch
 
 > [!NOTE]  
 > Serveur Edge mis à l’échelle (équilibrage de charge DNS)<ul><li><p>Adresses IP publiques routables</p></li><li><p>Adresse IP privée non routable si la conversion d’adresses réseau symétrique est utilisée
-
-> [!NOTE]  
-> Si vous utilisez une adresse IP publique ou une adresse IP privée avec conversion d’adresses réseau, vous utilisez le même nombre d’adresses IP en fonction de la configuration que vous avez définie dans le Générateur de topologie. Vous pouvez configurer le serveur Edge pour utiliser une seule adresse IP avec des ports distincts par service ou utiliser des adresses IP distinctes par service, mais le même port (par défaut, TCP 443).
-</div></li></ul>
-Si vous décidez d’utiliser des adresses IP privées non routables avec conversion d’adresses réseau :<ul><li><p>Vous devez utiliser des adresses IP privées routables sur les trois interfaces externes</p></li><li><p>Vous devez configurer la conversion d’adresses réseau symétrique pour le trafic entrant et sortant</p></li></ul>
-Les topologies de serveur Edge mises à l’échelle (avec équilibrage de la charge matérielle) doivent utiliser des adresses IP publiques.</td>
-</tr>
-</tbody>
-</table>
+    > [!NOTE]  
+    > Si vous utilisez une adresse IP publique ou une adresse IP privée avec conversion d’adresses réseau, vous utilisez le même nombre d’adresses IP en fonction de la configuration que vous avez définie dans le Générateur de topologie. Vous pouvez configurer le serveur Edge pour utiliser une seule adresse IP avec des ports distincts par service ou utiliser des adresses IP distinctes par service, mais le même port (par défaut, TCP 443).
+> </li></ul>
+> Si vous décidez d’utiliser des adresses IP privées non routables avec conversion d’adresses réseau :<ul><li><p>Vous devez utiliser des adresses IP privées routables sur les trois interfaces externes</p></li><li><p>Vous devez configurer la conversion d’adresses réseau symétrique pour le trafic entrant et sortant</p></li></ul>
+> Les topologies de serveur Edge mises à l’échelle (avec équilibrage de la charge matérielle) doivent utiliser des adresses IP publiques.
 
 
 Lync Server 2013 autorise le placement d’interfaces externes de serveur Edge d’accès, de conférence web et A/V derrière un routeur ou un pare-feu exécutant la conversion d’adresses réseau (NAT) pour des topologies de serveur Edge uniques et consolidées mises à l’échelle à la fois.
