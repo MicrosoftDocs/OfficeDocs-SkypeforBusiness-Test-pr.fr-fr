@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Importation des cas de test de routage des communications vocales'
+title: "Lync Server 2013 : Import. des cas de test de routage des comm. voc."
 TOCTitle: Importation des cas de test de routage des communications vocales
 ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398460(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déploiement du complément de réunion en ligne pour Lync 2013'
+title: "Lync Server 2013 : Dépl. du complément de réunion en ligne pour Lync 2013"
 TOCTitle: Déploiement du complément de réunion en ligne pour Lync 2013
 ms:assetid: ce8608f6-71d4-46f1-b101-50f163916d52
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398873(v=OCS.15)

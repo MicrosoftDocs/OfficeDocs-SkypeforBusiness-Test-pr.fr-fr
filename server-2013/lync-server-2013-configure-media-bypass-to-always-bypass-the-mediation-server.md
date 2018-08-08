@@ -1,6 +1,6 @@
 ﻿---
-title: Configurer le contournement de média dans Lync Server 2013 pour toujours contourner le serveur de médiation
-TOCTitle: Configurer le contournement de média dans Lync Server 2013 pour toujours contourner le serveur de médiation
+title: "Conf. le contourn. de média ds LS 2013 pr tjs contourner le serv. de médiation"
+TOCtitle: "Conf. le contourn. de média ds LS 2013 pr tjs contourner le serv. de médiation"
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425846(v=OCS.15)
 ms:contentKeyID: 49296857

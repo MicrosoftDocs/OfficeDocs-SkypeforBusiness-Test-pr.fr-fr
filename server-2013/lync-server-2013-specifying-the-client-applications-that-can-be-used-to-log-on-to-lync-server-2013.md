@@ -1,6 +1,6 @@
 ﻿---
-title: Spécification des applications clients pouvant être utilisées pour la connexion à Lync Server 2013
-TOCTitle: Spécification des applications clients pouvant être utilisées pour la connexion à Lync Server 2013
+title: "Spéc. des app. clients pouvant être util. pour la connexion à Lync Server 2013"
+TOCtitle: "Spéc. des app. clients pouvant être util. pour la connexion à Lync Server 2013"
 ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182591(v=OCS.15)
 ms:contentKeyID: 49298919

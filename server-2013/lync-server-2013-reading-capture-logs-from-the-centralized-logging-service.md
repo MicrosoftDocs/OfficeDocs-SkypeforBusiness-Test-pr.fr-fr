@@ -1,6 +1,6 @@
 ﻿---
-title: Lecture des journaux de capture à partir du service de journalisation centralisée
-TOCTitle: Lecture des journaux de capture à partir du service de journalisation centralisée
+title: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
+TOCtitle: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721879(v=OCS.15)
 ms:contentKeyID: 49891533

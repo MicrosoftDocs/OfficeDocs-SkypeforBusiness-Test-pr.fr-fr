@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des itinéraires de communications vocales pour les appels sortants'
+title: "Lync Server 2013 : Conf. des itinéraires de comm. voc. pour appels sortants"
 TOCTitle: Configuration des itinéraires de communications vocales pour les appels sortants
 ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425890(v=OCS.15)

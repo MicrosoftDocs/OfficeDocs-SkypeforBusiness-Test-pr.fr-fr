@@ -1,6 +1,6 @@
 ﻿---
-title: Marquer une application serveur Microsoft SIP Processing Language (MSPL) comme critique ou non critique
-TOCTitle: Marquer une application serveur Microsoft SIP Processing Language (MSPL) comme critique ou non critique
+title: "Marquer une app. serv. MSPL comme critique ou non critique"
+TOCtitle: "Marquer une app. serv. MSPL comme critique ou non critique"
 ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182598(v=OCS.15)
 ms:contentKeyID: 49299095

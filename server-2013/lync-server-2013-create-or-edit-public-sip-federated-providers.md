@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification des fournisseurs fédérés SIP publics'
+title: "Lync Server 2013 : Créa. ou modification des fournisseurs fédérés SIP publics"
 TOCTitle: Création ou modification des fournisseurs fédérés SIP publics
 ms:assetid: 5321598c-1ab1-40e3-b739-4b2e6d0a3a3b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398349(v=OCS.15)

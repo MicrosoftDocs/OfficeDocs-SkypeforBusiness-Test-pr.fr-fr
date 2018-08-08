@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’une jonction avec la déviation du trafic multimédia'
+title: "Lync Server 2013 : Conf. d’une jonction avec la déviation du trafic mult."
 TOCTitle: Configuration d’une jonction avec la déviation du trafic multimédia
 ms:assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398792(v=OCS.15)

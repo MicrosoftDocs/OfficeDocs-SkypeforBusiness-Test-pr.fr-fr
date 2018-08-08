@@ -1,6 +1,6 @@
 ﻿---
-title: Afficher des mises à jour logicielles pour les périphériques dans Lync Server 2013
-TOCTitle: Afficher des mises à jour logicielles pour les périphériques dans Lync Server 2013
+title: "Afficher des màj logicielles pour les périphériques dans Lync Server 2013"
+TOCtitle: "Afficher des màj logicielles pour les périphériques dans Lync Server 2013"
 ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182592(v=OCS.15)
 ms:contentKeyID: 49298923

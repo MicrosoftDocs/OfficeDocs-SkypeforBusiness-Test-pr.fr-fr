@@ -1,6 +1,6 @@
 ﻿---
-title: Vues détaillées de la qualité de l’expérience (QoE, Quality of Experience) dans Lync Server 2013
-TOCTitle: Vues détaillées de la qualité de l’expérience (QoE, Quality of Experience) dans Lync Server 2013
+title: "Vues détaillées de la qualité de l’exp. (QoE) dans Lync Server 2013"
+TOCtitle: "Vues détaillées de la qualité de l’exp. (QoE) dans Lync Server 2013"
 ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688081(v=OCS.15)
 ms:contentKeyID: 49891382

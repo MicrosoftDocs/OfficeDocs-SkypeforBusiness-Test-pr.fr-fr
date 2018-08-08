@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion de l'archivage des communications internes et externes dans Lync Server 2013
-TOCTitle: Gestion de l'archivage des communications internes et externes dans Lync Server 2013
+title: "Gest. de l'arch. des comm. int. et ext. dans Lync Server 2013"
+TOCtitle: "Gest. de l'arch. des comm. int. et ext. dans Lync Server 2013"
 ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204977(v=OCS.15)
 ms:contentKeyID: 49297518

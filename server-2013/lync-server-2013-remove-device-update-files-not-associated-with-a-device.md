@@ -1,6 +1,6 @@
 ﻿---
-title: Supprimer les fichiers de mise à jour de périphériques qui ne sont pas plus associés à aucun périphérique
-TOCTitle: Supprimer les fichiers de mise à jour de périphériques qui ne sont pas plus associés à aucun périphérique
+title: "Supp. fichiers de màj de périph. plus associés à aucun périphérique"
+TOCtitle: "Supp. fichiers de màj de périph. plus associés à aucun périphérique"
 ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994084(v=OCS.15)
 ms:contentKeyID: 53095557

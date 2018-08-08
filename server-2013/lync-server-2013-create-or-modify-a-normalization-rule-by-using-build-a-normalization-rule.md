@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification d’une règle de normalisation avec la section Création d’une règle de normalisation'
+title: "LS 2013 : Créa. ou mod. d’une règle de norm. avec la section du même nom"
 TOCTitle: Création ou modification d’une règle de normalisation avec la section Création d’une règle de normalisation
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg399036(v=OCS.15)

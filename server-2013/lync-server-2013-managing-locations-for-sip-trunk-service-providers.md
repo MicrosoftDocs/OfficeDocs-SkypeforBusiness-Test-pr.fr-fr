@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion des emplacements pour les fournisseurs de service de jonction SIP'
+title: "Lync Server 2013 : Gest. des empl. pour les fourn. de service de jonction SIP"
 TOCTitle: Gestion des emplacements pour les fournisseurs de service de jonction SIP
 ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398959(v=OCS.15)

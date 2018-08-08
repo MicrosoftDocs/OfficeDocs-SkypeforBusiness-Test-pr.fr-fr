@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration des systèmes et de l’infrastructure pour l’archivage dans Lync Server 2013
-TOCTitle: Configuration des systèmes et de l’infrastructure pour l’archivage dans Lync Server 2013
+title: "Conf. des syst. et de l’infrastructure pour l’arch. dans Lync Server 2013"
+TOCtitle: "Conf. des syst. et de l’infrastructure pour l’arch. dans Lync Server 2013"
 ms:assetid: 34bc0414-bd20-436d-bfb8-e47a280d34ac
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204795(v=OCS.15)
 ms:contentKeyID: 49296830

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Planification des serveurs frontaux, de la messagerie instantanée et de la présence'
+title: "Lync Server 2013 : Plan. serveurs frontaux, mess. inst. et présence"
 TOCTitle: Planification des serveurs frontaux, de la messagerie instantanée et de la présence
 ms:assetid: 8db94c64-61af-4093-ac47-85932d0eae9f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398714(v=OCS.15)

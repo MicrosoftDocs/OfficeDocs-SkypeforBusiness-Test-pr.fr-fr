@@ -1,6 +1,6 @@
 ﻿---
-title: Installation d’un certificat sur un nœud observateur situé en dehors du réseau de périmètre
-TOCTitle: Installation d’un certificat sur un nœud observateur situé en dehors du réseau de périmètre
+title: "Install. d’un certif. sur un nœud observ. situé en dehors du réseau de périm."
+TOCtitle: "Install. d’un certif. sur un nœud observ. situé en dehors du réseau de périm."
 ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688113(v=OCS.15)
 ms:contentKeyID: 49891419

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la prise en charge pour les domaines externes bloqués'
+title: "Lync Server 2013 : Conf. prise en charge pour les domaines externes bloqués"
 TOCTitle: Configuration de la prise en charge pour les domaines externes bloqués
 ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ619176(v=OCS.15)

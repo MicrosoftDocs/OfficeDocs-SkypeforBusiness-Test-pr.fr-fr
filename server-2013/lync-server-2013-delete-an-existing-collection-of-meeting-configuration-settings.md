@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration de réunion
-TOCTitle: Suppression d’une collection existante de paramètres de configuration de réunion
+title: "Suppr. d’une collection existante de paramètres de configuration de réunion"
+TOCtitle: "Suppr. d’une collection existante de paramètres de configuration de réunion"
 ms:assetid: 92ff8a91-05c5-4047-a533-5dff12f22299
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688136(v=OCS.15)
 ms:contentKeyID: 49891446

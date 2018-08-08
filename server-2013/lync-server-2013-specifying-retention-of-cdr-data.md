@@ -1,6 +1,6 @@
 ﻿---
-title: Spécification de la rétention des données de l’enregistrement des détails des appels
-TOCTitle: Spécification de la rétention des données de l’enregistrement des détails des appels
+title: "Spécif. de la rétention des données de l’enregistrement des détails des appels"
+TOCtitle: "Spécif. de la rétention des données de l’enregistrement des détails des appels"
 ms:assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182581(v=OCS.15)
 ms:contentKeyID: 49298746

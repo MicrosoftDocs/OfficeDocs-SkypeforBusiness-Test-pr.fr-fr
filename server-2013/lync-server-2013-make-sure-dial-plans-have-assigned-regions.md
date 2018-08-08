@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Vérification de l’affectation des régions aux plans de numérotation'
+title: "Lync Server 2013 : Vérif. de l’affect. des régions aux plans de numérotation"
 TOCTitle: Vérification de l’affectation des régions aux plans de numérotation
 ms:assetid: 3da3a907-0dbf-4440-b12f-370f94dd4c17
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425903(v=OCS.15)

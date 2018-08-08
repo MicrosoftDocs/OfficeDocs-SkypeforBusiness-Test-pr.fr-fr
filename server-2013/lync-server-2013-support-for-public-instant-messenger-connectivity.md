@@ -1,6 +1,6 @@
 ﻿---
-title: Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013
-TOCTitle: Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013
+title: "Pr. en ch. de la connect. PIC (Public IM Connectivity) dans Lync Server 2013"
+TOCtitle: "Pr. en ch. de la connect. PIC (Public IM Connectivity) dans Lync Server 2013"
 ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn458579(v=OCS.15)
 ms:contentKeyID: 59602877

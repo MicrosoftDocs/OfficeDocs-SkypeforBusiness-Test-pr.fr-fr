@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Utilisation du générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence'
+title: "Lync Server 2013 : Ut. gén. de topo. pour conf. haute dispo. et la réc. d’urg."
 TOCTitle: Utilisation du générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205172(v=OCS.15)

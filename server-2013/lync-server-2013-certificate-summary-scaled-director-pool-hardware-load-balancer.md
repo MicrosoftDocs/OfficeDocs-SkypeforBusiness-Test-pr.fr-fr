@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des certificats - Pool directeur mis à l’échelle, équilibreur de charge matérielle'
+title: "Lync Server 2013 : Résumé des cert. - Pool dir. màé, équil. de ch. matérielle"
 TOCTitle: Résumé des certificats - Pool directeur mis à l’échelle, équilibreur de charge matérielle
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204846(v=OCS.15)

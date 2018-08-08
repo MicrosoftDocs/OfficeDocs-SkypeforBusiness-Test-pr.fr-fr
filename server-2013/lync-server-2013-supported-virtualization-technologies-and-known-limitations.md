@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Technologies de virtualisation prises en charge et limites connues'
+title: "Lync Server 2013 : Techn. de virtualis. prises en charge et limites connues"
 TOCTitle: Technologies de virtualisation prises en charge et limites connues
 ms:assetid: 6d3d749d-e840-4c05-afae-d6e69e7616aa
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204982(v=OCS.15)

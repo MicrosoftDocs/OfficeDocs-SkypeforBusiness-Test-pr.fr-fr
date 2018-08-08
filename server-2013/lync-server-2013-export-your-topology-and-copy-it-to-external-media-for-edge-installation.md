@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Exportation de la topologie Lync Server 2013 et copie vers le support externe de l’installation Edge'
+title: "LS 2013 : Exp. top. LS 2013 et copie vers le support ext. de l’install. Edge"
 TOCTitle: Exportation de la topologie et copie vers le support externe de l’installation Edge
 ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398983(v=OCS.15)

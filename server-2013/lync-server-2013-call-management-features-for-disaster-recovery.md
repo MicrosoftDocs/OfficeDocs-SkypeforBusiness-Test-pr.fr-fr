@@ -1,5 +1,5 @@
 ﻿---
-title: Fonctionnalités de gestion des appels pour la récupération d’urgence dans Lync Server 2013
+title: "Fonct. de gest. des appels pour la récup. d’urgence dans Lync Server 2013"
 TOCTitle: Fonctionnalités de gestion des appels pour la récupération d’urgence
 ms:assetid: effb75b4-499d-4414-a283-fffe165c26dd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721935(v=OCS.15)

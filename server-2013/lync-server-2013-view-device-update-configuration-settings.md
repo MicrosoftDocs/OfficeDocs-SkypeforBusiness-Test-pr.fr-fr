@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : affichage des paramètres de configuration de la mise à jour des dispositifs'
+title: "Lync Server 2013 : aff. des param. de conf. de la mise à jour des dispositifs"
 TOCTitle: Affichage des paramètres de configuration de la mise à jour des dispositifs
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994059(v=OCS.15)

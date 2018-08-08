@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Installation de la base de données de serveur Standard Edition'
+title: "Lync Server 2013 : Install. de la base de données de serveur Standard Edition"
 TOCTitle: Installation de la base de données de serveur Standard Edition
 ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398167(v=OCS.15)

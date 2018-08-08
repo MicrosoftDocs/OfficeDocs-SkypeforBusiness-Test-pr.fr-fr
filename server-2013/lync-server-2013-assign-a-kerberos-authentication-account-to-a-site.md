@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Attribution d’un compte d’authentification Kerberos sur un site'
+title: "Lync Server 2013 : Attribution d’un compte d’auth. Kerberos sur un site"
 TOCTitle: Attribution d’un compte d’authentification Kerberos sur un site
 ms:assetid: 3d9c587c-c8b8-4f81-8ed9-1458a31fc292
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425901(v=OCS.15)

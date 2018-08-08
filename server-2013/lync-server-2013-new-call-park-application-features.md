@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de l’application de parcage d’appel'
+title: "Lync Server 2013 : Nouvelles fonctionnalités de l’app. de parcage d’appel"
 TOCTitle: Nouvelles fonctionnalités de l’application de parcage d’appel
 ms:assetid: bddff13c-92cc-47fd-bfd4-6e8bfbfed11b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412927(v=OCS.15)

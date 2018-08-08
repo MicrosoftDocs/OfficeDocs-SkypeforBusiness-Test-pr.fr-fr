@@ -1,6 +1,6 @@
 ﻿---
-title: Créer un filtre d’URL pour gérer les liens hypertexte dans des conversations de messagerie instantanée
-TOCTitle: Créer un filtre d’URL pour gérer les liens hypertexte dans des conversations de messagerie instantanée
+title: "Créer un filtre URL pour gérer les liens hypert. dans des conv. de mess. Inst."
+TOCtitle: "Créer un filtre URL pour gérer les liens hypert. dans des conv. de mess. Inst."
 ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182590(v=OCS.15)
 ms:contentKeyID: 49298907

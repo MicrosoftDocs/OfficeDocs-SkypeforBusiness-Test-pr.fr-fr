@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : forum aux questions : approvisionnement de Lync Server pour la connectivité Skype'
+title: "Lync Server 2013 : FAQ : approv. de Lync Server pour la conn. Skype"
 TOCTitle: 'Forum aux questions : approvisionnement de Lync Server pour la connectivité Skype'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn440172(v=OCS.15)

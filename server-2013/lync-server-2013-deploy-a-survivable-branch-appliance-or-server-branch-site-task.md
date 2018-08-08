@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server sur un site de succursale - tâche de site de succursale'
+title: "LS 2013 : Dépl. d’un SBA ou SBS sur site de succ. - tâche de site de succ."
 TOCTitle: Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server sur un site de succursale - tâche de site de succursale
 ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398599(v=OCS.15)

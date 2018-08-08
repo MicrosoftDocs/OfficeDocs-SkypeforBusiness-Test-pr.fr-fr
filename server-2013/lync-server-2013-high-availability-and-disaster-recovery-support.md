@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Prise en charge de la haute disponibilité et de la récupération d’urgence'
+title: "Lync Server 2013 : Prise en ch. de la haute dispo. et de la récup. d’urgence"
 TOCTitle: Prise en charge de la haute disponibilité et de la récupération d’urgence
 ms:assetid: 47e77e85-c7c3-4ade-8db7-a34c71aeafd7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204866(v=OCS.15)

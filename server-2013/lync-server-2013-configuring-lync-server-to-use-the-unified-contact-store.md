@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié
-TOCTitle: Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié
+title: "Conf. de Microsoft Lync Server 2013 pour l’util. du magasin de contact unifié"
+TOCtitle: "Conf. de Microsoft Lync Server 2013 pour l’util. du magasin de contact unifié"
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688083(v=OCS.15)
 ms:contentKeyID: 49891385

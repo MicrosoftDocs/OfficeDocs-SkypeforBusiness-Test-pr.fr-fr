@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration requise de l’infrastructure pour les outils d’administration dans Lync Server 2013
-TOCTitle: Configuration requise de l’infrastructure pour les outils d’administration dans Lync Server 2013
+title: "Conf. req. de l’infr. pour les outils d’adm. dans Lync Server 2013"
+TOCtitle: "Conf. req. de l’infr. pour les outils d’adm. dans Lync Server 2013"
 ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg195766(v=OCS.15)
 ms:contentKeyID: 49298467

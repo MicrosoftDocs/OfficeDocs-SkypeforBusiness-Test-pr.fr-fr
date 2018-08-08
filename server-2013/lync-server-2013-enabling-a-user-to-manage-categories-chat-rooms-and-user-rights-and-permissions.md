@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Autorisation d’un utilisateur à gérer les catégories, les salles de conversation, les droits utilisateur et les autorisations'
+title: "LS 2013 : Aut. Ut. à gérer cat., salles de conversation, droits ut. et aut."
 TOCTitle: Autorisation d’un utilisateur à gérer les catégories, les salles de conversation, les droits utilisateur et les autorisations
 ms:assetid: 6c551be3-bc74-4d0e-9008-ddfabd86e940
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215876(v=OCS.15)

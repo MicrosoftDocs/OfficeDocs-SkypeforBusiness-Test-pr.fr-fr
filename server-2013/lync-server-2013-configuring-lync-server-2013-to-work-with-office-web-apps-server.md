@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de Lync Server 2013 pour le fonctionnement avec Office Web Apps Server
-TOCTitle: Configuration de Lync Server 2013 pour le fonctionnement avec Office Web Apps Server
+title: "Conf de Lync Server 2013 pour le fonctionnement avec Office Web Apps Server"
+TOCtitle: "Conf de Lync Server 2013 pour le fonctionnement avec Office Web Apps Server"
 ms:assetid: 6231e519-9010-4ff9-b5a6-b5859c2b3e11
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204944(v=OCS.15)
 ms:contentKeyID: 49297399

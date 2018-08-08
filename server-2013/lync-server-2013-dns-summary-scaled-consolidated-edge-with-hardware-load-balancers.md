@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle'
+title: "Lync Server 2013 : Rés. des enr. DNS - SE conso. màé avec des éq. de ch. Mat."
 TOCTitle: Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398670(v=OCS.15)

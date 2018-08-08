@@ -1,6 +1,6 @@
 ﻿---
-title: Planification de la fédération XMPP (Extensible Messaging and Presence Protocol) dans Lync Server 2013
-TOCTitle: Planification de la fédération XMPP (Extensible Messaging and Presence Protocol) dans Lync Server 2013
+title: "Plan. de féd. XMPP (Extensible Messaging and Presence Protocol) dans LS 2013"
+TOCtitle: "Plan. de féd. XMPP (Extensible Messaging and Presence Protocol) dans LS 2013"
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205107(v=OCS.15)
 ms:contentKeyID: 49298113

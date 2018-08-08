@@ -1,6 +1,6 @@
 ﻿---
-title: Activer la prise d’appel de groupe pour des utilisateurs et assigner un numéro de groupe
-TOCTitle: Activer la prise d’appel de groupe pour des utilisateurs et assigner un numéro de groupe
+title: "Activer la prise d’appel de gr. pour des ut. et assigner un numéro de groupe"
+TOCtitle: "Activer la prise d’appel de gr. pour des ut. et assigner un numéro de groupe"
 ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945650(v=OCS.15)
 ms:contentKeyID: 53095518

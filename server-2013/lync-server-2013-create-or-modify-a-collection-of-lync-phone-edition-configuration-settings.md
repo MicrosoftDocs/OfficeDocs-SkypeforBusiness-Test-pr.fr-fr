@@ -1,6 +1,6 @@
 ﻿---
-title: Création ou modification d’une collection de paramètres de configuration de Lync Phone Edition
-TOCTitle: Création ou modification d’une collection de paramètres de configuration de Lync Phone Edition
+title: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
+TOCtitle: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688086(v=OCS.15)
 ms:contentKeyID: 49891384

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition d’un mot de passe de compte d’authentification Kerberos sur un serveur'
+title: "Lync Server 2013 : Déf. d’un mdp de compte d’auth. Kerberos sur un serveur"
 TOCTitle: Définition d’un mot de passe de compte d’authentification Kerberos sur un serveur
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398734(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration d’une application partenaire locale pour Microsoft Lync Server 2013
-TOCTitle: Configuration d’une application partenaire locale pour Microsoft Lync Server 2013
+title: "Conf. d’une application partenaire locale pour Microsoft Lync Server 2013"
+TOCtitle: "Conf. d’une application partenaire locale pour Microsoft Lync Server 2013"
 ms:assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204975(v=OCS.15)
 ms:contentKeyID: 49297492

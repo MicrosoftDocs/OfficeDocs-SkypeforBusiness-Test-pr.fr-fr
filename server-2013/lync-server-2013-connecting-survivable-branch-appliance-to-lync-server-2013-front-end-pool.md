@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Connexion d’un Survivable Branch Appliance à un pool de serveurs frontaux'
+title: "Lync Server 2013 : Connexion d’un SBA à un pool de serveurs frontaux"
 TOCTitle: Connexion d’un Survivable Branch Appliance à un pool de serveurs frontaux Lync Server 2013
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688026(v=OCS.15)

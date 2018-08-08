@@ -1,6 +1,6 @@
 ﻿---
-title: Résumé des enregistrements DNS - Fédération SIP, fédération XMPP et messagerie instantanée publique
-TOCTitle: Résumé des enregistrements DNS - Fédération SIP, fédération XMPP et messagerie instantanée publique
+title: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
+TOCtitle: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ618369(v=OCS.15)
 ms:contentKeyID: 49296455

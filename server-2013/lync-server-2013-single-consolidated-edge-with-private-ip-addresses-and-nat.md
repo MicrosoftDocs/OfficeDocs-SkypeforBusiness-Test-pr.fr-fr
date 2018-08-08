@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Serveur Edge consolidé unique avec des adresses IP privées et la conversion d’adresses réseau'
+title: "Lync Server 2013 : Serveur Edge cons. unique ac ad. IP pri. et conv. ad. rés."
 TOCTitle: Serveur Edge consolidé unique avec des adresses IP privées et la conversion d’adresses réseau
 ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg399001(v=OCS.15)

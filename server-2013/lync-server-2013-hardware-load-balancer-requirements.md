@@ -1,5 +1,5 @@
 ﻿---
-title: Configuration requise pour l’équilibreur de charge matérielle pour Lync Server 2013
+title: "Conf. requise pour l’équilibreur de charge matérielle pour Lync Server 2013"
 TOCTitle: Configuration requise pour l’équilibreur de charge matérielle
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ656815(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server
-TOCTitle: Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server
+title: "Conf. des strat. pour l’arch. lors de l’ut. de l’intégration Exchange Server"
+TOCtitle: "Conf. des strat. pour l’arch. lors de l’ut. de l’intégration Exchange Server"
 ms:assetid: 8b9b2bad-a4b3-42e1-85a7-04022e9442ad
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205063(v=OCS.15)
 ms:contentKeyID: 49298013

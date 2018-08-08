@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration matérielle et logicielle requise pour les composants Edge'
+title: "Lync Server 2013 : Conf. matérielle et log. requise pour les composants Edge"
 TOCTitle: Configuration matérielle et logicielle requise pour les composants Edge
 ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412931(v=OCS.15)

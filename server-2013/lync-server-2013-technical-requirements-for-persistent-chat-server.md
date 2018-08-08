@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration technique requise pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Conf. tech. pour le serveur de conversation permanente"
 TOCTitle: Configuration technique requise pour le serveur de conversation permanente
 ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398495(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server'
+title: "Lync Server 2013 : Déf. d’un SBA ou d’un SBS"
 TOCTitle: Définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398280(v=OCS.15)

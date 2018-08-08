@@ -1,6 +1,6 @@
 ﻿---
-title: Configurer les paramètres globaux du contournement de média dans Lync Server 2013 pour utiliser les informations relatives aux sites et aux régions
-TOCTitle: Configurer les paramètres globaux du contournement de média dans Lync Server 2013 pour utiliser les informations relatives aux sites et aux régions
+title: "Conf. par. gl. du cont. média ds LS 2013 pr ut. inf. rel. aux sites et rég."
+TOCtitle: "Conf. par. gl. du cont. média ds LS 2013 pr ut. inf. rel. aux sites et rég."
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398150(v=OCS.15)
 ms:contentKeyID: 49296208

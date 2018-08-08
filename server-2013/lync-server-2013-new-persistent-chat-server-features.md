@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités du serveur de conversation permanente'
+title: "Lync Server 2013 : Nlles fonctionnalités du serveur de conversation permanente"
 TOCTitle: Nouvelles fonctionnalités du serveur de conversation permanente
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412965(v=OCS.15)

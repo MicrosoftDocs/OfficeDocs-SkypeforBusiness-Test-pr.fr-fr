@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration d’un nœud observateur pour l’utilisation de l’authentification des informations d’identification
-TOCTitle: Configuration d’un nœud observateur pour l’utilisation de l’authentification des informations d’identification
+title: "Conf. d’un nœud obs. pour l’util. de l’auth. des info. d’identification"
+TOCtitle: "Conf. d’un nœud obs. pour l’util. de l’auth. des info. d’identification"
 ms:assetid: 032e33f3-9483-42e6-a33c-347eb6779597
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204632(v=OCS.15)
 ms:contentKeyID: 49296087

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation d’une stratégie de serveur de conversation permanente'
+title: "Lync Server 2013 : Act. d’une stratégie de serveur de conversation permanente"
 TOCTitle: Activation d’une stratégie de serveur de conversation permanente
 ms:assetid: 87063d6c-2e38-4970-b76d-2aa15f0de29e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205056(v=OCS.15)

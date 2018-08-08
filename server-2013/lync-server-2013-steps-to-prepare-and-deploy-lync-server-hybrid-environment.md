@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Procédure de préparation et de déploiement d’un environnement hybride Lync Server'
+title: "Lync Server 2013 : Proc. de prép. et de dépl. d’un env. hybride Lync Server"
 TOCTitle: Procédure de préparation et de déploiement d’un environnement hybride Lync Server 2013
 ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205157(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la prise en charge de l’accès des utilisateurs externes'
+title: "Lync Server 2013 : Conf. de la prise en ch. de l’accès des ut. externes"
 TOCTitle: Configuration de la prise en charge de l’accès des utilisateurs externes
 ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413051(v=OCS.15)

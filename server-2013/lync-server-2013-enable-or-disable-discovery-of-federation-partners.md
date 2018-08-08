@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation ou désactivation de la découverte de partenaires de fédération'
+title: "Lync Server 2013 : Act. ou dés. de la découverte de partenaires de fédération"
 TOCTitle: Activation ou désactivation de la découverte de partenaires de fédération
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182550(v=OCS.15)

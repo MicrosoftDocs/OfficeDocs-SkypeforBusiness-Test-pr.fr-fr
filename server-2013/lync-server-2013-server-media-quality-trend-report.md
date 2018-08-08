@@ -1,6 +1,6 @@
 ﻿---
-title: Rapport de tendance générale de la qualité des médias serveur dans Lync Server 2013
-TOCTitle: Rapport de tendance générale de la qualité des médias serveur dans Lync Server 2013
+title: "Rapport de tend. gén. de la qualité des médias serveur dans Lync Server 2013"
+TOCtitle: "Rapport de tend. gén. de la qualité des médias serveur dans Lync Server 2013"
 ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205071(v=OCS.15)
 ms:contentKeyID: 49297988

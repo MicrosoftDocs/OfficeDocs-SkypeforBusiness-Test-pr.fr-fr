@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Préparation de l’installation des serveurs sur le réseau de périmètre'
+title: "Lync Server 2013 : Prép. de l’install. des serveurs sur le réseau de périmètre"
 TOCTitle: Préparation de l’installation des serveurs sur le réseau de périmètre
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398416(v=OCS.15)

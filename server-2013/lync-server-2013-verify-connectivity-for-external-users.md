@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Vérification de la connectivité pour les utilisateurs externes'
+title: "Lync Server 2013 : Vérif. de la connectivité pour les utilisateurs externes"
 TOCTitle: Vérification de la connectivité pour les utilisateurs externes
 ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398402(v=OCS.15)

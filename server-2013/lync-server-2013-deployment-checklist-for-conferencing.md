@@ -1,5 +1,5 @@
 ﻿---
-title: Liste de vérification du déploiement pour les conférences dans Lync Server 2013
+title: "Liste de vérif. du déploiement pour les conférences dans Lync Server 2013"
 TOCTitle: Liste de vérification du déploiement pour les conférences
 ms:assetid: ee0ee939-6b78-4371-b39d-d09a27375601
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205362(v=OCS.15)

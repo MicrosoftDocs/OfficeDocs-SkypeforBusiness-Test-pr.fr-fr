@@ -1,6 +1,6 @@
 ﻿---
-title: Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013
-TOCTitle: Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013
+title: "Aff. des info. sur les comptes d’utilisateurs activés pour Lync Server 2013"
+TOCtitle: "Aff. des info. sur les comptes d’utilisateurs activés pour Lync Server 2013"
 ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687980(v=OCS.15)
 ms:contentKeyID: 49891247

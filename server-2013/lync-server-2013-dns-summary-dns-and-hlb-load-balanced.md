@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des enregistrements DNS - Équilibrage de charge DNS et matérielle'
+title: "Lync Server 2013 : Résumé des enr. DNS - Éq. de ch. DNS et matérielle"
 TOCTitle: Résumé des enregistrements DNS - Équilibrage de charge DNS et matérielle
 ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205273(v=OCS.15)

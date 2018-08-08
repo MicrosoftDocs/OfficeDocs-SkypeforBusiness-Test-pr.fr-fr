@@ -1,6 +1,6 @@
 ﻿---
-title: Affichage des informations sur les jonctions SIP individuelles dans Lync Server 2013
-TOCTitle: Affichage des informations sur les jonctions SIP individuelles dans Lync Server 2013
+title: "Aff. des inf. sur les jonctions SIP individuelles dans Lync Server 2013"
+TOCtitle: "Aff. des inf. sur les jonctions SIP individuelles dans Lync Server 2013"
 ms:assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721847(v=OCS.15)
 ms:contentKeyID: 49891489

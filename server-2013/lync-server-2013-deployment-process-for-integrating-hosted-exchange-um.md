@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée'
+title: "Lync Server 2013 : Pro. de dépl. pour l’int. de la mess. Un. Exchange hébergée"
 TOCTitle: Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée à Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398968(v=OCS.15)

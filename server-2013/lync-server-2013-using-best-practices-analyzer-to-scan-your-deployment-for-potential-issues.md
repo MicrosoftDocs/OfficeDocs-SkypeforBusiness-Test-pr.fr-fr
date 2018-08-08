@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation de Best Practices Analyzer pour rechercher les problèmes éventuels dans votre déploiement
-TOCTitle: Utilisation de Best Practices Analyzer pour rechercher les problèmes éventuels dans votre déploiement
+title: "Ut. de Best Practices Analyzer pour rech. les pb éventuels ds votre déploiem."
+TOCtitle: "Ut. de Best Practices Analyzer pour rech. les pb éventuels ds votre déploiem."
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg591343(v=OCS.15)
 ms:contentKeyID: 49296192

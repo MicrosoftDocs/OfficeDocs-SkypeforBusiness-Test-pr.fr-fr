@@ -1,6 +1,6 @@
 ﻿---
-title: Restauration d’un serveur principal Enterprise Edition en miroir - Base de données primaire
-TOCTitle: Restauration d’un serveur principal Enterprise Edition en miroir - Base de données primaire
+title: "Rest. d’un serv. Princ. Enterprise Edition en miroir - Base de données prim."
+TOCtitle: "Rest. d’un serv. Princ. Enterprise Edition en miroir - Base de données prim."
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945648(v=OCS.15)
 ms:contentKeyID: 53095513

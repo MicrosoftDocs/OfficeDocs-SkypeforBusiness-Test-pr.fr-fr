@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion des options de configuration de l’archivage dans Lync Server 2013 pour votre organisation, vos sites et vos pools
-TOCTitle: Gestion des options de configuration de l’archivage dans Lync Server 2013 pour votre organisation, vos sites et vos pools
+title: "Gest. des opt. de conf. de l’arch. ds LS 2013 pr vos org., sites et pools"
+TOCtitle: "Gest. des opt. de conf. de l’arch. ds LS 2013 pr vos org., sites et pools"
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204802(v=OCS.15)
 ms:contentKeyID: 49296871

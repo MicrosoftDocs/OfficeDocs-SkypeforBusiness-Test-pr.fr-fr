@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation des packs d’administration de Lync Server 2010 dans un scénario de coexistence
-TOCTitle: Utilisation des packs d’administration de Lync Server 2010 dans un scénario de coexistence
+title: "Ut. des packs d’admin. de Lync Server 2010 dans un scénario de coexistence"
+TOCtitle: "Ut. des packs d’admin. de Lync Server 2010 dans un scénario de coexistence"
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205078(v=OCS.15)
 ms:contentKeyID: 49297996

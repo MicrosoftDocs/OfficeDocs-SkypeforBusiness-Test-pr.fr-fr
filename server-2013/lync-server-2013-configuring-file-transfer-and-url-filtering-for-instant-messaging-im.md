@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration du transfert de fichiers et du filtrage des URL pour la messagerie instantanée dans Lync Server 2013
-TOCTitle: Configuration du transfert de fichiers et du filtrage des URL pour la messagerie instantanée dans Lync Server 2013
+title: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
+TOCtitle: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520952(v=OCS.15)
 ms:contentKeyID: 49296294

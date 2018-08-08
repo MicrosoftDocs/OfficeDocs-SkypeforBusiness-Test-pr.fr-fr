@@ -1,6 +1,6 @@
 ﻿---
-title: Applications approuvées (Application/Ordinateur/Point de terminaison/Pool) dans Lync Server 2013
-TOCTitle: Applications approuvées (Application/Ordinateur/Point de terminaison/Pool) dans Lync Server 2013
+title: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
+TOCtitle: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688073(v=OCS.15)
 ms:contentKeyID: 49891370

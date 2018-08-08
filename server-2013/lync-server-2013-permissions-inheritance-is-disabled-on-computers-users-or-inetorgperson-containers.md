@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Désactivation de l’héritage des autorisations sur les conteneurs des objets Ordinateur, Utilisateur ou InetOrgPerson'
+title: "LS 2013 : Dés. hérit. aut. sur cont. des obj. Ordi., Util. ou InetOrgPerson"
 TOCTitle: Désactivation de l’héritage des autorisations sur les conteneurs des objets Ordinateur, Utilisateur ou InetOrgPerson
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412970(v=OCS.15)

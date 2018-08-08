@@ -1,6 +1,6 @@
 ﻿---
-title: Modification d’une stratégie d’archivage pour activer ou désactiver l’archivage des communications internes ou externes pour votre organisation, vos sites ou vos utilisateurs
-TOCTitle: Modification d’une stratégie d’archivage pour activer ou désactiver l’archivage des communications internes ou externes pour votre organisation, vos sites ou vos utilisateurs
+title: "Mod. strat. arch. pr ac./dés. arch. des com. int./ext. pr vos org., sites, ut."
+TOCtitle: "Mod. strat. arch. pr ac./dés. arch. des com. int./ext. pr vos org., sites, ut."
 ms:assetid: b85dc3fb-8ebd-4e3c-ac90-fc79270ac867
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182576(v=OCS.15)
 ms:contentKeyID: 49298646

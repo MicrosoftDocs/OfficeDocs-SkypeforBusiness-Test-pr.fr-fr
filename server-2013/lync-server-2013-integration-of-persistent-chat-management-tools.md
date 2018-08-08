@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Intégration des outils de gestion de conversation permanente'
+title: "Lync Server 2013 : Intégration des outils de gestion de conversation perm."
 TOCTitle: Intégration des outils de gestion de conversation permanente
 ms:assetid: 5231aec7-5046-4052-800b-3b63806b9558
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688057(v=OCS.15)

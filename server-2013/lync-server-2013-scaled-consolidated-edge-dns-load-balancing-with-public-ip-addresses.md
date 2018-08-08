@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec des adresses IP publiques'
+title: "Lync Server 2013 : SE consol. màé, éq. de ch. DNS avec des ad. IP pub."
 TOCTitle: Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec des adresses IP publiques
 ms:assetid: 2b854f6d-3d3f-4961-a5f8-a03f47740df0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204761(v=OCS.15)

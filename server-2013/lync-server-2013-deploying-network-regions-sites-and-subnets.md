@@ -1,6 +1,6 @@
 ﻿---
-title: Déploiement des régions réseau, sites réseau et sous-réseaux dans Lync Server 2013
-TOCTitle: Déploiement des régions réseau, sites réseau et sous-réseaux dans Lync Server 2013
+title: "Dépl. des régions réseau, sites réseau et sous-réseaux dans Lync Server 2013"
+TOCtitle: "Dépl. des régions réseau, sites réseau et sous-réseaux dans Lync Server 2013"
 ms:assetid: c4b75601-3538-4d07-8d23-1ad90459ae48
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994067(v=OCS.15)
 ms:contentKeyID: 53095526

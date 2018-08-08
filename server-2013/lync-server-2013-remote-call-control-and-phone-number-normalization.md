@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Contrôle d’appel distant et normalisation des numéros de téléphone'
+title: "Lync Server 2013 : Contr. d’appel distant et normal. des numéros de téléphone"
 TOCTitle: Contrôle d’appel distant et normalisation des numéros de téléphone
 ms:assetid: 291d9e87-4c65-4ea2-888f-517741391de5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558630(v=OCS.15)

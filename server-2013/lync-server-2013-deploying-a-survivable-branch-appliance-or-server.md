@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server'
+title: "Lync Server 2013 : Dépl. d’un Surv. Branch Appl. ou d’un Surv. Branch Serv."
 TOCTitle: Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server
 ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398849(v=OCS.15)

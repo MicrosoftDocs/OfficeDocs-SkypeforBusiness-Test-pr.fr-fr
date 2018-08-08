@@ -1,6 +1,6 @@
 ﻿---
-title: Exécuter les cas de test du routage des communications vocales dans Lync Server 2013
-TOCTitle: Exécuter les cas de test du routage des communications vocales dans Lync Server 2013
+title: "Exéc. les cas de test du routage des comm. voc. dans Lync Server 2013"
+TOCtitle: "Exéc. les cas de test du routage des comm. voc. dans Lync Server 2013"
 ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413068(v=OCS.15)
 ms:contentKeyID: 49299434

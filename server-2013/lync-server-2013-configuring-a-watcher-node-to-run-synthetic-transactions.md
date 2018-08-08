@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration d’un nœud observateur pour l’exécution des transactions synthétiques
-TOCTitle: Configuration d’un nœud observateur pour l’exécution des transactions synthétiques
+title: "Conf. d’un nœud obs. pour l’exécution des transactions synthétiques"
+TOCtitle: "Conf. d’un nœud obs. pour l’exécution des transactions synthétiques"
 ms:assetid: cedda508-8881-4079-88d5-49798f342ddf
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205314(v=OCS.15)
 ms:contentKeyID: 49298872

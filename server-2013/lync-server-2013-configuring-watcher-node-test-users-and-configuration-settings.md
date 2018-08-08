@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration des utilisateurs de test d’un nœud observateur et paramètres de configuration
-TOCTitle: Configuration des utilisateurs de test d’un nœud observateur et paramètres de configuration
+title: "Conf. des ut. de test d’un nœud observateur et paramètres de configuration"
+TOCtitle: "Conf. des ut. de test d’un nœud observateur et paramètres de configuration"
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205152(v=OCS.15)
 ms:contentKeyID: 49298484

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Conception des flux d’appels du système de réponse vocale interactive'
+title: "Lync Server 2013 : Conc. des flux d’appels du syst. de rép. vocale interactive"
 TOCTitle: Conception des flux d’appels du système de réponse vocale interactive
 ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413020(v=OCS.15)

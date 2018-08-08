@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : protection des données en transit : bases de données de serveur d’archivage, de surveillance, de conformité de conversation de groupe'
+title: "LS 2013 : prot. données en transit : BD serv. arch., surv., conf. conv. de gr."
 TOCTitle: 'Protection des données en transit : bases de données de serveur d’archivage, de surveillance, de conformité de conversation de groupe dans Lync Server 2013'
 ms:assetid: ea219705-1015-43a7-890b-e7e67b451e7c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn518336(v=OCS.15)

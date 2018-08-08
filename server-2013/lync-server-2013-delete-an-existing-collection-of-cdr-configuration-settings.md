@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration de l’enregistrement des détails des appels
-TOCTitle: Suppression d’une collection existante de paramètres de configuration de l’enregistrement des détails des appels
+title: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
+TOCtitle: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
 ms:assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688128(v=OCS.15)
 ms:contentKeyID: 49891440

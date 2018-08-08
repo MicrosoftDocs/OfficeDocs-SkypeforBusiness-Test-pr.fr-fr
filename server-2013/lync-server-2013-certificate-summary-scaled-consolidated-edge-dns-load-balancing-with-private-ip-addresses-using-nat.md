@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau'
+title: "LS 2013 : Rés. cert. - SE cons. màé, éq. ch. DNS avec ad. IP pr., conv. ad. rés."
 TOCTitle: Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau
 ms:assetid: 41677dbd-3d07-498a-8591-df255b606647
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425921(v=OCS.15)

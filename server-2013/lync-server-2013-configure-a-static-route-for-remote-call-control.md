@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’un itinéraire statique pour le contrôle d’appel distant'
+title: "Lync Server 2013 : Conf. d’un itin. statique pour le contr. d’appel distant"
 TOCTitle: Configuration d’un itinéraire statique pour le contrôle d’appel distant
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615051(v=OCS.15)

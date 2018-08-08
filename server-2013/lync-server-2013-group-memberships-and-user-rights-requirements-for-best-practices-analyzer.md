@@ -1,6 +1,6 @@
 ﻿---
-title: Appartenances à des groupes et configuration requise des droits d’utilisateur pour Best Practices Analyzer
-TOCTitle: Appartenances à des groupes et configuration requise des droits d’utilisateur pour Best Practices Analyzer
+title: "Appart. à des gr. et conf. req. des droits d'ut. pour Best Practices Analyzer"
+TOCtitle: "Appart. à des gr. et conf. req. des droits d'ut. pour Best Practices Analyzer"
 ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg591354(v=OCS.15)
 ms:contentKeyID: 49299400

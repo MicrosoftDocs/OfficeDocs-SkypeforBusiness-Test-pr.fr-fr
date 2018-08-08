@@ -1,6 +1,6 @@
 ﻿---
-title: Exécuter des tests informels de routage des communications vocales dans Lync Server 2013
-TOCTitle: Exécuter des tests informels de routage des communications vocales dans Lync Server 2013
+title: "Exécuter des tests informels de routage des comm. Voc. dans Lync Server 2013"
+TOCtitle: "Exécuter des tests informels de routage des comm. Voc. dans Lync Server 2013"
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg399049(v=OCS.15)
 ms:contentKeyID: 49299249

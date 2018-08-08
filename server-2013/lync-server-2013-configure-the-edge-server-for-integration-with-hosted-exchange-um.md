@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration du serveur Edge pour l’intégration à la messagerie unifiée Exchange hébergée'
+title: "Lync Server 2013 : Conf. serv. Edge pour l’int. à la mes. Unif. Exchange héb."
 TOCTitle: Configuration du serveur Edge pour l’intégration à la messagerie unifiée Exchange hébergée
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg399075(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server'
+title: "Lync Server 2013 : Héb. des ut. sur un SBA ou un SBS"
 TOCTitle: Hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413066(v=OCS.15)

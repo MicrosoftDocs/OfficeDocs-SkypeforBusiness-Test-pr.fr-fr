@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration d’une autorité de certification d’entreprise pour l’authentification par carte à puce
-TOCTitle: Configuration d’une autorité de certification d’entreprise pour l’authentification par carte à puce
+title: "Conf. d’une autorité de cert. d’entreprise pour l’auth. par carte à puce"
+TOCtitle: "Conf. d’une autorité de cert. d’entreprise pour l’auth. par carte à puce"
 ms:assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn308571(v=OCS.15)
 ms:contentKeyID: 56269649

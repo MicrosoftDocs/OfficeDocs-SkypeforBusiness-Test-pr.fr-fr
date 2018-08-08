@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Publication d’Office Web Apps Server avec un serveur proxy inverse'
+title: "Lync Server 2013 : Publi. d’Office Web Apps Server avec un serv. proxy inverse"
 TOCTitle: Publication d’Office Web Apps Server avec un serveur proxy inverse
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204665(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Installation des fichiers Lync Server 2013 principaux et de la base de données RTCLocal
-TOCTitle: Installation des fichiers Lync Server 2013 principaux et de la base de données RTCLocal
+title: "Inst. des fich. Lync Server 2013 princ. et de la base de données RTCLocal"
+TOCtitle: "Inst. des fich. Lync Server 2013 princ. et de la base de données RTCLocal"
 ms:assetid: 206f0c1d-40f7-45b6-aa62-88aaef6cf7f6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204734(v=OCS.15)
 ms:contentKeyID: 49296487

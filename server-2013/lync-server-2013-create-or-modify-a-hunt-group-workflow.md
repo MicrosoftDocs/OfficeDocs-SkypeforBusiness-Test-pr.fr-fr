@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification d’un flux de travail de groupe de recherche'
+title: "Lync Server 2013 : Créa. ou mod. d’un flux de travail de groupe de recherche"
 TOCTitle: Création ou modification d’un flux de travail de groupe de recherche
 ms:assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205321(v=OCS.15)

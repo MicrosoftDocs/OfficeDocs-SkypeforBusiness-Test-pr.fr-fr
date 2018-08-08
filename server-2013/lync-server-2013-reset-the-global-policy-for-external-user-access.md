@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Réinitialisation de la stratégie globale pour l’accès des utilisateurs externes'
+title: "Lync Server 2013 : Réinit. de la strat. glob. pour l’accès des ut. externes"
 TOCTitle: Réinitialisation de la stratégie globale pour l’accès des utilisateurs externes
 ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182545(v=OCS.15)

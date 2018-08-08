@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de l’ordinateur Lync Server pour la participation à la découverte de System Center
-TOCTitle: Configuration de l’ordinateur Lync Server pour la participation à la découverte de System Center
+title: "Conf. de l’ordinateur Lync Server pour la particip. à la déc. de System Center"
+TOCtitle: "Conf. de l’ordinateur Lync Server pour la particip. à la déc. de System Center"
 ms:assetid: 2f9c9cb0-3120-4571-9cd2-657c2123fe21
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204776(v=OCS.15)
 ms:contentKeyID: 49296756

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des certificats - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau'
+title: "LS 2013 : Résumé des cert. - SE un. cons. avec ad. IP pr. avec conv. ad. Rés."
 TOCTitle: Résumé des certificats - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398519(v=OCS.15)

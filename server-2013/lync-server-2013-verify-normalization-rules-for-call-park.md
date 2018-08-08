@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Vérification des règles de normalisation pour le parcage d’appel'
+title: "Lync Server 2013 : Vérif. des règles de normalisation pour le parcage d’appel"
 TOCTitle: Vérification des règles de normalisation pour le parcage d’appel
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398981(v=OCS.15)

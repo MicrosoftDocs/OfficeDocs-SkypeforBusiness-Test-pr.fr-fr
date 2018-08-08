@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion du service Enhanced 9-1-1 et du service d’emplacement'
+title: "Lync Server 2013 : Gest. du service Enhanced 9-1-1 et du service d’emplacement"
 TOCTitle: Gestion du service Enhanced 9-1-1 et du service d’emplacement
 ms:assetid: 307c5aeb-9917-46a2-a95d-de30dea27beb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688012(v=OCS.15)

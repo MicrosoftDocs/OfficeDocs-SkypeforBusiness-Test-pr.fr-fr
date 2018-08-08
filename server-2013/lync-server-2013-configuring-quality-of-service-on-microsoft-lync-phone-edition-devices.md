@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de la qualité de service sur les appareils Microsoft Lync Phone Edition
-TOCTitle: Configuration de la qualité de service sur les appareils Microsoft Lync Phone Edition
+title: "Conf. de la qual. de service sur les appareils Microsoft Lync Phone Edition"
+TOCtitle: "Conf. de la qual. de service sur les appareils Microsoft Lync Phone Edition"
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205137(v=OCS.15)
 ms:contentKeyID: 49298452

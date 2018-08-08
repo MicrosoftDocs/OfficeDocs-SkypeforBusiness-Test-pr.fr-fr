@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence'
+title: "LS 2013 : Conf. req. pour serveurs front., mess. inst. et présence"
 TOCTitle: Configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence
 ms:assetid: 1e2c093a-614a-4b60-8c0c-98f97e859fcb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398269(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau'
+title: "LS 2013 : Rés. des enr. DNS - SE un. cons. avec ad. IP pri., conv. d’ad. rés."
 TOCTitle: Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412787(v=OCS.15)

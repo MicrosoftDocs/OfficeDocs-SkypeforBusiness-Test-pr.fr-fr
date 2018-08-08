@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition de la configuration requise pour le contrôle d’admission des appelst'
+title: "Lync Server 2013 : Déf. de la conf. req. pr le contrôle d’admission des appels"
 TOCTitle: Définition de la configuration requise de l’organisation pour le contrôle d’admission des appels
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398334(v=OCS.15)

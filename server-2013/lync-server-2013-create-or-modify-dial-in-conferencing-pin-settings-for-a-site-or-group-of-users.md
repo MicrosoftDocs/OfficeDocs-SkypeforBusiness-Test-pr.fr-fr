@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification des paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs'
+title: "LS 2013 : Créa., mod. par. de code confi. des conf. rdv pr site ou gr. ut."
 TOCTitle: Création ou modification des paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412959(v=OCS.15)

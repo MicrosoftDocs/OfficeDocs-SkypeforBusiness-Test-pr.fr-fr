@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des ports - Pool directeur mis à l’échelle, équilibreur de charge matérielle'
+title: "Lync Server 2013 : Résumé des ports - Pool dir. màé, équil. de ch. matérielle"
 TOCTitle: Résumé des ports - Pool directeur mis à l’échelle, équilibreur de charge matérielle
 ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204983(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Planification du routage des communications vocales sortantes'
+title: "Lync Server 2013 : Planification du routage des communications voc. sortantes"
 TOCTitle: Planification du routage des communications vocales sortantes
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425853(v=OCS.15)

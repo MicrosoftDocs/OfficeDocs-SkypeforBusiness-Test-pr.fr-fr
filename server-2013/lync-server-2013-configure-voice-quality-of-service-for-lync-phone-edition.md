@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de la qualité de service des communications vocales pour Lync Phone Edition
-TOCTitle: Configuration de la qualité de service des communications vocales pour Lync Phone Edition
+title: "Conf.n de la qual. de service des comm. vocales pour Lync Phone Edition"
+TOCtitle: "Conf.n de la qual. de service des comm. vocales pour Lync Phone Edition"
 ms:assetid: 2fbe19f7-7ebf-4f9b-a779-3a91f41d488f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520971(v=OCS.15)
 ms:contentKeyID: 49296761

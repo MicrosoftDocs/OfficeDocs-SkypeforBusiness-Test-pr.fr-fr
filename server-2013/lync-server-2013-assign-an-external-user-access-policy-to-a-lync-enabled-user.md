@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync'
+title: "Lync Server 2013 : Attri. strat. d’accès des util. ext. à util. activé pr Lync"
 TOCTitle: Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398551(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration des plages de ports pour vos serveurs de conférence, d’applications et de médiation
-TOCTitle: Configuration des plages de ports pour vos serveurs de conférence, d’applications et de médiation
+title: "Conf. des plages de ports pour vos serv. de confér., d’app. et de médiation"
+TOCtitle: "Conf. des plages de ports pour vos serv. de confér., d’app. et de médiation"
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 49297160

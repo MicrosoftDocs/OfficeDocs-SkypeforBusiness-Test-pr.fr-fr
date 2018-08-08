@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs distants'
+title: "Lync Server 2013 : Conf. des strat. de contrôle d’accès des ut. distants"
 TOCTitle: Configuration des stratégies de contrôle d’accès des utilisateurs distants
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398725(v=OCS.15)

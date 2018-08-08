@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Réactivation du serveur après la fermeture des ports par l’Assistant Configuration de la sécurité dans les services Internet (IIS)'
+title: "LS 2013 : Serv. réact. ap. ferm. ports par Ass. Conf. de sécu. dans serv. int."
 TOCTitle: Réactivation du serveur après la fermeture des ports par l’Assistant Configuration de la sécurité dans les services Internet (IIS)
 ms:assetid: cb8e17cf-f8c1-4099-b63b-c242d656c26a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398851(v=OCS.15)

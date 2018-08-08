@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Vérification ou configuration de l’authentification et de la certification dans les répertoires virtuels des services Internet (IIS)'
+title: "LS 2013 : Vér./conf. auth. et certif. dans les rép. virt. des serv. Int. (IIS)"
 TOCTitle: Vérification ou configuration de l’authentification et de la certification dans les répertoires virtuels des services Internet (IIS)
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429702(v=OCS.15)

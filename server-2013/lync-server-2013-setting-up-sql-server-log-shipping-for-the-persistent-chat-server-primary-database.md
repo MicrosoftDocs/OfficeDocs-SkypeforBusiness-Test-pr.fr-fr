@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente'
+title: "LS 2013 : Conf. copie journ. trans. SQL Server pr BD prin. du serv. conv. p."
 TOCTitle: Configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204653(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation ou désactivation de l’envoi d’une notification d’exclusion relative à l’archivage aux partenaires fédérés'
+title: "LS 2013 : Act. ou dés. envoi notif. d’excl. rel. à l’arch. aux parten. féd."
 TOCTitle: Activation ou désactivation de l’envoi d’une notification d’exclusion relative à l’archivage aux partenaires fédérés
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182584(v=OCS.15)

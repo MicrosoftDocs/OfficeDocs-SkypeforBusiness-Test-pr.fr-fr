@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des noms de domaine complets d’une batterie de serveurs web'
+title: "Lync Server 2013 : Conf. des noms de dom. complets d’une batterie de serv. web"
 TOCTitle: Configuration des noms de domaine complets d’une batterie de serveurs web
 ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429722(v=OCS.15)

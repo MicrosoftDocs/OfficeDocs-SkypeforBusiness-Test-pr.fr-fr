@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde'
+title: "LS 2013 : Gest. de la réc. d’urg., de la haute dispo. et du serv. de sauv."
 TOCTitle: Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721939(v=OCS.15)

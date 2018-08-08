@@ -1,6 +1,6 @@
 ﻿---
-title: Création d’une configuration d’archivage pour gérer l’archivage pour des sites ou des pools spécifiques
-TOCTitle: Création d’une configuration d’archivage pour gérer l’archivage pour des sites ou des pools spécifiques
+title: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
+TOCtitle: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205251(v=OCS.15)
 ms:contentKeyID: 49298773

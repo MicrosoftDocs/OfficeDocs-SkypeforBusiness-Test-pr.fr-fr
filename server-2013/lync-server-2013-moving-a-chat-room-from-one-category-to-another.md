@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déplacement d’une salle de conversation d’une catégorie vers une autre'
+title: "Lync Server 2013 : Déplacement d’une salle de conv. d’une cat. vers une autre"
 TOCTitle: Déplacement d’une salle de conversation d’une catégorie vers une autre
 ms:assetid: 7e93b8f6-5a18-4476-a432-3918e01bcfa6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215877(v=OCS.15)

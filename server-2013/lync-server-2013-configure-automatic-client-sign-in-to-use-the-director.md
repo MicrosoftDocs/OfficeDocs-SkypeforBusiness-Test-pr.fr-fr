@@ -1,5 +1,5 @@
 ﻿---
-title: >
+title: "Lync Server 2013 : Conf. connexion auto. du client pour utiliser le directeur"
   Lync Server 2013 : Configuration de la connexion automatique du client pour utiliser le directeur
 TOCTitle: Configuration de la connexion automatique du client pour utiliser le directeur
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff

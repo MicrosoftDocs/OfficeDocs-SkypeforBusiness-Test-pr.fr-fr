@@ -1,6 +1,6 @@
 ﻿---
-title: Attribuer une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013
-TOCTitle: Attribuer une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013
+title: "Attr. une strat. de mess. voc. hébergée par utilisateur dans Lync Server 2013"
+TOCtitle: "Attr. une strat. de mess. voc. hébergée par utilisateur dans Lync Server 2013"
 ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398919(v=OCS.15)
 ms:contentKeyID: 49298958

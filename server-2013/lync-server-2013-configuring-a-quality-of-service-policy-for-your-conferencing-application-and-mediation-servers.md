@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’une stratégie de qualité de service pour les serveurs de conférence, d’application et de médiation'
+title: "LS 2013 : Conf. strat. de qual. de service pr serv. de conf, d’app. et de méd."
 TOCTitle: Configuration d’une stratégie de qualité de service pour les serveurs de conférence, d’application et de médiation
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205076(v=OCS.15)

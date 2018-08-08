@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Surveillance, démarrage et arrêt des services de conversation permanente'
+title: "Lync Server 2013 : Surv., démarrage et arrêt des services de conv. permanente"
 TOCTitle: Surveillance, démarrage et arrêt des services de conversation permanente
 ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398105(v=OCS.15)

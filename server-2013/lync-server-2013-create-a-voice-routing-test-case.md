@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création d’un cas de test de routage des communications vocales'
+title: "Lync Server 2013 : Créa. d’un cas de test de routage des comm. vocales"
 TOCTitle: Création d’un cas de test de routage des communications vocales
 ms:assetid: 43a07a5b-2f20-462a-81e5-d628c18391e0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425935(v=OCS.15)

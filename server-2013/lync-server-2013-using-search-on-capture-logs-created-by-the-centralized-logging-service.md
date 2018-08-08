@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation de la recherche sur les journaux de capture créés par le service de journalisation centralisée
-TOCTitle: Utilisation de la recherche sur les journaux de capture créés par le service de journalisation centralisée
+title: "Ut. Rech. sur les journaux de capture créés par le service de journ. centr."
+TOCtitle: "Ut. Rech. sur les journaux de capture créés par le service de journ. centr."
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687982(v=OCS.15)
 ms:contentKeyID: 49891251
