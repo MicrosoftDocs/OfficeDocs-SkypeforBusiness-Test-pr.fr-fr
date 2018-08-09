@@ -1,5 +1,5 @@
 ﻿---
-title: Temps de récupération nécessaire pour basculer et restaurer les pools dans Lync Server 2013
+title: "Temps de récup. nécessaire pr basc. et rest. les pools dans Lync Server 2013"
 TOCTitle: Temps de récupération nécessaire pour basculer et restaurer les pools
 ms:assetid: 902c658f-8442-4d0d-b3ad-bf795ecd550d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205079(v=OCS.15)

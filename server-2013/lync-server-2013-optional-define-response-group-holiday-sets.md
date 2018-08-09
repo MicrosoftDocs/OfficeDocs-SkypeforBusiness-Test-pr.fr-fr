@@ -1,6 +1,6 @@
 ﻿---
-title: (Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013
-TOCTitle: (Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013
+title: "(Facul.) Déf. des gr. de congés des gr. Response Group dans Lync Server 2013"
+TOCtitle: "(Facul.) Déf. des gr. de congés des gr. Response Group dans Lync Server 2013"
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688063(v=OCS.15)
 ms:contentKeyID: 49891357

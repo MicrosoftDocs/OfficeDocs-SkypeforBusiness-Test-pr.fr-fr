@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Installation de la base de données avec Lync Server Management Shell'
+title: "Lync Server 2013 : Inst. base de données avec Lync Server Management Shell"
 TOCTitle: Installation de la base de données avec Lync Server Management Shell
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398832(v=OCS.15)

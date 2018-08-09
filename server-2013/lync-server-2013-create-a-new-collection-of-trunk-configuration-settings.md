@@ -1,6 +1,6 @@
 ﻿---
-title: Création d’une collection de paramètre de configuration d’une jonction dans Lync Server 2013
-TOCTitle: Création d’une collection de paramètre de configuration d’une jonction dans Lync Server 2013
+title: "Création d’une coll. de par. de conf. d’une jonction dans Lync Server 2013"
+TOCtitle: "Création d’une coll. de par. de conf. d’une jonction dans Lync Server 2013"
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688054(v=OCS.15)
 ms:contentKeyID: 49891346

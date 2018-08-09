@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Planification de capacité pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Plan. de capacité pr le serveur de conv. permanente"
 TOCTitle: Planification de capacité pour le serveur de conversation permanente
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615006(v=OCS.15)

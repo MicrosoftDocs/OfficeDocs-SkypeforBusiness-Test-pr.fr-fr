@@ -1,6 +1,6 @@
 ﻿---
-title: Activation ou désactivation de l’archivage de sessions de messagerie instantanée ou de conférence
-TOCTitle: Activation ou désactivation de l’archivage de sessions de messagerie instantanée ou de conférence
+title: "Act. ou dés. de l’archivage de sessions de mes. instantanée ou de conférence"
+TOCtitle: "Act. ou dés. de l’archivage de sessions de mes. instantanée ou de conférence"
 ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182567(v=OCS.15)
 ms:contentKeyID: 49298469

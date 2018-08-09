@@ -1,6 +1,6 @@
 ﻿---
-title: Résumé des certificats - Fédération XMPP (Extensible Messaging and Presence Protocol)
-TOCTitle: Résumé des certificats - Fédération XMPP (Extensible Messaging and Presence Protocol)
+title: "Résumé des certifi. - Féd. XMPP (Extensible Messaging and Presence Protocol)"
+TOCtitle: "Résumé des certifi. - Féd. XMPP (Extensible Messaging and Presence Protocol)"
 ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ618374(v=OCS.15)
 ms:contentKeyID: 49298562

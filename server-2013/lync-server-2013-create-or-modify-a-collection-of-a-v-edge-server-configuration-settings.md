@@ -1,6 +1,6 @@
 ﻿---
-title: Création ou modification d’une collection de paramètres de configuration de serveur Edge A/V
-TOCTitle: Création ou modification d’une collection de paramètres de configuration de serveur Edge A/V
+title: "Créa. ou mod. d’une collection de param. de configuration de serveur Edge A/V"
+TOCtitle: "Créa. ou mod. d’une collection de param. de configuration de serveur Edge A/V"
 ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688039(v=OCS.15)
 ms:contentKeyID: 49891327

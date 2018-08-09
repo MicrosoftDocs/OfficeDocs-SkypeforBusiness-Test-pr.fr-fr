@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Schéma de base de données d’enregistrement des détails des appels'
+title: "Lync Server 2013 : Schéma de base de données d’enr. des détails des appels"
 TOCTitle: Schéma de base de données d’enregistrement des détails des appels
 ms:assetid: 754642cd-051a-47da-bb08-27800dae39d1
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398570(v=OCS.15)

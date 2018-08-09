@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la récupération d’urgence et de la haute disponibilité des services de conversation permanente'
+title: "Lync Server 2013 : Conf. récup. d’urg. et haute dispo des serv. de conv. perm."
 TOCTitle: Configuration de la récupération d’urgence et de la haute disponibilité des services de conversation permanente
 ms:assetid: 2b91c244-796c-416d-bf9b-e99613e901af
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ552854(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Déplacement du serveur de gestion centralisée Lync Server 2010 vers Lync Server 2013
-TOCTitle: Déplacement du serveur de gestion centralisée Lync Server 2010 vers Lync Server 2013
+title: "Dépl. du serv. de gest. centralisée Lync Server 2010 vers Lync Server 2013"
+TOCtitle: "Dépl. du serv. de gest. centralisée Lync Server 2010 vers Lync Server 2013"
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688013(v=OCS.15)
 ms:contentKeyID: 49891290

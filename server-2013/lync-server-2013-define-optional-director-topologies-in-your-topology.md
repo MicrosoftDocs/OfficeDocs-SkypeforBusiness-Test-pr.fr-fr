@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition des topologies facultatives de directeur dans votre topologie'
+title: "Lync Server 2013 : Déf. des topo. facult. de directeur dans votre topologie"
 TOCTitle: Définition des topologies facultatives de directeur dans votre topologie
 ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398717(v=OCS.15)

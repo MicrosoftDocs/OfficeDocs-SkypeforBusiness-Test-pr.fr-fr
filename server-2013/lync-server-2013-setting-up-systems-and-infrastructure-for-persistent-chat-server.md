@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des systèmes et de l’infrastructure pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Conf. des sys. et de l’infras. pour le serv. de conv. perm."
 TOCTitle: Configuration des systèmes et de l’infrastructure pour le serveur de conversation permanente
 ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205290(v=OCS.15)

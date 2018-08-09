@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Autres prises en charge et configurations de serveur requises'
+title: "Lync Server 2013 : Autres prises en charge et conf. de serveur requises"
 TOCTitle: Autres prises en charge et configurations de serveur requises
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398577(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Création et configuration des stratégies d’utilisateur pour l’archivage dans Lync Server
-TOCTitle: Création et configuration des stratégies d’utilisateur pour l’archivage dans Lync Server
+title: "Créa. et conf. des stratégies d’utilisateur pour l’archivage dans Lync Server"
+TOCtitle: "Créa. et conf. des stratégies d’utilisateur pour l’archivage dans Lync Server"
 ms:assetid: 5af0e605-3563-4d6f-a3c6-511d204a3165
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204923(v=OCS.15)
 ms:contentKeyID: 49297277

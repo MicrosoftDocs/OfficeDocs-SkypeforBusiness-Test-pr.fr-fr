@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Expérience de parcage d’appel en cas de défaillance d’un pool'
+title: "Lync Server 2013 : Exp. de parcage d’appel en cas de défaillance d’un pool"
 TOCTitle: Expérience de parcage d’appel en cas de défaillance d’un pool
 ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205383(v=OCS.15)

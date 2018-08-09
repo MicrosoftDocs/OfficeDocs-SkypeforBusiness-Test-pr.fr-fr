@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS)'
+title: "LS 2013 : Synch. mdp de compte d’auth. Kerberos avec les serv. Internet (IIS)"
 TOCTitle: Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS)
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398107(v=OCS.15)

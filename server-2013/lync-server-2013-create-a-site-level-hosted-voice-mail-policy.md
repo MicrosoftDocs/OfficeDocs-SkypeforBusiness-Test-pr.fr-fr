@@ -1,6 +1,6 @@
 ﻿---
-title: Créer une stratégie de messagerie vocale hébergée pour un site dans Lync Server 2013
-TOCTitle: Créer une stratégie de messagerie vocale hébergée pour un site dans Lync Server 2013
+title: "Créer une strat. de mess. vocale hébergée pour un site dans Lync Server 2013"
+TOCtitle: "Créer une strat. de mess. vocale hébergée pour un site dans Lync Server 2013"
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398216(v=OCS.15)
 ms:contentKeyID: 49296340

@@ -1,5 +1,5 @@
 ﻿---
-title: Topologie de référence de Lync Server 2013 utilisée dans les grandes organisations comportant plusieurs centres de données
+title: "Topo. réf. Lync Server 2013 util. ds grandes org. ac diff. centres de données"
 TOCTitle: Topologie de référence utilisée dans les grandes organisations comportant plusieurs centres de données
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398797(v=OCS.15)

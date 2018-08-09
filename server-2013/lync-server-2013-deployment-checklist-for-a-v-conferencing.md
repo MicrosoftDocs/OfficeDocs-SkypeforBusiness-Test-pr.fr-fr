@@ -1,6 +1,6 @@
 ﻿---
-title: Liste de vérification du déploiement pour la conférence A/V dans Lync Server 2013
-TOCTitle: Liste de vérification du déploiement pour la conférence A/V dans Lync Server 2013
+title: "Liste de vérif. du déploiement pour la conférence A/V dans Lync Server 2013"
+TOCtitle: "Liste de vérif. du déploiement pour la conférence A/V dans Lync Server 2013"
 ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ619183(v=OCS.15)
 ms:contentKeyID: 49297551

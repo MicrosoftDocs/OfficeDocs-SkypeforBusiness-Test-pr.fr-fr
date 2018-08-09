@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur'
+title: "Lync Server 2013 : Cond. Préreq. pr conf. parcage d’appel et droits ut."
 TOCTitle: Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425730(v=OCS.15)

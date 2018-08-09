@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Conditions prérequises de configuration et de sécurité pour Voix Entreprise'
+title: "Lync Server 2013 : Cond. Prér. de conf. et de sécurité pour Voix Entreprise"
 TOCTitle: Conditions prérequises de configuration et de sécurité pour Voix Entreprise
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398221(v=OCS.15)

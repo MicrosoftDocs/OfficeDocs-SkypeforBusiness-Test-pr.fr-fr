@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Modification des paramètres de code confidentiel des conférences rendez-vous par défaut'
+title: "Lync Server 2013 : Mod. des par. de code conf. des conférences rdv par déf."
 TOCTitle: Modification des paramètres de code confidentiel des conférences rendez-vous par défaut
 ms:assetid: 2d110e94-ad29-4755-b17f-d8c2da9b78a4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425780(v=OCS.15)

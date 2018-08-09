@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des certificats - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle'
+title: "Lync Server 2013 : Résumé des cert. - SE cons. màé avec des éq. de ch. mat."
 TOCTitle: Résumé des certificats - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle
 ms:assetid: 894a9f3e-7cba-4915-8fdf-e52f2f25126f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398692(v=OCS.15)

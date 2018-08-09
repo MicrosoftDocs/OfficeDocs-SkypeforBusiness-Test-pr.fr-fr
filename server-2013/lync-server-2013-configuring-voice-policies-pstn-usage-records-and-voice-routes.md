@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de voix, des enregistrements d’utilisation du RTC et des itinéraires des communications vocales'
+title: "LS 2013 : Conf. des strat. de voix, des enr. ut. du RTC et it. des comm. voc."
 TOCTitle: Configuration des stratégies de voix, des enregistrements d’utilisation du RTC et des itinéraires des communications vocales
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398272(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Création d’une stratégie d’archivage pour activer ou désactiver l’archivage des communications internes ou externes pour des sites ou utilisateurs spécifiques
-TOCTitle: Création d’une stratégie d’archivage pour activer ou désactiver l’archivage des communications internes ou externes pour des sites ou utilisateurs spécifiques
+title: "Créa. strat. arch. pr act/dés. arch. des comm. int/ext pr sites ou ut. part."
+TOCtitle: "Créa. strat. arch. pr act/dés. arch. des comm. int/ext pr sites ou ut. part."
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398385(v=OCS.15)
 ms:contentKeyID: 49297246

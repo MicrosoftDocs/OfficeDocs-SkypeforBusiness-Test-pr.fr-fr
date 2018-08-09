@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de l’intégration de Lync Server local avec Exchange Online'
+title: "Lync Server 2013 : Conf. de l’int. de Lync Server local avec Exchange Online"
 TOCTitle: Configuration de l’intégration de Lync Server 2013 local avec Exchange Online
 ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh533880(v=OCS.15)

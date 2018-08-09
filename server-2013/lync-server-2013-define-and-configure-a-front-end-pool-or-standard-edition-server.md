@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition et configuration d’un pool frontal ou d’un serveur Standard Edition'
+title: "Lync Server 2013 : Déf. et conf. pool frontal ou serv. Standard Edition"
 TOCTitle: Définition et configuration d’un pool frontal ou d’un serveur Standard Edition
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398538(v=OCS.15)

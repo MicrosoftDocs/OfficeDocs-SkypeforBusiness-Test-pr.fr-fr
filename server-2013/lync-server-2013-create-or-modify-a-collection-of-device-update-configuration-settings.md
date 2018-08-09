@@ -1,6 +1,6 @@
 ﻿---
-title: Créer ou modifier une collection de paramètres de configuration de la mise à jour des périphériques
-TOCTitle: Créer ou modifier une collection de paramètres de configuration de la mise à jour des périphériques
+title: "Créer ou mod. une collection de par. de conf. de la màj des périphériques"
+TOCtitle: "Créer ou mod. une collection de par. de conf. de la màj des périphériques"
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994029(v=OCS.15)
 ms:contentKeyID: 53095396

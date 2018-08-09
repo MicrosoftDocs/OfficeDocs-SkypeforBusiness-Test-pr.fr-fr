@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Demande et configuration d’un certificat pour votre proxy HTTP inverse'
+title: "Lync Server 2013 : Demande et conf. d’un certif. pour votre proxy HTTP inverse"
 TOCTitle: Demande et configuration d’un certificat pour votre proxy HTTP inverse
 ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429704(v=OCS.15)

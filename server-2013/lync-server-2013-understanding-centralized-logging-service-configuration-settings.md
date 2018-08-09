@@ -1,6 +1,6 @@
 ﻿---
-title: Présentation des paramètres de configuration du service de journalisation centralisée
-TOCTitle: Présentation des paramètres de configuration du service de journalisation centralisée
+title: "Présentation des param. de config. du service de journalisation centralisée"
+TOCtitle: "Présentation des param. de config. du service de journalisation centralisée"
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688029(v=OCS.15)
 ms:contentKeyID: 49891312

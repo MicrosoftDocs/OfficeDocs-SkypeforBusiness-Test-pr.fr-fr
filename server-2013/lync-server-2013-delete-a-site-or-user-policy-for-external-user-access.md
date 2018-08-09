@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes'
+title: "Lync Server 2013 : Supp. d’une strat. ut. ou de site pour l’accès des ut. ext."
 TOCTitle: Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg521013(v=OCS.15)

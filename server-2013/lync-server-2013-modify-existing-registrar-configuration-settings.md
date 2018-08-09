@@ -1,6 +1,6 @@
 ﻿---
-title: Modification des paramètres de configuration d’un serveur d’inscriptions existant
-TOCTitle: Modification des paramètres de configuration d’un serveur d’inscriptions existant
+title: "Modif. des paramètres de configuration d’un serveur d’inscriptions existant"
+TOCtitle: "Modif. des paramètres de configuration d’un serveur d’inscriptions existant"
 ms:assetid: a8931511-3e66-49ed-a3ec-03bcd61ce1f0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182566(v=OCS.15)
 ms:contentKeyID: 49298453

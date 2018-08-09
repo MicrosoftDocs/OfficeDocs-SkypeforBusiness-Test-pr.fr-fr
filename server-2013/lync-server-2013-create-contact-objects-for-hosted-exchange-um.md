@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création des objets de contact pour la messagerie unifiée Exchange hébergée'
+title: "Lync Server 2013 : Créa. des objets de contact pour la mes. un. Exchange héb."
 TOCTitle: 'Création des objets de contact pour la messagerie unifiée Exchange hébergée '
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412765(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Conditions prérequises à l’activation de l’authentification Kerberos'
+title: "Lync Server 2013 : Cond. prér. à l’activation de l’authentification Kerberos"
 TOCTitle: Conditions prérequises à l’activation de l’authentification Kerberos
 ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425909(v=OCS.15)

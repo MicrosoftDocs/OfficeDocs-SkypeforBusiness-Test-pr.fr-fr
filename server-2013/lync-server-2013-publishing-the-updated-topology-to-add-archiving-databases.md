@@ -1,6 +1,6 @@
 ﻿---
-title: Publication de la topologie mise à jour pour l’ajout des bases de données d’archivage
-TOCTitle: Publication de la topologie mise à jour pour l’ajout des bases de données d’archivage
+title: "Publication de la topologie màj pour l’ajout des bases de données d’archivage"
+TOCtitle: "Publication de la topologie màj pour l’ajout des bases de données d’archivage"
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204860(v=OCS.15)
 ms:contentKeyID: 49297064

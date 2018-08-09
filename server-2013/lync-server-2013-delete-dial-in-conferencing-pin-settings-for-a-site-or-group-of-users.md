@@ -1,6 +1,6 @@
 ﻿---
-title: Supprimer les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs
-TOCTitle: Supprimer les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs
+title: "Supp. les par. de code confi. des conf. rdv pour un site ou un gr. d’ut."
+TOCtitle: "Supp. les par. de code confi. des conf. rdv pour un site ou un gr. d’ut."
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520955(v=OCS.15)
 ms:contentKeyID: 49296356

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion des appareils, des téléphones et des applications client'
+title: "Lync Server 2013 : Gest. des appareils, des tél. et des applications client"
 TOCTitle: Gestion des appareils, des téléphones et des applications client
 ms:assetid: 7c52ecc7-e0f6-4684-9fe8-ba45437a08e0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg521021(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Prise en charge des clients et des serveurs pour le routage géodépendant'
+title: "Lync Server 2013 : Prise en ch. des clients et des serv. pour routage géodép."
 TOCTitle: Prise en charge des clients et des serveurs pour le routage géodépendant
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994024(v=OCS.15)

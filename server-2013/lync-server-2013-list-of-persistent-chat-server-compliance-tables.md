@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Liste des tables de conformité avec le serveur de conversation permanente'
+title: "Lync Server 2013 : Liste tables de confor. avec le serv. de conversation perm."
 TOCTitle: Liste des tables de conformité avec le serveur de conversation permanente
 ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215878(v=OCS.15)

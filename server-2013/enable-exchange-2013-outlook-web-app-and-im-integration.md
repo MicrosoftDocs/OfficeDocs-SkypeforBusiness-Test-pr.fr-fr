@@ -1,6 +1,6 @@
 ﻿---
-title: Activation d’Exchange 2013 Outlook Web App et intégration à la messagerie instantanée
-TOCTitle: Activation d’Exchange 2013 Outlook Web App et intégration à la messagerie instantanée
+title: "Act. d’Exchange 2013 Outlook Web App et intégration à la mes. instantanée"
+TOCtitle: "Act. d’Exchange 2013 Outlook Web App et intégration à la mes. instantanée"
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204857(v=OCS.15)
 ms:contentKeyID: 49297056

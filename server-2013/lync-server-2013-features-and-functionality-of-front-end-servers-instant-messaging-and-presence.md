@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Fonctionnalités de serveurs frontaux, de messagerie instantanée et de présence'
+title: "Lync Server 2013 : Fonct. serveurs frontaux, mess. inst. et présence"
 TOCTitle: Fonctionnalités de serveurs frontaux, de messagerie instantanée et de présence
 ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398109(v=OCS.15)

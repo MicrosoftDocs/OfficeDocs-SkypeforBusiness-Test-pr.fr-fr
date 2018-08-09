@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation des utilisateurs pour la messagerie vocale hébergée'
+title: "Lync Server 2013 : Activ. des utilisateurs pour la messagerie vocale hébergée"
 TOCTitle: Activation des utilisateurs pour la messagerie vocale hébergée
 ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413062(v=OCS.15)

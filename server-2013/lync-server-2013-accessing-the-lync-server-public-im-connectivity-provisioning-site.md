@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : accès au site d’approvisionnement de connectivité PIC de Lync Server'
+title: "Lync Server 2013 : accès au site d’approv. de connectivité PIC de Lync Server"
 TOCTitle: Accès au site d’approvisionnement de connectivité PIC de Lync Server
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn440174(v=OCS.15)

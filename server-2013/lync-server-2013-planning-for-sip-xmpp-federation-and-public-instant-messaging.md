@@ -1,6 +1,6 @@
 ﻿---
-title: Planification pour la fédération SIP, la fédération XMPP et la messagerie instantanée publique dans Lync Server 2013
-TOCTitle: Planification pour la fédération SIP, la fédération XMPP et la messagerie instantanée publique dans Lync Server 2013
+title: "Plan. pour les féd. SIP, XMPP et la mess. inst. publ. dans Lync Server 2013"
+TOCtitle: "Plan. pour les féd. SIP, XMPP et la mess. inst. publ. dans Lync Server 2013"
 ms:assetid: 3b234d92-b9ff-4b1d-910e-084c6f17e751
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204825(v=OCS.15)
 ms:contentKeyID: 49296941

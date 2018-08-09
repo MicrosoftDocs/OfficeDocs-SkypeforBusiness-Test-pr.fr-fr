@@ -1,6 +1,6 @@
 ﻿---
-title: Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction
-TOCTitle: Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction
+title: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
+TOCtitle: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412909(v=OCS.15)
 ms:contentKeyID: 49298644

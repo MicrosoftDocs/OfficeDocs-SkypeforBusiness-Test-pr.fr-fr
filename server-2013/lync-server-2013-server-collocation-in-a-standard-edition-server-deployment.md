@@ -1,5 +1,5 @@
 ﻿---
-title: Colocalisation de serveur Lync Server 2013 lors d’un déploiement de serveur Standard Edition
+title: "Coloc. de serv. Lync Server 2013 lors d’un dépl. de serv. Standard Edition"
 TOCTitle: Colocalisation de serveur lors d’un déploiement de serveur Standard Edition
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398131(v=OCS.15)

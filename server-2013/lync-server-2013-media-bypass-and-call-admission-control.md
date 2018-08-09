@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déviation du trafic multimédia et contrôle d’admission des appels'
+title: "Lync Server 2013 : Dév. du trafic mult. et contrôle d’admission des appels"
 TOCTitle: Déviation du trafic multimédia et contrôle d’admission des appels
 ms:assetid: 120b2a2b-5f97-4735-a2ee-0f849feb8c1d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398203(v=OCS.15)

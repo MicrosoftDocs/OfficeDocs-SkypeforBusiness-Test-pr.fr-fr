@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités liées à l’accès des utilisateurs externes'
+title: "Lync Server 2013 : Nlles fonct. liées à l’accès des ut. Ext."
 TOCTitle: Nouvelles fonctionnalités liées à l’accès des utilisateurs externes
 ms:assetid: 99da6bd5-ec14-4ad9-8f7d-37fbddf567dd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398794(v=OCS.15)

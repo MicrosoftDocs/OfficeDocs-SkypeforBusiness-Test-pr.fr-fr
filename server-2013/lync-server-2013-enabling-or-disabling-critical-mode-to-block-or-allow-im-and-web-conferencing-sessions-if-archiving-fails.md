@@ -1,6 +1,6 @@
 ﻿---
-title: Activation ou désactivation du mode critique pour bloquer ou autoriser des sessions de messagerie instantanée et de conférences web en cas d’échec de l’archivage
-TOCTitle: Activation ou désactivation du mode critique pour bloquer ou autoriser des sessions de messagerie instantanée et de conférences web en cas d’échec de l’archivage
+title: "Act/dés mode crit. pr bloq./aut. sess. mess. inst. et conf. web si échec arch."
+TOCtitle: "Act/dés mode crit. pr bloq./aut. sess. mess. inst. et conf. web si échec arch."
 ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182609(v=OCS.15)
 ms:contentKeyID: 49299417

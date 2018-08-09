@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Ajout d’un serveur de conversation permanente à la topologie'
+title: "Lync Server 2013 : Ajout d’un serv. de conv. permanente à la topologie"
 TOCTitle: Ajout d’un serveur de conversation permanente à la topologie
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205049(v=OCS.15)

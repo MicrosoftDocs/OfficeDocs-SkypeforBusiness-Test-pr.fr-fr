@@ -1,6 +1,6 @@
 ﻿---
-title: Création ou modification d’une collection de paramètres de configuration de l’enregistrement des détails des appels
-TOCTitle: Création ou modification d’une collection de paramètres de configuration de l’enregistrement des détails des appels
+title: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
+TOCtitle: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721878(v=OCS.15)
 ms:contentKeyID: 49891538

@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration des stratégies de qualité de service pour les clients exécutés sur Windows 7 ou Windows 8
-TOCTitle: Configuration des stratégies de qualité de service pour les clients exécutés sur Windows 7 ou Windows 8
+title: "Conf. des strat. de qual. de serv. pour clients exéc. sur Windows 7 ou 8"
+TOCtitle: "Conf. des strat. de qual. de serv. pour clients exéc. sur Windows 7 ou 8"
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205371(v=OCS.15)
 ms:contentKeyID: 49299297

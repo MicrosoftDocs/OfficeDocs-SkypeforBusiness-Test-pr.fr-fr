@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : prise en charge du logiciel et de l’infrastructure des clients et des dispositifs'
+title: "Lync Server 2013 : prise en ch. du log. et de l’infra. des clients et disp."
 TOCTitle: Prise en charge du logiciel et de l’infrastructure des clients et des dispositifs
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398412(v=OCS.15)

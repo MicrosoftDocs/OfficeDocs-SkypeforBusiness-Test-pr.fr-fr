@@ -1,5 +1,5 @@
 ﻿---
-title: Tâches de topologie de base à connaître avant la planification pour Lync Server 2013
+title: "Tâches de top. de base à savoir avant la planification pour Lync Server 2013"
 TOCTitle: Tâches de topologie de base à connaître avant la planification
 ms:assetid: 7376306b-1b80-4776-9261-aa545abb08c6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398552(v=OCS.15)

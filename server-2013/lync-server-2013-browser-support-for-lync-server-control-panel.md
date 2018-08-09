@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Prise en charge des navigateurs pour le Panneau de configuration Lync Server'
+title: "Lync Server 2013 : Prise en ch. des nav. pour le Panneau de conf. Lync Server"
 TOCTitle: Prise en charge des navigateurs pour le Panneau de configuration Lync Server
 ms:assetid: 716829ec-f00c-4425-9fb6-0c4c4d4006e7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204993(v=OCS.15)

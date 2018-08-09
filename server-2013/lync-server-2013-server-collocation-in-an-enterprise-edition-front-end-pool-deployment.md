@@ -1,5 +1,5 @@
 ﻿---
-title: Colocalisation de serveur Lync Server 2013 lors d’un déploiement de pool frontal Enterprise Edition
+title: "Coloc. de serveur LS 2013 lors d’un dépl. de pool frontal Enterprise Edition"
 TOCTitle: Colocalisation de serveur lors d’un déploiement de pool frontal Enterprise Edition
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398102(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Attributs, classes et extensions deq schémas Active Directory utilisés par Lync Server'
+title: "Lync Server 2013 : Attr., classes et ext. schémas Active Directory ut. par LS"
 TOCTitle: Attributs, classes et extensions des schémas Active Directory utilisés par Lync Server 2013
 ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398379(v=OCS.15)

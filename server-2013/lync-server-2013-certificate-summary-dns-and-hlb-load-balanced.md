@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des certificats - Équilibrage de charge DNS et matérielle'
+title: "Lync Server 2013 : Résumé des certificats - Équilibrage de ch. DNS et mat."
 TOCTitle: Résumé des certificats - Équilibrage de charge DNS et matérielle
 ms:assetid: 8318a1a4-b423-47b7-95e6-9541adfad391
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205047(v=OCS.15)

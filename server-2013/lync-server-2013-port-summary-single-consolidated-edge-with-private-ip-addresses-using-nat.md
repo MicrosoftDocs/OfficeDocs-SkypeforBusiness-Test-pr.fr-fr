@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des ports - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau'
+title: "LS 2013 : Résumé ports - SE unique cons. avec ad. IP pr. avec conv. ad. rés."
 TOCTitle: Résumé des ports - Serveur Edge unique consolidé avec adresses IP privées avecla conversion d’adresses réseau
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425891(v=OCS.15)

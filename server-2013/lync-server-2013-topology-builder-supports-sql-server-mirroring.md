@@ -1,5 +1,5 @@
 ﻿---
-title: Prise en charge de la mise en miroir SQL Server par le générateur de topologie dans Lync Server 2013
+title: "Prise en ch. de la mise en miroir SQL Server par le gén. de top. dans LS 2013"
 TOCTitle: Prise en charge de la mise en miroir SQL Server par le générateur de topologie
 ms:assetid: 2c1caa73-c707-4e53-ae3f-a100534373fd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688007(v=OCS.15)

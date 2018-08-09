@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des pare-feux et des ports pour l’accès des utilisateurs externes'
+title: "Lync Server 2013 : Conf. pare-feux et ports pour l’accès des utilisateurs ext."
 TOCTitle: Configuration des pare-feux et des ports pour l’accès des utilisateurs externes
 ms:assetid: cacb3832-f8db-4009-bfcf-6f5c15c236ed
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398848(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des mots de passe de compte d’authentification Kerberos'
+title: "Lync Server 2013 : Conf. des mots de passe de compte d’auth. Kerberos"
 TOCTitle: Configuration des mots de passe de compte d’authentification Kerberos
 ms:assetid: b435f88e-4a77-4be7-b7e5-c17484303b74
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412870(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création de la stratégie de routage VoIP pour les utilisateurs de succursale'
+title: "Lync Server 2013 : Créa. stratégie de routage VoIP pr les util. de succursale"
 TOCTitle: Création de la stratégie de routage VoIP pour les utilisateurs de succursale
 ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398196(v=OCS.15)

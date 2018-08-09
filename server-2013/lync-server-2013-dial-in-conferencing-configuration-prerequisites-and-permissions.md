@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration requise et autorisations pour la configuration de conférence rendez-vous'
+title: "Lync Server 2013 : Conf. req. et autor. pour la conf. de conférence rdv"
 TOCTitle: Configuration requise et autorisations pour la configuration de conférence rendez-vous
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412865(v=OCS.15)

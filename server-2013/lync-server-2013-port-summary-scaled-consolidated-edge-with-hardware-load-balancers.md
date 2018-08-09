@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des ports - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle'
+title: "Lync Server 2013 : Résumé des ports - SE cons. màé avec des éq. de ch. Mat."
 TOCTitle: Résumé des ports - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398739(v=OCS.15)

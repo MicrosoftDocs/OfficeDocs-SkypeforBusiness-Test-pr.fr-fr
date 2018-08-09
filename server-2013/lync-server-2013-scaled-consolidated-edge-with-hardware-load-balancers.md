@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Topologie Edge consolidée mise à l’échelle avec des équilibreurs de charge matérielle'
+title: "Lync Server 2013 : Top. Edge consol. mise à l’éch. avec des équil. de ch. mat."
 TOCTitle: Topologie Edge consolidée mise à l’échelle avec des équilibreurs de charge matérielle
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398478(v=OCS.15)

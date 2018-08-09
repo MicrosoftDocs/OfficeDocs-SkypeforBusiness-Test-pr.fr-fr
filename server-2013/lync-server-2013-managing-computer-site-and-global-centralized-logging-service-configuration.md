@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion de la configuration du service de journalisation centralisée au niveau d’un ordinateur, d’un site ou au niveau global
-TOCTitle: Gestion de la configuration du service de journalisation centralisée au niveau d’un ordinateur, d’un site ou au niveau global
+title: "Gest. conf. du serv. de journ. Centr. au niv. d’un ordi., site ou au niv. gl."
+TOCtitle: "Gest. conf. du serv. de journ. Centr. au niv. d’un ordi., site ou au niv. gl."
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688138(v=OCS.15)
 ms:contentKeyID: 49891449

@@ -1,6 +1,6 @@
 ﻿---
-title: Créer ou modifier une collection de paramètres de configuration de la version du client
-TOCTitle: Créer ou modifier une collection de paramètres de configuration de la version du client
+title: "Créer ou mod. une collection de par. de conf. de la version du client"
+TOCtitle: "Créer ou mod. une collection de par. de conf. de la version du client"
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 53095418

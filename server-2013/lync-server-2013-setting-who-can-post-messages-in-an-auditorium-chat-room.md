@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition des utilisateurs pouvant publier des messages dans une salle de conversation de type auditorium'
+title: "Lync Server 2013 : Déf. ut. aut. à pub. mess. dans salle de conv. type audit."
 TOCTitle: Définition des utilisateurs pouvant publier des messages dans une salle de conversation de type auditorium
 ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215873(v=OCS.15)

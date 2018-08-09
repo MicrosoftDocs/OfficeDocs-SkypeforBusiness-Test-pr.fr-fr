@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Certificats requis pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Certif. requis pour le serveur de conversation permanente"
 TOCTitle: Certificats requis pour le serveur de conversation permanente
 ms:assetid: eff58baf-b918-4dfa-b01d-e1aec436b4fd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412990(v=OCS.15)

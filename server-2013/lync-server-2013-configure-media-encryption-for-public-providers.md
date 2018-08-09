@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration du chiffrement multimédia pour les fournisseurs publics'
+title: "Lync Server 2013 : Conf. du chiff. multimédia pour les fournisseurs publics"
 TOCTitle: Configuration du chiffrement multimédia pour les fournisseurs publics
 ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205149(v=OCS.15)

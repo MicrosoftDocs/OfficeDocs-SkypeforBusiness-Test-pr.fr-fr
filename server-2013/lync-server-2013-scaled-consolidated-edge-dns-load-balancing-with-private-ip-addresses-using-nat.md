@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau'
+title: "LS 2013 : SE cons. mis à l’é., éq. charge DNS ac ad. IP pri., conv. ad. rés."
 TOCTitle: Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau
 ms:assetid: c7ca4ca8-c639-4d93-86d7-8891170cacbc
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398823(v=OCS.15)

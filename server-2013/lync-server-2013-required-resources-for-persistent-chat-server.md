@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Ressources requises pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Ressources req. pour le serveur de conversation permanente"
 TOCTitle: Ressources requises
 ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205211(v=OCS.15)

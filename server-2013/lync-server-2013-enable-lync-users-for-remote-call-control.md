@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation des utilisateurs Lync pour le contrôle d’appel distant'
+title: "Lync Server 2013 : Activ. des util. Lync pour le contrôle d’appel distant"
 TOCTitle: Activation des utilisateurs Lync pour le contrôle d’appel distant
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615048(v=OCS.15)

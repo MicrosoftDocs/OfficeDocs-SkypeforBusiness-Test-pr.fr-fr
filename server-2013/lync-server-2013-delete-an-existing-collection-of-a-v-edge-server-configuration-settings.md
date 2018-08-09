@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration d’un serveur Edge A/V
-TOCTitle: Suppression d’une collection existante de paramètres de configuration d’un serveur Edge A/V
+title: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
+TOCtitle: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688077(v=OCS.15)
 ms:contentKeyID: 49891376

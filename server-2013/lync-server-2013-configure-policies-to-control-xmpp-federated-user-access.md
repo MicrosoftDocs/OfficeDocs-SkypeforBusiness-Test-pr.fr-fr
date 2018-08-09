@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs fédérés XMPP'
+title: "Lync Server 2013 : Conf. des strat. de contrôle d’accès des ut. fédérés XMPP"
 TOCTitle: Configuration des stratégies de contrôle d’accès des utilisateurs fédérés XMPP
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ552446(v=OCS.15)

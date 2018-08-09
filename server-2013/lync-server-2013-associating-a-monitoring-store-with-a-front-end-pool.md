@@ -1,5 +1,5 @@
 ﻿---
-title: Association d’un magasin de surveillance à un pool frontal dans Lync Server 2013
+title: "Asso. d’un magasin de surveillance à un pool frontal dans Lync Server 2013"
 TOCTitle: Association d’un magasin de surveillance à un pool frontal
 ms:assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205271(v=OCS.15)

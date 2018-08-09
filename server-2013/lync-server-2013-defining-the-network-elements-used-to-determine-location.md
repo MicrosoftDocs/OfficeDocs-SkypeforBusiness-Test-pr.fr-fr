@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition des éléments réseau utilisés pour déterminer l’emplacement'
+title: "Lync Server 2013 : Déf. éléments réseau utilisés pour déterminer l’emplacement"
 TOCTitle: Définition des éléments réseau utilisés pour déterminer l’emplacement
 ms:assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398567(v=OCS.15)

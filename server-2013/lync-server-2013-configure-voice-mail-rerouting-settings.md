@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des paramètres de réacheminement de la messagerie vocale'
+title: "Lync Server 2013 : Conf. des param. de réach. de la messagerie vocale"
 TOCTitle: Configuration des paramètres de réacheminement de la messagerie vocale
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398606(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration matérielle et logicielle requise pour le directeur'
+title: "Lync Server 2013 : Conf. mat. et logicielle requise pour le directeur"
 TOCTitle: Configuration matérielle et logicielle requise pour le directeur
 ms:assetid: 747b701e-7f97-46fe-91c5-1e8d9addf9f7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398560(v=OCS.15)

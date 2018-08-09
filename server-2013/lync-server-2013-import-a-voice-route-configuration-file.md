@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Importation d’un fichier de configuration d’itinéraire de communications vocales'
+title: "Lync Server 2013 : Imp. d’un fichier de conf. d’itinéraire de comm. vocales"
 TOCTitle: Importation d’un fichier de configuration d’itinéraire de communications vocales
 ms:assetid: 4bac05e5-ed8b-4f10-96b0-b8a65ff356ec
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398301(v=OCS.15)

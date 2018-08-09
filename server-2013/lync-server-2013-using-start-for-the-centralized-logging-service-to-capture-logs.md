@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation de la commande Start pour la capture des journaux par le service de journalisation centralisée
-TOCTitle: Utilisation de la commande Start pour la capture des journaux par le service de journalisation centralisée
+title: "Ut. comm. Start pour capture des journaux par le serv. de journ. centralisée"
+TOCtitle: "Ut. comm. Start pour capture des journaux par le serv. de journ. centralisée"
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687958(v=OCS.15)
 ms:contentKeyID: 49891218

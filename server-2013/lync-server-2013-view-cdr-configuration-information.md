@@ -1,6 +1,6 @@
 ﻿---
-title: Affichage des informations de configuration de l’enregistrement des détails des appels
-TOCTitle: Affichage des informations de configuration de l’enregistrement des détails des appels
+title: "Aff. des info. de configuration de l’enregistrement des détails des appels"
+TOCtitle: "Aff. des info. de configuration de l’enregistrement des détails des appels"
 ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688096(v=OCS.15)
 ms:contentKeyID: 49891397

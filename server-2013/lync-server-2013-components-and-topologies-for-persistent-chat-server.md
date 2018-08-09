@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Composants et topologies utilisés pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Composants et topo. utilisés pour le serv. de conv. Perm."
 TOCTitle: Composants et topologies utilisés pour le serveur de conversation permanente
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398500(v=OCS.15)

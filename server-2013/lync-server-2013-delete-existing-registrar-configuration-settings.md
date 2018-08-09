@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression des paramètres de configuration d’un serveur d’inscriptions existant
-TOCTitle: Suppression des paramètres de configuration d’un serveur d’inscriptions existant
+title: "Suppr. des paramètres de configuration d’un serveur d’inscriptions existant"
+TOCtitle: "Suppr. des paramètres de configuration d’un serveur d’inscriptions existant"
 ms:assetid: ae43cd75-cae4-4f78-b037-779a2cdb583b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182571(v=OCS.15)
 ms:contentKeyID: 49298513

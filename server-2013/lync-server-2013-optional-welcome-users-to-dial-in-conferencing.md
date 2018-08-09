@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : (Facultatif) Accueil des utilisateurs dans les conférences rendez-vous'
+title: "Lync Server 2013 : (Facul.) Accueil des ut. dans les conf. rdv"
 TOCTitle: (Facultatif) Accueil des utilisateurs dans les conférences rendez-vous
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398846(v=OCS.15)

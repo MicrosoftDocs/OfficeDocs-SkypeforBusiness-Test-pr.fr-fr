@@ -1,6 +1,6 @@
 ﻿---
-title: Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate
-TOCTitle: Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate
+title: "Prép. de cert. AV et OAuth dans LS 2013 grâce à -Roll dans app. comm. Set-CsCertificate"
+TOCtitle: "Prép. de cert. AV et OAuth dans LS 2013 grâce à -Roll dans app. comm. Set-CsCertificate"
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ660292(v=OCS.15)
 ms:contentKeyID: 49891265

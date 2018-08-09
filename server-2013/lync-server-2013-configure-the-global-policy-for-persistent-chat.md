@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la stratégie globale pour la conversation permanente'
+title: "Lync Server 2013 : Conf. de la strat. globale pour la conversation permanente"
 TOCTitle: Configuration de la stratégie globale pour la conversation permanente
 ms:assetid: 6176eb5c-19de-4c07-bcc0-2e38f8965966
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204951(v=OCS.15)

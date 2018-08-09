@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration requise pour le service de découverte automatique'
+title: "Lync Server 2013 : Conf. requise pour le service de découverte automatique"
 TOCTitle: Configuration requise pour le service de découverte automatique
 ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh690012(v=OCS.15)

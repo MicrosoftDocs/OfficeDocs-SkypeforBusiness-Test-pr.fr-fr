@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification des fournisseurs fédérés SIP hébergés'
+title: "Lync Server 2013 : Créa. ou modification des fournisseurs fédérés SIP hébergés"
 TOCTitle: Création ou modification des fournisseurs fédérés SIP hébergés
 ms:assetid: 0dd6dcb6-a88d-46b8-9c96-b35967309bcd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ552445(v=OCS.15)

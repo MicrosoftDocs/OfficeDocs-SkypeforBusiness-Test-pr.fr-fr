@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation des catégories pour administrer le serveur de conversation permanente
-TOCTitle: Utilisation des catégories pour administrer le serveur de conversation permanente
+title: "Util. des catégories pour administrer le serveur de conversation permanente"
+TOCtitle: "Util. des catégories pour administrer le serveur de conversation permanente"
 ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398988(v=OCS.15)
 ms:contentKeyID: 49299076

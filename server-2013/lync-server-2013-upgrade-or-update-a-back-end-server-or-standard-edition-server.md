@@ -1,6 +1,6 @@
 ﻿---
-title: Mise à niveau ou mise à jour d’un serveur principal ou d’un serveur Standard Edition Server dans Lync Server 2013
-TOCTitle: Mise à niveau ou mise à jour d’un serveur principal ou d’un serveur Standard Edition Server dans Lync Server 2013
+title: "Màn ou màj serv. princ. ou serveur Standard Edition Server dans LS 2013"
+TOCtitle: "Màn ou màj serv. princ. ou serveur Standard Edition Server dans LS 2013"
 ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721942(v=OCS.15)
 ms:contentKeyID: 49891619

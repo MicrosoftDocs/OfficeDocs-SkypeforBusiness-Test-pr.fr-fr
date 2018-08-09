@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des options de serveur de conversation permanente au niveau global ou pour un pool de serveurs de conversation permanente'
+title: "Lync Server 2013 : Conf. op. de serv. de conv. perm. niv. gl. ou pool de s."
 TOCTitle: Configuration des options de serveur de conversation permanente au niveau global ou pour un pool de serveurs de conversation permanente
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204731(v=OCS.15)

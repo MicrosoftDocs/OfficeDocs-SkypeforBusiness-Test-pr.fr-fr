@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion de la configuration du serveur Edge d’accès pour votre organisation'
+title: "Lync Server 2013 : Gest. de la conf. du serveur Edge d’accès pour votre org."
 TOCTitle: Gestion de la configuration du serveur Edge d’accès pour votre organisation
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ552443(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Ajout d’un site de succursale Survivable Branch Appliance Lync Server 2010 à votre topologie'
+title: "Lync Server 2013 : Ajout d’un site de succ. SBA Lync Server 2010 à votre topo."
 TOCTitle: Ajout d’un site de succursale Survivable Branch Appliance Lync Server 2010 à votre topologie
 ms:assetid: 2920d66e-6e1f-4f7f-89d8-510f004ac4c3
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688004(v=OCS.15)

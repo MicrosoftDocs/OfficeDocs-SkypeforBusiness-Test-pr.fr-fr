@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition de la configuration requise pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Déf. de la conf. requise pour le serveur de conv. Perm."
 TOCTitle: Définition de la configuration requise pour l’organisation du serveur de conversation permanente
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398372(v=OCS.15)

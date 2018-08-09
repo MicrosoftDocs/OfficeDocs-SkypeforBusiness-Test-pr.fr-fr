@@ -1,5 +1,5 @@
 ﻿---
-title: Configuration de Lync Server 2013 pour utiliser l’archivage Microsoft Exchange Server 2013
+title: "Conf. de Lync Server 2013 pour ut. l’archivage Microsoft Exchange Server 2013"
 TOCTitle: Configuration de Lync Server 2013 pour utiliser l’archivage Exchange Server 2013
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ679896(v=OCS.15)

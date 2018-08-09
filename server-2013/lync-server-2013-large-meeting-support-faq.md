@@ -1,6 +1,6 @@
 ﻿---
-title: Forum aux questions sur la prise en charge des grandes réunions Lync Server 2013
-TOCTitle: Forum aux questions sur la prise en charge des grandes réunions Lync Server 2013
+title: "FAQ sur la prise en charge des grandes réunions Lync Server 2013"
+TOCtitle: "FAQ sur la prise en charge des grandes réunions Lync Server 2013"
 ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204804(v=OCS.15)
 ms:contentKeyID: 49296832

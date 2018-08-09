@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’un déploiement local pour une solution hybride avec Lync Online'
+title: "Lync Server 2013 : Conf. dépl. loc. pour une sol. hybride avec Lync Online"
 TOCTitle: Configuration d’un déploiement local pour une solution hybride avec Lync Online
 ms:assetid: c26addb0-2936-4eea-9071-3ab95825154b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205237(v=OCS.15)

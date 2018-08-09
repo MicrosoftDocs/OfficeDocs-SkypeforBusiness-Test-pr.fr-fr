@@ -1,6 +1,6 @@
 ﻿---
-title: Droits d’utilisateur requis et éléments prérequis pour la configuration de la prise d’appel de groupe
-TOCTitle: Droits d’utilisateur requis et éléments prérequis pour la configuration de la prise d’appel de groupe
+title: "Droits d’ut. requis et élém. prérequis pour conf. de la prise d’appel de gr."
+TOCtitle: "Droits d’ut. requis et élém. prérequis pour conf. de la prise d’appel de gr."
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945641(v=OCS.15)
 ms:contentKeyID: 53095454

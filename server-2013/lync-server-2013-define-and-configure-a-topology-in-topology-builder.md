@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition et configuration d’une topologie dans le générateur de topologie'
+title: "Lync Server 2013 : Déf. et conf. d’une top. dans le gén. de top."
 TOCTitle: Définition et configuration d’une topologie dans le générateur de topologie
 ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398788(v=OCS.15)

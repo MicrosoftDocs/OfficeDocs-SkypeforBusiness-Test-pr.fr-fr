@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP publiques'
+title: "Lync Server 2013 : Résumé des enr. DNS - SE unique cons. avec ad. IP publiques"
 TOCTitle: Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP publiques
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205025(v=OCS.15)

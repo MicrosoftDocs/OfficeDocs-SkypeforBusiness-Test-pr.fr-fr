@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée'
+title: "LS 2013 : Créa. d’un enr. SRV DNS pour l’intégrer à la mess. un. Exchange héb."
 TOCTitle: Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh500728(v=OCS.15)

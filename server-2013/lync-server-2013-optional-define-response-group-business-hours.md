@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : (Facultatif) Définition des heures ouvrées des groupes Response Group'
+title: "Lync Server 2013 : (Facul.) Déf. des heures ouvrées des gr. Response Group"
 TOCTitle: (Facultatif) Définition des heures ouvrées des groupes Response Group
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205291(v=OCS.15)

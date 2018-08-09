@@ -1,6 +1,6 @@
 ﻿---
-title: 'Phase 8 : Transition d’un déploiement pilote vers un environnement de production'
-TOCTitle: 'Phase 8 : Transition d’un déploiement pilote vers un environnement de production'
+title: "Phase 8 : Transition d’un dépl. pilote vers un environnement de production"
+TOCtitle: "Phase 8 : Transition d’un dépl. pilote vers un environnement de production"
 ms:assetid: 00b22ecf-0e28-4bde-8f75-2e82c5e2e718
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687954(v=OCS.15)
 ms:contentKeyID: 49891212

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la découverte automatique pour la mobilité avec les déploiements hybrides'
+title: "Lync Server 2013 : Conf. de la déc. auto pr la mob. ac les dépl. hybrides"
 TOCTitle: Configuration de la découverte automatique pour la mobilité avec les déploiements hybrides
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215885(v=OCS.15)

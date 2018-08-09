@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Architecture d’intégration de messagerie unifiée Exchange hébergée'
+title: "Lync Server 2013 : Arch. d’intégr. de mess. unifiée Exchange hébergée"
 TOCTitle: Architecture d’intégration de messagerie unifiée Exchange hébergée
 ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398067(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Publication des modifications en attente de la configuration du routage des communications vocales'
+title: "Lync Server 2013 : Pub. des mod. en att. de la conf. du routage des comm. Voc."
 TOCTitle: Publication des modifications en attente de la configuration du routage des communications vocales
 ms:assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413088(v=OCS.15)

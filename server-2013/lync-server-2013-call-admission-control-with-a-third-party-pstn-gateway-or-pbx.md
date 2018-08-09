@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Contrôle d’admisson des appels avec une passerelle RTC ou un système PBX tiers'
+title: "LS 2013 : Contr. d’adm. des appels avec passerelle RTC ou syst. PBX tiers"
 TOCTitle: Contrôle d’admisson des appels avec une passerelle RTC ou un système PBX tiers
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398762(v=OCS.15)

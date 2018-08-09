@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création des enregistrements DNS pour les serveurs proxy inverses'
+title: "Lync Server 2013 : Créa. des enr. DNS pour les serveurs proxy inverses"
 TOCTitle: Création des enregistrements DNS pour les serveurs proxy inverses
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429719(v=OCS.15)

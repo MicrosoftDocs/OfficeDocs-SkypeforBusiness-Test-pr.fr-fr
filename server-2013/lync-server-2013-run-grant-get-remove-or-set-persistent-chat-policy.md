@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Exécution, octroi, obtention, suppression ou définition d’une stratégie de conversation permanente'
+title: "LS 2013 : Exéc, octroi, obtention, suppr. ou déf. d’une strat. de conv. Perm."
 TOCTitle: Exécution, octroi, obtention, suppression ou définition d’une stratégie de conversation permanente
 ms:assetid: 39ccdbe8-fb3d-47bc-96e2-9486b6d317e0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204810(v=OCS.15)

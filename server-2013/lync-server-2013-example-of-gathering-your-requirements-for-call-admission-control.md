@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : exemple de collecte des données de la configuration requise pour le contrôle d’admission des appels'
+title: "Lync Server 2013 : ex. coll. données de la conf. req. pr contr. adm. appels"
 TOCTitle: 'Exemple : collecte des données de la configuration requise de votre organisation pour le contrôle d’admission des appels dans Lync Server 2013'
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425827(v=OCS.15)

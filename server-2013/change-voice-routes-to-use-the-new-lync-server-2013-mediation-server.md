@@ -1,6 +1,6 @@
 ﻿---
-title: Modification des itinéraires de communications vocales pour l’utilisation du nouveau serveur de médiation Lync Server 2013
-TOCTitle: Modification des itinéraires de communications vocales pour l’utilisation du nouveau serveur de médiation Lync Server 2013
+title: "Mod. des it. de comm. voc. pour l’ut. du nveau serv. de médiation LS 2013"
+TOCtitle: "Mod. des it. de comm. voc. pour l’ut. du nveau serv. de médiation LS 2013"
 ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205162(v=OCS.15)
 ms:contentKeyID: 49298500

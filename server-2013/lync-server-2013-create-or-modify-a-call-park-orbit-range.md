@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification d’une plage d’orbites de parcage d’appel'
+title: "Lync Server 2013 : Créa. ou mod. d’une plage d’orbites de parcage d’appel"
 TOCTitle: Création ou modification d’une plage d’orbites de parcage d’appel
 ms:assetid: 549ec118-eee5-4333-9416-80929ec057e0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398361(v=OCS.15)

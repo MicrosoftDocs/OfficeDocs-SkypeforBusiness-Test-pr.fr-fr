@@ -1,6 +1,6 @@
 ﻿---
-title: Remplacement du XmlAdapter par un adaptateur de conformité personnalisé du serveur de conversation permanente dans Lync Server 2013
-TOCTitle: Remplacement du XmlAdapter par un adaptateur de conformité personnalisé du serveur de conversation permanente dans Lync Server 2013
+title: "Rempl. XmlAdapter par ad. de conf. perso. du serv. de conv. perm. dans LS 2013"
+TOCtitle: "Rempl. XmlAdapter par ad. de conf. perso. du serv. de conv. perm. dans LS 2013"
 ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ680106(v=OCS.15)
 ms:contentKeyID: 49891284

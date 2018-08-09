@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression des paramètres de configuration de la qualité de l’expérience (QoE)
-TOCTitle: Suppression des paramètres de configuration de la qualité de l’expérience (QoE)
+title: "Suppr. des paramètres de configuration de la qualité de l’expérience (QoE)"
+TOCtitle: "Suppr. des paramètres de configuration de la qualité de l’expérience (QoE)"
 ms:assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182613(v=OCS.15)
 ms:contentKeyID: 49299440

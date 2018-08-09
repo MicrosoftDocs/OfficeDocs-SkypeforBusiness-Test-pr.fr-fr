@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification manuelle d’une règle de normalisation'
+title: "Lync Server 2013 : Créa. ou modification manuelle d’une règle de normalisation"
 TOCTitle: Création ou modification manuelle d’une règle de normalisation
 ms:assetid: fc0335e6-8830-4cfb-8c64-6aeb98c0a992
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413074(v=OCS.15)

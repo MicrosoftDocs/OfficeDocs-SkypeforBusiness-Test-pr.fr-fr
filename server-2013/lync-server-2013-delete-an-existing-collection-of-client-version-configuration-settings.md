@@ -1,6 +1,6 @@
 ﻿---
-title: Supprimer une collection existante de paramètres de configuration de version du client
-TOCTitle: Supprimer une collection existante de paramètres de configuration de version du client
+title: "Supp. une coll. existante de par. de configuration de version du client"
+TOCtitle: "Supp. une coll. existante de par. de configuration de version du client"
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ898480(v=OCS.15)
 ms:contentKeyID: 53095445

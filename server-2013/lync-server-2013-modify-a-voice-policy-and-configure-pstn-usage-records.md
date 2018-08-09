@@ -1,6 +1,6 @@
 ﻿---
-title: Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013
-TOCTitle: Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013
+title: "Mod. une strat. de voix et conf. des enr. d’util. PSTN dans Lync Server 2013"
+TOCtitle: "Mod. une strat. de voix et conf. des enr. d’util. PSTN dans Lync Server 2013"
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398511(v=OCS.15)
 ms:contentKeyID: 49297520

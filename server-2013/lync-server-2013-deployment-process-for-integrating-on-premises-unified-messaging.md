@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Processus de déploiement pour l’intégration de la messagerie unifiée locale'
+title: "Lync Server 2013 : Processus de dépl. pour l’intégration de la mes. un. loc."
 TOCTitle: Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425737(v=OCS.15)

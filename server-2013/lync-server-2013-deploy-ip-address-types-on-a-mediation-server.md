@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déploiement des types d’adresse IP sur un serveur de médiation'
+title: "Lync Server 2013 : Dépl. des types d’adresse IP sur un serveur de médiation"
 TOCTitle: Déploiement des types d’adresse IP sur un serveur de médiation
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204964(v=OCS.15)

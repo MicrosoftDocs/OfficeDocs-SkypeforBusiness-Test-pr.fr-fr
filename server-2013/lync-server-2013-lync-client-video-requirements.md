@@ -1,5 +1,5 @@
 ﻿---
-title: 'Skype Entreprise Server 2015 : configuration requise pour la vidéo du client Skype Entreprise'
+title: "Skype Entreprise Server 2015 : conf. req. pr vidéo du client Skype Entreprise"
 TOCTitle: Configuration requise pour la vidéo du client Skype Entreprise
 ms:assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688132(v=OCS.15)

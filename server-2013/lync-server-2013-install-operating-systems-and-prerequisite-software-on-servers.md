@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Installation des systèmes d’exploitaition et des logiciels prérequis sur les serveurs'
+title: "Lync Server 2013 : Inst. des syst. d’expl. et des log. prérequis sur les serv."
 TOCTitle: Installation des systèmes d’exploitaition et des logiciels prérequis sur les serveurs
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398103(v=OCS.15)

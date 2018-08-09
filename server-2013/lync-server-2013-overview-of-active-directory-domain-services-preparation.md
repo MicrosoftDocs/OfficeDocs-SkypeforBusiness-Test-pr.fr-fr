@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Vue d’ensemble de la préparation des services de domaine Active Directory'
+title: "LS 2013 : Vue d’ens. de la prép. des services de domaine Active Directory"
 TOCTitle: Vue d’ensemble de la préparation des services de domaine Active Directory
 ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398869(v=OCS.15)

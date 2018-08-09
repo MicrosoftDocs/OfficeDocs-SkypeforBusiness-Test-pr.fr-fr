@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Test et création de rapports sur l’état et l’affectation de l’authentification Kerberos'
+title: "Lync Server 2013 : Test, créa. de rapp. sur état et affect. d’auth. Kerberos"
 TOCTitle: Test et création de rapports sur l’état et l’affectation de l’authentification Kerberos
 ms:assetid: 86fc3407-1604-4230-ad04-99aaadcf4e07
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398683(v=OCS.15)

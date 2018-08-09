@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Désactivation du chargement et du téléchargement de fichiers dans les salles de conversation'
+title: "Lync Server 2013 : Dés. charg. et téléch. de fichiers ds les salles de conv."
 TOCTitle: Désactivation du chargement et du téléchargement de fichiers dans les salles de conversation
 ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215882(v=OCS.15)

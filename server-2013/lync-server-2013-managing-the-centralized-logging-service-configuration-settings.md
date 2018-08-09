@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion des paramètres de configuration du service de journalisation centralisée à l’aide de PowerShell
-TOCTitle: Gestion des paramètres de configuration du service de journalisation centralisée à l’aide de PowerShell
+title: "Gest. des par. de conf. du serv. de journ. centralisée à l’aide de PowerShell"
+TOCtitle: "Gest. des par. de conf. du serv. de journ. centralisée à l’aide de PowerShell"
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49891615

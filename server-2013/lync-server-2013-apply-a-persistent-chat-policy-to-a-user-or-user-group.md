@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Application d’une stratégie de conversation permanente à un utilisateur ou à un groupe d’utilisateurs'
+title: "Lync Server 2013 : Ap. d’une strat. de conv. perm. à un ut. ou à un gr. d’ut."
 TOCTitle: Application d’une stratégie de conversation permanente à un utilisateur ou à un groupe d’utilisateurs
 ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205038(v=OCS.15)

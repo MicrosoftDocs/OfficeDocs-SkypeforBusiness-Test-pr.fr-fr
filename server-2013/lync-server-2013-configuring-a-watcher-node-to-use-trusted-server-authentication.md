@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration d’un nœud observateur pour l’utilisation de l’authentification des serveurs approuvés
-TOCTitle: Configuration d’un nœud observateur pour l’utilisation de l’authentification des serveurs approuvés
+title: "Conf. d’un nœud observateur pour l’util. de l’auth. des serveurs approuvés"
+TOCtitle: "Conf. d’un nœud observateur pour l’util. de l’auth. des serveurs approuvés"
 ms:assetid: 42d879ac-aa90-4ed6-b5e2-1e208711672a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204852(v=OCS.15)
 ms:contentKeyID: 49297030

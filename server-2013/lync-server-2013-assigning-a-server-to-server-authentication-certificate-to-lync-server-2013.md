@@ -1,6 +1,6 @@
 ﻿---
-title: Attribution d’un certificat d’authentification de serveur à serveur à Microsoft Lync Server 2013
-TOCTitle: Attribution d’un certificat d’authentification de serveur à serveur à Microsoft Lync Server 2013
+title: "Attr. d’un certif. d’auth. de serveur à serveur à Microsoft Lync Server 2013"
+TOCtitle: "Attr. d’un certif. d’auth. de serveur à serveur à Microsoft Lync Server 2013"
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205253(v=OCS.15)
 ms:contentKeyID: 49298793

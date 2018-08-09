@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification d’une plage de numéros non attribués'
+title: "Lync Server 2013 : Créa. ou modification d’une plage de numéros non attribués"
 TOCTitle: Création ou modification d’une plage de numéros non attribués
 ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412748(v=OCS.15)

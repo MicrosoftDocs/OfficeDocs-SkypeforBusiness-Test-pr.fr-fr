@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Exportation et importation de la configuration du routage des communications vocales'
+title: "Lync Server 2013 : Export. et import. de la config. du routage des comm. voc."
 TOCTitle: Exportation et importation de la configuration du routage des communications vocales
 ms:assetid: c9b78622-5725-43b0-9ee1-5b82b1e1c8eb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398836(v=OCS.15)

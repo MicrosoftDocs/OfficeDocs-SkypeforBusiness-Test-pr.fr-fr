@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : utilisation du portail web d’administration du système de salle Lync'
+title: "Lync Server 2013 : ut. du portail web d’admin. du syst. de salle Lync"
 TOCTitle: Utilisation du portail web d’administration du système de salle Lync
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn743660(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion du parcage d’appel lors de la récupération d’urgence'
+title: "Lync Server 2013 : Gest. du parcage d’appel lors de la récupération d’urgence"
 TOCTitle: Geqtion du parcage d’appel lors de la récupération d’urgence
 ms:assetid: 4df96c38-186f-4b0e-b076-bae6236da7db
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688052(v=OCS.15)

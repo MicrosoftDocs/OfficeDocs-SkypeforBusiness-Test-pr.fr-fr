@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de Microsoft SharePoint Server 2013 pour la recherche des données Microsoft Lync Server 2013 archivées
-TOCTitle: Configuration de Microsoft SharePoint Server 2013 pour la recherche des données Microsoft Lync Server 2013 archivées
+title: "Conf. Micros. SharePoint Server 2013 pr rech. données Microsoft LS 2013 arch."
+TOCtitle: "Conf. Micros. SharePoint Server 2013 pr rech. données Microsoft LS 2013 arch."
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687978(v=OCS.15)
 ms:contentKeyID: 49891246

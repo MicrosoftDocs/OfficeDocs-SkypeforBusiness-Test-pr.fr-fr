@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Modifications apportées dans Lync Server affectant la planification de serveurs Edge'
+title: "Lync Server 2013 : Modif. dans Lync Server affectant la plan. de serv. Edge"
 TOCTitle: Modifications apportées dans Lync Server 2013 affectant la planification de serveurs Edge
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204965(v=OCS.15)

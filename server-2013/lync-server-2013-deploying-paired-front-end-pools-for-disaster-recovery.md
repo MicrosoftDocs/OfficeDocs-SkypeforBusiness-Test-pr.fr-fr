@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déploiement de pools frontaux couplés pour la récupération d’urgence'
+title: "Lync Server 2013 : Dépl. de pools frontaux couplés pour la réc. d’urgence"
 TOCTitle: Déploiement de pools frontaux couplés pour la récupération d’urgence
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204773(v=OCS.15)

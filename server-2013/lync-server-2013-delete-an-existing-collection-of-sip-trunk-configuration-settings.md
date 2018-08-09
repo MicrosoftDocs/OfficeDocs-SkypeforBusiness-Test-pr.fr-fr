@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration de jonction SIP dans Lync Server 2013
-TOCTitle: Suppression d’une collection existante de paramètres de configuration de jonction SIP dans Lync Server 2013
+title: "Supp. d’une collection existante de par. de conf. de jonction SIP dans LS 2013"
+TOCtitle: "Supp. d’une collection existante de par. de conf. de jonction SIP dans LS 2013"
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688024(v=OCS.15)
 ms:contentKeyID: 49891310

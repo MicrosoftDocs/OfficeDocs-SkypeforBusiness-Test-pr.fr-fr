@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition de la configuration requise pour le pare-feu A/V et les ports'
+title: "Lync Server 2013 : Déf. de la conf. req. pour le pare-feu A/V et les ports"
 TOCTitle: Définition de la configuration requise pour le pare-feu A/V et les ports
 ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425882(v=OCS.15)

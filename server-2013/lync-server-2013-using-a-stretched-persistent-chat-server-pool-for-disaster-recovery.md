@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Utilisation d’un pool de serveurs de conversation permanente élargi pour la récupération d’urgence'
+title: "Lync Server 2013 : Ut. d’un pool de serv. de conv. perm. élargi pr réc d’urg."
 TOCTitle: Utilisation d’un pool de serveurs de conversation permanente élargi pour la récupération d’urgence
 ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205007(v=OCS.15)

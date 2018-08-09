@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition d’autres jonctions dans le Gestionnaire de topologies'
+title: "Lync Server 2013 : Déf. d’autres jonctions dans le Gestionnaire de topologies"
 TOCTitle: Définition d’autres jonctions dans le Gestionnaire de topologies
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721915(v=OCS.15)

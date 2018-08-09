@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes'
+title: "LS 2013 : Affect. des strat. de conf. pour la prise en ch. les ut. anonymes"
 TOCTitle: Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg521007(v=OCS.15)

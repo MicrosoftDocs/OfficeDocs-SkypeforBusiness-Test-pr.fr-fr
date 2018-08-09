@@ -1,5 +1,5 @@
 ﻿---
-title: Prise en charge de l’intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013
+title: "Pr. en ch. de l’intég. de la mess. unifiée Exchange héb. dans Lync Server 2013"
 TOCTitle: Prise en charge de l’intégration de la messagerie unifiée Exchange hébergée
 ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398821(v=OCS.15)

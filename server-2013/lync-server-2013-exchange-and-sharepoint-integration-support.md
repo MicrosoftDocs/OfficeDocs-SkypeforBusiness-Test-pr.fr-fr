@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Prise en charge de l’intégration d’Exchange Server et de SharePoint'
+title: "Lync Server 2013 : Prise en ch. de l’int. d’Exchange Server et de SharePoint"
 TOCTitle: Prise en charge de l’intégration d’Exchange Server et de SharePoint
 ms:assetid: 72bf8aa5-55b1-4851-8a59-c96bf85d215a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205005(v=OCS.15)

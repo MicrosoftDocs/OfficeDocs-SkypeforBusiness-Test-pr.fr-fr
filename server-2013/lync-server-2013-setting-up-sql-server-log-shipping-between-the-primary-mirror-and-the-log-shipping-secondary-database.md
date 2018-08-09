@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition de la copie des journaux de transaction SQL Server entre la base de données miroir principale et la base de données secondaire de copie des journaux de transaction'
+title: "LS 2013 : Déf. copie journ. trans. SQL Server entre BD mir. princ. et BD sec."
 TOCTitle: Définition de la copie des journaux de transaction SQL Server entre la base de données miroir principale et la base de données secondaire de copie des journaux de transaction
 ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204887(v=OCS.15)

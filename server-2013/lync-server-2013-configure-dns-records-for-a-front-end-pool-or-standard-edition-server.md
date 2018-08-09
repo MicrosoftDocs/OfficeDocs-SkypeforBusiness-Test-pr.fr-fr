@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des enregistrements DNS pour un pool frontal ou un serveur Standard Edition'
+title: "LS 2013 : Conf. des enr. DNS pour un pool front. ou un serv. Standard Edition"
 TOCTitle: Configuration des enregistrements DNS pour un pool frontal ou un serveur Standard Edition
 ms:assetid: 02871f2f-6c99-49e6-b441-cd21b16d38ee
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398079(v=OCS.15)

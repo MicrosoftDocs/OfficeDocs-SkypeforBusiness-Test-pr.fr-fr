@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant'
+title: "Lync Server 2013 : Conf. d’une entrée d’app. Appr. pr contrôle d’appel distant"
 TOCTitle: Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558636(v=OCS.15)

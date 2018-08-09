@@ -1,5 +1,5 @@
 ﻿---
-title: Options de couplage de pools et meilleures pratiques prises en charge pour Lync Server 2013
+title: "Opt. de couplage de pools et meill. pratiques prises en ch. pour LS 2013"
 TOCTitle: Options de couplage de pools et meilleures pratiques prises en charge
 ms:assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204697(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation des utilisateurs pour le magasin de contacts unifié'
+title: "Lync Server 2013 : Activ. des utilisateurs pour le magasin de contacts unifié"
 TOCTitle: Activation des utilisateurs pour le magasin de contacts unifié
 ms:assetid: 7b46a01f-beb5-4a33-adb0-35f0502b168d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205024(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Test du chat du serveur de conversation permanente avec une transaction synthétique
-TOCTitle: Test du chat du serveur de conversation permanente avec une transaction synthétique
+title: "Test du chat du serv. de conv. Perm. avec une transaction synthétique"
+TOCtitle: "Test du chat du serv. de conv. Perm. avec une transaction synthétique"
 ms:assetid: 414e43f3-0074-4ecf-a232-398de972cb24
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204837(v=OCS.15)
 ms:contentKeyID: 49297012

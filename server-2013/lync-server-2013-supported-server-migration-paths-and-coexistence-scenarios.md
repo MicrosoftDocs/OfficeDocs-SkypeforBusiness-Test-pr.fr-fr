@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Chemins de migration de serveurs et scénarios de coexistence pris en charge'
+title: "Lync Server 2013 : Chemins de migr. de serv. et scénarios de coex. pris en ch."
 TOCTitle: Chemins de migration de serveurs et scénarios de coexistence pris en charge
 ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425764(v=OCS.15)

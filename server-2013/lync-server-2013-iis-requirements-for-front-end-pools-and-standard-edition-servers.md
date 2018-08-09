@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration requise pour les services Internet (IIS) pour les pools frontaux et les serveurs Standard Edition'
+title: "LS 2013 : Conf. req. pr serv. Int. (IIS), pools front., serv. Standard Edition"
 TOCTitle: Configuration requise pour les services Internet (IIS) pour les pools frontaux et les serveurs Standard Edition
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg399038(v=OCS.15)

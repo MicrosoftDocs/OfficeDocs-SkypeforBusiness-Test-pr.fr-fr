@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : (Facultatif) Vérification des paramètres de stratégie de code confidentiel'
+title: "Lync Server 2013 : (Facultatif) Vérif. des par. de strat. de code confidentiel"
 TOCTitle: (Facultatif) Vérification des paramètres de stratégie de code confidentiel
 ms:assetid: d000d2e7-dfd8-4dea-b1ff-f5385d0cfff3
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398892(v=OCS.15)

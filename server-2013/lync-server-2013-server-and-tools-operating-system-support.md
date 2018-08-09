@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Prise en charge du système d’exploitation pour le serveur et les outils'
+title: "Lync Server 2013 : Prise en ch. du syst. d’expl. pour le serveur et les outils"
 TOCTitle: Prise en charge du système d’exploitation pour le serveur et les outils
 ms:assetid: b65a0956-f90d-48d0-ac61-558e67339084
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412883(v=OCS.15)

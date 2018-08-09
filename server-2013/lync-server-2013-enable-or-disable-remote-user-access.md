@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation ou désactivation de l’accès des utilisateurs distants'
+title: "Lync Server 2013 : Activ. ou désactiv. de l’accès des utilisateurs distants"
 TOCTitle: Activation ou désactivation de l’accès des utilisateurs distants
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182586(v=OCS.15)

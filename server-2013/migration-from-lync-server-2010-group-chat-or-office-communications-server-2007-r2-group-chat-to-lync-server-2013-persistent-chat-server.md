@@ -1,6 +1,6 @@
 ﻿---
-title: Migration de Lync Server 2010, conversation de groupe ou de la conversation de groupe Office Communications Server 2007 R2 vers Lync Server 2013, serveur de conversation permanente
-TOCTitle: Migration de Lync Server 2010, conversation de groupe ou de la conversation de groupe Office Communications Server 2007 R2 vers Lync Server 2013, serveur de conversation permanente
+title: "Migr. de LS 2010, conv. de gr. ou conv. de gr. OCS 2007 R2 vers LS 2013, serv. de conv. perm."
+TOCtitle: "Migr. de LS 2010, conv. de gr. ou conv. de gr. OCS 2007 R2 vers LS 2013, serv. de conv. perm."
 ms:assetid: 5b4d3db1-6eba-4932-b49c-f60bcf9488f9
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615442(v=OCS.15)
 ms:contentKeyID: 49297331

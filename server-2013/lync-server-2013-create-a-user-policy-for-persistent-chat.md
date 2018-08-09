@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création d’une stratégie utilisateur pour la conversation permanente'
+title: "Lync Server 2013 : Créa. d’une strat. ut. pour la conversation permanente"
 TOCTitle: Création d’une stratégie utilisateur pour la conversation permanente
 ms:assetid: aa3774af-d442-4206-8a68-2fbb9102e9d6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205170(v=OCS.15)

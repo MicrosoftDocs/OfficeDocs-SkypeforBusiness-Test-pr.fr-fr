@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs fédérés'
+title: "Lync Server 2013 : Conf. des stratégies de contrôle d’accès des ut. fédérés"
 TOCTitle: Configuration des stratégies de contrôler d’accès des utilisateurs fédérés
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398359(v=OCS.15)

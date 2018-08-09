@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des certificats - Serveur Edge unique consolidé avec adresses IP publiques'
+title: "Lync Server 2013 : Résumé des certif. - SE unique cons. avec adr. IP publiques"
 TOCTitle: Résumé des certificats - Serveur Edge unique consolidé avec adresses IP publiques
 ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204747(v=OCS.15)

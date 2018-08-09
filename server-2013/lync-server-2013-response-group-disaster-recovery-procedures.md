@@ -1,5 +1,5 @@
 ﻿---
-title: Procédures de récupération d’urgence des groupes Response Group dans Lync Server 2013
+title: "Procédures de récup. d’urgence des gr. Response Group dans Lync Server 2013"
 TOCTitle: Procédures de récupération d’urgence des groupes Response Group
 ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205186(v=OCS.15)

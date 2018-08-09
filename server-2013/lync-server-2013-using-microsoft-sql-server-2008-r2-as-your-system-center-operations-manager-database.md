@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation de Microsoft SQL Server 2008 R2 comme base de données System Center Operations Manager
-TOCTitle: Utilisation de Microsoft SQL Server 2008 R2 comme base de données System Center Operations Manager
+title: "Ut. de Microsoft SQL Server 2008 R2 comme BD System Center Operations Manager"
+TOCtitle: "Ut. de Microsoft SQL Server 2008 R2 comme BD System Center Operations Manager"
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687969(v=OCS.15)
 ms:contentKeyID: 49891232
