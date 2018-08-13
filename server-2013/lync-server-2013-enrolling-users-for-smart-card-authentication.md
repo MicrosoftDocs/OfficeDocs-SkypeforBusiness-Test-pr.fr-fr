@@ -71,9 +71,10 @@ Pour plus d’informations sur l’inscription des utilisateurs en leur nom via 
 
 11. Une fois le certificat émis, cliquez sur **Installer ce certificat** pour terminer le processus d’inscription.
     
-    > [!NOTE]  
-    > Si votre demande de certificat échoue avec l’erreur « Ce navigateur web ne prend pas en charge la génération des demandes de certificat », vous pouvez résoudre le problème de trois façons :    <ol>    
+> [!NOTE]  
+> Si votre demande de certificat échoue avec l’erreur « Ce navigateur web ne prend pas en charge la génération des demandes de certificat », vous pouvez résoudre le problème de trois façons :
+> <ol>
 > <li><p>Activez l’affichage de compatibilité dans Internet Explorer.</p></li>    
 > <li><p>Activez l’option Activer les paramètres Intranet dans Internet Explorer.</p></li>    
-> <li><p>Sélectionnez le paramètre Rétablir toutes les zones au niveau par défaut sous l’onglet Sécurité du menu Options Internet Explorer.</p></li>    </ol>
-
+> <li><p>Sélectionnez le paramètre Rétablir toutes les zones au niveau par défaut sous l’onglet Sécurité du menu Options Internet Explorer.</p></li>
+> </ol>
