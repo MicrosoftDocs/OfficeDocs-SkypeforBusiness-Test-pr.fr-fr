@@ -141,9 +141,9 @@ Si la valeur False est affectée comme valeur par défaut à UseNormalizationRul
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     
       - Si votre déploiement comprend une combinaison de Lync Server 2013 et de Lync Server 2010 ou d’Office Communications Server 2007 R2, exécutez l’applet de commande suivante et affectez-la à chaque pool Lync Server 2013 de la topologie :
-        
-            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
-
+      ```
+            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+      ```
 3.  Attendez que le réplication CMS ait lieu sur tous les pools.
 
 4.  Modifiez le fichier de règles de normalisation téléphonique de votre déploiement afin d’effacer le contenu. Ce fichier se trouve sur le partage réseau de chaque pool Lync Server 2013. S’il est absent, créez un fichier vide nommé « Company\_Phone\_Number\_Normalization\_Rules.txt ».
