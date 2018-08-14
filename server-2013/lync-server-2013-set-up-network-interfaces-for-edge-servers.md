@@ -17,8 +17,18 @@ _**Dernière rubrique modifiée :** 2012-09-08_
 
 Chaque serveur Edge est un ordinateur multirésident avec des interfaces interne et externe. Les paramètres DNS (Domain Name System) dépendent de la présence ou non de serveurs DNS dans le réseau de périmètre. Si le périmètre comporte des serveurs DNS, ils doivent présenter une zone contenant un ou plusieurs enregistrements DNS A pour le serveur ou le pool du tronçon suivant (un pool frontal désigné ou un pool directeur) et pour les requêtes externes ils renvoient les recherches de noms à d’autres serveurs DNS publics. Si aucun serveur DNS ne figure dans le périmètre, les serveurs Edge utilisent des serveurs DNS externes pour résoudre les recherches de noms Internet et chaque serveur Edge utilise un fichier HOST pour résoudre les noms des serveurs du tronçon suivant en adresses IP.
 
-> [!security]  
-> Pour des raisons de sécurité, il est préférable que vos serveurs Edge n’accèdent pas à un serveur DNS figurant dans le réseau interne.
+<table>
+<thead>
+<tr class="header">
+<th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Sécurité Remarque :</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pour des raisons de sécurité, il est préférable que vos serveurs Edge n’accèdent pas à un serveur DNS figurant dans le réseau interne.</td>
+</tr>
+</tbody>
+</table>
 
 ## Pour configurer des interfaces avec des serveurs DNS dans le réseau de périmètre
 
