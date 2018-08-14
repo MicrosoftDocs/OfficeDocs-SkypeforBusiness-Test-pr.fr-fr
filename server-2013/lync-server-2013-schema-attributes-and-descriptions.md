@@ -680,7 +680,7 @@ Certains attributs ont une valeur masque de bits. Pour ces attributs, chaque par
 <td><p>Cet attribut de type chaîne UNICODE à valeur unique contient la définition de stratégie au format XML. La définition de schéma XML est commune à différents types de stratégies ; seuls les paramètres varient en fonction du type de stratégie.</p>
 <p>La définition de schéma XML (XSD) est définie de la manière suivante :</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;xs:schema id=&quot;instance&quot;  xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+&lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
     &lt;xs:complexType&gt;
       &lt;xs:choice maxOccurs=&quot;unbounded&quot;&gt;
