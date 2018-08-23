@@ -23,19 +23,8 @@ Pour prendre en charge les communications via le pare-feu de votre entreprise, v
 
 Selon vos exigences, vous pouvez déployer un ou plusieurs serveurs Edge dans un ou plusieurs emplacements. Cette section décrit des scénarios de l’accès des utilisateurs externes dans Lync Server 2013 et explique comment planifier votre topologie de périmètre et de proxy inverse.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Même si vous avez besoin d’un serveur Edge pour prendre en charge Voix Entreprise et l’accès des utilisateurs externes, cette section se concentre sur la prise en charge des fonctionnalités de messagerie instantanée, de présence, de conférence A/V, de fédération, de conférence web et de Lync Mobile. Pour plus d’informations sur la prise en charge de Voix Entreprise, reportez-vous à <a href="lync-server-2013-planning-for-enterprise-voice.md">Planification de Voix Entreprise dans Lync Server 2013</a> dans la documentation relative à la planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Même si vous avez besoin d’un serveur Edge pour prendre en charge Voix Entreprise et l’accès des utilisateurs externes, cette section se concentre sur la prise en charge des fonctionnalités de messagerie instantanée, de présence, de conférence A/V, de fédération, de conférence web et de Lync Mobile. Pour plus d’informations sur la prise en charge de Voix Entreprise, reportez-vous à <a href="lync-server-2013-planning-for-enterprise-voice.md">Planification de Voix Entreprise dans Lync Server 2013</a> dans la documentation relative à la planification.
 
 ## Dans cette section
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Conditions prérequises de configuration et de sécurité pour Voix Entreprise'
+title: "Lync Server 2013 : Cond. Prér. de conf. et de sécurité pour Voix Entreprise"
 TOCTitle: Conditions prérequises de configuration et de sécurité pour Voix Entreprise
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398221(v=OCS.15)
@@ -31,35 +31,13 @@ Assurez-vous que votre environnement est configuré avec les groupes d’adminis
     
       - **CsAdministrator :** Ce rôle permet à l’utilisateur d’effectuer toutes les tâches des rôles CsVoiceAdministrator et CsUserAdministrator.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La délégation permet à davantage d’administrateurs de participer au déploiement de Lync Server, sans accès inutile aux ressources.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > La délégation permet à davantage d’administrateurs de participer au déploiement de Lync Server, sans accès inutile aux ressources.
 
   - L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée, à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur les certificats requis dans Lync Server, reportez-vous à <a href="lync-server-2013-certificate-infrastructure-requirements.md">Configuration requise pour les infrastructures de certificat pour Lync Server 2013</a> dans la documentation de planification.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour plus d’informations sur les certificats requis dans Lync Server, reportez-vous à <a href="lync-server-2013-certificate-infrastructure-requirements.md">Configuration requise pour les infrastructures de certificat pour Lync Server 2013</a> dans la documentation de planification.
 
 ## Configuration utilisateur
 
@@ -67,19 +45,8 @@ Si vous avez coIocalisé le serveur de médiation avec chaque pool frontal ou se
 
 Si vous procédez à un nouveau déploiement de la charge de travail de Voix Entreprise, avant de commencer le processus de déploiement, désignez un numéro de téléphone principal pour chaque utilisateur pour lequel vous envisagez d’activer Voix Entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphones principaux doivent être normalisés (c’est-à-dire correctement formés) et copiés dans la propriété **URI de ligne** de chaque utilisateur à l’aide du Panneau de configuration Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour obtenir des exemples des numéros de téléphone principaux requis pour le déploiement de Voix Entreprise, reportez-vous à la section <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Plans de numérotation et règles de normalisation dans Lync Server 2013</a> de <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Plans de numérotation et règles de normalisation dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour obtenir des exemples des numéros de téléphone principaux requis pour le déploiement de Voix Entreprise, reportez-vous à la section <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Plans de numérotation et règles de normalisation dans Lync Server 2013</a> de <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Plans de numérotation et règles de normalisation dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Étapes suivantes : installer les fichiers ou configurer la connectivité RTC
 

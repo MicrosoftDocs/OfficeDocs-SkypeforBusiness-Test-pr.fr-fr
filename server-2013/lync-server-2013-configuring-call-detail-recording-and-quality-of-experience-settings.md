@@ -1,5 +1,5 @@
 ﻿---
-title: Configuration des paramètres de l’enregistrement des détails des appels et de la qualité de l’expérience dans Lync Server 2013
+title: "Conf. des par. d’enr. des détails des appels et qual. de l’exp. dans LS 2013"
 TOCTitle: Configuration des paramètres de l’enregistrement des détails des appels et de la qualité de l’expérience
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204621(v=OCS.15)

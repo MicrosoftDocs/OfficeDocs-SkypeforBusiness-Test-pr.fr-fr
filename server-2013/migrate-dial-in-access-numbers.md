@@ -35,33 +35,11 @@ Les numéros d’accès entrants créés dans Lync Server 2010 mais déplacés 
 
 Vous devez finir la migration des numéros d’accès entrants qui pointent vers un pool Lync Server 2010 avant de désactiver ce pool. Si vous ne terminez pas la migration des numéros d’accès entrants telle que décrite dans la procédure suivante, les appels entrants vers les numéros d’accès échoueront.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez effectuer cette procédure avant de désactiver le pool Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Vous devez effectuer cette procédure avant de désactiver le pool Lync Server 2010.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous vous recommandons d’effectuer le déplacement des numéros d’accès entrants en période de faible utilisation du réseau, au cas où une brève interruption du service surviendrait.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Nous vous recommandons d’effectuer le déplacement des numéros d’accès entrants en période de faible utilisation du réseau, au cas où une brève interruption du service surviendrait.
 
 **Pour identifier et déplacer les numéros d’accès entrants**
 
@@ -79,19 +57,8 @@ Vous devez finir la migration des numéros d’accès entrants qui pointent vers
 
 6.  Vérifiez qu’il ne reste aucun numéro d’accès entrant pour le pool Lync Server 2010 à partir duquel vous effectuez la migration.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lorsque tous les numéros d’accès entrants pointent vers le pool Lync Server 2013, vous pouvez désactiver le pool Lync Server 2010.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Lorsque tous les numéros d’accès entrants pointent vers le pool Lync Server 2013, vous pouvez désactiver le pool Lync Server 2010.
 
 **Vérifiez la migration des numéros d’accès entrants à l’aide du Panneau de configuration Lync Server**
 

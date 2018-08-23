@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Exportation d’un fichier de configuration d’itinéraire des communications vocales'
+title: "Lync Server 2013 : Exp. d’un fichier de conf. d’itinéraire des comm. Voc."
 TOCTitle: Exportation d’un fichier de configuration d’itinéraire des communications vocales
 ms:assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398081(v=OCS.15)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Migration des utilisateurs vers le magasin de contacts unifié'
+title: "Lync Server 2013 : Migration des util. vers le magasin de contacts unifié"
 TOCTitle: Migration des utilisateurs vers le magasin de contacts unifié
 ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204737(v=OCS.15)

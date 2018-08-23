@@ -31,19 +31,8 @@ Vous pouvez configurer des stratégies d’emplacement depuis le groupe **Config
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher des informations que sur une seule stratégie d’emplacement à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous ne pouvez afficher des informations que sur une seule stratégie d’emplacement à la fois.
 
 Une stratégie unique, appelée Globale, existe par défaut. Il n’est pas possible de supprimer ou de renommer cette stratégie. Vous pouvez cependant la modifier. Cette stratégie s’applique à tous les utilisateurs et contacts, sauf si vous créez des stratégies de site ou par utilisateur. Les stratégies par utilisateur doivent être appliquées à des utilisateurs spécifiques.
 
@@ -57,8 +46,8 @@ Une stratégie unique, appelée Globale, existe par défaut. Il n’est pas poss
 
 #### Autres ressources
 
-[New-CsLocationPolicy](new-cslocationpolicy.md)  
-[Set-CsLocationPolicy](set-cslocationpolicy.md)  
-[Remove-CsLocationPolicy](remove-cslocationpolicy.md)  
-[Get-CsLocationPolicy](get-cslocationpolicy.md)
+[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
+[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
+[Remove-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsLocationPolicy)  
+[Get-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsLocationPolicy)
 

@@ -39,19 +39,8 @@ Lync Server 2013 offre plusieurs nouvelles fonctionnalités qui améliorent les
     
     Dans les conférences vidéo, les utilisateurs peuvent voir jusqu’à 5 participants simultanément sur une vidéo.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le mode d’affichage Galerie est conçu pour les conférences regroupant jusqu’à 75 participants. Lorsque le nombre de participant est plus élevé, l’affichage revient à une vue unique.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Le mode d’affichage Galerie est conçu pour les conférences regroupant jusqu’à 75 participants. Lorsque le nombre de participant est plus élevé, l’affichage revient à une vue unique.
 
   - **Vidéo HD**
     

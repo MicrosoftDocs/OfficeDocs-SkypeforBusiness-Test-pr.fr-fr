@@ -75,14 +75,14 @@ Cette section décrit la séquence d’étapes nécessaires pour déployer la fo
 <tr class="even">
 <td><p>Tester votre déploiement de mobilité pour Lync 2010 Mobile à l’aide du service de mobilité Mcx</p></td>
 <td><p>Exécuter <strong>Test-CsMcxP2PIM</strong> pour tester l’envoi d’un message instantané d’une personne à une autre</p>
-<p>Pour obtenir la liste complète des options, reportez-vous à la documentation de l’applet de commande Lync Server Management Shell relative à <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a>.</p></td>
+<p>Pour obtenir la liste complète des options, reportez-vous à la documentation de l’applet de commande Lync Server Management Shell relative à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a>.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Vérification du déploiement de mobilité dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Tester votre déploiement de mobilité pour les clients Lync 2013 Mobile à l’aide des composants web de l’API UCWA</p></td>
 <td><p>Utiliser l’applet de commande <strong>Test-CsUcwaConference</strong> pour vérifier que des utilisateurs tests prédéfinis ou deux utilisateurs réels peuvent créer une conférence et y participer à l’aide de l’API UCWA</p>
-<p>Pour obtenir la liste complète des options, reportez-vous à la documentation de l’applet de commande Lync Server Management Shell relative à <a href="test-csucwaconference.md">Test-CsUcwaConference</a>.</p></td>
+<p>Pour obtenir la liste complète des options, reportez-vous à la documentation de l’applet de commande Lync Server Management Shell relative à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a>.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Vérification du déploiement de mobilité dans Lync Server 2013</a></p></td>
 </tr>
@@ -95,22 +95,12 @@ Cette section décrit la séquence d’étapes nécessaires pour déployer la fo
 <li><p>Si vous souhaitez prendre en charge les notifications push sur un réseau Wi-Fi, configurer une règle de pare-feu sortante pour le port TCP 5223</p></li>
 <li><p>Utiliser l’applet de commande <strong>Set-CsPushNotificationConfiguration</strong> pour activer les notifications push vers le service APNS (Apple Push Notification Service) et le service MPNS (Microsoft Push Notification Service). Cette fonctionnalité est désactivée par défaut.</p></li>
 <li><p>Utiliser l’applet de commande <strong>Test-CsFederatedPartner</strong> pour tester la configuration de la fédération et l’applet de commande <strong>Test-CsMCXPushNotification</strong> pour tester les notifications push</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les notifications push sont utilisées pour les clients Lync 2010 Mobile sur les appareils Apple et Windows Phone<br />
-La notification push est requise pour les clients Lync 2013 Mobile sur Windows Phone uniquement</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Les notifications push sont utilisées pour les clients Lync 2010 Mobile sur les appareils Apple et Windows Phone<br />
+La notification push est requise pour les clients Lync 2013 Mobile sur Windows Phone uniquement
+
+</li>
 </ul></td>
 <td><p>RtcUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-for-push-notifications.md">Configuration des notifications push dans Lync Server 2013</a></p></td>

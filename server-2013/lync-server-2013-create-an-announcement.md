@@ -23,19 +23,8 @@ Pour créer une annonce, vous devez effectuer les tâches suivantes :
 
 3.  Exécutez l’applet de commande **New-CsAnnouncement** pour créer et nommer l’annonce. Effectuez cette étape pour créer des annonces avec une invite audio, une invite TTS ou sans invite.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez créer une annonce sans invite (par exemple, si vous voulez transférer des appels vers une destination spécifiques sans lire d’invite).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Vous pouvez créer une annonce sans invite (par exemple, si vous voulez transférer des appels vers une destination spécifiques sans lire d’invite).
 
 4.  Affecter la nouvelle annonce à une plage de numéros dans la table des numéros non attribués.
 
@@ -69,13 +58,13 @@ Cette rubrique décrit comment importer et créer des annonces. Pour plus d’in
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Pour plus d’informations sur ces applets de commande et pour voir une liste des codes de langues à utiliser dans le paramètre **TextToSpeechPrompt**, reportez-vous à [New-CsAnnouncement](new-csannouncement.md).
+    Pour plus d’informations sur ces applets de commande et pour voir une liste des codes de langues à utiliser dans le paramètre **TextToSpeechPrompt**, reportez-vous à [New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement).
 
 ## Voir aussi
 
 #### Autres ressources
 
-[Import-CsAnnouncementFile](import-csannouncementfile.md)  
-[New-CsAnnouncement](new-csannouncement.md)  
+[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
+[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
 [Configuration de la table des numéros non attribués dans Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
 

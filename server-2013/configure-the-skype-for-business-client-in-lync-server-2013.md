@@ -21,33 +21,11 @@ Skype Entreprise provides a new user experience that is based on the Skype consu
 
 Lync Server 2013 supports the new Skype Entreprise client experience as well as the Lync client experience. As an administrator, you can choose the preferred client experience for your users. For example, you might want to deploy the Lync client experience until users in your organization are fully trained in the new Skype Entreprise experience. Or, if you have not yet upgraded all users to Skype Entreprise Server 2015, you might want all users to have the same client experience until all are upgraded to the new server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>If your organization has both Skype Entreprise Server 2015 and Lync Server 2013 deployed, the default client experience will differ depending on server versions and UI settings. When users launch Skype Entreprise for the first time, they will always see the Skype Entreprise user interface--even if you have selected the Lync user interface. After several minutes, users are asked to switch to Lync mode. For more information, see <strong>First launch client behavior</strong> later in this topic.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> If your organization has both Skype Entreprise Server 2015 and Lync Server 2013 deployed, the default client experience will differ depending on server versions and UI settings. When users launch Skype Entreprise for the first time, they will always see the Skype Entreprise user interface--even if you have selected the Lync user interface. After several minutes, users are asked to switch to Lync mode. For more information, see <strong>First launch client behavior</strong> later in this topic.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>The Lync 2013 client experience is not an option for Skype Entreprise 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> The Lync 2013 client experience is not an option for Skype Entreprise 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x.
 
 ## Configure the client experience
 

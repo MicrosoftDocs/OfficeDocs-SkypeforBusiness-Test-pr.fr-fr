@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition de l’expérience utilisateur pour l’acquisition manuelle d’un emplacement'
+title: "Lync Server 2013 : Déf. de l’exp. Ut. pour l’acq. manuelle d’un emplacement"
 TOCTitle: Définition de l’expérience utilisateur pour l’acquisition manuelle d’un emplacement
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398912(v=OCS.15)
@@ -24,16 +24,5 @@ Si un client se trouve à l’extérieur du réseau ou dans un sous-réseau non 
 
 Quand un utilisateur entre manuellement un emplacement, ce dernier est mappé à l’adresse MAC de la passerelle par défaut du réseau du client. Il est ensuite stocké dans une table d’utilisateurs individuels située sur le client. Quand l’utilisateur retourne à un emplacement déjà enregistré, le client Lync est automatiquement défini sur cet emplacement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez uniquement modifier l’emplacement actuel de votre client, mais vous pouvez supprimer les emplacements stockés dans la table des utilisateurs locaux.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez uniquement modifier l’emplacement actuel de votre client, mais vous pouvez supprimer les emplacements stockés dans la table des utilisateurs locaux.

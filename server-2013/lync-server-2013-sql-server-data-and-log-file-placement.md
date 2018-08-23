@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Lors de la planification et du déploiement de Microsoft SQL Server 2012 ou Microsoft SQL Server 2008 R2 SP1 pour votre pool de serveurs frontauxLync Server 2013, le placement des données et des fichiers journaux sur des disques durs physiques à des fins de performances est un exercice essentiel. La configuration de disques recommandée consiste à mettre en œuvre un jeu RAID 1+0 avec 6 piles. Le scénario optimal consiste à placer tous les fichiers journaux et de bases de données utilisés par le pool de serveurs frontaux et les rôles serveur et services associés (autrement dit, serveur d’archivage et de surveillance, service Response Group Lync Server, service de parcage d’appel Lync Server) sur le jeu de lecteurs RAID à l’aide de l’Assistant Déploiement de Lync Server. Le tableau ci-dessous présente les différents fichiers de bases de données ainsi que leur rôle.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vos stratégies et configurations SQL Server nécessitent une installation plus spécialisée, les fichiers journaux et de bases de données peuvent être installés à tout emplacement prédéfini à l’aide de Lync Server Management Shell. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Installation de la base de données avec Lync Server Management Shell dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vos stratégies et configurations SQL Server nécessitent une installation plus spécialisée, les fichiers journaux et de bases de données peuvent être installés à tout emplacement prédéfini à l’aide de Lync Server Management Shell. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Installation de la base de données avec Lync Server Management Shell dans Lync Server 2013</a>.
 
 ### Fichiers de données et fichiers journaux pour le magasin central de gestion
 

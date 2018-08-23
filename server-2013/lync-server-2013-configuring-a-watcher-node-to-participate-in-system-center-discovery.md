@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration d’un nœud observateur pour la participation à la découverte de System Center
-TOCTitle: Configuration d’un nœud observateur pour la participation à la découverte de System Center
+title: "Conf. nœud observateur pour la participation à la découverte de System Center"
+TOCtitle: "Conf. nœud observateur pour la participation à la découverte de System Center"
 ms:assetid: 15c5dcfd-603b-47ea-af1b-8714c2ec08af
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204704(v=OCS.15)
 ms:contentKeyID: 49296362

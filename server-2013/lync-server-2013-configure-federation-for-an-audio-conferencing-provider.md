@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la fédération pour un fournisseur de services d’audioconférence'
+title: "Lync Server 2013 : Conf. de la féd. pour un fourn. de serv. d’audioconférence"
 TOCTitle: Configuration de la fédération pour un fournisseur de services d’audioconférence
 ms:assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn510996(v=OCS.15)

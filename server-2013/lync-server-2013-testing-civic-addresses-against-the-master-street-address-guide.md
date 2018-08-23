@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Testing civic addresses against the master street address guide'
+title: "LS 2013: Test des adr. de voirie par rapport au guide princ. des adr. de rue"
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn690132(v=OCS.15)
@@ -56,7 +56,7 @@ By comparison, this command tests all the addresses currently in your LIS databa
 
     Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
 
-For more information, see the Help documentation for the [Test-CsRegistration](test-csregistration.md) cmdlet.
+For more information, see the Help documentation for the [Test-CsRegistration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsRegistration) cmdlet.
 
 ## Determining success or failure
 

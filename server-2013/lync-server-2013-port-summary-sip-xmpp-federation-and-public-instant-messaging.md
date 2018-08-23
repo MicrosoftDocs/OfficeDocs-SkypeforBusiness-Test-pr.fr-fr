@@ -1,6 +1,6 @@
 ﻿---
-title: Résumé des ports - Fédération SIP, fédération XMPP et messagerie instantanée publique
-TOCTitle: Résumé des ports - Fédération SIP, fédération XMPP et messagerie instantanée publique
+title: "Résumé des ports - Féd. SIP, XMPP et messagerie instantanée publique"
+TOCtitle: "Résumé des ports - Féd. SIP, XMPP et messagerie instantanée publique"
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ618373(v=OCS.15)
 ms:contentKeyID: 49298516
@@ -21,20 +21,9 @@ Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à 
 
 Windows Live Messenger peut participer à des communications audio/vidéo avec les clients Lync. Ceci explique que, généralement, configurations du port et du protocole du pare-feu sont similaires pour la prise en charge des clients Lync en tant qu’utilisateurs externes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.<br />
-La fédération avec les contacts du client Messenger prendra officiellement fin le 15 mars 2013, sauf pour la Chine. Skype deviendra le client de fédération pour les utilisateurs fédérés qui utilisaient Messenger.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.<br />
+La fédération avec les contacts du client Messenger prendra officiellement fin le 15 mars 2013, sauf pour la Chine. Skype deviendra le client de fédération pour les utilisateurs fédérés qui utilisaient Messenger.
 
 Les ports et protocoles définis pour le proxy XMPP (Extensible Messaging and Presence Protocol) déployé sur le serveur Edge autorisent les communications d’un partenaire fédéré XMPP au serveur Edge ainsi que de votre serveur Edge au partenaire fédéré XMPP. Une règle est également définie sur le pare-feu côté interne du serveur frontal ou du pool de serveurs frontaux au serveur Edge ou au pool de serveurs Edge.
 

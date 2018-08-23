@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition de la configuration requise pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Déf. de la conf. requise pour le serveur de conv. Perm."
 TOCTitle: Définition de la configuration requise pour l’organisation du serveur de conversation permanente
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398372(v=OCS.15)
@@ -37,16 +37,5 @@ Avant de déployer un serveur de conversations permanentes pour votre organisati
 
   - Existe-t-il des exigences réglementaires ? Si votre société est basée dans un pays/région où les données doivent être conservées à l’échelle nationale, vous devrez déployer plusieurs pools de serveurs de conversations permanentes, chacun étant propre à une zone géographique particulière. Une salle, une catégorie ou un complément ne couvre pas les pools. Il n’appartient qu‘à un seul pool de serveurs de conversations permanentes. Vous pouvez gérer l’ennsemble de catégories, de salles et de compléments pour chaque pool de serveurs de conversations permanentes. Il est possible de configurer des utilisateurs pour accéder aux salles dans un ou plusieurs pools via l’étendue AllowedMembers de la catégorie ou l’adhésion de la salle, selon la manière dont vous concevez vos catégories.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Même si vous disposez de plusieurs pools de serveurs de conversations permanentes, cela n’a pas d’impact au niveau de l’échelle (vous ne pouvez avoir que 80 000 utilisateurs connectés simultanément sur l’ensemble de vos pools de serveurs de conversations permanentes). La raison principale pour la prise en charge de plusieurs pools de serveurs de conversations permanentes est de satisfaire aux exigences réglementaires.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Même si vous disposez de plusieurs pools de serveurs de conversations permanentes, cela n’a pas d’impact au niveau de l’échelle (vous ne pouvez avoir que 80 000 utilisateurs connectés simultanément sur l’ensemble de vos pools de serveurs de conversations permanentes). La raison principale pour la prise en charge de plusieurs pools de serveurs de conversations permanentes est de satisfaire aux exigences réglementaires.

@@ -49,8 +49,6 @@ A primary part of keeping Monitoring Server Reports interesting for daily and we
 
 8.  Click **Commit**.
 
-9.  
-
 ## Configure QoE
 
 1.  Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see Delegate Setup Permissions.

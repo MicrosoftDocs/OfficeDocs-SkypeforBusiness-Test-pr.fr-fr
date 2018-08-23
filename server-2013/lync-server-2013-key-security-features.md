@@ -55,19 +55,8 @@ Microsoft Lync Server 2013 inclut le contrôle d’accès basé sur un rôle (R
 
 Lync Server 2013 ne prend pas en charge l’utilisation de la traduction d’adresses réseau sur l’interface interne du serveur Edge, mais autorise le placement de l’interface externe du service Edge d’accès, du service Edge de conférence web et du service Edge A/V derrière un routeur ou un pare-feu exécutant la traduction d’adresses réseau pour des topologies de serveur Edge uniques et consolidées mises à l’échelle à la fois. Plusieurs serveurs Edge derrière un programme d’équilibrage de la charge matérielle ne peuvent pas utiliser la traduction d’adresses réseau. Si plusieurs serveurs Edge utilisent la traduction d’adresses réseau sur leurs interfaces externes, l’équilibrage de la charge DNS (Domain Name System) est requise. L’utilisation de l’équilibrage de la charge DNS vous permet de réduire le nombre d’adresse IP publiques par serveur Edge dans un pool de serveurs Edge. Pour plus d’informations, voir [Planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous vous fédérez avec des entreprises qui ont un déploiement de Microsoft Office Communications Server 2007 et que vous devez utiliser l’audio et la vidéo entre votre entreprise et une entreprise fédérée, les ports utilisés seront ceux de l’ancienne version des serveurs Edge déployés. Par exemple, les plages de ports requises pour ces anciennes versions doivent être ouvertes pour les deux entreprises jusqu’à ce que le partenaire fédéré mette à niveau ses serveurs Edge vers Lync Server 2013. Les exigences relatives aux ports peuvent alors être réévaluées et réduites, conformément à la nouvelle configuration.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous vous fédérez avec des entreprises qui ont un déploiement de Microsoft Office Communications Server 2007 et que vous devez utiliser l’audio et la vidéo entre votre entreprise et une entreprise fédérée, les ports utilisés seront ceux de l’ancienne version des serveurs Edge déployés. Par exemple, les plages de ports requises pour ces anciennes versions doivent être ouvertes pour les deux entreprises jusqu’à ce que le partenaire fédéré mette à niveau ses serveurs Edge vers Lync Server 2013. Les exigences relatives aux ports peuvent alors être réévaluées et réduites, conformément à la nouvelle configuration.
 
 ## Certificats simplifiés pour les serveurs Edge
 

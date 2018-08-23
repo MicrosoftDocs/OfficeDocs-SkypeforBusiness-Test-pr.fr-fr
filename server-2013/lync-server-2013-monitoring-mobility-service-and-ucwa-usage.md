@@ -31,19 +31,8 @@ Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez
 
   - **ASP.NET\\Requests Queued** (doit toujours être égal à zéro).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous atteignez ou dépassez ces valeurs, vous devez réévaluer et recalculer votre planification de la capacité afin de dimensionner correctement le processeur, le nombre de cœurs et la mémoire pour les ordinateurs qui hébergent les services web.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous atteignez ou dépassez ces valeurs, vous devez réévaluer et recalculer votre planification de la capacité afin de dimensionner correctement le processeur, le nombre de cœurs et la mémoire pour les ordinateurs qui hébergent les services web.
 
 **Pour le service de mobilité (Mcx) :**
 
@@ -59,19 +48,8 @@ Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez
 
   - **ASP.NET\\Requests Queued** (doit toujours être égal à zéro).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous atteignez ou dépassez ces valeurs, vous devez réévaluer et recalculer votre planification de la capacité afin de dimensionner correctement le processeur, le nombre de cœurs et la mémoire pour les ordinateurs qui hébergent les services web.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous atteignez ou dépassez ces valeurs, vous devez réévaluer et recalculer votre planification de la capacité afin de dimensionner correctement le processeur, le nombre de cœurs et la mémoire pour les ordinateurs qui hébergent les services web.
 
 ## Voir aussi
 

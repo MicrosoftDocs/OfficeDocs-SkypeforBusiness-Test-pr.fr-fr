@@ -1,6 +1,6 @@
 ﻿---
-title: Exécuter les cas de test du routage des communications vocales dans Lync Server 2013
-TOCTitle: Exécuter les cas de test du routage des communications vocales dans Lync Server 2013
+title: "Exéc. les cas de test du routage des comm. voc. dans Lync Server 2013"
+TOCtitle: "Exéc. les cas de test du routage des comm. voc. dans Lync Server 2013"
 ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413068(v=OCS.15)
 ms:contentKeyID: 49299434
@@ -41,19 +41,8 @@ Vous pouvez exécuter tous les cas de test dans votre suite de cas de test de ro
     
     5.  **Premier itinéraire** : le premier itinéraire des communications vocales dans l’enregistrement de la première utilisation PSTN qui correspond au numéro composé.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Les champs <strong>Enregistrement d’utilisation PSTN attendu</strong> et <strong>Itinéraire attendu</strong> sont facultatifs dans la configuration d’un cas de test de routage des communications vocales. Si les cas de test ne spécifient pas ces valeurs, le champ correspondant dans les résultats de test sera vide.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Les champs <strong>Enregistrement d’utilisation PSTN attendu</strong> et <strong>Itinéraire attendu</strong> sont facultatifs dans la configuration d’un cas de test de routage des communications vocales. Si les cas de test ne spécifient pas ces valeurs, le champ correspondant dans les résultats de test sera vide.
 
 ## Pour exécuter un ou plusieurs cas de test de routage des communications vocales
 
@@ -81,19 +70,8 @@ Vous pouvez exécuter tous les cas de test dans votre suite de cas de test de ro
     
     5.  **Premier itinéraire** : le premier itinéraire des communications vocales dans l’enregistrement de la première utilisation PSTN qui correspond au numéro composé.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Les champs <strong>Enregistrement d’utilisation PSTN attendu</strong> et <strong>Itinéraire attendu</strong> sont facultatifs dans la configuration d’un cas de test de routage des communications vocales. Si les cas de test ne spécifient pas ces valeurs, le champ correspondant dans les résultats de test sera vide.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Les champs <strong>Enregistrement d’utilisation PSTN attendu</strong> et <strong>Itinéraire attendu</strong> sont facultatifs dans la configuration d’un cas de test de routage des communications vocales. Si les cas de test ne spécifient pas ces valeurs, le champ correspondant dans les résultats de test sera vide.
 
 ## Voir aussi
 

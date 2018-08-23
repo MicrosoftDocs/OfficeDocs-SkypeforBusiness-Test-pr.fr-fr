@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Restauration du pool Edge utilisé pour la fédération XMPP ou Lync Server '
+title: "Lync Server 2013 : Rest. du pool Edge util. pour la féd. XMPP ou Lync Server "
 TOCTitle: Restauration du pool Edge utilisé pour la fédération XMPP ou Lync Server
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721897(v=OCS.15)

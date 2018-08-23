@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync'
+title: "Lync Server 2013 : Attri. strat. d’accès des util. ext. à util. activé pr Lync"
 TOCTitle: Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398551(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-22_
 
 Si Lync Server a été activé pour un utilisateur, vous pouvez configurer la fédération SIP, la fédération XMPP, l’accès des utilisateurs distants et la connectivité PIC (Public IM Connectivity) dans le Panneau de configuration Lync Server en appliquant les stratégies appropriées aux utilisateurs spécifiques. Par exemple, si vous avez créé une stratégie de prise en charge de l’accès des utilisateurs distants, vous devez l’appliquer à l’utilisateur avant qu’il puisse se connecter à Lync Server depuis un emplacement distant d’où il pourra collaborer avec les utilisateurs internes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour prendre en charge l’accès des utilisateurs externes, vous devez activer la prise en charge pour chaque type d’accès d’utilisateur externe à prendre en charge, puis configurer les stratégies appropriées et d’autres options afin de contrôler son utilisation. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-support-for-external-user-access.md">Configuration de la prise en charge de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement ou <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gestion de la fédération et de l’accès externe à Lync Server 2013</a> dans la documentation des opérations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour prendre en charge l’accès des utilisateurs externes, vous devez activer la prise en charge pour chaque type d’accès d’utilisateur externe à prendre en charge, puis configurer les stratégies appropriées et d’autres options afin de contrôler son utilisation. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-support-for-external-user-access.md">Configuration de la prise en charge de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement ou <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gestion de la fédération et de l’accès externe à Lync Server 2013</a> dans la documentation des opérations.
 
 La procédure de cette rubrique vous permet d’appliquer une stratégie d’accès des utilisateurs externes créée précédemment à un ou plusieurs comptes d’utilisateurs.
 
@@ -45,19 +34,8 @@ La procédure de cette rubrique vous permet d’appliquer une stratégie d’acc
 
 5.  Dans **Modifier l’utilisateur Lync Server** sous **Stratégie d’accès externe** , sélectionnez la stratégie d’utilisateur à appliquer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres de stratégie globale ou du serveur par défaut.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres de stratégie globale ou du serveur par défaut.
 
 ## Affectatiion e stratégies d’accès externe utilisateur via les appplets de commande Windows PowerShell
 
@@ -71,7 +49,7 @@ Il est possible d’affecter des stratégies d’accès externe utilisateur à l
 
 ## Affecter une stratégie d’accès externe utilisateur à plusieurs utilisateurs
 
-  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur USAExternalAccessPolicy à tous les utilisateurs qui possèdent des comptes dans l’unité d’organisation (OU) UnitedStates dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, reportez-vous à la documentation de l’applet de commande [Get-CsUser](get-csuser.md).
+  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur USAExternalAccessPolicy à tous les utilisateurs qui possèdent des comptes dans l’unité d’organisation (OU) UnitedStates dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, reportez-vous à la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -81,5 +59,5 @@ Il est possible d’affecter des stratégies d’accès externe utilisateur à l
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md).
+Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
 

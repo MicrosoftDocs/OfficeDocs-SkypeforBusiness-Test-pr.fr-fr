@@ -1,6 +1,6 @@
 ﻿---
-title: Afficher le statut des services s’exécutant sur un ordinateur dans Lync Server 2013
-TOCTitle: Afficher le statut des services s’exécutant sur un ordinateur dans Lync Server 2013
+title: "Afficher le statut des services s’exécutant sur un ordi. dans Lync Server 2013"
+TOCtitle: "Afficher le statut des services s’exécutant sur un ordi. dans Lync Server 2013"
 ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182606(v=OCS.15)
 ms:contentKeyID: 49299355
@@ -55,7 +55,7 @@ Vous pouvez également afficher l’état des services en utilisant Lync Server 
         {ConferencingServer}                      Running
         {MediationServer}                         Running
 
-Pour plus d’informations, voir [Get-CsWindowsService](get-cswindowsservice.md).
+Pour plus d’informations, voir [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
 
 ## Voir aussi
 

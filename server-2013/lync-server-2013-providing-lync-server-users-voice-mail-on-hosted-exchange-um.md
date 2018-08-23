@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Mise à disposition de la messagerie vocale Lync Server aux utilisateurs sur la messagerie unifiée Exchange'
+title: "LS 2013 : Màd de la mess. Voc. LS aux util. sur la messagerie unifiée Exchange"
 TOCTitle: Mise à disposition de la messagerie vocale Lync Server 2013 aux utilisateurs sur la messagerie unifiée Exchange hébergée
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425807(v=OCS.15)

@@ -47,19 +47,8 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 
 Une fois que vous avez utilisé cette applet de commande, redémarrez tous les serveurs frontaux dans le pool ou les serveurs Standard Edition Server sur lesquels l’application de conférence avec routage géodépendant a été activée.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les restrictions de routage géodépendant relatives aux conférences ou transferts consultatifs ne sont pas appliquées tant que tous les serveurs frontaux dans les pools applicables ou les serveurs Standard Edition Server ne sont pas redémarrés. Si vous définissez <strong>–Critical</strong> sur <strong>$true</strong> dans les applets de commande précédentes, vos services Lync redémarrent immédiatement. Si vous ne souhaitez pas que ces services redémarrent immédiatement, définissez <strong>–Critical</strong> sur <strong>$false</strong> pour le moment, puis utilisez <strong>Set-CsServerApplication</strong> pour modifier <strong>-Critical</strong> sur <strong>$true</strong> par la suite, une fois que les services ont redémarré.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Les restrictions de routage géodépendant relatives aux conférences ou transferts consultatifs ne sont pas appliquées tant que tous les serveurs frontaux dans les pools applicables ou les serveurs Standard Edition Server ne sont pas redémarrés. Si vous définissez <strong>–Critical</strong> sur <strong>$true</strong> dans les applets de commande précédentes, vos services Lync redémarrent immédiatement. Si vous ne souhaitez pas que ces services redémarrent immédiatement, définissez <strong>–Critical</strong> sur <strong>$false</strong> pour le moment, puis utilisez <strong>Set-CsServerApplication</strong> pour modifier <strong>-Critical</strong> sur <strong>$true</strong> par la suite, une fois que les services ont redémarré.
 
 Une fois l’application de conférence avec routage géodépendant correctement activée et tous les serveurs Lync applicables redémarrés, toutes les conférences organisées par des utilisateurs Lync pour lesquels le routage géodépendant est activé seront surveillées pour empêcher le contournement des frais de réseau téléphonique commuté.
 

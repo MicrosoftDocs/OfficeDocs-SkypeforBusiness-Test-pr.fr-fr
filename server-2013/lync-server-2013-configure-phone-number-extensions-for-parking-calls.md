@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-09-10_
 
 L’application de parcage d’appel utilise des numéros d’extension dans la table d’orbite du parcage d’appelpour parquer les appels. Vous devez configurer la table d’orbite du parcage d’appel avec les plages de numéros de poste que votre organisation réserve pour les appels parqués. Ces extensions doivent être des postes virtuels (c’est à dire, des postes auxquels aucun utilisateur ou téléphone n’a été affecté). Chaque pool Lync Server où une application de parcage d’appel est déployée et configurée peut avoir une ou plusieurs plages d’orbite. Les plages d’orbites doivent être globalement uniques sur le déploiement Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez sélectionner la case à cocher <strong>Activer le parcage d’appel</strong> dans votre stratégie de la voix avant de pouvoir utiliser le parcage d’appel. Par défaut, cette option n’est pas sélectionnée.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Vous devez sélectionner la case à cocher <strong>Activer le parcage d’appel</strong> dans votre stratégie de la voix avant de pouvoir utiliser le parcage d’appel. Par défaut, cette option n’est pas sélectionnée.
 
 ## Dans cette section
 

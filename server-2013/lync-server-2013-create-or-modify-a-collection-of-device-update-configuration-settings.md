@@ -1,6 +1,6 @@
 ﻿---
-title: Créer ou modifier une collection de paramètres de configuration de la mise à jour des périphériques
-TOCTitle: Créer ou modifier une collection de paramètres de configuration de la mise à jour des périphériques
+title: "Créer ou mod. une collection de par. de conf. de la màj des périphériques"
+TOCtitle: "Créer ou mod. une collection de par. de conf. de la màj des périphériques"
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994029(v=OCS.15)
 ms:contentKeyID: 53095396
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Les paramètres de configuration de mise à jour des périphériques peuvent être créés (au niveau de l’étendue Site) à l’aide de Windows PowerShell et de l’applet de commande **New-CsDeviceUpdateConfiguration** et modifiés à l’aide de l’applet de commande **Set-CsDeviceUpdateConfiguration**. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 
 ## Pour créer des paramètres de configuration de mise à jour des périphériques qui utilisent les valeurs par défaut
@@ -52,5 +41,5 @@ Les paramètres de configuration de mise à jour des périphériques peuvent êt
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-Pour plus d’informations sur la modification des paramètres de configuration des périphériques existants, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md). Pour plus d’informations sur la création de collections de paramètres de configuration, voir la rubrique d’aide relative à l’applet de commande [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md).
+Pour plus d’informations sur la modification des paramètres de configuration des périphériques existants, voir la rubrique d’aide relative à l’applet de commande [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration). Pour plus d’informations sur la création de collections de paramètres de configuration, voir la rubrique d’aide relative à l’applet de commande [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration).
 

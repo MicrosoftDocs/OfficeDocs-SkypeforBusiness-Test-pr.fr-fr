@@ -33,19 +33,8 @@ La procédure décrite dans cette rubrique explique comment affecter un **URI de
 
 6.  Sous **Téléphonie**, dans le champ **URI de ligne**, tapez un numéro de téléphone normalisé unique (par exemple, tel:+14255550200).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez spécifier un <strong>URI de ligne</strong> uniquement si l’option <strong>Téléphonie</strong> est définie sur <strong>De PC à PC uniquement</strong>, <strong>Voix Entreprise</strong>, <strong>Contrôle d’appel distant</strong> ou <strong>Contrôle d’appel distant uniquement</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez spécifier un <strong>URI de ligne</strong> uniquement si l’option <strong>Téléphonie</strong> est définie sur <strong>De PC à PC uniquement</strong>, <strong>Voix Entreprise</strong>, <strong>Contrôle d’appel distant</strong> ou <strong>Contrôle d’appel distant uniquement</strong>.
 
 7.  Cliquez sur **Valider**.
 

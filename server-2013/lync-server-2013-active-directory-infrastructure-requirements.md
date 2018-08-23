@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration requise pour l’infrastructure Active Directory'
+title: "Lync Server 2013 : Conf. requise pour l’infrastructure Active Directory"
 TOCTitle: Configuration requise pour l’infrastructure Active Directory
 ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412955(v=OCS.15)
@@ -37,19 +37,8 @@ Avant d’entamer le processus de préparation des services de domaine Active D
 
   - La forêt dans laquelle vous déployez Lync Server est élevée à un niveau fonctionnel de forêt de Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou au minimum Windows Server 2003.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour modifier le niveau fonctionnel de votre domaine ou de votre forêt, reportez-vous à l’article « Augmentation des niveaux fonctionnels des domaines et des forêts » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a></td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour modifier le niveau fonctionnel de votre domaine ou de votre forêt, reportez-vous à l’article « Augmentation des niveaux fonctionnels des domaines et des forêts » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>
 
   - Un catalogue global est déployé dans tous les domaines dans lesquels vous déployez des ordinateurs ou des utilisateurs Lync Server.
 

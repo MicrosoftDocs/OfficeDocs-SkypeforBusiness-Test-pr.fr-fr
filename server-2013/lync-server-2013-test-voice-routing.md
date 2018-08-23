@@ -19,33 +19,11 @@ Vous pouvez utiliser l’onglet **Tester le routage des com. vocales** du Pannea
 
 Avant de déployer votre configuration de routage des communications vocales, nous vous conseillons de la tester sur plusieurs numéros de téléphone pour vous assurer que les résultats obtenus sont ceux escomptés.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez faire appel aux commandes <strong>Exporter des cas de test</strong> et <strong>Importer des cas de test</strong> pour enregistrer des cas de test de routage des communications vocales et les importer sur un autre ordinateur afin de les utiliser.</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Vous pouvez faire appel aux commandes <strong>Exporter des cas de test</strong> et <strong>Importer des cas de test</strong> pour enregistrer des cas de test de routage des communications vocales et les importer sur un autre ordinateur afin de les utiliser.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous supprimez une partie de la configuration du routage des communications vocales, comme un plan de numérotation, une stratégie de voix, un itinéraire de communications vocales ou l’utilisation téléphonique, vous devez examiner et mettre à jour vos cas de test de routage des communications vocales. Le Panneau de configuration Lync Server ne vous demandera pas de tester des cas qui ne sont plus valables suite aux modifications apportées aux configurations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!CAUTION]  
+> Si vous supprimez une partie de la configuration du routage des communications vocales, comme un plan de numérotation, une stratégie de voix, un itinéraire de communications vocales ou l’utilisation téléphonique, vous devez examiner et mettre à jour vos cas de test de routage des communications vocales. Le Panneau de configuration Lync Server ne vous demandera pas de tester des cas qui ne sont plus valables suite aux modifications apportées aux configurations.
 
 ## Dans cette section
 

@@ -27,19 +27,8 @@ La plupart des composants Edge sont déployés sur un réseau de périmètre. Le
 
   - Équilibrage de la charge pour les topologies Edge mises à l’échelle (avec charge DNS équilibrée ou un équilibreur de la charge matérielle)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’utilisation de l’équilibrage de la charge DNS sur une interface et de l’équilibrage de la charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser soit l’équilibrage de la charge matérielle, soit l’équilibrage de la charge DNS.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > L’utilisation de l’équilibrage de la charge DNS sur une interface et de l’équilibrage de la charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser soit l’équilibrage de la charge matérielle, soit l’équilibrage de la charge DNS.
 
 ## serveurs Edge
 
@@ -55,19 +44,8 @@ Les serveurs Edge envoient et reçoivent du trafic réseau pour les services off
 
 Les utilisateurs externes autorisés peuvent accéder aux serveurs Edge pour se connecter à votre déploiement Lync Server 2013 interne. Cependant, les serveurs Edge ne donnent aucun autre moyen d’accès au réseau interne.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les serveurs Edge sont déployés pour fournir des connexions aux clients activés et autres serveurs Edge Microsoft (comme dans les scénarios de fédération). Ils ne permettent pas d’autoriser des connexions depuis d’autres types de client ou serveur de terminaison. Le serveur de passerelle XMPP peut être déployé pour autoriser les connexions avec les partenaires XMPP configurés. Le serveur Edge et la passerelle XMPP ne peuvent prendre en charge que les connexions de terminaison de ces types de client et de fédération.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les serveurs Edge sont déployés pour fournir des connexions aux clients activés et autres serveurs Edge Microsoft (comme dans les scénarios de fédération). Ils ne permettent pas d’autoriser des connexions depuis d’autres types de client ou serveur de terminaison. Le serveur de passerelle XMPP peut être déployé pour autoriser les connexions avec les partenaires XMPP configurés. Le serveur Edge et la passerelle XMPP ne peuvent prendre en charge que les connexions de terminaison de ces types de client et de fédération.
 
 ## Proxy inverse
 
@@ -91,19 +69,8 @@ Le proxy inverse est requis pour les actions suivantes :
 
 Pour plus d’informations sur les proxys inverses et sur les conditions qu’ils doivent remplir, reportez-vous à [Configuration requise pour le proxy inverse dans Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les utilisateurs externes ne doivent pas se connecter à votre organisation via un réseau privé virtuel (VPN) pour participer à toute communication via Lync Server 2013. Si votre organisation a mis en œuvre la technologie VPN et que vos utilisateurs se servent du VPN pour le Lync, le trafic multimédia (tel que les conférences vidéo) peut en pâtir. Vous devez envisager de proposer un moyen de connecter le trafic multimédia directement au service Edge A/V et contourner le VPN. Pour plus d’informations, reportez-vous à l’article « Enabling Lync Media to Bypass a VPN Tunnel » du blog NextHop, à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les utilisateurs externes ne doivent pas se connecter à votre organisation via un réseau privé virtuel (VPN) pour participer à toute communication via Lync Server 2013. Si votre organisation a mis en œuvre la technologie VPN et que vos utilisateurs se servent du VPN pour le Lync, le trafic multimédia (tel que les conférences vidéo) peut en pâtir. Vous devez envisager de proposer un moyen de connecter le trafic multimédia directement au service Edge A/V et contourner le VPN. Pour plus d’informations, reportez-vous à l’article « Enabling Lync Media to Bypass a VPN Tunnel » du blog NextHop, à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</a>.
 
 ## Pare-feu
 

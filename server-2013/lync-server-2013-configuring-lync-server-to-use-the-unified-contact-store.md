@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié
-TOCTitle: Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié
+title: "Conf. de Microsoft Lync Server 2013 pour l’util. du magasin de contact unifié"
+TOCtitle: "Conf. de Microsoft Lync Server 2013 pour l’util. du magasin de contact unifié"
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688083(v=OCS.15)
 ms:contentKeyID: 49891385
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2014-02-07_
 
 Le magasin de contacts unifié permet aux utilisateurs de gérer une seule liste de contacts et de rendre ces contacts accessibles dans plusieurs applications, y compris Microsoft Lync 2013, Microsoft Outlook 2013 et Microsoft Outlook Web App 2013. Lorsque vous activez le magasin de contacts unifié pour un utilisateur, les contacts de ce dernier ne sont pas stockés dans Microsoft Lync Server 2013 ni récupérés ensuite à l’aide du protocole SIP. Au lieu de cela, les contacts de l’utilisateur sont stockés dans Microsoft Exchange Server 2013 et récupérés à l’aide des services web Exchange.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Techniquement, les informations de contact sont stockées dans deux dossiers figurant dans la boîte aux lettres Exchange 2013 de l’utilisateur. Les contacts eux-mêmes sont stockés dans un dossier nommé « Contacts Lync » visible par les utilisateurs finaux. Les métadonnées sur les contacts sont quant à elles stockées dans un sous-dossier qui n’est pas visible par les utilisateurs finaux.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Techniquement, les informations de contact sont stockées dans deux dossiers figurant dans la boîte aux lettres Exchange 2013 de l’utilisateur. Les contacts eux-mêmes sont stockés dans un dossier nommé « Contacts Lync » visible par les utilisateurs finaux. Les métadonnées sur les contacts sont quant à elles stockées dans un sous-dossier qui n’est pas visible par les utilisateurs finaux.
 
 ## Activation du magasin de contacts unifié pour un utilisateur
 
@@ -53,7 +42,7 @@ Après avoir créé la stratégie, vous devez l’affecter à tout utilisateur a
 
 Après avoir affecté la stratégie, Lync Server commence à migrer les contacts de l’utilisateur vers le magasin de contacts unifié. À l’issue de la migration, les contacts de l’utilisateur sont stockés dans Exchange et non dans Lync Server. Si l’utilisateur est connecté à Lync 2013 au moment où la migration se termine, une zone de message s’affiche pour lui demander de se déconnecter de Lync et de se reconnecter afin de finaliser le processus. Les utilisateurs auxquels cette stratégie par utilisateur n'a pas été affectée ne verront pas leurs contacts migrer vers le magasin de contacts unifié. Et ce, car ces utilisateurs sont gérés par la stratégie globale, et l'utilisation du magasin de contacts unifié a été désactivée dans la stratégie globale.
 
-Vous pouvez vérifier que les contacts d’un utilisateur ont bien été migrés vers le magasin de contacts unifié en exécutant l’applet de commande [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) à partir de Lync Server Management Shell :
+Vous pouvez vérifier que les contacts d’un utilisateur ont bien été migrés vers le magasin de contacts unifié en exécutant l’applet de commande [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) à partir de Lync Server Management Shell :
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -71,25 +60,14 @@ Vous pouvez ensuite affecter cette nouvelle stratégie par utilisateur (NoUnifie
 
 La commande précédente affecte la nouvelle stratégie à l’utilisateur Ken Myer et empêche la migration des contacts de Ken vers le magasin de contacts unifié.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans certains cas, vous pouvez obtenir le même résultat en annulant simplement l’affectation de la stratégie de services d’utilisateurs actuelle de l’utilisateur. Par exemple, supposons que Ken Myer possède une stratégie de services d’utilisateurs par utilisateur qui active le magasin de contacts unifié, alors que votre stratégie globale interdit l’utilisation du magasin de contacts unifié. Dans ce cas, vous pouvez annuler l’affectation de la stratégie de services par utilisateur à Ken. Il est alors automatiquement géré par la stratégie globale et n’a donc plus accès au magasin de contacts unifié.<br />
+> [!NOTE]  
+> Dans certains cas, vous pouvez obtenir le même résultat en annulant simplement l’affectation de la stratégie de services d’utilisateurs actuelle de l’utilisateur. Par exemple, supposons que Ken Myer possède une stratégie de services d’utilisateurs par utilisateur qui active le magasin de contacts unifié, alors que votre stratégie globale interdit l’utilisation du magasin de contacts unifié. Dans ce cas, vous pouvez annuler l’affectation de la stratégie de services par utilisateur à Ken. Il est alors automatiquement géré par la stratégie globale et n’a donc plus accès au magasin de contacts unifié.<br />
 Pour annuler l’affectation d’une stratégie par utilisateur précédemment affectée, utilisez la même commande que celle indiquée précédemment, mais cette fois en affectant au paramètre PolicyName la valeur Null :<br />
-Grant-CsUserServicesPolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null</td>
-</tr>
-</tbody>
-</table>
-
+Grant-CsUserServicesPolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null
 
 Lorsque vous travaillez avec le magasin de contacts unifié, il est important de garder à l’esprit que la commande « empêche la migration des contacts de Ken vers le magasin de contacts unifié ». Le simple fait d’affecter une nouvelle stratégie de services d’utilisateurs à Ken ne déplace pas ses contacts hors du magasin de contacts unifié. Lorsqu’un utilisateur se connecte à Lync Server 2013, le système vérifie la stratégie de services d’utilisateurs de l’utilisateur afin de déterminer si ses contacts doivent être conservés dans le magasin de contacts unifié. Dans l’affirmative (c’est-à-dire si la propriété UcsAllowed a la valeur $True), les contacts sont migrés vers le magasin de contacts unifié (en supposant que ces contacts ne se trouvent pas déjà dans le magasin de contacts unifié). Dans la négative, Lync Server ignore simplement les contacts de l’utilisateur et passe à la tâche suivante. Cela signifie que Lync Server ne déplace pas automatiquement les contacts d’un utilisateur hors du magasin de contacts unifié, et ce quelle que soit la valeur de la propriété UcsAllowed.
 
-Ainsi, après avoir affecté une nouvelle stratégie de services d’utilisateurs à l’utilisateur, vous devez exécuter l’applet de commande [Invoke-CsUcsRollback](invoke-csucsrollback.md) pour déplacer les contacts de l’utilisateur hors de Exchange 2013 et les faire revenir dans Lync Server 2013. Par exemple, après avoir affecté une nouvelle stratégie de services d’utilisateurs à Ken Myer, vous pouvez déplacer ses contacts hors du magasin de contacts unifié à l’aide de la commande suivante :
+Ainsi, après avoir affecté une nouvelle stratégie de services d’utilisateurs à l’utilisateur, vous devez exécuter l’applet de commande [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback) pour déplacer les contacts de l’utilisateur hors de Exchange 2013 et les faire revenir dans Lync Server 2013. Par exemple, après avoir affecté une nouvelle stratégie de services d’utilisateurs à Ken Myer, vous pouvez déplacer ses contacts hors du magasin de contacts unifié à l’aide de la commande suivante :
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 

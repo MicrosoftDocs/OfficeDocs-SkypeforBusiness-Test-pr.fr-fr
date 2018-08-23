@@ -21,16 +21,5 @@ Lorsque vous créez des flux de travail, deux scénarios sont possibles :
 
   - **L’administrateur crée le flux de travail et le responsable configure les options** — Le membre du rôle CsResponseGroupAdministrator (ou équivalent) définit l’URI SIP principal et le nom complet, affecte des membres du rôle CsResponseGroupManager, sélectionne une file d’attente et active le flux de travail. Le membre du rôle CsResponseGroupManager peut alors ouvrir une session et modifier la configuration du flux de travail en créant des groupes d’agents. Il affecte également le groupe à la file d’attente, configure le numéro de téléphone, les congés et les heures ouvrées, la musique d’attente, etc.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lorsque vous voulez créer un flux de travail géré, vous devez créer le flux travail en tant que flux de travail actif. Après avoir enregistré un flux de travail géré et actif, vous pouvez le modifier et le désactiver.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Lorsque vous voulez créer un flux de travail géré, vous devez créer le flux travail en tant que flux de travail actif. Après avoir enregistré un flux de travail géré et actif, vous pouvez le modifier et le désactiver.

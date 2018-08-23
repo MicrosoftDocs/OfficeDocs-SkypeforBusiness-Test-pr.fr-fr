@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : (Facultatif) Activation et désactivation des annonces indiquant qu’un utilisateur rejoint ou quitte une conférence'
+title: "LS 2013 : (Facul.) Act. et dés. annonces indiquant ut. rejoint ou quitte conf."
 TOCTitle: (Facultatif) Activation et désactivation des annonces indiquant qu’un utilisateur rejoint ou quitte une conférence
 ms:assetid: c9529568-e66c-48d8-aef2-9072f9c336ff
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398834(v=OCS.15)

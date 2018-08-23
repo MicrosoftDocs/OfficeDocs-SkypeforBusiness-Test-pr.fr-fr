@@ -59,19 +59,8 @@ Chaque SBA (Survivable Branch Appliance) est associée à un pool frontal qui se
 
 9.  Suivez les instructions de l’Assistant qui s’ouvre. Pour obtenir des informations sur les éléments de l’Assistant, reportez-vous à [Définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server dans Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Un SBA Lync Server 2010 peut uniquement être associé à un magasin de surveillance Lync Server 2010.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Un SBA Lync Server 2010 peut uniquement être associé à un magasin de surveillance Lync Server 2010.
 
 10. Si vous n’utilisez pas de SBA ou de serveur sur ce site, désactivez la case à cocher **Ouvrir l’Assistant Nouveau Survivable Branch Appliance à la fermeture de cet Assistant**, puis cliquez sur **Terminer**.
 

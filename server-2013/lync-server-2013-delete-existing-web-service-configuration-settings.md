@@ -53,7 +53,7 @@ Vous avez également la possibilité de supprimer les paramètres de configurati
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
-Pour plus d’informations, voir [Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md).
+Pour plus d’informations, voir [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration).
 
 ## Voir aussi
 

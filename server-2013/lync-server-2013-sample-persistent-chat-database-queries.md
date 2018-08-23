@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Exemples de requêtes de base de données de conversation permanente'
+title: "Lync Server 2013 : Ex. de requêtes de BD de conversation permanente"
 TOCTitle: Exemples de requêtes de base de données de conversation permanente
 ms:assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558649(v=OCS.15)

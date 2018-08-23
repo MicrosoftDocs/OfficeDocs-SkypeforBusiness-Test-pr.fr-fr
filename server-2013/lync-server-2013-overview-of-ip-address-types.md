@@ -25,19 +25,8 @@ Vous disposez de trois options lors de la configuration d’adresses IP dans Lyn
 
 Les sections suivantes précisent la compatibilité de ces trois configurations avec différentes fonctionnalités Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuration client ou serveur avec IPv6 uniquement n’est prise en charge qu’à des fins de validation ou en laboratoire. La configuration IPv6 uniquement n’est pas prise en charge dans le déploiement de production.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> La configuration client ou serveur avec IPv6 uniquement n’est prise en charge qu’à des fins de validation ou en laboratoire. La configuration IPv6 uniquement n’est pas prise en charge dans le déploiement de production.
 
 ## Enregistrement client
 
@@ -347,19 +336,8 @@ Le tableau ci-dessous représente une matrice des combinaisons d’interfaces Ed
 
 Les déploiements qui incluent le contrôle d’admission des appels (CAC), Enhanced 9-1-1 (E9-1-1), ou la déviation du trafic multimédia doivent être configurés sur une implémentation IPv4 uniquement ou double pile.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans un déploiement en double pile, même si un client Lync se connecte à Lync Server en utilisant IPv6, Lync fera tout pour mapper une adresse IPv4 appropriée afin de prendre en charge E9-1-1.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Dans un déploiement en double pile, même si un client Lync se connecte à Lync Server en utilisant IPv6, Lync fera tout pour mapper une adresse IPv4 appropriée afin de prendre en charge E9-1-1.
 
 Le service d’informations sur l’emplacement avec des adresses IPv6 n’est pas pris en charge.
 

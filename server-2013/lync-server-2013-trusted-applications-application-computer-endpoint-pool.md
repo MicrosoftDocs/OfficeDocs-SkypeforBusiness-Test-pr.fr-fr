@@ -1,6 +1,6 @@
 ﻿---
-title: Applications approuvées (Application/Ordinateur/Point de terminaison/Pool) dans Lync Server 2013
-TOCTitle: Applications approuvées (Application/Ordinateur/Point de terminaison/Pool) dans Lync Server 2013
+title: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
+TOCtitle: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688073(v=OCS.15)
 ms:contentKeyID: 49891370
@@ -23,7 +23,7 @@ Utilisez les procédures de cette section pour gérer les applications approuvé
 
 ## Sections connexes
 
-[Cmdlets des applications approuvées](lync-server-2013-trusted-applications-cmdlets.md)
+[Cmdlets des applications approuvées](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## Voir aussi
 

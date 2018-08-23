@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion de la fédération et de l’accès externe à Lync Server 2013'
+title: "Lync Server 2013 : Gest. de la féd. et de l’accès ext. à Lync Server 2013"
 TOCTitle: Gestion de la fédération et de l’accès externe à Lync Server 2013
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520966(v=OCS.15)
@@ -21,19 +21,8 @@ Après avoir installé et configuré votre déploiement interne de Lync Server 
 
 Si votre déploiement a inclus l’installation d’un serveur Edge ou d’un pool de serveurs EdgeLync Server 2013, les types de communication possibles sont considérablement étendus avec un certain nombre d’options pour l’accès des utilisateurs externes, la communication avec des membres d’autres domaines fédérés SIP, des fournisseurs fédérés SIP et des utilisateurs fédérés XMPP. Une fois que vous avez configuré le serveur Edge ou le pool de serveurs Edge, vous devez activer les types d’accès des utilisateurs externes que vous souhaitez prendre en charge et configurer les stratégies permettant de contrôler l’accès externe. Dans Lync Server 2013, vous activez et configurez l’accès des utilisateurs externes et les stratégies à l’aide du Panneau de configuration Lync Server, de Lync Server Management Shell ou des deux, selon les besoins de la tâche. Pour plus d’informations sur ces outils de gestion, reportez-vous à [Outils d’administration de Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md), [Lync Server Management Shell](lync-server-2013-lync-server-management-shell.md) et [Installation des outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez bien saisir la priorité des stratégies et la façon dont elles sont appliquées avant de concevoir votre configuration et vos stratégies pour l’accès des utilisateurs externes. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Vous devez bien saisir la priorité des stratégies et la façon dont elles sont appliquées avant de concevoir votre configuration et vos stratégies pour l’accès des utilisateurs externes. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
 
 Par défaut, aucune stratégie n’est configurée pour prendre en charge l’accès des utilisateurs externes, dont l’accès des utilisateurs distants et des utilisateurs fédérés, même si vous avez déjà activé la prise en charge de l’accès des utilisateurs externes dans votre organisation. Pour contrôler l’accès des utilisateurs externes, vous devez configurer au moins une stratégie qui spécifie le type d’accès des utilisateurs externes pris en charge, notamment les stratégies d’accès externe suivantes :
 
@@ -73,25 +62,11 @@ Configurez les paramètres comme indiqué dans la rubrique [Activation ou désac
 
 Configurez les paramètres comme indiqué dans les rubriques [Configuration des stratégies de contrôle d’accès des utilisateurs publics dans Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md), [Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) et [Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
-<li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
-<li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
+> <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
+> <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li></ul>
 
 
 **Voulez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui sont des fournisseurs hébergés exécutant Microsoft Office 365, Microsoft Lync Online et Microsoft Lync Online 2010 ?**
@@ -173,20 +148,10 @@ Vous trouverez ci-après un tableau récapitulant les conditions requises :
 <td><p>Accès des utilisateurs anonymes aux réunions et conférences</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes dans Lync Server 2013</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez aussi considérer les paramètres de configuration suivants sous Stratégies de conférence : <a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Création ou modification d’une stratégie de conférence dans Lync Server 2013</a> et <a href="lync-server-2013-conferencing-policy-settings-reference.md">Référence des paramètres de stratégie de conférence pour Lync Server 2013</a></td>
-</tr>
-</tbody>
-</table>
+<div>
 
+> [!NOTE]  
+> Vous devez aussi considérer les paramètres de configuration suivants sous Stratégies de conférence : <a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Création ou modification d’une stratégie de conférence dans Lync Server 2013</a> et <a href="lync-server-2013-conferencing-policy-settings-reference.md">Référence des paramètres de stratégie de conférence pour Lync Server 2013</a>
 </div></td>
 <td><p></p></td>
 <td><p></p></td>

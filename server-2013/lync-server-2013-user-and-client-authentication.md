@@ -23,19 +23,8 @@ L’authentification consiste à fournir des informations d’identification d�
 
   - **Protocole NTLM** pour utilisateurs avec informations d’identification Active Directory qui se connectent à partir d’un point de terminaison externe au pare-feu d’entreprise. Le service Edge d’accès transmet les demandes de connexion à un directeur, le cas échéant, ou à un serveur frontal pour authentification. Le service Edge d’accès lui-même n’effectue aucune authentification.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le protocole NTLM offre une protection plus faible contre les attaques que Kerberos, certaines organisations minimisent donc l’utilisation de NTLM. Par conséquent, l’accès à Lync Server 2013 peut être limité aux clients internes ou connectés via une connexion VPN ou DirectAccess.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Le protocole NTLM offre une protection plus faible contre les attaques que Kerberos, certaines organisations minimisent donc l’utilisation de NTLM. Par conséquent, l’accès à Lync Server 2013 peut être limité aux clients internes ou connectés via une connexion VPN ou DirectAccess.
 
   - **Protocole Digest** pour utilisateurs anonymes. Les utilisateurs anonymes sont des utilisateurs externes qui ne disposent pas d’informations d’identification Active Directory reconnues mais qui ont été invités à une conférence sur site et qui possèdent une clé de conférence valide. L’authentification Digest n’est pas utilisée pour d’autres interactions clients.
 

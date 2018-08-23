@@ -74,30 +74,19 @@ Pour faciliter le basculement, cet enregistrement CNAME doit être mis à jour d
 
   - OCSServices.\<domaine\>
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur les procédures d’administration et de gestion, reportez-vous à la rubrique <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sauvegarde et restauration de Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Pour plus d’informations sur les procédures d’administration et de gestion, reportez-vous à la rubrique <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sauvegarde et restauration de Lync Server 2013</a>.
 
 ## Voir aussi
 
 #### Concepts
 
 [Planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Applets de commande pour la sauvegarde et la haute disponibilité](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[Applets de commande pour la sauvegarde et la haute disponibilité](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### Autres ressources
 
-[Import-CsConfiguration](import-csconfiguration.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
 [Sauvegarde et restauration de Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
 [Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 

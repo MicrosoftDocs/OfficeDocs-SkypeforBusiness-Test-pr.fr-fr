@@ -1,6 +1,6 @@
 ﻿---
-title: Création ou modification d’une collection de paramètres de configuration de réunion dans Lync Server 2013
-TOCTitle: Création ou modification d’une collection de paramètres de configuration de réunion dans Lync Server 2013
+title: "Créa. ou modif. d’une coll. de param. de conf. de réunion ds Lync Server 2013"
+TOCtitle: "Créa. ou modif. d’une coll. de param. de conf. de réunion ds Lync Server 2013"
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721889(v=OCS.15)
 ms:contentKeyID: 49891549
@@ -49,19 +49,8 @@ Les paramètres de la page Configuration de la réunion permettent de définir d
     
       - Pour personnaliser le logo qui apparaît dans l’invitation à la réunion, dans **URL du logo**, entrez l’emplacement du logo.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Le logo doit être une image GIF ou JPG d’une taille de 188 par 30 pixels.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Le logo doit être une image GIF ou JPG d’une taille de 188 par 30 pixels.    
       - Pour personnaliser le texte d’aide qui apparaît dans l’invitation à la réunion, dans **URL de l’aide**, entrez l’emplacement du texte d’aide.
     
       - Pour personnaliser les informations légales qui apparaissent dans l’invitation à la réunion, dans **URL des informations légales**, entrez l’emplacement des informations légales.
@@ -108,5 +97,5 @@ Les paramètres de configuration de réunion peuvent également être créés (a
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-Pour plus d’informations, voir la rubrique d’aide associée à l’applet de commande [New-CsMeetingConfiguration](new-csmeetingconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide associée à l’applet de commande [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration).
 

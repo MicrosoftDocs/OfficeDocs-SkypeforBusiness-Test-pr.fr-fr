@@ -35,16 +35,5 @@ Le standard automatique est une fonctionnalité de la messagerie unifiée Exchan
 
 messagerie unifiée Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leur boîte aux lettres Exchanged. Pour plus d’informations, reportez-vous à « Messagerie unifiée » dans la documentation Microsoft Exchange Server à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les services de télécopie fournis par le serveur de messagerie unifiée Exchange ne sont pas disponibles dans les déploiements de Lync Server intégrés à Microsoft Exchange Server 2010 ou à Exchange 2010 avec le dernier service pack, ou à Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les services de télécopie fournis par le serveur de messagerie unifiée Exchange ne sont pas disponibles dans les déploiements de Lync Server intégrés à Microsoft Exchange Server 2010 ou à Exchange 2010 avec le dernier service pack, ou à Exchange 2013.

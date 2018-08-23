@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion de l’authentification serveur à serveur (Oauth) et des applications partenaires dans Lync Server 2013
-TOCTitle: Gestion de l’authentification serveur à serveur (Oauth) et des applications partenaires dans Lync Server 2013
+title: "Gest. de l’auth. serv. à serv. (Oauth) et des app. partenaires dans LS 2013"
+TOCtitle: "Gest. de l’auth. serv. à serv. (Oauth) et des app. partenaires dans LS 2013"
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204817(v=OCS.15)
 ms:contentKeyID: 49296883
@@ -21,19 +21,8 @@ L’utilisation d’une méthode unique et normalisée pour l’authentification
 
 L’authentification OAuth implique généralement trois parties : un serveur d’autorisation unique et deux domaines devant communiquer l’un avec l’autre. (Vous pouvez aussi avoir une authentification serveur à serveur sans serveur d’autorisation, ce processus sera abordé plus loin dans ce document). Les jetons de sécurité sont émis par le serveur d’autorisation (aussi connu comme serveur de jetons de sécurité) vers les deux domaines qui doivent communiquer. Ces jetons vérifient que les communications provenant de l’un des domaines peuvent être approuvées par l’autre domaine. Par exemple, le serveur d’autorisation peut émettre des jetons qui vérifient que les utilisateurs d’un domaine Lync Server 2013 spécifique sont en mesure d’accéder à un domaine Exchange 2013 spécifié, et vice versa.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un domaine est tout simplement un conteneur de sécurité. Par défaut, Lync Server 2013 utilise votre domaine SIP par défaut en tant que domaine OAuth.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Un domaine est tout simplement un conteneur de sécurité. Par défaut, Lync Server 2013 utilise votre domaine SIP par défaut en tant que domaine OAuth.
 
 Lync Server 2013 prend en charge trois scénarios d’authentification de serveur à serveur. Avec Lync Server 2013 vous pouvez effectuer ce qui suit :
 
@@ -59,19 +48,8 @@ Pour configurer l’authentification de serveur à serveur pour une implémentat
 
   - Configurer le serveur avec lequel Lync Server 2013 va communiquer en tant qu’« application partenaire ». Par exemple, si Lync Server 2013 doit communiquer avec Exchange 2013, vous devez configurer Exchange en tant qu’application partenaire.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une « application partenaire » est une application avec laquelle Lync Server 2013 peut directement échanger les jetons de sécurité, sans passer par un serveur de jetons de sécurité tiers.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Une « application partenaire » est une application avec laquelle Lync Server 2013 peut directement échanger les jetons de sécurité, sans passer par un serveur de jetons de sécurité tiers.
 
 Notez que OAuth est un composant de base du produit et ne peut être ni désactivé ni retiré.
 

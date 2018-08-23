@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-21_
 
 La procédure suivante vous permet de supprimer un sous-réseau. À partir du Panneau de configuration Lync Server, vous pouvez créer, modifier ou supprimer un sous-réseau. Pour plus d’informations, voir [Création ou modification de sous-réseaux](lync-server-2013-create-or-modify-network-subnets.md)
 
-La plupart des déploiements de Microsoft Lync Server 2013 qui implémentent le contrôle d’admission des appels (CAC) comptent généralement un nombre important de sous-réseaux. Pour cette raison, il est souvent préférable de configurer les sous-réseaux depuis Lync Server Management Shell, ce qui vous permet d’appeler l’applet de commande **New-CsNetworkSubnet** conjointement avec l’applet de commande Windows PowerShell**Import-CSV**. En utilisant conjointement ces applets de commande, vous pouvez lire les paramètres de sous-réseau dans un fichier de valeurs séparées par des virgules (.csv) et créer simultanément plusieurs sous-réseaux. Pour obtenir des exemples de création de sous-réseaux à partir d’un fichier .csv, voir [New-CsNetworkSubnet](new-csnetworksubnet.md).
+La plupart des déploiements de Microsoft Lync Server 2013 qui implémentent le contrôle d’admission des appels (CAC) comptent généralement un nombre important de sous-réseaux. Pour cette raison, il est souvent préférable de configurer les sous-réseaux depuis Lync Server Management Shell, ce qui vous permet d’appeler l’applet de commande **New-CsNetworkSubnet** conjointement avec l’applet de commande Windows PowerShell**Import-CSV**. En utilisant conjointement ces applets de commande, vous pouvez lire les paramètres de sous-réseau dans un fichier de valeurs séparées par des virgules (.csv) et créer simultanément plusieurs sous-réseaux. Pour obtenir des exemples de création de sous-réseaux à partir d’un fichier .csv, voir [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet).
 
 ## Pour supprimer un sous-réseau
 
@@ -29,19 +29,8 @@ La plupart des déploiements de Microsoft Lync Server 2013 qui implémentent le
 
 4.  Dans la page **Sous-réseau**, cliquez sur le sous-réseau à supprimer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez supprimer plusieurs sous-réseaux à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez les différents sous-réseaux à supprimer. Pour sélectionner la totalité des sous-réseaux, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez supprimer plusieurs sous-réseaux à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez les différents sous-réseaux à supprimer. Pour sélectionner la totalité des sous-réseaux, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 

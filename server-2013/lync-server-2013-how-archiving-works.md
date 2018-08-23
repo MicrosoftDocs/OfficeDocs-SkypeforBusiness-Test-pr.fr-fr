@@ -85,19 +85,8 @@ Stratégies d’archivage de Lync Server 2013 :
 
 Pour plus d’informations sur la configuration des stratégies d’archivage initiales quand vous déployez l’archivage, voir [Configuration et affectation des stratégies d’archivage](lync-server-2013-configuring-and-assigning-archiving-policies.md) dans la documentation de déploiement. Pour plus d’informations sur l’utilisation de stratégies d’archivage afin d’activer et de désactiver les communications après le déploiement, voir [Gestion de l'archivage des communications internes et externes dans Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) dans la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous implémentez des bases de données d’archivage Lync Server 2013 tout en activant l’intégration de Microsoft Exchange, les stratégies d’Exchange 2013 remplacent les stratégies d’archivage de Lync Server mais uniquement pour les utilisateurs hébergés sur Exchange 2013 et dont les boîtes aux lettres sont placées en archive permanente. L’archivage Lync dépend uniquement de la stratégie d’archive permanente de Microsoft Exchange.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous implémentez des bases de données d’archivage Lync Server 2013 tout en activant l’intégration de Microsoft Exchange, les stratégies d’Exchange 2013 remplacent les stratégies d’archivage de Lync Server mais uniquement pour les utilisateurs hébergés sur Exchange 2013 et dont les boîtes aux lettres sont placées en archive permanente. L’archivage Lync dépend uniquement de la stratégie d’archive permanente de Microsoft Exchange.
 
 ## Quelles sont mes options en matière de configuration de l’archivage ?
 
@@ -127,19 +116,8 @@ La configuration au niveau global est créée automatiquement quand vous déploy
     
       - après l’exportation des données d’archivage (qui incluent les données téléchargées vers Exchange, si vous activez l’intégration de Microsoft Exchange).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous activez l’intégration de Microsoft Exchange, la fonctionnalité de suppression définitive pour les utilisateurs hébergés sur Exchange 2013 et dont les boîtes aux lettres sont placées en archive permanente est contrôlée par Exchange. La seule exception concerne les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers ne sont supprimés définitivement du partage de fichiers qu’après avoir été exportés (téléchargés vers Exchange), si vous sélectionnez l’option permettant de supprimer définitivement les données après l’exportation des données d’archivage ou après le nombre maximal de jours spécifié (si vous indiquez un nombre maximal de jours de rétention).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous activez l’intégration de Microsoft Exchange, la fonctionnalité de suppression définitive pour les utilisateurs hébergés sur Exchange 2013 et dont les boîtes aux lettres sont placées en archive permanente est contrôlée par Exchange. La seule exception concerne les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers ne sont supprimés définitivement du partage de fichiers qu’après avoir été exportés (téléchargés vers Exchange), si vous sélectionnez l’option permettant de supprimer définitivement les données après l’exportation des données d’archivage ou après le nombre maximal de jours spécifié (si vous indiquez un nombre maximal de jours de rétention).
 
 Par défaut, aucune option d’archivage n’est activée. Vous pouvez gérer les configurations d’archivage à l’aide du Panneau de configuration Lync Server 2013.
 
@@ -157,9 +135,9 @@ Pour plus d’informations sur l’implémentation des configurations d’archiv
 
 Avec Lync Server 2013 Management Shell, vous pouvez utiliser des applets de commande pour implémenter des options qui ne sont pas disponibles dans le Panneau de configuration Lync Server 2013. Ces options sont les suivantes :
 
-  - **Archiver les messages dupliqués**. Pour plus d’informations, voir [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) et [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) dans la documentation des opérations.
+  - **Archiver les messages dupliqués**. Pour plus d’informations, voir [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) et [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) dans la documentation des opérations.
 
-  - **Exporter les données archivées**. Pour plus d’informations, voir [Export-CsArchivingData](export-csarchivingdata.md)
+  - **Exporter les données archivées**. Pour plus d’informations, voir [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
 
 ## Comment accéder aux données archivées ?
 

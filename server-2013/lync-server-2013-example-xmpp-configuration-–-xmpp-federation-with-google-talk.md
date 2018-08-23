@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Exemple de configuration XMPP – Fédération XMPP avec Google Talk'
+title: "Lync Server 2013 : Ex. de conf.n XMPP – Fédération XMPP avec Google Talk"
 TOCTitle: Exemple de configuration XMPP – Fédération XMPP avec Google Talk
 ms:assetid: 360a2f7b-015b-4e93-ac67-0f609c21f1a2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204807(v=OCS.15)
@@ -37,18 +37,8 @@ Voici un exemple de configuration pour le déploiement du proxy XMPP qui défini
 
 7.  Sur le serveur Edge, dans l’Assistant Déploiement de Lync Server, en regard de **Étape 3 : Demander, installer ou affecter des certificats** , cliquez sur **Réexécuter** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si vous déployez pour la première fois le serveur Edge, l’option Exécuter s’affiche au lieu de Réexécuter.
 
 
 8.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Créer une demande de certificat** .
@@ -79,18 +69,8 @@ Voici un exemple de configuration pour le déploiement du proxy XMPP qui défini
 
 18. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!TIP]  
+    > Si le proxy XMPP est installé, le nom de domaine par défaut (par exemple, contoso.com) est mentionné dans les entrées du SAN. Si vous nécessitez d’autres entrées, ajoutez-les pendant cette étape.
 
 
 19. Dans la page **Résumé de la demande** , vérifiez les informations de certificat à utiliser pour générer la demande.
@@ -103,9 +83,12 @@ Voici un exemple de configuration pour le déploiement du proxy XMPP qui défini
 
 23. Après avoir reçu, importé et affecté le certificat public, vous devez arrêter et redémarrer les services du serveur Edge. Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.. Dans Lync Server Management Shell, tapez :
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 24. Pour configurer les DNS pour la fédération XMPP, vous devez ajouter l’enregistrement SRV suivant au système DNS externe :\_xmpp-server.\_tcp. *\<nom de domaine\>* . L’enregistrement SRV résoudra le nom complet de domaine du serveur Edge d’accès, avec une valeur de port de 5 269
 

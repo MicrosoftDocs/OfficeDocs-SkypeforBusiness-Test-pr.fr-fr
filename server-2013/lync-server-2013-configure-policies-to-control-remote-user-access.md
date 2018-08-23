@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs distants'
+title: "Lync Server 2013 : Conf. des strat. de contrôle d’accès des ut. distants"
 TOCTitle: Configuration des stratégies de contrôle d’accès des utilisateurs distants
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398725(v=OCS.15)
@@ -17,35 +17,13 @@ _**Dernière rubrique modifiée :** 2012-10-18_
 
 Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes afin de contrôler si les utilisateurs distants peuvent collaborer avec des utilisateurs Lync Server internes. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau global, du site et de l’utilisateur. Les stratégies de site remplacent la stratégie globale, et les stratégies utilisateur remplacent les stratégies de site et globale. Pour plus d’informations sur les types de stratégies que vous pouvez configurer, reportez-vous à [Gestion de la fédération et de l’accès externe à Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md). Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet..
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez configurer des stratégies pour contrôler l’accès des utilisateurs distants, même si vous n’avez pas activé l’accès des utilisateurs distants pour votre organisation. Cependant, les stratégies que vous configurez sont effectives uniquement quand vous activez l’accès des utilisateurs distants pour votre organisation. Pour plus d’informations sur l’activation de l’accès des utilisateurs distants, reportez-vous à <a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a>. En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs distants, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server et configurés pour utiliser la stratégie. Pour plus d’informations sur la spécification des utilisateurs pouvant se connecter à Lync Server à partir d’emplacements distants, reportez-vous à <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez configurer des stratégies pour contrôler l’accès des utilisateurs distants, même si vous n’avez pas activé l’accès des utilisateurs distants pour votre organisation. Cependant, les stratégies que vous configurez sont effectives uniquement quand vous activez l’accès des utilisateurs distants pour votre organisation. Pour plus d’informations sur l’activation de l’accès des utilisateurs distants, reportez-vous à <a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a>. En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs distants, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server et configurés pour utiliser la stratégie. Pour plus d’informations sur la spécification des utilisateurs pouvant se connecter à Lync Server à partir d’emplacements distants, reportez-vous à <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013</a>.
 
 Utilisez la procédure suivante pour configurer chaque stratégie d’accès externe que vous comptez utiliser pour contrôle l’accès des utilisateurs distants.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette procédure décrit comment configurer une stratégie uniquement pour activer les communications avec les utilisateurs distants, mais chaque stratégie que vous configurez pour prendre en charge l’accès des utilisateurs distants peut également configurer l’accès des utilisateurs fédérés et des utilisateurs publics. Pour plus d’informations sur la configuration des stratégies permettant de prendre en charge les utilisateurs fédérés, reportez-vous à <a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013</a>. Pour plus d’informations sur la configuration des stratégies permettant de prendre en charge les utilisateurs publics, reportez-vous à <a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Cette procédure décrit comment configurer une stratégie uniquement pour activer les communications avec les utilisateurs distants, mais chaque stratégie que vous configurez pour prendre en charge l’accès des utilisateurs distants peut également configurer l’accès des utilisateurs fédérés et des utilisateurs publics. Pour plus d’informations sur la configuration des stratégies permettant de prendre en charge les utilisateurs fédérés, reportez-vous à <a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013</a>. Pour plus d’informations sur la configuration des stratégies permettant de prendre en charge les utilisateurs publics, reportez-vous à <a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013</a>.
 
 ## Pour configurer une stratégie d’accès externe permettant de prendre en charge l’accès des utilisateurs distants
 

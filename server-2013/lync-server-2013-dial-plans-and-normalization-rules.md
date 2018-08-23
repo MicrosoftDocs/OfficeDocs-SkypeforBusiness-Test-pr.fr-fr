@@ -25,19 +25,8 @@ L’*étendue* d’un plan de numérotation détermine le niveau hiérarchique a
 
 Les clients obtiennent des niveaux d’étendue du plan de numérotation par l’intermédiaire des paramètres de provisionnement intrabande fournis lorsque les utilisateurs se connectent à Lync Server. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue du plan de numérotation à l’aide de Panneau de configuration Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le plan de numérotation de la passerelle RTC au niveau du service est appliqué aux appels entrant depuis une passerelle donnée.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Le plan de numérotation de la passerelle RTC au niveau du service est appliqué aux appels entrant depuis une passerelle donnée.
 
 Les niveaux d’étendue du plan de numérotation sont définis comme suit :
 
@@ -93,19 +82,8 @@ Si vous déployez une conférence rendez-vous, vous devrez spécifier une régio
 
 Vous pouvez spécifier un préfixe d’accès externe de 4 caractères maximum (\#, \* et 0 à 9) si les utilisateurs doivent numéroter un ou plusieurs chiffres supplémentaires (par exemple, 9) pour obtenir une ligne externe.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous spécifiez un préfixe d’accès externe, il n’est pas nécessaire de créer une règle de normalisation supplémentaire pour inclure le préfixe.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous spécifiez un préfixe d’accès externe, il n’est pas nécessaire de créer une règle de normalisation supplémentaire pour inclure le préfixe.
 
 ## Règles de normalisation
 
@@ -282,16 +260,5 @@ Le tableau ci-dessous illustre un exemple de plan de numérotation pour Redmond,
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les noms des règles de normalisation indiqués dans le tableau précédent n’incluent pas d’espaces, mais c’est une question de choix. Le premier nom du tableau, par exemple, aurait pu s’écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les noms des règles de normalisation indiqués dans le tableau précédent n’incluent pas d’espaces, mais c’est une question de choix. Le premier nom du tableau, par exemple, aurait pu s’écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.

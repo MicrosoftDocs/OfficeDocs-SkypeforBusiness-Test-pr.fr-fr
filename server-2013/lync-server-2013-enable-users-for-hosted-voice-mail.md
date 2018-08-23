@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation des utilisateurs pour la messagerie vocale hébergée'
+title: "Lync Server 2013 : Activ. des utilisateurs pour la messagerie vocale hébergée"
 TOCTitle: Activation des utilisateurs pour la messagerie vocale hébergée
 ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413062(v=OCS.15)
@@ -19,21 +19,10 @@ Procédez comme suit pour activer la messagerie vocale pour les utilisateurs Lyn
 
 Pour plus d’informations, reportez-vous à [Gestion des utilisateurs Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) dans la documentation de planification.
 
-Pour plus d’informations sur l’applet de commande [Set-CsUser](set-csuser.md), reportez-vous à la documentation Lync Server Management Shell.
+Pour plus d’informations sur l’applet de commande [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), reportez-vous à la documentation Lync Server Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant de pouvoir activer un utilisateur Lync Server 2013 pour la messagerie vocale hébergée, vous devez déployer une stratégie de messagerie vocale hébergée s’appliquant à son compte d’utilisateur. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-hosted-voice-mail-policies.md">Stratégies de messagerie vocale hébergées dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Avant de pouvoir activer un utilisateur Lync Server 2013 pour la messagerie vocale hébergée, vous devez déployer une stratégie de messagerie vocale hébergée s’appliquant à son compte d’utilisateur. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-hosted-voice-mail-policies.md">Stratégies de messagerie vocale hébergées dans Lync Server 2013</a>.
 
 ## Pour activer les utilisateurs pour la messagerie vocale hébergée
 
@@ -57,16 +46,5 @@ Pour plus d’informations sur l’applet de commande [Set-CsUser](set-csuser.md
         
           - le nom complet des services de domaine Active Directory de l’utilisateur (par exemple, Ken Myer). Vous pouvez recourir à l’astérisque (caractère générique \*) si vous utilisez le nom complet comme « Identity » pour l'utilisateur. Par exemple « Identity \* Smith » renvoie tous les utilisateurs dont le nom complet se termine par la valeur de chaîne « Smith ».
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Le nom de compte SAM Active Directory de l’utilisateur ne peut pas être utilisé comme valeur « Identity », car il n’est pas forcément unique dans la forêt.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Le nom de compte SAM Active Directory de l’utilisateur ne peut pas être utilisé comme valeur « Identity », car il n’est pas forcément unique dans la forêt.

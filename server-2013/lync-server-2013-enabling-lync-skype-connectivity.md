@@ -25,19 +25,8 @@ La fédération est requise pour permettre aux utilisateurs Skype de communiquer
 
 ![Affichage de PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Affichage de PIC")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La fédération PIC n'est plus prise en charge par Live Communication Server 2005 SP1 ou Office Communications Server 2007. Les plateformes prises en charge pour la fédération PIC incluent Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> La fédération PIC n'est plus prise en charge par Live Communication Server 2005 SP1 ou Office Communications Server 2007. Les plateformes prises en charge pour la fédération PIC incluent Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2.
 
 ## 2\. Configurer au moins une stratégie pour la prise en charge de l'accès des utilisateurs fédérés
 
@@ -49,19 +38,8 @@ La fédération est requise pour permettre aux utilisateurs Skype de communiquer
 
 À l'aide de Lync Server Management Shell, l'administrateur doit configurer la stratégie de client Lync pour afficher Skype comme fournisseur PIC supplémentaire.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les utilisateurs du service PIC ne peuvent pas participer à des sessions de messagerie instantanée ou des conférences audio ou vidéo dans votre organisation tant que vous n’avez pas configuré au moins une stratégie (étape 2 de cette procédure) pour prendre en charge la connectivité PIC.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les utilisateurs du service PIC ne peuvent pas participer à des sessions de messagerie instantanée ou des conférences audio ou vidéo dans votre organisation tant que vous n’avez pas configuré au moins une stratégie (étape 2 de cette procédure) pour prendre en charge la connectivité PIC.
 
 1.  Pour configurer la fédération et la connectivité PIC, voir « Activation ou désactivation de la fédération et de la connectivité PIC (Public IM Connectivity) » à l'adresse [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063).
 

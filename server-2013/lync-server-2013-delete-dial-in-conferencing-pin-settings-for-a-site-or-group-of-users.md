@@ -1,6 +1,6 @@
 ﻿---
-title: Supprimer les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs
-TOCTitle: Supprimer les paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs
+title: "Supp. les par. de code confi. des conf. rdv pour un site ou un gr. d’ut."
+TOCtitle: "Supp. les par. de code confi. des conf. rdv pour un site ou un gr. d’ut."
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520955(v=OCS.15)
 ms:contentKeyID: 49296356
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-10-18_
 
 Suivez cette procédure pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.
 
 ## Pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site
 

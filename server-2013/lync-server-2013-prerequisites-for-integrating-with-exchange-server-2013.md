@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration requise pour l’intégration de Microsoft Lync Server 2013 et Microsoft Exchange Server 2013
-TOCTitle: Configuration requise pour l’intégration de Microsoft Lync Server 2013 et Microsoft Exchange Server 2013
+title: "Configuration requise pour l’intégration de MLS 2013 et MES 2013"
+TOCtitle: "Configuration requise pour l’intégration de MLS 2013 et MES 2013"
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721919(v=OCS.15)
 ms:contentKeyID: 49891590
@@ -57,21 +57,10 @@ Une fois le service de découverte automatique configuré, vous devez modifier l
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La paramètre d’identité de la commande précédente est facultatif. En effet, Lync Server ne vous permet d’avoir qu’une seule collection globale de paramètres de configuration OAuth. Cela signifie, entre autres, que vous pouvez configurer l’URL de découverte automatique à l’aide d’une commande plus simple :<br />
+> [!NOTE]  
+> La paramètre d’identité de la commande précédente est facultatif. En effet, Lync Server ne vous permet d’avoir qu’une seule collection globale de paramètres de configuration OAuth. Cela signifie, entre autres, que vous pouvez configurer l’URL de découverte automatique à l’aide d’une commande plus simple :<br />
 Set-CsOAuthConfiguration–ExchangeAutodiscoverUrl &quot;https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc&quot;<br />
-Si vous ne connaissez pas cette technologie, OAuth est un protocole d’autorisation standard utilisé par nombre des plus importants sites web. Grâce à OAuth, les informations d’identification et les mots de passe d’utilisateur ne sont pas transmis d’un ordinateur à un autre. L’authentification et l’autorisation sont basées sur l’échange de jetons de sécurité. Ces jetons octroient l’accès à un ensemble de ressources spécifique pour une durée spécifique.</td>
-</tr>
-</tbody>
-</table>
-
+Si vous ne connaissez pas cette technologie, OAuth est un protocole d’autorisation standard utilisé par nombre des plus importants sites web. Grâce à OAuth, les informations d’identification et les mots de passe d’utilisateur ne sont pas transmis d’un ordinateur à un autre. L’authentification et l’autorisation sont basées sur l’échange de jetons de sécurité. Ces jetons octroient l’accès à un ensemble de ressources spécifique pour une durée spécifique.
 
 En plus de configurer le service de découverte automatique, vous devez également créer un enregistrement DNS pour le service qui pointe sur votre serveur Exchange. Par exemple, si votre service de découverte automatique est situé à l’adresse autodiscover.litwareinc.com, vous devrez créer un enregistrement DNS pour autodiscover.litwareinc.com qui aboutit au nom de domaine complet de votre serveur Exchange (par exemple, atl-exchange-001.litwareinc.com).
 

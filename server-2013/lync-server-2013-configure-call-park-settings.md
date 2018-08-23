@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Si vous ne voulez pas utiliser les paramètres de parcage d’appel par défaut, vous pouvez les personnaliser. Quand vous installez l’application de parcage d’appel, les paramètres globaux sont configurés par défaut. Vous pouvez modifier les paramètres globaux et définir également des paramètres spécifiques à un site. L’applet de commande **New-CsCpsConfiguration** permet de créer des paramètres spécifiques à un site. L’applet de commande **Set-CsCpsConfiguration** permet de modifier les paramètres existants.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous vous recommandons de configurer au moins l’option <strong>OnTimeoutURI</strong> pour la destination de remplacement à utiliser lorsqu’un appel parqué échoue.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Nous vous recommandons de configurer au moins l’option <strong>OnTimeoutURI</strong> pour la destination de remplacement à utiliser lorsqu’un appel parqué échoue.
 
 Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration** permettent de configurer les paramètres suivants :
 
@@ -79,19 +68,8 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’applet de commande <strong>Get-CsSite</strong> permet d’identifier le site. Pour plus d’informations, voir la documentation de Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!TIP]  
+    > L’applet de commande <strong>Get-CsSite</strong> permet d’identifier le site. Pour plus d’informations, voir la documentation de Lync Server Management Shell.    
     Par exemple :
     
         New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
@@ -104,7 +82,7 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 
 #### Autres ressources
 
-[New-CsCpsConfiguration](new-cscpsconfiguration.md)  
-[Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
-[Get-CsSite](get-cssite.md)
+[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
+[Set-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCpsConfiguration)  
+[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
 

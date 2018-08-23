@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation de la fonctionnalité Appelle-moi à avec un téléphone prenant en charge Lync
-TOCTitle: Utilisation de la fonctionnalité Appelle-moi à avec un téléphone prenant en charge Lync
+title: "Ut. de la fonctionnalité Appelle-moi à avec un tél. prenant en charge Lync"
+TOCtitle: "Ut. de la fonctionnalité Appelle-moi à avec un tél. prenant en charge Lync"
 ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn383570(v=OCS.15)
 ms:contentKeyID: 56559395

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition du code confidentiel de conférence rendez-vous d’un utilisateur'
+title: "Lync Server 2013 : Déf. du code conf. de conférence rdv d’un utilisateur"
 TOCTitle: Définition du code confidentiel de conférence rendez-vous d’un utilisateur
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520985(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2014-06-10_
 
 Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur Lync Server 2013 ayant des informations d’identification de services de domaine Active Directory (AD DS) requiert un code confidentiel (PIN). Si un utilisateur a oublié le code confidentiel de la conférence rendez-vous ou qu’il ne l’a pas défini via Lync Server, vous pouvez définir celui-ci à partir du Panneau de configuration Lync Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies en tant que stratégie. En plus de la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur particulier. Pour plus d’informations sur la configuration d’une stratégie de code confidentiel, reportez-vous à <a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Configurer les règles de code confidentiel des conférences rendez-vous dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies en tant que stratégie. En plus de la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur particulier. Pour plus d’informations sur la configuration d’une stratégie de code confidentiel, reportez-vous à <a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Configurer les règles de code confidentiel des conférences rendez-vous dans Lync Server 2013</a>.
 
 ## Pour définir le code confidentiel d’un utilisateur
 
@@ -55,34 +44,12 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
     4.  Selon la propriété utilisateur que vous avez sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche dans la liste déroulante.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!TIP]  
+        > Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le code confidentiel est verrouillé, vous devez le déverrouiller avant de pouvoir le définir. Pour déverrouiller le code confidentiel, cliquez sur l’utilisateur, sur <strong>Action</strong>, puis sur <strong>Déverrouiller le code confidentiel</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si le code confidentiel est verrouillé, vous devez le déverrouiller avant de pouvoir le définir. Pour déverrouiller le code confidentiel, cliquez sur l’utilisateur, sur <strong>Action</strong>, puis sur <strong>Déverrouiller le code confidentiel</strong>.
 
 6.  Cliquez sur un utilisateur dans les résultats de recherche, puis cliquez sur **Action** et sur **Définir le code confidentiel**.
 
@@ -118,7 +85,7 @@ Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l�
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Set-CsClientPin](set-csclientpin.md).
+Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin).
 
 ## Voir aussi
 

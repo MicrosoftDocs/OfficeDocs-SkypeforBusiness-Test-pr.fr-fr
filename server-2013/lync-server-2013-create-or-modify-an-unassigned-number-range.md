@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification d’une plage de numéros non attribués'
+title: "Lync Server 2013 : Créa. ou modification d’une plage de numéros non attribués"
 TOCTitle: Création ou modification d’une plage de numéros non attribués
 ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412748(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Appliquez l’une des procédures suivantes pour configurer des plages de numéros non attribués pour l’application d’annonce.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant de configurer la table des numéros non attribués, vous devez avoir défini une ou plusieurs annonces ou configuré un standard automatique de la messagerie unifiée Exchange.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Avant de configurer la table des numéros non attribués, vous devez avoir défini une ou plusieurs annonces ou configuré un standard automatique de la messagerie unifiée Exchange.
 
 ## Pour configurer des numéros de téléphone non attribués à l’aide du Panneau de configuration Lync Server
 
@@ -43,42 +32,18 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
     
       - Pour créer une nouvelle plage de numéros, cliquez sur **Nouveau**. Dans **Nom**, tapez le nom de cette plage de numéros.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Une fois que vous avez validé la nouvelle plage de numéros non attribués dans la base de données, vous ne pouvez plus modifier ce nom.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Une fois que vous avez validé la nouvelle plage de numéros non attribués dans la base de données, vous ne pouvez plus modifier ce nom.    
       - Pour modifier une plage de numéros existante, tapez tout ou une partie du nom de la plage de numéros dans le champ de recherche. Dans la liste des plages de numéros résultante, cliquez sur celle voulue, cliquez sur **Modifier**, puis sur **Afficher les détails**.
 
 5.  Dans le premier champ **Plage de numéros**, tapez le numéro de début de plage, puis dans le second champ **Plage de numéros**, tapez le numéro de fin de la plage.
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><ul>
-    <li><p>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de celle-ci.</p></li>
-    <li><p>Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.</p></li>
-    <li><p>Le numéro doit correspondre à l’expression régulière (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Cela implique que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > <ul>    
+    > <li><p>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de celle-ci.</p></li>    
+    > <li><p>Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.</p></li>    
+    > <li><p>Le numéro doit correspondre à l’expression régulière (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Cela implique que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.</p></li>
+    > </ul>
 
 
 6.  Dans **Service d’annonce**, effectuez l’une des opérations suivantes :
@@ -99,19 +64,8 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 10. Dans la page **Numéro non attribué**, vérifiez que les plages de numéros non attribués s’affichent dans l’ordre voulu. Pour déplacer une plage dans la table, cliquez sur un ou plusieurs noms consécutifs dans la liste de plages, puis cliquez sur la flèche vers le haut ou vers le bas.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server analyse la table de haut en bas et utilise la première plage correspondant au numéro non attribué. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Lync Server analyse la table de haut en bas et utilise la première plage correspondant au numéro non attribué. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste.
 
 11. Une fois que vous disposez des plages de numéros non attribués dans l’ordre souhaité, cliquez sur **Valider tout**.
 
@@ -123,19 +77,8 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 3.  Utilisez **New-CsUnassignedNumber** pour créer une plage de numéros non attribués. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribués existante.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si des plages se chevauchent et vous souhaitez qu’elles soient appliquées dans un ordre spécifique, incluez le paramètre Priority. La plage dont la priorité est la plus élevée sera appliquée à l’appel.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!TIP]  
+    > Si des plages se chevauchent et vous souhaitez qu’elles soient appliquées dans un ordre spécifique, incluez le paramètre Priority. La plage dont la priorité est la plus élevée sera appliquée à l’appel.    
     Dans la ligne de commande, effectuez l’une des opérations suivantes :
     
       - Pour créer une plage de numéros pour un service Annonces, exécutez :
@@ -166,7 +109,7 @@ Appliquez l’une des procédures suivantes pour configurer des plages de numér
 
 #### Autres ressources
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
-[Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
+[Set-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

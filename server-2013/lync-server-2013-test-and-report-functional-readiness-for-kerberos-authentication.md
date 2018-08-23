@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Test et signalement de la disponibilité fonctionnelle de l’authentification Kerberos'
+title: "Lync Server 2013 : Test et signalement de la disp. Fonct. de l’auth. Kerberos"
 TOCTitle: Test et signalement de la disponibilité fonctionnelle de l’authentification Kerberos
 ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398925(v=OCS.15)

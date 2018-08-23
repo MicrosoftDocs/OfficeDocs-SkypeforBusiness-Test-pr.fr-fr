@@ -19,19 +19,8 @@ Seul, System Center Operations Manager a la possibilité de surveiller uniqueme
 
   - Le pack d’administration des composants et des utilisateurs (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) assure le suivi des problèmes de Lync Server enregistrés dans des journaux des événements, enregistrés par des compteurs de performances ou consignés dans les enregistrements des détails des appels ou les bases de données de qualité de l’expérience (QoE). Concernant les problèmes critiques, System Center Operations Manager peut être configuré pour avertir immédiatement les administrateurs par courrier électronique, message instantané ou SMS (Short Message Service). La technologie des SMS est utilisée pour envoyer des messages texte d’un appareil mobile à un autre.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur la configuration des notifications d’Operations Manager, voir Configuration des notifications dans la Bibliothèque TechNet à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x40C</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour plus d’informations sur la configuration des notifications d’Operations Manager, voir Configuration des notifications dans la Bibliothèque TechNet à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x40C</a>.
 
   - Le pack de surveillance active (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) teste de façon proactive les composants Lync Server clés, comme se connecter au système, échanger des messages instantanés ou appeler un téléphone sur le réseau téléphonique commuté (TRC). Ces tests sont effectués à l’aide des applets de commande de transaction synthétique de Lync Server. Par exemple, l’applet de commande **Test-CsIM** est utilisée pour simuler une conversation de messagerie instantanée entre deux utilisateurs de test. Si la conversation de messagerie simulée échoue, une alerte est générée.
 

@@ -50,36 +50,15 @@ Cette section décrit la procédure de déploiement de la prise d’appel de gro
 <tr class="even">
 <td><p>Configurer les plages de numéros de prise d’appel dans la table des numéros d’appel parqué</p></td>
 <td><p>Utilisez l’applet de commande <strong>New-CSCallParkOrbit</strong> pour créer des plages de numéros de prise d’appel dans la table des numéros d’appel parqué et affecter aux plages de prise d’appel le type GroupPickup.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez utiliser Lync Server Management Shell pour créer, modifier, supprimer et afficher des plages de numéros de prise d’appel de groupe dans la table des numéros d’appel parqué. Les plages de numéros de prise d’appel de groupe ne sont pas disponibles dans le Panneau de configuration Lync Server.</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour une intégration transparente aux plans de numérotation existants, les plages de numéros sont en général configurées en tant que bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing (DID)) comme numéros de plages dans la table des numéros d’appel parqué.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Vous devez utiliser Lync Server Management Shell pour créer, modifier, supprimer et afficher des plages de numéros de prise d’appel de groupe dans la table des numéros d’appel parqué. Les plages de numéros de prise d’appel de groupe ne sont pas disponibles dans le Panneau de configuration Lync Server.
 
-</div></td>
+
+> [!NOTE]  
+> Pour une intégration transparente aux plans de numérotation existants, les plages de numéros sont en général configurées en tant que bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing (DID)) comme numéros de plages dans la table des numéros d’appel parqué.
+
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>

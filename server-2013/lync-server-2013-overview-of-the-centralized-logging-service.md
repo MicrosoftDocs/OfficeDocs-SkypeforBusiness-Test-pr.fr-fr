@@ -27,21 +27,10 @@ Le service de journalisation centralisée est conçu pour permettre la collecte 
 
 Vous émettez des commandes par le biais de l’interface de ligne de commande Windows Server ou de Lync Server Management Shell. Les commandes sont exécutées sur l’ordinateur sur lequel vous êtes connecté et envoyées au ClsAgent local ou à d’autres ordinateurs et pools dans votre déploiement.
 
-ClsAgent maintient un fichier d’index de tous les fichiers .CACHE dont il dispose sur l’ordinateur local. ClsAgent les alloue de sorte qu’ils soient distribuées de manière égale parmi les volumes définis par l’option CacheFileLocalFolders, en ne consommant jamais plus de 80 % de chaque volume (autrement dit, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l’applet de commande **Set-CsClsConfiguration**). ClsAgent est également responsable de la suppression des anciens fichiers journaux de suivi d’événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (le délai est configurable à l’aide de l’applet de commande **Set-CsClsConfiguration**), ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, voir [Set-CsClsConfiguration](set-csclsconfiguration.md). Lors de la réception d’une demande de recherche, les critères de recherche sont utilisés pour sélectionner le jeu de fichiers .etl mis en cache afin d’effectuer la recherche en fonction des valeurs dans l’index conservé par l’agent.
+ClsAgent maintient un fichier d’index de tous les fichiers .CACHE dont il dispose sur l’ordinateur local. ClsAgent les alloue de sorte qu’ils soient distribuées de manière égale parmi les volumes définis par l’option CacheFileLocalFolders, en ne consommant jamais plus de 80 % de chaque volume (autrement dit, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l’applet de commande **Set-CsClsConfiguration**). ClsAgent est également responsable de la suppression des anciens fichiers journaux de suivi d’événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (le délai est configurable à l’aide de l’applet de commande **Set-CsClsConfiguration**), ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, voir [Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration). Lors de la réception d’une demande de recherche, les critères de recherche sont utilisés pour sélectionner le jeu de fichiers .etl mis en cache afin d’effectuer la recherche en fonction des valeurs dans l’index conservé par l’agent.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les fichiers déplacés vers le partage de fichiers à partir de l’ordinateur local peuvent être consultés par ClsAgent. Une fois que ClsAgent a déplacé les fichiers vers le partage, le vieillissement et la suppression des fichiers ne sont pas conservés par ClsAgent. Vous devez définir une tâche d’administration pour contrôler la taille des fichiers sur le partage de fichiers et les supprimer ou les archiver.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les fichiers déplacés vers le partage de fichiers à partir de l’ordinateur local peuvent être consultés par ClsAgent. Une fois que ClsAgent a déplacé les fichiers vers le partage, le vieillissement et la suppression des fichiers ne sont pas conservés par ClsAgent. Vous devez définir une tâche d’administration pour contrôler la taille des fichiers sur le partage de fichiers et les supprimer ou les archiver.
 
 Les fichiers journaux résultants peuvent être lus et analysés à l’aide de divers outils, notamment **Snooper.exe** et tout outil capable de lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage de Lync Server 2013 et peut être téléchargé depuis le web.
 
@@ -55,33 +44,11 @@ Quand un utilisateur demande une recherche de journal, ClsController détermine 
 
 Lorsque vous commencez une session de journalisation, vous spécifiez des scénarios adaptés au problème que vous tentez de résoudre. Vous pouvez exécuter deux scénarios simultanément. L’un d’entre eux doit être le scénario AlwaysOn. Comme son nom l’indique, il doit toujours être en cours d’exécution dans votre déploiement et recueillir des informations sur tous les ordinateurs, pools et composants.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Par défaut, le scénario AlwaysOn ne s’exécute pas dans votre déploiement. Vous devez le démarrer de manière explicite. Une fois démarré, il continue à s’exécuter jusqu’à ce que vous l’arrêtiez de manière explicite et l’état d’exécution est conservé entre les redémarrages de l’ordinateur. Pour plus d’informations sur le démarrage et l’arrêt de scénarios, voir <a href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Utilisation de la commande Start pour la capture des journaux par le service de journalisation centralisée</a> et <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilisation de la commande Stop pour le service de journalisation centralisée</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Par défaut, le scénario AlwaysOn ne s’exécute pas dans votre déploiement. Vous devez le démarrer de manière explicite. Une fois démarré, il continue à s’exécuter jusqu’à ce que vous l’arrêtiez de manière explicite et l’état d’exécution est conservé entre les redémarrages de l’ordinateur. Pour plus d’informations sur le démarrage et l’arrêt de scénarios, voir <a href="lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md">Utilisation de la commande Start pour la capture des journaux par le service de journalisation centralisée</a> et <a href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Utilisation de la commande Stop pour le service de journalisation centralisée</a>.
 
 Lorsqu’un problème survient, démarrez un second scénario en rapport avec le problème signalé. Reproduisez le problème et arrêtez la journalisation pour le second scénario. Commencez vos recherches de journaux relatives au problème signalé. La collection agrégée de journaux génère un fichier journal qui contient des messages de suivi issus de tous les ordinateurs de l’étendue globale ou de site de votre déploiement. Si la recherche renvoie plus de données que vous ne pouvez raisonnablement en analyser (rapport signal-bruit où le bruit est trop élevé), exécutez une autre recherche avec des paramètres affinés. À ce stade, vous commencerez peut-être à remarquer certains modèles qui peuvent vous aider à appréhender plus étroitement le problème. Après deux ou trois recherches affinées, vous finirez par trouver des données pertinentes au problème et en déterminer la cause racine.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Face à un scénario de problème dans Lync Server, commencez par vous poser la question suivante : « Que sais-je déjà à propos du problème ? ». La quantification des limites du problème vous permet d’éliminer une grande partie des entités opérationnelles dans Lync Server.<br />
-Considérez un exemple de scénario dans lequel vous savez que les utilisateurs n’obtiennent pas de résultats à jour lors de la recherche d’un contact. Rien ne sert de rechercher d’éventuels problèmes dans les composants multimédias, de Voix Entreprise, de conférence et plusieurs autres composants. Vous ignorez peut-être toutefois où réside réellement le problème : sur le client ou du côté serveur ? Les contacts sont recueillis à partir d’Active Directory par le réplicateur d’utilisateurs et remis au client par le biais du serveur de carnet d’adresses (ABServer). ABServer obtient ses mises à jour à partir de la base de données RTC (où elles ont été écrites par le réplicateur d’utilisateurs) et les rassemble dans des fichiers de carnet d’adresses, par défaut à 01h30. Les clients Lync Server extraient le nouveau carnet d’adresses selon un planning aléatoire. Comme vous savez comment ce processus fonctionne, vous pouvez réduire votre recherche de la cause potentielle d’un problème lié à la collecte de données à partir d’Active Directory par le réplicateur d’utilisateurs, à la non-réception et non-création des fichiers de carnet d’adresses par ABServer ou au non-téléchargement du fichier de carnet d’adresses par le client.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Face à un scénario de problème dans Lync Server, commencez par vous poser la question suivante : « Que sais-je déjà à propos du problème ? ». La quantification des limites du problème vous permet d’éliminer une grande partie des entités opérationnelles dans Lync Server.<br />
+Considérez un exemple de scénario dans lequel vous savez que les utilisateurs n’obtiennent pas de résultats à jour lors de la recherche d’un contact. Rien ne sert de rechercher d’éventuels problèmes dans les composants multimédias, de Voix Entreprise, de conférence et plusieurs autres composants. Vous ignorez peut-être toutefois où réside réellement le problème : sur le client ou du côté serveur ? Les contacts sont recueillis à partir d’Active Directory par le réplicateur d’utilisateurs et remis au client par le biais du serveur de carnet d’adresses (ABServer). ABServer obtient ses mises à jour à partir de la base de données RTC (où elles ont été écrites par le réplicateur d’utilisateurs) et les rassemble dans des fichiers de carnet d’adresses, par défaut à 01h30. Les clients Lync Server extraient le nouveau carnet d’adresses selon un planning aléatoire. Comme vous savez comment ce processus fonctionne, vous pouvez réduire votre recherche de la cause potentielle d’un problème lié à la collecte de données à partir d’Active Directory par le réplicateur d’utilisateurs, à la non-réception et non-création des fichiers de carnet d’adresses par ABServer ou au non-téléchargement du fichier de carnet d’adresses par le client.

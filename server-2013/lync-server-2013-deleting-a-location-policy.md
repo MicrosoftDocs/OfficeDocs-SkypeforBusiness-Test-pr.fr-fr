@@ -29,37 +29,15 @@ Vous pouvez configurer les stratégies d’emplacement à partir du groupe **Con
 
 4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez supprimer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs stratégies. Ou, pour sélectionner toutes les stratégies, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs stratégies. Ou, pour sélectionner toutes les stratégies, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez pas supprimer la stratégie d’emplacement globale. Si vous tentez de supprimer cette stratégie vous obtiendrez un message d’erreur et les valeurs par défaut de cette stratégie seront rétablies.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Vous ne pouvez pas supprimer la stratégie d’emplacement globale. Si vous tentez de supprimer cette stratégie vous obtiendrez un message d’erreur et les valeurs par défaut de cette stratégie seront rétablies.
 
 ## Voir aussi
 

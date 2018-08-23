@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Sauvegarde des bases de données de conversation permanente et de conformité'
+title: "Lync Server 2013 : Sauvegarde des BD de conv. permanente et de conformité"
 TOCTitle: Sauvegarde des bases de données de conversation permanente et de conformité
 ms:assetid: 0950e1a9-5a53-4d4a-bf3a-e57ae1225b69
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215872(v=OCS.15)

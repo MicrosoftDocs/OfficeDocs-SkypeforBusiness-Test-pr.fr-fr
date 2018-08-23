@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-10-01_
 
 Après avoir ajouté la fonctionnalité d’archivage à votre topologie et publié la nouvelle topologie, vous devez configurer les options relatives à la façon dont l’archivage est implémenté initialement dans votre déploiement. Vous devez ensuite configurer une ou plusieurs stratégies d’archivage afin d’activer l’archivage pour votre déploiement et, éventuellement, pour des sites et utilisateurs spécifiques. Dans ce but, vous pouvez utiliser Panneau de configuration Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Après le déploiement, vous pouvez modifier les paramètres d’archivage pour désactiver ou activer l’archivage. Pour plus d’informations sur la façon d’implémenter la prise en charge de l’archivage pour une gestion quotidienne ou pour répondre aux nouvelles exigences de votre organisation après le déploiement, voir <a href="lync-server-2013-managing-archiving.md">Gestion de l’archivage Lync Server 2013</a> dans la documentation des opérations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Après le déploiement, vous pouvez modifier les paramètres d’archivage pour désactiver ou activer l’archivage. Pour plus d’informations sur la façon d’implémenter la prise en charge de l’archivage pour une gestion quotidienne ou pour répondre aux nouvelles exigences de votre organisation après le déploiement, voir <a href="lync-server-2013-managing-archiving.md">Gestion de l’archivage Lync Server 2013</a> dans la documentation des opérations.
 
 ## Dans cette section
 

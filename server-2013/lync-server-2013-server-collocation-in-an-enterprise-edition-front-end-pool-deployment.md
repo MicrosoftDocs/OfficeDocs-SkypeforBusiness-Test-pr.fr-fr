@@ -1,5 +1,5 @@
 ﻿---
-title: Colocalisation de serveur Lync Server 2013 lors d’un déploiement de pool frontal Enterprise Edition
+title: "Coloc. de serveur LS 2013 lors d’un dépl. de pool frontal Enterprise Edition"
 TOCTitle: Colocalisation de serveur lors d’un déploiement de pool frontal Enterprise Edition
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398102(v=OCS.15)
@@ -57,33 +57,11 @@ Vous pouvez colocaliser une base de données ou l’ensemble de ces bases de don
 
 Vous pouvez colocaliser un partage de fichiers avec les bases de données, comme il est décrit dans la suite de cette section.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans Lync Server 2013, vous pouvez intégrer le stockage d’archivage au stockage Exchange 2013 pour tout ou partie des utilisateurs de votre déploiement. En revanche, vous ne pouvez pas déployer des serveurs exécutant Lync Server, ni des composants sur les serveurs où se trouve le stockage Exchange.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Dans Lync Server 2013, vous pouvez intégrer le stockage d’archivage au stockage Exchange 2013 pour tout ou partie des utilisateurs de votre déploiement. En revanche, vous ne pouvez pas déployer des serveurs exécutant Lync Server, ni des composants sur les serveurs où se trouve le stockage Exchange.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Même si la colocation des bases de données est prise en charge, la taille des bases de données peut augmenter rapidement. Par exemple, lorsque vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données du serveur d’archivage peuvent devenir très importants. Pour cette raison, nous ne recommandons pas de colocaliser plusieurs bases de données, en particulier la base de données d’archivage, la base de données de conversation permanente ou la base de données de conformité de conversation permanente avec la base de données principale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Même si la colocation des bases de données est prise en charge, la taille des bases de données peut augmenter rapidement. Par exemple, lorsque vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données du serveur d’archivage peuvent devenir très importants. Pour cette raison, nous ne recommandons pas de colocaliser plusieurs bases de données, en particulier la base de données d’archivage, la base de données de conversation permanente ou la base de données de conformité de conversation permanente avec la base de données principale.
 
 ## Partage de fichiers
 
@@ -101,19 +79,8 @@ Le partage de fichier peut être un serveur distinct ou être colocalisé sur le
 
 Un partage de fichiers unique peut être utilisé pour plusieurs pools frontaux et serveurs Standard Edition (sur le même site).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans Lync Server 2013, la surveillance et l’archivage utilisent le partage de fichiers de Lync Server comme serveur frontal.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Dans Lync Server 2013, la surveillance et l’archivage utilisent le partage de fichiers de Lync Server comme serveur frontal.
 
 ## Autres composants
 

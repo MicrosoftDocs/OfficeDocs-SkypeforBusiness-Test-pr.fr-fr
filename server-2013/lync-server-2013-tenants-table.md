@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 La table Tenants est une table de prise en charge qui stocke une liste des différents clients. Chaque enregistrement de la table représente un client.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans les déploiement sur site, CDR utilise l’ID de client intégré pour indiquer différents types d’authentification, tels que la connectivité de messagerie instantanée publique, l’authentification fédérée et l’authentification anonyme.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Dans les déploiement sur site, CDR utilise l’ID de client intégré pour indiquer différents types d’authentification, tels que la connectivité de messagerie instantanée publique, l’authentification fédérée et l’authentification anonyme.
 
 
 <table>
@@ -58,13 +47,7 @@ La table Tenants est une table de prise en charge qui stocke une liste des diff�
 <td><p><strong>TenantKey</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p></p></td>
-<td><p>Valeurs autorisées :</p>
-<ul>
-<li><p>00000000-0000-0000-0000-000000000000 (entreprise)</p></li>
-<li><p>00000000-0000-0000-0000-000000000001 (fédéré)</p></li>
-<li><p>00000000-0000-0000-0000-000000000002 (anonyme)</p></li>
-<li><p>00000000-0000-0000-0000-000000000003 (connectivité PIC)</p></li>
-</ul></td>
+<td><p>Valeurs autorisées :</p><ul><li><p>00000000-0000-0000-0000-000000000000 (entreprise)</p></li><li><p>00000000-0000-0000-0000-000000000001 (fédéré)</p></li><li><p>00000000-0000-0000-0000-000000000002 (anonyme)</p></li><li><p>00000000-0000-0000-0000-000000000003 (connectivité PIC)</p></li></ul></td>
 </tr>
 </tbody>
 </table>

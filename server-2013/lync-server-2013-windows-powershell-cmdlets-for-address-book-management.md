@@ -21,7 +21,7 @@ Toutes ces applets de commande sont émises via Lync Server Management Shell, di
 
 ## Dans cette section
 
-  - [New-CsAddressBookConfiguration pour la gestion du carnet d’adresses](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [New-CsAddressBookConfiguration pour la gestion du carnet d’adresses](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
   - [Set-CsAddressBookConfiguration pour la gestion des carnets d’adresses](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Toutes ces applets de commande sont émises via Lync Server Management Shell, di
 
   - [Get-CsService pour la gestion des carnets d’adresses](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [New-CsWebServiceConfiguration pour la gestion du carnet d’adresses](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [New-CsWebServiceConfiguration pour la gestion du carnet d’adresses](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
   - [Get-CsWebServiceConfiguration pour la gestion des carnets d’adresses](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

@@ -19,19 +19,8 @@ Vous pouvez spécifier des options d’archivage à appliquer à des pools spéc
 
 Pour plus d’informations sur les configurations d’archivage, notamment la hiérarchie des configurations (globale, de site et de pool), voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de la planification, la documentation du déploiement ou la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, voir <a href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous devez spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, voir <a href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage</a> dans la documentation de déploiement.
 
 ## Pour configurer des options d’archivage au niveau du pool
 

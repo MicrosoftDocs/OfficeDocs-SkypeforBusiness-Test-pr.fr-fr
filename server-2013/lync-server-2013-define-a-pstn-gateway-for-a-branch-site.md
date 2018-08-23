@@ -17,25 +17,10 @@ _**Dernière rubrique modifiée :** 2012-09-21_
 
 Exécutez cette procédure sur le site central, qui doit contenir au moins un pool de serveurs frontaux ou un serveur Standard Edition.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant d’effectuer la procédure, les conditions suivantes doivent être remplies :
-<ul>
-<li><p>Les logiciels de communicationLync Server 2013 doivent être installés sur le site central.</p></li>
-<li><p>Le serveur de médiation doit être déployé sur le site central.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Avant d’effectuer la procédure, les conditions suivantes doivent être remplies :<ul>
+> <li><p>Les logiciels de communicationLync Server 2013 doivent être installés sur le site central.</p></li>
+> <li><p>Le serveur de médiation doit être déployé sur le site central.</p></li></ul>
 
 
 ## Pour définir une passerelle RTC
@@ -52,33 +37,11 @@ Exécutez cette procédure sur le site central, qui doit contenir au moins un po
 
 6.  Dans la liste **Protocole de transport SIP** , cliquez sur le protocole de transport utilisé par la passerelle, puis cliquez sur **OK** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser une passerelle RTC qui prend en charge le protocole TLS (Transport Layer Security).</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser une passerelle RTC qui prend en charge le protocole TLS (Transport Layer Security).
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Utilisez l’applet de commande <strong>Set-CsPstnGateway</strong> pour modifier les propriétés d’une passerelle RTC. Pour plus d’informations, reportez-vous à <a href="set-cspstngateway.md">Set-CsPstnGateway</a> dans l’Aide de Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Utilisez l’applet de commande <strong>Set-CsPstnGateway</strong> pour modifier les propriétés d’une passerelle RTC. Pour plus d’informations, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</a> dans l’Aide de Lync Server Management Shell.
 
 **Étape suivante** pour la résistance d’un site de succursale : [Configuration des utilisateurs pour la résistance de sites de succursale dans Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 

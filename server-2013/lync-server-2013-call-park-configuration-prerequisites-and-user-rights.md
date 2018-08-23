@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur'
+title: "Lync Server 2013 : Cond. Préreq. pr conf. parcage d’appel et droits ut."
 TOCTitle: Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425730(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-09-10_
 
 Le parcage d’appel est une fonctionnalité de gestion des appels installée par défaut lorsque vous déployez Voix Entreprise. Cette rubrique présente la configuration requise pour le parcage d’appel ainsi que les droits d’utilisateur nécessaires pour effectuer les tâches de configuration.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les fichiers d’attente musicale personnalisée pour le application de parcage d’appel ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et ils seront perdus si les fichiers téléchargés dans le pool sont endommagés ou effacés. Conservez toujours une copie de sauvegarde des fichiers d’attente musicale personnalisée que vous avez téléchargés pour le parcage d’appel.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Les fichiers d’attente musicale personnalisée pour le application de parcage d’appel ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et ils seront perdus si les fichiers téléchargés dans le pool sont endommagés ou effacés. Conservez toujours une copie de sauvegarde des fichiers d’attente musicale personnalisée que vous avez téléchargés pour le parcage d’appel.
 
 Cette section suppose que vous ayez lu la documentation de planification du parcage d’appel (reportez-vous à [Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
 
@@ -65,19 +54,8 @@ Selon la tâche de configuration de parcage d’appel l’un des rôles d’admi
 
   - **CsAdministrator** : ce rôle d’administrateur peut exécuter toutes les tâches des rôles CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur les droits d’administration, reportez-vous à <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d’informations sur les droits d’administration, reportez-vous à <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Voir aussi
 

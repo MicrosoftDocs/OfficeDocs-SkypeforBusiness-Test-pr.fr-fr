@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des numéros d’accès aux conférences rendez-vous'
+title: "Lync Server 2013 : Conf. des numéros d’accès aux conférences rendez-vous"
 TOCTitle: Configuration des numéros d’accès aux conférences rendez-vous
 ms:assetid: d8a18030-f318-43dd-834d-70e5014b5e8a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398952(v=OCS.15)
@@ -19,33 +19,11 @@ Lorsque vous déployez des conférences rendez-vous, vous devez configurer les n
 
 Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez planifier vos régions de conférences rendez-vous puis configurer les plans de numérotation correspondants. Pour plus d’informations sur les régions, reportez-vous à [Configuration requise pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) dans la documentation de planification. Pour plus d’informations sur la configuration des plans de numérotation pour les conférences rendez-vous, reportez-vous à [Configuration des plans de numérotation pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous ne pouvez pas utiliser un nouveau numéro d’accès pour la conférence rendez-vous tant que la réplication AD DS de ce numéro n’est pas terminée. La réplication peut durer plusieurs heures.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Vous ne pouvez pas utiliser un nouveau numéro d’accès pour la conférence rendez-vous tant que la réplication AD DS de ce numéro n’est pas terminée. La réplication peut durer plusieurs heures.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une fois que vous avez créé les numéros d’accès aux conférences rendez-vous, vous pouvez modifier le nom complet des objets contact Active Directory pour permettre aux utilisateurs d’identifier plus facilement le numéro d’accès approprié. Utilisez l’applet de commande <strong>Set-CsDialInConferencingAccessNumber</strong> pour modifier le nom complet. Vous ne devez pas modifier manuellement les objets Active Directory. Pour plus d’informations sur la modification d’un numéro d’accès, reportez-vous à l’applet de commande <strong>Set-CsDialInConferencingAccessNumber</strong> dans la documentation Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Une fois que vous avez créé les numéros d’accès aux conférences rendez-vous, vous pouvez modifier le nom complet des objets contact Active Directory pour permettre aux utilisateurs d’identifier plus facilement le numéro d’accès approprié. Utilisez l’applet de commande <strong>Set-CsDialInConferencingAccessNumber</strong> pour modifier le nom complet. Vous ne devez pas modifier manuellement les objets Active Directory. Pour plus d’informations sur la modification d’un numéro d’accès, reportez-vous à l’applet de commande <strong>Set-CsDialInConferencingAccessNumber</strong> dans la documentation Lync Server Management Shell.
 
 ## Dans cette section
 

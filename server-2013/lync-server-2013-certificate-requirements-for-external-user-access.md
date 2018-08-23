@@ -23,60 +23,27 @@ Le certificat public utilisé pour les interfaces externes Edge d’accès et de
 
   - Si vous comptez utiliser le certificat dans un pool de serveurs Edge, vous devez le créer de manière à pouvoir l’exporter, en utilisant le même certificat sur chaque serveur Edge du pool. Les exigences de clé privée exportable concernent le service d’authentification A/V, qui doit utiliser la même clé privée sur tous les serveurs Edge du pool.
 
-  - Si vous voulez optimiser la durée active de vos services Audio/Vidéo, consultez les conditions préalables requises du certificat pour l’implémentation d’un certificat service Edge A/V découplé (c’est-à-dire un certificat service Edge A/V différent des certificats Edge externes destinés à d’autres usages). Pour plus d’informations, reportez-vous aux rubriques [Modifications apportées dans Lync Server 2013 affectant la planification de serveurs Edge](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Planification des certificats de serveur Edge dans Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) et [Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md).
+  - Si vous voulez optimiser la durée active de vos services Audio/Vidéo, consultez les conditions préalables requises du certificat pour l’implémentation d’un certificat service Edge A/V découplé (c’est-à-dire un certificat service Edge A/V différent des certificats Edge externes destinés à d’autres usages). Pour plus d’informations, reportez-vous aux rubriques [Modifications apportées dans Lync Server 2013 affectant la planification de serveurs Edge](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Planification des certificats de serveur Edge dans Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) et [Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate).
 
   - Le nom de sujet du certificat est le nom de domaine complet de l’interface externe du service Edge d’accès ou l’adresse IP du programme d’équilibrage de la charge matérielle (par exemple, access.contoso.com).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dans Lync Server 2013, cette condition n’est plus obligatoire, mais il est conseillé de la respecter pour assurer la compatibilité avec Office Communications Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Dans Lync Server 2013, cette condition n’est plus obligatoire, mais il est conseillé de la respecter pour assurer la compatibilité avec Office Communications Server.
 
   - La liste des autres noms de sujet contient les noms de domaines complets des éléments suivants :
     
       - l’interface externe du service Edge d’accès ou l’adresse IP du programme d’équilibrage de la charge matérielle (par exemple, access.contoso.com) ;
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Même si le nom de sujet du certificat est le même que le nom de domaine complet du serveur Edge d’accès, l’autre nom du sujet doit également contenir le nom de domaine complet du serveur Edge d’accès, car le protocole TLS (Transport Layer Security) ignore le nom du sujet et utilise les entrées des autres noms de sujet pour la validation.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Même si le nom de sujet du certificat est le même que le nom de domaine complet du serveur Edge d’accès, l’autre nom du sujet doit également contenir le nom de domaine complet du serveur Edge d’accès, car le protocole TLS (Transport Layer Security) ignore le nom du sujet et utilise les entrées des autres noms de sujet pour la validation.    
       - l’interface externe du serveur Edge de conférence web ou l’adresse IP du programme d’équilibrage de la charge matérielle (par exemple, webcon.contoso.com) ;
     
       - Si vous faites appel à la fédération ou à la configuration automatique des clients, incluez également les noms de domaines complets SIP utilisés dans votre entreprise (par exemple, sip.contoso.com, sip.fabrikam.com).
     
       - Le service Edge A/V n’utilise pas le nom du sujet ou les entrées d’autres noms du sujet.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’ordre des noms de domaines complets dans la liste des autres noms de sujet n’a pas d’importance.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > L’ordre des noms de domaines complets dans la liste des autres noms de sujet n’a pas d’importance.
 
 Si vous déployez plusieurs serveurs Edge à charge équilibrée sur un site, le certificat du service d’authentification A/V installé sur chaque serveur Edge doit provenir de la même autorité de certification et utiliser la même clé privée. Il est à noter que la clé privée du certificat doit pouvoir être exportée, qu’elle soit utilisée sur un ou plusieurs serveurs Edge. Elle doit pouvoir être exportée si vous demandez le certificat à un ordinateur autre que le serveur Edge. Comme le service d’authentification A/V n’utilise pas le nom du sujet ni un autre nom du sujet, vous pouvez réutiliser le certificat Edge d’accès, pourvu que les conditions liées au nom du sujet et aux autres noms du sujet sont remplies pour le serveur Edge d’accès et le serveur Edge de conférence web et que la clé privée du certificat puisse être exportée.
 

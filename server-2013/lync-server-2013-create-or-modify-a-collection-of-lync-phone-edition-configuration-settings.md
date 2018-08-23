@@ -1,6 +1,6 @@
 ﻿---
-title: Création ou modification d’une collection de paramètres de configuration de Lync Phone Edition
-TOCTitle: Création ou modification d’une collection de paramètres de configuration de Lync Phone Edition
+title: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
+TOCtitle: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688086(v=OCS.15)
 ms:contentKeyID: 49891384
@@ -33,19 +33,8 @@ Les paramètres de configuration comprennent le nom de la collection, l’étend
     
       - Pour modifier l’un des paramètres d’une collection existante, cliquez sur la collection, cliquez sur le menu **Modifier**, cliquez sur **Afficher les détails**, puis apportez vos modifications.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour revenir à l’utilisation des paramètres par défaut de la collection globale, cliquez sur la collection globale, cliquez sur le menu <strong>Modifier</strong>, cliquez sur <strong>Supprimer</strong>, puis sur <strong>OK</strong>. Cela ne supprime pas la collection globale, mais rétablit simplement les paramètres à leurs valeurs par défaut.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!TIP]  
+        > Pour revenir à l’utilisation des paramètres par défaut de la collection globale, cliquez sur la collection globale, cliquez sur le menu <strong>Modifier</strong>, cliquez sur <strong>Supprimer</strong>, puis sur <strong>OK</strong>. Cela ne supprime pas la collection globale, mais rétablit simplement les paramètres à leurs valeurs par défaut.
 
 5.  Cliquez sur **Valider**.
 
@@ -73,7 +62,7 @@ Vous pouvez également créer des paramètres de configuration Lync Phone Editi
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-Pour plus d’informations, voir [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md).
+Pour plus d’informations, voir [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration).
 
 ## Voir aussi
 

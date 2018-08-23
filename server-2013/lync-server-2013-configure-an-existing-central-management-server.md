@@ -23,16 +23,5 @@ Si vous réutilisez un serveur de gestion centralisée d’un déploiement Lync 
 
 2.  Utilisez l’applet de commande **Update-CsAdminRole** pour mettre à jour les rôles RBAC (Contrôle d’accès basé sur un rôle) stockés dans le serveur de gestion centralisée.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Sauf erreur, aucun résultat n’est attendu.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Sauf erreur, aucun résultat n’est attendu.

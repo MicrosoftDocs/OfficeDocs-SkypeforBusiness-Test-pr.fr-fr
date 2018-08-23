@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : (Facultatif) Modification du mappage des clés des commandes DTMF'
+title: "Lync Server 2013 : (Facul.) Mod. du mappage des clés des commandes DTMF"
 TOCTitle: (Facultatif) Modification du mappage des clés des commandes DTMF
 ms:assetid: d753b78d-400c-4df2-957f-e7576b2019c2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398943(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-09-30_
 
 Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du clavier téléphonique pour exécuter des commandes de numérotation en fréquences vocales (DTMF). Les commandes DTMF permettent aux utilisateurs qui prennent part à une conférence de contrôler les paramètres de conférence (tels que l’activation et la désactivation de leur microphone ou le verrouillage et le déverrouillage de la conférence) à l’aide du clavier de leur téléphone. Vous pouvez faire appel à des applets de commande pour modifier les touches utilisées pour les commandes DTMF. Cette étape est facultative.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour obtenir des informations sur ces applets de commande et les options DTMF possibles, reportez-vous à la documentation Lync Server Management Shell ou l’aide de la ligne de commande Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour obtenir des informations sur ces applets de commande et les options DTMF possibles, reportez-vous à la documentation Lync Server Management Shell ou l’aide de la ligne de commande Lync Server Management Shell.
 
 ## Pour modifier le mappage de touches des commandes DTMF
 

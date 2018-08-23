@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs publics'
+title: "Lync Server 2013 : Conf. des stratégies de contrôle d’accès des ut. publics"
 TOCTitle: Configuration des stratégies de contrôle d’accès des utilisateurs publics
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520946(v=OCS.15)
@@ -17,25 +17,11 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 La connectivité PIC (Public IM Connectivity) permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée proposés par des fournisseurs de services de messagerie instantanée publics, notamment le réseau Windows Live de services Internet, Yahoo\! et AOL. Vous devez configurer un certain nombre de stratégies d’accès externe pour déterminer si des utilisateurs publics peuvent collaborer avec des utilisateurs de Lync Server internes. La connectivité PIC est une nouvelle fonctionnalité qui s’appuie sur la configuration de votre déploiement et les utilisateurs. Elle dépend également du provisionnement du service au niveau du fournisseur de messagerie instantané public. Pour plus d’informations sur le provisionnement de votre déploiement par des fournisseurs publics, consultez le guide « Guide de configuration de la connectivité PIC (Public IM Connectivity) pour Microsoft Lync Server, Office Communications Server et Live Communications Server » : <http://go.microsoft.com/fwlink/?linkid=269821>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
-<li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
-<li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
+> <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
+> <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li></ul>
 
 
 Pour accéder au site de provisionnement PIC (Public IM Connectivity) de Microsoft Lync Server, cliquez sur le lien suivant : <http://go.microsoft.com/fwlink/?linkid=212638>
@@ -44,19 +30,8 @@ Pour contrôler l’accès des utilisateurs publics, vous pouvez configurer des 
 
 Dans le cas des invitations de messagerie instantanée, la réponse dépend du logiciel client. La demande est acceptée, sauf si les expéditeurs externes sont explicitement bloqués par une règle configurée par l’utilisateur (c’est-à-dire les paramètres figurant dans les listes **Autoriser** et **Bloquer** ). De plus, les invitations de messagerie instantanée peuvent être bloquées si un utilisateur choisit de bloquer tous les messages instantanés des utilisateurs qui ne figurent pas dans sa liste **Autoriser**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez configurer des stratégies de contrôle d’accès des utilisateurs publics, même si vous n’avez pas activé la fédération pour votre organisation. Cependant, les stratégies que vous configurez s’appliquent uniquement si la fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la fédération, reportez-vous à <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a> dans la documentation de déploiement ou des opérations. En outre, si vous spécifiez une stratégie de contrôle d’accès des utilisateurs publics, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server et configurés pour utiliser la stratégie. Pour plus d’informations sur la désignation d’utilisateurs publics pouvant se connecter à Lync Server, consultez <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013</a> dans la documentation de déploiement ou des opérations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez configurer des stratégies de contrôle d’accès des utilisateurs publics, même si vous n’avez pas activé la fédération pour votre organisation. Cependant, les stratégies que vous configurez s’appliquent uniquement si la fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la fédération, reportez-vous à <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a> dans la documentation de déploiement ou des opérations. En outre, si vous spécifiez une stratégie de contrôle d’accès des utilisateurs publics, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server et configurés pour utiliser la stratégie. Pour plus d’informations sur la désignation d’utilisateurs publics pouvant se connecter à Lync Server, consultez <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013</a> dans la documentation de déploiement ou des opérations.
 
 Effectuez la procédure suivante pour configurer une stratégie permettant de prendre en charge l’accès par les utilisateurs d’un ou plusieurs fournisseurs de messagerie instantanée publics.
 

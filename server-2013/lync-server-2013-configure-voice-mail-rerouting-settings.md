@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des paramètres de réacheminement de la messagerie vocale'
+title: "Lync Server 2013 : Conf. des param. de réach. de la messagerie vocale"
 TOCTitle: Configuration des paramètres de réacheminement de la messagerie vocale
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398606(v=OCS.15)
@@ -25,35 +25,13 @@ Pour plus d’informations, reportez-vous à la section « Préparation à la s
 
 2.  Dans Lync Server Management Shell, utilisez l’applet de commande **New-CSVoiceMailReroutingConfiguration** pour définir le numéro de téléphone du standard automatique comme numéro de téléphone de standard automatique de la messagerie unifiée Exchange dans la configuration de réacheminement de la messagerie vocale sur le Survivable Branch Appliance ou le serveur Survivable Branch Server.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous avez besoin de modifier le paramètre de réacheminement de la messagerie vocale ultérieurement, utilisez pour cela l’applet de commande <strong>Set-CsVoiceMailReRoutingConfiguration</strong>. Pour plus d’informations sur <strong>New-</strong> et <strong>Set-CSVoiceMailReroutingConfiguration</strong>, reportez-vous aux rubriques d’aide du Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous avez besoin de modifier le paramètre de réacheminement de la messagerie vocale ultérieurement, utilisez pour cela l’applet de commande <strong>Set-CsVoiceMailReRoutingConfiguration</strong>. Pour plus d’informations sur <strong>New-</strong> et <strong>Set-CSVoiceMailReroutingConfiguration</strong>, reportez-vous aux rubriques d’aide du Shell.
 
 3.  Configurez le numéro d’accès d’abonné à la messagerie unifiée Exchange qui correspond au plan de numérotation de messagerie unifiée Exchange de l’utilisateur de succursale comme numéro d’accès d’abonné à la messagerie unifiée Exchange dans la configuration de réacheminement de la messagerie vocale sur le Survivable Branch Appliance ou le serveur Survivable Branch Server.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Configurez le plan de numérotation de messagerie unifiée Exchange de l’utilisateur afin qu’il n’y ait qu’un seul plan de numérotation associé à tous les utilisateurs de succursale ayant besoin d’accéder à la fonctionnalité Obtenir la messagerie vocale pendant une panne du réseau étendu (WAN).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Configurez le plan de numérotation de messagerie unifiée Exchange de l’utilisateur afin qu’il n’y ait qu’un seul plan de numérotation associé à tous les utilisateurs de succursale ayant besoin d’accéder à la fonctionnalité Obtenir la messagerie vocale pendant une panne du réseau étendu (WAN).
 
 **Étape suivante** pour les serveurs Survivable Branch Appliance ou les serveurs Survivable Branch Server : [Hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server dans Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
 

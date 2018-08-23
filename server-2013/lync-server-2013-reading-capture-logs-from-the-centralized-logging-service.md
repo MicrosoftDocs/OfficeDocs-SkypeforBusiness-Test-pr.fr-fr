@@ -1,6 +1,6 @@
 ﻿---
-title: Lecture des journaux de capture à partir du service de journalisation centralisée
-TOCTitle: Lecture des journaux de capture à partir du service de journalisation centralisée
+title: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
+TOCtitle: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721879(v=OCS.15)
 ms:contentKeyID: 49891533
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-28_
 
 Vous vous rendez compte des avantages du service de journalisation centralisée après avoir exécuté la recherche et obtenu un fichier que vous pouvez utiliser pour suivre un problème signalé. Vous pouvez lire le fichier de plusieurs façons. Le fichier de sortie est au format texte standard. Vous pouvez utiliser Notepad.exe ou tout autre programme permettant d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil tel que Snooper.exe, conçu pour lire et analyser les sorties de journalisation du service de journalisation centralisée. Snooper est inclus dans les outils de débogage de Lync Server 2013 (disponibles séparément). Aucun raccourci ou élément de menu n’est créé pour les outils de débogage de Lync Server 2013. Après avoir installé les outils de débogage de Lync Server 2013, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Lync Server Management Shell, puis accédez au répertoire (emplacement par défaut) C:\\Programmes\\Microsoft Lync Server 2013\\Outils de débogage. Double-cliquez sur Snooper.exe ou tapez Snooper.exe, puis appuyez sur ENTRÉE si vous utilisez la ligne de commande ou Lync Server Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette rubrique n’est pas destinée à aborder les techniques de résolution des problèmes. Le dépannage et les processus associés constituent un sujet complexe. Pour plus d’informations sur les bases de résolution des problèmes et les charges de travail spécifiques, voir le manuel du Kit de ressources de Microsoft Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0x40C</a>. Les processus et procédures s’appliquent également à Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Cette rubrique n’est pas destinée à aborder les techniques de résolution des problèmes. Le dépannage et les processus associés constituent un sujet complexe. Pour plus d’informations sur les bases de résolution des problèmes et les charges de travail spécifiques, voir le manuel du Kit de ressources de Microsoft Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0x40C</a>. Les processus et procédures s’appliquent également à Lync Server 2013.
 
 Lync Server 2013 inclut une version mise à jour de Snooper avec de nouvelles fonctionnalités. La capture d’écran suivante montre la version de Snooper associée à Office Communications Server 2007.
 
@@ -69,19 +58,8 @@ Vous pouvez placer le pointeur sur la vue de diagramme pour obtenir des informat
 
 3.  Cliquez sur **Flux des appels**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous cliquez sur un message ou une trace que ne fait pas partie d’un flux des appels, le diagramme n’apparaît pas et le message d’état « Ce message n’est pas éligible pour le flux des appels » est affiché en bas de Snooper. Choisissez un autre message ou une autre trace. Le flux des appels réapparaît si le message ou la trace fait partie d’un flux des appels.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous cliquez sur un message ou une trace que ne fait pas partie d’un flux des appels, le diagramme n’apparaît pas et le message d’état « Ce message n’est pas éligible pour le flux des appels » est affiché en bas de Snooper. Choisissez un autre message ou une autre trace. Le flux des appels réapparaît si le message ou la trace fait partie d’un flux des appels.
 
 4.  Parcourez les messages ou lignes de trace et vérifiez si le diagramme de flux des appels est mis à jour ou modifié pour afficher un nouveau diagramme.
 

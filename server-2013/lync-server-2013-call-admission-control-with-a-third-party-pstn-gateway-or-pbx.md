@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Contrôle d’admisson des appels avec une passerelle RTC ou un système PBX tiers'
+title: "LS 2013 : Contr. d’adm. des appels avec passerelle RTC ou syst. PBX tiers"
 TOCTitle: Contrôle d’admisson des appels avec une passerelle RTC ou un système PBX tiers
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398762(v=OCS.15)
@@ -33,21 +33,10 @@ Dans cet exemple, le contrôle d’admission des appels est appliqué entre le s
 
 Cet exemple s’applique aux appels RTC entrants vers un client dans Site réseau 1, ainsi qu’aux appels RTC sortants issus d’une application cliente dans Site réseau n1.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Assurez-vous que le sous-réseau IP auquel appartient la passerelle RTC est configuré et associé au Site réseau 2.<br />
+> [!NOTE]  
+> Assurez-vous que le sous-réseau IP auquel appartient la passerelle RTC est configuré et associé au Site réseau 2.<br />
 Assurez-vous que le sous-réseau IP auquel appartiennent les deux interfaces du serveur de médiation est configuré et associé au Site réseau 1.<br />
-Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Association d’un sous-réseau à un site réseau dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Association d’un sous-réseau à un site réseau dans Lync Server 2013</a>.
 
 ## Exemple 2 : Contrôle d’admission des appels entre le serveur de médiation et un système PBX tiers avec point de terminaison multimédia
 
@@ -65,21 +54,10 @@ Dans cet exemple, le contrôle d’admission des appels est appliqué entre le s
 
 Cet exemple s’applique aux appels RTC entrants vers un client dans Site réseau n° 1, ainsi qu’aux appels RTC sortants issus d’un client dans Site réseau n° 1.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Assurez-vous que le sous-réseau IP auquel appartient le MTP est configuré et associé au Site réseau 2.<br />
+> [!NOTE]  
+> Assurez-vous que le sous-réseau IP auquel appartient le MTP est configuré et associé au Site réseau 2.<br />
 Assurez-vous que le sous-réseau IP auquel appartiennent les deux interfaces du serveur de médiation est configuré et associé au Site réseau 1.<br />
-Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Association d’un sous-réseau à un site réseau dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Association d’un sous-réseau à un site réseau dans Lync Server 2013</a>.
 
 ## Exemple 3 : Contrôle d’admission des appels entre le serveur de médiation et un système PBX tiers sans point de terminaison multimédia
 
@@ -93,18 +71,7 @@ Dans cet exemple, si un utilisateur de client Lync sur Site réseau n° 1 passe
 
 Pour les appels issus du point de terminaison tiers, les informations relatives à ce périphérique de point de terminaison sont accessibles au moment de la demande de session et le contrôle d’admission des appels peut s’effectuer des deux côtés du serveur de médiation.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Assurez-vous que le sous-réseau IP auquel appartiennent les périphériques de point de terminaison est configuré et associé au Site réseau 2.<br />
+> [!NOTE]  
+> Assurez-vous que le sous-réseau IP auquel appartiennent les périphériques de point de terminaison est configuré et associé au Site réseau 2.<br />
 Assurez-vous que le sous-réseau IP auquel appartiennent les deux interfaces du serveur de médiation est configuré et associé au Site réseau 1.<br />
-Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Association d’un sous-réseau à un site réseau dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Association d’un sous-réseau à un site réseau dans Lync Server 2013</a>.

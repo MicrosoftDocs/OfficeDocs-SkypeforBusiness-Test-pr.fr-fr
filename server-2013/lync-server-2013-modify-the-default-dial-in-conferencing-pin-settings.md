@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Modification des paramètres de code confidentiel des conférences rendez-vous par défaut'
+title: "Lync Server 2013 : Mod. des par. de code conf. des conférences rdv par déf."
 TOCTitle: Modification des paramètres de code confidentiel des conférences rendez-vous par défaut
 ms:assetid: 2d110e94-ad29-4755-b17f-d8c2da9b78a4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425780(v=OCS.15)
@@ -41,19 +41,8 @@ La stratégie d’authentification par code confidentiel globale définit les r�
 
 11. Pour autoriser les modèles courants de codes confidentiels, tels que les jeux de chiffres séquentiels et répétitifs, activez la case à cocher **Autoriser les modèles courants**. Si vous ne sélectionnez pas cette option, seuls les modèles complexes de chiffres sont autorisés. Par défaut, seuls les modèles complexes de chiffres sont autorisés.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nous vous recommandons de ne pas autoriser les modèles courants.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Nous vous recommandons de ne pas autoriser les modèles courants.
 
 12. Cliquez sur **Valider**.
 

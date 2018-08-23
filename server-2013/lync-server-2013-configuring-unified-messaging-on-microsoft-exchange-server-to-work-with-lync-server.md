@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la messagerie unifiée sur Microsoft Exchange Server de sorte qu’elle fonctionne avec Lync Server'
+title: "LS 2013 : Conf. mess. un. sur Microsoft Exchange Server pour fonct. avec LS"
 TOCTitle: Configuration de la messagerie unifiée sur Microsoft Exchange Server de sorte qu’elle fonctionne avec Lync Server 2013
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398106(v=OCS.15)
@@ -15,37 +15,15 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous souhaitez utiliser la messagerie unifiée Exchange pour offrir aux utilisateurs de Voix Entreprise les services Répondeur automatique, Standard automatique et Outlook Voice Access, lisez <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013</a> dans la documentation de planification, puis suivez les instructions de cette section.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Si vous souhaitez utiliser la messagerie unifiée Exchange pour offrir aux utilisateurs de Voix Entreprise les services Répondeur automatique, Standard automatique et Outlook Voice Access, lisez <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013</a> dans la documentation de planification, puis suivez les instructions de cette section.
 
 Pour configurer la messagerie unifiée Exchange afin qu’elle fonctionne avec Voix Entreprise, vous devez effectuer les tâches suivantes :
 
   - Configurer des certificats sur le serveur exécutant les services de la messagerie unifiée Exchange
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ajoutez tous les serveurs d’accès au client et de boîte aux lettres à tous les plans de numérotation URI SIP de messagerie unifiée. Autrement, le routage des appels sortant ne fonctionnera pas correctement.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Ajoutez tous les serveurs d’accès au client et de boîte aux lettres à tous les plans de numérotation URI SIP de messagerie unifiée. Autrement, le routage des appels sortant ne fonctionnera pas correctement.
 
   - Créez un ou plusieurs plans de numérotation URI SIP de messagerie unifiée ainsi que, le cas échéant, leurs numéros d’accès d’abonné, puis créez les plans de numérotation Lync Server correspondants
 
@@ -75,19 +53,8 @@ Notez également les points suivants :
 
   - Les étapes d’intégration s’effectuent sur les rôles serveur Exchange qui exécutent les services de messagerie unifiée, ainsi que sur le serveur qui exécute Lync Server 2013. Vous devez effectuer les étapes d’intégration de la messagerie unifiée Exchange Server avant de procéder à l’intégration de Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour voir quelles étapes d’intégration sont effectuées sur quels serveurs et par quels rôles d’administrateur, reportez-vous à <a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour voir quelles étapes d’intégration sont effectuées sur quels serveurs et par quels rôles d’administrateur, reportez-vous à <a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server 2013</a>.
 
 Les outils suivants doivent être disponibles sur chaque serveur qui exécute la messagerie unifiée Exchange:
 

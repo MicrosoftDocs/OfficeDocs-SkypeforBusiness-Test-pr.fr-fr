@@ -31,19 +31,8 @@ Pour supprimer un flux de travail, effectuez l’une des procédures suivantes.
 
 6.  Dans la liste des services, cliquez sur le service voulu, puis sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La page web de l’outil de configuration Response Group s’ouvre. Vous pouvez également ouvrir la page web de l’outil de configuration Response Group directement depuis un navigateur web en vous connectant à <strong>https://<em>&lt;webPoolFqdn&gt;</em>/RgsConfig</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > La page web de l’outil de configuration Response Group s’ouvre. Vous pouvez également ouvrir la page web de l’outil de configuration Response Group directement depuis un navigateur web en vous connectant à <strong>https://<em>&lt;webPoolFqdn&gt;</em>/RgsConfig</strong>.
 
 7.  Sous **Gérer un flux de travail existant**, recherchez le flux de travail que vous souhaitez supprimer, puis sous **Action**, cliquez sur **Supprimer**.
 

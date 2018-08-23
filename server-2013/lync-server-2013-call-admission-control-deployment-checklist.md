@@ -19,19 +19,8 @@ Servez-vous de la liste de contrôle suivante pour vérifier que vous avez exéc
 
   - Si un ou plusieurs serveurs Edge sont déployés, chaque adresse IP de l’interface externe doit être ajoutée à la liste de sous-réseaux dans les paramètres de configuration réseau, avec un masque de 32 bits. Vous devez également associer ce sous-réseau (adresse IP) à l’ID de site réseau pour l’emplacement géographique où est déployé le service Edge A/V.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il n’est pas obligatoire que les serveurs Edge implémentent le contrôle d’admission des appels.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Il n’est pas obligatoire que les serveurs Edge implémentent le contrôle d’admission des appels.
 
   - Vérifiez que le contrôle d’admission des appels est activé, soit en ouvrant le Panneau de configuration Lync Server, soit en exécutant la cmdlet, comme spécifié dans la section [Activer le contrôle d’admission des appels](lync-server-2013-enable-call-admission-control.md). .
 

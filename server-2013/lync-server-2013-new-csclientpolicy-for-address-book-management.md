@@ -37,5 +37,5 @@ Par exemple :
 
 #### Autres ressources
 
-[New-CsClientPolicy](new-csclientpolicy.md)
+[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)
 

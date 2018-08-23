@@ -25,19 +25,9 @@ Deux éléments sont à prendre en compte quand vous affectez des stratégies à
 
 Cette commande échoue, car il n’y a pas besoin d’affecter la stratégie globale. Si vous voulez gérer un utilisateur à l’aide de la stratégie globale, veillez à ne pas affecter une stratégie utilisateur à cet utilisateur. Si aucune stratégie utilisateur n’a été affectée à un utilisateur, l’utilisateur est géré automatiquement à l’aide de la stratégie globale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Que se passe-t-il si une stratégie utilisateur a déjà été affectée à l’utilisateur et que vous voulez annuler l’affectation de cette stratégie pour que l’utilisateur soit géré par la stratégie globale ? Dans ce cas, vous devez commencer par utiliser la syntaxe suivante qui permet d’annuler l’affectation d’une stratégie utilisateur via l’octroi d’une stratégie null à cet utilisateur :<br />
-Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Que se passe-t-il si une stratégie utilisateur a déjà été affectée à l’utilisateur et que vous voulez annuler l’affectation de cette stratégie pour que l’utilisateur soit géré par la stratégie globale ? Dans ce cas, vous devez commencer par utiliser la syntaxe suivante qui permet d’annuler l’affectation d’une stratégie utilisateur via l’octroi d’une stratégie null à cet utilisateur :<br />
+Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null
 
 
 Rappelez-vous ensuite que ces stratégies utilisateur sont créées au niveau de l’étendue de balise. Vous pouvez toutefois omettre le **préfixe** de la balise lorsque vous spécifiez le nom d’une stratégie. Ces deux commandes sont identiques :
@@ -51,22 +41,22 @@ Si vous voulez retourner les identités pour toutes vos stratégies utilisateur 
 
 Les applets de commande suivantes utilisent une identité utilisateur et l’étendue de balise :
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)
 
-  - [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsHostedVoicemailPolicy)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## Voir aussi
 
 #### Concepts
 
 [Identités, étendues et clients](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Applets de commande de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Traitement des menaces pesant sur votre infrastructure de base pour Lync Server 2013
-TOCTitle: Traitement des menaces pesant sur votre infrastructure de base pour Lync Server 2013
+title: "Traitement des menaces pesant sur votre infr. de base pour Lync Server 2013"
+TOCtitle: "Traitement des menaces pesant sur votre infr. de base pour Lync Server 2013"
 ms:assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn518334(v=OCS.15)
 ms:contentKeyID: 60484513

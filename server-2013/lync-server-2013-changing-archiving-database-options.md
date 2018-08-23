@@ -1,6 +1,6 @@
 ﻿---
-title: Modification des options de la base de données d’archivage dans Lync Server 2013
-TOCTitle: Modification des options de la base de données d’archivage dans Lync Server 2013
+title: "Modif. des options de la base de données d’archivage dans Lync Server 2013"
+TOCtitle: "Modif. des options de la base de données d’archivage dans Lync Server 2013"
 ms:assetid: 3775f09d-65b0-48bc-8a4d-d97bd0c3423c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204814(v=OCS.15)
 ms:contentKeyID: 49296868
@@ -27,19 +27,8 @@ Pour apporter l’une de ces modifications, vous devez exécuter le Générateur
 
 1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel les outils d’administration Lync Server sont installés, ouvrez une session à l’aide d’un compte membre du groupe local Utilisateurs (ou disposant de droits d’utilisateur équivalents).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez définir une topologie à l’aide d’un compte membre du groupe local Utilisateurs, mais pour la publier, ce qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe <strong>Administrateurs de domaine</strong> et du groupe <strong>RTCUniversalServerAdmins</strong> et qui dispose d’autorisations de contrôle complètes (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers Lync Server 2013 (pour que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaires requises), ou un compte disposant de droits équivalents.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe local Utilisateurs, mais pour la publier, ce qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe <strong>Administrateurs de domaine</strong> et du groupe <strong>RTCUniversalServerAdmins</strong> et qui dispose d’autorisations de contrôle complètes (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers Lync Server 2013 (pour que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaires requises), ou un compte disposant de droits équivalents.
 
 2.  Démarrez le Générateur de topologie.
 
@@ -91,32 +80,10 @@ Pour apporter l’une de ces modifications, vous devez exécuter le Générateur
     
       - Pour choisir l’intégration de Microsoft Exchange comme moyen de stocker les données et fichiers d’archivage sur des serveurs Exchange 2013 (si tous les utilisateurs de votre déploiement sont hébergés sur vos serveurs Exchange 2013), supprimez toutes les informations des bases de données d’archivage.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous avez des utilisateurs Lync qui ne sont pas hébergés sur des serveurs Exchange 2013, ne supprimez pas les informations du magasin SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Si vous avez des utilisateurs Lync qui ne sont pas hébergés sur des serveurs Exchange 2013, ne supprimez pas les informations du magasin SQL Server.
 
 8.  Pour enregistrer la configuration, cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les modifications apportées dans le Générateur de topologie ne prennent effet que quand vous publiez la nouvelle topologie. Pour plus d’informations, voir <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Publication de la topologie mise à jour pour l’ajout des bases de données d’archivage</a> dans la documentation de déploiement.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Les modifications apportées dans le Générateur de topologie ne prennent effet que quand vous publiez la nouvelle topologie. Pour plus d’informations, voir <a href="lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md">Publication de la topologie mise à jour pour l’ajout des bases de données d’archivage</a> dans la documentation de déploiement.

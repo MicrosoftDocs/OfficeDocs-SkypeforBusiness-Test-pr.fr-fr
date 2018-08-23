@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration de jonction SIP dans Lync Server 2013
-TOCTitle: Suppression d’une collection existante de paramètres de configuration de jonction SIP dans Lync Server 2013
+title: "Supp. d’une collection existante de par. de conf. de jonction SIP dans LS 2013"
+TOCtitle: "Supp. d’une collection existante de par. de conf. de jonction SIP dans LS 2013"
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688024(v=OCS.15)
 ms:contentKeyID: 49891310
@@ -23,7 +23,7 @@ Les paramètres de configuration de jonction SIP définissent la relation et les
 
   - L’application ou non du chiffrement SRTP (Secure Real-Time Protocol) sur chaque jonction.
 
-Quand vous installez Microsoft Lync Server 2013, une collection globale de paramètres de configuration de jonction SIP est créée automatiquement. Si cette collection globale de paramètres ne peut pas être supprimée, vous pouvez toutefois utiliser le Panneau de configuration Lync Server ou l’applet de commande [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) pour rétablir la valeur par défaut des propriétés de la collection globale. Par exemple, si vous avez attribué à la propriété Enable3pccRefer la valeur True, lors de la « réinitialisation » de la collection globale, la propriété Enable3pccRefer reprend sa valeur par défaut (False).
+Quand vous installez Microsoft Lync Server 2013, une collection globale de paramètres de configuration de jonction SIP est créée automatiquement. Si cette collection globale de paramètres ne peut pas être supprimée, vous pouvez toutefois utiliser le Panneau de configuration Lync Server ou l’applet de commande [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) pour rétablir la valeur par défaut des propriétés de la collection globale. Par exemple, si vous avez attribué à la propriété Enable3pccRefer la valeur True, lors de la « réinitialisation » de la collection globale, la propriété Enable3pccRefer reprend sa valeur par défaut (False).
 
 Les administrateurs peuvent aussi créer des paramètres de configuration de jonction personnalisés étendus à un site ou un service (pour une passerelle PSTN individuelle) ; ces paramètres personnalisés peuvent être supprimés. Au moment de supprimer ces paramètres personnalisés, tenez compte des points suivants :
 
@@ -67,5 +67,5 @@ Les paramètres de configuration de jonction peuvent aussi être supprimés à l
     
         Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration).
 

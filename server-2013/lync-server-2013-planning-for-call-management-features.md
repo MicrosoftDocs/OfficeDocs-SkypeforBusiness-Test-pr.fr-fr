@@ -21,19 +21,8 @@ Les fonctionnalités de gestion des appels Voix Entreprise contrôlent les modes
 
   - **Prise d’appel de groupe** : permet à un utilisateur de la fonctionnalité audio de prendre un appel qui sonne pour un autre utilisateur de la fonctionnalité audio membre d’un groupe de prise d’appel.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La prise d’appel de groupe est une nouvelle fonctionnalité introduite dans les mises à jour cumulatives pour Lync Server 2013 de février 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > La prise d’appel de groupe est une nouvelle fonctionnalité introduite dans les mises à jour cumulatives pour Lync Server 2013 de février 2013.
 
   - **Response Group** : achemine les appels entrants vers des groupes d’agents à l’aide de groupes de recherche, ou de questions et réponses IVR (réponse vocale interactive).
 

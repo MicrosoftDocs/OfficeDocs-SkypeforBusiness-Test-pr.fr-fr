@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs fédérés'
+title: "Lync Server 2013 : Conf. des stratégies de contrôle d’accès des ut. fédérés"
 TOCTitle: Configuration des stratégies de contrôler d’accès des utilisateurs fédérés
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398359(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2014-02-05_
 
 Quand vous configurez des stratégies de prise en charge des communications avec les partenaires fédérés, ces stratégies s’appliquent aux utilisateurs des domaines fédérés. Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes afin de vérifier si les utilisateurs des domaines fédérés peuvent collaborer avec vos utilisateurs Lync Server 2013. Pour contrôler l’accès des utilisateurs fédérés, vous pouvez configurer des stratégies au niveau global, du site et de l’utilisateur. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez configurer des stratégies de contrôle d’accès des utilisateurs fédérés, même si vous n’avez pas activé la fédération pour votre organisation. Cependant, les stratégies que vous configurez s’appliquent uniquement si la fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la fédération, reportez-vous à <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a> dans la documentation de déploiement ou des opérations. En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs fédérés, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server 2013 et configurés pour utiliser la stratégie.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez configurer des stratégies de contrôle d’accès des utilisateurs fédérés, même si vous n’avez pas activé la fédération pour votre organisation. Cependant, les stratégies que vous configurez s’appliquent uniquement si la fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la fédération, reportez-vous à <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a> dans la documentation de déploiement ou des opérations. En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs fédérés, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server 2013 et configurés pour utiliser la stratégie.
 
 ## Pour configurer une stratégie permettant la prise en charge de l’accès des utilisateurs des domaines fédérés
 
@@ -77,19 +66,8 @@ S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la st
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le paramètre « EnablePublicCloudAudioVideoAccess » n’a pas de sélection correspondante dans le Panneau de configuration Lync Server</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Le paramètre « EnablePublicCloudAudioVideoAccess » n’a pas de sélection correspondante dans le Panneau de configuration Lync Server
 
 ## Pour créer une stratégie via Windows PowerShell afin de prendre en charge l’accès des utilisateurs des domaines fédérés
 
@@ -136,9 +114,9 @@ S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la st
 
 [Gestion des domaines fédérés SIP pour l’organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Gestion des fournisseurs fédérés SIP pour l’organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 

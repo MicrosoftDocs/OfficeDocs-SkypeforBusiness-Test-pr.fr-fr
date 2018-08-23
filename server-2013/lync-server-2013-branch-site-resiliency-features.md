@@ -52,16 +52,5 @@ Les fonctionnalités suivantes seront disponibles uniquement si votre solution d
     
     Si E9-1-1 est déployé et que la jonction SIP n’est pas disponible sur le site central en raison d’une défaillance de la liaison de réseau étendu, le Survivable Branch Appliance achemine alors les appels E9-1-1 vers la passerelle de la succursale locale. Pour activer cette fonctionnalité, les stratégies de voix des utilisateurs du site de succursale doivent acheminer les appels vers la passerelle locale en cas de panne du réseau étendu (WAN).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SBA (survivable branch office) n’est pas pris en charge pour XMPP. Les utilisateurs hébergés dans des configurations SBA ne peuvent pas envoyer de messages instantanés ni voir la présence avec les contacts XMPP.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> SBA (survivable branch office) n’est pas pris en charge pour XMPP. Les utilisateurs hébergés dans des configurations SBA ne peuvent pas envoyer de messages instantanés ni voir la présence avec les contacts XMPP.

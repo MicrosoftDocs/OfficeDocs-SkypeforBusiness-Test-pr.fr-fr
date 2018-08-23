@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition d’un mot de passe de compte d’authentification Kerberos sur un serveur'
+title: "Lync Server 2013 : Déf. d’un mdp de compte d’auth. Kerberos sur un serveur"
 TOCTitle: Définition d’un mot de passe de compte d’authentification Kerberos sur un serveur
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398734(v=OCS.15)
@@ -35,29 +35,7 @@ Lorsque vous utilisez l’applet de commande **Set-CsKerberosAccountPassword** p
     
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous devez spécifier le paramètre Compte d’utilisateur au format Domaine\Utilisateur. Le format Utilisateur@Domaine.extension n’est pas pris en charge pour le référencement des objets Ordinateur créés à des fins d’authentification Kerberos.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous devez spécifier le paramètre Compte d’utilisateur au format Domaine\Utilisateur. Le format Utilisateur@Domaine.extension n’est pas pris en charge pour le référencement des objets Ordinateur créés à des fins d’authentification Kerberos.    
+    > [!IMPORTANT]  
+    > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.

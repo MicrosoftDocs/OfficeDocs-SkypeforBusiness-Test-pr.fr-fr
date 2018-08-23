@@ -19,21 +19,10 @@ Lync Server 2013 intègre une interface de service web standard qui vous permet
 
 Si une application SNMP est installée et que le service d’informations sur l’emplacement n’arrive pas à trouver une correspondance dans la base de données d’emplacements, service d’informations sur l’emplacement utilise l’adresse MAC fournie par le client pour interroger automatiquement l’application. Ensuite, à l’aide des informations de port et de commutateur renvoyées par l’application SNMP, le service d’informations sur l’emplacement interroge une fois de plus la base de données d’emplacements.
 
-Pour plus d’informations, voir [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md).
+Pour plus d’informations, voir [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les adresses MAC ne sont pas disponibles sur les ordinateurs qui exécutent Windows 8.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les adresses MAC ne sont pas disponibles sur les ordinateurs qui exécutent Windows 8.
 
 ## Pour configurer l’URL de l’application SNMP
 

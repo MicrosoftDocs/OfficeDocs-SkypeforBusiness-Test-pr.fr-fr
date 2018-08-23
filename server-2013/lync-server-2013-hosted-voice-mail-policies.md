@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-10-01_
 
 Une *stratégie de messagerie vocale hébergée* fournit des informations à l’application de routage ExUM de Lync Server 2013 sur l’emplacement auquel les appels doivent être acheminés pour les utilisateurs dont les boîtes aux lettres se trouvent sur un service Exchange hébergé.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez utiliser les stratégies de messagerie vocale hébergée pour intégrer Lync Server 2013 à la messagerie unifiée Exchange hébergée uniquement. Elles ne sont pas nécessaires dans le cas d’une intégration à la messagerie Exchange sur site.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous devez utiliser les stratégies de messagerie vocale hébergée pour intégrer Lync Server 2013 à la messagerie unifiée Exchange hébergée uniquement. Elles ne sont pas nécessaires dans le cas d’une intégration à la messagerie Exchange sur site.
 
 ## Étendue des stratégies de messagerie vocale hébergée
 
@@ -41,19 +30,8 @@ L’étendue des stratégies de messagerie vocale hébergée détermine le nivea
 
   - Une stratégie *par utilisateur* peut uniquement affecter des utilisateurs individuels ou des groupes. Pour appliquer une stratégie par utilisateur, vous devez l’attribuer explicitement à des utilisateurs individuels, des groupes et des objets contact.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Généralement, une seule stratégie de messagerie vocale hébergée est requise. Dans de nombreux cas, vous pouvez modifier la stratégie globale pour qu’elle réponde à vos besoins. Si vous déployez plusieurs stratégies de messagerie vocale hébergée, toutes ont une étendue par utilisateur.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Généralement, une seule stratégie de messagerie vocale hébergée est requise. Dans de nombreux cas, vous pouvez modifier la stratégie globale pour qu’elle réponde à vos besoins. Si vous déployez plusieurs stratégies de messagerie vocale hébergée, toutes ont une étendue par utilisateur.
 
 ## Attributs des stratégies de messagerie vocale hébergée
 
@@ -61,35 +39,13 @@ Une stratégie de messagerie vocale définit deux attributs que l’application 
 
   - **Destination** : le nom de domaine complet du service de messagerie unifiée Exchange hébergé. Cette valeur est utilisée par le serveur Edge Lync Server sur site à des fins de routage.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom de domaine complet pour Exchange Online est exap.um.outlook.com.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Le nom de domaine complet pour Exchange Online est exap.um.outlook.com.
 
   - **Organisation** : le nom de domaine complet du locataire sur le service de messagerie unifiée Exchange hébergé qui accueille les boîtes aux lettres de vos utilisateurs Lync Server 2013. Une stratégie de messagerie vocale peut contenir plusieurs organisations. Si plusieurs d’entre elles sont incluses dans la stratégie, cet attribut doit être une liste séparée par des virgules des locataires d’Exchange Server qui héberge les boîtes aux lettres de vos utilisateurs Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’administrateur client de votre service de messagerie unifiée Exchange hébergé fournit les valeurs nécessaires pour vos paramètres d’attribut de destination et d’organisation. Pour configurer votre stratégie, vous devez exécuter l’applet de commande New-CsHostedVoicemailPolicy ou utiliser Set-CsHostedVoicemailPolicy pour modifier une stratégie existante (la stratégie globale, par exemple).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> L’administrateur client de votre service de messagerie unifiée Exchange hébergé fournit les valeurs nécessaires pour vos paramètres d’attribut de destination et d’organisation. Pour configurer votre stratégie, vous devez exécuter l’applet de commande New-CsHostedVoicemailPolicy ou utiliser Set-CsHostedVoicemailPolicy pour modifier une stratégie existante (la stratégie globale, par exemple).
 
 Pour plus d’informations sur la gestion des stratégies de messagerie vocale hébergée, reportez-vous à la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 

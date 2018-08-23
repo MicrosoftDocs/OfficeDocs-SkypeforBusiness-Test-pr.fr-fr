@@ -45,19 +45,8 @@ Appliquez l’une des procédures suivantes pour supprimer une plage de numéros
     
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur d’autres options, voir <a href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
 
 ## Voir aussi
 
@@ -67,6 +56,6 @@ Appliquez l’une des procédures suivantes pour supprimer une plage de numéros
 
 #### Autres ressources
 
-[Remove-CsUnassignedNumber](remove-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[Remove-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

@@ -23,20 +23,9 @@ Dans le Panneau de configuration Lync Server 2013, vous utilisez les configurati
 
 Vous définissez les configurations d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations une fois le déploiement terminé. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour utiliser l’archivage des utilisateurs hébergés sur Lync Server 2013, vous devez configurer des stratégies d’archivage afin de spécifier si l’archivage doit être activé pour les communications internes, les communications externes, ou les deux. Par défaut, l’archivage n’est pas activé pour les communications internes ou externes. Avant d’activer l’archivage dans des stratégies, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, éventuellement, pour des sites et pools spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuration et affectation des stratégies d’archivage</a> dans la documentation de déploiement.<br />
-Si, après avoir déployé l’archivage, vous décidez d’utiliser l’intégration de Microsoft Exchange pour stocker des données et fichiers d’archivage sur des serveurs Exchange 2013 et que tous vos utilisateurs sont hébergés sur vos serveurs Exchange 2013, il est préférable de supprimer la configuration de la base de données SQL Server de votre topologie. Vous devez utiliser le Générateur de topologie pour ce faire. Pour plus d’informations, voir <a href="lync-server-2013-changing-archiving-database-options.md">Modification des options de la base de données d’archivage dans Lync Server 2013</a> dans la documentation des opérations.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour utiliser l’archivage des utilisateurs hébergés sur Lync Server 2013, vous devez configurer des stratégies d’archivage afin de spécifier si l’archivage doit être activé pour les communications internes, les communications externes, ou les deux. Par défaut, l’archivage n’est pas activé pour les communications internes ou externes. Avant d’activer l’archivage dans des stratégies, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, éventuellement, pour des sites et pools spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuration et affectation des stratégies d’archivage</a> dans la documentation de déploiement.<br />
+Si, après avoir déployé l’archivage, vous décidez d’utiliser l’intégration de Microsoft Exchange pour stocker des données et fichiers d’archivage sur des serveurs Exchange 2013 et que tous vos utilisateurs sont hébergés sur vos serveurs Exchange 2013, il est préférable de supprimer la configuration de la base de données SQL Server de votre topologie. Vous devez utiliser le Générateur de topologie pour ce faire. Pour plus d’informations, voir <a href="lync-server-2013-changing-archiving-database-options.md">Modification des options de la base de données d’archivage dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Pour activer ou désactiver le vidage de l’archivage
 
@@ -72,7 +61,7 @@ L’activation et la désactivation du vidage automatique des données d’archi
 
 ## Activation du vidage exclusif des données d’archivage exportées
 
-  - Pour limiter le vidage aux enregistrements d’archivage qui ont été exportés dans un fichier de données (à l’aide de l’applet de commande [Export-CsArchivingData](export-csarchivingdata.md)) vous devez aussi définir la propriété PurgeExportedArchivesOnly sur True ($True). Par exemple :
+  - Pour limiter le vidage aux enregistrements d’archivage qui ont été exportés dans un fichier de données (à l’aide de l’applet de commande [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)) vous devez aussi définir la propriété PurgeExportedArchivesOnly sur True ($True). Par exemple :
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -84,7 +73,7 @@ L’activation et la désactivation du vidage automatique des données d’archi
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Pour plus d’informations, notamment des options supplémentaires pour le vidage des données d’archivage, voir la rubrique d’aide de l’applet de commande [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md).
+Pour plus d’informations, notamment des options supplémentaires pour le vidage des données d’archivage, voir la rubrique d’aide de l’applet de commande [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
 
 ## Voir aussi
 

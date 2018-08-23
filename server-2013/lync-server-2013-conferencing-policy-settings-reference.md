@@ -19,7 +19,7 @@ Les tableaux présentés ici répertorient tous les paramètres de stratégie de
 
 ## Paramètres de stratégie de l’organisateur
 
-Le tableau suivant répertorie tous les paramètres de stratégie de conférence que vous pouvez appliquer aux organisateurs de conférence. Pour obtenir la liste la plus à jour des paramètres de stratégie de conférence, voir la rubrique d'aide pour l'applet de commande [Set-CsClientPolicy](set-csclientpolicy.md).
+Le tableau suivant répertorie tous les paramètres de stratégie de conférence que vous pouvez appliquer aux organisateurs de conférence. Pour obtenir la liste la plus à jour des paramètres de stratégie de conférence, voir la rubrique d'aide pour l'applet de commande [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
 
 ### Paramètres de stratégie de l’organisateur
 
@@ -102,21 +102,11 @@ Le tableau suivant répertorie tous les paramètres de stratégie de conférence
 <tr class="odd">
 <td><p>Autoriser les participants fédérés et anonymes à prendre le contrôle</p></td>
 <td><p>Autorise les participants externes et anonymes à prendre le contrôle d’une application partagée d’un autre utilisateur.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si ce paramètre est défini sur True et si <strong>Autoriser les participants à prendre le contrôle</strong> est défini sur False, ce paramètre est remplacé.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Si ce paramètre est défini sur True et si <strong>Autoriser les participants à prendre le contrôle</strong> est défini sur False, ce paramètre est remplacé.
+
+</td>
 </tr>
 </tbody>
 </table>

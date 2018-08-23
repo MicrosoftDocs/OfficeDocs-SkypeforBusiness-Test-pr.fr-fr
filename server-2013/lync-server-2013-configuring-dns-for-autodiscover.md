@@ -39,19 +39,8 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou des enreg
     
       - Pour un enregistrement DNS interne, dans l’arborescence de la console du serveur DNS, développez **Zones de recherche directes** pour votre domaine Active Directory (par exemple, contoso.local).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Il s’agit du domaine Active Directory dans lequel sont installés votre pool de directeurLync Server 2013 et le pool de serveurs frontaux.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Il s’agit du domaine Active Directory dans lequel sont installés votre pool de directeurLync Server 2013 et le pool de serveurs frontaux.    
       - Pour un enregistrement DNS externe, dans l’arborescence de la console du serveur DNS, développez **Zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com).
 
 4.  Vérifiez qu’il existe un enregistrement A d’hôte pour votre pool de directeurs comme suit :
@@ -68,19 +57,8 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou des enreg
 
 6.  Pour un enregistrement DNS interne, dans l’arborescence de la console de votre serveur DNS, développez **Zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous créez un enregistrement DNS externe, <strong>Zones de recherche directes</strong> est déjà développé pour votre domaine SIP (suite à l’étape 3).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous créez un enregistrement DNS externe, <strong>Zones de recherche directes</strong> est déjà développé pour votre domaine SIP (suite à l’étape 3).
 
 7.  Cliquez avec le bouton droit sur le nom du domaine SIP, puis cliquez sur **Nouvel alias (CNAME)**.
 
@@ -96,32 +74,11 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou des enreg
     
       - Pour un enregistrement DNS externe, tapez ou naviguez jusqu’au nom de domaine complet des services web externes de votre pool de directeurs (par exemple, lyncwebextdir.contoso.com), puis cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous n’utilisez pas de directeur, utilisez le nom de domaine complet des services web interne et externe de votre pool de serveurs frontaux, ou, pour un serveur unique, le nom de domaine complet du serveur frontal ou serveur Standard Edition.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous devez créer un enregistrement CNAME de découverte automatique dans la zone de recherche directe de chaque domaine SIP que vous prenez en charge dans votre environnement Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous n’utilisez pas de directeur, utilisez le nom de domaine complet des services web interne et externe de votre pool de serveurs frontaux, ou, pour un serveur unique, le nom de domaine complet du serveur frontal ou serveur Standard Edition. 
+       
+    > [!IMPORTANT]  
+    > Vous devez créer un enregistrement CNAME de découverte automatique dans la zone de recherche directe de chaque domaine SIP que vous prenez en charge dans votre environnement Lync Server 2013.
 
 ## Pour créer des enregistrements A DNS
 
@@ -137,19 +94,8 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou des enreg
     
       - Pour un enregistrement DNS interne, dans l’arborescence de la console du serveur DNS, développez **Zones de recherche directes** pour votre domaine Active Directory (par exemple, contoso.local).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Il s’agit du domaine Active Directory dans lequel sont installés votre pool de directeurLync Server 2013 et le pool de serveurs frontaux.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Il s’agit du domaine Active Directory dans lequel sont installés votre pool de directeurLync Server 2013 et le pool de serveurs frontaux.    
       - Pour un enregistrement DNS externe, dans l’arborescence de la console du serveur DNS, développez **Zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com).
 
 4.  Vérifiez qu’il existe un enregistrement A (AAAA pour IPv6) d’hôte pour votre pool de directeurs comme suit :
@@ -166,19 +112,8 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou des enreg
 
 6.  Pour un enregistrement DNS interne, dans l’arborescence de la console de votre serveur DNS, développez **Zones de recherche directes** pour votre domaine SIP (par exemple, contoso.com).
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous créez un enregistrement DNS externe, <strong>Zones de recherche directes</strong> est déjà développé pour votre domaine SIP (suite à l’étape 3).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous créez un enregistrement DNS externe, <strong>Zones de recherche directes</strong> est déjà développé pour votre domaine SIP (suite à l’étape 3).
 
 7.  Cliquez avec le bouton droit sur le nom du domaine SIP, puis cliquez sur **Nouvel hôte (A ou AAAA)**.
 
@@ -188,56 +123,23 @@ Les enregistrements DNS peuvent être des enregistrements A (hôte) ou des enreg
     
       - Pour un enregistrement DNS externe, tapez lyncdiscover comme nom d’hôte pour l’URL du service de découverte automatique externe.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom de domaine est déduit d’après la zone dans laquelle l’enregistrement est défini ; il est par conséquent inutile de l’entrer dans le cadre de l’enregistrement A.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Le nom de domaine est déduit d’après la zone dans laquelle l’enregistrement est défini ; il est par conséquent inutile de l’entrer dans le cadre de l’enregistrement A.
 
 9.  Dans **Adresse IP**, tapez l’adresse IP comme suit :
     
       - Pour un enregistrement DNS interne, tapez l’adresse IP interne des services web du directeur (ou, si vous utilisez un équilibrage de la charge, tapez l’adresse IP virtuelle (VIP) de l’équilibrage de charge du directeur).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous n’utilisez pas de directeur, tapez l’adresse IP du serveur frontal ou du serveur Standard Edition ou, si vous utilisez un équilibrage de la charge, tapez l’adresse IP de l’équilibrage de charge pool de serveurs frontaux.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Si vous n’utilisez pas de directeur, tapez l’adresse IP du serveur frontal ou du serveur Standard Edition ou, si vous utilisez un équilibrage de la charge, tapez l’adresse IP de l’équilibrage de charge pool de serveurs frontaux.    
       - Pour un enregistrement DNS externe, tapez l’adresse IP externe ou publique du proxy inverse.
 
 10. Cliquez sur **Ajouter un hôte**, puis sur **OK**.
 
 11. Pour créer un enregistrement A supplémentaire, répétez les étapes 8 à 10.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous devez créer des enregistrements A lyncdiscover et lyncdiscoverinternal dans la zone de recherche directe de chaque domaine SIP que vous prenez en charge dans votre environnement Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Vous devez créer des enregistrements A lyncdiscover et lyncdiscoverinternal dans la zone de recherche directe de chaque domaine SIP que vous prenez en charge dans votre environnement Lync Server 2013.
 
 12. Lorsque vous avez terminé de créer des enregistrements A (AAAA pour IPv6), cliquez sur **Terminé**.
 

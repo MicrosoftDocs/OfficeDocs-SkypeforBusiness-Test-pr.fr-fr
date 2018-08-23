@@ -89,53 +89,20 @@ Lors de la restauration d’un serveur, vous devez prendre pour base un nouvel o
 
   - Un nouveau serveur ayant le même nom de domaine complet que le serveur ayant subi une défaillance.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lors de l’installation du système d’exploitation, veillez à ne pas supprimer le compte d’ordinateur dans les services de domaine Active Directory et vérifiez que les autorisations de groupe pour le compte sont conservées.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Lors de l’installation du système d’exploitation, veillez à ne pas supprimer le compte d’ordinateur dans les services de domaine Active Directory et vérifiez que les autorisations de groupe pour le compte sont conservées.
 
   - Logiciel d’installation pour le système d’exploitation. Pour installer le système d’exploitation, utilisez les configurations et procédures de déploiement de serveur établies par votre organisation. Celles-ci doivent être à votre disposition lors de la restauration du service.
 
   - Logiciel d’installation pour SQL Server 2012 ou SQL Server 2008 R2. Pour installer un serveur de bases de données, utilisez la version appropriée de SQL Server et les procédures et configurations de déploiement de serveur de bases de données établies par votre organisation. Celles-ci doivent être à votre disposition lors de la restauration du service.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’Assistant Déploiement de Lync Server installe automatiquement SQL Server 2012 Express sur chaque serveur Standard Edition et sur tout autre serveur Lync Server lors de l’installation d’un magasin de configurations local, à moins que vous n’ayez préinstallé SQL Server 2012 ou SQL Server 2008 R2 Express sur le serveur.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > L’Assistant Déploiement de Lync Server installe automatiquement SQL Server 2012 Express sur chaque serveur Standard Edition et sur tout autre serveur Lync Server lors de l’installation d’un magasin de configurations local, à moins que vous n’ayez préinstallé SQL Server 2012 ou SQL Server 2008 R2 Express sur le serveur.
 
   - Logiciels de prise d’images système
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nous vous recommandons de créer une image du système après avoir installé le système d’exploitation et SQL Server et avant de commencer la restauration, de manière à pouvoir utiliser cette image comme point de restauration dans l’éventualité où un problème surviendrait lors de la restauration.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Nous vous recommandons de créer une image du système après avoir installé le système d’exploitation et SQL Server et avant de commencer la restauration, de manière à pouvoir utiliser cette image comme point de restauration dans l’éventualité où un problème surviendrait lors de la restauration.
 
   - Logiciel d’installation de Lync Server 2013. L’Assistant Déploiement de Lync Server se trouve sur le support ou dans le dossier d’installation de Lync Server à l’emplacement \\setup\\amd64\\Setup.exe.
 
@@ -163,19 +130,8 @@ Avant de restaurer le serveur, vous devez effectuer les étapes suivantes :
 
 4.  Créez une image du système avant de commencer la restauration. Celle-ci servira de point de restauration en cas de problème.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’Assistant Déploiement de Lync Server et les applets de commande décrites dans les procédures de cette section, et dans les sections associées, définissent toutes les listes de contrôle d’accès requises.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> L’Assistant Déploiement de Lync Server et les applets de commande décrites dans les procédures de cette section, et dans les sections associées, définissent toutes les listes de contrôle d’accès requises.
 
 Avant de commencer la restauration, vérifiez que le matériel et les logiciels dont vous avez besoin pour les éléments que vous prévoyez de restaurer sont disponibles. Une fois le système d’exploitation et SQL Server installés, la plupart des étapes des procédures de restauration suivantes peuvent être effectuées à distance. Les exceptions sont notées dans les procédures.
 

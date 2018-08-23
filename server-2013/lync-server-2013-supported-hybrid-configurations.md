@@ -52,75 +52,35 @@ Le tableau ci-dessous répertorie les fonctionnalités prises en charge dans un 
 <li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
 <li><p>Liste des contacts (via le magasin de contacts unifié)</p>
 <p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nécessite Exchange 2013.<br />
-Un client de bureau Lync 2013 est requis.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Nécessite Exchange 2013.<br />
+Un client de bureau Lync 2013 est requis.
+
+</li>
 <li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p>
 <p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configuration de l’utilisation de photos haute résolution dans Microsoft Lync Server 2013</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nécessite Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Nécessite Exchange 2013.
+
+</li>
 <li><p>Délégation de réunion</p>
 <p>Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.</p></li>
 <li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
 <li><p>Archivage de contenu (messagerie instantanée et réunion) dans Exchange</p>
 <p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deployment-checklist-for-archiving.md">Liste de vérification du déploiement pour l’archivage dans Lync Server 2013</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nécessite Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Nécessite Exchange 2013.
+
+</li>
 <li><p>Parcourir le contenu archivé</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nécessite Exchange 2013.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Nécessite Exchange 2013.
+
+</li>
 <li><p>Messagerie vocale</p>
 <p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">Déploiement de la messagerie unifiée Exchange locale pour fournir la messagerie vocale Lync Server 2013</a></p></li>
 </ul></td>
@@ -136,21 +96,11 @@ Un client de bureau Lync 2013 est requis.</td>
 <li><p>Rejoindre une réunion en ligne dans les clients mobiles</p></li>
 <li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
 <li><p>Liste des contacts (via le magasin de contacts unifié). Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié</a></p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 uniquement. Un client de bureau Lync 2013 est requis.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Lync Server 2013 uniquement. Un client de bureau Lync 2013 est requis.
+
+</li>
 <li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p>
 <p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configuration de l’utilisation de photos haute résolution dans Microsoft Lync Server 2013</a>.</p></li>
 <li><p>Délégation de réunion</p>
@@ -170,21 +120,11 @@ Un client de bureau Lync 2013 est requis.</td>
 <li><p>Messagerie instantanée/présence dans les clients mobiles</p></li>
 <li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
 <li><p>Photo de contact haute résolution dans le client Lync 2013.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nécessite Microsoft Exchange Server 2013. Non pris en charge dans Lync Web App lorsque les utilisateurs sont hébergés sur Skype Entreprise Online.</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Nécessite Microsoft Exchange Server 2013. Non pris en charge dans Lync Web App lorsque les utilisateurs sont hébergés sur Skype Entreprise Online.
+
+</li>
 <li><p>Rejoindre une réunion en ligne dans les clients mobiles</p></li>
 <li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
 <li><p>Délégation de réunion</p>
@@ -200,21 +140,11 @@ Un client de bureau Lync 2013 est requis.</td>
 <li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
 <li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
 <li><p>Liste des contacts (via le magasin de contacts unifié)</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Client Lync Server 2013 requis</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
+> [!NOTE]  
+> Client Lync Server 2013 requis
+
+</li>
 <li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p></li>
 <li><p>Délégation de réunion</p>
 <p>Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.</p></li>

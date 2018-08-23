@@ -27,19 +27,8 @@ Vous pouvez afficher les liens entre deux régions réseau dans le cadre du serv
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez afficher.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher des informations que sur un lien de région à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous ne pouvez afficher des informations que sur un lien de région à la fois.
 
 5.  Dans le menu **Edition**, sélectionnez **Afficher les détails**.
 
@@ -61,7 +50,7 @@ Vous pouvez également afficher des liens de région réseau avec Lync Server Ma
         NetworkRegionID1    : Pacific Northwest
         NetworkRegionID2    : California
 
-Pour plus d’informations, voir [Get-CsNetworkRegionLink](get-csnetworkregionlink.md).
+Pour plus d’informations, voir [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Voir aussi
 

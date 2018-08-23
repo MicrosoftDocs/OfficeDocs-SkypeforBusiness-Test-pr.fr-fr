@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server'
+title: "Lync Server 2013 : Héb. des ut. sur un SBA ou un SBS"
 TOCTitle: Hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413066(v=OCS.15)
@@ -29,26 +29,15 @@ Le processus d’hébergement des utilisateurs sur Survivable Branch Appliance 
 
 2.  Dans Lync Server Management Shell, exécutez l’applet de commande **Move-CsUser** pour héberger des utilisateurs.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également utiliser le Panneau de configuration Lync Server pour vérifier les conditions préalables et héberger les utilisateurs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez également utiliser le Panneau de configuration Lync Server pour vérifier les conditions préalables et héberger les utilisateurs.
 
 ## Voir aussi
 
 #### Autres ressources
 
-[Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)  
-[Get-CsVoicePolicy](get-csvoicepolicy.md)  
-[Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)  
-[Move-CsUser](move-csuser.md)
+[Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall)  
+[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
 

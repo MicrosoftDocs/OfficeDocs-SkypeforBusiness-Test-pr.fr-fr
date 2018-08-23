@@ -35,19 +35,8 @@ La boîte aux lettres d’Alice et le service de messagerie unifiée Exchange so
 
   - Les valeurs définies dans l’attribut msExchUCVoiceMailSettings du compte utilisateur d’Alice indiquent à l’application de routage ExUM de contrôler les informations de routage dans une stratégie de messagerie vocale hébergée.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La valeur de l’attribut msExchUCVoiceMailSettings peut être définie par le fournisseur de services Exchange ou l’administrateur Lync Server 2013. Dans l’exemple illustré dans le diagramme précédent, la valeur (CsHostedVoiceMail=1) était définie par l’administrateur Lync Server 2013 pour activer la messagerie vocale hébergée pour Alice. Pour plus d’informations sur cet attribut, reportez-vous à <a href="lync-server-2013-hosted-exchange-user-management.md">Gestion des utilisateurs Exchange hébergés dans Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > La valeur de l’attribut msExchUCVoiceMailSettings peut être définie par le fournisseur de services Exchange ou l’administrateur Lync Server 2013. Dans l’exemple illustré dans le diagramme précédent, la valeur (CsHostedVoiceMail=1) était définie par l’administrateur Lync Server 2013 pour activer la messagerie vocale hébergée pour Alice. Pour plus d’informations sur cet attribut, reportez-vous à <a href="lync-server-2013-hosted-exchange-user-management.md">Gestion des utilisateurs Exchange hébergés dans Lync Server 2013</a>.
 
   - La stratégie de messagerie vocale hébergée attribuée au compte utilisateur d’Alice fournit les détails de routage suivants :
     
@@ -55,31 +44,9 @@ La boîte aux lettres d’Alice et le service de messagerie unifiée Exchange so
     
       - Les organisations sont identifiées par les ID de locataire qui sont les noms de domaine complets (FQDN) pour les messages SIP pour les locataires Exchange Server qui se trouvent sur ls.ExUm. *\<ExchangeServerhébergé\>* .com (corp.contoso.com et corp.litwareinc.com dans cet exemple).
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Le nom de domaine complet pour Exchange Online est exap.um.outlook.com.</td>
-        </tr>
-        </tbody>
-        </table>
-        
+        > [!NOTE]  
+        > Le nom de domaine complet pour Exchange Online est exap.um.outlook.com.        
         Pour plus d’informations, reportez-vous à la section [Stratégies de messagerie vocale hébergées dans Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si les paramètres d’attribut msExchUCVoiceMailSettings et d’adresse proxy de messagerie unifiée sont tous deux présents dans un compte d’utilisateur, l’attribut msExchUCVoiceMailSettings est prioritaire.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si les paramètres d’attribut msExchUCVoiceMailSettings et d’adresse proxy de messagerie unifiée sont tous deux présents dans un compte d’utilisateur, l’attribut msExchUCVoiceMailSettings est prioritaire.

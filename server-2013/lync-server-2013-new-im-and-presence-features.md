@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de messagerie instantanée et de présence'
+title: "Lync Server 2013 : Nlles fonctionnalités de mess. instantanée et de présence"
 TOCTitle: Nouvelles fonctionnalités de messagerie instantanée et de présence
 ms:assetid: dd54b9ef-37cb-4b8e-9067-9fb80b48b1b0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205322(v=OCS.15)

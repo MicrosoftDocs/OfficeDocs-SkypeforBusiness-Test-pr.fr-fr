@@ -27,19 +27,8 @@ Chaque région au sein d’une configuration de contrôle d’admission des appe
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région à supprimer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez supprimer plusieurs itinéraires de région à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs itinéraires de région. Ou, pour sélectionner tous les itinéraires de région, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez supprimer plusieurs itinéraires de région à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs itinéraires de région. Ou, pour sélectionner tous les itinéraires de région, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 
@@ -57,8 +46,8 @@ Chaque région au sein d’une configuration de contrôle d’admission des appe
 
 #### Autres ressources
 
-[New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)  
-[Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)  
-[Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)  
-[Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 

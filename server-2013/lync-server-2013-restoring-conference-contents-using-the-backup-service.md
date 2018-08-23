@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Restauration du contenu d’une conférence avec le service de sauvegarde'
+title: "Lync Server 2013 : Rest. du contenu d’une conf. avec le service de sauvegarde"
 TOCTitle: Restauration du contenu d’une conférence avec le service de sauvegarde
 ms:assetid: 3e0f18ec-7319-4c07-a59b-2938e7787bc9
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688030(v=OCS.15)

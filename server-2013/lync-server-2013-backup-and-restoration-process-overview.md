@@ -29,19 +29,8 @@ En général, le processus de restauration fonctionne comme suit :
 
   - Lorsqu’une défaillance ou une panne se produit, vous restaurez les données situées à l’emplacement référencé par **$Backup** sur des ordinateurs nouveaux ou nettoyés.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ce processus de restauration ne restaure pas les données sur un état de serveur existant. C’est-à-dire que ce processus requiert que le serveur soit nettoyé ou nouveau.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Ce processus de restauration ne restaure pas les données sur un état de serveur existant. C’est-à-dire que ce processus requiert que le serveur soit nettoyé ou nouveau.
 
   - Pour faire en sorte que vos informations utilisateur et de conférence soient récupérables au point de défaillance, vous pouvez mettre en œuvre une topologie de récupération d’urgence avec des pools frontaux associés, comme décrit dans [Planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Outre cette option, Lync Server prend en charge uniquement le mode de récupération simple pour ses bases de données. Avec le mode de récupération simple, les bases de données sont récupérées à la date de la dernière sauvegarde complète, ce qui signifie que vous ne pouvez pas restaurer une base de données à la date de la défaillance ou à moment spécifique. Pour de nombreuses organisations, le modèle de récupération simple est optimal, car la base de données principale Lync Server (RTCXDS.mdf) est en fait plus petite que les fichiers journaux des transactions et beaucoup plus petite que ceux des applications de bases de données métier ordinaires.
 
@@ -59,19 +48,8 @@ Si un serveur exécutant Lync Server subit une défaillance, la récupération 
 
   - En général, si le serveur hébergeait un rôle serveur, exécutez les étapes 1 à 4 de l’Assistant Déploiement de Lync Server pour installer les fichiers de configuration locaux, installez les composants du rôle serveur, assignez les certificats, puis démarrez les services.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le serveur hébergeait une base de données colocalisée avec le rôle serveur, l’exécution de l’étape 2 de l’Assistant Déploiement de Lync Server permet de recréer la base de données.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si le serveur hébergeait une base de données colocalisée avec le rôle serveur, l’exécution de l’étape 2 de l’Assistant Déploiement de Lync Server permet de recréer la base de données.
 
   - Si le serveur hébergeait une base de données, restaurez les données sauvegardées.
 

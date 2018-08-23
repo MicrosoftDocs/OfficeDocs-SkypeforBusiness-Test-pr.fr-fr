@@ -53,16 +53,5 @@ Nous vous recommandons de faire une image du système avant de démarrer la rest
     
       - Suivez l’Assistant jusqu’à l’apparition de l’invite **Créer des bases de données miroir**. Sélectionnez la base de données à installer, puis terminez ce processus.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsMirrorDatabase</strong>, pour configurer la mise en miroir. Pour plus d’informations, voir la documentation Lync Server Management Shell.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!TIP]  
+        > Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsMirrorDatabase</strong>, pour configurer la mise en miroir. Pour plus d’informations, voir la documentation Lync Server Management Shell.

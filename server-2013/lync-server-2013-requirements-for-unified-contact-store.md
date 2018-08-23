@@ -25,16 +25,5 @@ La liste suivante décrit les conditions requises pour l’implémentation du ma
 
   - L’authentification serveur à serveur doit être configurée entre Lync Server 2013 et Exchange 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour connaître les conditions requises relatives à la configuration de l’authentification entre Lync Server 2013 et Exchange 2013, reportez-vous à <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Gestion de l’authentification serveur à serveur (Oauth) et des applications partenaires dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour connaître les conditions requises relatives à la configuration de l’authentification entre Lync Server 2013 et Exchange 2013, reportez-vous à <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Gestion de l’authentification serveur à serveur (Oauth) et des applications partenaires dans Lync Server 2013</a> dans la documentation des opérations.

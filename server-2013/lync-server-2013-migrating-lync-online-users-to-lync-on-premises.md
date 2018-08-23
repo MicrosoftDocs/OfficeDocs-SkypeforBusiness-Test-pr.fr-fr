@@ -15,20 +15,9 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ces étapes ne sont nécessaires que pour la migration de comptes d’utilisateur activés à l’origine pour Lync dans Lync Online, avant le déploiement de Lync sur site. Pour déplacer les utilisateurs activés initialement pour Lync local, puis déplacés vers Lync Online, voir <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administration des utilisateurs dans un déploiement Lync Server 2013 hybride</a>.<br />
-De plus, tous les utilisateurs en cours de déplacement doivent disposer de comptes dans l’instance Active Directory sur site.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Ces étapes ne sont nécessaires que pour la migration de comptes d’utilisateur activés à l’origine pour Lync dans Lync Online, avant le déploiement de Lync sur site. Pour déplacer les utilisateurs activés initialement pour Lync local, puis déplacés vers Lync Online, voir <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administration des utilisateurs dans un déploiement Lync Server 2013 hybride</a>.<br />
+De plus, tous les utilisateurs en cours de déplacement doivent disposer de comptes dans l’instance Active Directory sur site.
 
 ## Migration des comptes d’utilisateur activés initialement dans Lync Online vers Lync local
 
@@ -40,9 +29,12 @@ De plus, tous les utilisateurs en cours de déplacement doivent disposer de comp
     
       - Dans votre déploiement local, dans Lync Server Management Shell, tapez les applets de commandes pour créer le fournisseur d’hébergement Lync Online :
         
-            Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        
-            New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+        ```
+        Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+        ```
+        ```
+        New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+        ```
 
 2.  Confirmez que, sur vos serveurs Edge, la chaîne de certificat qui permet la connexion à Lync Online est présente, comme indiqué dans le tableau ci-dessous. Vous pouvez télécharger cette chaîne ici : [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
     
@@ -107,9 +99,12 @@ De plus, tous les utilisateurs en cours de déplacement doivent disposer de comp
     
     Pour déplacer un seul utilisateur, tapez ce qui suit :
     
-        $cred = Get-Credential
-    
-        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
+    $cred = Get-Credential
+    ```
+    ```
+    Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+    ```
     
     Vous pouvez déplacer plusieurs utilisateurs à l’aide de l’applet de commande **Get-CsUSer** avec le paramètre –Filter pour sélectionner les utilisateurs comportant une propriété spécifique. Par exemple, pour sélectionner tous les utilisateurs Lync Online, filtrez sur {Hosting Provider –eq “sipfed.online.lync.om”}. Vous pouvez ensuite rediriger les utilisateurs renvoyés vers l’applet de commande **Move-CsUSer**, comme indiqué ci-dessous.
     
@@ -139,19 +134,8 @@ De plus, tous les utilisateurs en cours de déplacement doivent disposer de comp
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La taille maximale par défaut pour les fichiers journaux de transaction de la base de données rtcxds est de 16 Go. Cette taille peut être insuffisante si vous déplacez simultanément un grand nombre d’utilisateurs, notamment si la mise en miroir est activée. Pour résoudre ce problème, vous pouvez augmenter la taille du fichier ou sauvegarder régulièrement les fichiers journaux. Pour plus d’informations, voir <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > La taille maximale par défaut pour les fichiers journaux de transaction de la base de données rtcxds est de 16 Go. Cette taille peut être insuffisante si vous déplacez simultanément un grand nombre d’utilisateurs, notamment si la mise en miroir est activée. Pour résoudre ce problème, vous pouvez augmenter la taille du fichier ou sauvegarder régulièrement les fichiers journaux. Pour plus d’informations, voir <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.
 
 8.  Il s’agit d’une étape facultative. Pour une intégration à Exchange 2013 Online, vous devez faire appel à un autre fournisseur d’hébergement. Pour plus d’informations, voir [Configuration de l’intégration de Lync Server 2013 local avec Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
 

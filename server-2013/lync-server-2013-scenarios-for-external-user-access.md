@@ -27,33 +27,11 @@ Cette section définit les scénarios des déploiements de serveur Edge et fait 
 
 Ce processus vous permet de planifier et de documenter la configuration de toutes les fonctionnalités potentielles que vous envisagez de déployer pour vos utilisateurs. Cependant, vous pouvez ajouter des services de fédération et de mobilité après avoir déployé le serveur Edge et confirmé la conformité de l’opération avant d’ajouter d’autres fonctionnalités. Le processus d’ajout de fonctionnalités à un déploiement de serveur Edge est décrit dans la section Déploiement. Pour plus d’informations sur le déploiement, reportez-vous à [Déploiement de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) Le fait d’inclure la planification de ces fonctionnalités dans la planification initiale vous permet de préparer le DNS, le pare-feu et les certificats requis pour les fonctionnalités ajoutées, d’acquérir les certificats et de configurer le DNS et les ports/protocoles à l’avance.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous envisagez d’installer les serveurs Edge et le proxy inverse, puis d’ajouter des fonctionnalités ultérieurement (par exemple, la fédération et la mobilité), déterminez de quels certificats vous aurez besoin pour tous les services après le déploiement. La planification et l’acquisition anticipées des certificats de toutes les fonctionnalités, qu’elles soient ou non déployées initialement, vous épargne l’achat de nouveaux certificats pour satisfaire aux exigences de la fédération (c’est-à-dire, sur les serveurs Edge) ou du proxy inverse (c’est-à-dire, pour les services de mobilité).</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]  
+> Si vous envisagez d’installer les serveurs Edge et le proxy inverse, puis d’ajouter des fonctionnalités ultérieurement (par exemple, la fédération et la mobilité), déterminez de quels certificats vous aurez besoin pour tous les services après le déploiement. La planification et l’acquisition anticipées des certificats de toutes les fonctionnalités, qu’elles soient ou non déployées initialement, vous épargne l’achat de nouveaux certificats pour satisfaire aux exigences de la fédération (c’est-à-dire, sur les serveurs Edge) ou du proxy inverse (c’est-à-dire, pour les services de mobilité).
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tous les services edge s’exécutent sur chaque serveur Edge. Les services ne peuvent pas être scindés entre deux serveurs Edge différents. Si vous déployez un pool de serveurs Edge pour l’extensibilité, tous les services edge sont déployés sur chaque serveur Edge dans le pool. La fédération XMPP, Office Communications Server et la fédération Lync Server, la connectivité PIC (Public IM Connectivity) et la mobilité client sont des services supplémentaires pouvant être déployés après le déploiement de votre premier serveur Edge ou pool de serveurs Edge. Les services de mobilité constituent une fonctionnalité qui utilise le proxy inverse. L’installation de ces services n’ajoute pas de fonctionnalités à vos serveurs Edge, mais nécessite une reconfiguration du proxy inverse. La colonne <strong>Objectif de l’installation</strong> qui répertorie ces fonctionnalités fournit une aide de planification dans la colonne associée sous <strong>Documentation de planification de serveur Edge</strong> pour planifier simultanément ces fonctionnalités de manière à les déployer lors de l’installation et la configuration des serveurs Edge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Tous les services edge s’exécutent sur chaque serveur Edge. Les services ne peuvent pas être scindés entre deux serveurs Edge différents. Si vous déployez un pool de serveurs Edge pour l’extensibilité, tous les services edge sont déployés sur chaque serveur Edge dans le pool. La fédération XMPP, Office Communications Server et la fédération Lync Server, la connectivité PIC (Public IM Connectivity) et la mobilité client sont des services supplémentaires pouvant être déployés après le déploiement de votre premier serveur Edge ou pool de serveurs Edge. Les services de mobilité constituent une fonctionnalité qui utilise le proxy inverse. L’installation de ces services n’ajoute pas de fonctionnalités à vos serveurs Edge, mais nécessite une reconfiguration du proxy inverse. La colonne <strong>Objectif de l’installation</strong> qui répertorie ces fonctionnalités fournit une aide de planification dans la colonne associée sous <strong>Documentation de planification de serveur Edge</strong> pour planifier simultanément ces fonctionnalités de manière à les déployer lors de l’installation et la configuration des serveurs Edge.
 
 ## Identification et mise en correspondance de vos objectifs de déploiement
 
@@ -96,19 +74,8 @@ Ce processus vous permet de planifier et de documenter la configuration de toute
 <td><p><a href="lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md">Topologie Edge consolidée mise à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Les scénarios de fédération vous permettent de planifier la fonctionnalité qui étendra les types de partenaires avec lesquels vos utilisateurs peuvent communiquer.</p>
-<ul>
-<li><p>Fédération Lync Server</p></li>
-<li><p>Fédération Office Communications Server</p></li>
-<li><p>Solution PIC (Public IM Connectivity)</p></li>
-<li><p>Fédération XMPP</p></li>
-</ul></td>
-<td><p>Planification de scénarios de fédération</p>
-<ul>
-<li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Planification pour la fédération de Lync Server et Office Communications Server</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Planification de la connectivité PIC (Public Instant Messaging Connectivity)</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Planification de la fédération XMPP (Extensible Messaging and Presence Protocol) dans Lync Server 2013</a></p></li>
-</ul></td>
+<td><p>Les scénarios de fédération vous permettent de planifier la fonctionnalité qui étendra les types de partenaires avec lesquels vos utilisateurs peuvent communiquer.</p><ul><li><p>Fédération Lync Server</p></li><li><p>Fédération Office Communications Server</p></li><li><p>Solution PIC (Public IM Connectivity)</p></li><li><p>Fédération XMPP</p></li></ul></td>
+<td><p>Planification de scénarios de fédération</p><ul><li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Planification pour la fédération de Lync Server et Office Communications Server</a></p></li><li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Planification de la connectivité PIC (Public Instant Messaging Connectivity)</a></p></li><li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Planification de la fédération XMPP (Extensible Messaging and Presence Protocol) dans Lync Server 2013</a></p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Les services de mobilité sont fournis via le proxy inverse. Les services qui permettent aux utilisateurs externes de bénéficier de la mobilité sont déployés sur le serveur frontal ou le pool de serveurs frontaux. Vous créez ou modifiez des règles de publication existantes sur le proxy inverse afin d’activer les services de mobilité pour les utilisateurs externes.</p></td>
@@ -118,16 +85,5 @@ Ce processus vous permet de planifier et de documenter la configuration de toute
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans les scénarios suivants, les sections constituent des architectures de référence, des exemples de DNS, des définitions de ports/protocoles et des exigences en matière de certificat. Elles contiennent également des diagrammes pour votre DNS, des définitions de port/protocole et des besoins en termes de certificat. Ces diagrammes serviront de modèles que vous pourrez remplir et diffuser à d’autres équipes (par exemple, aux équipes chargées du réseau, de l’infrastructure à clé publique et du déploiement de serveur de votre organisation). L’objectif de ces diagrammes et d’améliorer la communication et de faire en sorte que les éléments de configuration de serveur Edge requis soient correctement indiqués aux personnes en charge de la configuration réelle. Nous vous recommandons d’utiliser les diagrammes et les architectures de référence associées pour planifier votre déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Dans les scénarios suivants, les sections constituent des architectures de référence, des exemples de DNS, des définitions de ports/protocoles et des exigences en matière de certificat. Elles contiennent également des diagrammes pour votre DNS, des définitions de port/protocole et des besoins en termes de certificat. Ces diagrammes serviront de modèles que vous pourrez remplir et diffuser à d’autres équipes (par exemple, aux équipes chargées du réseau, de l’infrastructure à clé publique et du déploiement de serveur de votre organisation). L’objectif de ces diagrammes et d’améliorer la communication et de faire en sorte que les éléments de configuration de serveur Edge requis soient correctement indiqués aux personnes en charge de la configuration réelle. Nous vous recommandons d’utiliser les diagrammes et les architectures de référence associées pour planifier votre déploiement.

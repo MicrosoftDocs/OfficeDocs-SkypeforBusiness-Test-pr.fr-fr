@@ -19,19 +19,8 @@ L’une des premières étapes requises pour la migration Lync Server 2013 cons
 
 Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un nouveau pool frontal. Vous devez déployer les mêmes fonctionnalités et charges de travail dans votre pool pilote Lync Server 2013 que dans votre pool Office Communications Server 2007 R2. Si vous avez déployé un serveur d’archivage, un serveur de surveillance ou un System Center Operations Manager pour l’archivage ou la surveillance de votre environnement Office Communications Server 2007 R2 et que vous souhaitez une continuité de l’archivage et de la surveillance tout au long de la migration, vous devez également déployer ces fonctionnalités dans votre environnement pilote. La version que vous avez déployée pour archiver et surveiller votre environnement Office Communications Server 2007 R2 ne capture pas de données dans votre environnement Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La procédure qui suit traite des fonctionnalités et paramètres à considérer dans le cadre du processus de déploiement général de votre pool pilote. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour en connaître les étapes précises, reportez-vous au guide de déploiement intitulé <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> La procédure qui suit traite des fonctionnalités et paramètres à considérer dans le cadre du processus de déploiement général de votre pool pilote. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour en connaître les étapes précises, reportez-vous au guide de déploiement intitulé <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a>.
 
 **Pour déployer un pool pilote Lync Server 2013**
 
@@ -47,19 +36,8 @@ Lorsque vous déployez un pool pilote, vous utilisez l’Assistant Définir un n
 
 5.  Entrez le nom de domaine complet du pool. Lorsque vous définissez votre pool pilote, vous pouvez choisir de déployer un pool de serveurs frontaux Enterprise Edition ou un serveur Standard Edition. Lync Server 2013 n’exige pas que les fonctionnalités de votre pool pilote correspondent à celles déployées dans votre pool hérité.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom de domaine complet du pool ou serveur que vous définissez pour le pool pilote doit être unique. Il ne peut pas correspondre au nom du pool Office Communications Server 2007 R2 actuellement déployé ni à tout autre serveur actuellement déployé.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!WARNING]  
+    > Le nom de domaine complet du pool ou serveur que vous définissez pour le pool pilote doit être unique. Il ne peut pas correspondre au nom du pool Office Communications Server 2007 R2 actuellement déployé ni à tout autre serveur actuellement déployé.    
     ![Page Définir le nom de domaine complet du pool frontal](images/JJ204718.5ff4336c-13fa-47cc-899b-066f267eb3f0(OCS.15).jpg "Page Définir le nom de domaine complet du pool frontal")
 
 6.  Définissez l’ordinateur qui va être ajouté au pool.

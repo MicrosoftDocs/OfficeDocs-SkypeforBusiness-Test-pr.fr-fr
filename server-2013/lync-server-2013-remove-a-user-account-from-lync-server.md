@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-22_
 
 Vous pouvez utiliser la procédure suivante pour supprimer un compte d’utilisateur précédemment ajouté dans Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La suppression d’un utilisateur entraînera la perte de tous les paramètres associés au compte d’utilisateur. Si vous souhaitez plutôt désactiver temporairement un compte d’utilisateur, voir la rubrique <a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> La suppression d’un utilisateur entraînera la perte de tous les paramètres associés au compte d’utilisateur. Si vous souhaitez plutôt désactiver temporairement un compte d’utilisateur, voir la rubrique <a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server</a>.
 
 ## Pour supprimer un compte d’utilisateur Lync Server
 
@@ -59,7 +48,7 @@ Vous pouvez aussi supprimer des comptes d’utilisateur à l’aide de l’apple
     
     Une fois cette commande exécutée, il n’y a aucun moyen de réactiver le compte et ses anciens paramètres. En revanche, vous pouvez utiliser l’applet de commande Enable-CsUser pour créer un tout nouveau compte pour Ken Myer.
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Disable-CsUser](disable-csuser.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser).
 
 ## Voir aussi
 

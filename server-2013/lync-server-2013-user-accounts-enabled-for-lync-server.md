@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 
 Les rubriques de cette section comportent des procédures détaillées pour la configuration des paramètres utilisateur que vous pouvez effectuer à l’aide du Panneau de configuration Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous ne pouvez pas utiliser le Panneau de configuration Lync Server pour gérer les utilisateurs membres du groupe Administrateurs du domaine Active Directory. Pour les utilisateurs administrateurs du domaine, vous pouvez utiliser le Panneau de configuration Lync Server uniquement pour effectuer des opérations de recherche en lecture seule. Pour effectuer des opérations d’écriture sur les utilisateurs administrateurs du domaine (par exemple pour les activer ou désactiver pour le Panneau de configuration Lync Server, pour modifier les attributions de pool ou de stratégie, les paramètres de téléphonie ou l’adresse SIP), vous devez utiliser les applets de commande Windows PowerShell tout en étant connecté en tant qu’utilisateur administrateur du domaine. Pour plus d’informations sur l’utilisation des applets de commande Windows PowerShell pour gérer les utilisateurs, voir <a href="lync-server-2013-lync-server-management-shell.md">Lync Server Management Shell</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Vous ne pouvez pas utiliser le Panneau de configuration Lync Server pour gérer les utilisateurs membres du groupe Administrateurs du domaine Active Directory. Pour les utilisateurs administrateurs du domaine, vous pouvez utiliser le Panneau de configuration Lync Server uniquement pour effectuer des opérations de recherche en lecture seule. Pour effectuer des opérations d’écriture sur les utilisateurs administrateurs du domaine (par exemple pour les activer ou désactiver pour le Panneau de configuration Lync Server, pour modifier les attributions de pool ou de stratégie, les paramètres de téléphonie ou l’adresse SIP), vous devez utiliser les applets de commande Windows PowerShell tout en étant connecté en tant qu’utilisateur administrateur du domaine. Pour plus d’informations sur l’utilisation des applets de commande Windows PowerShell pour gérer les utilisateurs, voir <a href="lync-server-2013-lync-server-management-shell.md">Lync Server Management Shell</a>.
 
 Lorsque vous effectuez une tâche d’administration Lync Server 2013 qui implique la recherche d’utilisateur ou le filtrage des résultats de recherche d’utilisateur, certaines propriétés utilisateur existent en tant qu’attributs dans les services de domaine Active Directory mais ne sont répliquées dans le catalogue global qu’une fois que Microsoft Exchange Server a été déployé. Microsoft Exchange, et non Lync Server, marque les attributs suivants pour la réplication dans le catalogue global lorsqu’il est installé :
 

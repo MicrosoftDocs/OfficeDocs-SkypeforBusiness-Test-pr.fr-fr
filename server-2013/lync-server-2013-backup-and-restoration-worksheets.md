@@ -19,19 +19,8 @@ Le plan de sauvegarde et de restauration pour votre organisation doit fournir de
 
 Utilisez les feuilles de travail suivantes pour enregistrer les informations nécessaires à la sauvegarde et à la restauration de la base de données, du magasin de fichiers, et les informations relatives aux paramètres pour un pool Lync Server ou un serveur Standard Edition. Conservez une ou plusieurs copies de ces feuilles de travail dans un emplacement sécurisé et facile d’accès dans le cas où vous deviez effectuer une restauration de Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les feuilles de travail présentes dans cette section couvrent uniquement les informations nécessaires pour restaurer les données et les paramètres des bases de données et des serveurs Lync Server. Si vous devez documenter d’autres informations de restauration, telles que les informations de réinstallation des systèmes d’exploitation et d’autres logiciels, utilisez les plans de déploiement ainsi que les plans de sauvegarde et de restauration de votre organisation pour répondre à ces exigences.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les feuilles de travail présentes dans cette section couvrent uniquement les informations nécessaires pour restaurer les données et les paramètres des bases de données et des serveurs Lync Server. Si vous devez documenter d’autres informations de restauration, telles que les informations de réinstallation des systèmes d’exploitation et d’autres logiciels, utilisez les plans de déploiement ainsi que les plans de sauvegarde et de restauration de votre organisation pour répondre à ces exigences.
 
 ## Feuille de travail de sauvegarde et de restauration de la base de données
 

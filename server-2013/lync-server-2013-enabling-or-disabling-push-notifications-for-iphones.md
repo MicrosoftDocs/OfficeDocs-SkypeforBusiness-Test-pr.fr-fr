@@ -61,7 +61,7 @@ Vous pouvez activer ou désactiver les notifications Push pour un iPhone Apple e
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration).
 
 ## Voir aussi
 

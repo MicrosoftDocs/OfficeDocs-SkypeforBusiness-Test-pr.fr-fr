@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salles'
+title: "Lync Server 2013 : Aj. de domaines d’ut. et de gr. d’ut. à la cat. de salles"
 TOCTitle: Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salles
 ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215884(v=OCS.15)

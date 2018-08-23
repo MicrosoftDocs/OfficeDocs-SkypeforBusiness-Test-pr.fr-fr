@@ -19,33 +19,11 @@ Le contrôle d’admission des appels (CAC) est une solution qui détermine si u
 
 Cette section propose plusieurs exemples de procédures illustrant le déploiement et la gestion du contrôle d’admission des appels dans votre réseau.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant de déployer le contrôle d’admission des appels, vous devez regrouper toutes les informations nécessaires à la topologie réseau de votre entreprise, comme décrit dans la section <a href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Exemple : collecte des données de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013</a> dans la documentation de planification. Vérifiez également que les composants du contrôle d’admission des appels ont été installés et activés, comme décrit dans les sections <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013</a> de la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Avant de déployer le contrôle d’admission des appels, vous devez regrouper toutes les informations nécessaires à la topologie réseau de votre entreprise, comme décrit dans la section <a href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Exemple : collecte des données de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013</a> dans la documentation de planification. Vérifiez également que les composants du contrôle d’admission des appels ont été installés et activés, comme décrit dans les sections <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013</a> de la documentation de déploiement.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server Management Shell est utilisé dans tous les exemples de déploiement et de gestion du contrôle d’admission des appels décrits dans cette section. Vous pouvez également utiliser la section <strong>Configuration réseau</strong> du Panneau de configuration Lync Server pour gérer le contrôle d’admission des appels.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Lync Server Management Shell est utilisé dans tous les exemples de déploiement et de gestion du contrôle d’admission des appels décrits dans cette section. Vous pouvez également utiliser la section <strong>Configuration réseau</strong> du Panneau de configuration Lync Server pour gérer le contrôle d’admission des appels.
 
 ## Dans cette section
 

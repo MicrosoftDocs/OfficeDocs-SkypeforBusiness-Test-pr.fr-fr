@@ -53,19 +53,8 @@ Cette rubrique décrit les versions suivantes de l’outil (téléchargeables gr
 
   - Application Windows 8 Modern ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110))
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les utilisateurs d’Office 365 Lync peuvent utiliser les deux versions de l’outil PCD.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les utilisateurs d’Office 365 Lync peuvent utiliser les deux versions de l’outil PCD.
 
 Si vous voulez utiliser une version précédente de l’outil PCD, consultez ce qui suit :
 
@@ -75,19 +64,8 @@ Si vous voulez utiliser une version précédente de l’outil PCD, consultez ce 
 
 ## Configuration requise pour l’outil PCD de Lync
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’outil PCD requiert l’installation et la configuration de l’API web Communications unifiées (UCWA) pour la prise en charge des clients mobiles dans le déploiement Lync Server. UCWA est installée avec Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> L’outil PCD requiert l’installation et la configuration de l’API web Communications unifiées (UCWA) pour la prise en charge des clients mobiles dans le déploiement Lync Server. UCWA est installée avec Lync Server.
 
 ## Configuration requise de l’application de bureau Windows
 

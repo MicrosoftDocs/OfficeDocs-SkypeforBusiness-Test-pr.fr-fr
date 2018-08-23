@@ -37,33 +37,11 @@ La figure suivante illustre la topologie générique pour le déploiement d’Vo
 
 ![Diagramme d’option de migration départementale](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Diagramme d’option de migration départementale")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous connectez votre déploiement Lync Server sur un partenaire SIP direct approuvé, aucune passerelle RTC n’est nécessaire entre le serveur de médiation et le système PBX. Pour obtenir la liste des partenaires SIP directs approuvés, reportez-vous au site web Microsoft Unified Communications Open Interoperability Program à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Si vous connectez votre déploiement Lync Server sur un partenaire SIP direct approuvé, aucune passerelle RTC n’est nécessaire entre le serveur de médiation et le système PBX. Pour obtenir la liste des partenaires SIP directs approuvés, reportez-vous au site web Microsoft Unified Communications Open Interoperability Program à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</a>.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La déviation du trafic multimédia est activée pour le chemin d’accès des médias affiché dans cette figure (configuration recommandée). Si vous envisagez de désactiver la déviation du trafic multimédia, le chemin d’accès des médias est routé par le biais du serveur de médiation.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> La déviation du trafic multimédia est activée pour le chemin d’accès des médias affiché dans cette figure (configuration recommandée). Si vous envisagez de désactiver la déviation du trafic multimédia, le chemin d’accès des médias est routé par le biais du serveur de médiation.
 
 Dans cette topologie, les services ou groupes de travail sélectionnés sont activés pour Voix Entreprise. Une passerelle RTC relie le groupe de travail VoIP au système PBX. Les utilisateurs activés pour Voix Entreprise, notamment les travailleurs à distance, communiquent sur le réseau IP. Les appels d’utilisateurs Voix Entreprise au réseau RTC et aux collaborateurs qui ne sont pas activés pour Voix Entreprise sont acheminés vers la passerelle RTC appropriée. Les appels de collègues qui se trouvent toujours sur le système PBX, ou d’appelants sur le réseau RTC, sont acheminés vers la passerelle RTC, qui les transmet à Lync Server à des fins de routage.
 
@@ -113,19 +91,8 @@ Voix Entreprise permet aux nouvelles entreprises et aux nouveaux sites d’impl�
 
 Dans ce déploiement, tous les appels sont acheminés sur le réseau IP. Les appels destinés au réseau RTC sont acheminés vers la passerelle RTC appropriée. Lync 2013 ou Lync Phone Edition sert de téléphone logiciel. Étant donné qu’aucun téléphone PBX n’est contrôlé par les utilisateurs, le contrôle d’appel distant n’est pas disponible. Le déploiement facultatif de la messagerie unifiée Exchange offre les services de messagerie vocale et de standard automatique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Outre l’infrastructure réseau requise pour prendre en charge Lync Server 2013, un déploiement VoIP uniquement peut utiliser une petite passerelle qualifiée pour la prise en charge des télécopieurs et des périphériques analogiques.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Outre l’infrastructure réseau requise pour prendre en charge Lync Server 2013, un déploiement VoIP uniquement peut utiliser une petite passerelle qualifiée pour la prise en charge des télécopieurs et des périphériques analogiques.
 
 La figure suivante illustre une topologie classique pour un déploiement dans un environnement VoIP uniquement.
 
@@ -133,16 +100,5 @@ La figure suivante illustre une topologie classique pour un déploiement dans un
 
 ![Option de déploiement dans un environnement vierge](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Option de déploiement dans un environnement vierge")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La déviation du trafic multimédia est activée pour le chemin d’accès des médias affiché dans cette figure (configuration recommandée). Si vous envisagez de désactiver la déviation du trafic multimédia, le chemin d’accès des médias est routé par le biais du serveur de médiation.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> La déviation du trafic multimédia est activée pour le chemin d’accès des médias affiché dans cette figure (configuration recommandée). Si vous envisagez de désactiver la déviation du trafic multimédia, le chemin d’accès des médias est routé par le biais du serveur de médiation.

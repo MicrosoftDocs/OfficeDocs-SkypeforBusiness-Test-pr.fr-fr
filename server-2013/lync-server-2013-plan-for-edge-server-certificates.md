@@ -23,47 +23,14 @@ La création de certificat pour Edge est simplifiée dans Lync Server 2013.
 
 Créez un certificat public unique, vérifiez que vous disposez d’une clé privée exportable définie pour le certificat, et affectez-le aux interfaces externes du serveur Edge à l’aide de l’Assistant Certificat :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les certificats génériques ne sont pas pris en charge dans Lync Server, sauf s’ils sont utilisés pour résumer des URL simples via le proxy inverse. Vous devez définir des noms SAN distincts pour chaque nom de domaine SIP, service Edge de conférence web, service Edge A/V et domaine XMPP proposés par votre déploiement.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Les certificats génériques ne sont pas pris en charge dans Lync Server, sauf s’ils sont utilisés pour résumer des URL simples via le proxy inverse. Vous devez définir des noms SAN distincts pour chaque nom de domaine SIP, service Edge de conférence web, service Edge A/V et domaine XMPP proposés par votre déploiement.
 
+> [!NOTE]  
+> Introduits dans Lync Server 2013, les certificats d’authentification audio/vidéo temporaires précédant l’expiration du certificat actuel requièrent une planification supplémentaire. Au lieu d’un certificat utilisé à des fins diverses pour l’interface externe du serveur Edge, vous aurez besoin de deux certificats : l’un sera affecté au service Edge d’accès et au service Edge de conférence web, tandis que l’autre sera affecté au service Edge A/V. Pour obtenir des informations supplémentaires, reportez-vous à <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate</a>
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Introduits dans Lync Server 2013, les certificats d’authentification audio/vidéo temporaires précédant l’expiration du certificat actuel requièrent une planification supplémentaire. Au lieu d’un certificat utilisé à des fins diverses pour l’interface externe du serveur Edge, vous aurez besoin de deux certificats : l’un sera affecté au service Edge d’accès et au service Edge de conférence web, tandis que l’autre sera affecté au service Edge A/V. Pour obtenir des informations supplémentaires, reportez-vous à <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate</a></td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans le cas d’un pool de serveurs Edge, vous devez exporter le certificat avec la clé privée à chaque serveur Edge et affecter le certificat à chaque service serveur Edge. Procédez de la même façon pour le certificat serveur Edge, en exportant le certificat avec la clé privée et en l’affectant à chaque interface interne de serveur Edge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Dans le cas d’un pool de serveurs Edge, vous devez exporter le certificat avec la clé privée à chaque serveur Edge et affecter le certificat à chaque service serveur Edge. Procédez de la même façon pour le certificat serveur Edge, en exportant le certificat avec la clé privée et en l’affectant à chaque interface interne de serveur Edge.
 
   - Vérifiez que vous disposez d’une clé privée exportable affectée pour le certificat.
 
@@ -77,25 +44,14 @@ Créez un certificat interne unique doté d’une clé privée exportable, copie
 
   - Serveur Edge (désigné comme **Serveur Edge interne** dans l’Assistant Certificat)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez utiliser des certificats distincts et séparés pour chaque service serveur Edge. Cela peut être le cas si vous souhaitez utiliser la nouvelle fonctionnalité de certificat propagé pour le certificat service Edge A/V. Dans le cas de cette fonctionnalité, Le découplage du certificat service Edge A/V du service Edge d’accès et du service Edge de conférence web est recommandé. Si vous choisissez de demander, acquérir et affecter des certificats distincts pour chaque service, vous devez demande que la clé privée soit exportable pour le service Edge A/V (rappel : il s’agit du service d’authentification A/V) et d’affecter le même certificat à l’interface externe Edge A/V sur chaque serveur Edge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Vous pouvez utiliser des certificats distincts et séparés pour chaque service serveur Edge. Cela peut être le cas si vous souhaitez utiliser la nouvelle fonctionnalité de certificat propagé pour le certificat service Edge A/V. Dans le cas de cette fonctionnalité, Le découplage du certificat service Edge A/V du service Edge d’accès et du service Edge de conférence web est recommandé. Si vous choisissez de demander, acquérir et affecter des certificats distincts pour chaque service, vous devez demande que la clé privée soit exportable pour le service Edge A/V (rappel : il s’agit du service d’authentification A/V) et d’affecter le même certificat à l’interface externe Edge A/V sur chaque serveur Edge.
 
 ## Voir aussi
 
 #### Tâches
 
-[Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### Concepts
 

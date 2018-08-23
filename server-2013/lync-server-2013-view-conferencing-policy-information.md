@@ -82,5 +82,5 @@ Les stratégies de conférence peuvent aussi être affichées à l’aide de Lyn
         TotalReceiveVideoBitRateKb                : 6000
         EnableMultiViewJoin                       : True
 
-Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsConferencingPolicy](get-csconferencingpolicy.md) (contenu éventuellement en anglais).
+Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy) (contenu éventuellement en anglais).
 

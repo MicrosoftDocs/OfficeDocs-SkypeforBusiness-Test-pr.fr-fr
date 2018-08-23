@@ -19,21 +19,10 @@ Après avoir créé une stratégie utilisateur Lync Server, vous devez l’appl
 
 Pour plus d’informations sur le fonctionnement des stratégies d’archivage, notamment la hiérarchie des stratégies : globale, de site et utilisateur, voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, dans la documentation de déploiement ou dans la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour configurer et utiliser l’archivage, vous devez tout d’abord déployer cette fonction. Pour plus d’informations, voir <a href="lync-server-2013-deploying-archiving.md">Déploiement de l’archivage dans Lync Server 2013</a> dans la documentation de déploiement.<br />
+> [!NOTE]  
+> Pour configurer et utiliser l’archivage, vous devez tout d’abord déployer cette fonction. Pour plus d’informations, voir <a href="lync-server-2013-deploying-archiving.md">Déploiement de l’archivage dans Lync Server 2013</a> dans la documentation de déploiement.<br />
 Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies d’archive permanente d’Exchange déterminent si l’archivage est activé pour les utilisateurs hébergés sur Exchange 2013 qui disposent de boîtes aux lettres archivées de manière permanente. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server</a> dans la documentation de déploiement.<br />
-Il est préférable de spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, voir <a href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+Il est préférable de spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage. Pour plus d’informations, voir <a href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage</a> dans la documentation de déploiement.
 
 ## Pour appliquer une stratégie d’archivage Lync Server à un utilisateur
 
@@ -47,19 +36,8 @@ Il est préférable de spécifier toutes les options appropriées dans les confi
 
 5.  Dans **Modifier l’utilisateur Lync Server** sous **Stratégie d’archivage**, sélectionnez la stratégie utilisateur d’archivage que vous souhaitez appliquer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
 
 6.  Cliquez sur **Valider**.
 

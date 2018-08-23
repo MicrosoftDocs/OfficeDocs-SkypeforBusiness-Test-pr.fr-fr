@@ -1,6 +1,6 @@
 ﻿---
-title: Créer ou modifier une collection de paramètres de configuration de la version du client
-TOCTitle: Créer ou modifier une collection de paramètres de configuration de la version du client
+title: "Créer ou mod. une collection de par. de conf. de la version du client"
+TOCtitle: "Créer ou mod. une collection de par. de conf. de la version du client"
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 53095418
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration globale de version du client est installée avec Lync Server et permet d’activer ou de désactiver le contrôle de version du client pour le déploiement complet du serveur. Vous pouvez également configurer les paramètres de configuration de version du client pour des sites spécifiques. Vous pouvez créer ou modifier des paramètres de configuration de version du client à partir du Panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.
 
 ## Pour créer ou modifier des paramètres de configuration de version du client à l’aide du Panneau de configuration Lync Server
 
@@ -67,5 +56,5 @@ Vous pouvez créer des paramètres de configuration de version du client à l’
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-Pour plus d’informations, voir les rubriques d’aide relatives aux applets de commande [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) et [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Pour plus d’informations, voir les rubriques d’aide relatives aux applets de commande [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) et [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

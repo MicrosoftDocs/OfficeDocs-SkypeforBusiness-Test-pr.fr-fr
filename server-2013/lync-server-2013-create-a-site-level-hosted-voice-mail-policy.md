@@ -1,6 +1,6 @@
 ﻿---
-title: Créer une stratégie de messagerie vocale hébergée pour un site dans Lync Server 2013
-TOCTitle: Créer une stratégie de messagerie vocale hébergée pour un site dans Lync Server 2013
+title: "Créer une strat. de mess. vocale hébergée pour un site dans Lync Server 2013"
+TOCtitle: "Créer une strat. de mess. vocale hébergée pour un site dans Lync Server 2013"
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398216(v=OCS.15)
 ms:contentKeyID: 49296340
@@ -19,11 +19,11 @@ Une stratégie de *site* peut concerner tous les utilisateurs qui sont hébergé
 
 Pour plus d’informations sur la configuration des stratégies de site, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md)
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 ## Pour créer une stratégie de messagerie vocale hébergée pour un site
 

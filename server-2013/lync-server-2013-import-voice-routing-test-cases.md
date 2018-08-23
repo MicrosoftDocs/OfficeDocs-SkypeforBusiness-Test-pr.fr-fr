@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Importation des cas de test de routage des communications vocales'
+title: "Lync Server 2013 : Import. des cas de test de routage des comm. voc."
 TOCTitle: Importation des cas de test de routage des communications vocales
 ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398460(v=OCS.15)
@@ -33,19 +33,8 @@ Les cas de test, créés à l’aide du Panneau de configuration Lync Server, s
 
 6.  Cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chaque fois que vous importez un fichier .vtest, vous devez exécuter la commande <strong>Valider tout</strong> pour publier le cas de test. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Chaque fois que vous importez un fichier .vtest, vous devez exécuter la commande <strong>Valider tout</strong> pour publier le cas de test. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi
 

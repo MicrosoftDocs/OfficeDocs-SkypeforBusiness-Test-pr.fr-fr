@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Réactivation du serveur après la fermeture des ports par l’Assistant Configuration de la sécurité dans les services Internet (IIS)'
+title: "LS 2013 : Serv. réact. ap. ferm. ports par Ass. Conf. de sécu. dans serv. int."
 TOCTitle: Réactivation du serveur après la fermeture des ports par l’Assistant Configuration de la sécurité dans les services Internet (IIS)
 ms:assetid: cb8e17cf-f8c1-4099-b63b-c242d656c26a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398851(v=OCS.15)
@@ -25,16 +25,5 @@ Certains rôles Lync Server 2013 exécutent les services web sur le port 4443 
 
 3.  Dans la page **Exécution de commandes** , lorsque l’état indique que la tâche est terminée, cliquez sur **Terminer** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez également utiliser bootstrapper.exe ou <strong>Enable-CsComputer</strong> pour réactiver le serveur.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez également utiliser bootstrapper.exe ou <strong>Enable-CsComputer</strong> pour réactiver le serveur.

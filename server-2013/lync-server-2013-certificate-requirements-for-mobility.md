@@ -27,19 +27,8 @@ Vous devez inclure des entrées d’autres noms de sujet pour la découverte aut
 
 Cette section décrit les entrées d’autres noms de sujet requises sur vos certificats pour la découverte automatique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La réémission de certificats à l’aide d’une autorité de certification interne est généralement un processus simple, mais l’ajout de plusieurs entrées d’autres noms de sujet à des certificats publics utilisés par le proxy inverse peut être une opération coûteuse. Si vous avez de nombreux domaines SIP, ce qui rend l’ajout d’autres noms de sujet très coûteux, vous pouvez configurer le proxy inverse de façon à utiliser le protocole HTTP pour la demande initiale du service de découverte automatique, plutôt que le protocole HTTPS (configuration par défaut). Pour plus d’informations, reportez-vous à <a href="lync-server-2013-technical-requirements-for-mobility.md">Exigences techniques pour la mobilité dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> La réémission de certificats à l’aide d’une autorité de certification interne est généralement un processus simple, mais l’ajout de plusieurs entrées d’autres noms de sujet à des certificats publics utilisés par le proxy inverse peut être une opération coûteuse. Si vous avez de nombreux domaines SIP, ce qui rend l’ajout d’autres noms de sujet très coûteux, vous pouvez configurer le proxy inverse de façon à utiliser le protocole HTTP pour la demande initiale du service de découverte automatique, plutôt que le protocole HTTPS (configuration par défaut). Pour plus d’informations, reportez-vous à <a href="lync-server-2013-technical-requirements-for-mobility.md">Exigences techniques pour la mobilité dans Lync Server 2013</a>.
 
 ### Exigences relatives au certificat du pool directeur
 
@@ -67,19 +56,8 @@ Cette section décrit les entrées d’autres noms de sujet requises sur vos cer
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également utiliser SAN=*.&lt;domaineSIP&gt;</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez également utiliser SAN=*.&lt;domaineSIP&gt;
 
 ### Exigences relatives au certificat du pool frontal
 
@@ -107,19 +85,8 @@ Cette section décrit les entrées d’autres noms de sujet requises sur vos cer
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également utiliser SAN=*.&lt;domaineSIP&gt;</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez également utiliser SAN=*.&lt;domaineSIP&gt;
 
 ### Exigences relatives au certificat de proxy inverse (autorité de certification publique)
 
@@ -143,30 +110,8 @@ Cette section décrit les entrées d’autres noms de sujet requises sur vos cer
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous affecté cet autre nom d’objet (SAN) au certificat affecté à l’écouteur SSL sur le proxy inverse.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Vous affecté cet autre nom d’objet (SAN) au certificat affecté à l’écouteur SSL sur le proxy inverse.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Votre écouteur de proxy inverse aura d’autres noms d’objets pour vos URL des services web externes (par exemple, SAN=lyncwebextpool01.contoso.com), et dirwebexternal.contoso.com si vous avez déployé le directeur facultatif).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Votre écouteur de proxy inverse aura d’autres noms d’objets pour vos URL des services web externes (par exemple, SAN=lyncwebextpool01.contoso.com), et dirwebexternal.contoso.com si vous avez déployé le directeur facultatif).

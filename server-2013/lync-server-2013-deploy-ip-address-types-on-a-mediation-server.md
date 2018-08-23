@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Déploiement des types d’adresse IP sur un serveur de médiation'
+title: "Lync Server 2013 : Dépl. des types d’adresse IP sur un serveur de médiation"
 TOCTitle: Déploiement des types d’adresse IP sur un serveur de médiation
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204964(v=OCS.15)
@@ -29,35 +29,13 @@ _**Dernière rubrique modifiée :** 2016-07-28_
     
       - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Cette option est recommandée pour les configurations IP version 6 (IPv6).</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Cette option est recommandée pour les configurations IP version 6 (IPv6).    
       - **Limiter l’utilisation des services aux adresses IP sélectionnées** : sélectionnez cette option pour indiquer une adresse spécifique à utiliser sur le nouveau serveur. Si vous sélectionnez cette option, vous devez entrer une valeur pour l’adresse IP principale.
     
       - **Adresse IP principale** : entrez l’adresse IP que le serveur utilisera pour toutes les communications autres que celles effectuées via le réseau téléphonique commuté (RTC). Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
     
       - **Adresse IP RTC** : entrez l’adresse IP RTC à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>L’installation de cartes d’interface réseau (NIC) supplémentaires afin de prendre en charge la configuration de l’adresse IP PSTN pour Lync Server 2013 n’est pas prise en charge. Pour plus d’informations sur les configurations NIC prises en charge Lync Server 2013, reportez-vous à la rubrique <a href="lync-server-2013-server-hardware-platforms.md">Plateformes matérielles de serveur pour Lync Server 2013</a>.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > L’installation de cartes d’interface réseau (NIC) supplémentaires afin de prendre en charge la configuration de l’adresse IP PSTN pour Lync Server 2013 n’est pas prise en charge. Pour plus d’informations sur les configurations NIC prises en charge Lync Server 2013, reportez-vous à la rubrique <a href="lync-server-2013-server-hardware-platforms.md">Plateformes matérielles de serveur pour Lync Server 2013</a>.

@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion des applications MSPL (Microsoft SIP Processing Language) dans Lync Server 2013
-TOCTitle: Gestion des applications MSPL (Microsoft SIP Processing Language) dans Lync Server 2013
+title: "Gest. des app. MSPL (Microsoft SIP Processing Language) dans Lync Server 2013"
+TOCtitle: "Gest. des app. MSPL (Microsoft SIP Processing Language) dans Lync Server 2013"
 ms:assetid: 3fb13707-73b5-4f7d-ab0b-a5794ed1be75
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688032(v=OCS.15)
 ms:contentKeyID: 49891319

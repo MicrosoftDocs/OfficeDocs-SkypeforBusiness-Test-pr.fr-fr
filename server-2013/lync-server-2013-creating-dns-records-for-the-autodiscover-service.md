@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création d’enregistrements DNS pour le service de découverte automatique'
+title: "Lync Server 2013 : Créa. d’enr. DNS pour le service de découverte automatique"
 TOCTitle: Création d’enregistrements DNS pour le service de découverte automatique
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh690010(v=OCS.15)

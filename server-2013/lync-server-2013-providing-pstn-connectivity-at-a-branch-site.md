@@ -19,19 +19,8 @@ Nous vous conseillons d’utiliser l’outil de planification Microsoft Lync Ser
 
 Si vous n’utilisez pas le outil de planification, effectuez les procédures décrites dans les rubriques de cette section : ajoutez les sites de succursale, puis configurez votre infrastructure vocale en définissant la passerelle IP/RTC (réseau téléphonique commuté) et/ou en configurant le tronçon SIP (avec ou sans déviation du trafic multimédia). Vous pouvez également connecter un autocommutateur privé (PBX) au site de succursale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour qu’un site de succursale soit résistant, vous devez déployer un Survivable Branch Appliance, un serveur Survivable Branch Server ou serveur Standard Edition sur le site de succursale. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013</a> ou à <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour qu’un site de succursale soit résistant, vous devez déployer un Survivable Branch Appliance, un serveur Survivable Branch Server ou serveur Standard Edition sur le site de succursale. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013</a> ou à <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a> dans la documentation de déploiement.
 
 ## Dans cette section
 

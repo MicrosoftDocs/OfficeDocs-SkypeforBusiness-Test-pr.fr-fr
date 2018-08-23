@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration des utilisateurs de test d’un nœud observateur et paramètres de configuration
-TOCTitle: Configuration des utilisateurs de test d’un nœud observateur et paramètres de configuration
+title: "Conf. des ut. de test d’un nœud observateur et paramètres de configuration"
+TOCtitle: "Conf. des ut. de test d’un nœud observateur et paramètres de configuration"
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205152(v=OCS.15)
 ms:contentKeyID: 49298484
@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-07-29_
 
 Après avoir configuré l’ordinateur qui jouera le rôle de nœud observateur, vous devez :
 
-1.  créer les comptes tests devant être utilisés par ces nœuds observateurs. SI vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande [Set-CsTestUserCredential](set-cstestusercredential.md) pour activer ces comptes pour une utilisation sur le nœud observateur ;
+1.  créer les comptes tests devant être utilisés par ces nœuds observateurs. SI vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) pour activer ces comptes pour une utilisation sur le nœud observateur ;
 
 2.  mettre à jour les paramètres de configuration du nœud observateur.
 
@@ -166,20 +166,9 @@ Cette commande retourne des informations semblables aux suivantes, en fonction d
     PersistentChatMessage
     DataConference
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour afficher les transactions synthétiques par ordre alphabétique, exécutez plutôt la commande suivante :<br />
-Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Pour afficher les transactions synthétiques par ordre alphabétique, exécutez plutôt la commande suivante :<br />
+Get-CsWatcherNodeConfiguration –Identity &quot;atl-cs-001.litwareinc.com&quot; | Select-Object –ExpandProperty Tests | Sort-Object
 
 Pour vérifier qu’un nœud observateur a été créé, tapez la commande suivante à partir de Lync Server Management Shell :
 

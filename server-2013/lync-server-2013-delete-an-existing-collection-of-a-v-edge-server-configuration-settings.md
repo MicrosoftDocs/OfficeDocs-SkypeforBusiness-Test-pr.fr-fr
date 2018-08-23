@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration d’un serveur Edge A/V
-TOCTitle: Suppression d’une collection existante de paramètres de configuration d’un serveur Edge A/V
+title: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
+TOCtitle: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688077(v=OCS.15)
 ms:contentKeyID: 49891376
@@ -21,7 +21,7 @@ Lorsque vous installez Lync Server, une collection globale de paramètres de co
 
 Toutefois, vous pouvez supprimer les collections de paramètres personnalisées que vous avez créées au niveau de l’étendue du site ou du service à l’aide de l’applet de commande Remove-CsAVEdgeConfiguration. Si vous supprimez les paramètres au niveau du site, les serveurs Edge A/V dans ce site sont alors gérés par les paramètres globaux. Si vous supprimez les paramètres au niveau du service, ce serveur est alors géré par ses paramètres de site (le cas échéant) ou par les paramètres globaux si aucun paramètre de site n’est disponible.
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration).
 
 ## Réinitialisation de la collection globale
 
@@ -51,5 +51,5 @@ Pour plus d’informations, voir la rubrique d’aide relative à l’applet de 
 #### Autres ressources
 
 [Serveurs Edge Audio/Vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

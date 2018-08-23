@@ -47,69 +47,25 @@ Pour plus d’informations sur la création de stratégies de version du client 
     
     4.  Selon la propriété utilisateur que vous avez sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche dans la liste déroulante.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!TIP]  
+        > Pour ajouter des clauses de recherche supplémentaires à la requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
 
 6.  Cliquez sur un utilisateur dans les résultats, puis sur **Action** et sur **Attribuer des stratégies**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous voulez que la même stratégie de version du client par utilisateur s’applique à plusieurs utilisateurs, sélectionnez plusieurs utilisateurs dans les résultats de la recherche, puis cliquez sur <strong>Actions</strong> et sur <strong>Attribuer des stratégies</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Si vous voulez que la même stratégie de version du client par utilisateur s’applique à plusieurs utilisateurs, sélectionnez plusieurs utilisateurs dans les résultats de la recherche, puis cliquez sur <strong>Actions</strong> et sur <strong>Attribuer des stratégies</strong>.
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de version du client**, effectuez l’une des opérations suivantes :
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Comme vous pouvez configurer plusieurs stratégies à partir de la boîte de dialogue <strong>Attribuer des stratégies</strong>, l’option <strong>&lt;Conserver tel quel&gt;</strong> est sélectionnée par défaut pour chaque stratégie de la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Comme vous pouvez configurer plusieurs stratégies à partir de la boîte de dialogue <strong>Attribuer des stratégies</strong>, l’option <strong>&lt;Conserver tel quel&gt;</strong> est sélectionnée par défaut pour chaque stratégie de la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.    
       - Autorisez Lync Server à choisir automatiquement la stratégie au niveau global ou, si elle a été définie, la stratégie au niveau du site ou du pool.
     
       - Cliquez sur le nom d’une stratégie de version du client par utilisateur que vous avez précédemment définie sur la page **Stratégie de version du client**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour vous aider à décider quelle stratégie attribuer, après avoir cliqué sur un nom de stratégie, cliquez sur <strong>Afficher</strong> pour afficher les droits et autorisations des utilisateurs définis dans la stratégie.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!TIP]  
+        > Pour vous aider à décider quelle stratégie attribuer, après avoir cliqué sur un nom de stratégie, cliquez sur <strong>Afficher</strong> pour afficher les droits et autorisations des utilisateurs définis dans la stratégie.
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.
 
@@ -125,7 +81,7 @@ Vous pouvez affecter des stratégies de version du client par utilisateur en uti
 
 ## Pour affecter une stratégie de version du client par utilisateur à plusieurs utilisateurs
 
-  - Cette commande affecte la stratégie de version du client par utilisateur RedmondClientVersionPolicy à tous les utilisateurs actuellement affectés à la stratégie vocale RedmondVoicePolicy. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir la documentation pour la cmdlet [Get-CsUser](get-csuser.md).
+  - Cette commande affecte la stratégie de version du client par utilisateur RedmondClientVersionPolicy à tous les utilisateurs actuellement affectés à la stratégie vocale RedmondVoicePolicy. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir la documentation pour la cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -135,7 +91,7 @@ Vous pouvez affecter des stratégies de version du client par utilisateur en uti
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide sur la cmdlet [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide sur la cmdlet [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy).
 
 ## Voir aussi
 

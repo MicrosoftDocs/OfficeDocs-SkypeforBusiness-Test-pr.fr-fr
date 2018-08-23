@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Paramètres réseau des fonctionnalités avancées de Voix Entreprise'
+title: "Lync Server 2013 : Param. Rés. des fonctionnalités avancées de Voix Entreprise"
 TOCTitle: Paramètres réseau des fonctionnalités avancées de Voix Entreprise
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398637(v=OCS.15)
@@ -31,19 +31,8 @@ Cette rubrique fournit une vue d’ensemble des conditions de configuration requ
 
 Une région réseau est un concentrateur réseau ou un segment réseau principal utilisé uniquement dans la configuration du service Contrôle d’admission des appels, du système E9-1-1 et de la déviation du trafic multimédia.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les régions réseau sont différentes des régions de conférence rendez-vous Lync Server, qui sont requises pour associer les numéros d’accès à la conférence rendez-vous avec un ou plusieurs plans de numérotation Lync Server. Pour plus d’informations sur les régions de conférence rendez-vous, reportez-vous à <a href="lync-server-2013-dial-in-conferencing-requirements.md">Configuration requise pour les conférences rendez-vous dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les régions réseau sont différentes des régions de conférence rendez-vous Lync Server, qui sont requises pour associer les numéros d’accès à la conférence rendez-vous avec un ou plusieurs plans de numérotation Lync Server. Pour plus d’informations sur les régions de conférence rendez-vous, reportez-vous à <a href="lync-server-2013-dial-in-conferencing-requirements.md">Configuration requise pour les conférences rendez-vous dans Lync Server 2013</a> dans la documentation de planification.
 
 Le contrôle d’admission des appels nécessite que chaque région réseau dispose d’un site central Lync Server associé qui gère le trafic multimédia dans la région (c’est-à-dire qu’il prend les décisions en fonction des stratégies configurées relatives à l’établissement ou non de session audio ou vidéo en temps réel). Les sites centraux Lync Server ne représentent pas les emplacements géographiques, mais plutôt des groupes logiques de serveurs configurés sous forme de pool ou d’ensemble de pools. Pour plus d’informations sur les sites centraux, reportez-vous à [Topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification. reportez-vous également à [Topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md) dans la documentation de prise en charge.
 
@@ -57,19 +46,8 @@ Pour associer un site central Lync Server à une région réseau, vous spécifi
 
 Un site réseau représente un emplacement géographique, tel qu’une succursale, un bureau régional ou un bureau principal. Chaque site réseau doit être associé à une région réseau spécifique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les sites réseau sont utilisés uniquement par les fonctionnalités Voix Entreprise avancées. Ils diffèrent des sites de succursale que vous pouvez configurer dans votre topologie Lync Server. Pour plus d’informations sur les sites de succursale, reportez-vous à <a href="lync-server-2013-reference-topologies.md">Topologies de référence dans Lync Server 2013</a> dans la documentation de planification. Reportez-vous également à <a href="lync-server-2013-supported-topologies.md">Topologies prises en charge dans Lync Server 2013</a> dans la documentation de prise en charge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les sites réseau sont utilisés uniquement par les fonctionnalités Voix Entreprise avancées. Ils diffèrent des sites de succursale que vous pouvez configurer dans votre topologie Lync Server. Pour plus d’informations sur les sites de succursale, reportez-vous à <a href="lync-server-2013-reference-topologies.md">Topologies de référence dans Lync Server 2013</a> dans la documentation de planification. Reportez-vous également à <a href="lync-server-2013-supported-topologies.md">Topologies prises en charge dans Lync Server 2013</a> dans la documentation de prise en charge.
 
 Pour configurer un site réseau et l’associer à une région réseau, vous pouvez utiliser la section **Configuration réseau** du Panneau de configuration Lync Server, ou exécuter les applets de commande Lync Server Management Shell**New-CsNetworkSite** ou **Set-CsNetworkSite**. Pour plus d’informations, reportez-vous à [Création ou modification d’un site réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) dans la documentation du déploiement, ou reportez-vous à la documentation Lync Server Management Shell.
 
@@ -79,20 +57,9 @@ Pour chaque site réseau, vous devrez collaborer avec votre administrateur rése
 
 Dans notre exemple, le site New York de la région Amérique du Nord peut se voir affecter les sous-réseaux IP suivants : 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, qui travaille généralement à Détroit, se rend dans les bureaux de New York pour suivre une formation, allume son ordinateur et se connecte au réseau, son ordinateur obtient une adresse IP dans l’une des quatre plages allouées à New York (par exemple, 172.29.80.103).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les sous-réseaux IP spécifiés pendant la configuration du réseau sur le serveur doivent correspondre au format fourni par les ordinateurs clients afin d’être correctement utilisés pour la déviation du trafic multimédia. Un client Lync prend son adresse IP locale et masque l’adresse IP avec le masque de sous-réseau associé. Lors de la détermination de l’ID de contournement associé à chaque client, le serveur d’inscriptions comparera la liste des sous-réseaux IP associés à chaque site réseau avec le sous-réseau fourni par le client pour obtenir une correspondance exacte. Pour cette raison, il est important que les sous-réseaux entrés lors de la configuration du réseau sur le serveur soient des sous-réseaux réels et non des sous-réseaux virtuels. (Si vous déployez le contrôle d’admission des appels, mais pas la déviation du trafic multimédia, le contrôle d’admission des appels fonctionnera correctement même si vous configurez des sous-réseaux virtuels.)<br />
-Par exemple, si un client Lync se connecte sur un ordinateur ayant l’adresse IP 172.29.81.57 et le masque de sous-réseau IP 255.255.255.0, il demandera l’ID de contournement associé au sous-réseau 172.29.81.0. Si le sous-réseau est défini comme 172.29.0.0/16, même si le client appartient au sous-réseau virtuel, le serveur d’inscriptions ne considérera pas cela comme une correspondance, car le serveur d’inscriptions recherche spécifiquement le sous-réseau 172.29.81.0. Par conséquent, il est important que l’administrateur entre les sous-réseaux exacts fournis par les clients Lync (provisionnés avec des sous-réseaux lors de la configuration réseau soit de manière statique, soit par DHCP.)</td>
-</tr>
-</tbody>
-</table>
-
+> [!WARNING]  
+> Les sous-réseaux IP spécifiés pendant la configuration du réseau sur le serveur doivent correspondre au format fourni par les ordinateurs clients afin d’être correctement utilisés pour la déviation du trafic multimédia. Un client Lync prend son adresse IP locale et masque l’adresse IP avec le masque de sous-réseau associé. Lors de la détermination de l’ID de contournement associé à chaque client, le serveur d’inscriptions comparera la liste des sous-réseaux IP associés à chaque site réseau avec le sous-réseau fourni par le client pour obtenir une correspondance exacte. Pour cette raison, il est important que les sous-réseaux entrés lors de la configuration du réseau sur le serveur soient des sous-réseaux réels et non des sous-réseaux virtuels. (Si vous déployez le contrôle d’admission des appels, mais pas la déviation du trafic multimédia, le contrôle d’admission des appels fonctionnera correctement même si vous configurez des sous-réseaux virtuels.)<br />
+Par exemple, si un client Lync se connecte sur un ordinateur ayant l’adresse IP 172.29.81.57 et le masque de sous-réseau IP 255.255.255.0, il demandera l’ID de contournement associé au sous-réseau 172.29.81.0. Si le sous-réseau est défini comme 172.29.0.0/16, même si le client appartient au sous-réseau virtuel, le serveur d’inscriptions ne considérera pas cela comme une correspondance, car le serveur d’inscriptions recherche spécifiquement le sous-réseau 172.29.81.0. Par conséquent, il est important que l’administrateur entre les sous-réseaux exacts fournis par les clients Lync (provisionnés avec des sous-réseaux lors de la configuration réseau soit de manière statique, soit par DHCP.)
 
 ## Association de sous-réseaux à des sites réseau
 

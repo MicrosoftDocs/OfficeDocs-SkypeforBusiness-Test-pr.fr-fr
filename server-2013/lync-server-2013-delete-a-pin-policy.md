@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Suivez cette procédure pour supprimer une stratégie de code confidentiel (PIN).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.
 
 ## Pour supprimer une stratégie de code confidentiel dans le Panneau de configuration Lync Server 2013
 
@@ -67,5 +56,5 @@ Vous pouvez supprimer des stratégies de code confidentiel avec Windows PowerSh
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsPinPolicy](remove-cspinpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy).
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des ports - Serveur Edge unique consolidé avec adresses IP publiques'
+title: "Lync Server 2013 : Résumé des ports - Serveur Edge unique cons. ac ad. IP pub."
 TOCTitle: Résumé des ports - Serveur Edge unique consolidé avec adresses IP publiques
 ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204756(v=OCS.15)

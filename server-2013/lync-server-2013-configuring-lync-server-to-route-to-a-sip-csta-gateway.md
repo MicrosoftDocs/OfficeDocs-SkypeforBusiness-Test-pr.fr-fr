@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de Lync Server 2013 pour le routage vers une passerelle SIP/CSTA'
+title: "Lync Server 2013 : Conf. Lync Server 2013 pr routage vers passerelle SIP/CSTA"
 TOCTitle: Configuration de Lync Server 2013 pour le routage vers une passerelle SIP/CSTA
 ms:assetid: d75e4cf6-7b36-430a-a91a-0f2559306ba1
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615038(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Activation d’Exchange 2013 Outlook Web App et intégration à la messagerie instantanée
-TOCTitle: Activation d’Exchange 2013 Outlook Web App et intégration à la messagerie instantanée
+title: "Act. d’Exchange 2013 Outlook Web App et intégration à la mes. instantanée"
+TOCtitle: "Act. d’Exchange 2013 Outlook Web App et intégration à la mes. instantanée"
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204857(v=OCS.15)
 ms:contentKeyID: 49297056
@@ -25,31 +25,20 @@ Pour activer l’intégration de la messagerie instantanée et d’Exchange 201
     
         Get-CsSite
     
-    Celle-ci renvoie la valeur siteID correspondant à la valeur siteName dans laquelle vous créez le pool. Pour plus d’informations, reportez-vous à [Get-CsSite](get-cssite.md) dans la documentation de Lync Server 2013 Management Shell.
+    Celle-ci renvoie la valeur siteID correspondant à la valeur siteName dans laquelle vous créez le pool. Pour plus d’informations, reportez-vous à [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) dans la documentation de Lync Server 2013 Management Shell.
 
 3.  Exécutez l’applet de commande suivante :
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    Pour plus d’informations, reportez-vous à [New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md) dans la documentation de Lync Server 2013 Management Shell.
+    Pour plus d’informations, reportez-vous à [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool) dans la documentation de Lync Server 2013 Management Shell.
     
     Le nom de domaine complet du serveur Exchange Server doit être configuré en tant que nom d’objet du certificat Exchange OWA ou en tant qu’autre nom de l’objet.
     
     Dans Exchange OWA, assurez-vous que le nom de domaine complet du pool est également approuvé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre serveur d’accès au client n’est <em>pas</em> colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, ignorez les étapes restantes de cette procédure et effectuez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique. Si votre serveur d’accès au client est colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, effectuez les étapes de cette procédure et ignorez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Si votre serveur d’accès au client n’est <em>pas</em> colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, ignorez les étapes restantes de cette procédure et effectuez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique. Si votre serveur d’accès au client est colocalisé sur le serveur qui exécute la messagerie unifiée Exchange 2013, effectuez les étapes de cette procédure et ignorez la procédure « Créer une application approuvée pour le serveur d’accès au client Exchange 2013 » décrite dans la suite de cette rubrique.
 
 4.  Exécutez **Enable-CsTopology** .
 
@@ -69,7 +58,7 @@ Pour activer l’intégration de la messagerie instantanée et d’Exchange 201
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    Pour plus d’informations, reportez-vous à la rubrique [New-CsTrustedApplication](new-cstrustedapplication.md) dans la documentation de Lync Server 2013 Management Shell.
+    Pour plus d’informations, reportez-vous à la rubrique [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) dans la documentation de Lync Server 2013 Management Shell.
 
 3.  Exécutez **Enable-CsTopology** .
 

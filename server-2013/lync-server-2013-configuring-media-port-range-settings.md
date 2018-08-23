@@ -71,16 +71,5 @@ Les paramètres des plages de ports multimédias peuvent affecter considérablem
     
         Set-CsConferencingConfiguration
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez créer des ensembles de paramètres de configuration de conférence supplémentaires pour des sites spécifiques. Utilisez l’applet de commande <strong>New- CsConferencingConfiguration</strong> avec une identité de site. Lorsque vous créez de nouveaux paramètres de configuration de conférence pour des sites, ces paramètres prévalent sur les paramètres globaux. Pour plus d’informations, voir la documentation Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez créer des ensembles de paramètres de configuration de conférence supplémentaires pour des sites spécifiques. Utilisez l’applet de commande <strong>New- CsConferencingConfiguration</strong> avec une identité de site. Lorsque vous créez de nouveaux paramètres de configuration de conférence pour des sites, ces paramètres prévalent sur les paramètres globaux. Pour plus d’informations, voir la documentation Lync Server Management Shell.

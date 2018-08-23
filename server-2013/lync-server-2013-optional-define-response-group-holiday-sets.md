@@ -1,6 +1,6 @@
 ﻿---
-title: (Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013
-TOCTitle: (Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013
+title: "(Facul.) Déf. des gr. de congés des gr. Response Group dans Lync Server 2013"
+TOCtitle: "(Facul.) Déf. des gr. de congés des gr. Response Group dans Lync Server 2013"
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688063(v=OCS.15)
 ms:contentKeyID: 49891357
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2014-02-07_
 
 Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés qui s’applique à un groupe Response Group.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si un flux de travail est défini en tant que flux de travail géré, tout utilisateur auquel est affecté le rôle CsResponseGroupManager peut définir et modifier les congés des flux de travail dont il assure la gestion.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si un flux de travail est défini en tant que flux de travail géré, tout utilisateur auquel est affecté le rôle CsResponseGroupManager peut définir et modifier les congés des flux de travail dont il assure la gestion.
 
 ## Pour créer une période de congé
 
@@ -60,6 +49,6 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 #### Autres ressources
 
-[New-CsRgsHoliday](new-csrgsholiday.md)  
-[New-CsRgsHolidaySet](new-csrgsholidayset.md)
+[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)
 

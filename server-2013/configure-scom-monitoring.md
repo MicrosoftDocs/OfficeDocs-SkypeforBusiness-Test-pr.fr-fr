@@ -37,23 +37,15 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
 
 2.  Dans la ligne de commande, tapez ce qui suit :
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+    ```
+    ```
+    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+    ```
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>À chaque modification du Registre, une erreur liée à l’échec de la commande risque de se produire si la clé de Registre existe déjà. Dans ce cas, vous pouvez ignorer cette erreur sans risque.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > À chaque modification du Registre, une erreur liée à l’échec de la commande risque de se produire si la clé de Registre existe déjà. Dans ce cas, vous pouvez ignorer cette erreur sans risque.
 
 **Configurez votre serveur d’administration principal System Center Operations Manager pour remplacer le nœud observateur candidat de détection centrale.**
 

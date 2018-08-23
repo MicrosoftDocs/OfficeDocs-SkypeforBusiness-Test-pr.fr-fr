@@ -1,6 +1,6 @@
 ﻿---
-title: Afficher des mises à jour logicielles pour les périphériques dans Lync Server 2013
-TOCTitle: Afficher des mises à jour logicielles pour les périphériques dans Lync Server 2013
+title: "Afficher des màj logicielles pour les périphériques dans Lync Server 2013"
+TOCtitle: "Afficher des màj logicielles pour les périphériques dans Lync Server 2013"
 ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182592(v=OCS.15)
 ms:contentKeyID: 49298923
@@ -15,21 +15,10 @@ ms.translationtype: HT
 
 _**Dernière rubrique modifiée :** 2016-12-08_
 
-Avec Lync Server 2013, vous utilisez le service web de mise à jour des périphériques pour afficher et gérer les mises à jour logicielles des périphériques de votre entreprise. Ces mises à jour sont disponibles dans des fichiers .cab (cabinet) sur le site web de support Microsoft à l’adresse [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x40c). Lorsque vous avez téléchargé le fichier .cab, exécutez la cmdlet **Import-CSdeviceUpdate** pour importer les règles de mise à jour de périphérique du fichier .cab. Pour plus d’informations sur la cmdlet **Import-CSdeviceUpdate**, voir [Import-CsDeviceUpdate](import-csdeviceupdate.md) dans la documentation Lync Server Management Shell.
+Avec Lync Server 2013, vous utilisez le service web de mise à jour des périphériques pour afficher et gérer les mises à jour logicielles des périphériques de votre entreprise. Ces mises à jour sont disponibles dans des fichiers .cab (cabinet) sur le site web de support Microsoft à l’adresse [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x40c). Lorsque vous avez téléchargé le fichier .cab, exécutez la cmdlet **Import-CSdeviceUpdate** pour importer les règles de mise à jour de périphérique du fichier .cab. Pour plus d’informations sur la cmdlet **Import-CSdeviceUpdate**, voir [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) dans la documentation Lync Server Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant de déployer une nouvelle mise à jour dans votre entreprise, vérifiez qu’elle fonctionne correctement sur un périphérique de test.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Avant de déployer une nouvelle mise à jour dans votre entreprise, vérifiez qu’elle fonctionne correctement sur un périphérique de test.
 
 ## Pour afficher les mises à jour logicielles des périphériques de communications unifiées
 

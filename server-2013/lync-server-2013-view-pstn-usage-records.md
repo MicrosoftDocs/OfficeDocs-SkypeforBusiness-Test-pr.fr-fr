@@ -27,19 +27,8 @@ Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spéc
 
 4.  Dans la page **Utilisation RTC**, sélectionnez l’enregistrement d’utilisation RTC que vous souhaitez afficher, cliquez sur **Modifier**, puis cliquez sur **Afficher les détails**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Une page en lecture seule de l’enregistrement d’utilisation RTC sélectionné affiche les itinéraires associés et les stratégies de voix associées.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Une page en lecture seule de l’enregistrement d’utilisation RTC sélectionné affiche les itinéraires associés et les stratégies de voix associées.
 
 ## Affichage des informations d’utilisation RTC via les applets de commande Windows PowerShell
 
@@ -56,7 +45,7 @@ Vous pouvez également afficher les informations d’utilisation RTC à l’aide
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
-Pour plus d’informations, reportez-vous à la section [Get-CsPstnUsage](get-cspstnusage.md).
+Pour plus d’informations, reportez-vous à la section [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 ## Voir aussi
 

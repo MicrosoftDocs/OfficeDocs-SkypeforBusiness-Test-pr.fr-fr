@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des itinéraires de communications vocales pour les appels sortants'
+title: "Lync Server 2013 : Conf. des itinéraires de comm. voc. pour appels sortants"
 TOCTitle: Configuration des itinéraires de communications vocales pour les appels sortants
 ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425890(v=OCS.15)
@@ -27,19 +27,8 @@ Un itinéraire de communications vocales Lync Server 2013 associe des numéros 
 
 4.  Double-cliquez sur un itinéraire de communications vocales pour afficher les autres propriétés de la liste des itinéraires de communications vocales ou sélectionnez l’itinéraire, puis cliquez sur **Modifier** . Cliquez ensuite sur **Afficher les détails** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher les informations détaillées que d’un seul itinéraire à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous ne pouvez afficher les informations détaillées que d’un seul itinéraire à la fois.
 
 **Afficher les itinéraires de communications vocales via Windows PowerShell**
 
@@ -61,19 +50,8 @@ Un itinéraire de communications vocales Lync Server 2013 associe des numéros 
         SuppressCallerId  :
         AlternateCallerId :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-voice-routes.md">Itinéraires des communications vocales dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d’informations, reportez-vous à <a href="lync-server-2013-voice-routes.md">Itinéraires des communications vocales dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Dans cette section
 

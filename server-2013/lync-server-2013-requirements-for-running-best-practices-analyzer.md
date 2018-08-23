@@ -19,16 +19,5 @@ Vous pouvez utiliser l’outil Best Practices Analyzer de Lync Server 2013 pour
 
 Avant de lancer l’analyse, vous devez vous assurer que tous les composants de votre environnement Lync Server 2013 sont en cours d’exécution et en ligne.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Selon la configuration de vos serveurs Edge et des paramètres de réseau de périmètre associés, notamment les paramètres de pare-feu et les autorisations, il se peut que l’outil Best Practices Analyzer ne puisse pas accéder à vos serveurs Edge et en faire l’analyse. Si vous incluez des serveurs Edge à votre analyse et qu’un rapport indique l’existence d’un problème d’accès aux serveurs Edge, vous avez tout intérêt à retirer les serveurs Edge des options d’analyse et à réexécuter l’analyse de façon à faire disparaître le problème du rapport.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Selon la configuration de vos serveurs Edge et des paramètres de réseau de périmètre associés, notamment les paramètres de pare-feu et les autorisations, il se peut que l’outil Best Practices Analyzer ne puisse pas accéder à vos serveurs Edge et en faire l’analyse. Si vous incluez des serveurs Edge à votre analyse et qu’un rapport indique l’existence d’un problème d’accès aux serveurs Edge, vous avez tout intérêt à retirer les serveurs Edge des options d’analyse et à réexécuter l’analyse de façon à faire disparaître le problème du rapport.

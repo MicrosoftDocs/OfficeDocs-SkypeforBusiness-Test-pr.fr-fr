@@ -27,19 +27,8 @@ Si vous avez déjà défini une topologie et le magasin central de gestion, choi
 
 Si vous n’avez pas défini un magasin central de gestion et que vous souhaitez modifier une configuration précédemment enregistrée, choisissez d’ouvrir la topologie à partir d’un fichier local. Le fichier que vous ouvrirez sera le fichier de configuration qui a été enregistré dans une session précédente. Vous pouvez utiliser cette option pour modifier la topologie précédemment enregistrée.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous disposez déjà d’une topologie publiée, ne chargez aucun fichier de configuration local. Choisissez de télécharger la topologie à partir d’un déploiement existant.</td>
-</tr>
-</tbody>
-</table>
-
+> [!WARNING]  
+> Si vous disposez déjà d’une topologie publiée, ne chargez aucun fichier de configuration local. Choisissez de télécharger la topologie à partir d’un déploiement existant.
 
 Choisissez de créer une nouvelle topologie si vous souhaitez créer une nouvelle configuration de Générateur de topologie. Une conception précédemment enregistrée n’est pas remplacée sauf si vous choisissez de l’enregistrer à la place du fichier que vous avez créé lors d’une session de conception précédente.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé DNS - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau'
+title: "LS 2013 : Rés. DNS - SE cons. màé, éq. ch. DNS ac ad. IP pr., conv. d’ad. Rés."
 TOCTitle: Résumé DNS - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau
 ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398201(v=OCS.15)
@@ -49,19 +49,8 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
     
     Trois adresses IP privées sont affectées à cette carte réseau, par exemple 10.45.16.10 pour le serveur Edge d’accès, 10.45.16.20 pour le serveur Edge de conférence web et 10.45.16.30 pour le serveur Edge AV.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il est possible, mais déconseillé, d’utiliser une adresse IP unique pour les interfaces des trois services Edge. Même si les adresses IP sont enregistrées, les numéros de port doivent être différents pour chaque service. Le numéro de port par défaut est 443/TCP, ce qui permet de s’assurer que la plupart des pare-feu distants autoriseront le trafic. Le fait d’affecter aux ports les valeurs 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence web et 443/TCP pour le service Edge A/V, par exemple, peut générer des problèmes pour les utilisateurs distants se trouvant derrière un pare-feu qui n’autorise pas le trafic sur 5061/TCP et 444/TCP. Par ailleurs, l’utilisation de trois adresses IP distinctes facilite l’identification et la résolution des problèmes puisqu’il est possible d’appliquer un filtre selon l’adresse IP.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Il est possible, mais déconseillé, d’utiliser une adresse IP unique pour les interfaces des trois services Edge. Même si les adresses IP sont enregistrées, les numéros de port doivent être différents pour chaque service. Le numéro de port par défaut est 443/TCP, ce qui permet de s’assurer que la plupart des pare-feu distants autoriseront le trafic. Le fait d’affecter aux ports les valeurs 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence web et 443/TCP pour le service Edge A/V, par exemple, peut générer des problèmes pour les utilisateurs distants se trouvant derrière un pare-feu qui n’autorise pas le trafic sur 5061/TCP et 444/TCP. Par ailleurs, l’utilisation de trois adresses IP distinctes facilite l’identification et la résolution des problèmes puisqu’il est possible d’appliquer un filtre selon l’adresse IP.    
     L’adresse IP publique des serveurs Edge d’accès avec la passerelle par défaut définie sur le routeur intégré (10.45.16.1) est l’adresse principale.
     
     Les adresses IP privées du service de conférence web et du service Edge A/V sont des adresses IP supplémentaires dans la section **Avancé** des propriétés **Protocole Internet version 4 (TCP/IPv4)** et **Protocole Internet version 6 (TCP/IPv6)** des **Propriétés de la connexion au réseau local** dans Windows Server.
@@ -74,19 +63,8 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
     
     Les adresses IP privées du service de conférence web et du service Edge A/V sont des adresses IP supplémentaires dans la section **Avancé** des propriétés **Protocole Internet version 4 (TCP/IPv4)** et **Protocole Internet version 6 (TCP/IPv6)** des **Propriétés de la connexion au réseau local** dans Windows Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La configuration du serveur Edge avec deux cartes réseau est une option. L’autre option consiste à utiliser une carte réseau pour le côté interne et trois cartes réseau pour le côté externe du serveur Edge. Cela permet d’utiliser une carte réseau distincte par service serveur Edge et une collection de données potentiellement plus concise en cas d’identification et de résolution des problèmes.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> La configuration du serveur Edge avec deux cartes réseau est une option. L’autre option consiste à utiliser une carte réseau pour le côté interne et trois cartes réseau pour le côté externe du serveur Edge. Cela permet d’utiliser une carte réseau distincte par service serveur Edge et une collection de données potentiellement plus concise en cas d’identification et de résolution des problèmes.
 
 ### Enregistrements DNS requis pour le serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées utilisant la technologie NAT (exemple)
 
@@ -170,20 +148,10 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du serveur Edge d’accès SIP. Requise pour permettre la découverte DNS automatique de votre fédération par d’autres partenaires de fédération potentiels, elle est aussi connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cet enregistrement SRV est requis pour la mobilité et le centre d’échanges de notifications push.</td>
-</tr>
-</tbody>
-</table>
+<div>
 
+> [!IMPORTANT]  
+> Cet enregistrement SRV est requis pour la mobilité et le centre d’échanges de notifications push.
 </div></td>
 </tr>
 </tbody>

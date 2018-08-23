@@ -1,6 +1,6 @@
 ﻿---
-title: Modifier la stratégie de messagerie vocale hébergée globale dans Lync Server 2013
-TOCTitle: Modifier la stratégie de messagerie vocale hébergée globale dans Lync Server 2013
+title: "Mod. la stratégie de messagerie vocale hébergée globale dans Lync Server 2013"
+TOCtitle: "Mod. la stratégie de messagerie vocale hébergée globale dans Lync Server 2013"
 ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412994(v=OCS.15)
 ms:contentKeyID: 49299305
@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-09-24_
 
 La stratégie de messagerie vocale hébergée *globale* est installée avec Lync Server 2013. Vous pouvez la modifier en fonction de vos besoins, mais pas la renommer ni la supprimer. Pour modifier la stratégie globale, utilisez la cmdlet Set-CsHostedVoicemailPolicy pour définir les paramètres sur des valeurs adaptées à votre déploiement.
 
-Pour plus d’informations sur la cmdlet [Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md), voir la documentation de Lync Server Management Shell.
+Pour plus d’informations sur la cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy), voir la documentation de Lync Server Management Shell.
 
 ## Pour modifier la stratégie de messagerie vocale hébergée globale
 
@@ -33,20 +33,12 @@ Pour plus d’informations sur la cmdlet [Set-CsHostedVoicemailPolicy](set-cshos
     
       - **Organization** fournit la liste des clients Exchange (séparés par des virgules) qui hébergent les utilisateurs de Lync Server. Chaque client doit être spécifié avec son nom de domaine complet (FQDN) sur le service de messagerie unifiée Exchange hébergé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dans la cmdlet de l’exemple précédent, la valeur corp1.litwareinc.com remplace toute valeur pouvant être déjà présente dans le paramètre Organisation. Par exemple, si la stratégie contient déjà une liste séparée par des virgules des organisations, toute la liste sera remplacée. Si vous souhaitez ajouter une organisation à la liste plutôt que de remplacer toute la liste, exécutez une commande similaire à celle-ci.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-        $a = Get-CsHostedVoicemailPolicy
-        $a.Organization += ",corp3.litwareinc.com"
-        Set-CsHostedVoicemailPolicy -Organization $a.Organization
+    > [!NOTE]  
+    > Dans la cmdlet de l’exemple précédent, la valeur corp1.litwareinc.com remplace toute valeur pouvant être déjà présente dans le paramètre Organisation. Par exemple, si la stratégie contient déjà une liste séparée par des virgules des organisations, toute la liste sera remplacée. Si vous souhaitez ajouter une organisation à la liste plutôt que de remplacer toute la liste, exécutez une commande similaire à celle-ci.
+
+    ```
+    $a = Get-CsHostedVoicemailPolicy
+    $a.Organization += ",corp3.litwareinc.com"
+    Set-CsHostedVoicemailPolicy -Organization $a.Organization
+    ```
 

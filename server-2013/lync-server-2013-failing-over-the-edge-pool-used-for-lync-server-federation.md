@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Basculement vers le pool Edge utilisé pour la fédération Lync Server'
+title: "Lync Server 2013 : Basc. vers le pool Edge utilisé pour la féd. Lync Server"
 TOCTitle: Basculement vers le pool Edge utilisé pour la fédération Lync Server
 ms:assetid: 5c9da0f2-7429-40bb-bb3c-5cc4ecb5a13d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688071(v=OCS.15)

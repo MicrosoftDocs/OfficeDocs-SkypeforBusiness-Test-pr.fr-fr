@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de voix et des enregistrements d’utilisation RTC pour autoriser les fonctionnalités d’appel et les privilèges dans Lync Server 2013'
+title: "LS 2013 : Conf. strat. voix, enr. ut. RTC pr aut. appel et priv. ds LS 2013"
 TOCTitle: Configuration des stratégies de voix et des enregistrements d’utilisation RTC pour autoriser les fonctionnalités d’appel et les privilèges
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398450(v=OCS.15)
@@ -19,19 +19,8 @@ Une *stratégie de voix* active un ensemble de fonctionnalités d’appel et ass
 
 L’étendue de la stratégie de voix peut être *Site* (qui définit les fonctionnalités et autorisations par défaut pour un site réseau) ou *Utilisateur* (qui définit les fonctionnalités et autorisations à affecter pour un utilisateur ou un groupe spécifique). Les utilisateurs non affectés à une stratégie de voix seront automatiquement affectés à la stratégie globale, qui est la stratégie de voix par défaut installée avec le produit.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-voice-policies.md">Stratégies de voix dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d’informations, reportez-vous à <a href="lync-server-2013-voice-policies.md">Stratégies de voix dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Dans cette section
 

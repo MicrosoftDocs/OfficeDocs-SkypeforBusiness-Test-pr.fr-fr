@@ -35,19 +35,8 @@ Procédez de la façon suivante pour supprimer une annonce utilisée pour passer
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur d’autres options, voir <a href="get-csannouncement.md">Get-CsAnnouncement</a> et <a href="remove-csannouncement.md">Remove-CsAnnouncement</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</a>.
 
 ## Voir aussi
 
@@ -57,6 +46,6 @@ Procédez de la façon suivante pour supprimer une annonce utilisée pour passer
 
 #### Autres ressources
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

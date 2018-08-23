@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Attribution d’un compte d’authentification Kerberos sur un site'
+title: "Lync Server 2013 : Attribution d’un compte d’auth. Kerberos sur un site"
 TOCTitle: Attribution d’un compte d’authentification Kerberos sur un site
 ms:assetid: 3d9c587c-c8b8-4f81-8ed9-1458a31fc292
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425901(v=OCS.15)
@@ -27,39 +27,22 @@ Après avoir créé le compte Kerberos, vous devez l’affecter à un site. Il s
 
 3.  Depuis la ligne de commande, exécutez les deux commandes suivantes :
     
-        New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
-    
-        Enable-CsTopology
-    
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     Exemple :
     
-        New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+    ```
+    New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+    ```
+    ```
+    Enable-CsTopology
+    ```
     
-        Enable-CsTopology
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous devez spécifier le paramètre Compte d’utilisateur au format Domaine\Utilisateur. Le format Utilisateur@Domaine.extension n’est pas pris en charge pour la référence aux objets créés à des fins d’authentification Kerberos.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous devez spécifier le paramètre Compte d’utilisateur au format Domaine\Utilisateur. Le format Utilisateur@Domaine.extension n’est pas pris en charge pour la référence aux objets créés à des fins d’authentification Kerberos.    
+    > [!IMPORTANT]  
+    > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.

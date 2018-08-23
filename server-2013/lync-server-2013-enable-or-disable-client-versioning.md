@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client, soit globalement, soit pour des sites spécifiques. La configuration globale de version du client est installée avec Lync Server 2013 et permet d’activer ou de désactiver le contrôle de version du client pour le déploiement complet du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet quand les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous ne voulez qu’aucun contrôle de la version du client ne se produise. Vous pouvez activer ou désactiver la gestion de la version du client depuis le Panneau de configuration Lync Server 2013 ou Lync Server 2013 Management Shell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.
 
 ## Pour activer ou désactiver la gestion de la version du client à l’aide du Panneau de configuration Lync Server
 
@@ -61,5 +50,5 @@ Vous pouvez activer ou désactiver la gestion de la version du client à l’aid
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de la messagerie unifiée Microsoft Exchange Server 2013 pour la messagerie vocale Microsoft Lync Server 2013
-TOCTitle: Configuration de la messagerie unifiée Microsoft Exchange Server 2013 pour la messagerie vocale Microsoft Lync Server 2013
+title: "Conf. de la mess. un. MES 2013 pour mess. voc. Microsoft LS 2013"
+TOCtitle: "Conf. de la mess. un. MES 2013 pour mess. voc. Microsoft LS 2013"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49891253
@@ -61,13 +61,13 @@ Et vous pouvez activer un utilisateur pour la messagerie unifiée en utilisant u
 
 Dans la commande précédente, le paramètre Extensions représente le numéro de poste de l’utilisateur. Dans cet exemple, le numéro de poste de l’utilisateur est le 100.
 
-Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Pour vérifier que l’utilisateur peut se connecter à la messagerie unifiée d’Exchange, exécutez l’applet de commande [Test-CsExUMConnectivity](test-csexumconnectivity.md) dans Lync Server Management Shell:
+Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Pour vérifier que l’utilisateur peut se connecter à la messagerie unifiée d’Exchange, exécutez l’applet de commande [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) dans Lync Server Management Shell:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Si un second utilisateur a été activé pour la messagerie unifiée, vous pouvez utiliser l’applet de commande [Test-CsExUMVoiceMail](test-csexumvoicemail.md) pour vous assurer qu’il est en mesure de laisser un message vocal au premier utilisateur.
+Si un second utilisateur a été activé pour la messagerie unifiée, vous pouvez utiliser l’applet de commande [Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) pour vous assurer qu’il est en mesure de laisser un message vocal au premier utilisateur.
 
     $credential = Get-Credential "litwareinc\pilar"
     

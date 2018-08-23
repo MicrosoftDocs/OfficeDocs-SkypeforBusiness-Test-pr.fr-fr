@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-21_
 
 Les *régions réseau* sont les concentrateurs de réseau ou les dorsales principales utilisés dans la configuration du contrôle d’admission d’appels, E9-1-1, et la déviation du trafic multimédia. Utilisez les procédures suivantes pour afficher, créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une fonction vocale, vous n’avez pas besoin de créer de nouvelles régions réseau ; les autres fonctions Enterprise Voice avancées utiliseront ces mêmes régions réseau. Cependant, il peut être nécessaire de modifier une définition de région réseau existante pour appliquer des paramètres spécifiques à une fonction. Par exemple, si vous avez créé des régions réseau pour E9-1-1 (qui ne requiert pas un site central associé) et que vous déployez ensuite un contrôle d’admission des appels, vous devez modifier les définitions de région réseau pour spécifier un site central. Pour plus d’informations, voir [Configurer les régions de réseau pour le contrôle d’admission des appels (CAC)](lync-server-2013-configure-network-regions-for-cac.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Toutes les exigences ayant trait à des fonctionnalités pour les définitions des régions réseau sont documentées dans les rubriques de déploiement des fonctionnalités concernées.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Toutes les exigences ayant trait à des fonctionnalités pour les définitions des régions réseau sont documentées dans les rubriques de déploiement des fonctionnalités concernées.
 
 ## Dans cette section
 

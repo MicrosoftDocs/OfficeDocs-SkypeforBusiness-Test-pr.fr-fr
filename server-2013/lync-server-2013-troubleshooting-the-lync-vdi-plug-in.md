@@ -1,6 +1,6 @@
 ﻿---
-title: Résolution des problèmes du plug-in Lync VDI (Virtual Desktop Infrastructure) dans Lync Server 2013
-TOCTitle: Résolution des problèmes du plug-in Lync VDI (Virtual Desktop Infrastructure) dans Lync Server 2013
+title: "Résol. des pb du plug-in Lync VDI (Virtual Desktop Infrastructure) ds LS 2013"
+TOCtitle: "Résol. des pb du plug-in Lync VDI (Virtual Desktop Infrastructure) ds LS 2013"
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204713(v=OCS.15)
 ms:contentKeyID: 49296393

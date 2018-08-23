@@ -27,37 +27,15 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 4.  Dans la page **Région**, cliquez sur la région à supprimer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez supprimer plusieurs régions à la fois. Pour cela, appuyez sur la touche Ctrl et, tout en la maintenant enfoncée, sélectionnez plusieurs régions. Pour sélectionner toutes les régions, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez supprimer plusieurs régions à la fois. Pour cela, appuyez sur la touche Ctrl et, tout en la maintenant enfoncée, sélectionnez plusieurs régions. Pour sélectionner toutes les régions, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
 
 5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez pas supprimer une région réseau si elle est associée à un site réseau. Si vous essayez, un message d’erreur s’affiche. Pour savoir si une région est associée à des sites, sélectionnez-la, puis cliquez sur <strong>Afficher les détails</strong> dans le menu <strong>Edition</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!WARNING]  
+    > Vous ne pouvez pas supprimer une région réseau si elle est associée à un site réseau. Si vous essayez, un message d’erreur s’affiche. Pour savoir si une région est associée à des sites, sélectionnez-la, puis cliquez sur <strong>Afficher les détails</strong> dans le menu <strong>Edition</strong>.
 
 ## Voir aussi
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Vérification de la suppression des objets de contact de messagerie unifiée Exchange du pool hérité
-TOCTitle: Vérification de la suppression des objets de contact de messagerie unifiée Exchange du pool hérité
+title: "Vérif. de la suppr. des objets de contact de mess. Un. Exchange du pool hérité"
+TOCtitle: "Vérif. de la suppr. des objets de contact de mess. Un. Exchange du pool hérité"
 ms:assetid: 5a813169-0ed7-4f84-a242-ed2cd4ea5c43
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688068(v=OCS.15)
 ms:contentKeyID: 49891363
@@ -25,5 +25,5 @@ Utilisez l’outil **OCSUmUtil** ou l’applet de commande **Get-CsExumContact**
 
   - autorisations de domaine pour la création d’objets contact dans le conteneur d’unités d’organisation spécifié.
 
-Pour plus d’informations sur l’utilisation de l’applet de commande **Get-CsExumContact**, reportez-vous à [Get-CsExUmContact](get-csexumcontact.md) dans la documentation Lync Server Management Shell.
+Pour plus d’informations sur l’utilisation de l’applet de commande **Get-CsExumContact**, reportez-vous à [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact) dans la documentation Lync Server Management Shell.
 

@@ -19,7 +19,7 @@ La table PurgeSettings contient des informations qui indiquent si (et quand) les
 
     Get-CsCdrConfiguration
 
-Les administrateurs doivent traiter la table PurgeSettings comme étant en lecture seule : toute modification des paramètres de suppression de détails des appels doit être effectuée uniquement à l’aide de l’applet de commande [New-CsCdrConfiguration](new-cscdrconfiguration.md) ou [Set-CsCdrConfiguration](set-cscdrconfiguration.md).
+Les administrateurs doivent traiter la table PurgeSettings comme étant en lecture seule : toute modification des paramètres de suppression de détails des appels doit être effectuée uniquement à l’aide de l’applet de commande [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) ou [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
 
 Cette table est une nouveauté de Microsoft Lync Server 2013.
 

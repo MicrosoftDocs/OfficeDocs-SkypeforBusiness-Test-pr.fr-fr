@@ -23,19 +23,8 @@ L’activation du magasin de contacts unifié dans Lync Server 2013 ne nécessi
 
 Une fois les contacts d’un utilisateur migrés, ce qui se produit automatiquement lorsqu’un utilisateur se connecte avec Lync 2013, l’utilisateur peut accéder à ses contacts Lync et les gérer à partir de Lync 2013, d’Outlook 2013 ou d’Outlook Web Access. L’utilisateur n’est pas obligé d’être connecté à Lync pour gérer ses contacts à partir d’Outlook ou d’Outlook Web Access.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si un utilisateur se connecte à partir de Lync 2010 après la migration, les contacts et les groupes sont disponibles et à jour, mais l’utilisateur ne peut pas gérer (c’est-à-dire ajouter, supprimer, déplacer, ajouter une balise, supprimer une balise ou modifier) ces contacts.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Si un utilisateur se connecte à partir de Lync 2010 après la migration, les contacts et les groupes sont disponibles et à jour, mais l’utilisateur ne peut pas gérer (c’est-à-dire ajouter, supprimer, déplacer, ajouter une balise, supprimer une balise ou modifier) ces contacts.
 
 ## Dans cette section
 

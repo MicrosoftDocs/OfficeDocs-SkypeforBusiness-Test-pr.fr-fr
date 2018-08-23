@@ -27,20 +27,9 @@ Pour retourner une stratégie utilisateur avec l’identité « RedmondAccessPo
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsque vous référencez une stratégie utilisateur, le <strong>préfixe</strong> de balise est facultatif. Cette syntaxe, qui inclut le préfixe, est également valide :<br />
-Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Lorsque vous référencez une stratégie utilisateur, le <strong>préfixe</strong> de balise est facultatif. Cette syntaxe, qui inclut le préfixe, est également valide :<br />
+Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
 
 Pour retourner toutes les stratégies à l’exception des stratégies globales (soit toutes les stratégies utilisateur), utilisez la commande suivante :
 
@@ -48,38 +37,27 @@ Pour retourner toutes les stratégies à l’exception des stratégies globales 
 
 Les applets de commande suivantes sont appliquées à l’étendue globale et à l’étendue utilisateur (balise) :
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
-  - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
+  - [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)
 
-  - [Get-CsDialPlan](get-csdialplan.md)
+  - [Get-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialPlan)
 
-  - [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)
+  - [Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
-  - [Get-CsPresencePolicy](get-cspresencepolicy.md)
+  - [Get-CsPresencePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPresencePolicy)
 
-  - [Get-CsVoicePolicy](get-csvoicepolicy.md)
+  - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Malgré leur nom, les plans de numérotation sont des stratégies d’un point de vue fonctionnel. Le terme <em>plan de numérotation</em> est utilisé à la place de règle de numérotation par exemple, afin de conserver la terminologie utilisée dans les versions précédentes de Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Malgré leur nom, les plans de numérotation sont des stratégies d’un point de vue fonctionnel. Le terme <em>plan de numérotation</em> est utilisé à la place de règle de numérotation par exemple, afin de conserver la terminologie utilisée dans les versions précédentes de Lync Server.
 
 ## Voir aussi
 
 #### Concepts
 
 [Identités, étendues et clients](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](the-skype-for-business-online-cmdlets.md)
+[Applets de commande de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition des topologies facultatives de directeur dans votre topologie'
+title: "Lync Server 2013 : Déf. des topo. facult. de directeur dans votre topologie"
 TOCTitle: Définition des topologies facultatives de directeur dans votre topologie
 ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398717(v=OCS.15)
@@ -47,49 +47,16 @@ Cette rubrique décrit les étapes nécessaires pour définir et publier la topo
     
     2.  Pour créer un partage de fichiers, cliquez sur **Définir un nouveau partage de fichiers** , tapez le nom de domaine complet de l’emplacement du partage de fichiers dans **Nom de domaine complet du serveur de fichiers** , tapez le nom du partage dans **Partage de fichiers** , puis cliquez sur **Suivant** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le partage de fichiers que vous spécifiez ou créez à cette étape doit exister ou être créé avant de publier la topologie.<br />
-    Le partage de fichiers attribué à un directeur n’est pas utilisé, si bien que vous pouvez attribuer le partage de fichiers de n’importe quel pool dans l’entreprise.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le partage de fichiers que vous spécifiez ou créez à cette étape doit exister ou être créé avant de publier la topologie.<br />
+    Le partage de fichiers attribué à un directeur n’est pas utilisé, si bien que vous pouvez attribuer le partage de fichiers de n’importe quel pool dans l’entreprise.
 
 7.  Dans la boîte de dialogue **Spécifier l’URL des services web** , dans **URL de base externe** , spécifiez le nom de domaine complet des directeurs, puis cliquez sur **Terminer** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom doit pouvoir être résolu à partir des serveurs DNS Internet et doit pointer vers l’adresse IP publique du proxy inverse. Celui-ci écoute les demandes HTTP/HTTPS envoyées à cette URL et les transmet via le serveur proxy au répertoire virtuel des services web externes sur ce directeur.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous installez plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet (FQDN) des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser ce nom <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal. Si vous déployez aussi des directeurs, le nom de domaine complet des services web externes défini pour un directeur ou un pool de directeurs doit être différent de tout autre directeur ou pool de directeurs et de tout pool de serveurs frontaux ou serveur frontal existant. Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le nom doit pouvoir être résolu à partir des serveurs DNS Internet et doit pointer vers l’adresse IP publique du proxy inverse. Celui-ci écoute les demandes HTTP/HTTPS envoyées à cette URL et les transmet via le serveur proxy au répertoire virtuel des services web externes sur ce directeur.    
+    > [!WARNING]  
+    > Si vous installez plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet (FQDN) des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser ce nom <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal. Si vous déployez aussi des directeurs, le nom de domaine complet des services web externes défini pour un directeur ou un pool de directeurs doit être différent de tout autre directeur ou pool de directeurs et de tout pool de serveurs frontaux ou serveur frontal existant. Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.
 
 8.  Publiez la topologie.
 
@@ -121,49 +88,16 @@ Cette rubrique décrit les étapes nécessaires pour définir et publier la topo
     
       - Pour créer un partage de fichiers, cliquez sur **Définir un nouveau partage de fichiers** , tapez le nom de domaine complet de l’emplacement du partage de fichiers dans **Nom de domaine complet du serveur de fichiers** , tapez le nom du partage dans **Partage de fichiers** , puis cliquez sur **Suivant** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le partage de fichiers que vous spécifiez ou créez à cette étape doit exister ou être créé avant de publier la topologie.<br />
-    Le partage de fichiers attribué à un directeur n’est pas utilisé, si bien que vous pouvez attribuer le partage de fichiers de n’importe quel pool dans l’entreprise.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le partage de fichiers que vous spécifiez ou créez à cette étape doit exister ou être créé avant de publier la topologie.<br />
+    Le partage de fichiers attribué à un directeur n’est pas utilisé, si bien que vous pouvez attribuer le partage de fichiers de n’importe quel pool dans l’entreprise.
 
 8.  Dans la boîte de dialogue **Spécifier l’URL des services web** , dans **URL de base externe** , spécifiez le nom de domaine complet des directeurs, puis cliquez sur **Terminer** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom doit pouvoir être résolu à partir des serveurs DNS Internet et doit pointer vers l’adresse IP publique du proxy inverse. Celui-ci écoute les demandes HTTP/HTTPS envoyées à cette URL et les redirige via proxy au répertoire virtuel des services web externes sur ce pool directeur.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous installez plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet (FQDN) des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser ce nom <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal. Si vous déployez aussi des directeurs, le nom de domaine complet des services web externes défini pour un directeur ou un pool de directeurs doit être différent de tout autre directeur ou pool de directeurs et de tout pool de serveurs frontaux ou serveur frontal existant. Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le nom doit pouvoir être résolu à partir des serveurs DNS Internet et doit pointer vers l’adresse IP publique du proxy inverse. Celui-ci écoute les demandes HTTP/HTTPS envoyées à cette URL et les redirige via proxy au répertoire virtuel des services web externes sur ce pool directeur.    
+    > [!WARNING]  
+    > Si vous installez plus d’un pool de serveurs frontaux ou serveur frontal, le nom de domaine complet (FQDN) des services web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services web externes d’un serveur frontal en tant que <strong>pool01.contoso.com</strong>, vous ne pouvez pas utiliser ce nom <strong>pool01.contoso.com</strong> pour un autre pool de serveurs frontaux ou serveur frontal. Si vous déployez aussi des directeurs, le nom de domaine complet des services web externes défini pour un directeur ou un pool de directeurs doit être différent de tout autre directeur ou pool de directeurs et de tout pool de serveurs frontaux ou serveur frontal existant. Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.
 
 9.  Publiez la topologie.
 

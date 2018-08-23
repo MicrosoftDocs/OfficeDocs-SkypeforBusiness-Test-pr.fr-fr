@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Composants et topologies utilisés pour le serveur de conversation permanente'
+title: "Lync Server 2013 : Composants et topo. utilisés pour le serv. de conv. Perm."
 TOCTitle: Composants et topologies utilisés pour le serveur de conversation permanente
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398500(v=OCS.15)
@@ -27,36 +27,14 @@ L’installation de la dernière version du serveur de conversations permanentes
     
       - Service de conformité, activé si la conformité est activée
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dans Lync Server 2013, les services web de conversation permanente pour le téléchargement de fichier sont à présent colocalisés avec le serveur frontalLync Server 2013.<br />
-    Les services web de conversation permanente pour la gestion des salles de conversation sont à présent colocalisés avec le serveur frontalLync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Dans Lync Server 2013, les services web de conversation permanente pour le téléchargement de fichier sont à présent colocalisés avec le serveur frontalLync Server 2013.<br />
+    Les services web de conversation permanente pour la gestion des salles de conversation sont à présent colocalisés avec le serveur frontalLync Server 2013.
 
   - Un ou plusieurs serveurs (plusieurs serveurs en cas d’utilisation de la mise en miroir) qui hébergent la base de données principale SQL Server pour l’hébergement de la base de données de contenu de conversation permanente où sont stockés le contenu de la salle de conversation, les salles et les catégories.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La base de données principale stocke les données de l’historique de conversation, dont des informations sur les catégories et les salles de conversation permanente créées.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > La base de données principale stocke les données de l’historique de conversation, dont des informations sur les catégories et les salles de conversation permanente créées.
 
   - Si la conformité a été activée, un ou plusieurs serveurs (plusieurs serveurs en cas d’utilisation de la mise en miroir) qui hébergent la base de données principale SQL Server pour l’hébergement de la base de données de conformité de conversation permanente où sont stockés les événements de conformité et le contenu des conversations à des fins de conformité.
 
@@ -74,19 +52,8 @@ Le serveur de conversations permanentes peut être déployé sur le serveur Stan
 
 Pour Lync Server 2013Enterprise Edition, il est impossible de colocaliser des serveurs de conversations permanentes sur le serveur Enterprise Edition. La base de données SQL Server pour le serveur de conversations permanentes peut être colocalisée avec la base de données du serveur principal d’un pool de serveurs frontauxEnterprise Edition. La base de données SQL Server pour la conformité de la conversation permanente peut aussi être colocalisée avec la base de données du serveur principal d’un pool Enterprise Edition.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le serveur qui héberge la base de données de conversation permanente peut héberger d’autres bases de données. Cependant, lorsque vous envisagez de colocaliser la base de données de conversation permanente avec d’autres bases de données, sachez que si vous stockez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données de conversation permanente peuvent devenir très importants. Pour cette raison, nous ne recommandons pas de colocaliser la base de données de conversation permanente avec la base de données principale.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Le serveur qui héberge la base de données de conversation permanente peut héberger d’autres bases de données. Cependant, lorsque vous envisagez de colocaliser la base de données de conversation permanente avec d’autres bases de données, sachez que si vous stockez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données de conversation permanente peuvent devenir très importants. Pour cette raison, nous ne recommandons pas de colocaliser la base de données de conversation permanente avec la base de données principale.
 
 Si vous colocalisez la base de données de conversation permanente avec la base de données principale, vous pouvez soit utiliser une instance unique de SQL Server pour une partie ou la totalité des bases de données, soit utiliser une instance distincte de SQL Server pour chaque base de données, avec les limitations suivantes :
 
@@ -108,37 +75,15 @@ Le serveur de conversations permanentes prend en charge les topologies suivantes
 
 Vous pouvez ajouter un serveur de conversations permanentes à votre déploiement Lync Server 2013 à l’aide du Générateur de topologie. Vous pouvez ajouter un pool de serveurs de conversations permanentes à un seul ou plusieurs serveurs à votre topologie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous avez créé un pool de serveurs de conversations permanentes avec un seul serveur à l’aide du Générateur de topologie, vous ne pouvez pas ajouter d’autres serveurs au pool.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Si vous avez créé un pool de serveurs de conversations permanentes avec un seul serveur à l’aide du Générateur de topologie, vous ne pouvez pas ajouter d’autres serveurs au pool.
 
 ## Topologie à serveur unique
 
 La configuration minimale et le déploiement le plus simple pour le serveur de conversations permanentes est une topologie avec un serveur frontal de serveur de conversations permanentes unique. Ce déploiement requiert un serveur unique qui exécute le serveur de conversations permanentes (qui exécute éventuellement le service de conformité si la conformité est activée), un serveur qui héberge la base de données SQL Server et, si la conformité est obligatoire, la base de données SQL Server pour stocker les données de conformité.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous ne pouvez pas ajouter de serveurs supplémentaires à un pool de serveurs de conversations permanentes démarré comme un déploiement à serveur unique dans le Générateur de topologie. Nous vous recommandons d’utiliser la topologie de pool à plusieurs serveurs, même si vous utilisez un seul serveur, de manière à ce que vous puissiez ajouter d’autres serveurs par la suite si nécessaire.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Vous ne pouvez pas ajouter de serveurs supplémentaires à un pool de serveurs de conversations permanentes démarré comme un déploiement à serveur unique dans le Générateur de topologie. Nous vous recommandons d’utiliser la topologie de pool à plusieurs serveurs, même si vous utilisez un seul serveur, de manière à ce que vous puissiez ajouter d’autres serveurs par la suite si nécessaire.
 
 La figure suivante présente tous les composants obligatoires et facultatifs d’une topologie pour un seul serveur frontalserveur de conversations permanentes avec conformité.
 

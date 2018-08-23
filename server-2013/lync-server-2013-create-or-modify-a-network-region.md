@@ -17,29 +17,18 @@ _**Dernière rubrique modifiée :** 2012-10-19_
 
 Les *régions réseau* sont les concentrateurs réseau ou dorsales principales utilisées dans la configuration du contrôle d’admission des appels, du service E9-1-1 et de la déviation du trafic multimédia. Les procédures suivantes vous permettent de créer ou de modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une fonctionnalité vocale, vous n’avez pas besoin de créer de nouvelles régions réseau ; d’autres fonctionnalités Voix Entreprise avancées utiliseront ces mêmes régions. Cependant, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le service E9-1-1 (régions n’exigeant aucun site central associé), puis déployez ensuite le contrôle d’admission des appels, vous devez modifier les définitions des régions réseau afin de spécifier un site central. Pour plus d’informations, reportez-vous à [Configurer les régions de réseau pour le contrôle d’admission des appels (CAC)](lync-server-2013-configure-network-regions-for-cac.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Toutes les exigences ayant trait à des fonctionnalités pour les définitions des régions réseau sont documentées dans les rubriques de déploiement des fonctionnalités concernées.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Toutes les exigences ayant trait à des fonctionnalités pour les définitions des régions réseau sont documentées dans les rubriques de déploiement des fonctionnalités concernées.
 
 Pour plus d’informations sur l’utilisation des régions réseau, reportez-vous à la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsNetworkRegion](new-csnetworkregion.md)
+  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](get-csnetworkregion.md)
+  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](set-csnetworkregion.md)
+  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
 
-  - [Remove-CsNetworkRegion](remove-csnetworkregion.md)
+  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
 
 ## Créer une région réseau
 

@@ -39,19 +39,8 @@ L’outil de planification affiche la topologie du site sélectionné. Le bas de
 
   - Résumé du site - Le résumé du site présente une vue d’ensemble des sélections que vous avez effectuées en répondant aux questions initiales ou en indiquant les valeurs dans **Concevoir des sites** . Les informations de capacité sont également présentées
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les informations sur la page Résumé du site sont propres à chaque conception. Par conséquent, certaines sections et informations détaillées ici peuvent ne pas s’afficher pour certaines conceptions.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Les informations sur la page Résumé du site sont propres à chaque conception. Par conséquent, certaines sections et informations détaillées ici peuvent ne pas s’afficher pour certaines conceptions.
 
 ## Voir aussi
 

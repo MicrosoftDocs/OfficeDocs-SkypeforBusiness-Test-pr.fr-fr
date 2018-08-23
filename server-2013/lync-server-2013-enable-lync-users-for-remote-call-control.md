@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Activation des utilisateurs Lync pour le contrôle d’appel distant'
+title: "Lync Server 2013 : Activ. des util. Lync pour le contrôle d’appel distant"
 TOCTitle: Activation des utilisateurs Lync pour le contrôle d’appel distant
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615048(v=OCS.15)
@@ -21,21 +21,10 @@ Si vous préférez laisser les utilisateurs configurer leurs propres paramètres
 
 Si vous avez un déploiement Communications Server 2007 R2 ou Communications Server 2007 existant, les clients Communicator 2007 R2 et Communicator 2007 continueront d’utiliser une stratégie de groupe pendant la migration côte à côte. Cependant, si vous voulez que les paramètres de stratégie s’exécutent sur les clients Lync, vous devez configurer les paramètres de provisionnement intrabande Lync Server équivalents.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour permettre à un utilisateur d’utiliser le contrôle d’appel distant, vous devez fournir à cet utilisateur un URI de ligne et un URI de serveur de ligne. Tel que décrit dans <a href="lync-server-2013-deployment-tasks-for-remote-call-control.md">Tâches de déploiement du contrôle d’appel distant dans Lync Server 2013</a>, vous devez vérifier que vous utilisez la syntaxe exigée par la passerelle pour ces paramètres.<br />
+> [!NOTE]  
+> Pour permettre à un utilisateur d’utiliser le contrôle d’appel distant, vous devez fournir à cet utilisateur un URI de ligne et un URI de serveur de ligne. Tel que décrit dans <a href="lync-server-2013-deployment-tasks-for-remote-call-control.md">Tâches de déploiement du contrôle d’appel distant dans Lync Server 2013</a>, vous devez vérifier que vous utilisez la syntaxe exigée par la passerelle pour ces paramètres.<br />
 Vérifiez que le domaine dans l’URI de serveur de ligne est identique au domaine de destination que vous avez spécifié dans le paramètre MatchUri lorsque vous avez configuré l’itinéraire statique vers la passerelle.<br />
-L’URI de ligne indique le numéro de téléphone affecté à l’utilisateur au format E.164, avec le préfixe « TEL: » (par exemple, tel:+14255550150). Si vous voulez configurer un numéro de poste, le format est tel:+14255550150;ext=111. Si vous avez précédemment configuré l’URI de ligne de l’utilisateur et si la valeur n’a pas changé, il n’est pas nécessaire de spécifier l’URI de ligne lorsque vous autorisez l’utilisateur à utiliser le contrôle d’appel distant.</td>
-</tr>
-</tbody>
-</table>
-
+L’URI de ligne indique le numéro de téléphone affecté à l’utilisateur au format E.164, avec le préfixe « TEL: » (par exemple, tel:+14255550150). Si vous voulez configurer un numéro de poste, le format est tel:+14255550150;ext=111. Si vous avez précédemment configuré l’URI de ligne de l’utilisateur et si la valeur n’a pas changé, il n’est pas nécessaire de spécifier l’URI de ligne lorsque vous autorisez l’utilisateur à utiliser le contrôle d’appel distant.
 
 ## Pour activer le contrôle d’appel distant pour les utilisateurs Lync à l’aide de Management Shell
 

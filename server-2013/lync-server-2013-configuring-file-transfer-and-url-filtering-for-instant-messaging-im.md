@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration du transfert de fichiers et du filtrage des URL pour la messagerie instantanée dans Lync Server 2013
-TOCTitle: Configuration du transfert de fichiers et du filtrage des URL pour la messagerie instantanée dans Lync Server 2013
+title: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
+TOCtitle: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520952(v=OCS.15)
 ms:contentKeyID: 49296294
@@ -33,19 +33,8 @@ La configuration de l’outil comporte les tâches suivantes :
 
 Avant de déployer l’outil Filtre de message instantané intelligent, vous devez savoir comment les options de filtrage sont appliquées lorsque les messages sont acheminés d’un serveur Lync Server 2013 à un autre. L’application de ces options de filtrage s’effectue toujours de la même manière, que les serveurs soient situés à l’intérieur d’une même organisation ou qu’ils soient disséminés dans plusieurs organisations. Cette cohérence s’applique à la façon dont les messages personnalisés et les avertissements sont insérés dans les messages et transmis aux serveurs.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le filtre de message instantané intelligent augmente les besoins en ressources processeur nécessaires au traitement des URL contenues dans un message. Cette augmentation de la demande des ressources processeur a également un impact sur les performances de Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Le filtre de message instantané intelligent augmente les besoins en ressources processeur nécessaires au traitement des URL contenues dans un message. Cette augmentation de la demande des ressources processeur a également un impact sur les performances de Lync Server.
 
 La page **Filtre d’URL** du groupe **Messagerie instantanée et présence** dans le Panneau de configuration Lync Server vous permet de bloquer tous les liens hypertexte ou seulement certains et de configurer un avertissement. L’avertissement est inséré au début d’un message instantané qui contient un lien hypertexte lorsque vous choisissez l’option **Envoyer un message d’avertissement** pour **Préfixe de lien hypertexte** .
 
@@ -55,19 +44,8 @@ Lorsqu’un message instantané transite d’un serveur à un autre, les règles
 
   - Si un serveur (Serveur1) ajoute un avertissement à un message instantané qui contient un lien hypertexte actif, un autre serveur (Serveur2) qui reçoit ce message instantané peut décider, en fonction du lien hypertexte présent dans le message instantané, de bloquer ce dernier ou d’y ajouter un avertissement. Si Serveur2 est configuré de manière à uniquement ajouter un avertissement pour cette URL, l’avertissement ajouté précédemment par Serveur1 est supprimé, et l’avertissement configuré sur Serveur2 est ajouté au début du message instantané.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous exécutez Lync Server 2013 dans un environnement mixte, Live Communications Server 2005 avec SP1 est la version minimale requise pour utiliser l’application Filtre de message instantané intelligent. Le Filtre de message instantané intelligent n’est pas pris en charge sur Live Communications Server 2005 sans SP1.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous exécutez Lync Server 2013 dans un environnement mixte, Live Communications Server 2005 avec SP1 est la version minimale requise pour utiliser l’application Filtre de message instantané intelligent. Le Filtre de message instantané intelligent n’est pas pris en charge sur Live Communications Server 2005 sans SP1.
 
 ## Filtrage d’URL
 
@@ -85,19 +63,8 @@ Si vous ne configurez pas le filtre de message instantané de sorte qu’il filt
 
   - **Bloquer les URL avec une extension de fichier**   Le filtre de message instantané bloque toute URL intranet ou Internet active qui contient un fichier avec une extension répertoriée sous **Extensions de types de fichiers à bloquer** dans la boîte de dialogue **Modifier le filtre de fichiers**. Lorsqu’une URL est bloquée, l’expéditeur obtient un message d’erreur. Lorsqu’elle est activée, cette option prévaut sur toutes les autres options de filtrage pour les extensions de fichier définies sous **Extensions de types de fichiers à bloquer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le filtrage des extensions de fichier se limite aux noms de fichier standard. Il se peut que le filtrage ne fonctionne pas en cas d’extensions de fichier imbriquées dans d’autres noms.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le filtrage des extensions de fichier se limite aux noms de fichier standard. Il se peut que le filtrage ne fonctionne pas en cas d’extensions de fichier imbriquées dans d’autres noms.
 
 Pour configurer le traitement des liens hypertexte dans les conversations par messagerie instantanée, sélectionnez une des options suivantes sous **Préfixe de lien hypertexte** :
 
@@ -119,19 +86,8 @@ Si vous sélectionnez **Bloquer les liens hypertexte** ou **Envoyer un message d
 
 Le filtrage de transfert de fichiers concerne les messages instantanés et les conférences. Pour les conférences, ces paramètres concernent la fonctionnalité des documents dans le client Office Live Meeting 2007 et les fonctionnalités de lecture multimédia.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server comporte également des options de configuration du transfert de fichiers. Ces options côté serveur sont fournies en plus des contrôles côté client disponibles dans Lync Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Lync Server comporte également des options de configuration du transfert de fichiers. Ces options côté serveur sont fournies en plus des contrôles côté client disponibles dans Lync Server.
 
 Vous pouvez filtrer les transferts de fichiers au cours des conversations par messagerie instantanée lorsque vous utilisez la fonctionnalité des documents dans le client Office Live Meeting 2007 et les fonctionnalités de lecture multimédia pour tous les types de fichiers. Vous pouvez définir les options suivantes pour contrôler les transferts de fichiers :
 
@@ -143,19 +99,8 @@ Vous pouvez filtrer les transferts de fichiers au cours des conversations par me
     
       - **Bloquer tout**   Le serveur arrête de traiter tous les messages instantanés qui contiennent une demande de transfert de fichiers et retourne un message d’erreur à l’expéditeur de la demande. La fonctionnalité des documents est désactivée dans le client Office Live Meeting 2007.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le filtrage des extensions de fichier se limite aux noms de fichier standard. Il se peut que le filtrage ne fonctionne pas en cas d’extensions de fichier imbriquées dans d’autres noms.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Le filtrage des extensions de fichier se limite aux noms de fichier standard. Il se peut que le filtrage ne fonctionne pas en cas d’extensions de fichier imbriquées dans d’autres noms.
 
 ## Dans cette section
 

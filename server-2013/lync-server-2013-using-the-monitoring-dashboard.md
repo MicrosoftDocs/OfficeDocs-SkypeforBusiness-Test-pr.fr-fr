@@ -23,7 +23,7 @@ Le Tableau de bord de suivi fournit aux administrateurs un rapide aperçu de l�
 
   - Les totaux du mois, et les totaux de la tendance des six mois précédents (pour l’utilisation du système uniquement).
 
-Notez que vous pouvez utiliser l'applet de commande [Get-CsReportingConfiguration](get-csreportingconfiguration.md) pour retourner l'URL utilisée pour accéder aux rapports de surveillance de Lync Server 2013 :
+Notez que vous pouvez utiliser l'applet de commande [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) pour retourner l'URL utilisée pour accéder aux rapports de surveillance de Lync Server 2013 :
 
     Get-CsReportingConfiguration
 
@@ -141,35 +141,13 @@ Cinq derniers serveurs par pourcentage d’appels de qualité médiocre
 
 Comme mentionné plus haut, les totaux par défaut sont affichés pour la semaine en cours et les valeurs de tendance pour les six semaines précédentes. Si vous préférez voir les totaux pour le mois en cours (ainsi que les valeurs de la tendance sur les six mois précédents), cliquez sur le lien **Vue mensuelle** dans le coin supérieur droit du tableau de bord. Si vous décidez d’afficher les totaux mensuels, le texte du lien devient **Vue hebdomadaire**. Vous pouvez revenir à la vue mensuelle en cliquant dessus.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le Tableau de bord de suivi ne vous permet que de voir les totaux de la semaine (ou du mois) en cours et les valeurs de tendance des six semaines précédentes (ou mois précédents). Vous ne pouvez pas modifier ces dates et périodes. Par exemple, le tableau de bord ne vous permet pas de voir les totaux des rapports pour la période commençant neuf mois plus tôt.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Le Tableau de bord de suivi ne vous permet que de voir les totaux de la semaine (ou du mois) en cours et les valeurs de tendance des six semaines précédentes (ou mois précédents). Vous ne pouvez pas modifier ces dates et périodes. Par exemple, le tableau de bord ne vous permet pas de voir les totaux des rapports pour la période commençant neuf mois plus tôt.
 
 Les valeurs affichées dans les colonnes **Cette semaine**, **Ce mois-ci** ou **Aujourd’hui** vous mènent à des informations détaillées sur l’élément. Rappelez-vous que le nom de la colonne et les valeurs qui y sont affichées changent en fonction de la mesure choisie et de votre choix de la vue hebdomadaire ou mensuelle. Par exemple, si vous cliquez sur les totaux affichés pour la mesure **Ouvertures de sessions à utilisateur unique**, vous verrez le **Rapport d’enregistrement de l’utilisateur** pour la période spécifiée. Vous pouvez retourner au Tableau de bord de suivi à tout moment en cliquant sur **Tableau de bord**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également accéder à la page d’accueil des rapports serveur de surveillance en cliquant sur le lien <strong>Rapports</strong> dans le coin supérieur droit du tableau de bord.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Vous pouvez également accéder à la page d’accueil des rapports serveur de surveillance en cliquant sur le lien <strong>Rapports</strong> dans le coin supérieur droit du tableau de bord.
 
 La colonne **Tendance** montre un graphique en courbes indiquant les totaux des six semaines précédentes (ou, selon la mesure et l’intervalle de temps, les six derniers jours ou mois). Ces graphiques en courbes affichent un point de données sans nom pour chaque période (par exemple, un point de données sans nom pour chacune des six semaines précédentes). Cependant, vous pouvez récupérer les valeurs réelles pour ces graphiques en maintenant le pointeur de la souris sur le graphique. Une info-bulle vous indique alors les valeurs minimale et maximale du graphique.
 

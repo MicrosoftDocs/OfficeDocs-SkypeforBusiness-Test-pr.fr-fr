@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Ajout d’un serveur de conversation permanente à votre déploiement'
+title: "Lync Server 2013 : Ajout d’un serveur de conv. permanente à votre déploiement"
 TOCTitle: Ajout d’un serveur de conversation permanente à votre déploiement
 ms:assetid: 9ddbbcf9-60bf-4b04-92b9-af7ca66e2362
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205116(v=OCS.15)

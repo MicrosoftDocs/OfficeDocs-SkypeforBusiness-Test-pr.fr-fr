@@ -1,6 +1,6 @@
 ﻿---
-title: Présentation des paramètres de configuration du service de journalisation centralisée
-TOCTitle: Présentation des paramètres de configuration du service de journalisation centralisée
+title: "Présentation des param. de config. du service de journalisation centralisée"
+TOCtitle: "Présentation des param. de config. du service de journalisation centralisée"
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688029(v=OCS.15)
 ms:contentKeyID: 49891312
@@ -25,19 +25,8 @@ Tapez ce qui suit dans une invite de ligne de commande :
 
     Get-CsClsConfiguration
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez limiter ou étendre la portée des paramètres de configuration retournés en définissant <code>-Identity</code> et une portée (par exemple, « Site:Redmond » pour retourner uniquement CsClsConfiguration pour le site Redmond. Si vous avez besoin de détails sur une partie spécifique de la configuration, vous pouvez rediriger le résultat vers une autre applet de commande Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site « Redmond », tapez : <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code></td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Vous pouvez limiter ou étendre la portée des paramètres de configuration retournés en définissant <code>-Identity</code> et une portée (par exemple, « Site:Redmond » pour retourner uniquement CsClsConfiguration pour le site Redmond. Si vous avez besoin de détails sur une partie spécifique de la configuration, vous pouvez rediriger le résultat vers une autre applet de commande Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site « Redmond », tapez : <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code>
 
 ![Exemple de sortie de Get-CsClsConfiguration.](images/JJ688138.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemple de sortie de Get-CsClsConfiguration.")
 
@@ -132,8 +121,8 @@ Le résultat de l’applet de commande affiche la configuration active du servic
 
 #### Autres ressources
 
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)
 

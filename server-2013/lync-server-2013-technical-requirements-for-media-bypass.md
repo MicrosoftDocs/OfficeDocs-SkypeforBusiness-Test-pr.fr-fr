@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration technique requise pour la déviation du trafic multimédia'
+title: "Lync Server 2013 : Conf. tech. requise pour la déviation du trafic multimédia"
 TOCTitle: Configuration technique requise pour la déviation du trafic multimédia
 ms:assetid: 6162a204-0e7c-460a-8eb2-e592c6590a8a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398435(v=OCS.15)

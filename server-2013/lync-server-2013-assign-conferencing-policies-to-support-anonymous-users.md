@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes'
+title: "LS 2013 : Affect. des strat. de conf. pour la prise en ch. les ut. anonymes"
 TOCTitle: Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg521007(v=OCS.15)
@@ -19,19 +19,8 @@ Par défaut, aucun utilisateur ne peut inviter d’utilisateurs anonymes à part
 
 Suivez la procédure décrite dans cette section pour appliquer une stratégie de conférence, que vous avez déjà créée, à un ou plusieurs utilisateurs ou groupes d’utilisateurs.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Outre la configuration et l’application d’une stratégie pour permettre aux utilisateurs d’inviter des utilisateurs anonymes, vous devez aussi activer la prise en charge des utilisateurs anonymes pour votre organisation. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configure-policies-to-control-public-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs publics dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Outre la configuration et l’application d’une stratégie pour permettre aux utilisateurs d’inviter des utilisateurs anonymes, vous devez aussi activer la prise en charge des utilisateurs anonymes pour votre organisation. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configure-policies-to-control-public-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs publics dans Lync Server 2013</a>.
 
 ## Pour configurer une stratégie utilisateur en vue d’une participation anonyme aux réunions
 
@@ -55,19 +44,8 @@ Suivez la procédure décrite dans cette section pour appliquer une stratégie d
 
 8.  Dans **Modifier l’utilisateur Lync Server**, sous **Stratégie de conférence**, sélectionnez la stratégie utilisateur spécifiant la configuration d’accès utilisateur anonyme que vous souhaitez appliquer à cet utilisateur.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les paramètres <strong>&lt;Automatique&gt;</strong> mettent en œuvre les paramètres d’installation du serveur par défaut et sont appliqués automatiquement par le serveur.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Les paramètres <strong>&lt;Automatique&gt;</strong> mettent en œuvre les paramètres d’installation du serveur par défaut et sont appliqués automatiquement par le serveur.
 
 Pour autoriser les utilisateurs à inviter des utilisateurs anonymes à des conférences, vous devez aussi activer la prise en charge des utilisateurs anonymes dans votre organisation. Pour plus d’informations, reportez-vous à [Configuration des stratégies de contrôle d’accès des utilisateurs publics dans Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md) dans la documentation de déploiement ou des opérations.
 

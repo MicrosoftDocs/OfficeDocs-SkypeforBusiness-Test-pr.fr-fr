@@ -1,6 +1,6 @@
 ﻿---
-title: Transition d’un serveur de médiation colocalisé vers un serveur de médiation autonome (facultatif)
-TOCTitle: Transition d’un serveur de médiation colocalisé vers un serveur de médiation autonome (facultatif)
+title: "Transition d’un serv. de méd. colocalisé vers un serv. de méd. aut. (facult.)"
+TOCtitle: "Transition d’un serv. de méd. colocalisé vers un serv. de méd. aut. (facult.)"
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205026(v=OCS.15)
 ms:contentKeyID: 49297849

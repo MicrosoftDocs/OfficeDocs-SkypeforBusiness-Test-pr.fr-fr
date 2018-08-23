@@ -19,33 +19,11 @@ Pour pouvoir publier, activer ou désactiver une topologie lors de l’ajout ou 
 
 Après avoir défini votre topologie dans le Générateur de topologie, vous devez la publier sur le magasin central de gestion. Le magasin central de gestion permet un stockage renforcé et schématisé des données dont vous avez besoin pour définir, configurer, mettre à jour, administrer, décrire et exploiter un déploiement Lync Server 2013. Il permet aussi de valider ces données dans le but d’harmoniser les configurations. Toutes les modifications apportées aux données de configuration ont lieu dans le magasin central de gestion pour aider à éviter les problèmes de synchronisation. Les copies en lecture seule des données sont répliquées sur tous les serveurs au sein de la topologie, dont les serveurs Edge.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SQL Server nécessite 20 Go d’espace disponible au minimum pour publier correctement la topologie initiale et créer le serveur de gestion centralisée.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> SQL Server nécessite 20 Go d’espace disponible au minimum pour publier correctement la topologie initiale et créer le serveur de gestion centralisée.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour Enterprise Edition uniquement : pour pouvoir publier la topologie, le serveur principal SQL Server doit être en ligne et accessible, et les exceptions de pare-feu nécessaires doivent être configurées. Pour plus d’informations sur la définition des exceptions de pare-feu, reportez-vous à <a href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Description des exigences de pare-feu pour SQL Server avec Lync Server 2013</a>. Pour plus d’informations sur la configuration de SQL Server, reportez-vous à <a href="lync-server-2013-configure-sql-server-for-lync-server.md">Configuration de SQL Server pour Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour Enterprise Edition uniquement : pour pouvoir publier la topologie, le serveur principal SQL Server doit être en ligne et accessible, et les exceptions de pare-feu nécessaires doivent être configurées. Pour plus d’informations sur la définition des exceptions de pare-feu, reportez-vous à <a href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Description des exigences de pare-feu pour SQL Server avec Lync Server 2013</a>. Pour plus d’informations sur la configuration de SQL Server, reportez-vous à <a href="lync-server-2013-configure-sql-server-for-lync-server.md">Configuration de SQL Server pour Lync Server 2013</a>.
 
 ## Pour publier une topologie
 
@@ -59,19 +37,8 @@ Après avoir défini votre topologie dans le Générateur de topologie, vous dev
 
 5.  Dans la page **Créer des bases de données** , sélectionnez les bases de données à publier.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous ne disposez pas des droits appropriés pour créer certaines bases de données, vous pouvez désactiver les cases à cocher en regard de celles-ci et demander à une personne dotée des droits appropriées de les créer plus tard. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Autorisations de déploiement de SQL Server dans Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous ne disposez pas des droits appropriés pour créer certaines bases de données, vous pouvez désactiver les cases à cocher en regard de celles-ci et demander à une personne dotée des droits appropriées de les créer plus tard. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Autorisations de déploiement de SQL Server dans Lync Server 2013</a>.
 
 6.  Vous pouvez cliquer sur **Avancé** . Choisissez une option de sélection de l’emplacement des fichiers de données Advanced SQL Server parmi les suivantes :
     

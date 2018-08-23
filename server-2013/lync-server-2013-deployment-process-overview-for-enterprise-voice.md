@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Vue d’ensemble du processus de déploiement de Voix Entreprise'
+title: "Lync Server 2013 : Vue d’ens. du processus de déploiement de Voix Entreprise"
 TOCTitle: Vue d’ensemble du processus de déploiement de Voix Entreprise
 ms:assetid: cf92adbe-aa90-4b05-8e1a-f3794ca68132
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398878(v=OCS.15)

@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration Lync Phone Edition
-TOCTitle: Suppression d’une collection existante de paramètres de configuration Lync Phone Edition
+title: "Suppr. d’une collection existante de par. de configuration Lync Phone Edition"
+TOCtitle: "Suppr. d’une collection existante de par. de configuration Lync Phone Edition"
 ms:assetid: 1bfc427d-4dcd-4199-b25f-8d5cfec2164f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687984(v=OCS.15)
 ms:contentKeyID: 49891252
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Si vous ne souhaitez plus utiliser une collection de paramètres pour les périphériques qui exécutent Lync Phone Edition, supprimez-la. Si vous supprimez la collection de paramètres d’un site, les paramètres globaux s’appliqueront aux téléphones de ce site. Vous ne pouvez pas supprimer la collection globale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Au lieu de supprimer une collection, vous pouvez simplement modifier certains des paramètres. Pour en savoir plus à ce sujet, voir <a href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Création ou modification d’une collection de paramètres de configuration de Lync Phone Edition</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Au lieu de supprimer une collection, vous pouvez simplement modifier certains des paramètres. Pour en savoir plus à ce sujet, voir <a href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Création ou modification d’une collection de paramètres de configuration de Lync Phone Edition</a>.
 
 ## Pour supprimer une collection de paramètres de configuration Lync Phone Edition
 
@@ -41,19 +30,8 @@ Si vous ne souhaitez plus utiliser une collection de paramètres pour les périp
 
 4.  Dans la page **Configuration du périphérique**, cliquez sur la collection à supprimer, sur le menu **Edition**, puis sur **Supprimer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous supprimez la collection globale, les paramètres par défaut sont simplement rétablis. La collection ne disparaît pas.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous supprimez la collection globale, les paramètres par défaut sont simplement rétablis. La collection ne disparaît pas.
 
 5.  Dans la boîte de dialogue de confirmation, cliquez sur **OK**.
 
@@ -79,5 +57,5 @@ Vous pouvez supprimer les paramètres de configuration de Lync Phone Edition en
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
-Pour plus d’informations, voir [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md).
+Pour plus d’informations, voir [Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration).
 

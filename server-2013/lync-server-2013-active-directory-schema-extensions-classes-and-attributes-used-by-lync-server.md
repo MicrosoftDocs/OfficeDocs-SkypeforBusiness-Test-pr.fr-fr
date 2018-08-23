@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Attributs, classes et extensions deq schémas Active Directory utilisés par Lync Server'
+title: "Lync Server 2013 : Attr., classes et ext. schémas Active Directory ut. par LS"
 TOCTitle: Attributs, classes et extensions des schémas Active Directory utilisés par Lync Server 2013
 ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398379(v=OCS.15)
@@ -49,7 +49,7 @@ Cette section de référence inclut les informations suivantes :
 
   - [Modifications effectuées par la préparation de domaine dans Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013](lync-server-2013-changes-made-by-grant-cssetuppermission.md)
+  - [Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Modifications apportées par Grant-CsOUPermission dans Lync Server 2013](lync-server-2013-changes-made-by-grant-csoupermission.md)
+  - [Modifications apportées par Grant-CsOUPermission dans Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)
 

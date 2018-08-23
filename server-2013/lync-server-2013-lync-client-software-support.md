@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2013 et le complément de réunion en ligne pour Lync 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le complément de réunion en ligne pour Lync 2013, qui permet de gérer les réunions à partir du client de messagerie et de collaboration Outlook s’installe automatiquement avec Lync 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Le complément de réunion en ligne pour Lync 2013, qui permet de gérer les réunions à partir du client de messagerie et de collaboration Outlook s’installe automatiquement avec Lync 2013.
 
 ### Configuration logicielle requise pour Lync 2013 et le complément de réunion en ligne pour Lync 2013
 
@@ -51,20 +40,10 @@ Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2
 <p>Windows 8</p>
 <p>système d’exploitation Windows 7</p>
 <p>Windows Server 2008 R2 avec le Service Pack le plus récent</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 et complément de réunion en ligne pour Lync 2013 ne sont pas pris en charge sur Windows Vista ni sur Windows XP (toutes versions).</td>
-</tr>
-</tbody>
-</table>
+<div>
 
+> [!NOTE]  
+> Lync 2013 et complément de réunion en ligne pour Lync 2013 ne sont pas pris en charge sur Windows Vista ni sur Windows XP (toutes versions).
 </div></td>
 </tr>
 <tr class="even">
@@ -78,37 +57,19 @@ Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2
 <p>Navigateur Internet Internet Explorer 8</p>
 <p>Navigateur Internet Internet Explorer 7</p>
 <p>Navigateur web Mozilla Firefox</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous utilisez Lync avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 9 ou Internet Explorer 8 est requis.</td>
-</tr>
-</tbody>
-</table>
+<div>
 
+> [!NOTE]  
+> Si vous utilisez Lync avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 9 ou Internet Explorer 8 est requis.
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Intégration à Microsoft Office</p></td>
-<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p>
-<ul>
-<li><p>Client de messagerie et de collaboration Outlook 2013</p></li>
-<li><p>Client de messagerie et de collaboration Outlook 2010</p></li>
-</ul></td>
+<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p><ul><li><p>Client de messagerie et de collaboration Outlook 2013</p></li><li><p>Client de messagerie et de collaboration Outlook 2010</p></li></ul></td>
 </tr>
 <tr class="odd">
 <td><p>Intégration à Microsoft Exchange</p></td>
-<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p>
-<ul>
-<li><p>Microsoft Exchange Server 2013</p></li>
-<li><p>Microsoft Exchange Server 2010</p></li>
-</ul></td>
+<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p><ul><li><p>Microsoft Exchange Server 2013</p></li><li><p>Microsoft Exchange Server 2010</p></li></ul></td>
 </tr>
 </tbody>
 </table>

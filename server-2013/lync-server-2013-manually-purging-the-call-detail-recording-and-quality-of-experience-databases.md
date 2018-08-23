@@ -1,6 +1,6 @@
 ﻿---
-title: Purge manuelle des bases de données de l’enregistrement des détails des appels et de la qualité de l’expérience
-TOCTitle: Purge manuelle des bases de données de l’enregistrement des détails des appels et de la qualité de l’expérience
+title: "Purge man. des BD de l’enr. des détails des appels et de la qual. de l’exp."
+TOCtitle: "Purge man. des BD de l’enr. des détails des appels et de la qual. de l’exp."
 ms:assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204812(v=OCS.15)
 ms:contentKeyID: 49296926

@@ -19,19 +19,8 @@ Dans Lync Server 2013, vous pouvez utiliser l’Assistant Déploiement de Lync�
 
 L’Assistant Déploiement de Lync Server vous guide tout au long des tâches de préparation d’Active Directory. L’Assistant Déploiement exécute les applets de commande Lync Server Management Shell. Cet outil est utile pour les environnements avec une topologie à un seul domaine et à une seule forêt ou avec une autre topologie semblable.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez déployer Lync Server dans une forêt ou un domaine où les contrôleurs de domaine exécutent des versions 32 bits de certains systèmes d’exploitation (pour plus d’informations, reportez-vous à <a href="lync-server-2013-active-directory-infrastructure-requirements.md">Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013</a>). Cependant, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour exécuter la préparation du schéma, de la forêt et du domaine dans ces environnements, car l’Assistant Déploiement et les fichiers de prise en charge sont en 64 bits uniquement. À la place, vous pouvez utiliser ldifde.exe et les fichiers .ldf associés sur un contrôleur de domaine 32 bits pour préparer le schéma, la forêt et le domaine. Reportez-vous à la section « Utilisation des applets de commande et de Ldifde.exe » dans cette rubrique.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Vous pouvez déployer Lync Server dans une forêt ou un domaine où les contrôleurs de domaine exécutent des versions 32 bits de certains systèmes d’exploitation (pour plus d’informations, reportez-vous à <a href="lync-server-2013-active-directory-infrastructure-requirements.md">Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013</a>). Cependant, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour exécuter la préparation du schéma, de la forêt et du domaine dans ces environnements, car l’Assistant Déploiement et les fichiers de prise en charge sont en 64 bits uniquement. À la place, vous pouvez utiliser ldifde.exe et les fichiers .ldf associés sur un contrôleur de domaine 32 bits pour préparer le schéma, la forêt et le domaine. Reportez-vous à la section « Utilisation des applets de commande et de Ldifde.exe » dans cette rubrique.
 
 Vous pouvez utiliser les applets de commande Lync Server Management Shell pour exécuter des tâches à distance ou pour des environnements plus complexes.
 
@@ -43,67 +32,23 @@ Les composants suivants sont requis pour exécuter les tâches de préparation d
 
   - Composants principaux de Lync Server (OCScore.msi)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous prévoyez d’utiliser Lync Server Management Shell pour la préparation d’Active Directory, vous devez exécuter l’Assistant Déploiement de Lync Server pour installer d’abord les composants principaux.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous prévoyez d’utiliser Lync Server Management Shell pour la préparation d’Active Directory, vous devez exécuter l’Assistant Déploiement de Lync Server pour installer d’abord les composants principaux.
 
   - Microsoft .NET Framework 4.5
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour Windows Server 2012 et Windows Server 2012 R2, vous installez et activez .NET Framework 4.5 avec le Gestionnaire de serveur. Pour plus d’informations, reportez-vous à « Microsoft .NET Framework 4.5 » dans <a href="lync-server-2013-additional-software-requirements.md">Autre configuration logicielle requise pour Lync Server 2013</a>. Pour Windows Server 2008 R2, téléchargez et installez <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</a> à partir du site web Microsoft.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour Windows Server 2012 et Windows Server 2012 R2, vous installez et activez .NET Framework 4.5 avec le Gestionnaire de serveur. Pour plus d’informations, reportez-vous à « Microsoft .NET Framework 4.5 » dans <a href="lync-server-2013-additional-software-requirements.md">Autre configuration logicielle requise pour Lync Server 2013</a>. Pour Windows Server 2008 R2, téléchargez et installez <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</a> à partir du site web Microsoft.
 
   - Outils d’administration de serveur distant (RSAT)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Certains outils RSAT sont nécessaires si vous exécutez les étapes de préparation d’Active Directory sur un serveur membre plutôt que sur un contrôleur de domaine. Installez les composants logiciel enfichables AD DS et les outils de ligne de commande, ainsi que le module Active Directory pour Windows PowerShell à partir des services AD DS et du nœud Outils AD LDS du Gestionnaire de serveur.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Certains outils RSAT sont nécessaires si vous exécutez les étapes de préparation d’Active Directory sur un serveur membre plutôt que sur un contrôleur de domaine. Installez les composants logiciel enfichables AD DS et les outils de ligne de commande, ainsi que le module Active Directory pour Windows PowerShell à partir des services AD DS et du nœud Outils AD LDS du Gestionnaire de serveur.
 
   - Microsoft Visual C++ 2011 Redistributable
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le programme d’installation vous invite à l’installer s’il n’est pas déjà sur l’ordinateur. Le package vous est fourni, il est inutile de l’acquérir séparément.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Le programme d’installation vous invite à l’installer s’il n’est pas déjà sur l’ordinateur. Le package vous est fourni, il est inutile de l’acquérir séparément.
 
   - Windows PowerShell 3.0 (64 bits)
     
@@ -219,19 +164,8 @@ Si vous utilisez Ldife.exe pour importer les fichiers de schéma, vous devez imp
 
 4.  VersionSchema.ldf
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les quatre fichiers .ldf se trouvent dans le répertoire \Support\Schema de votre support d’installation ou de téléchargement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les quatre fichiers .ldf se trouvent dans le répertoire \Support\Schema de votre support d’installation ou de téléchargement.
 
 Pour utiliser Ldifde.exe pour importer les quatre fichiers de schéma sur un contrôleur de domaine qui est également le contrôleur de schéma, utilisez le format suivant :
 
@@ -241,19 +175,8 @@ Exemple :
 
     ldifde -i -v -k -s DC1 -f ServerSchema.ldf -c DC=X "DC=contoso,DC=com" -j C:\BatchImportLogFile -b Administrator contoso password
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Utilisez le paramètre b seulement si vous êtes connecté en tant qu’un autre utilisateur. Pour plus d’informations sur les droits d’utilisateur requis, reportez-vous à la section « Droits et rôles d’administrateur » abordée précédemment dans cette rubrique.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Utilisez le paramètre b seulement si vous êtes connecté en tant qu’un autre utilisateur. Pour plus d’informations sur les droits d’utilisateur requis, reportez-vous à la section « Droits et rôles d’administrateur » abordée précédemment dans cette rubrique.
 
 Pour utiliser Ldifde.exe pour importer les quatre fichiers de schéma sur un contrôleur de domaine qui n’est pas le contrôleur de schéma, utilisez le format suivant :
 

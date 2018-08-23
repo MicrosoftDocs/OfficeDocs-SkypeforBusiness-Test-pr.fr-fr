@@ -25,33 +25,11 @@ Dans le cadre d’un déploiement Voix Entreprise, configurez une jonction entre
 
 Pour plus d’informations, reportez-vous à [Planification de la connectivité RTC dans Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) dans la documentation de planification.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Avant de commencer la configuration des jonctions, vérifiez que la topologie a été créée et que le serveur de médiation et son homologue ont été configurés et associés l’un à l’autre. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Définition d’une passerelle dans le générateur de topologie dans Lync Server 2013</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Avant de commencer la configuration des jonctions, vérifiez que la topologie a été créée et que le serveur de médiation et son homologue ont été configurés et associés l’un à l’autre. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Définition d’une passerelle dans le générateur de topologie dans Lync Server 2013</a> dans la documentation de déploiement.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans le cadre de la configuration des jonctions, vous pouvez activer la fonctionnalité de déviation du trafic multimédia de Lync Server 2013, qui permet la déviation du trafic multimédia au niveau du serveur de médiation. Vous pouvez configurer les jonctions sans activer la déviation du trafic multimédia mais nous vous conseillons vivement de l’activer. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-planning-for-media-bypass.md">Planification de la déviation du trafic multimédia dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Dans le cadre de la configuration des jonctions, vous pouvez activer la fonctionnalité de déviation du trafic multimédia de Lync Server 2013, qui permet la déviation du trafic multimédia au niveau du serveur de médiation. Vous pouvez configurer les jonctions sans activer la déviation du trafic multimédia mais nous vous conseillons vivement de l’activer. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-planning-for-media-bypass.md">Planification de la déviation du trafic multimédia dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Dans cette section
 

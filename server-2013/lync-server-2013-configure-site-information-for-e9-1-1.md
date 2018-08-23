@@ -23,19 +23,8 @@ Pour définir une stratégie d’emplacement à appliquer aux sous-réseaux, pro
 
 Pour plus d’informations sur les sites réseau, voir [Sites Lync Server pour Lync Server 2013](lync-server-2013-sites.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous créez des sites réseau pour une autre fonctionnalité de communication vocale et que voulez configurer E9-1-1 à l’aide des mêmes sites, vous pouvez modifier les sites à utiliser pour E9-1-1.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous créez des sites réseau pour une autre fonctionnalité de communication vocale et que voulez configurer E9-1-1 à l’aide des mêmes sites, vous pouvez modifier les sites à utiliser pour E9-1-1.
 
 ## Dans cette section
 

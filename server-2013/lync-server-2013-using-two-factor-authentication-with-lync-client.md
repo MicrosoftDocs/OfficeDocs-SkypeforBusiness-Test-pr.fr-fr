@@ -60,29 +60,16 @@ Lorsque vous avez terminé d’utiliser Lync, vous pouvez fermer la fenêtre, vo
 <td><p>Fermer</p></td>
 <td><p>Ferme la fenêtre Lync sans fermer votre session Lync identifiée avec votre ID d’utilisateur. Ceci vous permet de continuer à recevoir des notifications et à interagir avec les autres utilisateurs.</p>
 <p>Vous pouvez afficher la fenêtre à nouveau à tout moment en cliquant sur l’icône Lync dans la barre des tâches ou la zone de notification au bas de l’écran.</p></td>
-<td><p>Dans la fenêtre principale de Lync, effectuez l’une des opérations suivantes :</p>
-<ol>
-<li><p>Sélectionnez le bouton <strong>Options</strong>, puis <strong>Fichier</strong> &gt; <strong>Fermer</strong>.</p></li>
-<li><p>Cliquez sur le bouton <strong>Fermer</strong> (X) dans le coin supérieur droit de la fenêtre.</p></li>
-</ol></td>
+<td><p>Dans la fenêtre principale de Lync, effectuez l’une des opérations suivantes :</p><ol><li><p>Sélectionnez le bouton <strong>Options</strong>, puis <strong>Fichier</strong> &gt; <strong>Fermer</strong>.</p></li>
+> <li><p>Cliquez sur le bouton <strong>Fermer</strong> (X) dans le coin supérieur droit de la fenêtre.</p></li></ol></td>
 </tr>
 <tr class="even">
 <td><p>Se déconnecter</p></td>
 <td><p>Met fin à la session Lync associée à votre ID d’utilisateur. Lync continue toutefois d’être exécuté en arrière-plan. Lorsque vous vous déconnectez, la fenêtre de connexion apparaît.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sélectionnez <strong>Supprimer mes informations de connexion</strong> lorsque vous vous déconnectez pour supprimer l’enregistrement de vos ID de connexion et mot de passe de l’ordinateur. Cela peut simplifier la résolution des problèmes de connexion pour les agents de support technique. Vos informations de connexion bénéficient d’une sécurité accrue en rendant plus difficile la connexion d’utilisateurs non autorisés à l’aide de vos informations d’identification.</td>
-</tr>
-</tbody>
-</table>
+<div>
 
+> [!TIP]  
+> Sélectionnez <strong>Supprimer mes informations de connexion</strong> lorsque vous vous déconnectez pour supprimer l’enregistrement de vos ID de connexion et mot de passe de l’ordinateur. Cela peut simplifier la résolution des problèmes de connexion pour les agents de support technique. Vos informations de connexion bénéficient d’une sécurité accrue en rendant plus difficile la connexion d’utilisateurs non autorisés à l’aide de vos informations d’identification.
 </div></td>
 <td><p>Dans la fenêtre principale de Lync, sélectionnez le bouton <strong>Options</strong>, puis <strong>Fichier</strong> &gt; <strong>Se déconnecter</strong>.</p></td>
 </tr>
@@ -107,19 +94,8 @@ Certaines organisations utilisent désormais un processus de connexion en plusie
 
 Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite » (vos informations d’identification doivent être identifiées auprès de la carte), que la carte soit virtuelle ou physique. Il est possible que votre administrateur Lync Server ait déjà effectué cette opération. Contactez-le si vous n’êtes pas certain que ce soit le cas.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Chaque carte à puce virtuelle étant seulement associée à l’appareil sur lequel elle est installée, une nouvelle carte doit être inscrite pour chaque ordinateur Windows 8 que vous utilisez.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Chaque carte à puce virtuelle étant seulement associée à l’appareil sur lequel elle est installée, une nouvelle carte doit être inscrite pour chaque ordinateur Windows 8 que vous utilisez.
 
 **Pour inscrire votre carte à puce manuellement**
 
@@ -129,19 +105,8 @@ Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite
     
     Demandez à votre administrateur Lync Server l’adresse web de cette ressource si vous ne l’avez pas déjà. L’URL est semblable à celle-ci : https://MyCA.\[nom de votre entreprise\].com/certsrv.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous utilisez Internet Explorer 10, vous devrez peut être afficher ce site web en mode de compatibilité.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous utilisez Internet Explorer 10, vous devrez peut être afficher ce site web en mode de compatibilité.
 
 3.  Lorsque vous y êtes invité sur la page de certification, connectez-vous à l’aide de votre compte de domaine (plutôt qu’avec un compte d’administrateur de votre ordinateur).
 
@@ -169,19 +134,8 @@ Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite
 
 9.  Lorsque vous y êtes invité, entrez votre code confidentiel, puis cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre agent de support technique ne vous a pas communiqué de code confidentiel spécial pour inscrire votre carte à puce, utilisez la valeur de code confidentiel par défaut de la carte à puce (12345678).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si votre agent de support technique ne vous a pas communiqué de code confidentiel spécial pour inscrire votre carte à puce, utilisez la valeur de code confidentiel par défaut de la carte à puce (12345678).
 
 10. Sélectionnez l’option forçant l’utilisateur (vous) à modifier le code confidentiel à la première utilisation de la carte.
 
@@ -189,19 +143,8 @@ Avant de vous connecter avec une carte à puce, celle-ci doit être « inscrite
 
 12. Lorsque vous y êtes invité, entrez votre code confidentiel, puis cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre agent de support technique ne vous a pas communiqué de code confidentiel spécial pour inscrire votre carte à puce, utilisez la valeur de code confidentiel par défaut de la carte à puce (12345678).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si votre agent de support technique ne vous a pas communiqué de code confidentiel spécial pour inscrire votre carte à puce, utilisez la valeur de code confidentiel par défaut de la carte à puce (12345678).
 
 13. Sélectionnez l’option forçant l’utilisateur (vous) à modifier le code confidentiel à la première utilisation de la carte.
 
@@ -225,16 +168,5 @@ Avant d’utiliser votre carte à puce la première fois, il est recommandé de 
 
 4.  Tapez le code confidentiel de votre carte à puce, puis cliquez sur **OK**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si votre agent de support technique ne vous a pas communiqué de code confidentiel, utilisez la valeur par défaut (12345678).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si votre agent de support technique ne vous a pas communiqué de code confidentiel, utilisez la valeur par défaut (12345678).

@@ -47,16 +47,5 @@ Vous pouvez utiliser l’applet de commande **Get-CsKerberosAccountAssignment** 
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous spécifiez *SiteName pour le paramètre Filter, le système renvoie les informations sur tous les sites qui contiennent le nom de site spécifié partout dans l’identificateur de site (par exemple, tous les sites qui contiennent la chaîne Redmond dans l’identificateur de site).</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > Si vous spécifiez *SiteName pour le paramètre Filter, le système renvoie les informations sur tous les sites qui contiennent le nom de site spécifié partout dans l’identificateur de site (par exemple, tous les sites qui contiennent la chaîne Redmond dans l’identificateur de site).

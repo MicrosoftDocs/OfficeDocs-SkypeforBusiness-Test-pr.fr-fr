@@ -19,20 +19,9 @@ Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à 
 
 Windows Live Messenger peut participer à des communications audio/vidéo avec les clients Lync. Ceci explique que, généralement, configurations du port et du protocole du pare-feu sont similaires pour la prise en charge des clients Lync en tant qu’utilisateurs externes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.<br />
-La fédération avec les contacts du client Messenger prendra officiellement fin le 15 mars 2013, sauf pour la Chine. Skype deviendra le client de fédération pour les utilisateurs fédérés qui utilisaient Messenger.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.<br />
+La fédération avec les contacts du client Messenger prendra officiellement fin le 15 mars 2013, sauf pour la Chine. Skype deviendra le client de fédération pour les utilisateurs fédérés qui utilisaient Messenger.
 
 ## Résumé du pare-feu – Messagerie instantanée publique
 

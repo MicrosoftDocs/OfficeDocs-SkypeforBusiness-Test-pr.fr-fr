@@ -1,5 +1,5 @@
 ﻿---
-title: Liste de vérification du déploiement pour la conférence rendez-vous dans Lync Server 2013
+title: "Liste de vér. du dépl. pour la conférence rendez-vous dans Lync Server 2013"
 TOCTitle: Liste de vérification du déploiement pour la conférence rendez-vous
 ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412726(v=OCS.15)
@@ -19,19 +19,8 @@ Les composants requis pour la conférence rendez-vous sont déployés en même t
 
 Toutes les étapes présentées dans le tableau ci-dessous doivent être réalisées pour que les utilisateurs puissent accéder à une conférence audio/vidéo via le réseau téléphonique commuté.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous effectuez une migration à partir d’Office Communications Server 2007 R2, vous devez appliquer les mises à jour les plus récentes à votre environnement Office Communications Server 2007 R2 avant de déployer la conférence rendez-vous.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous effectuez une migration à partir d’Office Communications Server 2007 R2, vous devez appliquer les mises à jour les plus récentes à votre environnement Office Communications Server 2007 R2 avant de déployer la conférence rendez-vous.
 
 ### Processus de déploiement de la conférence rendez-vous
 
@@ -53,42 +42,21 @@ Toutes les étapes présentées dans le tableau ci-dessous doivent être réalis
 <tbody>
 <tr class="odd">
 <td><p><strong>Créer une topologie qui intègre la charge de travail de conférence, y compris un serveur de médiation et une passerelle RTC, et déployer pool de serveurs frontaux ou serveur Standard Edition</strong></p></td>
-<td><ol>
-<li><p>Exécutez le Générateur de topologie pour configurer votre topologie. Lors de la configuration de la topologie, sélectionnez l’option de conférence rendez-vous.</p></li>
-<li><p>Publiez la topologie et déployez le pool de serveurs frontaux ou serveur Standard Edition.</p></li>
-<li><p>Si nécessaire, créez un serveur de médiation autonome et associez-le à une passerelle RTC.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette étape n’est nécessaire que si vous ne déployez pas Voix Entreprise et que vous ne colocalisez pas le serveur de médiation avec le serveur frontalEnterprise Edition ou le serveur Standard Edition. Si vous déployez Voix Entreprise, vous installez et configurez les serveurs de médiation et les passerelles RTC dans le cadre du déploiement de Voix Entreprise. Si vous colocalisez le serveur de médiation, vous installez et configurez le serveur de médiation dans le cadre du déploiement du pool de serveurs frontaux ou du serveur Standard Edition.</td>
-</tr>
-</tbody>
-</table>
+<td><ol><li><p>Exécutez le Générateur de topologie pour configurer votre topologie. Lors de la configuration de la topologie, sélectionnez l’option de conférence rendez-vous.</p></li><li><p>Publiez la topologie et déployez le pool de serveurs frontaux ou serveur Standard Edition.</p></li><li><p>Si nécessaire, créez un serveur de médiation autonome et associez-le à une passerelle RTC.</p>
+<div>
 
-</div></li>
-</ol></td>
+> [!NOTE]  
+> Cette étape n’est nécessaire que si vous ne déployez pas Voix Entreprise et que vous ne colocalisez pas le serveur de médiation avec le serveur frontalEnterprise Edition ou le serveur Standard Edition. Si vous déployez Voix Entreprise, vous installez et configurez les serveurs de médiation et les passerelles RTC dans le cadre du déploiement de Voix Entreprise. Si vous colocalisez le serveur de médiation, vous installez et configurez le serveur de médiation dans le cadre du déploiement du pool de serveurs frontaux ou du serveur Standard Edition.
+</div></li></ol></td>
 <td><p>DomainAdmins</p>
 <p>RTCUniversalServerAdmins</p>
 <p>Administrateur</p></td>
-<td><ul>
-<li><p><a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a></p></li>
-<li><p>Pour créer un pool de serveurs de médiation autonome : <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013</a></p></li>
-</ul></td>
+<td><ul><li><p><a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a></p></li><li><p>Pour créer un pool de serveurs de médiation autonome : <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013</a></p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Configurer des plans de numérotation</strong></p></td>
 <td><p>Un plan de numérotation est un ensemble de règles de normalisation des numéros de téléphone qui convertit des numéros de téléphone composés depuis un emplacement spécifique à un format standard (E.164) unique à des fins d’autorisation téléphonique et de routage des appels. Le même numéro de téléphone composé depuis différents emplacements peut, en fonction des plans de numérotation concernés, être résolu en différents numéros E.164, conformément à chaque emplacement. Si vous déployez Voix Entreprise, vous devez configurer les plans de numérotation dans le cadre de ce déploiement et veiller à ce qu’ils correspondent à la conférence rendez-vous. Si vous ne déployez pas Voix Entreprise, vous devez configurer les plans de numérotation à des fins de conférence rendez-vous.</p>
-<p>Utilisez le Panneau de configuration Lync Server 2013 ou Lync Server Management Shell pour configurer des plans de numérotation comme suit :</p>
-<ol>
-<li><p>Créez un ou plusieurs plans de numérotation pour le routage des numéros de téléphone d’accès entrant.</p></li>
-<li><p>Attribuez un plan de numérotation par défaut à chaque pool. Définissez la <strong>Région de la conférence rendez-vous</strong> sur l’emplacement géographique auquel le plan de numérotation s’applique. La région associe le plan de numérotation aux numéros d’accès entrant.</p></li>
-</ol></td>
+<p>Utilisez le Panneau de configuration Lync Server 2013 ou Lync Server Management Shell pour configurer des plans de numérotation comme suit :</p><ol><li><p>Créez un ou plusieurs plans de numérotation pour le routage des numéros de téléphone d’accès entrant.</p></li><li><p>Attribuez un plan de numérotation par défaut à chaque pool. Définissez la <strong>Région de la conférence rendez-vous</strong> sur l’emplacement géographique auquel le plan de numérotation s’applique. La région associe le plan de numérotation aux numéros d’accès entrant.</p></li></ol></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
@@ -114,12 +82,10 @@ Toutes les étapes présentées dans le tableau ci-dessous doivent être réalis
 </tr>
 <tr class="odd">
 <td><p><strong>Configurer une stratégie de conférence pour prendre en charge la conférence rendez-vous</strong></p></td>
-<td><p>Utilisez le Panneau de configuration Lync Server 2013 ou Lync Server Management Shell pour configurer les paramètres <strong>Stratégie de conférence</strong> . Spécifiez si :</p>
-<ul>
-<li><p>l’appel de conférence RTC est activé ;</p></li>
-<li><p>les utilisateurs peuvent inviter des participants anonymes ;</p></li>
-<li><p>des utilisateurs non authentifiés peuvent participer à une conférence en utilisant un appel sortant. Avec cette fonctionnalité, le serveur de conférence appelle l’utilisateur et celui-ci répond au téléphone pour participer à la conférence.</p></li>
-</ul></td>
+<td><p>Utilisez le Panneau de configuration Lync Server 2013 ou Lync Server Management Shell pour configurer les paramètres <strong>Stratégie de conférence</strong> . Spécifiez si :</p><ul>
+> <li><p>l’appel de conférence RTC est activé ;</p></li>
+> <li><p>les utilisateurs peuvent inviter des participants anonymes ;</p></li>
+> <li><p>des utilisateurs non authentifiés peuvent participer à une conférence en utilisant un appel sortant. Avec cette fonctionnalité, le serveur de conférence appelle l’utilisateur et celui-ci répond au téléphone pour participer à la conférence.</p></li></ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
@@ -128,20 +94,10 @@ Toutes les étapes présentées dans le tableau ci-dessous doivent être réalis
 <tr class="even">
 <td><p><strong>Configurer les numéros d’accès entrant</strong></p></td>
 <td><p>Utilisez le Panneau de configuration Lync Server 2013 ou Lync Server Management Shell pour configurer des numéros d’accès entrant que les utilisateurs composent pour participer à une conférence et spécifiez les régions chargées d’associer le numéro d’accès aux plans de numérotation appropriés. Les trois premiers numéros d’accès pour la région spécifiée par le plan de numérotation de l’organisateur sont inclus dans l’invitation à la conférence. Tous les numéros d’accès sont disponibles dans la page Paramètres de conférence rendez-vous.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Après avoir créé les numéros d’accès entrant, vous pouvez utiliser l’applet de commande <strong>Set-CsDialInConferencingAccessNumber</strong> pour modifier le nom complet des objets Contact Active Directory afin que les utilisateurs puissent identifier plus aisément le numéro d’accès correct.</td>
-</tr>
-</tbody>
-</table>
+<div>
 
+> [!NOTE]  
+> Après avoir créé les numéros d’accès entrant, vous pouvez utiliser l’applet de commande <strong>Set-CsDialInConferencingAccessNumber</strong> pour modifier le nom complet des objets Contact Active Directory afin que les utilisateurs puissent identifier plus aisément le numéro d’accès correct.
 </div></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>

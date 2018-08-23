@@ -27,19 +27,8 @@ Vous pouvez utiliser la procédure suivante pour afficher un sous-réseau. Dans 
 
 4.  Dans la page **Sous-réseau**, cliquez sur le sous-réseau que vous souhaitez afficher.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher qu’un seul sous-réseau à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous ne pouvez afficher qu’un seul sous-réseau à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
@@ -61,7 +50,7 @@ Vous pouvez également afficher les informations relatives au sous-réseau à l�
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSubnet](get-csnetworksubnet.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
 
 ## Voir aussi
 

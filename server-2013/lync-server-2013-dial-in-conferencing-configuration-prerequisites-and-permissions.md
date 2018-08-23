@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration requise et autorisations pour la configuration de conférence rendez-vous'
+title: "Lync Server 2013 : Conf. req. et autor. pour la conf. de conférence rdv"
 TOCTitle: Configuration requise et autorisations pour la configuration de conférence rendez-vous
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412865(v=OCS.15)
@@ -35,19 +35,8 @@ La conférence rendez-vous nécessite les composants Lync Server 2013 suivants�
 
 Vous déployez ces composants lorsque vous utilisez le Générateur de topologie pour définir et publier votre topologie et que vous déployez ensuite un pool frontal ou un serveur Standard Edition. Si vous déployez Voix Entreprise, vous devez le faire avant de configurer la conférence rendez-vous. Si vous ne déployez pas Voix Entreprise, vous pouvez déployer un serveur de médiation et une passerelle de réseau téléphonique commuté (RTC) lorsque vous déployez votre pool frontal ou votre serveur Standard Edition.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous effectuez la mise à niveau d’Office Communications Server 2007 R2 vers Lync Server 2013, déployez la conférence rendez-vous dans chaque pool que vous souhaitez utiliser pour héberger des conférences Lync Server 2013. Pour plus d’informations sur la migration de la conférence rendez-vous, reportez-vous à <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration d’Office Communications Server 2007 R2 vers Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous effectuez la mise à niveau d’Office Communications Server 2007 R2 vers Lync Server 2013, déployez la conférence rendez-vous dans chaque pool que vous souhaitez utiliser pour héberger des conférences Lync Server 2013. Pour plus d’informations sur la migration de la conférence rendez-vous, reportez-vous à <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration d’Office Communications Server 2007 R2 vers Lync Server 2013</a>.
 
 Cette section suppose que vous avez :
 
@@ -57,32 +46,10 @@ Cette section suppose que vous avez :
 
   - publié votre topologie et configuré le pool frontal ou le serveur Standard Edition. Pour plus d’informations sur la publication de la topologie et l’installation de Lync Server 2013, reportez-vous à [Déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lorsque vous installez votre topologie publiée, la page web Paramètres de conférence rendez-vous est installée sur le serveur frontal ou le serveur Standard Edition dans le cadre des services web.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous modifiez le chemin d’accès du magasin de fichiers dans le Générateur de topologie après le déploiement de Lync Server 2013, vous devez redémarrer les applications Intendant Conférence et Annonce de conférence pour utiliser le nouveau chemin d’accès.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Lorsque vous installez votre topologie publiée, la page web Paramètres de conférence rendez-vous est installée sur le serveur frontal ou le serveur Standard Edition dans le cadre des services web.    
+    > [!IMPORTANT]  
+    > Si vous modifiez le chemin d’accès du magasin de fichiers dans le Générateur de topologie après le déploiement de Lync Server 2013, vous devez redémarrer les applications Intendant Conférence et Annonce de conférence pour utiliser le nouveau chemin d’accès.
 
   - déployé Voix Entreprise. Si vous ne déployez pas Voix Entreprise, vous avez soit colocalisé un serveur de médiation sur le serveur frontal Entreprise Edition ou sur le serveur Standard Edition, soit déployé un serveur de médiation autonome, et vous avez déployé une passerelle RTC. Pour plus d’informations sur le déploiement de Voix Entreprise, reportez-vous à [Déploiement de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) dans la documentation de déploiement. Pour plus d’informations sur l’installation d’un serveur de médiation et d’une passerelle RTC autonomes, reportez-vous à [Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) dans la documentation de déploiement.
 

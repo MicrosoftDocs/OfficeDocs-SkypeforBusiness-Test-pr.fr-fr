@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification des paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs'
+title: "LS 2013 : Créa., mod. par. de code confi. des conf. rdv pr site ou gr. ut."
 TOCTitle: Création ou modification des paramètres de code confidentiel des conférences rendez-vous pour un site ou un groupe d’utilisateurs
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412959(v=OCS.15)
@@ -47,19 +47,8 @@ Procédez comme suit pour créer ou modifier une stratégie de code confidentiel
 
 12. Pour autoriser les modèles courants de codes confidentiels, tels que les jeux de chiffres séquentiels et répétitifs, activez la case à cocher **Autoriser les modèles courants**. Si vous ne sélectionnez pas cette option, seuls les modèles complexes de chiffres sont autorisés. Par défaut, seuls les modèles complexes de chiffres sont autorisés.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Nous vous recommandons de ne pas autoriser les modèles courants.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Nous vous recommandons de ne pas autoriser les modèles courants.
 
 13. Cliquez sur **Valider**.
 

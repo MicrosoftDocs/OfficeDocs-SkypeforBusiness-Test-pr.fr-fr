@@ -1,6 +1,6 @@
 ﻿---
-title: Supprimer une collection de paramètres de configuration de la mise à jour des périphériques
-TOCTitle: Supprimer une collection de paramètres de configuration de la mise à jour des périphériques
+title: "Supp. une coll. de param. de conf. de la mise à jour des périphériques"
+TOCtitle: "Supp. une coll. de param. de conf. de la mise à jour des périphériques"
 ms:assetid: 1a649136-34a9-42a7-a5b3-a78bbfe93f36
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994019(v=OCS.15)
 ms:contentKeyID: 53095369
@@ -36,5 +36,5 @@ Il est également possible de supprimer les paramètres de configuration de mise
     
         Get-CsDeviceUpdateConfiguration | Where-Object {$_.LogCleanUpInterval -gt "10.00:00:00" | Remove-CsDeviceUpdateConfiguration
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsDeviceUpdateConfiguration](remove-csdeviceupdateconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateConfiguration).
 

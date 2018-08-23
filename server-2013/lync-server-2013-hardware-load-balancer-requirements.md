@@ -1,5 +1,5 @@
 ﻿---
-title: Configuration requise pour l’équilibreur de charge matérielle pour Lync Server 2013
+title: "Conf. requise pour l’équilibreur de charge matérielle pour Lync Server 2013"
 TOCTitle: Configuration requise pour l’équilibreur de charge matérielle
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ656815(v=OCS.15)
@@ -23,47 +23,14 @@ La topologie Edge consolidée et mise à l’échelle de Lync Server 2013 est o
 
   - connectivité avec les utilisateurs de messagerie instantanée publique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’utilisation de l’équilibrage de la charge DNS sur une interface et de l’équilibrage de la charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser soit l’équilibrage de la charge matérielle, soit l’équilibrage de la charge DNS.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> L’utilisation de l’équilibrage de la charge DNS sur une interface et de l’équilibrage de la charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser soit l’équilibrage de la charge matérielle, soit l’équilibrage de la charge DNS.
 
+> [!NOTE]  
+> Si vous utilisez un équilibreur de la charge matérielle, celui qui est déployé pour les connexions au réseau interne doit être configuré pour équilibrer uniquement la charge liée au trafic en direction de serveurs exécutant le service d’accès Edge et le service Edge A/V. Il ne peut pas équilibrer la charge du trafic vers le service Edge de conférence web ou le service de proxy XMPP interne.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous utilisez un équilibreur de la charge matérielle, celui qui est déployé pour les connexions au réseau interne doit être configuré pour équilibrer uniquement la charge liée au trafic en direction de serveurs exécutant le service d’accès Edge et le service Edge A/V. Il ne peut pas équilibrer la charge du trafic vers le service Edge de conférence web ou le service de proxy XMPP interne.</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le mode NAT DSR (Direct Server Return) n’est pas pris en charge avec Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Le mode NAT DSR (Direct Server Return) n’est pas pris en charge avec Lync Server 2013.
 
 Pour déterminer si l’équilibreur de la charge matérielle prend en charge les fonctionnalités nécessaires au Lync Server 2013, reportez-vous à « Partenaires des programmes d’équilibrage de charge de Lync Server 2010 » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452).
 
@@ -85,19 +52,8 @@ La configuration requise pour l’équilibreur de la charge matérielle des serv
 
 Les conditions requises en termes d’affinité basée sur les cookies ont été considérablement simplifiées dans Lync Server 2013 pour les services web. Si vous déployez Lync Server 2013 et que vous ne gardez pas les serveurs frontaux ou les pools de serveurs frontauxLync Server 2010, vous n’avez pas besoin de la persistance basée sur les cookies. Cependant, si vous conservez temporairement ou définitivement des serveurs frontaux ou pools de serveurs frontauxLync Server 2010, vous devrez toujours utiliser la persistance basée sur les cookies, car elle est déployée et configurée pour Lync Server 2010.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Si vous décidez d’utiliser l’affinité basée sur les cookies même si votre déploiement n’en a pas besoin</strong>, aucun impact négatif n’en résultera.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> <strong>Si vous décidez d’utiliser l’affinité basée sur les cookies même si votre déploiement n’en a pas besoin</strong>, aucun impact négatif n’en résultera.
 
 Pour les déploiements qui **n’utiliseront pas** l’affinité basée sur les cookies :
 
@@ -115,36 +71,14 @@ Pour les déploiements qui **utiliseront** l’affinité basée sur les cookies�
 
   - Le cookie de l’équilibreur de la charge matérielle DOIT être défini dans chaque réponse HTTP pour laquelle la requête HTTP entrante ne possédait pas de cookie, qu’une réponse HTTP précédente ait déjà obtenu ou non un cookie sur cette même connexion TCP. Si l’équilibreur de la charge optimise l’insertion de cookies afin qu’elle se produise une seule fois par connexion TCP, cette optimisation NE DOIT PAS être utilisée
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les configurations habituelles de l’équilibreur de la charge matérielle utilisent l’affinité des adresses sources et une durée de vie de session TCP de 20 minutes, ce qui convient aux clients Lync Server et Lync 2013, car l’état de la session est maintenu pendant l’utilisation du client et/ou l’interaction des applications.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les configurations habituelles de l’équilibreur de la charge matérielle utilisent l’affinité des adresses sources et une durée de vie de session TCP de 20 minutes, ce qui convient aux clients Lync Server et Lync 2013, car l’état de la session est maintenu pendant l’utilisation du client et/ou l’interaction des applications.
 
 Si vous déployez des appareils mobiles, votre équilibreur de la charge matérielle doit être capable d’équilibrer la charge d’une requête individuelle au sein d’une session TCP (en effet, vous devez être en mesure d’équilibrer la charge d’une requête individuelle en fonction de l’adresse IP cible).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela.<br />
-Pour plus d’informations sur les équilibreurs de charge matérielle tiers, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!WARNING]  
+> Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela.<br />
+Pour plus d’informations sur les équilibreurs de charge matérielle tiers, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</a>
 
 La configuration requise de l’équilibreur de la charge matérielle des services web du directeur et du pool de serveurs frontaux est la suivante :
 

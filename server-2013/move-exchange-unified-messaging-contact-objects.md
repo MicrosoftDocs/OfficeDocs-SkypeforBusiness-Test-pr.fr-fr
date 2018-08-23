@@ -21,19 +21,8 @@ Pour effectuer la migration des objets contact de Standard automatique et d’Ac
 
   - l’ajouter aux groupes de recherche.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour utiliser les applets de commande <strong>Get-CsExUmContact</strong> et <strong>Move-CsExUmContact</strong>, vous devez être membre du groupe RTCUniversalUserAdmins et disposer d’une autorisation de l’unité d’organisation dans laquelle les objets contact sont stockés. L’autorisation de l’unité d’organisation peut être accordée à l’aide de l’applet de commande <strong>Grant-OUPermission</strong>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour utiliser les applets de commande <strong>Get-CsExUmContact</strong> et <strong>Move-CsExUmContact</strong>, vous devez être membre du groupe RTCUniversalUserAdmins et disposer d’une autorisation de l’unité d’organisation dans laquelle les objets contact sont stockés. L’autorisation de l’unité d’organisation peut être accordée à l’aide de l’applet de commande <strong>Grant-OUPermission</strong>.
 
 ## Pour déplacer des objets contact dans Lync Server Management Shell
 
@@ -65,16 +54,5 @@ Pour effectuer la migration des objets contact de Standard automatique et d’Ac
     
     où *forest FQDN* indique la forêt dans laquelle Lync Server 2013 est déployé.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Veillez à redémarrer le service <strong>Lync Server Front-End</strong> (rtcsrv.exe) <em>après</em> avoir exécuté exchucutil.ps1. Sinon, Lync Server 2013 ne détectera pas la messagerie unifiée dans la topologie.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Veillez à redémarrer le service <strong>Lync Server Front-End</strong> (rtcsrv.exe) <em>après</em> avoir exécuté exchucutil.ps1. Sinon, Lync Server 2013 ne détectera pas la messagerie unifiée dans la topologie.

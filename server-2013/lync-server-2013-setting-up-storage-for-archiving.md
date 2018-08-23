@@ -43,19 +43,8 @@ Chaque serveur de base de données doit être exécuté dans une version de SQL�
 
 Vous devez d’abord configurer les plateformes SQL Server avant de déployer et d’activer l’archivage. Si le compte à utiliser pour la publication de la topologie est doté des droits et autorisations d’administrateur appropriées, vous pouvez créer la base de données d’archivage (LcsLog) lorsque vous publiez votre topologie. Vous pouvez également créer la base de données plus tard, y compris dans le cadre de la procédure d’installation. Pour plus d’informations sur SQL Server, voir le site TechCenter SQL Server à l’adresse [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x40c).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Assurez-vous que le type de démarrage du service d’agent SQL Server est Automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient la base de données d’archivage, de sorte que la tâche de maintenance d’archivage par défaut de SQL Server peut s’exécuter selon sa planification sous le contrôle du service d’agent SQL Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Assurez-vous que le type de démarrage du service d’agent SQL Server est Automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient la base de données d’archivage, de sorte que la tâche de maintenance d’archivage par défaut de SQL Server peut s’exécuter selon sa planification sous le contrôle du service d’agent SQL Server.
 
 ## Configuration du stockage de fichier
 

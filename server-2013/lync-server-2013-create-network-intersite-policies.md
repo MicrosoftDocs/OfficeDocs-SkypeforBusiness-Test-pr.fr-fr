@@ -19,27 +19,16 @@ Une *stratégie intersite réseau* définit des limitations de bande passante en
 
 Pour plus d’informations, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)
+  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
 
-  - [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)
+  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
 
-  - [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)
+  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
 
-  - [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)
+  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une stratégie intersite réseau est nécessaire <em>uniquement</em> s’il existe un lien d’accès direct entre deux sites réseau.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Une stratégie intersite réseau est nécessaire <em>uniquement</em> s’il existe un lien d’accès direct entre deux sites réseau.
 
 Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque. Ces deux sites nécessitent une stratégie intersite qui applique un profil de stratégie de bande passante approprié. L’exemple suivant applique le profil 20Mb\_Link.
 

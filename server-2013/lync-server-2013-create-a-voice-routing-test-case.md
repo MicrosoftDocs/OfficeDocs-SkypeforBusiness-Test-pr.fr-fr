@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création d’un cas de test de routage des communications vocales'
+title: "Lync Server 2013 : Créa. d’un cas de test de routage des comm. vocales"
 TOCTitle: Création d’un cas de test de routage des communications vocales
 ms:assetid: 43a07a5b-2f20-462a-81e5-d628c18391e0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425935(v=OCS.15)
@@ -47,19 +47,8 @@ _**Dernière rubrique modifiée :** 2014-02-07_
 
 14. Cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chaque fois que vous créez un cas de test de routage des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Chaque fois que vous créez un cas de test de routage des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.    
     Si le plan de numérotation utilisé dans le test normalise les numéros de téléphone commençant par un signe plus (par exemple, +12065551219), ce plan peut entraîner l’échec du test de routage des communications vocales. (Le plan de numérotation et le routage des communications vacales fonctionneront ; en fait, Test-CsDialPlan réussira. Cependant, le test de routage des communications vocales risque d’échouer.) Il convient de ne pas perdre de vue cela lors des tests du routage des communications vocales.
 
 ## Voir aussi

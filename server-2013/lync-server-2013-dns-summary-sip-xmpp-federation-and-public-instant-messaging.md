@@ -1,6 +1,6 @@
 ﻿---
-title: Résumé des enregistrements DNS - Fédération SIP, fédération XMPP et messagerie instantanée publique
-TOCTitle: Résumé des enregistrements DNS - Fédération SIP, fédération XMPP et messagerie instantanée publique
+title: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
+TOCtitle: "Résumé des enr. DNS - Féd. SIP, XMPP et messagerie instantanée publique"
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ618369(v=OCS.15)
 ms:contentKeyID: 49296455
@@ -19,19 +19,8 @@ Les enregistrements DNS nécessaires à la définition d’une fédération avec
 
 Le tableau récapitulatif des enregistrements DNS décrit les entrées requises pour une fédération ouverte (détectable). Si vous ne souhaitez pas implémenter Federation Discovery, vous pouvez choisir de ne pas configurer l’enregistrement \_sipfederationtls.\_tcp. *\<Nom de domaine SIP\>*.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans certains cas précis, vous devez disposer de l’enregistrement SRV _sipfederationtls._tcp. <em>&lt;Nom de domaine SIP&gt;</em>, mais vous ne voulez pas d’une fédération détectable. Cela peut se produire lorsque vous avez déployé la mobilité pour vos utilisateurs. Le centre d’échanges de notifications push de la mobilité est un type spécial de fédération qui est utilisé pour les clients Microsoft Lync Mobile sur Apple iPhone ou iPad à l’aide du client Lync 2010 Mobile, ou sur Windows Phone à l’aide du client Lync 2010 Mobile ou Lync 2013 Mobile. L’enregistrement SRV _sipfederationtls._tcp. <em>&lt;Nom de domaine SIP&gt;</em> est utilisé dans le cas de la mobilité et de la notification push. Pour résoudre ce problème et contrôler votre détectabilité, désélectionnez le paramètre <strong>Activer la découverte du domaine partenaire</strong> pour désactiver la découverte.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Dans certains cas précis, vous devez disposer de l’enregistrement SRV _sipfederationtls._tcp. <em>&lt;Nom de domaine SIP&gt;</em>, mais vous ne voulez pas d’une fédération détectable. Cela peut se produire lorsque vous avez déployé la mobilité pour vos utilisateurs. Le centre d’échanges de notifications push de la mobilité est un type spécial de fédération qui est utilisé pour les clients Microsoft Lync Mobile sur Apple iPhone ou iPad à l’aide du client Lync 2010 Mobile, ou sur Windows Phone à l’aide du client Lync 2010 Mobile ou Lync 2013 Mobile. L’enregistrement SRV _sipfederationtls._tcp. <em>&lt;Nom de domaine SIP&gt;</em> est utilisé dans le cas de la mobilité et de la notification push. Pour résoudre ce problème et contrôler votre détectabilité, désélectionnez le paramètre <strong>Activer la découverte du domaine partenaire</strong> pour désactiver la découverte.
 
 Pour configurer le protocole XMPP (extensible Messaging and Presence Protocol) pour votre déploiement, créez deux enregistrements DNS (Domain Name System) dans un serveur DNS externe qui résoudra les enregistrements dans le service Edge d’accès de votre serveur Edge ou pool de serveurs Edge.
 
@@ -61,20 +50,10 @@ Lors de la configuration du système DNS pour la connectivité PIC (Public IM Co
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externe du service Edge d’accès. Requise pour permettre la découverte DNS automatique de votre fédération par d’autres partenaires de fédération potentiels, elle est aussi connue sous le nom de « Domaines SIP autorisés » (ou fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cet enregistrement SRV est requis pour la mobilité et le centre d’échanges de notifications push. Lorsque plusieurs domaines SIP sont présents, créez et publiez un enregistrement SRV pour chaque domaine amené à contenir plusieurs clients Lync Mobile. Le service de notifications Push et le service de notifications Push Apple risquent de ne pas fonctionner comme prévu si un enregistrement SRV explicite n’est pas affecté à chaque domaine SIP pris en charge par le déploiement.</td>
-</tr>
-</tbody>
-</table>
+<div>
 
+> [!IMPORTANT]  
+> Cet enregistrement SRV est requis pour la mobilité et le centre d’échanges de notifications push. Lorsque plusieurs domaines SIP sont présents, créez et publiez un enregistrement SRV pour chaque domaine amené à contenir plusieurs clients Lync Mobile. Le service de notifications Push et le service de notifications Push Apple risquent de ne pas fonctionner comme prévu si un enregistrement SRV explicite n’est pas affecté à chaque domaine SIP pris en charge par le déploiement.
 </div></td>
 </tr>
 </tbody>

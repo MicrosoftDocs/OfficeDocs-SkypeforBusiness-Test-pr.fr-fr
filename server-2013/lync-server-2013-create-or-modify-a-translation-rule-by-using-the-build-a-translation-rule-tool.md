@@ -1,6 +1,6 @@
 ﻿---
-title: Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction
-TOCTitle: Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction
+title: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
+TOCtitle: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412909(v=OCS.15)
 ms:contentKeyID: 49298644
@@ -59,19 +59,8 @@ Suivez la procédure suivante si vous souhaitez définir une règle de traductio
 
 9.  Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi
 

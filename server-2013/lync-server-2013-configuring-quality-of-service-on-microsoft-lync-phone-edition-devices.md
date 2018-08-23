@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration de la qualité de service sur les appareils Microsoft Lync Phone Edition
-TOCTitle: Configuration de la qualité de service sur les appareils Microsoft Lync Phone Edition
+title: "Conf. de la qual. de service sur les appareils Microsoft Lync Phone Edition"
+TOCtitle: "Conf. de la qual. de service sur les appareils Microsoft Lync Phone Edition"
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205137(v=OCS.15)
 ms:contentKeyID: 49298452
@@ -33,19 +33,8 @@ Si vous n’avez apporté aucune modification à vos paramètres de configuratio
 
 En ce qui concerne la Qualité de service, une seule de ces propriétés est digne d’intérêt : VoiceDiffServTag. Elle représente la valeur DSCP assignée au trafic vocal provenant d’un appareil Lync Phone Edition.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le paramètre Voice8021p n’est plus pris en charge dans Lync Server 2013. Il est encore valide pour des raisons de compatibilité descendante avec Microsoft Lync Server 2010 ; toutefois, il n’a aucun effet sur les appareils utilisés avec Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Le paramètre Voice8021p n’est plus pris en charge dans Lync Server 2013. Il est encore valide pour des raisons de compatibilité descendante avec Microsoft Lync Server 2010 ; toutefois, il n’a aucun effet sur les appareils utilisés avec Lync Server 2013.
 
 Sur la plupart des réseaux, le marquage de paquets Lync Phone Edition avec une propriété VoiceDiffServTag de 40 ne doit pas causer de problème. Toutefois, 40 n’est pas la valeur généralement utilisé pour le trafic audio. Au lieu de cela, ce trafic est presque toujours marqué avec le code DSCP 46. Afin de conserver une cohérence sur l’ensemble de votre réseau, il peut être préférable de modifier la propriété VoiceDiffServTag de vos appareils de communications unifiées et de lui affecter la valeur 46.
 

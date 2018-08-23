@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2017-02-07_
 
 Pour utiliser Lync Web App, vous devez disposer de l’une des combinaisons système d’exploitation/navigateur prises en charge suivantes.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un plug-in est requis pour certaines fonctionnalités de Lync Web App, notamment les communications vocales par ordinateur, la vidéo, le partage et l’affichage du partage d’écran en cours. Vous pouvez installer le plug-in de partage lorsque vous rejoignez la réunion ou lorsque vous démarrez une de ces fonctionnalités. 1</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Un plug-in est requis pour certaines fonctionnalités de Lync Web App, notamment les communications vocales par ordinateur, la vidéo, le partage et l’affichage du partage d’écran en cours. Vous pouvez installer le plug-in de partage lorsque vous rejoignez la réunion ou lorsque vous démarrez une de ces fonctionnalités. 1
 
 ## Combinaisons système d’exploitation/navigateur prises en charge pour Lync Web App
 

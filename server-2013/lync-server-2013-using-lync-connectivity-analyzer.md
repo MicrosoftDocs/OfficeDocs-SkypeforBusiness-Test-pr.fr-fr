@@ -47,11 +47,11 @@ Vous pouvez télécharger l’Analyseur de connectivité de Lync à partir du Ce
     
       - Dans **Type de compte Lync**, sélectionnez **Office 365** ou **Local**.
     
-      - Dans **SIP URI**, entrez l’adresse de connexion SIP de la connexion Lync au format **utilisateur@domaine.com**.
+      - Dans **SIP URI**, entrez l’adresse de connexion SIP de la connexion Lync au format <strong>utilisateur@domaine.com</strong>.
     
       - Dans **Mot de passe**, entrez le mot de passe associé à ce compte.
     
-      - Dans **User name (optional)**, entrez un nom d’utilisateur (également appelé nom d’utilisateur principal) le cas échéant. Si le nom d’utilisateur et l’URI SIP sont identiques, il n’est pas nécessaire d’entrer un nom d’utilisateur. S’ils sont différents, entrez le nom d’utilisateur au format **utilisateur@domaine.com** ou **domaine\\utilisateur**, selon le cas.
+      - Dans **User name (optional)**, entrez un nom d’utilisateur (également appelé nom d’utilisateur principal) le cas échéant. Si le nom d’utilisateur et l’URI SIP sont identiques, il n’est pas nécessaire d’entrer un nom d’utilisateur. S’ils sont différents, entrez le nom d’utilisateur au format <strong>utilisateur@domaine.com</strong> ou **domaine\\utilisateur**, selon le cas.
     
       - **Network access**, sélectionnez **From inside my organization** si vous exécutez l’Analyseur de connectivité Lync à partir d’un ordinateur connecté à votre réseau interne. Sinon, sélectionnez **External (Internet)**. L’Analyseur de connectivité Lync effectue toujours des tests internes et externes, mais le fait de préciser si vous vous trouvez à l’intérieur ou à l’extérieur de votre propre réseau l’aide à interpréter si certaines défaillances sont attendues.
     

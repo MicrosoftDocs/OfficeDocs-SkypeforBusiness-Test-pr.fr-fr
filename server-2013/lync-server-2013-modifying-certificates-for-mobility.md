@@ -119,16 +119,5 @@ Dernière chose à ne pas oublier : vous pouvez disposer d’un certificat par d
         
         Où « Thumbprint » est l’empreinte numérique (Thumbprint) affichée pour les certificats individuels qui viennent d’être émis.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Remarque : les étapes 12 et 13 ne doivent être effectuées que si le compte les exécutant peut accéder à l’autorité de certification via les autorisations appropriées. Si vous ne pouvez pas vous connecter avec un compte doté de ces autorisations ou que vous utilisez une autorité de certification publique ou à distance pour vos certificats, vous devrez vous les demander par l’intermédiaire de l’Assistant Déploiement Lync Server, décrit au début de l’article.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Remarque : les étapes 12 et 13 ne doivent être effectuées que si le compte les exécutant peut accéder à l’autorité de certification via les autorisations appropriées. Si vous ne pouvez pas vous connecter avec un compte doté de ces autorisations ou que vous utilisez une autorité de certification publique ou à distance pour vos certificats, vous devrez vous les demander par l’intermédiaire de l’Assistant Déploiement Lync Server, décrit au début de l’article.

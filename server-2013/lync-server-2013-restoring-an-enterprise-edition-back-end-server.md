@@ -25,55 +25,22 @@ Si vous possédez un serveur principal Enterprise Edition en miroir et que seule
 
 Si le magasin central de gestion échoue, voir [Restauration du serveur hébergeant le magasin central de gestion](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si un serveur membre Enterprise Edition qui n’est pas le serveur principal échoue, voir [Restauration d’un serveur membre Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pouvez utiliser cette image en tant que point de restauration au cas où un problème se produise pendant la restauration. Cette image pourra être effectuée après l’installation du système d’exploitation et SQL Server, et la restauration et réinscription des certificats.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pouvez utiliser cette image en tant que point de restauration au cas où un problème se produise pendant la restauration. Cette image pourra être effectuée après l’installation du système d’exploitation et SQL Server, et la restauration et réinscription des certificats.
 
 ## Pour restaurer un serveur principal Enterprise Edition
 
 1.  Démarrez avec un nouveau serveur qui est doté du même nom de domaine complet (FQDN) que l’ordinateur qui a échoué, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Suivez les procédures de déploiement de votre organisation pour effectuer cette étape.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Suivez les procédures de déploiement de votre organisation pour effectuer cette étape.
 
 2.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins, ouvrez une session sur le serveur que vous êtes en train de restaurer.
 
 3.  Installez SQL Server 2012 ou SQL Server 2008 R2, en conservant les noms d’instance qui existaient avant l’échec.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Selon votre déploiement, le serveur principal peut comprendre plusieurs bases de données colocalisées ou distinctes. Suivez la même procédure pour installer SQL Server que celle que vous avez utilisée pour déployer le serveur, y compris les autorisations et les connexions SQL Server.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Selon votre déploiement, le serveur principal peut comprendre plusieurs bases de données colocalisées ou distinctes. Suivez la même procédure pour installer SQL Server que celle que vous avez utilisée pour déployer le serveur, y compris les autorisations et les connexions SQL Server.
 
 4.  Une fois que vous avez installé SQL Server, effectuez les actions suivantes :
     
@@ -87,36 +54,14 @@ Si le magasin central de gestion échoue, voir [Restauration du serveur héberge
     
     5.  Suivez l’Assistant **Publier la topologie**. Dans la page **Créer des bases de données**, sélectionnez les bases de données à recréer.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Seules les bases de données autonomes sont affichées dans la page <strong>Créer des bases de données</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Seules les bases de données autonomes sont affichées dans la page <strong>Créer des bases de données</strong>.    
     6.  Si vous restaurez un serveur principal en miroir, poursuivez le reste de l’Assistant jusqu’à l’apparition de l’invite **Créer des bases de données miroir**. Sélectionnez la base de données à installer, puis terminez le processus.
     
     7.  Suivez le reste de l’Assistant, puis cliquez sur **Terminer**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsDatabase</strong>, pour créer chaque base de données, et l’applet de commande <strong>Install-CsMirrorDatabase</strong>, pour configurer la mise en miroir. Pour plus d’informations, voir la documentation Lync Server Management Shell.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsDatabase</strong>, pour créer chaque base de données, et l’applet de commande <strong>Install-CsMirrorDatabase</strong>, pour configurer la mise en miroir. Pour plus d’informations, voir la documentation Lync Server Management Shell.
 
 5.  Restaurez les données utilisateur comme suit :
     

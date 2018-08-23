@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs fédérés XMPP'
+title: "Lync Server 2013 : Conf. des strat. de contrôle d’accès des ut. fédérés XMPP"
 TOCTitle: Configuration des stratégies de contrôle d’accès des utilisateurs fédérés XMPP
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ552446(v=OCS.15)
@@ -19,19 +19,8 @@ Cette rubrique fait partie de la documentation préliminaire. Elle est susceptib
 
 Lorsque vous configurez des stratégies visant à prendre en charge les partenaires fédérés du protocole XMPP, les stratégies s’appliquent aux utilisateurs des domaines fédérés XMPP, mais pas aux utilisateurs des fournisseurs de services de messagerie instantanée SIP (par exemple, Windows Live) ou de domaines fédérés SIP. Vous configurez un **partenaire fédéré XMPP** pour chaque domaine fédéré XMPP avec lequel vous souhaitez que vos utilisateurs puissent communiquer et entrer en contact. Les stratégies des partenaires fédérés XMPP ne sont disponibles que dans une seule étendue et même si elles ne sont pas définies comme une stratégie globale, elles se comportent comme une stratégie globale. Pour définir une stratégie globale, de site ou de l’utilisateur pour les partenaires de la fédération XMPP, configurez l’étendue de la stratégie en créant et en configurant d’abord la stratégie d’accès externe pour l’étendue dont vous avez besoin. Pour plus d’informations sur les types de stratégies que vous pouvez configurer pour l’accès externe et la fédération, reportez-vous à [Gestion de la fédération et de l’accès externe à Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) dans la documentation des opérations.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Toutes les stratégies de type <strong>Fédération et accès externe</strong> s’appliquent par le biais d’une mise en service intrabande. Les stratégies qui s’appliquent à l’utilisateur, qui appartiennent à un site ou qui sont d’étendue globale, sont communiquées au client lors de la connexion. Vous pouvez configurer les stratégies de manière à contrôler l’accès aux partenaires fédérés XMPP, même si vous n’avez pas activé de fédération XMPP pour votre organisation. Cependant, les stratégies que vous configurez ne prennent effet que lorsqu’une fédération de partenaires XMPP est déployée, activée et configurée pour votre organisation. Pour plus d’informations sur le déploiement et la configuration de la fédération de partenaires XMPP, reportez-vous à <a href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Configuration des fédérations SIP et XMPP et de la messagerie instantanée publique dans Lync Server 2013</a> dans la documentation de déploiement. En outre, si vous spécifiez une stratégie de l’utilisateur dans la stratégie d’accès externe pour contrôler les partenaires fédérés XMPP, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server 2013 et configurés pour utiliser la stratégie.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Toutes les stratégies de type <strong>Fédération et accès externe</strong> s’appliquent par le biais d’une mise en service intrabande. Les stratégies qui s’appliquent à l’utilisateur, qui appartiennent à un site ou qui sont d’étendue globale, sont communiquées au client lors de la connexion. Vous pouvez configurer les stratégies de manière à contrôler l’accès aux partenaires fédérés XMPP, même si vous n’avez pas activé de fédération XMPP pour votre organisation. Cependant, les stratégies que vous configurez ne prennent effet que lorsqu’une fédération de partenaires XMPP est déployée, activée et configurée pour votre organisation. Pour plus d’informations sur le déploiement et la configuration de la fédération de partenaires XMPP, reportez-vous à <a href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Configuration des fédérations SIP et XMPP et de la messagerie instantanée publique dans Lync Server 2013</a> dans la documentation de déploiement. En outre, si vous spécifiez une stratégie de l’utilisateur dans la stratégie d’accès externe pour contrôler les partenaires fédérés XMPP, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server 2013 et configurés pour utiliser la stratégie.
 
 ## Pour modifier une stratégie globale pour les partenaires fédérés XMPP
 
@@ -133,9 +122,9 @@ Lorsque vous configurez des stratégies visant à prendre en charge les partenai
 #### Autres ressources
 
 [Gestion des partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 

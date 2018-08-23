@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion des paramètres de messagerie instantanée et de présence'
+title: "Lync Server 2013 : Gest. des param. de messagerie instantanée et de présence"
 TOCTitle: Gestion des paramètres de messagerie instantanée et de présence
 ms:assetid: a01b8384-16a1-41b5-a00a-fdb9afb5aa88
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182558(v=OCS.15)

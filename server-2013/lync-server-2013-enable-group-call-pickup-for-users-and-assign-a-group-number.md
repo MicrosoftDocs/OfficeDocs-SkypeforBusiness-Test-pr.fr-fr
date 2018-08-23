@@ -1,6 +1,6 @@
 ﻿---
-title: Activer la prise d’appel de groupe pour des utilisateurs et assigner un numéro de groupe
-TOCTitle: Activer la prise d’appel de groupe pour des utilisateurs et assigner un numéro de groupe
+title: "Activer la prise d’appel de gr. pour des ut. et assigner un numéro de groupe"
+TOCtitle: "Activer la prise d’appel de gr. pour des ut. et assigner un numéro de groupe"
 ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945650(v=OCS.15)
 ms:contentKeyID: 53095518
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-01-30_
 
 Après avoir ajouté des numéros de groupes de prise d’appel à la table d’orbites de parcage d’appels, vous assignez ces numéros de groupes aux utilisateurs et vous activez la Prise d’appel de groupe pour eux. Utilisez l’outil d’activation des fonctionnalités d’extension secondaire (SEFAUtil) du kit de ressources pour assigner des numéros de groupes et activer la Prise d’appel de groupe.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans un déploiement hybride, n’assignez pas de groupe de Prise d’appel de groupe aux utilisateurs hébergés en ligne. Ceux-ci ne peuvent pas participer à la prise d’appel de groupe. Autrement dit, leurs appels ne peuvent pas être pris par d’autres utilisateurs et ils ne peuvent pas répondre aux appels destinés à d’autres utilisateurs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Dans un déploiement hybride, n’assignez pas de groupe de Prise d’appel de groupe aux utilisateurs hébergés en ligne. Ceux-ci ne peuvent pas participer à la prise d’appel de groupe. Autrement dit, leurs appels ne peuvent pas être pris par d’autres utilisateurs et ils ne peuvent pas répondre aux appels destinés à d’autres utilisateurs.
 
 ## Pour assigner un numéro de groupe et activer la Prise d’appel de groupe pour un utilisateur
 

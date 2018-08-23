@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration système requise pour les outils d’administration'
+title: "Lync Server 2013 : Conf. système requise pour les outils d’administration"
 TOCTitle: Configuration système requise pour les outils d’administration
 ms:assetid: 327d3f1f-651d-4bb2-8c08-89186ee8135e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204791(v=OCS.15)

@@ -29,19 +29,8 @@ Les stratégies de voix au niveau global ou au niveau du site sont automatiqueme
 
 5.  Dans **Modifier l’utilisateur Lync Server** sous **Stratégie de voix**, sélectionnez la stratégie d’utilisateur à appliquer.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres de stratégie globale ou du serveur par défaut.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres de stratégie globale ou du serveur par défaut.
 
 ## Pour assigner une stratégie de voix spécifique à l’utilisateur à l’aide de Lync Server Management Shell
 
@@ -73,7 +62,7 @@ Les stratégies de voix par utilisateur peuvent également être assignées à l
 
 ## Assignation d’une stratégie de voix par utilisateur à plusieurs utilisateurs
 
-  - Cette commande assigne la stratégie de voix par utilisateur FinanceVoicePolicy à tous les utilisateurs qui ont des comptes dans l’unité d’organisation Finance dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](get-csuser.md).
+  - Cette commande assigne la stratégie de voix par utilisateur FinanceVoicePolicy à tous les utilisateurs qui ont des comptes dans l’unité d’organisation Finance dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -83,7 +72,7 @@ Les stratégies de voix par utilisateur peuvent également être assignées à l
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsVoicePolicy](grant-csvoicepolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 ## Voir aussi
 

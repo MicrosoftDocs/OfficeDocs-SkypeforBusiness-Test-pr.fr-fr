@@ -1,6 +1,6 @@
 ﻿---
-title: Configurer les règles de code confidentiel des conférences rendez-vous dans Lync Server 2013
-TOCTitle: Configurer les règles de code confidentiel des conférences rendez-vous dans Lync Server 2013
+title: "Conf. les règles de code conf. des conférences rdv dans Lync Server 2013"
+TOCtitle: "Conf. les règles de code conf. des conférences rdv dans Lync Server 2013"
 ms:assetid: 27b79fb1-e2dc-4f71-bc82-b6eb61be2b16
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520967(v=OCS.15)
 ms:contentKeyID: 49296652

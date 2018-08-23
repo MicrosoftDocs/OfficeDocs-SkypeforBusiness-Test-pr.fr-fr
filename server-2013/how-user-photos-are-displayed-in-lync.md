@@ -121,23 +121,12 @@ La valeur du paramètre **DisplayPhoto** détermine la source de l’image de la
 
 ## Comment le client Lync 2010 extrait les photos
 
-Dans Lync 2010, les photos d’utilisateur sont gérées sur le serveur par le service de carnet d’adresses. Le client Lync extrait les photos d’utilisateur en interrogeant d’abord le service d’interrogation web de carnet d’adresses sur le serveur, qui est exposé par le biais du service web Distribution List Expansion. Le client reçoit le fichier image, puis le copie dans la mémoire cache de l’utilisateur pour éviter de télécharger l’image chaque fois qu’il doit l’afficher. Les valeurs d’attribut renvoyées par la requête sont également stockées dans l’entrée du service de carnet d’adresses mise en cache pour l’utilisateur. Toutes les 24 heures, ce service supprime toutes les images mises en cache, ce qui signifie que la mise à jour des nouvelles images de l’utilisateur dans la mémoire cache sur le serveur peut prendre 24 heures. Vous pouvez forcer la mise à jour dans la mémoire cache en utilisant l’applet de commande [Update-CsAddressBook](update-csaddressbook.md).
+Dans Lync 2010, les photos d’utilisateur sont gérées sur le serveur par le service de carnet d’adresses. Le client Lync extrait les photos d’utilisateur en interrogeant d’abord le service d’interrogation web de carnet d’adresses sur le serveur, qui est exposé par le biais du service web Distribution List Expansion. Le client reçoit le fichier image, puis le copie dans la mémoire cache de l’utilisateur pour éviter de télécharger l’image chaque fois qu’il doit l’afficher. Les valeurs d’attribut renvoyées par la requête sont également stockées dans l’entrée du service de carnet d’adresses mise en cache pour l’utilisateur. Toutes les 24 heures, ce service supprime toutes les images mises en cache, ce qui signifie que la mise à jour des nouvelles images de l’utilisateur dans la mémoire cache sur le serveur peut prendre 24 heures. Vous pouvez forcer la mise à jour dans la mémoire cache en utilisant l’applet de commande [Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook).
 
 Une valeur de hachage est également associée aux photos d’utilisateur figurant dans le statut de présence. Le client Lync l’utilise pour déterminer s’il existe une image plus récente disponible. Il est automatiquement averti des modifications apportées au fichier image dans le statut de présence.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Comme les photos ne sont pas stockées dans la base de données GalContacts.db, le téléchargement des photos d’utilisateur ne dépend pas du paramètre <strong>AddressBookAvailability</strong> dans la stratégie de client (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Comme les photos ne sont pas stockées dans la base de données GalContacts.db, le téléchargement des photos d’utilisateur ne dépend pas du paramètre <strong>AddressBookAvailability</strong> dans la stratégie de client (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>).
 
 La requête adressée au service d’interrogation web de carnet d’adresses inclut les attributs suivants :
 
@@ -191,31 +180,25 @@ Lorsque vous sélectionnez l’option **Afficher mon image**, votre photo d’ut
 
 L’option **Afficher une image à partir d’un site web** est disponible dans Lync 2013 une fois qu’une stratégie de client a été définie pour l’activer. La version du client doit être postérieure à la version 15.0.4535.1002, installée avec les [Mises à jour cumulatives Lync : novembre 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Les utilisateurs peuvent avoir besoin de se déconnecter et de se reconnecter pour voir les modifications dans le client.
 
-Vous pouvez définir la stratégie de client de manière à activer le paramètre **Afficher une image à partir d’un site web** en exécutant la stratégie [Set-CsClientPolicy](set-csclientpolicy.md) dans Lync Server Management Shell. Les exemples d’applets de commande ci-dessous montrent comment définir globalement la stratégie pour tous les utilisateurs inclus dans votre déploiement :
+Vous pouvez définir la stratégie de client de manière à activer le paramètre **Afficher une image à partir d’un site web** en exécutant la stratégie [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) dans Lync Server Management Shell. Les exemples d’applets de commande ci-dessous montrent comment définir globalement la stratégie pour tous les utilisateurs inclus dans votre déploiement :
 
-    $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-
-    $po=Get-CsClientPolicy -Identity Global
-
-    $po.PolicyEntry.Add($pe)
-
-    Set-CsClientPolicy -Instance $po
+  ```
+  $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
+  ```
+  ```
+  $po=Get-CsClientPolicy -Identity Global
+  ```
+  ```
+  $po.PolicyEntry.Add($pe)
+  ``` 
+  ```
+  Set-CsClientPolicy -Instance $po
+  ```
 
 Lorsqu’une image est transférée dans la boîte aux lettres de l’utilisateur, Exchange crée automatiquement une version basse résolution de l’image, qui peut être utilisée dans des applications clientes. La photo de l’utilisateur est elle aussi mise à jour dans les services de domaine Active Directory.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lorsqu’un fichier image est mis à jour dans les services de domaine Active Directory, une image de 48 × 48 pixels y est créée et utilisée pour l’attribut thumbnailPhoto. Les éventuelles images existantes sont remplacées. Ainsi, si vous avez ajouté une image de 96 × 96 pixels aux services de domaine Active Directory, elle est remplacée par la nouvelle image de 48 × 48 pixels. Cela n’est important que si des utilisateurs inclus dans votre environnement utilisent des clients Lync 2010, car ces clients extraient les photos d’utilisateur à partir des services de domaine Active Directory. Vous pouvez importer des images de 96 × 96 pixels pour remplacer celles créées par les services de domaine Active Directory si votre organisation utilise des clients Lync 2010.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Lorsqu’un fichier image est mis à jour dans les services de domaine Active Directory, une image de 48 × 48 pixels y est créée et utilisée pour l’attribut thumbnailPhoto. Les éventuelles images existantes sont remplacées. Ainsi, si vous avez ajouté une image de 96 × 96 pixels aux services de domaine Active Directory, elle est remplacée par la nouvelle image de 48 × 48 pixels. Cela n’est important que si des utilisateurs inclus dans votre environnement utilisent des clients Lync 2010, car ces clients extraient les photos d’utilisateur à partir des services de domaine Active Directory. Vous pouvez importer des images de 96 × 96 pixels pour remplacer celles créées par les services de domaine Active Directory si votre organisation utilise des clients Lync 2010.
 
 ## Prise en charge des photos d’utilisateur dans Lync 2013
 

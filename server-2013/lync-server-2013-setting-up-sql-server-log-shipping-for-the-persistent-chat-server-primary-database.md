@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente'
+title: "LS 2013 : Conf. copie journ. trans. SQL Server pr BD prin. du serv. conv. p."
 TOCTitle: Configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204653(v=OCS.15)
@@ -33,19 +33,8 @@ _**Dernière rubrique modifiée :** 2012-11-12_
 
 7.  Si le dossier de sauvegarde se trouve sur le serveur principal, tapez le chemin d’accès local vers le dossier de sauvegarde dans la zone **Si le dossier de sauvegarde se trouve sur le serveur principal, tapez un chemin d’accès local au dossier (exemple : c:\\sauvegarde)** . (Dans le cas contraire, laissez cette zone vide.)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si le compte de service SQL Server sur votre serveur principal s’exécute sous le compte système local, vous devez créer votre dossier de sauvegarde sur le serveur principal et spécifier le chemin d’accès local de ce dossier.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Si le compte de service SQL Server sur votre serveur principal s’exécute sous le compte système local, vous devez créer votre dossier de sauvegarde sur le serveur principal et spécifier le chemin d’accès local de ce dossier.
 
 8.  Configurez les paramètres **Supprimer les fichiers antérieurs à** et **Envoyer une alerte si aucune sauvegarde ne se produit en l’espace de** .
 

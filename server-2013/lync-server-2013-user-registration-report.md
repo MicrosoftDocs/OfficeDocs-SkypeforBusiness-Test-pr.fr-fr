@@ -78,19 +78,8 @@ En plus de connaître le nombre d’utilisateurs uniques par ouverture de sessio
 
 Si la commande précédente renvoie la valeur 1 236 et si la mesure Utilisateurs uniques par ouverture de session renvoie une valeur moyenne de 667, cela suggère qu’un peu plus de la moitié de vos utilisateurs activés pour Lync ouvrent réellement une session sur le système chaque jour (c’est-à-dire 667 divisé par 1 236, ce qui fait approximativement 54 %).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Cela signifierait que presque 1 000 utilisateurs avaient ouvert une session sur Lync Server, ce qui impliquerait que près de 80 % de vos utilisateurs avaient ouvert une session.</td>
-</tr>
-</tbody>
-</table>
-
+> [!WARNING]  
+> Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Cela signifierait que presque 1 000 utilisateurs avaient ouvert une session sur Lync Server, ce qui impliquerait que près de 80 % de vos utilisateurs avaient ouvert une session.
 
 Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La mesure Utilisateurs actifs uniques vous indique combien d’utilisateurs ont réellement utilisé Lync Server : en effectuant un appel téléphonique, en participant à une réunion Lync ou en prenant part à une session de messagerie instantanée. Ces informations sont utiles, car Microsoft Lync 2013 peut être configuré de manière à démarrer automatiquement à chaque fois qu’un utilisateur lance Windows. Pour cette raison, il est possible qu’un grand nombre d’utilisateurs se connectent automatiquement à Lync lorsqu’ils ouvrent une session sur Windows chaque jour, mais qui n’utilisent jamais réellement Lync Server pendant cette période.
 
@@ -138,13 +127,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="odd">
 <td><p><strong>Intervalle</strong></p></td>
-<td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
-<ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
-<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
-</ul>
+<td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p><ul><li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li><li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li><li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li><li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li></ul>
 <p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de départ de 7/7/2012 et une date de fin de 2/28/2012, les données sont affichées pour les jours compris entre le 8/7/2012 à minuit et le 9/7/2012 à minuit (soit un total de 31 jours de données).</p></td>
 </tr>
 <tr class="even">

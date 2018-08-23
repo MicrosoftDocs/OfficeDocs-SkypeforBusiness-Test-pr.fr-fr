@@ -41,19 +41,8 @@ L’exportation de votre conception vers Microsoft Excel permet de créer un ra
 
 L’exportation de votre conception vers Microsoft Visio crée un diagramme à utiliser dans la documentation de votre topologie et infrastructure configurée. Le diagramme importé peut être modifié et réorganisé pour répondre aux besoins de votre documentation. Un diagramme Visio classique inclut les éléments suivants :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si votre conception est d’une taille suffisamment importante et nécessite plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool de serveurs frontaux, les serveurs frontaux, l’ordinateur SQL Server, les adresses IP et les noms de domaine complets.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si votre conception est d’une taille suffisamment importante et nécessite plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool de serveurs frontaux, les serveurs frontaux, l’ordinateur SQL Server, les adresses IP et les noms de domaine complets.
 
   - Topologie globale : diagramme des sites Lync Server 2013 configurés.
 

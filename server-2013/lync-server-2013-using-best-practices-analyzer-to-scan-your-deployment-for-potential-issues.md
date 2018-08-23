@@ -1,6 +1,6 @@
 ﻿---
-title: Utilisation de Best Practices Analyzer pour rechercher les problèmes éventuels dans votre déploiement
-TOCTitle: Utilisation de Best Practices Analyzer pour rechercher les problèmes éventuels dans votre déploiement
+title: "Ut. de Best Practices Analyzer pour rech. les pb éventuels ds votre déploiem."
+TOCtitle: "Ut. de Best Practices Analyzer pour rech. les pb éventuels ds votre déploiem."
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg591343(v=OCS.15)
 ms:contentKeyID: 49296192
@@ -39,19 +39,8 @@ Pour lancer une analyse Best Practices Analyzer, vous devez spécifier ce qui su
     
       - Pour spécifier d’autres informations d’identification que celles que vous souhaitez utiliser pour les services de domaine Active Directory, les serveurs Edge ou les serveurs Exchange, cliquez sur **Afficher les options d’ouverture de session avancées**, activez les cases à cocher pour lesquelles des informations d’identification distinctes sont requises, spécifiez les informations d’identification pour chacune des cases à cocher activées, puis cliquez sur **Connexion au serveur Active Directory**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Avant de commencer l’analyse, Best Practices Analyzer effectue une vérification du réseau et des autorisations pour s’assurer que les informations d’identification spécifiées sont valides et qu’il peut se connecter aux services de domaine Active Directory. Si l’outil est exécuté sur un serveur de groupe de travail, il vérifie également qu’il peut se connecter aux serveurs Edge dans le réseau de périmètre (s’ils sont inclus dans l’analyse).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Avant de commencer l’analyse, Best Practices Analyzer effectue une vérification du réseau et des autorisations pour s’assurer que les informations d’identification spécifiées sont valides et qu’il peut se connecter aux services de domaine Active Directory. Si l’outil est exécuté sur un serveur de groupe de travail, il vérifie également qu’il peut se connecter aux serveurs Edge dans le réseau de périmètre (s’ils sont inclus dans l’analyse).
 
 5.  Dans la page **Démarrer une nouvelle analyse Best Practices**, sélectionnez les options que vous souhaitez inclure dans l’analyse, spécifiez la vitesse du réseau, puis cliquez sur **Démarrer l’analyse**.
 
@@ -65,16 +54,5 @@ Pour lancer une analyse Best Practices Analyzer, vous devez spécifier ce qui su
     
       - Pour afficher d’autres rapports, cliquez sur **Autres rapports**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour plus d’informations sur les rapports de Best Practices Analyzer et les problèmes qu’ils identifient, consultez les rubriques <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Affichage et utilisation des rapports créés par Best Practices Analyzer</a> et <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyse et résolution des problèmes identifiés par Best Practices Analyzer</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour plus d’informations sur les rapports de Best Practices Analyzer et les problèmes qu’ils identifient, consultez les rubriques <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Affichage et utilisation des rapports créés par Best Practices Analyzer</a> et <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyse et résolution des problèmes identifiés par Best Practices Analyzer</a>.

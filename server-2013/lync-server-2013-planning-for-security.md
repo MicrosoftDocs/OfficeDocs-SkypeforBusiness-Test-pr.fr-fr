@@ -21,19 +21,8 @@ Même si votre déploiement Lync Server 2013 est modeste, les composants de vot
 
 Utilisez cette section comme point de départ pour gérer la sécurité de votre déploiement Lync Server. Elles fournit des instructions générales et des recommandations pour évaluer et gérer les risques les plus fréquents pour la sécurité. D’autres ressources sur les produits et la sécurité sont répertoriées à la fin de chaque rubrique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La sécurité est un sujet en constante évolution. Avec l’apparition de nouvelles menaces et solutions, les documents, solutions, méthodes et procédures devenus obsolètes doivent être remplacés par des supports actualisés.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> La sécurité est un sujet en constante évolution. Avec l’apparition de nouvelles menaces et solutions, les documents, solutions, méthodes et procédures devenus obsolètes doivent être remplacés par des supports actualisés.
 
 ## Dans cette section
 

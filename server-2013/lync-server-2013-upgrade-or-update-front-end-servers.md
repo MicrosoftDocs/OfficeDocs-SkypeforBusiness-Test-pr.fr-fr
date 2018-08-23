@@ -35,19 +35,8 @@ Quand vous effectuez la mise à niveau des serveurs, vous devez procéder un dom
     
     1.  Utilisez l’applet de commande `Stop-CsWindowsService -Graceful -Verbose` pour interrompre les nouvelles connexions aux serveurs frontaux que vous allez mettre à niveau.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Si vous effectuez ces opérations pendant un temps d’arrêt programmé des serveurs, vous pouvez exécuter cette applet de commande sans le paramètre « -<strong>Graceful</strong> », comme suit : <strong>Stop-CsWindowsService</strong>. Ceci permet d’arrêter immédiatement les services, sans attendre l’exécution de toutes les demandes de service existantes.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > Si vous effectuez ces opérations pendant un temps d’arrêt programmé des serveurs, vous pouvez exécuter cette applet de commande sans le paramètre « -<strong>Graceful</strong> », comme suit : <strong>Stop-CsWindowsService</strong>. Ceci permet d’arrêter immédiatement les services, sans attendre l’exécution de toutes les demandes de service existantes.    
     2.  Mettez à niveau les serveurs associés à ce domaine de mise à niveau.
     
     3.  Redémarrez les serveurs, puis assurez-vous qu’ils acceptent de nouvelles connexions.

@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-17_
 
 Si vous avez déployé l’archivage ou la surveillance, vous devez sauvegarder ces bases de données conformément à la stratégie de sauvegarde SQL Server de votre organisation.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les paramètres d’archivage et de surveillance sont sauvegardés lors de la sauvegarde du magasin central de gestion. Pour plus d’informations, voir <a href="lync-server-2013-backing-up-core-data-and-settings.md">Sauvegarde des données principales et des paramètres</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les paramètres d’archivage et de surveillance sont sauvegardés lors de la sauvegarde du magasin central de gestion. Pour plus d’informations, voir <a href="lync-server-2013-backing-up-core-data-and-settings.md">Sauvegarde des données principales et des paramètres</a>.
 
 Pour l’archivage et la surveillance, vous pouvez utiliser un outil SQL Server tel que SQL Server Management Studio pour effectuer une sauvegarde manuelle ou utiliser des outils de gestion SQL Server pour planifier des sauvegardes automatiques et régulières.
 

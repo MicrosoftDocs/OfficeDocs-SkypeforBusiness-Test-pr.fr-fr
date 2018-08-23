@@ -19,33 +19,11 @@ Pour effectuer correctement cette procédure, vous devez être connecté au serv
 
 Vous devez configurer les enregistrements DNS avant de publier la topologie dans le Générateur de topologie. En outre, certains des noms de domaine complets utilisés dans la configuration d’un déploiement de Lync Server 2013 sont des noms de domaine complets de serveur logiques et non physiques, par conséquent vous devez reconfigurer les enregistrements DNS avant de publier la topologie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 ne prend pas en charge les domaines en une seule partie. Par exemple, la forêt sans domaine racine <strong>contoso.local</strong> est prise en charge, ce qui n’est pas le cas du domaine racine <strong>local</strong>. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, « Information about configuring Windows for domains with single-label DNS names », à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684" class="uri">http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=300684</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING]  
+> Lync Server 2013 ne prend pas en charge les domaines en une seule partie. Par exemple, la forêt sans domaine racine <strong>contoso.local</strong> est prise en charge, ce qui n’est pas le cas du domaine racine <strong>local</strong>. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, « Information about configuring Windows for domains with single-label DNS names », à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684" class="uri">http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=300684</a>.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le nom défini doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, non un nom de domaine complet. Le Générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. <strong>Utilisez uniquement des caractères standard</strong> (notamment A–Z, a–z, 0–9 et des traits d’union) lors de l’affectation de noms de domaine complets à vos serveurs exécutant Lync Server, des serveurs Edge et des pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard figurant dans un nom de domaine complet ne sont en général pas pris en charge par les serveurs DNS externes et les autorités de certification publiques (lorsque le nom de domaine complet doit être affecté au SN dans le certificat).</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Le nom défini doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, non un nom de domaine complet. Le Générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. <strong>Utilisez uniquement des caractères standard</strong> (notamment A–Z, a–z, 0–9 et des traits d’union) lors de l’affectation de noms de domaine complets à vos serveurs exécutant Lync Server, des serveurs Edge et des pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard figurant dans un nom de domaine complet ne sont en général pas pris en charge par les serveurs DNS externes et les autorités de certification publiques (lorsque le nom de domaine complet doit être affecté au SN dans le certificat).
 
 Pour pouvoir utiliser la topologie une fois qu’elle a été déployée, vous devez vous assurer que les enregistrements Active Directory et DNS sont créés (en vue de prendre en charge des fonctionnalités spécifiques) :
 
@@ -156,19 +134,8 @@ Le tableau ci-dessous indique les architectures de référence présentées dans
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VIP = adresse IP virtuelle de l’équilibreur de la charge matérielle</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> VIP = adresse IP virtuelle de l’équilibreur de la charge matérielle
 
 ## Enregistrements DNS SRV pour le pool de serveurs frontaux
 

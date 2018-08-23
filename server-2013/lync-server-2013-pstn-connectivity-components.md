@@ -45,19 +45,8 @@ Les scénarios d’intégration Voix Entreprise-PBX pris en charge sont les sui
 
   - PBX TDM (multiplexage temporel), avec une passerelle RTC autonome.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé plusieurs passerelles RTC et systèmes SBC en collaboration avec des partenaires agréés et a réalisé plusieurs tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans « Infrastructure qualifiée pour Microsoft Lync » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé plusieurs passerelles RTC et systèmes SBC en collaboration avec des partenaires agréés et a réalisé plusieurs tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans « Infrastructure qualifiée pour Microsoft Lync » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.
 
 Pour plus d’informations sur les partenaires fournissant des solutions Voix Entreprise, consultez le site web des partenaires des communications unifiées de Microsoft à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).
 

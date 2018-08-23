@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Vue d’ensemble de la préparation des services de domaine Active Directory'
+title: "LS 2013 : Vue d’ens. de la prép. des services de domaine Active Directory"
 TOCTitle: Vue d’ensemble de la préparation des services de domaine Active Directory
 ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398869(v=OCS.15)
@@ -43,21 +43,11 @@ Le tableau ci-dessous décrit les étapes à suivre en vue de préparer AD DS p
 <td><p>Étend le schéma Active Directory en ajoutant de nouvelles classes et de nouveaux attributs utilisés par Lync Server.</p>
 <p>Exécutez cette opération une seule fois pour chaque forêt dans votre déploiement où Lync Server sera déployé.</p></td>
 <td><p>Sur le contrôleur de schéma, dans le domaine racine de chaque forêt dans laquelle Lync Server sera déployé.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Il n’est pas nécessaire d’exécuter cette étape dans le domaine racine si vous disposez d’autorisations sur le contrôleur de schéma, mais vous devez être membre du groupe Administrateurs du schéma dans le domaine racine et membre du groupe Administrateurs d’entreprise sur le contrôleur de schéma. Dans une topologie de forêt de ressources, exécutez cette étape uniquement dans la forêt de ressources, et non dans les forêts d’utilisateurs. Dans une topologie de forêt centrale, exécutez cette étape uniquement dans la forêt centrale, et non dans les forêts d’utilisateurs.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Il n’est pas nécessaire d’exécuter cette étape dans le domaine racine si vous disposez d’autorisations sur le contrôleur de schéma, mais vous devez être membre du groupe Administrateurs du schéma dans le domaine racine et membre du groupe Administrateurs d’entreprise sur le contrôleur de schéma. Dans une topologie de forêt de ressources, exécutez cette étape uniquement dans la forêt de ressources, et non dans les forêts d’utilisateurs. Dans une topologie de forêt centrale, exécutez cette étape uniquement dans la forêt centrale, et non dans les forêts d’utilisateurs.
+
+</td>
 </tr>
 <tr class="even">
 <td><p>2.</p></td>
@@ -65,42 +55,22 @@ Le tableau ci-dessous décrit les étapes à suivre en vue de préparer AD DS p
 <td><p>Crée des paramètres globaux et des groupes universels utilisés par Lync Server.</p>
 <p>Exécutez cette opération une seule fois pour chaque forêt dans votre déploiement où Lync Server sera déployé.</p></td>
 <td><p>Dans le domaine racine de chaque forêt dans laquelle Lync Server sera déployé. Pour effectuer cette tâche, vous devez être membre du groupe Administrateurs d’entreprise.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Dans une topologie de forêt de ressources, exécutez cette étape uniquement dans la forêt de ressources, et non dans les forêts d’utilisateurs. Dans une topologie de forêt centrale, exécutez cette étape uniquement dans la forêt centrale, et non dans les forêts d’utilisateurs.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Dans une topologie de forêt de ressources, exécutez cette étape uniquement dans la forêt de ressources, et non dans les forêts d’utilisateurs. Dans une topologie de forêt centrale, exécutez cette étape uniquement dans la forêt centrale, et non dans les forêts d’utilisateurs.
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>3.</p></td>
 <td><p><a href="lync-server-2013-preparing-domains.md">Préparation des domaines pour Lync Server 2013</a></p></td>
 <td><p>Ajoute des autorisations sur les objets utilisés par les membres de groupes universels.</p>
 <p>Exécutez cette opération une seule fois par domaine utilisateur ou domaine serveur.</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous migrez de Lync Server 2013 vers Lync Server 2010, l’Assistant Déploiement peut indiquer que la préparation du domaine est déjà terminée. Vous n’avez pas besoin de relancer la préparation du domaine. Les autorisations n’ont subi aucune modification entre Lync Server 2013 et Lync Server 2010.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Si vous migrez de Lync Server 2013 vers Lync Server 2010, l’Assistant Déploiement peut indiquer que la préparation du domaine est déjà terminée. Vous n’avez pas besoin de relancer la préparation du domaine. Les autorisations n’ont subi aucune modification entre Lync Server 2013 et Lync Server 2010.
+
+</td>
 <td><p>Sur un serveur membre dans chaque domaine où Lync Server sera déployé. Pour effectuer cette tâche, vous devez être membre du groupe Administrateurs du domaine.</p></td>
 </tr>
 </tbody>

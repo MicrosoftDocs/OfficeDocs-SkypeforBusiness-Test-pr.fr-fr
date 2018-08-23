@@ -1,6 +1,6 @@
 ﻿---
-title: Modifier l’action par défaut des clients qui ne sont pas explicitement pris en charge ou restreints
-TOCTitle: Modifier l’action par défaut des clients qui ne sont pas explicitement pris en charge ou restreints
+title: "Mod. l’action par déf. des clients non explicitement pris en ch. ou restreints"
+TOCtitle: "Mod. l’action par déf. des clients non explicitement pris en ch. ou restreints"
 ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520994(v=OCS.15)
 ms:contentKeyID: 49297269
@@ -61,7 +61,7 @@ L’action par défaut à exécuter quand des utilisateurs tentent de se connect
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionPolicy](set-csclientversionpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 
 ## Voir aussi
 

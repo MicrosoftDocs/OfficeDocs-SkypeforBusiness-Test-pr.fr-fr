@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Autres prises en charge et configurations de serveur requises'
+title: "Lync Server 2013 : Autres prises en charge et conf. de serveur requises"
 TOCTitle: Autres prises en charge et configurations de serveur requises
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398577(v=OCS.15)
@@ -51,19 +51,8 @@ Lync Server 2013 requiert l’installation d’autres logiciels sur des composa
 
   - Microsoft Visual C++ 2012 Redistributable
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft Visual C++ 2012 Redistributable s’installe automatiquement lorsque vous installez Lync Server 2013. Vous ne devez pas installer ni utiliser une autre version.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Microsoft Visual C++ 2012 Redistributable s’installe automatiquement lorsque vous installez Lync Server 2013. Vous ne devez pas installer ni utiliser une autre version.
 
   - Module de réécriture d’URL version 2.0 Redistribuable
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des ports - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec des adresses IP publiques'
+title: "LS 2013 : Rés. des ports - SE consol. màé, éq. de ch. DNS avec des ad. IP pub."
 TOCTitle: Résumé des ports - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec des adresses IP publiques
 ms:assetid: f7cbd0f1-841d-4116-8d17-e9d991daa4a8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205394(v=OCS.15)

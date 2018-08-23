@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration logicielle requise pour les outils d’administration'
+title: "Lync Server 2013 : Conf. logicielle requise pour les outils d’administration"
 TOCTitle: Configuration logicielle requise pour les outils d’administration
 ms:assetid: 2fb172c3-7b84-4e49-981c-2a17e7a00a29
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg195653(v=OCS.15)

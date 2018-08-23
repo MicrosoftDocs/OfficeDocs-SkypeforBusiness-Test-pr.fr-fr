@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Pool directeur mis à l’échelle - Équilibreur de charge matérielle'
+title: "Lync Server 2013 : Pool directeur màé - Équilibreur de charge matérielle"
 TOCTitle: Pool directeur mis à l’échelle - Équilibreur de charge matérielle
 ms:assetid: cf34759a-b384-479c-855f-ea5e80a234b6
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205316(v=OCS.15)

@@ -19,19 +19,8 @@ Si vous n’appréciez pas le fonctionnement d’une mise à jour sur vos périp
 
 Vous pouvez supprimer une règle de mise à jour des périphériques à l’aide du Panneau de configuration Lync Server ou de Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour désinstaller une règle que vous avez déjà approuvée (autrement dit, déployée), restaurez-la. Pour plus d’informations, voir <a href="lync-server-2013-restore-a-device-update-rule.md">Restaurer une règle de mise à jour des périphériques</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour désinstaller une règle que vous avez déjà approuvée (autrement dit, déployée), restaurez-la. Pour plus d’informations, voir <a href="lync-server-2013-restore-a-device-update-rule.md">Restaurer une règle de mise à jour des périphériques</a>.
 
 ## Pour réinitialiser une règle de mise à jour des périphériques à l’aide du Panneau de configuration Lync Server
 
@@ -51,37 +40,15 @@ Vous pouvez supprimer une règle de mise à jour des périphériques à l’aide
 
 5.  Cliquez sur **Action**, puis sur **Annuler les mises à jour en attente**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous êtes certain que vous ne souhaiterez jamais déployer les mises à jour que vous avez annulées, vous pouvez les supprimer. Pour plus d’informations, voir <a href="lync-server-2013-remove-a-device-update-rule.md">Supprimer une règle de mise à jour des périphériques</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Si vous êtes certain que vous ne souhaiterez jamais déployer les mises à jour que vous avez annulées, vous pouvez les supprimer. Pour plus d’informations, voir <a href="lync-server-2013-remove-a-device-update-rule.md">Supprimer une règle de mise à jour des périphériques</a>.
 
 ## Réinitialisation d’une règle de mise à jour des périphériques à l’aide d’applets de commande Windows PowerShell
 
 Les règles de mise à jour des périphériques peuvent également être réinitialisées à l’aide de Windows PowerShell et de l’applet de commande **Reset-CsDeviceUpdateRule**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
 
 ## Pour réinitialiser une règle de mise à jour des périphériques spécifique sur un serveur
 
@@ -101,7 +68,7 @@ Les règles de mise à jour des périphériques peuvent également être réinit
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule).
 
 ## Voir aussi
 

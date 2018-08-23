@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-10-02_
 
 Lync Server 2013 prend en charge deux types de flux de travail : groupe de recherche et réponse vocale interactive (IVR). Lors de la création d’un flux de travail, vous pouvez recourir à l’outil de configuration Response Group afin de spécifier la file d’attente à utiliser, ainsi que d’autres paramètres tels qu’un message de bienvenue, l’attente musicale, les heures d’ouverture et les questions posées à l’appelant par l’application Response Group.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise. Si vous souhaitez créer des heures d’ouverture et des dates de vacances prédéfinies pouvant être appliquées à plusieurs flux de travail, vous devez aussi définir ces heures et ces vacances avant de créer un flux de travail qui les utilise.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise. Si vous souhaitez créer des heures d’ouverture et des dates de vacances prédéfinies pouvant être appliquées à plusieurs flux de travail, vous devez aussi définir ces heures et ces vacances avant de créer un flux de travail qui les utilise.
 
 ## Dans cette section
 

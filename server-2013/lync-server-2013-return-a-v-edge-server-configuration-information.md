@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2012-11-01_
 
 Le service Edge A/V permet à vos utilisateurs internes (les utilisateurs connectés au réseau de votre organisation) de partager des fichiers audio et vidéo avec des utilisateurs externes (des utilisateurs qui ne sont pas connectés au réseau de votre organisation). La gestion du service Edge A/V s’effectue à l’aide des paramètres de configuration de ce service. Les paramètres peuvent être configurés au niveau du site ou du service (c’est-à-dire pour un serveur Edge A/V).
 
-Pour retourner les informations relatives aux paramètres de configuration de serveur Edge A/V appliqués dans votre organisation, vous devez utiliser Lync Server Management Shell et l’applet de commande Get-CsAVEdgeConfiguration. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md).
+Pour retourner les informations relatives aux paramètres de configuration de serveur Edge A/V appliqués dans votre organisation, vous devez utiliser Lync Server Management Shell et l’applet de commande Get-CsAVEdgeConfiguration. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAVEdgeConfiguration).
 
 Les informations retournées par l’applet de commande Get-CsAVEdgeConfiguration ressemblent à ceci :
 

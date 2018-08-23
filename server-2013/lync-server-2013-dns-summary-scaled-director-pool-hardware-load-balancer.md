@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé DNS - Pool directeur mis à l’échelle, équilibreur de charge matérielle'
+title: "Lync Server 2013 : Résumé DNS - Pool directeur màé, équilibreur de ch. mat."
 TOCTitle: Résumé DNS - Pool directeur mis à l’échelle, équilibreur de charge matérielle
 ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204655(v=OCS.15)

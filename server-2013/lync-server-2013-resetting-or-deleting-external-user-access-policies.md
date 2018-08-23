@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Réinitialisation ou suppression des stratégies d’accès des utilisateurs externes'
+title: "Lync Server 2013 : Réin. ou suppr. des strat. d’accès des util. externes"
 TOCTitle: Réinitialisation ou suppression des stratégies d’accès des utilisateurs externes
 ms:assetid: 5f9b4528-f4f1-4d52-816d-156c3c7298ad
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg521003(v=OCS.15)

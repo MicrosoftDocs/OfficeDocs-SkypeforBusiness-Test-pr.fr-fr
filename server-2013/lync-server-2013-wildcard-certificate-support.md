@@ -1,5 +1,5 @@
 ﻿---
-title: Prise en charge des certificats comportant des caractères génériques Lync Server 2013
+title: "Prise en ch. des certif. comportant des caractères génériques Lync Server 2013"
 TOCTitle: Prise en charge des certificats comportant des caractères génériques
 ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202161(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-03-21_
 
 Lync Server 2013 utilise des certificats pour assurer le cryptage des communications et l’authentification de l’identité du serveur. Dans certains cas, notamment la publication web via le proxy inverse, la saisie d’un autre nom de sujet (SAN) fort correspondant au nom de domaine complet (FQDN) du serveur hébergeant le service n’est pas requise. Dans de tels cas, il est possible d’utiliser des certificats avec des entrées SAN génériques (appelés également certificats génériques) pour réduire le coût d’un certificat exigé par une autorité de certification publique afin de réduire la complexité du processus de planification pour les certificats.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour conserver les fonctionnalités des périphériques de communications unifiées (UC) tels que les téléphones de bureaux, il est important de tester avec soin le certificat déployé pour garantir le bon fonctionnement des périphériques après avoir implémenté un certificat générique.</td>
-</tr>
-</tbody>
-</table>
-
+> [!WARNING]  
+> Pour conserver les fonctionnalités des périphériques de communications unifiées (UC) tels que les téléphones de bureaux, il est important de tester avec soin le certificat déployé pour garantir le bon fonctionnement des périphériques après avoir implémenté un certificat générique.
 
 Une entrée de certificat n’est pas prise en charge en tant que nom d’objet (aussi appelé nom commun ou CN) pour un rôle donné. Les rôles serveur suivants sont pris en charge lors de l’utilisation d’entrées génériques dans le SAN :
 
@@ -62,19 +51,8 @@ Rôles serveur non traités dans ce chapitre :
 
   - Internes serveur Edge
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour l’interface interne serveur Edge, une entrée générique peut être affectée au SAN et elle est prise en charge. Le SAN associé au serveur Edge interne n’est pas requis et la valeur d’une entrée SAN générique est limitée.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour l’interface interne serveur Edge, une entrée générique peut être affectée au SAN et elle est prise en charge. Le SAN associé au serveur Edge interne n’est pas requis et la valeur d’une entrée SAN générique est limitée.
 
 Pour plus d’informations sur la configuration des certificats, notamment sur l’utilisation des caractères génériques dans les certificats, consultez les rubriques suivantes :
 

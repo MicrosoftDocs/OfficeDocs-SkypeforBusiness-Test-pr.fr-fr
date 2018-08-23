@@ -23,34 +23,12 @@ La figure suivante représente la topologie de jonction SIP dans Lync Server.
 
 Comme le montre le diagramme, un réseau privé virtuel (VPN) IP est utilisé pour la connectivité entre le réseau d’entreprise et le fournisseur de services de réseau téléphonique commuté. L’objectif de ce réseau privé est de fournir la connectivité IP, d’améliorer la sécurité et (éventuellement) d’obtenir des garanties de qualité de service. En raison de la nature d’un VPN, vous n’avez pas besoin d’utiliser TLS pour le trafic de signalisation SIP, ni SRTP pour le trafic multimédia. De ce fait, les connexions entre l’entreprise et le fournisseur de services consistent en des connexions TCP ordinaires pour SIP et des connexions RTP ordinaires (avec le protocole UDP) pour les médias traités par tunnel via un réseau VPN IP. Veillez à ce que tous les pare-feu situés entre les routeurs VPN disposent de ports ouverts pour permettre aux routeurs VPN de communiquer. Par ailleurs, les adresses IP des périmètres externes des routeurs VPN doivent être publiquement routables.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, devez-vous configurer une seule adresse IP et une seule jonction SIP sur chaque serveur de médiation, ou configurer plusieurs jonctions SIP sur chaque serveur de médiation ?<br />
-Si vous avez plusieurs sites centraux, demandez aussi à votre fournisseur de services s’il a la capacité d’activer les connexions vers et à partir d’un autre site central.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, devez-vous configurer une seule adresse IP et une seule jonction SIP sur chaque serveur de médiation, ou configurer plusieurs jonctions SIP sur chaque serveur de médiation ?<br />
+Si vous avez plusieurs sites centraux, demandez aussi à votre fournisseur de services s’il a la capacité d’activer les connexions vers et à partir d’un autre site central.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour les jonctions SIP, nous vous conseillons vivement de déployer des serveurs de médiation autonomes. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour les jonctions SIP, nous vous conseillons vivement de déployer des serveurs de médiation autonomes. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013</a> dans la documentation de déploiement.
 
 ## Sécurisation du serveur de médiation pour la jonction SIP
 

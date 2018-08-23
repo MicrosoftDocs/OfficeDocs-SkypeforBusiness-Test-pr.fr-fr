@@ -27,19 +27,8 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 4.  Dans la page **Région**, cliquez sur la région que vous souhaitez afficher.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher qu’une région à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous ne pouvez afficher qu’une région à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
@@ -63,7 +52,7 @@ Vous pouvez également afficher des informations sur une région réseau à l’
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkRegion](get-csnetworkregion.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
 
 ## Voir aussi
 

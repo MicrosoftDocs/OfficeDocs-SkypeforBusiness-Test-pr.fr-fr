@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Dans le cadre du déploiement de Lync Server, Enterprise Edition ou serveur Standard Edition, le service de carnet d’adresses est installé par défaut. La base de données utilisée par le service de carnet d’adresses (RTCab) est créée sur le serveur SQL Server (pour le Enterprise Edition, il s’agit du serveur SQL Server principal, pour le serveur Standard Edition, du serveur SQL Server colocalisé).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d'informations sur l'utilisation de l'<strong>Éditeur ADSI</strong> pour éditer des attributs d'objets services de domaine Active Directory, voir <a href="http://go.microsoft.com/fwlink/?linkid=330427">Éditeur ADSI</a>. Pour plus d'informations sur un outil dans le kit des ressources, notamment pour le service du carnet d'adesses, voir <a href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d'informations sur l'utilisation de l'<strong>Éditeur ADSI</strong> pour éditer des attributs d'objets services de domaine Active Directory, voir <a href="http://go.microsoft.com/fwlink/?linkid=330427">Éditeur ADSI</a>. Pour plus d'informations sur un outil dans le kit des ressources, notamment pour le service du carnet d'adesses, voir <a href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</a>.
 
 ## Normalisation des numéros de téléphone du serveur de carnet d’adresses
 
@@ -250,19 +239,8 @@ Les numéros dans la colonne **ID** doivent être uniques et ne jamais être ré
 
 Dans les versions précédentes de Lync Server, lors de la modification d’Active Directory, l’administrateur devait exécuter les applets de commande **Update -CSUserDatabase** et **Update –CSAddressBook**Windows PowerShell pour rendre la modification persistante dans la base de données utilisateur Lync Server et la base de données RTCab. Dans Lync Server 2013, le réplicateur d’utilisateurs Lync Server récupèrera les modifications d’Active Directory et mettra à jour la base de données utilisateur Lync Server selon un intervalle configuré. Le réplicateur d’utilisateurs Lync Server propagera rapidement ces modifications dans la base de données RTCab sans que l’administrateur exécute Update-CSAddressBook. Si l’interrogation Web du carnet d’adresses est activée, les modifications seront appliquées aux résultats de recherche par les clients Lync. Les administrateurs devront exécuter Update -CSAddressBook si le téléchargement du fichier de carnet d’adresses est activé.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Par défaut, le réplicateur d’utilisateurs Lync Server s’exécute toutes les 5 minutes. Vous pouvez configurer cet intervalle avec Set -CSUserReplicatorConfiguration -ReplicationCycleInterval &lt;&gt;.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Par défaut, le réplicateur d’utilisateurs Lync Server s’exécute toutes les 5 minutes. Vous pouvez configurer cet intervalle avec Set -CSUserReplicatorConfiguration -ReplicationCycleInterval &lt;&gt;.
 
 ## Filtrage du carnet d’adresses
 
@@ -270,19 +248,8 @@ Les utilisateurs renseignés dans les fichiers du serveur de carnet d’adresses
 
 Vous pouvez utiliser certains bits d’indicateur pour définir un filtre à utiliser sur les attributs du serveur de carnet d’adresses. Par exemple, la présence de certains bits d’indicateurs peut identifier un attribut comme étant un attribut à inclure ou à exclure. Le réplicateur d’utilisateurs filtre les contacts contenant un attribut à exclure et ceux ne contenant pas d’attribut à inclure.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d'informations sur le filtrage du carnet d'adresses, voir <a href="lync-server-2013-address-book-server-cmdlets.md">Cmdlets pour le serveur de carnet d’adresses</a> et <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</a></td>
-</tr>
-</tbody>
-</table>
-
+> [!WARNING]  
+> Pour plus d'informations sur le filtrage du carnet d'adresses, voir <a href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Cmdlets pour le serveur de carnet d’adresses</a> et <a href="http://go.microsoft.com/fwlink/?linkid=330430">Filter Lync 2013 address book</a>
 
 Il existe actuellement trois filtres différents. Le tableau suivant les répertorie.
 
@@ -315,19 +282,8 @@ Il existe actuellement trois filtres différents. Le tableau suivant les répert
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si les deux bits d’indicateur 0x4000 (attribut à exclure) et 0x8000 (attribut à inclure) sont définis, le bit 0x4000 remplace le bit 0x8000 et le contact est exclu.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si les deux bits d’indicateur 0x4000 (attribut à exclure) et 0x8000 (attribut à inclure) sont définis, le bit 0x4000 remplace le bit 0x8000 et le contact est exclu.
 
 Même si vous pouvez filtrer le carnet d’adresses afin de n’inclure que certains utilisateurs, la limitation des entrées n’empêche pas les autres utilisateurs de contacter les utilisateurs filtrés ou d’afficher leur statut de présence. Les utilisateurs peuvent toujours rechercher, envoyer des messages instantanés ou initier manuellement des appels pour les utilisateurs absents du carnet d’adresses en entrant le nom de connexion complet d’un utilisateur. Les informations de contact d’un utilisateur peuvent également être trouvées dans Outlook.
 
@@ -335,30 +291,8 @@ Bien que le fait de disposer d’enregistrements de contacts complets dans les f
 
 Après avoir modifié la table AbAttribute, vous pouvez actualiser les données de la table AbUserEntry en exécutant la commande de l’applet de commande **Update-CsUserDatabase**. Une fois que la réplication du réplicateur d’utilisateurs est terminée, vous pouvez mettre à jour le fichier dans le magasin de fichiers du serveur de carnet d’adresses en exécutant manuellement la commande de l’applet de commande **UpdateCsAddressBook**.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le serveur frontal sur lequel est placé le serveur de carnet d’adresses n’est pas configurable administrativement. Un serveur est choisi au cours du déploiement, il s’agit généralement du premier serveur frontal déployé. En cas d’échec, le service de carnet d’adresses passe sur un autre serveur frontal, sans qu’aucune attention administrative ne soit nécessaire.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Le serveur frontal sur lequel est placé le serveur de carnet d’adresses n’est pas configurable administrativement. Un serveur est choisi au cours du déploiement, il s’agit généralement du premier serveur frontal déployé. En cas d’échec, le service de carnet d’adresses passe sur un autre serveur frontal, sans qu’aucune attention administrative ne soit nécessaire.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous avez consolidé ou modifié votre infrastructure à partir d’un déploiement multi-forêts ou d’un déploiement parent/enfant (par exemple en consolidant votre infrastructure avant de passer à Lync Server), le téléchargement du service de carnet d’adresses et le service de requête web du carnet d’adresses risquent d’échouer pour certains utilisateurs. Lorsqu’il se trouve dans un déploiement comportant plusieurs domaines ou forêts, l’attribut <strong>MsRTCSIP-OriginatorSid</strong> est renseigné sur les objets utilisateur qui rencontrent ce problème. L’attribut <strong>MsRTCSIP-OriginatorSid</strong> doit être défini avec la valeur NULL sur ces objets pour résoudre le problème.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Si vous avez consolidé ou modifié votre infrastructure à partir d’un déploiement multi-forêts ou d’un déploiement parent/enfant (par exemple en consolidant votre infrastructure avant de passer à Lync Server), le téléchargement du service de carnet d’adresses et le service de requête web du carnet d’adresses risquent d’échouer pour certains utilisateurs. Lorsqu’il se trouve dans un déploiement comportant plusieurs domaines ou forêts, l’attribut <strong>MsRTCSIP-OriginatorSid</strong> est renseigné sur les objets utilisateur qui rencontrent ce problème. L’attribut <strong>MsRTCSIP-OriginatorSid</strong> doit être défini avec la valeur NULL sur ces objets pour résoudre le problème.

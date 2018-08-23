@@ -31,19 +31,8 @@ Si vous utilisez les services Internet (IIS) 7.0, nous vous recommandons d’in
 
 La procédure suivante décrit comment modifier les valeurs maximales de threads et de demandes ASP.NET simultanées sur les services Internet (IIS) 7.0 si vous n’installez pas la mise à jour disponible dans l’article de la Base de connaissances 2290617. Toutefois, même si vous installez cette mise à jour, vous devez utiliser la documentation fournie par cet article pour appliquer les mêmes modifications uniquement pour les pools d’applications IIS de mobilité internes et externes. Dans ce cas, vous utilisez un fichier de configuration distinct pour les paramètres ASP.NET.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous appliquez la procédure suivante pour modifier les valeurs maximales, les modifications affectent tous les pools d’applications IIS.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Si vous appliquez la procédure suivante pour modifier les valeurs maximales, les modifications affectent tous les pools d’applications IIS.
 
 Pour plus d’informations sur la configuration de ces paramètres, voir [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0x40c).
 

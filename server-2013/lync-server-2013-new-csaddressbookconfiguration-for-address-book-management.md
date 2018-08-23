@@ -31,5 +31,5 @@ Pour une description détaillée de la commande complète, reportez-vous aux res
 
 #### Autres ressources
 
-[New-CsAddressBookConfiguration](new-csaddressbookconfiguration.md)
+[New-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAddressBookConfiguration)
 

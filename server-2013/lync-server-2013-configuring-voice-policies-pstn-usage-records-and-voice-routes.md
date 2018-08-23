@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration des stratégies de voix, des enregistrements d’utilisation du RTC et des itinéraires des communications vocales'
+title: "LS 2013 : Conf. des strat. de voix, des enr. ut. du RTC et it. des comm. voc."
 TOCTitle: Configuration des stratégies de voix, des enregistrements d’utilisation du RTC et des itinéraires des communications vocales
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398272(v=OCS.15)
@@ -19,19 +19,8 @@ Les stratégies de voix, les enregistrements d’utilisation RTC et les itinéra
 
 La procédure recommandée pour un nouveau déploiement de Voix Entreprise est de commencer à configurer une stratégie de voix qui comprend les enregistrements d’utilisation RTC appropriés, puis d’associer les itinéraires appropriés à chaque enregistrement d’utilisation RTC.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vous pouvez également créer des stratégies de voix avec l’étendue d’<em>utilisateur</em> et les affecter à des utilisateurs ou des groupes individuels.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Vous pouvez également créer des stratégies de voix avec l’étendue d’<em>utilisateur</em> et les affecter à des utilisateurs ou des groupes individuels.
 
 Pour connaître en détail la marche à suivre pour effectuer chacune de ces tâches, reportez-vous aux procédures dans cette section.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Affichage des informations de configuration de l’enregistrement des détails des appels
-TOCTitle: Affichage des informations de configuration de l’enregistrement des détails des appels
+title: "Aff. des info. de configuration de l’enregistrement des détails des appels"
+TOCtitle: "Aff. des info. de configuration de l’enregistrement des détails des appels"
 ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688096(v=OCS.15)
 ms:contentKeyID: 49891397
@@ -17,7 +17,7 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.
 
-Lorsque vous installez Microsoft Lync Server 2013, une collection globale et unique de paramètres de configuration d’enregistrement des détails des appels est automatiquement créée. Les administrateurs ont également la possibilité de créer des collections de paramètres personnalisées applicables à des sites individuels. Vous pouvez consulter les paramètres de configuration d’enregistrement des détails des appels en cours d’utilisation au sein de votre organisation à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [Get-CsCdrConfiguration](get-cscdrconfiguration.md).
+Lorsque vous installez Microsoft Lync Server 2013, une collection globale et unique de paramètres de configuration d’enregistrement des détails des appels est automatiquement créée. Les administrateurs ont également la possibilité de créer des collections de paramètres personnalisées applicables à des sites individuels. Vous pouvez consulter les paramètres de configuration d’enregistrement des détails des appels en cours d’utilisation au sein de votre organisation à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
 
 ## Pour afficher les informations de configuration d’enregistrement des détails des appels à l’aide du Panneau de configuration Lync Server
 
@@ -44,5 +44,5 @@ Vous pouvez également consulter les paramètres de configuration d’enregistre
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsCdrConfiguration](get-cscdrconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
 

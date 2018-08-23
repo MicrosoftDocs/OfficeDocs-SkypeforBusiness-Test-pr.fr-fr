@@ -1,6 +1,6 @@
 ﻿---
-title: Activer ou désactiver une application de serveur MSPL (Microsoft SIP Processing Language)
-TOCTitle: Activer ou désactiver une application de serveur MSPL (Microsoft SIP Processing Language)
+title: "Act. ou dés une app. de serveur MSPL (Microsoft SIP Processing Language)"
+TOCtitle: "Act. ou dés une app. de serveur MSPL (Microsoft SIP Processing Language)"
 ms:assetid: b20af38d-224a-4459-991d-0b7eabb3ca7c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182573(v=OCS.15)
 ms:contentKeyID: 49298579

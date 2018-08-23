@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Prise en charge des clients et des serveurs pour le routage géodépendant'
+title: "Lync Server 2013 : Prise en ch. des clients et des serv. pour routage géodép."
 TOCTitle: Prise en charge des clients et des serveurs pour le routage géodépendant
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994024(v=OCS.15)
@@ -141,19 +141,8 @@ Le tableau ci-dessous identifie les clients pris en charge par le routage géod�
 
   
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour désactiver le protocole VoIP pour les clients Lync Mobile 2013, affectez une stratégie de mobilité avec le paramètre Audio/Vidéo IP désélectionné pour tous les utilisateurs pour lesquels le routage géodépendant est activé. Pour plus d’informations sur la stratégie de mobilité, reportez-vous à <a href="new-csmobilitypolicy.md">New-CsMobilityPolicy</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour désactiver le protocole VoIP pour les clients Lync Mobile 2013, affectez une stratégie de mobilité avec le paramètre Audio/Vidéo IP désélectionné pour tous les utilisateurs pour lesquels le routage géodépendant est activé. Pour plus d’informations sur la stratégie de mobilité, reportez-vous à <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</a>.
 
 ## Voir aussi
 

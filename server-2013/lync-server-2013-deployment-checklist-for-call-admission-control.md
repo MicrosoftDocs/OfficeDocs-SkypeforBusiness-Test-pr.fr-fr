@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Liste de vérification du déploiement pour le contrôle d’admission des appels'
+title: "Lync Server 2013 : Liste de vér. du dépl. pr le contr. d’adm. des appels"
 TOCTitle: Liste de vérification du déploiement pour le contrôle d’admission des appels
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398631(v=OCS.15)

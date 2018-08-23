@@ -47,33 +47,11 @@ L’application Response Group utilise les ports suivants :
 
   - **Port 8404**   Utilisé pour les communications entre les serveurs
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Ce port est utilisé pour le service d’établissement des correspondances et est nécessaire quand l’application Response Group est déployée dans un pool qui comporte plusieurs serveur frontal.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > Ce port est utilisé pour le service d’établissement des correspondances et est nécessaire quand l’application Response Group est déployée dans un pool qui comporte plusieurs serveur frontal.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande <strong>Set-CsApplicationServer</strong>. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation de Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande <strong>Set-CsApplicationServer</strong>. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation de Lync Server Management Shell.
 
 ## Conditions requises pour les fichiers audio
 
@@ -105,19 +83,8 @@ Vous pouvez utiliser Microsoft Expression Encoder 4 pour convertir un fichier a
 
 L’outil de configuration Response Group prend en charge les combinaisons de systèmes d’exploitation et de navigateurs indiquées dans le tableau suivant.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.
 
 ### Systèmes d’exploitation et navigateurs web pris en charge
 
@@ -168,19 +135,8 @@ L’outil de configuration Response Group prend en charge les combinaisons de s
 
 La console des agents prend en charge les combinaisons de systèmes d’exploitation et de navigateurs indiquées dans le tableau suivant.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.
 
 ### Systèmes d’exploitation et navigateurs web pris en charge
 

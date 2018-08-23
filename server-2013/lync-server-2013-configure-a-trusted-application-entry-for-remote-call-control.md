@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant'
+title: "Lync Server 2013 : Conf. d’une entrée d’app. Appr. pr contrôle d’appel distant"
 TOCTitle: Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558636(v=OCS.15)
@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2015-11-02_
 
 Vous devez configurer la passerelle SIP/CSTA en tant qu’application approuvée pour que Lync Server achemine les appels vers la passerelle au moyen d’un itinéraire statique.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous effectuez une migration d’utilisateurs à partir d’une version précédente du déploiement Lync Server, vérifiez que vous avez supprimé toutes les entrées d’applications approuvées existantes (auparavant appelées entrées d’hôtes autorisés) que vous aviez créées pour la passerelle SIP/CSTA avant d’appliquer la procédure indiquée dans cette rubrique. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Si vous effectuez une migration d’utilisateurs à partir d’une version précédente du déploiement Lync Server, vérifiez que vous avez supprimé toutes les entrées d’applications approuvées existantes (auparavant appelées entrées d’hôtes autorisés) que vous aviez créées pour la passerelle SIP/CSTA avant d’appliquer la procédure indiquée dans cette rubrique. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</a>.
 
 ## Pour configurer une entrée d’application approuvée pour la passerelle SIP/CSTA
 

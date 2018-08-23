@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration système requise pour les composants d’accès des utilisateurs externes'
+title: "Lync Server 2013 : Conf. syst. req. pour les composants d’accès des ut. Ext."
 TOCTitle: Configuration système requise pour les composants d’accès des utilisateurs externes
 ms:assetid: 4139b9a5-5b98-42a8-bfcc-6b371f1980db
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425919(v=OCS.15)

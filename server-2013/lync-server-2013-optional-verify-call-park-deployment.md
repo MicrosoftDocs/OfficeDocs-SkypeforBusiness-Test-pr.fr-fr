@@ -19,19 +19,8 @@ Une fois que vous avez installé et configuré le parcage d’appel, vérifiez s
 
   - Appelez un utilisateur qui a activé le parcage d’appel et demandez-lui de parquer l’appel.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous avez activé le parcage d’appel dans une stratégie de voix juste avant de procéder à ce test, l’utilisateur qui parque l’appel doit se déconnecter de Lync Server puis se connecter à nouveau pour pouvoir voir l’option parcage d’appel dans la liste de transfert d’appel.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous avez activé le parcage d’appel dans une stratégie de voix juste avant de procéder à ce test, l’utilisateur qui parque l’appel doit se déconnecter de Lync Server puis se connecter à nouveau pour pouvoir voir l’option parcage d’appel dans la liste de transfert d’appel.
 
   - Composez le numéro orbite pour récupérer l’appel.
 

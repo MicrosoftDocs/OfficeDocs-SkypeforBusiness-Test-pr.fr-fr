@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de l’intégration de Lync Server local avec Exchange Online'
+title: "Lync Server 2013 : Conf. de l’int. de Lync Server local avec Exchange Online"
 TOCTitle: Configuration de l’intégration de Lync Server 2013 local avec Exchange Online
 ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh533880(v=OCS.15)
@@ -41,19 +41,8 @@ Pour plus d’informations sur l’utilisation de Lync Server Management Shell, 
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous utilisez Office 365 activé par 21Vianet en Chine, remplacez dans cet exemple la valeur du paramètre <strong>ProxyFqdn</strong> (« exap.um.outlook.com ») par le FQDN du service activé par 21Vianet: « exap.um.partner.outlook.cn ».</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous utilisez Office 365 activé par 21Vianet en Chine, remplacez dans cet exemple la valeur du paramètre <strong>ProxyFqdn</strong> (« exap.um.outlook.com ») par le FQDN du service activé par 21Vianet: « exap.um.partner.outlook.cn ».
 
   - **Identity** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez (par exemple, « Exchange Online »). Les valeurs qui contiennent des espaces doivent être placées entre guillemets doubles.
 

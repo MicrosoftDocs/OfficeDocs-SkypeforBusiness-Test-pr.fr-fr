@@ -1,6 +1,6 @@
 ﻿---
-title: Création ou modification d’une collection de paramètres de configuration de serveur Edge A/V
-TOCTitle: Création ou modification d’une collection de paramètres de configuration de serveur Edge A/V
+title: "Créa. ou mod. d’une collection de param. de configuration de serveur Edge A/V"
+TOCtitle: "Créa. ou mod. d’une collection de param. de configuration de serveur Edge A/V"
 ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688039(v=OCS.15)
 ms:contentKeyID: 49891327
@@ -25,7 +25,7 @@ Quand vous installez Lync Server, un ensemble global de paramètres de configur
 
   - Les paramètres au niveau de l’étendue Global seront utilisés uniquement si aucun autre paramètre du service n’est configuré sur le serveur et s’il n’existe aucun paramètre pour le site où ce serveur est situé.
 
-Tous vos paramètres peuvent ensuite être modifiés à l’aide de l’applet de commande Set-CsAVEdgeConfiguration. Pour plus d’informations, voir les rubriques d’aide relatives aux applets de commande [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) et [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md).
+Tous vos paramètres peuvent ensuite être modifiés à l’aide de l’applet de commande Set-CsAVEdgeConfiguration. Pour plus d’informations, voir les rubriques d’aide relatives aux applets de commande [New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) et [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration).
 
 ## Création de paramètres de configuration Edge A/V au niveau de l’étendue Site
 
@@ -61,6 +61,6 @@ Tous vos paramètres peuvent ensuite être modifiés à l’aide de l’applet d
 #### Autres ressources
 
 [Serveurs Edge Audio/Vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

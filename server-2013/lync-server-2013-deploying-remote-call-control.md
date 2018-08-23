@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-10-20_
 
 Cette section vous guide tout au long du processus de déploiement de la fonctionnalité de contrôle d’appel distant sur les utilisateurs de votre organisation.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Même si les fonctionnalités de contrôle d’appel distant sont accessibles aux utilisateurs distants lorsqu’ils se trouvent à l’extérieur du pare-feu de votre organisation, les détails relatifs au déploiement de scénarios d’accès externe ne rentrent pas dans le cadre de cette documentation. Pour plus d’informations sur le déploiement de l’accès des utilisateurs externes, reportez-vous à <a href="lync-server-2013-deploying-external-user-access.md">Déploiement de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Même si les fonctionnalités de contrôle d’appel distant sont accessibles aux utilisateurs distants lorsqu’ils se trouvent à l’extérieur du pare-feu de votre organisation, les détails relatifs au déploiement de scénarios d’accès externe ne rentrent pas dans le cadre de cette documentation. Pour plus d’informations sur le déploiement de l’accès des utilisateurs externes, reportez-vous à <a href="lync-server-2013-deploying-external-user-access.md">Déploiement de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement.
 
 ## Dans cette section
 

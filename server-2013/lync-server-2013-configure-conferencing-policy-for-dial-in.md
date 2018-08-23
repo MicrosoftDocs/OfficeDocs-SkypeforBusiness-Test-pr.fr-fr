@@ -27,19 +27,8 @@ Vérifiez les champs suivants dans votre stratégie de conférence :
 
   - **Autoriser l’accès sortant des participants non-Voix Entreprise**   Ce paramètre autorise les organisateurs et les participants aux réunions non activés pour Voix Entreprise à participer au volet audio de la conférence en utilisant un appel sortant. Celui-ci est autorisé en fonction de la stratégie de voix affectée à l’organisateur. Il n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut. Sa valeur par défaut est désactivée.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour activer cette fonctionnalité, une stratégie de voix appropriée doit être affectée à un organisateur de réunion non activé pour Voix Entreprise afin d’autoriser les appels sortants depuis une conférence qu’il aura organisée. Il est possible d’affecterr une stratégie de voix à un utilisateur non activé pour Voix Entreprise depuis Lync Server Management Shell. Si aucune stratégie de voix n’est explicitement affectée à l’utilisateur, la stratégie de voix globale est employée pour autoriser la demande d’appel sortant. Cette stratégie est également appliquée en l’absence de stratégie de voix de site. </td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour activer cette fonctionnalité, une stratégie de voix appropriée doit être affectée à un organisateur de réunion non activé pour Voix Entreprise afin d’autoriser les appels sortants depuis une conférence qu’il aura organisée. Il est possible d’affecterr une stratégie de voix à un utilisateur non activé pour Voix Entreprise depuis Lync Server Management Shell. Si aucune stratégie de voix n’est explicitement affectée à l’utilisateur, la stratégie de voix globale est employée pour autoriser la demande d’appel sortant. Cette stratégie est également appliquée en l’absence de stratégie de voix de site. 
 
 La procédure de cette section explique comment modifier la stratégie de conférence. Pour plus d’informations sur la façon de configurer tous les paramètres qui définissent l’expérience des participants dans la stratégie de conférence par défaut, reportez-vous à [Création ou modification d’une collection de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md). Pour plus d’informations sur la façon de créer une stratégie de conférence pour un utilisateur ou un groupe d’utilisateurs spécifique, reportez-vous à [Création ou modification d’une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md). Pour obtenir une liste de tous les paramètres de stratégie de conférence disponibles, reportez-vous à [Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 

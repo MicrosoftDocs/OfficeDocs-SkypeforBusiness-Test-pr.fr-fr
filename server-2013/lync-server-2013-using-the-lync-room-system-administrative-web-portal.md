@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : utilisation du portail web d’administration du système de salle Lync'
+title: "Lync Server 2013 : ut. du portail web d’admin. du syst. de salle Lync"
 TOCTitle: Utilisation du portail web d’administration du système de salle Lync
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn743660(v=OCS.15)
@@ -73,29 +73,12 @@ La section Intégrité fournit une indication visuelle de l’intégrité de la 
 
 ## Remarques supplémentaires concernant le portail web d’administration
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Pour des raisons de sécurité, le portail web d’administration vous déconnecte automatiquement toutes les 15 minutes.</p></li>
-<li><p>Les modifications des paramètres ne sont appliquées qu’une fois que le système de stockage redondant en local a été redémarré.</p></li>
-<li><p>Sur le portail web d’administration du stockage redondant en local, les notifications sont mises en avant. En d’autres termes, elles ne disparaissent pas.</p></li>
-<li><p>Les notifications s’affichent uniquement une fois que vous avez actualisé la page.</p></li>
-<li><p>Le statut des salles de stockage redondant en local s’affiche une fois que vous avez actualisé la page.</p></li>
-<li><p>Si le mot de passe du compte LRSApp arrive à expiration, vous ne pourrez pas voir le statut des salles. Configurez le mot de passe du compte LRSAppuser de sorte qu’il n’arrive jamais à expiration ou veillez à le mettre à jour avant qu’il arrive à expiration.</p></li>
-<li><p>Le portail web d’administration du stockage redondant local est pris en charge pour les déploiements locaux uniquement.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul><li><p>Pour des raisons de sécurité, le portail web d’administration vous déconnecte automatiquement toutes les 15 minutes.</p></li><li><p>Les modifications des paramètres ne sont appliquées qu’une fois que le système de stockage redondant en local a été redémarré.</p></li><li><p>Sur le portail web d’administration du stockage redondant en local, les notifications sont mises en avant. En d’autres termes, elles ne disparaissent pas.</p></li>
+> <li><p>Les notifications s’affichent uniquement une fois que vous avez actualisé la page.</p></li>
+> <li><p>Le statut des salles de stockage redondant en local s’affiche une fois que vous avez actualisé la page.</p></li>
+> <li><p>Si le mot de passe du compte LRSApp arrive à expiration, vous ne pourrez pas voir le statut des salles. Configurez le mot de passe du compte LRSAppuser de sorte qu’il n’arrive jamais à expiration ou veillez à le mettre à jour avant qu’il arrive à expiration.</p></li>
+> <li><p>Le portail web d’administration du stockage redondant local est pris en charge pour les déploiements locaux uniquement.</p></li></ul>
 
 
 ## Identification et résolution des problèmes

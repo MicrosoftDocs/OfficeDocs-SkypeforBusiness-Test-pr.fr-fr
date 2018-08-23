@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Composants et topologies utilisés pour le serveur de médiation'
+title: "Lync Server 2013 : Comp. et topologies utilisés pour le serveur de médiation"
 TOCTitle: Composants et topologies utilisés pour le serveur de médiation
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398537(v=OCS.15)

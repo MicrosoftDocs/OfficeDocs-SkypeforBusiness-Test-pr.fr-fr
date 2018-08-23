@@ -25,19 +25,8 @@ Pour déployer des serveurs Edge, vous devez d’abord déployer un pool interne
 
 Pour plus d’informations sur ces outils, reportez-vous à [Liste de vérification du déploiement pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous avez auparavant utilisé le Générateur de topologie pour définir une topologie complète, dont la topologie Edge, vous pouvez ignorer les tâches <a href="lync-server-2013-define-your-edge-topology.md">Définition de la topologie Edge dans Lync Server 2013</a> et <a href="lync-server-2013-publish-your-topology.md">Publication de la topologie dans Lync Server 2013</a> dans cette section, mais vous devez effectuer la tâche <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportation de la topologie Lync Server 2013 et copie vers le support externe de l’installation Edge</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous avez auparavant utilisé le Générateur de topologie pour définir une topologie complète, dont la topologie Edge, vous pouvez ignorer les tâches <a href="lync-server-2013-define-your-edge-topology.md">Définition de la topologie Edge dans Lync Server 2013</a> et <a href="lync-server-2013-publish-your-topology.md">Publication de la topologie dans Lync Server 2013</a> dans cette section, mais vous devez effectuer la tâche <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportation de la topologie Lync Server 2013 et copie vers le support externe de l’installation Edge</a>.
 
 ## Dans cette section
 

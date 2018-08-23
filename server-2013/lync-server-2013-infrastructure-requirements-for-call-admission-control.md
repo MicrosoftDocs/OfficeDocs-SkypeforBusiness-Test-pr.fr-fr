@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration requise pour l’infrastructure pour le contrôle d’admission des appels'
+title: "Lync Server 2013 : Conf. req. pour l’infras. pour contrôle d’adm. des appels"
 TOCTitle: Configuration requise pour l’infrastructure pour le contrôle d’admission des appels
 ms:assetid: 52be8826-5796-407b-92fc-32f29a6a933c
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398346(v=OCS.15)

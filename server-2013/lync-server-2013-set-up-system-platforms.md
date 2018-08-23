@@ -29,19 +29,8 @@ Chaque topologie requiert au moins un serveur équipé de Lync Server 2013 et u
 
 Vous pouvez aussi déployer un serveur de conversations permanentes avec Lync Server 2013Standard Edition. Dans ce cas, le serveur frontal**PersistentChatService** est colocalisé sur le serveur Standard Edition et vous pouvez déployer le serveur principal**PersistentChatStore** sur l’instance SQL Server Express locale.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nous ne prenons pas en charge le serveur de conversations permanentesStandard Edition pour la haute disponibilité. Les performances et l’évolutivité seraient limitées. De plus, nous ne prenons en charge que les nouveaux déploiements du serveur Standard Edition du serveur de conversations permanentes. Nous ne prenons pas en charge la mise à jour de Lync Server 2010, serveur Group Chat vers un serveur de conversations permanentesLync Server 2013Standard Edition.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Nous ne prenons pas en charge le serveur de conversations permanentesStandard Edition pour la haute disponibilité. Les performances et l’évolutivité seraient limitées. De plus, nous ne prenons en charge que les nouveaux déploiements du serveur Standard Edition du serveur de conversations permanentes. Nous ne prenons pas en charge la mise à jour de Lync Server 2010, serveur Group Chat vers un serveur de conversations permanentesLync Server 2013Standard Edition.
 
 ## Voir aussi
 

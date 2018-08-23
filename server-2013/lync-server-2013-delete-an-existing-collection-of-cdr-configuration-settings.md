@@ -1,6 +1,6 @@
 ﻿---
-title: Suppression d’une collection existante de paramètres de configuration de l’enregistrement des détails des appels
-TOCTitle: Suppression d’une collection existante de paramètres de configuration de l’enregistrement des détails des appels
+title: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
+TOCtitle: "Supp. d’une coll. existante de par. de conf. de l’enr. des détails des appels"
 ms:assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688128(v=OCS.15)
 ms:contentKeyID: 49891440
@@ -21,7 +21,7 @@ Quand vous installez Microsoft Lync Server 2013, une unique collection globale 
 
 Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, le vidage est, par défaut, activé dans une collection de paramètres de configuration CDR. Si vous modifiez la collection globale afin que le vidage soit désactivé, et que vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que le vidage sera de nouveau activé.
 
-Vous pouvez supprimer les paramètres de configuration CDR à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Vous pouvez supprimer les paramètres de configuration CDR à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 
 ## Pour supprimer les paramètres de configuration CDR avec le Panneau de configuration Lync Server
 
@@ -55,5 +55,5 @@ Vous pouvez supprimer les paramètres de configuration d’enregistrement des d�
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration).
 

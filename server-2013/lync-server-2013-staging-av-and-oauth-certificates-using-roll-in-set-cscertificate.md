@@ -1,6 +1,6 @@
 ﻿---
-title: Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate
-TOCTitle: Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate
+title: "Prép. de cert. AV et OAuth dans LS 2013 grâce à -Roll dans app. comm. Set-CsCertificate"
+TOCtitle: "Prép. de cert. AV et OAuth dans LS 2013 grâce à -Roll dans app. comm. Set-CsCertificate"
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ660292(v=OCS.15)
 ms:contentKeyID: 49891265
@@ -17,41 +17,16 @@ _**Dernière rubrique modifiée :** 2012-11-13_
 
 Les communications audio/vidéo (A/V) constituent un composant clé de Microsoft Lync Server 2013. Les fonctionnalités telles que le partage d’applications et la conférence audio et vidéo reposent sur les certificats attribués au service Edge A/V, en particulier le service d’authentification A/V.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ol>
-<li><p>Cette nouvelle fonctionnalité a été conçue pour le service Edge A/V et le certificat <em>OAuthTokenIssuer</em>. D’autres types de certificat peuvent être configurés, de même que le service Edge A/V et le type de certificat OAuth, mais ils ne bénéficieront pas du comportement de coexistence dont bénéficiera le certificat du service Edge A/V .</p></li>
-<li><p>Les applets de commande PowerShell Lync Server Management Shell utilisés pour gérer les certificats Microsoft Lync Server 2013 font référence au certificat du service Edge A/V en tant que type <em>AudioVideoAuthentication</em> et le certificat OAuthServer en tant que type <em>OAuthTokenIssuer</em>. Dans la suite de cette rubrique, les certificats seront désignés par le même type d’identificateur, <em>AudioVideoAuthentication</em> et <em>OAuthTokenIssuer</em> de manière à les identifier de manière unique.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ol>
+> <li><p>Cette nouvelle fonctionnalité a été conçue pour le service Edge A/V et le certificat <em>OAuthTokenIssuer</em>. D’autres types de certificat peuvent être configurés, de même que le service Edge A/V et le type de certificat OAuth, mais ils ne bénéficieront pas du comportement de coexistence dont bénéficiera le certificat du service Edge A/V .</p></li>
+> <li><p>Les applets de commande PowerShell Lync Server Management Shell utilisés pour gérer les certificats Microsoft Lync Server 2013 font référence au certificat du service Edge A/V en tant que type <em>AudioVideoAuthentication</em> et le certificat OAuthServer en tant que type <em>OAuthTokenIssuer</em>. Dans la suite de cette rubrique, les certificats seront désignés par le même type d’identificateur, <em>AudioVideoAuthentication</em> et <em>OAuthTokenIssuer</em> de manière à les identifier de manière unique.</p></li></ol>
 
 
 Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration de celui-ci entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Une nouvelle fonctionnalité de Lync Server 2013 corrigera ce problème ; la possibilité de créer un nouveau certificat transitoire avant l’expiration de l’ancien certificat, et la possibilité pour les deux certificats de continuer à fonctionner pendant un certain temps. Cette fonction utilise une fonctionnalité mise à jour dans l’applet de commande Set-CsCertificate de Lync Server Management Shell. Le nouveau paramètre –Roll, avec le paramètre –EffectiveDate existant, placera le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’utilisation des applets de commande Lync Server Management Shell pour gérer les certificats vous permet de demander des certificats distincts pour chaque objectif du serveur Edge. L’utilisation de l’Assistant Certificat dans l’Assistant Déploiement de Lync Server vous aide à créer des certificats, mais il s’agit généralement du type <strong>default</strong> qui regroupe toutes les utilisations de certificat du serveur Edge dans un seul certificat. La pratique recommandée si vous souhaitez utiliser la fonctionnalité de certificat propagé consiste à dissocier le certificat AudioVideoAuthentication des autres finalités du certificat. Vous pouvez configurer et créer un certificat transitoire de type Default, mais seule la partie AudioVideoAuthentication du certificat combiné bénéficiera de cette création transitoire. Par exemple, un utilisateur engagé dans une conversation de messagerie instantanée au moment de l’expiration du certificat devra se déconnecter, puis se reconnecter pour pouvoir utiliser le nouveau certificat associé au service Edge d’accès. Le même comportement se produira pour un utilisateur engagé dans une conférence web utilisant le service Edge de conférence web. Le certificat OAuthTokenIssuer est un type spécifique partagé sur tous les serveurs. Vous créez et gérez le certificat dans un emplacement et ce dernier est stocké dans le magasin central de gestion pour tous les autres serveurs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!TIP]  
+> L’utilisation des applets de commande Lync Server Management Shell pour gérer les certificats vous permet de demander des certificats distincts pour chaque objectif du serveur Edge. L’utilisation de l’Assistant Certificat dans l’Assistant Déploiement de Lync Server vous aide à créer des certificats, mais il s’agit généralement du type <strong>default</strong> qui regroupe toutes les utilisations de certificat du serveur Edge dans un seul certificat. La pratique recommandée si vous souhaitez utiliser la fonctionnalité de certificat propagé consiste à dissocier le certificat AudioVideoAuthentication des autres finalités du certificat. Vous pouvez configurer et créer un certificat transitoire de type Default, mais seule la partie AudioVideoAuthentication du certificat combiné bénéficiera de cette création transitoire. Par exemple, un utilisateur engagé dans une conversation de messagerie instantanée au moment de l’expiration du certificat devra se déconnecter, puis se reconnecter pour pouvoir utiliser le nouveau certificat associé au service Edge d’accès. Le même comportement se produira pour un utilisateur engagé dans une conférence web utilisant le service Edge de conférence web. Le certificat OAuthTokenIssuer est un type spécifique partagé sur tous les serveurs. Vous créez et gérez le certificat dans un emplacement et ce dernier est stocké dans le magasin central de gestion pour tous les autres serveurs.
 
 Des informations supplémentaires sont nécessaires pour bien comprendre vos options et spécifications quand vous utilisez l’applet de commande Set-CsCertificate, notamment quand vous l’utilisez pour créer des certificats transitoires avant que le certificat actuel n’expire. Le paramètre –Roll est important, mais n’a essentiellement qu’une seule utilité. Si vous le définissez en tant que paramètre, vous indiquez à Set-CsCertificate que vous fournirez des informations sur le certificat qui sera affecté, d’après le paramètre –Type (par exemple AudioVideoAuthentication et OAuthTokenIssuer), quand le certificat entrera en vigueur selon le paramètre –EffectiveDate.
 
@@ -75,19 +50,8 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
 
 4.  Configurez le certificat importé à l’aide de l’applet de commande Set-CsCertificate et utilisez le paramètre –Roll avec le paramètre –EffectiveDate. La date d’effet doit être définie comme étant l’heure d’expiration du certificat actuel (14:00:00 ou 2:00:00 PM) moins la durée de vie du jeton, dont la valeur par défaut est de huit heures. Cela donne l’heure à laquelle le certificat doit être défini comme étant actif : –EffectiveDate \<string\>: “7/22/2012 6:00:00 AM”.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour un pool de serveurs Edge, tous les certificats AudioVideoAuthentication doivent être déployés et configurés pour la date et à l’heure définies par le paramètre –EffectiveDate du premier certificat déployé afin d’éviter une possible perturbation des communications A/V en raison de l’expiration du certificat le plus ancien avant que tous les jetons des clients et consommateurs aient été renouvelés à l’aide du nouveau certificat.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!IMPORTANT]  
+    > Pour un pool de serveurs Edge, tous les certificats AudioVideoAuthentication doivent être déployés et configurés pour la date et à l’heure définies par le paramètre –EffectiveDate du premier certificat déployé afin d’éviter une possible perturbation des communications A/V en raison de l’expiration du certificat le plus ancien avant que tous les jetons des clients et consommateurs aient été renouvelés à l’aide du nouveau certificat.    
     Commande Set-CsCertificate avec les paramètres –Roll et –EffectiveTime :
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
@@ -96,19 +60,8 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2012 6:00:00 AM"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le format de la date d’effet doit correspondre à celui du paramètre régional et linguistique de votre serveur. Cet exemple utilise le paramètre régional et linguistique Anglais (États-Unis)</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le format de la date d’effet doit correspondre à celui du paramètre régional et linguistique de votre serveur. Cet exemple utilise le paramètre régional et linguistique Anglais (États-Unis)
 
 Une représentation chronologique constitue un moyen efficace pour mieux comprendre le processus utilisé par Set-CsCertificate, -Roll et –EffectiveDate pour créer un certificat intermédiaire permettant d’émettre de nouveaux jetons AudioVideoAuthentication tout en continuant à utiliser un certificat existant pour valider les jetons AudioVideoAuthentication en cours d’utilisation par les consommateurs.
 
@@ -138,19 +91,8 @@ Une fois la date d’effet atteinte (7/22/2012 6:00:00 AM), tous les nouveaux je
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2012 1:00:00 PM"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le format de la date d’effet doit correspondre à celui du paramètre régional et linguistique de votre serveur. Cet exemple utilise le paramètre régional et linguistique Anglais (États-Unis)</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le format de la date d’effet doit correspondre à celui du paramètre régional et linguistique de votre serveur. Cet exemple utilise le paramètre régional et linguistique Anglais (États-Unis)
 
 Quand la date d’effet est atteinte (7/21/2012 1:00:00 AM), tous les nouveaux jetons sont émis par le nouveau certificat. Lors de la validation des jetons, ces derniers sont d’abord validés par rapport au nouveau certificat. Si la validation échoue, l’ancien certificat est testé. Le processus consistant à tester le nouveau certificat puis à utiliser l’ancien certificat continuera jusqu’à l’expiration de l’ancien certificat. Une fois l’ancien certificat expiré (7/22/2012 2:00:00 PM), les jetons seront uniquement validés par le nouveau certificat. L’ancien certificat peut être supprimé en toute sécurité à l’aide de l’applet de commande Remove-CsCertificate et du paramètre –Previous.
 
@@ -166,6 +108,6 @@ Quand la date d’effet est atteinte (7/21/2012 1:00:00 AM), tous les nouveaux j
 #### Autres ressources
 
 [Configuration des certificats de serveur Edge pour Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](set-cscertificate.md)  
-[Remove-CsCertificate](remove-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)
 

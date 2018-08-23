@@ -1,5 +1,5 @@
 ﻿---
-title: Lync Server 2013 comporte des nouvelles fonctionnalités de contrôle d’accès basé sur un rôle
+title: "Lync Server 2013 comporte des nlles fonct. de contr. d’accès basé sur un rôle"
 TOCTitle: Nouvelles fonctionnalités de contrôle d’accès basé sur un rôle (RBAC)
 ms:assetid: 22b4ac42-f234-4b86-bb0c-f20d476205fa
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398297(v=OCS.15)

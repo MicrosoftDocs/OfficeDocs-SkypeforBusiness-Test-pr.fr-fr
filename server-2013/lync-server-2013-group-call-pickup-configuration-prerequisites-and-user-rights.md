@@ -1,6 +1,6 @@
 ﻿---
-title: Droits d’utilisateur requis et éléments prérequis pour la configuration de la prise d’appel de groupe
-TOCTitle: Droits d’utilisateur requis et éléments prérequis pour la configuration de la prise d’appel de groupe
+title: "Droits d’ut. requis et élém. prérequis pour conf. de la prise d’appel de gr."
+TOCtitle: "Droits d’ut. requis et élém. prérequis pour conf. de la prise d’appel de gr."
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945641(v=OCS.15)
 ms:contentKeyID: 53095454
@@ -49,19 +49,8 @@ Selon la tâche de configuration de prise d’appel de groupe, l’un des rôles
 
   - **CsAdministrator** : ce rôle d’administrateur peut exécuter toutes les tâches des rôles CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur les droits d’administration, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d’informations sur les droits d’administration, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.
 
 ## Voir aussi
 

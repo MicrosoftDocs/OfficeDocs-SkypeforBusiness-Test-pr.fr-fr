@@ -19,19 +19,8 @@ Pour bien déployer Lync Server 2013, vous devrez utiliser Windows PowerShell 3
 
 Désormais, pour les systèmes exécutant Windows Server 2012 ou Windows Server 2012 R2, vous n’avez besoin de réaliser aucune opération. Vous pouvez passer à l’étape suivante du déploiement, car PowerShell 3.0 est fourni avec ces systèmes d’exploitation.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En revanche, pour les systèmes exécutant Windows Server 2008 R2 SP1, vous devrez installer PowerShell 3.0 avant Lync Server 2013 ou rien ne fonctionnera. Pour installer PowerShell 3.0, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</a>. Il s’agit d’un lien direct vers la page de téléchargement de PowerShell 3.0 et les informations relatives à son installation réussie.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> En revanche, pour les systèmes exécutant Windows Server 2008 R2 SP1, vous devrez installer PowerShell 3.0 avant Lync Server 2013 ou rien ne fonctionnera. Pour installer PowerShell 3.0, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</a>. Il s’agit d’un lien direct vers la page de téléchargement de PowerShell 3.0 et les informations relatives à son installation réussie.
 
 Une fois que vous l’avez terminée ou si vous souhaitez juste vérifier certains points avant de poursuivre le déploiement Lync Server, vous pourrez confirmer très simplement la présence de PowerShell 3.0 sur un serveur si vous procédez comme suit :
 

@@ -19,55 +19,22 @@ Pour effectuer correctement cette procédure, vous devez être connecté au serv
 
 L’équilibrage de charge DNS permet d’équilibrer le trafic réseau propre à Lync Server 2013, notamment le trafic SIP et le trafic multimédia. L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools de serveurs directeurs et les pools de serveurs de médiation autonomes. Deux noms de domaine complets (FQDN) doivent être définis pour un pool configuré pour utiliser l’équilibrage de charge DNS à savoir : le nom de domaine complet standard du pool utilisé par l’équilibrage de charge DNS (par exemple, pool1.contoso.com) et résolu en adresse IP pour chaque serveur dans le pool et un autre nom de domaine complet pour les services web du pool (par exemple, web1.contoso.net), résolu en adresse IP virtuelle du pool. Pour plus d’informations sur l’équilibrage de charge DNS, reportez-vous à [Équilibrage de charge DNS dans Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’équilibrage de la charge matérielle est toujours requis pour le trafic HTTPS du client au serveur.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> L’équilibrage de la charge matérielle est toujours requis pour le trafic HTTPS du client au serveur.
 
 Avant d’utiliser l’équilibrage de charge DNS, procédez comme suit :
 
 1.  Remplacer le nom de domaine complet du pool des services web internes.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!WARNING]  
+    > Si vous choisissez de remplacer le nom des services web internes par un nom de domaine complet personnalisé, chaque nom de domaine complet doit être distinct des autres noms de pool de serveurs frontaux, directeur ou pool de directeurs.
 
 2.  Créer des enregistrements d’hôte DNS A pour résoudre le nom de domaine complet (FQDN) du pool en adresse IP pour chaque serveur dans le pool.
 
 3.  Activer la randomisation d’adresse IP ou, pour l’équilibrage de charge DNS sous Windows Server, activez le round robin.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>La fonctionnalité de tourniquet (round robin) doit être activée par défaut.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > La fonctionnalité de tourniquet (round robin) doit être activée par défaut.
 
 ## Pour remplacer le nom de domaine complet des services web internes
 
@@ -148,19 +115,8 @@ Avant d’utiliser l’équilibrage de charge DNS, procédez comme suit :
     
     ![Boîte de dialogue DNS Round Robin](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Boîte de dialogue DNS Round Robin")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cette fonctionnalité doit être activée par défaut.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Cette fonctionnalité doit être activée par défaut.
 
 ## Voir aussi
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Déplacement des annuaires de conférences Lync Server 2010 vers Lync Server 2013
+title: "Déplacement des annuaires de conf. Lync Server 2010 vers Lync Server 2013"
 TOCTitle: Déplacement des annuaires de conférences
 ms:assetid: 659867e0-ce91-4a95-9787-b1c1566460a8
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn727126(v=OCS.15)

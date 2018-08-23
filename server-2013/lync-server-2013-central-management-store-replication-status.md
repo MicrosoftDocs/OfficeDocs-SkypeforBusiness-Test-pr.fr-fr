@@ -1,5 +1,5 @@
 ﻿---
-title: 'Skype Entreprise Server 2015 : statut de réplication du magasin central de gestion'
+title: "Skype Entreprise Server 2015 : statut de réplic. du magasin central de gest."
 TOCTitle: Statut de réplication du magasin central de gestion
 ms:assetid: f514f88d-986b-4e45-b79b-e04a7616c1fe
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn720926(v=OCS.15)
@@ -31,5 +31,5 @@ Pour renvoyer une liste de tous les rôles de contrôle d’accès basé sur les
 
 #### Autres ressources
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

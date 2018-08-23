@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2012-09-11_
 
 Les utilisateurs ne peuvent pas parquer les appels ni récupérer les appels mis en garde tant qu’ils ne sont pas activés pour le parcage d’appel dans la stratégie de voix.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Par défaut, le parcage d’appel est désactivé pour tous les utilisateurs.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Par défaut, le parcage d’appel est désactivé pour tous les utilisateurs.
 
 Vous pouvez activer le parcage d’appel au niveau de l’étendue globale ou au niveau de l’étendue du site ou de l’utilisateur. L’étendue d’utilisateur est prioritaire sur l’étendue du site et l’étendue du site est prioritaire sur l’étendue globale. Si vous avez plusieurs stratégies de voix, passez-les en revue pour activer le parcage d’appel, et pas seulement la stratégie globale.
 

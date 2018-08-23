@@ -27,9 +27,12 @@ Avant de commencer à déplacer des utilisateurs vers Lync Online, vous souhaite
 
 Pour déplacer un utilisateur local vers votre location Skype Entreprise Online, exécutez les applets de commande suivantes dans Lync Server Management Shell, à l’aide d’informations d’identification d’administrateur correspondant à votre location Microsoft Office 365. Remplacez « nomutilisateur@contoso.com » par les informations correspondant à l’utilisateur que vous souhaitez déplacer.
 
-    $creds=Get-Credential
-
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
+$creds=Get-Credential
+```
+```
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
 
 L’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit correspondre à celle du pool où le service de migration hébergée s’exécute, au format suivant : *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* .
 
@@ -57,7 +60,7 @@ Vous pouvez déterminer l’URL du service de migration hébergée en affichant 
 
 ## Déplacement d’utilisateurs vers Lync Online
 
-Vous pouvez déplacer plusieurs utilisateurs à l’aide de l’applet de commande [Get-CsUser](get-csuser.md) avec le paramètre –Filter pour sélectionner les utilisateurs pour lesquels une propriété spécifique est affectée au compte, comme RegistrarPool. Vous pouvez ensuite insérer les utilisateurs renvoyés dans l’applet de commande [Move-CsUser](move-csuser.md), comme indiqué dans l’exemple suivant.
+Vous pouvez déplacer plusieurs utilisateurs à l’aide de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) avec le paramètre –Filter pour sélectionner les utilisateurs pour lesquels une propriété spécifique est affectée au compte, comme RegistrarPool. Vous pouvez ensuite insérer les utilisateurs renvoyés dans l’applet de commande [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser), comme indiqué dans l’exemple suivant.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

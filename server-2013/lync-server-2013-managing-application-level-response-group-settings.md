@@ -1,6 +1,6 @@
 ﻿---
-title: Gestion des paramètres de Response Group au niveau de l’application dans Lync Server 2013
-TOCTitle: Gestion des paramètres de Response Group au niveau de l’application dans Lync Server 2013
+title: "Gest. des param. de Response Group au niveau de l’app. dans Lync Server 2013"
+TOCtitle: "Gest. des param. de Response Group au niveau de l’app. dans Lync Server 2013"
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721843(v=OCS.15)
 ms:contentKeyID: 49891486
@@ -42,7 +42,7 @@ L’attente musicale par défaut est lue lorsqu’un appel est mis en attente un
 
 #### Autres ressources
 
-[Get-CsRgsConfiguration](get-csrgsconfiguration.md)  
-[Set-CsRgsConfiguration](set-csrgsconfiguration.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)
+[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)  
+[Set-CsRgsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsConfiguration)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)
 

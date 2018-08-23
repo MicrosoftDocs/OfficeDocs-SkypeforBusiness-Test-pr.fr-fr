@@ -29,37 +29,15 @@ Pour tirer le plus grand parti de l’utilisation de la procédure de basculemen
     
     L’application Response Group ne peut stocker qu’un seul jeu de paramètres de niveau application par pool. Ces paramètres sont accessibles par le biais de l’applet de commande **Get-CsRgsConfiguration**. Les paramètres incluent la configuration de la mise en attente musicale, le fichier audio de mise en attente musicale par défaut, la période de grâce de reprise d’appel parqué d’agent et la configuration du contexte de l’appel. Ces paramètres peuvent être transférés depuis un pool vers un autre à l’aide de l’applet de commande **Import-CsRgsConfiguration** et du paramètre **ReplaceExistingSettings**, mais cette opération remplace tous les paramètres de niveau application dans le pool de destination.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Dans un emplacement séparé, conservez une copie de sauvegarde de tous les fichiers audio d’origine qui ont servi à la configuration de l’application Response Group (c’est-à-dire les enregistrements ou les fichiers de mise en attente musicale).</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!TIP]  
+    > Dans un emplacement séparé, conservez une copie de sauvegarde de tous les fichiers audio d’origine qui ont servi à la configuration de l’application Response Group (c’est-à-dire les enregistrements ou les fichiers de mise en attente musicale).    
     Si des fichiers de mise en attente musicale personnalisés ont été téléchargés pour le parcage d’appel vers un pool, vous devez en conserver une copie à un autre emplacement. Ces fichiers ne sont pas sauvegardés durant le processus de récupération d’urgence de Lync Server 2013 et seront perdus si les fichiers téléchargés vers le pool sont endommagés ou effacés.
     
         Xcopy  <Source: Pool A CPS File Store Path>  <Destination>
         Example: Xcopy  "<Pool A File Store Path>\LyncFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Destination:  Backup location 1>"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’application de parcage d’appel ne peut stocker qu’un seul jeu de paramètres et qu’un seul fichier audio de mise en attente musicale personnalisé par pool. Ces paramètres sont accessibles par le biais de l’applet de commande <strong>Get-CsCpsConfiguration</strong>. Étant donné que le mécanisme de récupération d’urgence du parcage d’appel repose sur l’application de parcage d’appel du pool de sauvegarde, les paramètres du pool principal ne sont pas sauvegardés ou conservés en cas d’incident. Si le pool principal est perdu, ces paramètres ne peuvent pas être récupérés et, quand un nouveau pool est déployé pour remplacer le pool principal, les paramètres du parcage d’appel et tout fichier audio de mise en attente musicale personnalisé doivent être reconfigurés.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > L’application de parcage d’appel ne peut stocker qu’un seul jeu de paramètres et qu’un seul fichier audio de mise en attente musicale personnalisé par pool. Ces paramètres sont accessibles par le biais de l’applet de commande <strong>Get-CsCpsConfiguration</strong>. Étant donné que le mécanisme de récupération d’urgence du parcage d’appel repose sur l’application de parcage d’appel du pool de sauvegarde, les paramètres du pool principal ne sont pas sauvegardés ou conservés en cas d’incident. Si le pool principal est perdu, ces paramètres ne peuvent pas être récupérés et, quand un nouveau pool est déployé pour remplacer le pool principal, les paramètres du parcage d’appel et tout fichier audio de mise en attente musicale personnalisé doivent être reconfigurés.
 
   - Si vous configurez des annonces dans le cadre de la fonctionnalité audio de numéro non attribué, nous vous recommandons de conserver à un autre emplacement une copie de tout fichier audio d’origine utilisé pendant la configuration initiale. Si vous n’avez pas effectué cette opération, vous pouvez obtenir une copie des fichiers audio configurés dans le magasin de fichiers du serveur ou du pool vers lequel les fichiers audio ont été importés. Ces fichiers ne sont pas sauvegardés durant le processus de récupération d’urgence de Lync Server 2013 et seront perdus si les fichiers téléchargés vers le pool sont endommagés ou effacés. Pour copier tous les fichiers audio utilisés pour la configuration de la fonctionnalité audio de numéro non attribué à partir du magasin de fichiers d’un serveur ou d’un pool, utilisez la commande suivante :
     

@@ -27,19 +27,8 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 
 4.  Dans la page **Site**, cliquez sur le site que vous souhaitez afficher.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher les informations que d’un site à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous ne pouvez afficher les informations que d’un site à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
@@ -63,7 +52,7 @@ Vous pouvez afficher des informations sur les sites réseau à l’aide de l’a
         BWPolicyProfileID :
         LocationPolicy    :
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSite](get-csnetworksite.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
 
 ## Voir aussi
 

@@ -29,30 +29,14 @@ Les fichiers de configuration comportent les propriétés suivantes :
 
   - Le paramètre CustomStateURL indique l’emplacement du fichier de configuration. Dans Lync 2013, le mode de sécurité élevée SIP étant activé par défaut, vous devrez stocker le fichier de configuration de présence personnalisé sur un serveur web sur lequel le protocole HTTPS est activé. Dans le cas contraire, les clients Lync 2013 ne pourront pas s’y connecter. Exemple d’adresse valide : `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bien que cela ne soit pas recommandé dans un environnement de production, vous pouvez tester un fichier de configuration situé sur un partage de fichiers non-HTTPS en utilisant le paramètre de Registre EnableSIPHighSecurityMode pour désactiver le mode de sécurité élevée SIP sur le client. Vous pouvez ensuite utiliser le paramètre de Registre CustomStateURL pour spécifier un emplacement non-HTTPS pour le fichier de configuration. Notez que Lync 2013 honore les paramètres de Registre Lync 2010, mais que la ruche de Registre a été mise à jour. La création des paramètres du Registre s’effectuerait comme suit :
-<ul>
-<li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
-<p>Type : DWORD</p>
-<p>Données de la valeur : 0</p></li>
-<li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p>
-<p>Type : String (REG_SZ)</p>
-<p>Données de la valeur (exemples) : file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml ou file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Bien que cela ne soit pas recommandé dans un environnement de production, vous pouvez tester un fichier de configuration situé sur un partage de fichiers non-HTTPS en utilisant le paramètre de Registre EnableSIPHighSecurityMode pour désactiver le mode de sécurité élevée SIP sur le client. Vous pouvez ensuite utiliser le paramètre de Registre CustomStateURL pour spécifier un emplacement non-HTTPS pour le fichier de configuration. Notez que Lync 2013 honore les paramètres de Registre Lync 2010, mais que la ruche de Registre a été mise à jour. La création des paramètres du Registre s’effectuerait comme suit :
+> <ul>
+> <li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
+> <p>Type : DWORD</p>
+> <p>Données de la valeur : 0</p></li><li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p>
+> <p>Type : String (REG_SZ)</p>
+> <p>Données de la valeur (exemples) : file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml ou file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li></ul>
 
 Localisez votre statut de présence personnalisé en spécifiant un ou plusieurs schémas d’ID locaux (LCID) dans le fichier XML de configuration. L’exemple présenté plus loin dans cette rubrique montre une localisation en Anglais - États-Unis (1033), Norvégien - Bokmål (1044), Français - France (1036) et Turc (1055). Pour obtenir la liste des LCID, voir les ID locaux assignés par Microsoft à l’adresse <http://go.microsoft.com/fwlink/?linkid=157331>.
 
@@ -92,24 +76,10 @@ Localisez votre statut de présence personnalisé en spécifiant un ou plusieurs
 
 5.  Utilisez l’applet de commande **Grant-CSClientPolicy** pour assigner cette nouvelle stratégie aux utilisateurs.
 
-Pour plus d’informations, voir [New-CsClientPolicy](new-csclientpolicy.md) et [Grant-CsClientPolicy](grant-csclientpolicy.md) dans la documentation Lync Server Management Shell.
+Pour plus d’informations, voir [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) et [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) dans la documentation Lync Server Management Shell.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Par défaut, Lync Server 2013 met à jour les stratégies et les paramètres du client toutes les trois heures.</p></li>
-<li><p>Si vous souhaitez continuer à utiliser des paramètres de stratégie de groupe des versions précédentes, tels que CustomStateURL, Lync 2013 reconnaîtra les paramètres s’ils se trouvent dans la nouvelle ruche de Registre de stratégies (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Cependant, les stratégies du client basées sur serveur sont prioritaires.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul>
+> <li><p>Par défaut, Lync Server 2013 met à jour les stratégies et les paramètres du client toutes les trois heures.</p></li>
+> <li><p>Si vous souhaitez continuer à utiliser des paramètres de stratégie de groupe des versions précédentes, tels que CustomStateURL, Lync 2013 reconnaîtra les paramètres s’ils se trouvent dans la nouvelle ruche de Registre de stratégies (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Cependant, les stratégies du client basées sur serveur sont prioritaires.</p></li></ul>
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Configuration de la prise en charge pour les domaines externes bloqués'
+title: "Lync Server 2013 : Conf. prise en charge pour les domaines externes bloqués"
 TOCTitle: Configuration de la prise en charge pour les domaines externes bloqués
 ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ619176(v=OCS.15)
@@ -33,21 +33,10 @@ Empêchez un ou plusieurs domaines externes de se connecter à votre organisatio
     
       - Dans **Nom de domaine complet (ou FQDN)**, tapez le nom de domaine du partenaire fédéré que vous souhaitez bloquer.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Il peut contenir jusqu’à 256 caractères.<br />
+        > [!NOTE]  
+        > Il peut contenir jusqu’à 256 caractères.<br />
         La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez <strong>contoso.com</strong> , la recherche renverra également le domaine <strong>it.contoso.com</strong>.<br />
-        Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Lync Server 2013 empêche cette situation afin que vous n’ayez pas à synchroniser vos listes.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Lync Server 2013 empêche cette situation afin que vous n’ayez pas à synchroniser vos listes.    
       - (Facultatif) Dans **Commentaire**, tapez les informations sur cette configuration que vous voulez partager avec les autres administrateurs système.
 
 6.  Cliquez sur **Valider**.

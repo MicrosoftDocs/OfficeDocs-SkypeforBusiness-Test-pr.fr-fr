@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Gestion de la configuration du serveur Edge d’accès pour votre organisation'
+title: "Lync Server 2013 : Gest. de la conf. du serveur Edge d’accès pour votre org."
 TOCTitle: Gestion de la configuration du serveur Edge d’accès pour votre organisation
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ552443(v=OCS.15)
@@ -33,19 +33,8 @@ Ces options couvrent les types d’accès suivants configurables via la page **C
 
   - **Activer l’accès utilisateur anonyme aux conférences** Activez cette option si vous souhaitez que les utilisateurs internes puissent inviter des utilisateurs anonymes externes aux conférences qu’ils organisent. Si vous activez cette option, seuls les utilisateurs anonymes seront autorisés à accéder aux conférences. Pour configurer les modalités de conférence et les options qui définiront les possibilités offertes aux utilisateurs concernant les conférences et l’inclusion des utilisateurs anonymes, reportez-vous à [Créer ou modifier l’expérience utilisateur de conférence pour un site ou un groupe d’utilisateurs](https://technet.microsoft.com/fr-fr/library/gg429715\(v=ocs.15\)) et [Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En plus d’activer la prise en charge de l’accès des utilisateurs externes, vous pouvez également configurer les stratégies permettant de contrôler l’utilisation de l’accès des utilisateurs distants dans votre organisation avant que tout autre type d’accès externe soit disponible aux utilisateurs. Pour plus d’informations sur la création, la configuration et l’application de stratégies pour l’accès des utilisateurs externes, reportez-vous à <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gestion de la stratégie d’accès externe dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> En plus d’activer la prise en charge de l’accès des utilisateurs externes, vous pouvez également configurer les stratégies permettant de contrôler l’utilisation de l’accès des utilisateurs distants dans votre organisation avant que tout autre type d’accès externe soit disponible aux utilisateurs. Pour plus d’informations sur la création, la configuration et l’application de stratégies pour l’accès des utilisateurs externes, reportez-vous à <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gestion de la stratégie d’accès externe dans Lync Server 2013</a>.
 
 **Affichage des informations de configuration du serveur Edge d’accès à l’aide des Windows PowerShell commandes d’applet**
 

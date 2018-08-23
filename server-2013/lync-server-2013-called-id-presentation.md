@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Avec Lync Server 2010, le numéro de téléphone du destinataire (numéro de téléphone appelé) peut être traduit du format E.164 au format de numérotation local requis par l’*homologue de jonction* (passerelle associée, système PBX ou jonction SIP). Pour ce faire, vous devez définir une ou plusieurs règles de traduction pour traduire l’URI de demande avant de l’acheminer vers l’homologue de jonction.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La possibilité d’associer une ou plusieurs règles de traduction à une configuration de jonction Voix Entreprise peut servir d’<em>alternative</em> à la définition de règles de traduction sur l’homologue de jonction. N’associez pas de règles de traduction avec une configuration de jonction Voix Entreprise si vous avez configuré les règles de traduction sur l’homologue de jonction, car les deux règles risqueraient de provoquer un conflit.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> La possibilité d’associer une ou plusieurs règles de traduction à une configuration de jonction Voix Entreprise peut servir d’<em>alternative</em> à la définition de règles de traduction sur l’homologue de jonction. N’associez pas de règles de traduction avec une configuration de jonction Voix Entreprise si vous avez configuré les règles de traduction sur l’homologue de jonction, car les deux règles risqueraient de provoquer un conflit.
 
 Vous pouvez employer l’une des méthodes suivantes pour créer ou modifier une règle de traduction :
 
@@ -37,19 +26,8 @@ Vous pouvez employer l’une des méthodes suivantes pour créer ou modifier une
 
   - Écrivez les expressions régulières manuellement pour définir le modèle correspondant et la règle de traduction.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur la façon d’écrire des expressions régulières, voir « Expressions régulières .NET Framework » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x40C</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d’informations sur la façon d’écrire des expressions régulières, voir « Expressions régulières .NET Framework » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x40C</a>.
 
 ## Dans cette section
 

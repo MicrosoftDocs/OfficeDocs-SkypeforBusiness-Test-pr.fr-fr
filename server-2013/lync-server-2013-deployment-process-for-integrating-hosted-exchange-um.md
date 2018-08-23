@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée'
+title: "Lync Server 2013 : Pro. de dépl. pour l’int. de la mess. Un. Exchange hébergée"
 TOCTitle: Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée à Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398968(v=OCS.15)
@@ -80,21 +80,11 @@ Le tableau ci-dessous présente une vue d’ensemble du processus d’intégrati
 <li><p>Créez des objets contact d’accès abonné pour la messagerie unifiée Exchange hébergée.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour créer, modifier ou supprimer des objets contact, l’utilisateur qui exécute l’applet de commande New-CsExUmContact, Set-CsExUmContact ou Remove-CsExUmContact doit posséder l’autorisation appropriée sur l’unité d’organisation Active Directory où sont stockés les nouveaux objets contact. Cette autorisation peut être accordée en exécutant l’applet de commande Grant-CsOUPermission. Pour plus d’informations, reportez-vous à la documentation relative à Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]  
+> Pour créer, modifier ou supprimer des objets contact, l’utilisateur qui exécute l’applet de commande New-CsExUmContact, Set-CsExUmContact ou Remove-CsExUmContact doit posséder l’autorisation appropriée sur l’unité d’organisation Active Directory où sont stockés les nouveaux objets contact. Cette autorisation peut être accordée en exécutant l’applet de commande Grant-CsOUPermission. Pour plus d’informations, reportez-vous à la documentation relative à Lync Server Management Shell.
+
+</td>
 <td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Création des objets de contact pour la messagerie unifiée Exchange hébergée dans Lync Server 2013</a></p></td>
 </tr>
 </tbody>

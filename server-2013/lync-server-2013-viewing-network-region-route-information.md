@@ -27,19 +27,8 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région que vous souhaitez modifier.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous ne pouvez afficher qu’un itinéraire de région à la fois.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous ne pouvez afficher qu’un itinéraire de région à la fois.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
@@ -61,7 +50,7 @@ Les informations d’itinéraire de région réseau peuvent aussi être affiché
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 ## Voir aussi
 

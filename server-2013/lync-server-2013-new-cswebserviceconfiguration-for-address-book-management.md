@@ -31,5 +31,5 @@ Pour une description détaillée de la commande complète, reportez-vous aux res
 
 #### Autres ressources
 
-[New-CsWebServiceConfiguration](new-cswebserviceconfiguration.md)
+[New-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWebServiceConfiguration)
 

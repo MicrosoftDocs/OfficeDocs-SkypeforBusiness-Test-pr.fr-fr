@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Création ou modification manuelle d’une règle de normalisation'
+title: "Lync Server 2013 : Créa. ou modification manuelle d’une règle de normalisation"
 TOCTitle: Création ou modification manuelle d’une règle de normalisation
 ms:assetid: fc0335e6-8830-4cfb-8c64-6aeb98c0a992
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413074(v=OCS.15)
@@ -43,19 +43,8 @@ Suivez cette procédure si vous souhaitez créer ou modifier manuellement une r�
 
 9.  (Optionnel) Entrez un numéro pour tester la règle de normalisation, puis cliquez sur **OK**. Les résultats du test s’affichent sous **Numéro composé à tester**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-test-voice-routing.md">Test du routage des communications vocales dans Lync Server 2013</a>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-test-voice-routing.md">Test du routage des communications vocales dans Lync Server 2013</a>.
 
 10. Cliquez sur **OK** pour enregistrer la règle de normalisation.
 
@@ -63,19 +52,8 @@ Suivez cette procédure si vous souhaitez créer ou modifier manuellement une r�
 
 12. Dans la page **Plan de numérotation**, cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lorsque vous créez ou modifiez une règle de normalisation, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Lorsque vous créez ou modifiez une règle de normalisation, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi
 

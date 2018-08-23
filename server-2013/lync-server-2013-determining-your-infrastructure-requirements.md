@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Définition de la configuration requise pour l’infrastructure'
+title: "Lync Server 2013 : Déf. de la configuration requise pour l’infrastructure"
 TOCTitle: Définition de la configuration requise pour l’infrastructure
 ms:assetid: ef9af1ed-e6c4-457f-a63b-8fea47c79826
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412986(v=OCS.15)

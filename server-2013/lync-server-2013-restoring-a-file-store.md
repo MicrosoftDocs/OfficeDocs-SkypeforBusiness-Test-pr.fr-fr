@@ -21,34 +21,12 @@ Les magasins de fichiers pour Standard Edition sont généralement stockés sur 
 
 1.  En cas de défaillance d’un magasin de fichiers, copiez le magasin de fichiers approprié à partir de $Backup\\ vers l’emplacement du magasin de fichiers sur le serveur de fichiers ou le serveur Standard Edition, puis partagez le dossier.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Le nom et le chemin d’accès au magasin de fichiers restauré doivent être exactement identiques à ceux du magasin de fichiers sauvegardé, afin que les composants qui utilisent les fichiers puissent y accéder.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Le nom et le chemin d’accès au magasin de fichiers restauré doivent être exactement identiques à ceux du magasin de fichiers sauvegardé, afin que les composants qui utilisent les fichiers puissent y accéder.
 
 2.  Si nécessaire, définissez les listes de contrôle d’accès pour le magasin de fichiers. Sur la ligne de commande, tapez :
     
         Enable-CsTopology
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cette étape est obligatoire uniquement si vous n’avez pas exécuté l’Générateur de topologie durant le processus de restauration.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Cette étape est obligatoire uniquement si vous n’avez pas exécuté l’Générateur de topologie durant le processus de restauration.

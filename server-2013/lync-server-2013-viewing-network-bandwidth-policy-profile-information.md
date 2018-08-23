@@ -49,7 +49,7 @@ Les profils de bande passante de réseau peuvent aussi être affichés à l’ai
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) (contenu éventuellement en anglais).
+Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) (contenu éventuellement en anglais).
 
 ## Voir aussi
 

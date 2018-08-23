@@ -27,19 +27,8 @@ Le contrôle d’admission des appels est un réseau de régions, de sites et de
 
 4.  Dans la page **Globale**, cliquez sur la configuration **Globale**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Un seul réseau peut être configuré par déploiement de Microsoft Lync Server 2013, par conséquent, une seule configuration réseau figurera dans la liste. Il n’est pas possible de renommer la configuration Globale.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Un seul réseau peut être configuré par déploiement de Microsoft Lync Server 2013, par conséquent, une seule configuration réseau figurera dans la liste. Il n’est pas possible de renommer la configuration Globale.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
@@ -59,7 +48,7 @@ Si vous modifiez la configuration du réseau, vous pouvez exécuter de nouveau l
 
 [Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)  
 [Configuration du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)  
-[Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)  
-[Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+[Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 

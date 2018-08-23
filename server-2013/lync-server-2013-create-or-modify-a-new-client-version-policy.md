@@ -25,19 +25,8 @@ Vous pouvez utiliser des stratégies de version du client pour spécifier les ve
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Clients**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>L’onglet <strong>Stratégie de version du client</strong> est sélectionné par défaut.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > L’onglet <strong>Stratégie de version du client</strong> est sélectionné par défaut.
 
 4.  Dans la page **Stratégie de version du client**, effectuez l’une des opérations suivantes :
     
@@ -63,5 +52,5 @@ Vous pouvez créer des stratégies de version du client à l’aide de l’apple
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Pour plus d’informations, recherchez les rubriques d’aide relatives aux applets de commande [New-CsClientVersionPolicy](new-csclientversionpolicy.md) et [Set-CsClientVersionPolicy](set-csclientversionpolicy.md).
+Pour plus d’informations, recherchez les rubriques d’aide relatives aux applets de commande [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) et [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
 

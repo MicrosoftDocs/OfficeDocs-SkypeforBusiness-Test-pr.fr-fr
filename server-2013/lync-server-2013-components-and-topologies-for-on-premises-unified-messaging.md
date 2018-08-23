@@ -37,16 +37,5 @@ Lync Server 2013 prend en charge les topologies suivantes pour l’intégration
 
   - Plusieurs forêts (à savoir, une forêt de ressources). Lync Server 2013 est déployé sur une seule forêt. Les utilisateurs sont ensuite répartis dans plusieurs forêts. Les attributs de messagerie unifiée Exchange des utilisateurs doivent être répliqués sur la forêt Lync Server 2013.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il est possible de déployer Exchange sur plusieurs forêts. Chaque organisation Exchange peut fournir une messagerie unifiée Exchange à ses utilisateurs. Les serveurs de messagerie unifiée Exchange peuvent aussi être déployés dans la même forêt que Lync Server 2013.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Il est possible de déployer Exchange sur plusieurs forêts. Chaque organisation Exchange peut fournir une messagerie unifiée Exchange à ses utilisateurs. Les serveurs de messagerie unifiée Exchange peuvent aussi être déployés dans la même forêt que Lync Server 2013.

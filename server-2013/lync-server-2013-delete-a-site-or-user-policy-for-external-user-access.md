@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes'
+title: "Lync Server 2013 : Supp. d’une strat. ut. ou de site pour l’accès des ut. ext."
 TOCTitle: Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg521013(v=OCS.15)
@@ -51,5 +51,5 @@ ll est possible de supprimer des stratégies d’accès externe à l’aide de W
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md).
+Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
 

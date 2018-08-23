@@ -53,24 +53,10 @@ Vous pouvez utiliser le Panneau de configuration Lync Server 2013 pour effectuer
 
 Le Panneau de configuration Lync Server est installé automatiquement sur chaque serveur frontal ou serveur Lync Server Standard Edition. Dans cette version, l’administration des serveurs Edge s’effectue à distance. Vous pouvez également installer le Panneau de configuration Lync Server sur un autre ordinateur, tel qu’une console de gestion à partir de laquelle vous gérez Lync Server de manière centralisée. Pour plus d’informations, reportez-vous à [Installation des outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Pour configurer les paramètres à l’aide du Panneau de configuration Lync Server, vous devez être connecté avec un compte affecté au rôle CsAdministrator. Pour plus de détails sur les rôles d’administrateur prédéfinis disponibles dans Lync Server 2013, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a>.</p></li>
-<li><p>Pour configurer les paramètres à l’aide du Panneau de configuration Lync Server, vous devez aussi utiliser un ordinateur avec une résolution d’écran minimale de 1024 x 768.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> <ul>
+> <li><p>Pour configurer les paramètres à l’aide du Panneau de configuration Lync Server, vous devez être connecté avec un compte affecté au rôle CsAdministrator. Pour plus de détails sur les rôles d’administrateur prédéfinis disponibles dans Lync Server 2013, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a>.</p></li>
+> <li><p>Pour configurer les paramètres à l’aide du Panneau de configuration Lync Server, vous devez aussi utiliser un ordinateur avec une résolution d’écran minimale de 1024 x 768.</p></li></ul>
 
 
 ## Lync Server Management Shell
@@ -81,19 +67,8 @@ Dans Lync Server, Lync Server Management Shell offre une nouvelle méthode d’
 
 L’outil de journalisation Lync Server facilite la résolution des problèmes en capturant des informations de journalisation et de suivi auprès du produit pendant son exécution. Vous pouvez utiliser cet outil pour exécuter des sessions de débogage sur n’importe quel rôle serveur Lync Server. Pour plus d’informations sur l’outil de journalisation, reportez-vous à la documentation sur l’outil de journalisation Lync Server 2010 dans la bibliothèque TechNet à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le service de journalisation centralisée est recommandé pour toute la collecte de journalisation dans toutes les circonstances, plutôt que l’Outil de journalisation de Lync Server. L’Outil de journalisation Lync Server fonctionnera quand même, mais il sera rendu inefficace ou interfèrera avec le service de journalisation centralisée si celui est déjà en cours d’exécution. Vous devez utiliser uniquement le service de journalisation centralisée ou uniquement l’Outil de journalisation Lync Server, mais jamais les deux simultanément. Pour plus d’informations sur le service de journalisation centralisée et sur les raisons pour lesquelles vous devez l’utiliser de manière exclusive, reportez-vous à <a href="lync-server-2013-using-the-centralized-logging-service.md">Utilisation du service de journalisation centralisée dans Lync Server 2013</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Le service de journalisation centralisée est recommandé pour toute la collecte de journalisation dans toutes les circonstances, plutôt que l’Outil de journalisation de Lync Server. L’Outil de journalisation Lync Server fonctionnera quand même, mais il sera rendu inefficace ou interfèrera avec le service de journalisation centralisée si celui est déjà en cours d’exécution. Vous devez utiliser uniquement le service de journalisation centralisée ou uniquement l’Outil de journalisation Lync Server, mais jamais les deux simultanément. Pour plus d’informations sur le service de journalisation centralisée et sur les raisons pour lesquelles vous devez l’utiliser de manière exclusive, reportez-vous à <a href="lync-server-2013-using-the-centralized-logging-service.md">Utilisation du service de journalisation centralisée dans Lync Server 2013</a>.
 
 ## Dans cette section
 

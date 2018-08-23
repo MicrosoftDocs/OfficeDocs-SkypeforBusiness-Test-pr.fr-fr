@@ -35,16 +35,5 @@ Le Assistant Déploiement de Lync Server permet d’installer les composants n�
 
 7.  Lorsque l’installation des composants Lync Server 2013 est terminée et que vous avez consulté les journaux autant que nécessaire, cliquez sur **Terminer** pour finaliser cette étape.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous êtes invité à redémarrer le serveur (ce qu’il peut se passer si vous devez installer l’expérience Bureau Windows), effectuez réellement cette opération. Lorsque l’ordinateur est en état de fonctionner, vous devez répéter cette procédure à partir de l’étape 3 précédente (en résumé, exécutez une nouvelle fois l’Étape 2 de l’Assistant Déploiement).</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Si vous êtes invité à redémarrer le serveur (ce qu’il peut se passer si vous devez installer l’expérience Bureau Windows), effectuez réellement cette opération. Lorsque l’ordinateur est en état de fonctionner, vous devez répéter cette procédure à partir de l’étape 3 précédente (en résumé, exécutez une nouvelle fois l’Étape 2 de l’Assistant Déploiement).

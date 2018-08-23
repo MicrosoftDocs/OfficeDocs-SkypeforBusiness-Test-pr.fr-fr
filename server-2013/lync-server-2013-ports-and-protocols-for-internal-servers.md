@@ -17,35 +17,13 @@ _**Dernière rubrique modifiée :** 2016-04-06_
 
 Cette section résume les ports et protocoles utilisés par les serveurs, les programmes d’équilibrage de charge et les clients dans le cadre du déploiement de Lync Server.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>La communication un-à-un entre des clients Lync et Communicator est souvent désignée comme communication d’égal à égal. D’un point de vue technique, les deux clients communiquent via une conversation un-à-un, avec l’unité de contrôle multipoint Messagerie instantanée au milieu (composant du serveur frontal.) Le fait de placer celle-ci dans le flux de communication requis active l’enregistrement des détails des appels et d’autres fonctionnalités activées par le serveur frontal. La communication est établie entre un port source dynamique sur le client et le port TLS/TCP/5061 du serveur frontal (en supposant que le protocole TLS recommandé est utilisé). Par défaut, la communication d’égal à égal (ainsi que la messagerie instantanée entre plusieurs utilisateurs) n’est possible que lorsque Lync Server et l’unité de contrôle multipoint Messagerie instantanée sont actives et disponibles.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> La communication un-à-un entre des clients Lync et Communicator est souvent désignée comme communication d’égal à égal. D’un point de vue technique, les deux clients communiquent via une conversation un-à-un, avec l’unité de contrôle multipoint Messagerie instantanée au milieu (composant du serveur frontal.) Le fait de placer celle-ci dans le flux de communication requis active l’enregistrement des détails des appels et d’autres fonctionnalités activées par le serveur frontal. La communication est établie entre un port source dynamique sur le client et le port TLS/TCP/5061 du serveur frontal (en supposant que le protocole TLS recommandé est utilisé). Par défaut, la communication d’égal à égal (ainsi que la messagerie instantanée entre plusieurs utilisateurs) n’est possible que lorsque Lync Server et l’unité de contrôle multipoint Messagerie instantanée sont actives et disponibles.
 
 ## Détails sur les ports et protocoles
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le pare-feu Windows doit être en cours d’exécution avant le démarrage des services Lync Server sur un serveur, car c’est à ce moment-là que Lync Server ouvre les ports requis dans le pare-feu.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Le pare-feu Windows doit être en cours d’exécution avant le démarrage des services Lync Server sur un serveur, car c’est à ce moment-là que Lync Server ouvre les ports requis dans le pare-feu.
 
 Pour plus d’informations sur la configuration du pare-feu pour les composants Edge, voir [Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
 
@@ -446,19 +424,8 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Certains scénarios de contrôle d’appel distant requièrent une connexion TCP entre le serveur frontal ou le directeur et le PBX. Bien que Lync Server n’utilise plus le port TCP 5060, au cours du déploiement du contrôle d’appel distant (RCC), vous créez une configuration de serveur approuvé qui associe le nom de domaine complet du serveur de ligne RCC au port TCP que le serveur frontal ou le directeur utilise pour assurer la connexion au système PBX. Pour plus d’informations, voir l’applet de commande <strong>CsTrustedApplicationComputer</strong> dans la documentation Lync Server Management Shell.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Certains scénarios de contrôle d’appel distant requièrent une connexion TCP entre le serveur frontal ou le directeur et le PBX. Bien que Lync Server n’utilise plus le port TCP 5060, au cours du déploiement du contrôle d’appel distant (RCC), vous créez une configuration de serveur approuvé qui associe le nom de domaine complet du serveur de ligne RCC au port TCP que le serveur frontal ou le directeur utilise pour assurer la connexion au système PBX. Pour plus d’informations, voir l’applet de commande <strong>CsTrustedApplicationComputer</strong> dans la documentation Lync Server Management Shell.
 
 Pour les pools utilisant uniquement l’équilibrage de la charge matérielle (et non pas l’équilibrage de charge DNS), le tableau suivant indique les ports qui doivent ouvrir les programmes d’équilibrage de la charge matérielle.
 
@@ -753,30 +720,8 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
 
 **\*** Pour configurer des ports spécifiques pour ces types de média, utilisez l’applet de commande CsConferencingConfiguration (paramètres ClientMediaPortRangeEnabled, ClientMediaPort et ClientMediaPortRange).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les programmes définis pour les clients Lync créent automatiquement les exceptions requises du pare-feu du système d’exploitation sur l’ordinateur client.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Les programmes définis pour les clients Lync créent automatiquement les exceptions requises du pare-feu du système d’exploitation sur l’ordinateur client.
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les ports utilisés pour l’accès des utilisateurs externes sont nécessaires dans tout scénario où le client doit franchir le pare-feu de l’organisation (par exemple, les communications externes ou les réunions hébergées par d’autres organisations).</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les ports utilisés pour l’accès des utilisateurs externes sont nécessaires dans tout scénario où le client doit franchir le pare-feu de l’organisation (par exemple, les communications externes ou les réunions hébergées par d’autres organisations).

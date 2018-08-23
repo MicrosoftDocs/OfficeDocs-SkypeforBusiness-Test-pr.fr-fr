@@ -17,35 +17,13 @@ _**Dernière rubrique modifiée :** 2016-12-08_
 
 Pour déployer et gérer la prise d’appel de groupe, vous devez utiliser l’outil du kit de ressources SEFAUtiltool. Cet outil fait partie des outils du kit de ressources Lync Server 2013. Avant de pouvoir installer SEFAUtil, vous devez disposer d’un pool d’applications approuvées dans votre topologie, indiquez SEFAUtil en tant qu’application approuvée et activez la topologie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le Kit de développement logiciel (SDK) Microsoft Unified Communications Managed API (UCMA) 3.0 Core doit être sur les ordinateurs sur lesquels vous voulez exécuter l’outil SEFAUtil.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Le Kit de développement logiciel (SDK) Microsoft Unified Communications Managed API (UCMA) 3.0 Core doit être sur les ordinateurs sur lesquels vous voulez exécuter l’outil SEFAUtil.
 
 Vous pouvez exécuter SEFAUtil dans n’importe quel pool de serveurs frontaux de votre déploiement.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur l’exécution de SEFAUtil, voir l’article du blog Technet, « Comment exécuter SEFAutil ? » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=278940" class="uri">http://go.microsoft.com/fwlink/?linkid=278940</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d’informations sur l’exécution de SEFAUtil, voir l’article du blog Technet, « Comment exécuter SEFAutil ? » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=278940" class="uri">http://go.microsoft.com/fwlink/?linkid=278940</a>.
 
 ## Pour déployer SEFAUtil
 
@@ -61,19 +39,8 @@ Vous pouvez exécuter SEFAUtil dans n’importe quel pool de serveurs frontaux d
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Vous pouvez utiliser un autre port si nécessaire.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Vous pouvez utiliser un autre port si nécessaire.
 
 5.  Activez la topologie avec vos modifications. Sur la ligne de commande, exécutez :
     
@@ -85,19 +52,8 @@ Vous pouvez exécuter SEFAUtil dans n’importe quel pool de serveurs frontaux d
     
     1.  Exécutez l’outil à partir de l’invite de commande Windows avec des droits d’administrateur pour afficher les paramètres de transfert d’appel d’un utilisateur de votre déploiement.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>L’outil se trouve à l’emplacement \Program Files\Microsoft Lync Server 2013\Reskit.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!NOTE]  
+        > L’outil se trouve à l’emplacement \Program Files\Microsoft Lync Server 2013\Reskit.    
     2.  Affichez les paramètres de transfert d’appel d’un utilisateur. Sur la ligne de commande, exécutez :
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>

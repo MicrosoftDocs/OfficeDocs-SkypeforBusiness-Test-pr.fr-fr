@@ -1,6 +1,6 @@
 ﻿---
-title: Création ou modification d’une collection de paramètres de configuration de l’enregistrement des détails des appels
-TOCTitle: Création ou modification d’une collection de paramètres de configuration de l’enregistrement des détails des appels
+title: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
+TOCtitle: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721878(v=OCS.15)
 ms:contentKeyID: 49891538
@@ -19,7 +19,7 @@ L’enregistrement des détails des appels permet d’assurer le suivi des sessi
 
 Quand vous installez Microsoft Lync Server 2013, une simple collection globale de paramètres de configuration d’enregistrement des détails des appels est automatiquement créée. Les administrateurs peuvent aussi créer des paramètres personnalisés sur l’étendue du site. Chaque fois que ces paramètres d’étendue de site sont utilisés, ils prennent la priorité sur les paramètres globaux. Par exemple, si vous créez des paramètres pour l’étendue du site de Redmond, ces paramètres (au lieu des paramètres globaux) servent alors à gérer l’enregistrement des détails des appels à Redmond.
 
-Vous pouvez créer des paramètres de configuration d’enregistrement des détails des appels à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [New-CsCdrConfiguration](new-cscdrconfiguration.md). Le Panneau de configuration Lync Server comme l’applet de commande [Set-CsCdrConfiguration](set-cscdrconfiguration.md) permettent de modifier les paramètres. Si vous utilisez le Panneau de configuration Lync Server pour effectuer ces tâches, vous disposez alors des options suivantes :
+Vous pouvez créer des paramètres de configuration d’enregistrement des détails des appels à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration). Le Panneau de configuration Lync Server comme l’applet de commande [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) permettent de modifier les paramètres. Si vous utilisez le Panneau de configuration Lync Server pour effectuer ces tâches, vous disposez alors des options suivantes :
 
 
 <table>
@@ -65,19 +65,8 @@ Vous pouvez créer des paramètres de configuration d’enregistrement des déta
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les applets de commande New-CsCdrConfiguration et Set-CsCdrConfiguration comprennent des options supplémentaires non disponibles dans le Panneau de configuration Lync Server. Pour plus d’informations, voir les rubriques d’aide <a href="new-cscdrconfiguration.md">New-CsCdrConfiguration</a> et <a href="set-cscdrconfiguration.md">Set-CsCdrConfiguration</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les applets de commande New-CsCdrConfiguration et Set-CsCdrConfiguration comprennent des options supplémentaires non disponibles dans le Panneau de configuration Lync Server. Pour plus d’informations, voir les rubriques d’aide <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>.
 
 ## Pour créer des paramètres de configuration d’enregistrements des détails des appels à l’aide du Panneau de configuration Lync Server
 
@@ -119,5 +108,5 @@ Vous pouvez créer des paramètres de configuration d’enregistrement des déta
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [New-CsCdrConfiguration](new-cscdrconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration).
 

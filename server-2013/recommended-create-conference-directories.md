@@ -39,5 +39,5 @@ La création de plusieurs annuaires des conférences permet de s’assurer que l
 
 #### Autres ressources
 
-[New-CsConferenceDirectory](new-csconferencedirectory.md)
+[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
 

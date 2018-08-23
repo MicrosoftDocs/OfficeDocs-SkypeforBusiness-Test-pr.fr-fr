@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Préparation des services de domaine Active Directory verrouillés'
+title: "Lync Server 2013 : Prép. des services de domaine Active Directory verrouillés"
 TOCTitle: Préparation des services de domaine Active Directory verrouillés
 ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398492(v=OCS.15)

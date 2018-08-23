@@ -17,9 +17,12 @@ _**Dernière rubrique modifiée :** 2012-10-19_
 
 Le transfert de l’application de parcage d’appel de Lync Server 2010 vers Lync Server 2013 inclut la mise en service du pool Lync Server 2013 avec tous les fichiers d’attente musicale personnalisée téléchargés dans Lync Server 2010, la restauration des paramètres de niveau de service et le reciblage de tous les numéros d’appels parqués vers le pool Lync Server 2013. Si les fichiers d’attente musicale personnalisée ont été configurés dans le pool Lync Server 2010, ils doivent être copiés dans le nouveau pool Lync Server 2013. De plus, nous vous recommandons de sauvegarder les fichiers d’attente musicale personnalisée de parcage d’appel provenant de Lync Server 2010 dans un autre emplacement afin de conserver une copie de sauvegarde distincte des éventuels fichiers d’attente musicale personnalisée ayant été téléchargés pour le parcage d’appel. Les fichiers d’attente musicale personnalisée de l’application de parcage d’appel sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio provenant d’un magasin de fichiers du pool Lync Server 2010 dans un magasin de fichiers Lync Server 2013, utilisez la commande **Xcopy** avec les paramètres suivants :
 
-    Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
-
-    Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
+Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
+```
+```
+Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
 
 Quand tous les fichiers audio personnalisés ont été copiés dans le magasin de fichiers Lync Server 2013, les paramètres de parcage d’appel du pool Lync Server 2013 doivent être configurés et les plages d’orbites du parcage d’appel associées au pool Lync Server 2010 doivent être réattribuées au pool Lync Server 2013.
 
@@ -31,20 +34,12 @@ Les paramètres de l’application de parcage d’appel incluent le seuil du dé
 
 2.  Dans la ligne de commande, tapez ce qui suit :
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si les paramètres de votre application de parcage d’appel Lync Server 2013 sont identiques aux paramètres Lync Server 2010 hérités, vous pouvez ignorer cette étape. Si les paramètres de l’application de parcage d’appel sont différents pour les environnements Lync Server 2013 et Lync Server 2010, utilisez l’applet de commande ci-dessous comme modèle pour effectuer une mise à jour afin d’appliquer ces changements.</td>
-    </tr>
-    </tbody>
-    </table>
-    
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
+    > [!NOTE]  
+    > Si les paramètres de votre application de parcage d’appel Lync Server 2013 sont identiques aux paramètres Lync Server 2010 hérités, vous pouvez ignorer cette étape. Si les paramètres de l’application de parcage d’appel sont différents pour les environnements Lync Server 2013 et Lync Server 2010, utilisez l’applet de commande ci-dessous comme modèle pour effectuer une mise à jour afin d’appliquer ces changements.    
+
+    ```    
+    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
+    ```
 
 Pour réaffecter toutes les plages d’orbites de parcage d’appel du pool Lync Server 2010 au pool Lync Server 2013, vous pouvez utiliser le Panneau de configuration Lync Server ou Lync Server Management Shell.
 

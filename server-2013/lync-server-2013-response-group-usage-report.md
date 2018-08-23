@@ -55,19 +55,8 @@ Le rapport d’utilisation de Response Group est accessible depuis la page d’a
 
 L’utilisation la plus intéressante de ce rapport n’est peut-être pas la plus évidente : il s’agit de sa capacité à recueillir des informations d’utilisation pour un seul flux de travail Response Group.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412910.warning(OCS.15).gif" title="warning" alt="warning" />Avertissement :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Un flux de travail Response Group est généralement un ensemble d’instructions qui détermine le comportement de Lync Server quand un utilisateur compose un numéro de téléphone spécifique. Dans cet objectif, chaque flux de travail est associé de manière unique à un numéro de téléphone. Quand une personne appelle ce numéro, le flux de travail détermine la façon dont l’appel sera géré. Par exemple, le flux de travail peut éventuellement faire en sorte que l’appel soit acheminé vers une série de questions du système de réponse vocale interactive qui invite l’utilisateur à entrer des informations supplémentaires (« Appuyez sur 1 pour accéder au support matériel. Appuyez sur 2 pour accéder au support logiciel. »). Le flux de travail peut aussi faire en sorte que l’appel soit placé dans une file d’attente, l’appelant est alors mis en attente jusqu’à ce qu’un agent puisse répondre à l’appel. La disponibilité des agents pour répondre aux appels est également déterminée par le flux de travail : les flux de travail servent à configurer les heures ouvrées (les jours de la semaine et les heures de la journée pendant lesquels les agents sont disponibles pour répondre aux appels) et les congés (les jours pendant lesquels les agents ne sont pas disponibles pour répondre aux appels). Chaque fois que vous composez un numéro de téléphone appartenant à l’application Response Group, vous appelez avant tout un flux de travail Response Group.</td>
-</tr>
-</tbody>
-</table>
-
+> [!WARNING]  
+> Un flux de travail Response Group est généralement un ensemble d’instructions qui détermine le comportement de Lync Server quand un utilisateur compose un numéro de téléphone spécifique. Dans cet objectif, chaque flux de travail est associé de manière unique à un numéro de téléphone. Quand une personne appelle ce numéro, le flux de travail détermine la façon dont l’appel sera géré. Par exemple, le flux de travail peut éventuellement faire en sorte que l’appel soit acheminé vers une série de questions du système de réponse vocale interactive qui invite l’utilisateur à entrer des informations supplémentaires (« Appuyez sur 1 pour accéder au support matériel. Appuyez sur 2 pour accéder au support logiciel. »). Le flux de travail peut aussi faire en sorte que l’appel soit placé dans une file d’attente, l’appelant est alors mis en attente jusqu’à ce qu’un agent puisse répondre à l’appel. La disponibilité des agents pour répondre aux appels est également déterminée par le flux de travail : les flux de travail servent à configurer les heures ouvrées (les jours de la semaine et les heures de la journée pendant lesquels les agents sont disponibles pour répondre aux appels) et les congés (les jours pendant lesquels les agents ne sont pas disponibles pour répondre aux appels). Chaque fois que vous composez un numéro de téléphone appartenant à l’application Response Group, vous appelez avant tout un flux de travail Response Group.
 
 Même si les URI de flux de travail ne s’affichent pas dans le rapport d’utilisation de Response Group, il est encore possible d’afficher les statistiques d’utilisation pour un seul flux de travail, ce qui est souvent très utile. Par exemple, supposons que vous avez récemment lancé une nouvelle campagne publicitaire et que vous souhaitez savoir si des personnes appellent pour en savoir plus sur le produit. Si vous avez associé un flux de travail Response Group au numéro de téléphone indiqué dans la campagne publicitaire, vous pouvez facilement consulter le nombre de personnes (s’il y en a) qui ont appelé ce numéro.
 
@@ -131,13 +120,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="odd">
 <td><p><strong>Intervalle</strong></p></td>
-<td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
-<ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
-<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
-</ul>
+<td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p><ul><li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li><li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li><li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li><li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li></ul>
 <p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 7/7/2012 et une date de fin le 2/28/2012, les données s’affichent pour les jours compris entre le 8/7/2012 12:00 AM et le 9/7/2012 12:00 AM (c’est-à-dire, un total de 31 jours de données).</p></td>
 </tr>
 <tr class="even">

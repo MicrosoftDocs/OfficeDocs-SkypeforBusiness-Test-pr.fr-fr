@@ -114,16 +114,5 @@ Le tableau ci-dessous dresse la liste des combinaisons prises en charge selon la
 
 3Les fonctionnalités de présence et de messagerie instantanée dans Office Communicator 2007 R2 sont compatibles avec Lync Server 2013, contrairement aux fonctionnalités de conférence. Pendant la migration depuis Office Communications Server 2007 R2, Office Communicator 2007 R2 convient pour l’interopérabilité avec les fonctionnalités de présence et de messagerie instantanée, mais les utilisateurs doivent recourir à Lync Web App 2013 pour participer aux réunions Lync Server 2013.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pour plus d’informations sur la possibilité pour les clients Lync Server 2013 de coexister et d’interagir avec des clients exécutant des versions antérieures de Lync Server et d’Office Communications Server, reportez-vous à <a href="lync-server-2013-client-interoperability-in-lync-2013.md">Interopérabilité des clients dans Lync 2013</a> dans la documentation de planification.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Pour plus d’informations sur la possibilité pour les clients Lync Server 2013 de coexister et d’interagir avec des clients exécutant des versions antérieures de Lync Server et d’Office Communications Server, reportez-vous à <a href="lync-server-2013-client-interoperability-in-lync-2013.md">Interopérabilité des clients dans Lync 2013</a> dans la documentation de planification.

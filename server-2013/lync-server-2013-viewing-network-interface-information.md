@@ -37,5 +37,5 @@ Vous pouvez voir les informations d’interface réseau à l’aide de Lync Serv
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
 
-Pour plus d’informations, voir [Get-CsNetworkInterface](get-csnetworkinterface.md) (contenu éventuellement en anglais).
+Pour plus d’informations, voir [Get-CsNetworkInterface](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterface) (contenu éventuellement en anglais).
 

@@ -41,69 +41,25 @@ Vous pouvez attribuer une stratégie de conversation persistante par utilisateur
     
     4.  En fonction de la propriété utilisateur sélectionnée, entrez les critères que vous voulez utiliser pour filtrer les résultats de la recherche en les tapant ou en cliquant sur la flèche de la liste déroulante.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour ajouter des clauses de recherche supplémentaires à votre requête, cliquez sur <strong>Ajouter un filtre</strong>.</td>
-        </tr>
-        </tbody>
-        </table>
-    
+        > [!TIP]  
+        > Pour ajouter des clauses de recherche supplémentaires à votre requête, cliquez sur <strong>Ajouter un filtre</strong>.    
     5.  Cliquez sur **Rechercher**.
 
 6.  Cliquez sur un utilisateur dans les résultats de la recherche, cliquez sur **Action**, puis sur **Attribuer des stratégies**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Si vous voulez que la même stratégie de conversation persistante s’applique à plusieurs utilisateurs, sélectionnez plusieurs utilisateurs dans les résultats de la recherche, puis cliquez sur <strong>Actions</strong> et sur <strong>Attribuer des stratégies</strong>.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!TIP]  
+    > Si vous voulez que la même stratégie de conversation persistante s’applique à plusieurs utilisateurs, sélectionnez plusieurs utilisateurs dans les résultats de la recherche, puis cliquez sur <strong>Actions</strong> et sur <strong>Attribuer des stratégies</strong>.
 
 7.  Dans **Attribuer des stratégies**, sous **Stratégie de conversation persistante**, effectuez l’une des opérations suivantes :
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Il existe de nombreuses stratégies que vous pouvez configurer à l’aide de la boîte de dialogue <strong>Attribuer des stratégies</strong> ; l’option <strong>&lt;Conserver tel quel&gt;</strong> est donc sélectionnée par défaut pour chaque stratégie de la boîte de dialogue. Ne modifiez pas ce paramètre pour continuer à utiliser la stratégie attribuée précédemment à l’utilisateur.</td>
-    </tr>
-    </tbody>
-    </table>
-    
+    > [!NOTE]  
+    > Il existe de nombreuses stratégies que vous pouvez configurer à l’aide de la boîte de dialogue <strong>Attribuer des stratégies</strong> ; l’option <strong>&lt;Conserver tel quel&gt;</strong> est donc sélectionnée par défaut pour chaque stratégie de la boîte de dialogue. Ne modifiez pas ce paramètre pour continuer à utiliser la stratégie attribuée précédemment à l’utilisateur.    
       - Sélectionnez **\<Automatique\>** pour permettre à Lync Server 2013 de choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du site.
     
       - Cliquez sur le nom d’une stratégie de conversation persistante par utilisateur définie précédemment sur la page **Stratégie de conversation persistante**.
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/JJ205025.tip(OCS.15).gif" title="tip" alt="tip" />Conseil :</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Pour vous aider à choisir la stratégie que vous voulez attribuer, après avoir cliqué sur le nom d’une stratégie, cliquez sur <strong>Voir</strong> pour afficher les droits et autorisations d’utilisateur définis dans la stratégie.</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!TIP]  
+        > Pour vous aider à choisir la stratégie que vous voulez attribuer, après avoir cliqué sur le nom d’une stratégie, cliquez sur <strong>Voir</strong> pour afficher les droits et autorisations d’utilisateur définis dans la stratégie.
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.
 
@@ -119,7 +75,7 @@ Les stratégies de conversation persistante par utilisateur peuvent également �
 
 ## Attribution d’une stratégie de conversation persistante par utilisateur à plusieurs utilisateurs
 
-  - Cette commande attribue la stratégie de conversation persistante par utilisateur RedmondUsersPersistentChatPolicy à tous les utilisateurs du service Informatique. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation relative à la cmdlet [Get-CsUser](get-csuser.md) (contenu éventuellement en anglais).
+  - Cette commande attribue la stratégie de conversation persistante par utilisateur RedmondUsersPersistentChatPolicy à tous les utilisateurs du service Informatique. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation relative à la cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) (contenu éventuellement en anglais).
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -129,7 +85,7 @@ Les stratégies de conversation persistante par utilisateur peuvent également �
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide pour l’applet de commande [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md) (contenu éventuellement en anglais).
+Pour plus d’informations, voir la rubrique d’aide pour l’applet de commande [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy) (contenu éventuellement en anglais).
 
 ## Voir aussi
 

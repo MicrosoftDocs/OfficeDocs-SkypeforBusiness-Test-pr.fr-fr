@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Importation d’un fichier de configuration d’itinéraire de communications vocales'
+title: "Lync Server 2013 : Imp. d’un fichier de conf. d’itinéraire de comm. vocales"
 TOCTitle: Importation d’un fichier de configuration d’itinéraire de communications vocales
 ms:assetid: 4bac05e5-ed8b-4f10-96b0-b8a65ff356ec
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398301(v=OCS.15)
@@ -33,19 +33,8 @@ Si vous avez modifié les paramètres sur une page du groupe sans les valider, c
 
 6.  Cliquez sur **Valider**, puis sur **Valider tout**.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Chaque fois que vous importez un fichier de configuration des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Chaque fois que vous importez un fichier de configuration des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
 
 ## Voir aussi
 

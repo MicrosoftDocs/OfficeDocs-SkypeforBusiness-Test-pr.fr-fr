@@ -1,6 +1,6 @@
 ﻿---
-title: Déploiement d’un port non standard et d’un alias SQL Server dans Lync Server 2013
-TOCTitle: Déploiement d’un port non standard et d’un alias SQL Server dans Lync Server 2013
+title: "Dépl. d’un port non standard et d’un alias SQL Server dans Lync Server 2013"
+TOCtitle: "Dépl. d’un port non standard et d’un alias SQL Server dans Lync Server 2013"
 ms:assetid: 2da92c1f-250e-407a-8651-fb2aec76aeb0
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn776290(v=OCS.15)
 ms:contentKeyID: 62633775
@@ -27,19 +27,8 @@ Lync Server 2013Générateur de topologie prend en charge un alias SQL Server c
 
 Pour parvenir à déterminer le port utilisé par Lync Server 2013 pour communiquer avec SQL Server, l’intrus devrait analyser tous les ports pour obtenir les informations du port. L’analyse d’un port par une personne malveillante augmente les chances de détection et de blocage de l’instruction par la sécurité. Outre l’amélioration de la sécurité résultant de l’utilisation d’un port non standard, vous pouvez également recourir à un alias SQL Server pour simplifier le déploiement. Cette considération est précieuse afin de réduire les changements de configuration dans les situations où il est nécessaire de modifier le nom d’un serveur SQL.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SQL Server prend en charge deux méthodes de tolérance de pannes (Clustering de basculement et Miroir). Ces trois méthodes de tolérance de pannes SQL Server sont prises en charge à l’aide d'un port non standard et d’un alias SQL Server avec Lync Server 2013.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> SQL Server prend en charge deux méthodes de tolérance de pannes (Clustering de basculement et Miroir). Ces trois méthodes de tolérance de pannes SQL Server sont prises en charge à l’aide d'un port non standard et d’un alias SQL Server avec Lync Server 2013.
 
 Lorsque vous configurez la connectivité de la base de données SQL Server à partir de Générateur de topologie ou avec l’applet de commande Install-CsDatabase, il n’est pas possible de définir explicitement un numéro de port non standard SQL Server et de l’associer à une instance SQL. Pour définir un port non standard, vous devez utiliser les utilitaires SQL Server et Windows Server.
 
@@ -99,19 +88,8 @@ Le port non standard et l’alias SQL Server doivent être configurés dans l’
     
     ![Réinitialiser le service SQL Server service pour l’instance.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Réinitialiser le service SQL Server service pour l’instance.")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Vérifiez que vos paramètres de pare-feu sont à jour pour prendre en compte le nouveau port SQL Server.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Vérifiez que vos paramètres de pare-feu sont à jour pour prendre en compte le nouveau port SQL Server.
 
 **Création et configuration d’un alias SQL Server**
 
@@ -129,19 +107,8 @@ Le port non standard et l’alias SQL Server doivent être configurés dans l’
     
     ![Création d’un alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Création d’un alias")
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ205186.Caution(OCS.15).gif" title="Caution" alt="Caution" />Mise en garde :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Veillez à saisir le port non standard utilisé lors de l’étape précédente, car il s’agit du port écouté par SQL Server. Si un alias configuré se connecte à l’instance ou au nom de domaine complet incorrect, désactivez puis réactivez le protocole réseau associé. Cette opération efface les informations de connexion dans la mémoire cache et permet au client de se connecter correctement.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!CAUTION]  
+    > Veillez à saisir le port non standard utilisé lors de l’étape précédente, car il s’agit du port écouté par SQL Server. Si un alias configuré se connecte à l’instance ou au nom de domaine complet incorrect, désactivez puis réactivez le protocole réseau associé. Cette opération efface les informations de connexion dans la mémoire cache et permet au client de se connecter correctement.
 
 **Création d’un enregistrement de ressource CNAME DNS**
 
@@ -171,19 +138,8 @@ Le port non standard et l’alias SQL Server doivent être configurés dans l’
 
 Vous pouvez procéder de différentes façons pour vérifier son bon fonctionnement. Vérifiez que la base de données SQL Server écoute le port spécifié à l’aide de l’alias. Les commandes **netstat** et **telnet** permettent d’effectuer une vérification rapide.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Le client Telnet est une fonctionnalité intégrée à Windows Server, mais qu’il faut installer. Vous pouvez installer une fonctionnalité Windows Server en ouvrant le Gestionnaire de serveur et en sélectionnant la fonctionnalité Ajouter des rôles dans le menu Gérer.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Le client Telnet est une fonctionnalité intégrée à Windows Server, mais qu’il faut installer. Vous pouvez installer une fonctionnalité Windows Server en ouvrant le Gestionnaire de serveur et en sélectionnant la fonctionnalité Ajouter des rôles dans le menu Gérer.
 
 **Utilisation des commandes netstat et telnet pour vérifier la connectivité de la base de données**
 

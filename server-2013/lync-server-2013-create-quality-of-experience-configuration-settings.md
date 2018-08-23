@@ -19,7 +19,7 @@ Les mesures de la qualité de l’expérience (QoE) effectuent le suivi de la qu
 
 Lorsque vous installez Microsoft Lync Server 2013, une collection globale et unique de paramètres de configuration QoE est créée pour vous. Les administrateurs ont également la possibilité de créer des paramètres personnalisés au niveau de l’étendue du site. Chaque fois que ces paramètres étendus aux sites sont utilisés, ils ont priorité sur les paramètres globaux. Par exemple, si vous créez des paramètres étendus au site pour le site Redmond, ceux-ci (et non les paramètres globaux) sont utilisés pour gérer la qualité de l’expérience à Redmond.
 
-Vous pouvez créer des paramètres de configuration QoE à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [New-CsQoEConfiguration](new-csqoeconfiguration.md). Si vous utilisez le Panneau de configuration Lync Server pour créer des paramètres, les options suivantes vous sont proposées :
+Vous pouvez créer des paramètres de configuration QoE à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration). Si vous utilisez le Panneau de configuration Lync Server pour créer des paramètres, les options suivantes vous sont proposées :
 
 
 <table>
@@ -60,19 +60,8 @@ Vous pouvez créer des paramètres de configuration QoE à l’aide du Panneau d
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’applet de commande New-CsQoEConfiguration comprend des options supplémentaires qui ne sont pas disponibles dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide <a href="new-csqoeconfiguration.md">New-CsQoEConfiguration</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> L’applet de commande New-CsQoEConfiguration comprend des options supplémentaires qui ne sont pas disponibles dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</a>.
 
 ## Pour créer des paramètres de configuration QoE à l’aide du Panneau de configuration Lync Server
 
@@ -118,5 +107,5 @@ Vous pouvez également créer des paramètres de configuration QoE à l’aide d
     
         New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [New-CsQoEConfiguration](new-csqoeconfiguration.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration).
 

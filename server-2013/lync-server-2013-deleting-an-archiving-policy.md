@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2013-02-23_
 
 Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site. La stratégie globale ne peut pas être supprimée. Si vous tentez de supprimer la stratégie globale, Lync Server 2013 réinitialise automatiquement les valeurs par défaut de la stratégie.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Si vous avez activé l’intégration d’Microsoft Exchange pour votre déploiement, les stratégies d’Exchange déterminent l’activation de l’archivage pour les utilisateurs qui sont hébergés sur Exchange 2013 et dont les boîtes aux lettres sont placées en archive permanente. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server</a> dans la documentation de déploiement.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Si vous avez activé l’intégration d’Microsoft Exchange pour votre déploiement, les stratégies d’Exchange déterminent l’activation de l’archivage pour les utilisateurs qui sont hébergés sur Exchange 2013 et dont les boîtes aux lettres sont placées en archive permanente. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server</a> dans la documentation de déploiement.
 
 ## Pour supprimer une stratégie d’utilisateur ou de site pour archivage
 
@@ -65,7 +54,7 @@ Vous pouvez également supprimer des stratégies d’archivage à l’aide de Wi
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsArchivingPolicy](remove-csarchivingpolicy.md).
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy).
 
 ## Voir aussi
 

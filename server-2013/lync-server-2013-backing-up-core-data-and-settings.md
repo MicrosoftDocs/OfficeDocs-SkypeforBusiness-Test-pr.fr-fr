@@ -17,19 +17,8 @@ _**Dernière rubrique modifiée :** 2014-04-23_
 
 Les procédures suivantes utilisent les applets de commande Lync Server Management Shell pour créer des fichiers de sauvegarde pour les paramètres et les données des services principaux. Pour plus d’informations sur les outils utilisés dans cette section, notamment leur emplacement, voir [Spécifications de sauvegarde et de restauration : outils et autorisations](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md). Pour plus d’informations sur la sauvegarde des données d’archivage et de surveillance, voir [Sauvegarde de bases de données d’archivage et de surveillance](lync-server-2013-backing-up-archiving-and-monitoring-databases.md).
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’étape figurant dans cette section est destinée à sauvegarder le magasin central de gestion et inclut les paramètres et la configuration d’archivage et de surveillance.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> L’étape figurant dans cette section est destinée à sauvegarder le magasin central de gestion et inclut les paramètres et la configuration d’archivage et de surveillance.
 
 Vous pouvez exécuter les applets de commande décrites dans cette section en local ou à distance.
 
@@ -49,19 +38,8 @@ Vous pouvez exécuter les applets de commande décrites dans cette section en lo
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Cette étape exporte votre topologie, vos stratégies et vos paramètres de configuration Lync Server vers un fichier. Aucune autre étape n’est requise pour sauvegarder les données de la topologie.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Cette étape exporte votre topologie, vos stratégies et vos paramètres de configuration Lync Server vers un fichier. Aucune autre étape n’est requise pour sauvegarder les données de la topologie.
 
 5.  Copiez le fichier de configuration du magasin central de gestion sauvegardé vers $Backup\\.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Configuration requise de la bande passante pour le trafic multimédia dans Lync Server 2013
-TOCTitle: Configuration requise de la bande passante pour le trafic multimédia dans Lync Server 2013
+title: "Conf. requise de la bande passante pour le trafic mult. dans Lync Server 2013"
+TOCtitle: "Conf. requise de la bande passante pour le trafic mult. dans Lync Server 2013"
 ms:assetid: 83e83b16-0f0e-4d87-901a-0faa4618cdc2
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688118(v=OCS.15)
 ms:contentKeyID: 49891422

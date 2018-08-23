@@ -1,6 +1,6 @@
 ﻿---
-title: Modification des paramètres de configuration d’une jonction SIP dans Lync Server 2013
-TOCTitle: Modification des paramètres de configuration d’une jonction SIP dans Lync Server 2013
+title: "Modif. des paramètres de conf. d’une jonction SIP dans Lync Server 2013"
+TOCtitle: "Modif. des paramètres de conf. d’une jonction SIP dans Lync Server 2013"
 ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688104(v=OCS.15)
 ms:contentKeyID: 49891408
@@ -60,13 +60,8 @@ Quand vous modifiez les paramètres de configuration de jonction SIP avec le Pan
 <tr class="even">
 <td><p>Niveau de prise en charge du chiffrement</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle PSTN, le système IP-PBX ou le contrôleur de session en périphérie du côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. La définition de la configuration multimédia s’effectue à l’aide des applets de commande <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> et <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a>.</p>
-<p>Les valeurs autorisées sont les suivantes :</p>
-<ul>
-<li><p>Requis : le chiffrement SRTP doit être utilisé.</p></li>
-<li><p>Facultatif : le chiffrement SRTP sera utilisé si la passerelle le prend en charge.</p></li>
-<li><p>Non pris en charge : le chiffrement SRTP n’est pas pris en charge et ne sera donc pas utilisé.</p></li>
-</ul>
+<td><p>Indique le niveau de prise en charge de la protection du trafic multimédia entre le serveur de médiation et la passerelle PSTN, le système IP-PBX ou le contrôleur de session en périphérie du côté fournisseur de services. Dans les cas de déviation du trafic multimédia, cette valeur doit être compatible avec le paramètre EncryptionLevel de la configuration multimédia. La définition de la configuration multimédia s’effectue à l’aide des applets de commande <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
+<p>Les valeurs autorisées sont les suivantes :</p><ul><li><p>Requis : le chiffrement SRTP doit être utilisé.</p></li><li><p>Facultatif : le chiffrement SRTP sera utilisé si la passerelle le prend en charge.</p></li><li><p>Non pris en charge : le chiffrement SRTP n’est pas pris en charge et ne sera donc pas utilisé.</p></li></ul>
 <p>SRTPMode est utilisé uniquement si la passerelle est configurée en vue d’un recours au protocole de transport TLS (Transport Layer Security). Si la passerelle est configurée avec le protocole de transport TCP, SRTPMode est défini en interne sur NotSupported.</p></td>
 </tr>
 <tr class="odd">
@@ -145,19 +140,8 @@ Quand vous modifiez les paramètres de configuration de jonction SIP avec le Pan
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les applets de commande CsTrunkConfiguration de Lync Server prennent en charge d’autres propriétés qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande <a href="set-cstrunkconfiguration.md">Set-CsTrunkConfiguration</a>.</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Les applets de commande CsTrunkConfiguration de Lync Server prennent en charge d’autres propriétés qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a>.
 
 ## Modification des paramètres de configuration de jonction SIP avec le Panneau de configuration Lync Server
 

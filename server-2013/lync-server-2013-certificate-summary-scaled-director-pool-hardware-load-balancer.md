@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : Résumé des certificats - Pool directeur mis à l’échelle, équilibreur de charge matérielle'
+title: "Lync Server 2013 : Résumé des cert. - Pool dir. màé, équil. de ch. matérielle"
 TOCTitle: Résumé des certificats - Pool directeur mis à l’échelle, équilibreur de charge matérielle
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204846(v=OCS.15)
@@ -53,21 +53,11 @@ Les exigences relatives aux certificats d’un directeur avec un appareil d’é
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Aucune entrée</p></td>
-<td><div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Notez que la longueur de clé minimale s’élève à 1 024 bits ; toutefois, vous pouvez recevoir un avertissement indiquant que la longueur de clé minimale recommandée s’élève à 2 048 bits.</td>
-</tr>
-</tbody>
-</table>
+<td>
 
-</div>
+> [!IMPORTANT]  
+> Notez que la longueur de clé minimale s’élève à 1 024 bits ; toutefois, vous pouvez recevoir un avertissement indiquant que la longueur de clé minimale recommandée s’élève à 2 048 bits.
+
 <p>Le certificat OAuthTokenIssuer est un certificat à usage unique qui permet d’authentifier des serveurs dans un environnement à grande échelle ; il peut être demandé auprès d’une autorité de certification interne ou publique. Ce certificat est obligatoire.</p></td>
 </tr>
 </tbody>

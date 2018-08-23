@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013 : forum aux questions : approvisionnement de Lync Server pour la connectivité Skype'
+title: "Lync Server 2013 : FAQ : approv. de Lync Server pour la conn. Skype"
 TOCTitle: 'Forum aux questions : approvisionnement de Lync Server pour la connectivité Skype'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn440172(v=OCS.15)
@@ -79,19 +79,8 @@ _**Dernière rubrique modifiée :** 2016-12-27_
 
   - Domaine(s) SIP (Session Initiation Protocol). Il s'agit du suffixe de domaine de l'URI SIP utilisé actuellement par les utilisateurs pour la messagerie instantanée. Si votre organisation a plusieurs domaines SIP, spécifiez le suffixe de chaque domaine utilisé pour la messagerie instantanée. Par exemple, pour utilisateur1@contoso.com, spécifiez contoso.com pour le domaine SIP. Pour utilisateur1@exemple.fabrikam.com, spécifiez exemple.fabrikam.com comme domaine SIP.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Spécifiez uniquement le suffixe du domaine SIP. Ne spécifiez aucun nom de domaine complet, y compris celui du service Edge d'accès, pour le domaine SIP.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Spécifiez uniquement le suffixe du domaine SIP. Ne spécifiez aucun nom de domaine complet, y compris celui du service Edge d'accès, pour le domaine SIP.
 
   - Informations de contact. Indiquez une adresse de messagerie pour l'administrateur de chaque domaine SIP que vous spécifiez.
 

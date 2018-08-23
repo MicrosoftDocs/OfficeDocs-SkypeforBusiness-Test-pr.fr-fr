@@ -21,19 +21,8 @@ Pour vous permettre de déléguer des tâches d’administration tout en mainten
 
 Avec le contrôle d’accès basé sur un rôle (RBAC), l’accès et l’autorisation sont basés précisément sur le rôle Lync Server de l’utilisateur. Cela permet la mise en œuvre de la pratique de sécurité du « privilège minimum », qui accorde aux administrateurs et aux utilisateurs uniquement les droits nécessaires à la réalisation de leur travail.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les restrictions RBAC s’appliquent uniquement aux administrateurs qui travaillent à distance, en utilisant soit le Panneau de configuration Lync Server, soit Lync Server Management Shell. Un utilisateur qui travaille sur un serveur exécutant Lync Server n’est pas limité par RBAC. Par conséquent, la sécurité physique de Lync Server est essentielle à la préservation des restrictions RBAC.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]  
+> Les restrictions RBAC s’appliquent uniquement aux administrateurs qui travaillent à distance, en utilisant soit le Panneau de configuration Lync Server, soit Lync Server Management Shell. Un utilisateur qui travaille sur un serveur exécutant Lync Server n’est pas limité par RBAC. Par conséquent, la sécurité physique de Lync Server est essentielle à la préservation des restrictions RBAC.
 
 ## Rôles et étendue
 

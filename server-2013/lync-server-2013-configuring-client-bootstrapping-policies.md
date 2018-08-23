@@ -36,12 +36,7 @@ Pour Lync 2013, il existe plusieurs stratégies de démarrage clientes que vous 
 <tr class="odd">
 <td><p>Spécifier le serveur<br />
 (ConfigurationMode)</p></td>
-<td><p>Spécifie la façon dont Lync 2013 identifie le transport et le serveur à utiliser lors de la connexion. Dans ce paramètre, spécifiez ce qui suit :</p>
-<ul>
-<li><p>ServerAddressExternal : spécifie le nom du serveur ou l’adresse IP utilisé par les clients et les contacts fédérés lors de la connexion depuis l’extérieur du pare-feu externe.</p></li>
-<li><p>ServerAddressInternal : spécifie le nom ou l’adresse IP du serveur utilisé quand les clients se connectent depuis l’intérieur du pare-feu de l’organisation.</p></li>
-<li><p>Transport : spécifie le protocole TCP (Transmission Control Protocol) ou TLS (Transport Layer Security).</p></li>
-</ul></td>
+<td><p>Spécifie la façon dont Lync 2013 identifie le transport et le serveur à utiliser lors de la connexion. Dans ce paramètre, spécifiez ce qui suit :</p><ul><li><p>ServerAddressExternal : spécifie le nom du serveur ou l’adresse IP utilisé par les clients et les contacts fédérés lors de la connexion depuis l’extérieur du pare-feu externe.</p></li><li><p>ServerAddressInternal : spécifie le nom ou l’adresse IP du serveur utilisé quand les clients se connectent depuis l’intérieur du pare-feu de l’organisation.</p></li><li><p>Transport : spécifie le protocole TCP (Transmission Control Protocol) ou TLS (Transport Layer Security).</p></li></ul></td>
 </tr>
 <tr class="even">
 <td><p>Versions de serveur supplémentaires prises en charge<br />
@@ -161,19 +156,8 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg398920.note(OCS.15).gif" title="note" alt="note" />Remarque :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour cette procédure, nous supposons que vous voulez gérer plusieurs ordinateurs de votre domaine. Dans ce cas, stockez les modèles dans un magasin central au sein du dossier Sysvol sur le contrôleur de domaine principal. Ceci fournit un emplacement de stockage central répliqué pour les modèles d’administration de domaine.</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Pour cette procédure, nous supposons que vous voulez gérer plusieurs ordinateurs de votre domaine. Dans ce cas, stockez les modèles dans un magasin central au sein du dossier Sysvol sur le contrôleur de domaine principal. Ceci fournit un emplacement de stockage central répliqué pour les modèles d’administration de domaine.
 
 2.  Créez un sous-dossier pour chaque langue à utiliser. Ces sous-dossiers contiennent les fichiers de ressources ADML spécifiques à une langue. Par exemple, créez un sous-dossier pour l’anglais américain (EN-US) à l’emplacement suivant :
     

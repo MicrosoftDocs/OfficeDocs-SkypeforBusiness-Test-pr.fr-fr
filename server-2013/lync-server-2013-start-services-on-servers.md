@@ -27,16 +27,5 @@ Après avoir installé le magasin de configurations local sur vos serveurs, inst
 
 3.  Dans la page **Exécution de commandes** , une fois que tous les services ont démarré correctement, cliquez sur **Terminer** .
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg425917.important(OCS.15).gif" title="important" alt="important" />Important :</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Pour vérifier que les services ont bien démarré, nous vous recommandons d’utiliser la commande de démarrage des services sur le serveur. Cependant, il est possible qu’elle n’indique pas l’état actuel du service. Nous vous recommandons de suivre l’étape <strong>État des services (facultatif)</strong> juste après <strong>Démarrage de services</strong> pour ouvrir la console MMC (Microsoft Management Console) et confirmer que les services ont correctement démarré. Si un service Lync Server n’a pas démarré, vous pouvez cliquer avec le bouton droit sur ce service dans la console MMC (Microsoft Management Console), puis cliquer sur <strong>Démarrer</strong> .</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!IMPORTANT]  
+    > Pour vérifier que les services ont bien démarré, nous vous recommandons d’utiliser la commande de démarrage des services sur le serveur. Cependant, il est possible qu’elle n’indique pas l’état actuel du service. Nous vous recommandons de suivre l’étape <strong>État des services (facultatif)</strong> juste après <strong>Démarrage de services</strong> pour ouvrir la console MMC (Microsoft Management Console) et confirmer que les services ont correctement démarré. Si un service Lync Server n’a pas démarré, vous pouvez cliquer avec le bouton droit sur ce service dans la console MMC (Microsoft Management Console), puis cliquer sur <strong>Démarrer</strong> .
