@@ -49,6 +49,8 @@ _**Dernière rubrique modifiée :** 2014-02-07_
     
     > [!NOTE]  
     > Chaque fois que vous créez un cas de test de routage des communications vocales, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.    
+    
+    
     Si le plan de numérotation utilisé dans le test normalise les numéros de téléphone commençant par un signe plus (par exemple, +12065551219), ce plan peut entraîner l’échec du test de routage des communications vocales. (Le plan de numérotation et le routage des communications vacales fonctionneront ; en fait, Test-CsDialPlan réussira. Cependant, le test de routage des communications vocales risque d’échouer.) Il convient de ne pas perdre de vue cela lors des tests du routage des communications vocales.
 
 ## Voir aussi
