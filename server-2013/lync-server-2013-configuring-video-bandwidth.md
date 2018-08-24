@@ -59,6 +59,8 @@ Vérifiez le paramètre suivant :
     
     > [!NOTE]  
     > Les clients Lync Server 2013 ignorent ce paramètre et utilisent à la place le paramètre TotalReceiveVideoBitRateKb dans la stratégie de conférence.    
+    
+    
     La valeur par défaut est HD720P. Les valeurs valides sont HD720p15M, VGA600K et CIF250K.
     
     Exemple : si vous spécifiez 1 500 Kbits/s, tous les clients hérités du pool peuvent recevoir jusqu’à 1 500 Kbits/s de vidéo lors des conférences entre deux interlocuteurs et plus.
