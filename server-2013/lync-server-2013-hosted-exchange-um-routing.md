@@ -46,6 +46,8 @@ La boîte aux lettres d’Alice et le service de messagerie unifiée Exchange so
         
         > [!NOTE]  
         > Le nom de domaine complet pour Exchange Online est exap.um.outlook.com.        
+        
+        
         Pour plus d’informations, reportez-vous à la section [Stratégies de messagerie vocale hébergées dans Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
 > [!NOTE]  
