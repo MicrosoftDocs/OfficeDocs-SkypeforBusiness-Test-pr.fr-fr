@@ -29,6 +29,8 @@ Les rôles suivants sont les quatre rôles d’utilisateur du serveur de convers
     
     > [!NOTE]  
     > Le rôle de créateur se limite à disposer du droit de création des salles de conversation. C’est en réalité la promotion automatique au poste de responsable qui permet au créateur de redéfinir les appartenances, les responsables, etc. sur les services de conversation créés.    
+    
+    
     Ce rôle existe pour vous donner la possibilité de déterminer qui peut créer des salles de conversation dans votre organisation, en particulier si vous voulez centraliser la gestion de la création de salles de conversation pour appliquer des stratégies et des conventions, et par la suite déléguer la gestion des salles de conversation à d’autres utilisateurs de votre organisation.
 
   - **Responsable** : utilisateurs gérant les propriétés d’une salle de conversation. Les responsables de salle de conversation peuvent modifier la liste des membres (ajouter et supprimer des membres) et modifier la liste des responsables de la salle de conversation (ajouter et supprimer des responsables). Ils peuvent s’ajouter eux-mêmes à la liste des membres ou des présentateurs (pour les auditoriums) afin de pouvoir participer à la salle de conversation. Les responsables de salle de conversation peuvent aussi désactiver des salles de conversation (les administrateurs peuvent rechercher les salles de conversation désactivées et les supprimer définitivement). Les responsables peuvent modifier toutes les propriétés d’une salle de conversation, à l’exception de sa catégorie. Seul l’administrateur de conversation permanente peut modifier la catégorie après la création d’une salle de conversation.
