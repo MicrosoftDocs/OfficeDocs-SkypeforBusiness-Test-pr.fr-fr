@@ -100,6 +100,8 @@ Suivez les procédures ci-dessous pour créer des règles de publication web.
     
     > [!NOTE]  
     > Si le nœud <strong>Batteries de serveurs</strong> ne s’affiche pas, vous devez installer Application Request Routing. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configuration des serveurs proxy inverses pour Lync Server 2013</a>.    
+    
+    
     Dans la boîte de dialogue **Créer une batterie de serveurs** , dans **Nom de la batterie de serveurs** , tapez un nom (par exemple, nom convivial pour faciliter l’identification) pour la première URL. Cliquez sur **Suivant** .
 
 6.  Dans la boîte de dialogue **Ajouter un serveur** , dans **Adresse du serveur** , tapez le nom de domaine complet (FQDN) des services web externes sur votre serveur frontal. Les noms utilisés ici à titre d’exemple sont également utilisés dans la section Planification pour le proxy inverse ( [Résumé des certificats - Proxy inverse dans Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md)). Le nom de domaine complet (FQDN) `webext.contoso.com` a été entré pour la planification du proxy inverse. Vérifiez que la case à cocher en regard de **En ligne** est activée. Cliquez sur **Ajouter** pour ajouter le serveur au pool de serveurs web pour cette configuration.
