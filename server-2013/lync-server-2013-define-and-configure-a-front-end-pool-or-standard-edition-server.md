@@ -100,6 +100,8 @@ Après avoir défini votre topologie, procédez comme suit pour définir un pool
     
     > [!NOTE]  
     > Si vous souhaitez activer le contrôle d’admission des appels dans votre déploiement, il vous faut activer cette fonctionnalité dans un pool par site central. Le contrôle d’admission des appels est recommandé lorsque vous déployez les fonctionnalités vocales ou la conférence A/V.    
+    
+    
     Le tableau ci-dessous indique les fonctionnalités disponibles (en haut) et les fonctions proposées aux utilisateurs (à gauche). Sélectionnez les différents choix dans le tableau pour activer ces fonctionnalités dans votre organisation.
     
     

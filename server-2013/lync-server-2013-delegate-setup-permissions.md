@@ -36,6 +36,8 @@ Souvenez-vous que cette applet de commande n’accorde des autorisations qu’au
     
     > [!NOTE]  
     > S’il ne s’agit pas d’une unité d’organisation de niveau supérieur, vous devez fournir le nom de domaine complet.    
+    
+    
     Dans l’exemple suivant, l’unité d’organisation est « Lync Servers », située dans le domaine contoso.com.
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com

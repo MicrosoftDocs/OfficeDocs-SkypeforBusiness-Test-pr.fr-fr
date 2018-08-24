@@ -44,6 +44,8 @@ Pour exécuter les applets de commande, ouvrez Lync Server Management Shell avec
     
     > [!NOTE]  
     > À l’heure actuelle, l’applet de commande <strong>Import-CsRgsConfiguration</strong> exige que les noms de files d’attente et de flux de travail sur le pool A soient distincts de ceux du pool B. Si ce n’est pas le cas, une erreur se produit lors de l’exécution de l’applet de commande <strong>Import-CsRgsConfiguration</strong> et les files d’attente et flux de travail devront être renommés dans le pool B avant de poursuivre l’exécution de l’applet de commande <strong>Import-CsRgsConfiguration</strong>.    
+    
+    
     Deux options sont disponibles pour l’importation de la configuration Response Group du pool A vers le pool B. L’option choisie variera selon que vous souhaitez remplacer les paramètres de niveau application du pool B par ceux du pool A.
     
       - Si vous souhaitez remplacer les paramètres du pool B, exécutez l’applet de commande **Import-CsRgsConfiguration** avec l’option **ReplaceExistingSettings**  :

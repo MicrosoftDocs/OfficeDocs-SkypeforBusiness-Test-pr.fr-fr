@@ -114,6 +114,8 @@ Appliquez la procédure suivante pour préparer et effectuer une récupération 
     
     > [!NOTE]  
     > Si vous reconstruisez un pool pendant la récupération, que ce soit avec le même nom de domaine complet (FQDN) ou avec un nom FQDN différent, vous devez utiliser le paramètre –OverwriteOwner. Généralement, vous pouvez toujours utiliser le paramètre –OverwriteOwner lorsque vous importez à nouveau des groupes Response Group dans le pool principal.    
+    
+    
     Si vous avez déployé un nouveau pool (avec le même nom FQDN ou avec un nom différent) pour remplacer le pool principal, et que vous voulez utiliser les paramètres de niveau application du pool de sauvegarde du nouveau pool, incluez le paramètre –ReplaceExistingSettings. Dans la ligne de commande, tapez :
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
