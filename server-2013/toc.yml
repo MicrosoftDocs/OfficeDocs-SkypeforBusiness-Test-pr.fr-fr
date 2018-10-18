@@ -4833,9 +4833,9 @@
       - name: Modifications effectuées par la préparation de domaine dans Lync Server 2013
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013
-        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
+        href: https://technet.microsoft.com/fr-fr/library/Gg398569(v=OCS.15)
       - name: Modifications apportées par Grant-CsOUPermission dans Lync Server 2013
-        href: lync-server-2013-changes-made-by-grant-csoupermission.md
+        href: https://technet.microsoft.com/fr-fr/library/Gg425739(v=OCS.15)
   - name: Lync Server Management Shell
     href: lync-server-2013-lync-server-management-shell.md
     items:
